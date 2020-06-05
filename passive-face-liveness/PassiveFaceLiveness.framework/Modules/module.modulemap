@@ -1,0 +1,11 @@
+framework module PassiveFaceLiveness {
+  umbrella header "PassiveFaceLiveness.h"
+
+  export *
+  module * { export * }
+}
+
+module PassiveFaceLiveness.Swift {
+    header "PassiveFaceLiveness-Swift.h"
+    requires objc
+}
