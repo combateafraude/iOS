@@ -17,7 +17,7 @@ Passive FaceLiveness description
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'passive-face-liveness/LICENSE' }
   s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
-  s.source           = { :git => 'https://github.com/combateafraude/iOS', :tag => s.name + "-" + s.version.to_s }
+  s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
   s.ios.deployment_target = '12.0'
