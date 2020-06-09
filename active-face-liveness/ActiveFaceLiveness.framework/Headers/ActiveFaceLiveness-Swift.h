@@ -252,11 +252,30 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness24ActiveFaceLivenessResult")
 @end
 
 
+SWIFT_CLASS("_TtC18ActiveFaceLiveness14FaceActionBank")
+@interface FaceActionBank : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC18ActiveFaceLiveness24FaceLivenessOrchestrator")
+@interface FaceLivenessOrchestrator : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC18ActiveFaceLiveness10SDKFailure")
 @interface SDKFailure : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@end
+
+
+SWIFT_CLASS("_TtC18ActiveFaceLiveness26InvalidConfigurationReason")
+@interface InvalidConfigurationReason : SDKFailure
 @end
 
 
