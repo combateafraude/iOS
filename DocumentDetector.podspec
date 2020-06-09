@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
 Document Detector description
                        DESC
 
-  s.homepage         = 'https://github.com/combateafraude/Mobile'
+  s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector/LICENSE' }
   s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
-  s.source           = { :git => 'https://github.com/combateafraude/Mobile.git', :tag => s.name + "-" + s.version.to_s }
+  s.source           = { :git => 'https://github.com/combateafraude/iOS', :tag => s.name + "-" + s.version.to_s }
  
   
   s.swift_version = '5'
