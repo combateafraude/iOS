@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetector'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Document Detector'
   s.description      = <<-DESC
 Document Detector description
