@@ -294,6 +294,12 @@ SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
 @end
 
 
+SWIFT_CLASS("_TtC16DocumentDetector22DocumentDetectorLayout")
+@interface DocumentDetectorLayout : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector22DocumentDetectorResult")
 @interface DocumentDetectorResult : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
