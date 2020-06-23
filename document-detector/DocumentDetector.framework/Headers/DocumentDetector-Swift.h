@@ -216,6 +216,13 @@ SWIFT_CLASS("_TtC16DocumentDetector7Capture")
 @end
 
 
+SWIFT_CLASS("_TtC16DocumentDetector8Document")
+@interface Document : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector23DocumentDetectorBuilder")
 @interface DocumentDetectorBuilder : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -354,6 +361,13 @@ SWIFT_CLASS("_TtC16DocumentDetector26InvalidConfigurationReason")
 
 SWIFT_CLASS("_TtC16DocumentDetector18InvalidTokenReason")
 @interface InvalidTokenReason : SDKFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector5Label")
+@interface Label : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
