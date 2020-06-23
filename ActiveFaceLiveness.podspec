@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ActiveFaceLiveness'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Active Faceliveness'
   s.description      = <<-DESC
 Active FaceLiveness description
