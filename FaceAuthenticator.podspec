@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuthenticator'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Face Authenticator'
   s.description      = <<-DESC
 Face Authenticator description
