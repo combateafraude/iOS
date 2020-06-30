@@ -246,6 +246,12 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness28ActiveFaceLivenessController")
 @end
 
 
+SWIFT_CLASS("_TtC18ActiveFaceLiveness24ActiveFaceLivenessLayout")
+@interface ActiveFaceLivenessLayout : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC18ActiveFaceLiveness24ActiveFaceLivenessResult")
 @interface ActiveFaceLivenessResult : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
