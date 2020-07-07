@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuthenticator'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'Face Authenticator'
   s.description      = <<-DESC
 Face Authenticator description
@@ -20,7 +20,10 @@ Face Authenticator description
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
+  s.swift_version = '5'
   s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'face-authenticator/FaceAuthenticator.framework'
  
+  s.dependency 'SwiftJWT', '~> 3.5.3'
+
 end
