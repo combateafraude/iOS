@@ -7,6 +7,6 @@
 
 <hr>
 
-- [Releases](https://github.com/combateafraude/iOS/tree/releases)
-- [Documentation](https://docs.combateafraude.com/docs/mobile/ios/getting-started/)
-- [Example](https://www.youtube.com/watch?v=HdTzIvI0FRc)
+## [Releases](https://github.com/combateafraude/iOS/tree/releases)
+## [Documentation](https://docs.combateafraude.com/docs/mobile/ios/getting-started/)
+## [Example](https://www.youtube.com/watch?v=HdTzIvI0FRc)
