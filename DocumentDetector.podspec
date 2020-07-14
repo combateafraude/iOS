@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetector'
-  s.version          = '1.3.0'
+  s.version          = '1.3.1'
   s.summary          = 'Document Detector'
   s.description      = <<-DESC
 Document Detector description
@@ -21,7 +21,7 @@ Document Detector description
  
   
   s.swift_version = '5'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'document-detector/DocumentDetector.framework'
  
   
