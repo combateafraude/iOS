@@ -1,0 +1,11 @@
+framework module DeviceAuthenticator {
+  umbrella header "DeviceAuthenticator.h"
+
+  export *
+  module * { export * }
+}
+
+module DeviceAuthenticator.Swift {
+    header "DeviceAuthenticator-Swift.h"
+    requires objc
+}
