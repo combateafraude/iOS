@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		TE0rncwYsO3CvCSXhBfZPYOLoOw=
+		yiHV0nFMI3XJGu5pF8oOqccnIug=
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		u4847UeEJiNOIZ7GwDxjPCWQXfI=
+		SDf3ZDQxt3Z0YLHT/YTZyZjjxkw=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		u4847UeEJiNOIZ7GwDxjPCWQXfI=
+		SDf3ZDQxt3Z0YLHT/YTZyZjjxkw=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Kt9OUCcJZTDqDfSdlqWzYXXscno=
+		2XI7Ofw6LIGma99gYnU5uNY4hAQ=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Kt9OUCcJZTDqDfSdlqWzYXXscno=
+		2XI7Ofw6LIGma99gYnU5uNY4hAQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>PopupDocumentDetector.storyboardc/PopupDocumentDetectorController.nib</key>
 		<data>
-		qz+8I1fvvP+jj5P7kjxqicWSgk0=
+		MmziLIhbRpmQE7Y2VW2k8MVhlP4=
 		</data>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<data>
-		AN8SLmbUNIshvzaQ9TPRqlgNtSc=
+		xrk+0Su4RlrHxVggtmelCioWfZM=
 		</data>
 		<key>PopupDocumentDetectorLoading.storyboardc/3sZ-F0-bLT-view-xLn-tl-P59.nib</key>
 		<data>
-		0En28XMn9Z8AXZBsc4UGXQxJ8jw=
+		gs1SOQqUpZCYj5T8/gkB/Rl4X8Y=
 		</data>
 		<key>PopupDocumentDetectorLoading.storyboardc/Info.plist</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>PopupDocumentDetectorLoading.storyboardc/PopupDocumentDetectorLoadingController.nib</key>
 		<data>
-		mfqZvGGjm9HbEJ5Ng/tDeKSRUrU=
+		fVrkxxtcTizxE64oK2b4IBumERg=
 		</data>
 		<key>btn_cancel.png</key>
 		<data>
@@ -279,7 +279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dppHnsjS2fEoskx2RMMMaiB8MWv9qrbpGNQpuSmUmvw=
+			CY3yvZPzwn4ZqVEw3aPFHmDJmevYlQnoIewby//V+Ws=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector-Swift.h</key>
@@ -300,14 +300,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bEQd1PQNszVMAJFbZQHCOGRXll34PyO5gGZlwv2EpoA=
+			O/IaEjmTTBQKasZO/D9Yp0oN+HmjZ92Loy1F3xasJ2M=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bEQd1PQNszVMAJFbZQHCOGRXll34PyO5gGZlwv2EpoA=
+			O/IaEjmTTBQKasZO/D9Yp0oN+HmjZ92Loy1F3xasJ2M=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -321,7 +321,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/03OThFDUGPnvEk9kPOcTPUtcohO9rTvhlEkmg/mrMc=
+			rMGv5znsvI00uJGSW7ZNZpKACsaXoPBvWDN0fqt4D4s=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
@@ -335,7 +335,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/03OThFDUGPnvEk9kPOcTPUtcohO9rTvhlEkmg/mrMc=
+			rMGv5znsvI00uJGSW7ZNZpKACsaXoPBvWDN0fqt4D4s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -356,21 +356,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hmWCCbi98eSXGApvYZotW5Ae/YRuTjrjM9OkEZH2M4k=
+			cGeYEDfuk0BNAO6EKFcgNJkukh6yFI0TX2BqgB6BLKg=
 			</data>
 		</dict>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aFrxXkEeVJfXyzYEYOLSxC0hxgrU7C8yBh6YxNrT/Xk=
+			x2R/plIoF5q0nI2js4/3bFP76pOKCRJ+nv6HWuCpf4M=
 			</data>
 		</dict>
 		<key>PopupDocumentDetectorLoading.storyboardc/3sZ-F0-bLT-view-xLn-tl-P59.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9PdILeQ38JtnLGZjrdmpHVdee8gus0MH1jTCkfnFBaU=
+			JvU8AqeLjRRUSnWuHP2YCRPlI0H3zZnP7O50gE5o/2I=
 			</data>
 		</dict>
 		<key>PopupDocumentDetectorLoading.storyboardc/Info.plist</key>
@@ -384,7 +384,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9J1eUJcbKUv7qvIBoL0WQzyN9M8zgD0mvZpSM7TtHso=
+			16eqyL0cHfYy+2qmSGMmJbZ/SS14ihwJjbbJhTXUZSQ=
 			</data>
 		</dict>
 		<key>btn_cancel.png</key>
