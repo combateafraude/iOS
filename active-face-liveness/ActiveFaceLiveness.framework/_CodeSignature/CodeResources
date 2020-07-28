@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		D5cWftZJzimCpCkig8iMFdwyGuA=
+		NqfjTtFPKVOWIUpwgcV5skjHHM8=
 		</data>
 		<key>Headers/ActiveFaceLiveness-Swift.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		++hGUWsxZFT+2NyZ/Jmu6i0QbG8=
+		rx11z+Pq8fRDcDULCEzEKRPRR+0=
 		</data>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		gNMqtK559xiUOmP5Az8V/w+GZ6A=
+		V3LNaVGJDwUtiZ5+qQCQ9CbMyLc=
 		</data>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		gNMqtK559xiUOmP5Az8V/w+GZ6A=
+		V3LNaVGJDwUtiZ5+qQCQ9CbMyLc=
 		</data>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		mN46tTH7owZQPCWyl/1p0zHVgKI=
+		fgGz1kNDEuaRIs5J0j8HrPUrFFg=
 		</data>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		I8TwpG19ySTADyyHVQWYcvgPWuE=
+		hWk559hKV6sn6uodyyDYP8A4vkE=
 		</data>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		mN46tTH7owZQPCWyl/1p0zHVgKI=
+		fgGz1kNDEuaRIs5J0j8HrPUrFFg=
 		</data>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		I8TwpG19ySTADyyHVQWYcvgPWuE=
+		hWk559hKV6sn6uodyyDYP8A4vkE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>abrir-boca.mp3</key>
 		<data>
-		T47ZtRr10T/+Pxo+COON+aH7Mnk=
+		bDwsiiGYPd0LT6ZQBOCcG6O7yfc=
 		</data>
 		<key>btn_cancel.png</key>
 		<data>
@@ -100,13 +100,53 @@
 		<data>
 		+Bg04KLQ1wPfdk+4W3ZALAVoPAo=
 		</data>
+		<key>fh_blink.png</key>
+		<data>
+		VtFRJE43Pd6k1W6sW0LErMoURJM=
+		</data>
+		<key>fh_blink@2x.png</key>
+		<data>
+		miIUPfYZi+ovS2IWqSZpnGro3O8=
+		</data>
+		<key>fh_iddle.png</key>
+		<data>
+		1T+J6DaPyX7bMTsb0LpUlMRCxiU=
+		</data>
+		<key>fh_iddle@2x.png</key>
+		<data>
+		R6clr/B5d03GAdiYn0oqGpIYF1c=
+		</data>
+		<key>fh_left.png</key>
+		<data>
+		cmDWW1SegoA/NsKAd7/mbEcTnIo=
+		</data>
+		<key>fh_left@2x.png</key>
+		<data>
+		Sn/al1tHB8mW7Cd0mAc6ANZ4rqI=
+		</data>
+		<key>fh_open_mouth.png</key>
+		<data>
+		T+Y6mpArCHqkFvPVKSu3gIE6JLc=
+		</data>
+		<key>fh_open_mouth@2x.png</key>
+		<data>
+		pP6n+oKftadjqds4IEIslyMatDA=
+		</data>
+		<key>fh_right.png</key>
+		<data>
+		QFwAtnjudicD5Kam/0+rrkFCc4U=
+		</data>
+		<key>fh_right@2x.png</key>
+		<data>
+		QLbMvvmRNcyvR9SUU4CXDrGjHP4=
+		</data>
 		<key>girar-cabeca-direita.mp3</key>
 		<data>
-		gFHLP4U7uPamphDpDj8kzMjWtDI=
+		Ipfr75uUjt/Sx2a1lSymxYJKoks=
 		</data>
 		<key>girar-cabeca-esquerda.mp3</key>
 		<data>
-		6xjzAcEYcFkvUNcE2P/2wxaL3Gk=
+		/UteIWgrpsF05x0TadC8v/fx8xU=
 		</data>
 		<key>ic_volume_off.png</key>
 		<data>
@@ -150,7 +190,7 @@
 		</data>
 		<key>piscar-olhos.mp3</key>
 		<data>
-		YHLv/zR9D/MH2H5VY6NjB13EfLw=
+		TzWBOVFJWCXB6yLAGlSVWZE1His=
 		</data>
 		<key>posicione-rosto.mp3</key>
 		<data>
@@ -199,7 +239,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qEkAuHQBZVsnueUsGStiHFrqVo1QJVZMOQ+CwUsHxQE=
+			BWnHLlRPg0Q4yB3WUXKkoOIfsODyKoBHcDYTFsq5x7I=
 			</data>
 		</dict>
 		<key>Headers/ActiveFaceLiveness-Swift.h</key>
@@ -220,42 +260,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rmVaVZ35wYnzJMpFpwG/BwLeTdZ0YFpLdIpjFQMJAec=
+			K0ekJXRyBiNtE1CMkvXMGN9P+o/FevFZcAUNl055Y9Q=
 			</data>
 		</dict>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rmVaVZ35wYnzJMpFpwG/BwLeTdZ0YFpLdIpjFQMJAec=
+			K0ekJXRyBiNtE1CMkvXMGN9P+o/FevFZcAUNl055Y9Q=
 			</data>
 		</dict>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZTw/wwS6oPujim+z3UXKiB4Bhils2Zp/YLQUc03mkaM=
+			jww8MINSFnfq/zq+j9lIPZNkKXi/tU/SlXxntH547Tc=
 			</data>
 		</dict>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Ly0a7CSC3x+e3SDjJBlucpW65GMFjZ8bz57ASdBvzw=
+			u5c348EuY2bwykUQWVD7yTRmh9uGwxAmlQ08us5q0T8=
 			</data>
 		</dict>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZTw/wwS6oPujim+z3UXKiB4Bhils2Zp/YLQUc03mkaM=
+			jww8MINSFnfq/zq+j9lIPZNkKXi/tU/SlXxntH547Tc=
 			</data>
 		</dict>
 		<key>Modules/ActiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Ly0a7CSC3x+e3SDjJBlucpW65GMFjZ8bz57ASdBvzw=
+			u5c348EuY2bwykUQWVD7yTRmh9uGwxAmlQ08us5q0T8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -269,7 +309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9oJnSIvz1Sq8/s0esGbvEOYmZ6hkPzt1kHvoREeZkRE=
+			t5VbfzCwJzDC6EQClRsNFYR7p3yo4f95DJfsb1j2Kpc=
 			</data>
 		</dict>
 		<key>btn_cancel.png</key>
@@ -356,18 +396,88 @@
 			boef66BBTEZ2p1Uqun6hknZiF0IknGSrw2U330uApOg=
 			</data>
 		</dict>
+		<key>fh_blink.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hNqdOlROXpYg+wkyHjC/3ftliZ1PSevq4vhZFjnJNMA=
+			</data>
+		</dict>
+		<key>fh_blink@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5sALNa8ttzaccqMcSxicHe//au9u3NR/p1BU5aIvePs=
+			</data>
+		</dict>
+		<key>fh_iddle.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			31mZosWDkyRHGKya3lhRiGhrlU6jPrztiGUoDYoqm7A=
+			</data>
+		</dict>
+		<key>fh_iddle@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+JIcqkLbezRbm5uHRCgEQbcDIvbL1wPdHO8NXqfLewg=
+			</data>
+		</dict>
+		<key>fh_left.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NhePxcUIqle6cbD3Ias5i/JW4njS3mI2SO5wDgPhahg=
+			</data>
+		</dict>
+		<key>fh_left@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mjs7qOY3JSY/laW8T81lXBl53m4B84FlX4oZCBrV3YQ=
+			</data>
+		</dict>
+		<key>fh_open_mouth.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aQr+oto8MmzvcRx0xcYy098JtAqLUiT2VhrK/UOwczE=
+			</data>
+		</dict>
+		<key>fh_open_mouth@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			unGfWXLZKWm+2jau9Rvd1mLNxO+5DF05PfPY2SC68x0=
+			</data>
+		</dict>
+		<key>fh_right.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mf9JeuyKXMmQ2uzruOn9QeE8FBQgX5nqLJoN8NCSrIc=
+			</data>
+		</dict>
+		<key>fh_right@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T4ECbBcn8UlpgT9SUjtBuCiG5PdppgfAUK2MGRD1lrA=
+			</data>
+		</dict>
 		<key>girar-cabeca-direita.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z5zSTZV89yzNjMlhzij4Wlu/jY8UVDpD/5x9wS5j/8w=
+			CXnOSC12IaTQhUXCmz/J3VA3lcOdb5fQaT4o9OtRPEg=
 			</data>
 		</dict>
 		<key>girar-cabeca-esquerda.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6BPwclNy0bTXSVB6SqWV2zO+VHV6nglDhp0X63kLBWU=
+			Mf9+k26q59ab8/LiJaNeVdPZqfc1QdLjpEo2/CevfMQ=
 			</data>
 		</dict>
 		<key>ic_volume_off.png</key>
@@ -444,7 +554,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fM4bcnec8C62DmCz67T5Yr+EFv2b1Rf1P5t1d1naJGM=
+			dYneBRGNP3LcS5qRGmdZi6jhOxkxN4jdzL42xWky1Xw=
 			</data>
 		</dict>
 		<key>posicione-rosto.mp3</key>
