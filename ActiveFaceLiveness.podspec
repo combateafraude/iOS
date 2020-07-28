@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ActiveFaceLiveness'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'Active Faceliveness'
   s.description      = <<-DESC
 Active FaceLiveness description
@@ -20,7 +20,7 @@ Active FaceLiveness description
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'active-face-liveness/ActiveFaceLiveness.framework'
  
 end
