@@ -319,6 +319,18 @@ SWIFT_CLASS("_TtC16DocumentDetector20DocumentDetectorStep")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+SWIFT_CLASS("_TtC16DocumentDetector15DocumentQuality")
+@interface DocumentQuality : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector20DocumentQualityParam")
+@interface DocumentQualityParam : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIImage;
 
 /// Data structure containing information about a scan.
@@ -371,9 +383,27 @@ SWIFT_CLASS("_TtC16DocumentDetector5Label")
 @end
 
 
+SWIFT_CLASS("_TtC16DocumentDetector15MessageResponse")
+@interface MessageResponse : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector13NetworkReason")
 @interface NetworkReason : SDKFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector13OCRValidation")
+@interface OCRValidation : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector21OCRValidationResponse")
+@interface OCRValidationResponse : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
