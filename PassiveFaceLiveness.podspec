@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PassiveFaceLiveness'
-  s.version          = '1.3.0'
+  s.version          = '1.3.1'
   s.summary          = 'Passive Faceliveness'
   s.description      = <<-DESC
 Passive FaceLiveness description
@@ -21,9 +21,9 @@ Passive FaceLiveness description
  
   
   s.swift_version = '5'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'passive-face-liveness/PassiveFaceLiveness.framework'
 
-  s.dependency 'SwiftJWT', '~> 3.5.3'
+  #s.dependency 'SwiftJWT', '~> 3.5.3'
  
 end
