@@ -272,6 +272,12 @@ SWIFT_CLASS("_TtC17FaceAuthenticator18InvalidTokenReason")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator7JWTUtil")
+@interface JWTUtil : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator13NetworkReason")
 @interface NetworkReason : SDKFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
