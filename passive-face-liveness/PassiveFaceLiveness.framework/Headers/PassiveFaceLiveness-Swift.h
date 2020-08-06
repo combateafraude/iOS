@@ -214,6 +214,11 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness10SDKFailure")
 @end
 
 
+SWIFT_CLASS("_TtC19PassiveFaceLiveness26InvalidConfigurationReason")
+@interface InvalidConfigurationReason : SDKFailure
+@end
+
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness18InvalidTokenReason")
 @interface InvalidTokenReason : SDKFailure
 @end
