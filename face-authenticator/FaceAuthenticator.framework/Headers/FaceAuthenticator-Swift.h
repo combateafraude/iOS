@@ -267,6 +267,11 @@ SWIFT_CLASS("_TtC17FaceAuthenticator10SDKFailure")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator26InvalidConfigurationReason")
+@interface InvalidConfigurationReason : SDKFailure
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator18InvalidTokenReason")
 @interface InvalidTokenReason : SDKFailure
 @end

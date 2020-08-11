@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuthenticator'
-  s.version          = '1.2.1'
+  s.version          = '1.3.0'
   s.summary          = 'Face Authenticator'
   s.description      = <<-DESC
 Face Authenticator description
@@ -24,6 +24,6 @@ Face Authenticator description
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'face-authenticator/FaceAuthenticator.framework'
  
-  #s.dependency 'SwiftJWT', '~> 3.5.3'
+  s.dependency 'Sentry', '~> 5.2.0'
 
 end
