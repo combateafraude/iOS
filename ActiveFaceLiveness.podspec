@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ActiveFaceLiveness'
-  s.version          = '1.3.0'
+  s.version          = '1.4.0'
   s.summary          = 'Active Faceliveness'
   s.description      = <<-DESC
 Active FaceLiveness description
@@ -22,5 +22,7 @@ Active FaceLiveness description
   
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'active-face-liveness/ActiveFaceLiveness.framework'
+
+  s.dependency 'Sentry', '~> 5.2.0'
  
 end
