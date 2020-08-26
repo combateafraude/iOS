@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zJ55sxeD/SREzvQhyNUSjAgjvfw=
+		pe4mBO3nzQJP4OkjnpYOC+x8sIU=
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WDAF2vFID9mAC53hno4H7FfW1gU=
+		iUPSvONfLPE7io6D7e6Vy9jk+GM=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		hWCMBPRNj4dMiypj0BHhTgrtYwk=
+		FM9jY0QdzhWUZHu7LUVmpMG3eRU=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		hWCMBPRNj4dMiypj0BHhTgrtYwk=
+		FM9jY0QdzhWUZHu7LUVmpMG3eRU=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IX7WAMIcMNZxgFSO1Kk/P3XMYRc=
+		tAgU9JGndN72BdiQeTjiDFcWerg=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		IX7WAMIcMNZxgFSO1Kk/P3XMYRc=
+		tAgU9JGndN72BdiQeTjiDFcWerg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>PopupDocumentDetector.storyboardc/PopupDocumentDetectorController.nib</key>
 		<data>
-		eZlGl6ckpoasgmXNAvPr/CYVm5Y=
+		4LSRZa5sLDiBXZ0cTfiB9MkpybE=
 		</data>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<data>
-		YlXEu0pz2nNKZB6zBs/3uzpKXeg=
+		9o1Kmy4GZRRGDCNK1hm8a/LIO5k=
 		</data>
 		<key>PopupDocumentDetectorLoading.storyboardc/3sZ-F0-bLT-view-xLn-tl-P59.nib</key>
 		<data>
-		JL0/XTHSxwPtHzXDMJCGHx40/t4=
+		35GTPGxGXeDM0K76iB/iM/veKQ0=
 		</data>
 		<key>PopupDocumentDetectorLoading.storyboardc/Info.plist</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>PopupDocumentDetectorLoading.storyboardc/PopupDocumentDetectorLoadingController.nib</key>
 		<data>
-		wCJW5DXtT0Zeb2u0arNrKkhqQqs=
+		nEKhmmhxiY24pa2tnW4GpIOwD50=
 		</data>
 		<key>btn_cancel.png</key>
 		<data>
@@ -242,11 +242,11 @@
 		</data>
 		<key>labels.txt</key>
 		<data>
-		TJskcuACowWiGwKhpX1wpdb6eGo=
+		teQpA6XNSk8UgesW7kM6iSTQrY8=
 		</data>
 		<key>model.tflite</key>
 		<data>
-		MDzv6QbK+hegBJY0PRU8CJJKVOw=
+		9KYHL0/+j9Uc0SOGqI1yRmieSZg=
 		</data>
 		<key>rg-verso.png</key>
 		<data>
@@ -276,6 +276,38 @@
 		<data>
 		lBJQ8CNDi1EHeL7f/RmSHWXvqdg=
 		</data>
+		<key>rne_back@1x.png</key>
+		<data>
+		sP9YNEPs4Ipes0axA6SvHJizy4M=
+		</data>
+		<key>rne_back@2x.png</key>
+		<data>
+		UBEAo4aouDuhyNx99dbJxHzvtIY=
+		</data>
+		<key>rne_back@3x.png</key>
+		<data>
+		tM9Gxbi3I21G/fmLCdCJm8A7Vn0=
+		</data>
+		<key>rne_front@1x.png</key>
+		<data>
+		rBeJ38iatADEreQ41LK8ErELIBs=
+		</data>
+		<key>rne_front@2x.png</key>
+		<data>
+		6QO9lIxpBgsphJtxgvEbExaoxLM=
+		</data>
+		<key>rne_front@3x.png</key>
+		<data>
+		B/fXFg/Gr7hRKSPFNWC4MNqfnRU=
+		</data>
+		<key>rneback.mp3</key>
+		<data>
+		o1rb8dW/B8ybOgsBsKMXbPlojIg=
+		</data>
+		<key>rnefront.mp3</key>
+		<data>
+		jmBgCY+v0AXXEV92BiNSNmhFW2Y=
+		</data>
 		<key>triangulo_popup.png</key>
 		<data>
 		hRDA/H4fOVrSqJB6V98DiqkiDek=
@@ -303,7 +335,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vcPv21t64P0bddCbNTlRS/dZfTJKKWBMx7Oa+tbHE7E=
+			lL6AUkaDTHsOzx4tU6v5IwRpCrxBeYe9JygY/sLwOzs=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector-Swift.h</key>
@@ -324,14 +356,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjwQEhoAYUSOct1DNzENs08hjmi0g+v3yoqSM4udjmA=
+			4EXKInGsCSBFmk4et0HTT7ozEcZeWI9sFzHmnKuaDC4=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjwQEhoAYUSOct1DNzENs08hjmi0g+v3yoqSM4udjmA=
+			4EXKInGsCSBFmk4et0HTT7ozEcZeWI9sFzHmnKuaDC4=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -345,7 +377,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wWIIX5yg/IDenc7M8tA4B+IcGpiAWxpP3c9LC/x5axg=
+			diDcBrh2yvtsWjy6tGCrIfo/ja18ApqnRId37f3Ttp8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
@@ -359,7 +391,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wWIIX5yg/IDenc7M8tA4B+IcGpiAWxpP3c9LC/x5axg=
+			diDcBrh2yvtsWjy6tGCrIfo/ja18ApqnRId37f3Ttp8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -380,21 +412,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zpA4Rl8FjlI3U4SdE/MfLh12VzwtgIUGO32IpTLxZ4I=
+			LqeuF4TBDFN686N14uM44KJOvi0ZOtOd03BrjVAcLBE=
 			</data>
 		</dict>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IZ9PVA/LMtvBVjH2b47wYwRZBaFwDMBi81YycWsBB08=
+			b8PCO8L7W127hrud16AKXkz1RKr+TzBiD7hDMIBUABQ=
 			</data>
 		</dict>
 		<key>PopupDocumentDetectorLoading.storyboardc/3sZ-F0-bLT-view-xLn-tl-P59.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjU+AFNWa2omlWHo46CHvusEJCI+Lxrd9gt3ZjMEekw=
+			6TdPUfQqwzPIh8K1N3fuhjnPzUvBn7DwZTdlOYv8exc=
 			</data>
 		</dict>
 		<key>PopupDocumentDetectorLoading.storyboardc/Info.plist</key>
@@ -408,7 +440,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AwgDuwCqZIcqKPQMFAzWJGcVL4/fLrAOMRw/9vOnJps=
+			2j/FIG1ci3sclQtxbEEMHGcRxE8gIqtOLYPmh1xj4pg=
 			</data>
 		</dict>
 		<key>btn_cancel.png</key>
@@ -709,14 +741,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			by6cLSjtUeat+Rl21oYoJZwDudPb6FiT9j68QiL3qaE=
+			ct0PWGT8/6qHu5nj+W7YPN0t77FlNtR0g8N2qUyyzDY=
 			</data>
 		</dict>
 		<key>model.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8pVinhmZSSielIKQb3P5YJfQGp93gUL7nVBeXRDpa2M=
+			VHciZWvwcecmYivoA+RmPgp2DCHig4jq8fXc2L0sMG0=
 			</data>
 		</dict>
 		<key>rg-verso.png</key>
@@ -766,6 +798,62 @@
 			<key>hash2</key>
 			<data>
 			wUaZfCXdpD6Ym+fEwFBSkXamnWaV3Fm2/iBODL36v5I=
+			</data>
+		</dict>
+		<key>rne_back@1x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t8QTLae4+HOr10L4ueT4SXDkzx7BYtSLHc9jNzLEMuI=
+			</data>
+		</dict>
+		<key>rne_back@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q17AdqeQsRuGXqyI6I0GGN0M3QzPGlCL8NrL1Y7QLcY=
+			</data>
+		</dict>
+		<key>rne_back@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o75GZGtMoOgOTlbro4P06Aot7UkN+vAvQWrjd3vCNuE=
+			</data>
+		</dict>
+		<key>rne_front@1x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dgTCktsvTjVy1SrzNnawmIel2Xm97fCbcZ2hElknrjI=
+			</data>
+		</dict>
+		<key>rne_front@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			23OcBXReVOzJ/H0ivb89O+wQ3G6/wPLbm1e2Zky9YIA=
+			</data>
+		</dict>
+		<key>rne_front@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ihMiP/VzKcbYsXgj+gwPTAxeSBm+oQtwfKbmRu07DX8=
+			</data>
+		</dict>
+		<key>rneback.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gKqXFlVU4o5na7ccgiYIhrz09GOxXQ6MwDZUTGbk7+Q=
+			</data>
+		</dict>
+		<key>rnefront.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WThuSPnmMsYGpAP3XDOA0QBoCSe5h5tHfJPJ2Aubk4c=
 			</data>
 		</dict>
 		<key>triangulo_popup.png</key>
