@@ -206,15 +206,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC18ActiveFaceLiveness25ActiveFaceLivenessBuilder")
-@interface ActiveFaceLivenessBuilder : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC18ActiveFaceLiveness31ActiveFaceLivenessConfiguration")
-@interface ActiveFaceLivenessConfiguration : NSObject
+SWIFT_CLASS("_TtC18ActiveFaceLiveness18ActiveFaceLiveness")
+@interface ActiveFaceLiveness : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -246,6 +239,14 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness28ActiveFaceLivenessController")
 @end
 
 
+SWIFT_CLASS("_TtC18ActiveFaceLiveness25ActiveFaceLivenessFailure")
+@interface ActiveFaceLivenessFailure : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@end
+
+
 SWIFT_CLASS("_TtC18ActiveFaceLiveness24ActiveFaceLivenessLayout")
 @interface ActiveFaceLivenessLayout : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -272,50 +273,35 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness24FaceLivenessOrchestrator")
 @end
 
 
-SWIFT_CLASS("_TtC18ActiveFaceLiveness10SDKFailure")
-@interface SDKFailure : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
-
-
 SWIFT_CLASS("_TtC18ActiveFaceLiveness26InvalidConfigurationReason")
-@interface InvalidConfigurationReason : SDKFailure
+@interface InvalidConfigurationReason : ActiveFaceLivenessFailure
 @end
 
 
 SWIFT_CLASS("_TtC18ActiveFaceLiveness18InvalidTokenReason")
-@interface InvalidTokenReason : SDKFailure
+@interface InvalidTokenReason : ActiveFaceLivenessFailure
 @end
 
 
 SWIFT_CLASS("_TtC18ActiveFaceLiveness13NetworkReason")
-@interface NetworkReason : SDKFailure
+@interface NetworkReason : ActiveFaceLivenessFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 
 SWIFT_CLASS("_TtC18ActiveFaceLiveness16PermissionReason")
-@interface PermissionReason : SDKFailure
+@interface PermissionReason : ActiveFaceLivenessFailure
 @end
 
 
-
 SWIFT_CLASS("_TtC18ActiveFaceLiveness12ServerReason")
-@interface ServerReason : SDKFailure
+@interface ServerReason : ActiveFaceLivenessFailure
 @end
 
 
 SWIFT_CLASS("_TtC18ActiveFaceLiveness13StorageReason")
-@interface StorageReason : SDKFailure
+@interface StorageReason : ActiveFaceLivenessFailure
 @end
-
-
-
-
-
-
 
 
 
