@@ -1,11 +1,4 @@
 framework module FaceAuthenticator {
-  umbrella header "FaceAuthenticator.h"
-
-  export *
-  module * { export * }
-}
-
-module FaceAuthenticator.Swift {
-    header "FaceAuthenticator-Swift.h"
-    requires objc
+  header "FaceAuthenticator-Swift.h"
+  requires objc
 }

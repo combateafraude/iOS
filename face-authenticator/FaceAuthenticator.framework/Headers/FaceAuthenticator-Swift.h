@@ -206,15 +206,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC17FaceAuthenticator24FaceAuthenticatorBuilder")
-@interface FaceAuthenticatorBuilder : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC17FaceAuthenticator30FaceAuthenticatorConfiguration")
-@interface FaceAuthenticatorConfiguration : NSObject
+SWIFT_CLASS("_TtC17FaceAuthenticator17FaceAuthenticator")
+@interface FaceAuthenticator : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -246,6 +239,14 @@ SWIFT_CLASS("_TtC17FaceAuthenticator27FaceAuthenticatorController")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator24FaceAuthenticatorFailure")
+@interface FaceAuthenticatorFailure : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator23FaceAuthenticatorLayout")
 @interface FaceAuthenticatorLayout : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -259,21 +260,13 @@ SWIFT_CLASS("_TtC17FaceAuthenticator23FaceAuthenticatorResult")
 @end
 
 
-SWIFT_CLASS("_TtC17FaceAuthenticator10SDKFailure")
-@interface SDKFailure : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
-
-
 SWIFT_CLASS("_TtC17FaceAuthenticator26InvalidConfigurationReason")
-@interface InvalidConfigurationReason : SDKFailure
+@interface InvalidConfigurationReason : FaceAuthenticatorFailure
 @end
 
 
 SWIFT_CLASS("_TtC17FaceAuthenticator18InvalidTokenReason")
-@interface InvalidTokenReason : SDKFailure
+@interface InvalidTokenReason : FaceAuthenticatorFailure
 @end
 
 
@@ -284,24 +277,23 @@ SWIFT_CLASS("_TtC17FaceAuthenticator7JWTUtil")
 
 
 SWIFT_CLASS("_TtC17FaceAuthenticator13NetworkReason")
-@interface NetworkReason : SDKFailure
+@interface NetworkReason : FaceAuthenticatorFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 
 SWIFT_CLASS("_TtC17FaceAuthenticator16PermissionReason")
-@interface PermissionReason : SDKFailure
+@interface PermissionReason : FaceAuthenticatorFailure
 @end
 
 
-
 SWIFT_CLASS("_TtC17FaceAuthenticator12ServerReason")
-@interface ServerReason : SDKFailure
+@interface ServerReason : FaceAuthenticatorFailure
 @end
 
 
 SWIFT_CLASS("_TtC17FaceAuthenticator13StorageReason")
-@interface StorageReason : SDKFailure
+@interface StorageReason : FaceAuthenticatorFailure
 @end
 
 

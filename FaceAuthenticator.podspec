@@ -8,12 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuthenticator'
-  s.version          = '1.3.0'
+  s.version          = '2.0.0'
   s.summary          = 'Face Authenticator'
-  s.description      = <<-DESC
-Face Authenticator description
-                       DESC
-
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-authenticator/LICENSE' }
   s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
