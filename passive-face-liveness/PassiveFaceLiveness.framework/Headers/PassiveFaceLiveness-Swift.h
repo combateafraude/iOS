@@ -206,21 +206,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC19PassiveFaceLiveness10SDKFailure")
-@interface SDKFailure : NSObject
+SWIFT_CLASS("_TtC19PassiveFaceLiveness26PassiveFaceLivenessFailure")
+@interface PassiveFaceLivenessFailure : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 
-SWIFT_CLASS("_TtC19PassiveFaceLiveness26InvalidConfigurationReason")
-@interface InvalidConfigurationReason : SDKFailure
-@end
-
-
 SWIFT_CLASS("_TtC19PassiveFaceLiveness18InvalidTokenReason")
-@interface InvalidTokenReason : SDKFailure
+@interface InvalidTokenReason : PassiveFaceLivenessFailure
 @end
 
 
@@ -231,20 +226,13 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness7JWTUtil")
 
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness13NetworkReason")
-@interface NetworkReason : SDKFailure
+@interface NetworkReason : PassiveFaceLivenessFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 
-SWIFT_CLASS("_TtC19PassiveFaceLiveness26PassiveFaceLivenessBuilder")
-@interface PassiveFaceLivenessBuilder : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC19PassiveFaceLiveness32PassiveFaceLivenessConfiguration")
-@interface PassiveFaceLivenessConfiguration : NSObject
+SWIFT_CLASS("_TtC19PassiveFaceLiveness19PassiveFaceLiveness")
+@interface PassiveFaceLiveness : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -276,6 +264,7 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness29PassiveFaceLivenessController")
 @end
 
 
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness25PassiveFaceLivenessLayout")
 @interface PassiveFaceLivenessLayout : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -289,18 +278,17 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness25PassiveFaceLivenessResult")
 
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness16PermissionReason")
-@interface PermissionReason : SDKFailure
+@interface PermissionReason : PassiveFaceLivenessFailure
 @end
 
 
-
 SWIFT_CLASS("_TtC19PassiveFaceLiveness12ServerReason")
-@interface ServerReason : SDKFailure
+@interface ServerReason : PassiveFaceLivenessFailure
 @end
 
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness13StorageReason")
-@interface StorageReason : SDKFailure
+@interface StorageReason : PassiveFaceLivenessFailure
 @end
 
 
