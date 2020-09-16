@@ -186,7 +186,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreImage;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -207,8 +206,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-
-
 SWIFT_CLASS("_TtC16DocumentDetector7Capture")
 @interface Capture : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -223,15 +220,8 @@ SWIFT_CLASS("_TtC16DocumentDetector8Document")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector23DocumentDetectorBuilder")
-@interface DocumentDetectorBuilder : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector29DocumentDetectorConfiguration")
-@interface DocumentDetectorConfiguration : NSObject
+SWIFT_CLASS("_TtC16DocumentDetector16DocumentDetector")
+@interface DocumentDetector : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -258,7 +248,7 @@ SWIFT_CLASS_NAMED("DocumentDetectorController")
 @interface DocumentDetectorController : UINavigationController
 /// The object that acts as the delegate of the <code>DocumentDetectorController</code>.
 @property (nonatomic, weak) id <DocumentDetectorControllerDelegate> _Nullable documentDetectorDelegate;
-- (nonnull instancetype)initWithDocumentDetectorConfiguration:(DocumentDetectorConfiguration * _Nonnull)documentDetectorConfiguration OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithDocumentDetector:(DocumentDetector * _Nonnull)documentDetector OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
@@ -267,7 +257,7 @@ SWIFT_CLASS_NAMED("DocumentDetectorController")
 @end
 
 @class DocumentDetectorResult;
-@class SDKFailure;
+@class DocumentDetectorFailure;
 
 /// A set of methods that your delegate object must implement to interact with the image scanner interface.
 SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
@@ -297,7 +287,15 @@ SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
 ///
 /// \param error The error that occured.
 ///
-- (void)documentDetectionController:(DocumentDetectorController * _Nonnull)scanner didFailWithError:(SDKFailure * _Nonnull)error;
+- (void)documentDetectionController:(DocumentDetectorController * _Nonnull)scanner didFailWithError:(DocumentDetectorFailure * _Nonnull)error;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector23DocumentDetectorFailure")
+@interface DocumentDetectorFailure : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 
@@ -331,26 +329,6 @@ SWIFT_CLASS("_TtC16DocumentDetector20DocumentQualityParam")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImage;
-
-/// Data structure containing information about a scan.
-SWIFT_CLASS("_TtC16DocumentDetector22DocumentScannerResults")
-@interface DocumentScannerResults : NSObject
-/// The front image of document
-@property (nonatomic, strong) UIImage * _Nullable frontImage;
-/// The back image of document
-@property (nonatomic, strong) UIImage * _Nullable backImage;
-/// The original image taken by the user, prior to the cropping applied.
-@property (nonatomic, strong) UIImage * _Nullable originalImage;
-/// The deskewed and cropped orignal image using the detected rectangle, without any filters.
-@property (nonatomic, strong) UIImage * _Nullable scannedImage;
-/// The enhanced image, passed through an Adaptive Thresholding function. This image will always be grayscale and may not always be available.
-@property (nonatomic, strong) UIImage * _Nullable enhancedImage;
-- (nonnull instancetype)initWithFrontImage:(UIImage * _Nonnull)frontImage backImage:(UIImage * _Nonnull)backImage OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 
 SWIFT_CLASS("_TtC16DocumentDetector17DocumentValidator")
 @interface DocumentValidator : NSObject
@@ -358,21 +336,13 @@ SWIFT_CLASS("_TtC16DocumentDetector17DocumentValidator")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector10SDKFailure")
-@interface SDKFailure : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
-
-
 SWIFT_CLASS("_TtC16DocumentDetector26InvalidConfigurationReason")
-@interface InvalidConfigurationReason : SDKFailure
+@interface InvalidConfigurationReason : DocumentDetectorFailure
 @end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector18InvalidTokenReason")
-@interface InvalidTokenReason : SDKFailure
+@interface InvalidTokenReason : DocumentDetectorFailure
 @end
 
 
@@ -390,7 +360,7 @@ SWIFT_CLASS("_TtC16DocumentDetector15MessageResponse")
 
 
 SWIFT_CLASS("_TtC16DocumentDetector13NetworkReason")
-@interface NetworkReason : SDKFailure
+@interface NetworkReason : DocumentDetectorFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
@@ -408,21 +378,18 @@ SWIFT_CLASS("_TtC16DocumentDetector21OCRValidationResponse")
 
 
 SWIFT_CLASS("_TtC16DocumentDetector16PermissionReason")
-@interface PermissionReason : SDKFailure
+@interface PermissionReason : DocumentDetectorFailure
 @end
 
 
-
 SWIFT_CLASS("_TtC16DocumentDetector12ServerReason")
-@interface ServerReason : SDKFailure
+@interface ServerReason : DocumentDetectorFailure
 @end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector13StorageReason")
-@interface StorageReason : SDKFailure
+@interface StorageReason : DocumentDetectorFailure
 @end
-
-
 
 
 
