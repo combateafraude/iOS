@@ -4,247 +4,114 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		vJbIMIRzWq8lQ5fDZQ8uao5VMP4=
+		</data>
 		<key>Headers/FaceAuthenticator-Swift.h</key>
 		<data>
-		K6U/+p+ybA1GOPR+aDpVce5z/vg=
-		</data>
-		<key>Headers/FaceAuthenticator.h</key>
-		<data>
-		h4Z0K52OQfYFzJGgb43qFcIR6AQ=
+		4/DuuUIUoIUo9AjK1Huj1jH5L/A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wkl/jWGRk/2Zux+/PQ6onc4XCwo=
+		PZmjINYVd6D5SYqnn6yqy/5BfUg=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		w0DQ/h9gZS84phaDiDqyXgpEfbs=
+		c6UrXldWZ6HQAvYY3NZaELz9l5I=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		w0DQ/h9gZS84phaDiDqyXgpEfbs=
+		c6UrXldWZ6HQAvYY3NZaELz9l5I=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		3V+lbkcOK6HWQ1xBX2B+n5zFBnQ=
+		1lxOcwMVcaZFLTnHESsYsW0QQ9s=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Kwa1nxhLa24L8jJWsvOerOVdYZ8=
+		zX4HLbbH8pA5c349DrZd8LCPnfo=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		3V+lbkcOK6HWQ1xBX2B+n5zFBnQ=
+		1lxOcwMVcaZFLTnHESsYsW0QQ9s=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Kwa1nxhLa24L8jJWsvOerOVdYZ8=
+		zX4HLbbH8pA5c349DrZd8LCPnfo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		F2+Rkb7G58nBqCLNLjfGaD8F7/k=
-		</data>
-		<key>PopupDocumentDetectorLoading.storyboardc/3sZ-F0-bLT-view-xLn-tl-P59.nib</key>
-		<data>
-		kzsPk4pEpzz/MrFNxNuL9EaNDSE=
-		</data>
-		<key>PopupDocumentDetectorLoading.storyboardc/Info.plist</key>
-		<data>
-		QXbobfK6mGzhPNSouJ3MnF6k2Xg=
-		</data>
-		<key>PopupDocumentDetectorLoading.storyboardc/PopupDocumentDetectorLoadingController.nib</key>
-		<data>
-		02tNx65atHZJWyuXZpRj9E/Iyl0=
+		YCYqwlysxxO7UNP5LxIu1tL/0po=
 		</data>
 		<key>autenticacaofacial.mp3</key>
 		<data>
 		Zlog1XymbEVdw1Q3JTdUJ/bx6mA=
 		</data>
-		<key>btn_cancel.png</key>
-		<data>
-		bzBh1yC8Y5UzYwS0wy5QBFVZ3y8=
-		</data>
-		<key>btn_cancel@2x.png</key>
-		<data>
-		eYshxCIAP6jZCbqoqt0pJZ81oiY=
-		</data>
-		<key>btn_cancel@3x.png</key>
-		<data>
-		Kez3vkCpJn7Ixxrquwof3i3YqY0=
-		</data>
-		<key>face_mask.png</key>
-		<data>
-		q8fnNCLMZFmzumdjadpj4xtKjMI=
-		</data>
-		<key>face_mask@2x.png</key>
-		<data>
-		IBVPNapiIC22hDUoLJzxyEh4LT8=
-		</data>
-		<key>face_mask@3x.png</key>
-		<data>
-		s4D/XQWldwda/4IfkHlb0iyH3aU=
-		</data>
-		<key>face_mask_green.png</key>
-		<data>
-		VIROwpPf65XP1ZGLExJ0yaIAQEk=
-		</data>
-		<key>face_mask_green@2x.png</key>
-		<data>
-		Qs5sWw9V5OI06DlWl7kldSWr4ik=
-		</data>
-		<key>face_mask_green@3x.png</key>
-		<data>
-		QaUm2Ed+OLORh4S4GNqFbZznH3o=
-		</data>
-		<key>face_mask_red.png</key>
-		<data>
-		q7xgca64JOdGqRzyRFQ4XtKy20U=
-		</data>
-		<key>face_mask_red@2x.png</key>
-		<data>
-		5fW2gpaKVcuzKHHuT/m1ZJgR6Kw=
-		</data>
-		<key>face_mask_red@3x.png</key>
-		<data>
-		+Bg04KLQ1wPfdk+4W3ZALAVoPAo=
-		</data>
-		<key>ic_volume_off.png</key>
-		<data>
-		NcFNYZuoJjcV0X9zGnjng8ybFMg=
-		</data>
-		<key>ic_volume_off@2x.png</key>
-		<data>
-		6Xgyr2HvKeF/hOoNXfl6WgG23fs=
-		</data>
-		<key>ic_volume_on.png</key>
-		<data>
-		FiUGAjsEJXpvQJPyUyxYFVqPhio=
-		</data>
-		<key>ic_volume_on@2x.png</key>
-		<data>
-		jB+Njl2IzEBi0MucBB8ojx+vlJE=
-		</data>
-		<key>icon_checked_gray.png</key>
-		<data>
-		6bUugjxFN2Ns5TwJN+ojNYAz0EY=
-		</data>
-		<key>icon_checked_gray@2x.png</key>
-		<data>
-		AVajnEAewxkL5D0WPVESHZT7CSc=
-		</data>
-		<key>icon_checked_gray@3x.png</key>
-		<data>
-		KJL76nFtbVsV5MVBgzhf1FDppmw=
-		</data>
-		<key>icon_checked_white.png</key>
-		<data>
-		DcSBNCvYvdmEOQ+fVWetTLq9bS0=
-		</data>
-		<key>icon_checked_white@2x.png</key>
-		<data>
-		a9o+/PGttlZnlN/KCDxbs3y2LnY=
-		</data>
-		<key>icon_checked_white@3x.png</key>
-		<data>
-		Md2vy+C/2iwCXkTFNXvTqlVNmmI=
-		</data>
-		<key>triangulo_popup.png</key>
-		<data>
-		hRDA/H4fOVrSqJB6V98DiqkiDek=
-		</data>
-		<key>triangulo_popup@2x.png</key>
-		<data>
-		YgwOjmwwJhJT6GPf/X7LyNMENY4=
-		</data>
-		<key>triangulo_popup@3x.png</key>
-		<data>
-		K+Phb6u4b30OpaSO+bAb+IAIdRs=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oChjfhACQ7GJxU2UjWy8ia+zEy2LFFYb0AzALHQFvcQ=
+			</data>
+		</dict>
 		<key>Headers/FaceAuthenticator-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lk97WB08/09w+lzoZ2+WbnmlU/dJstrACq1UxQxFqbE=
-			</data>
-		</dict>
-		<key>Headers/FaceAuthenticator.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r23sTlZNpysfIlZbIbWgmkNdUC8RqQerTA1SWkgrysY=
+			Y12QbA3GUahtlgPaNXPsKlSfTBdDJmpqMqITBvbijm4=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQ02DtZ5QtPXx/R5ouxd5RmmQjhTXE3RM9spNXEMUWo=
+			JOMgypseLR6VR8JIVVrtxAYOVRn0cUmIzjMP8Brd4LE=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQ02DtZ5QtPXx/R5ouxd5RmmQjhTXE3RM9spNXEMUWo=
+			JOMgypseLR6VR8JIVVrtxAYOVRn0cUmIzjMP8Brd4LE=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmrSTblq3i3c8Cy1Y90nB4y+tZl8gCLrKaJUyQEG788=
+			ebbL3LSnfrSaeHg7VmMLrZmjCrt/WC7EvbXnHmKyP1c=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lja5FkKUmIpg7nkwQEbhpECw5hFx7EOB1Qmn0EGjgww=
+			PtdjXOZcrJTnhTFWr5gkuXfLXpzhHSEL9GRnAvziZ2k=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmrSTblq3i3c8Cy1Y90nB4y+tZl8gCLrKaJUyQEG788=
+			ebbL3LSnfrSaeHg7VmMLrZmjCrt/WC7EvbXnHmKyP1c=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lja5FkKUmIpg7nkwQEbhpECw5hFx7EOB1Qmn0EGjgww=
+			PtdjXOZcrJTnhTFWr5gkuXfLXpzhHSEL9GRnAvziZ2k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZrZrW/lZTGvYb2+f2EaCp/XHHnIGuO49XOV9WwGIirY=
-			</data>
-		</dict>
-		<key>PopupDocumentDetectorLoading.storyboardc/3sZ-F0-bLT-view-xLn-tl-P59.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kQQX/J7dd69ZT1KBTuhh4sBlWdEEX2J62DwtIaPv1e0=
-			</data>
-		</dict>
-		<key>PopupDocumentDetectorLoading.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1kNd0mOiX/za4w7Ykt/ZUw35W34Gsc6STtV7Xsy2eb8=
-			</data>
-		</dict>
-		<key>PopupDocumentDetectorLoading.storyboardc/PopupDocumentDetectorLoadingController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2jXj+rD+96drgxD0DXeSuzYMcNZONvJTKDqbrUWCL0Q=
+			Ip30hBwyN6h09Eded4rNskR9N6T/Xr0kiy9cTuoUyz8=
 			</data>
 		</dict>
 		<key>autenticacaofacial.mp3</key>
@@ -252,181 +119,6 @@
 			<key>hash2</key>
 			<data>
 			DDiYrLZoVPfjFL+eY/sUZbBcb2Kdj/GPXQo64aB6TOQ=
-			</data>
-		</dict>
-		<key>btn_cancel.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L4nQjtcn9FqUgZhg5120Dm8CBXsJ00GwjNN5hbtunt0=
-			</data>
-		</dict>
-		<key>btn_cancel@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zHTOyxOx7osW+tOhvkW2EQQSoU9CIk29tDxaiWpBlHQ=
-			</data>
-		</dict>
-		<key>btn_cancel@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CxW5W9jd8562EQHduDkciBTtH8hE38oZF/Gm/OBmtts=
-			</data>
-		</dict>
-		<key>face_mask.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2FRRlzFstu5tKB8R4LTNQvnRuxTDK4hPzjoFgOM5z2g=
-			</data>
-		</dict>
-		<key>face_mask@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Vq418KR2PzDbuwsTYA2jUqVJSpQqqA91ioxB9tr4j+s=
-			</data>
-		</dict>
-		<key>face_mask@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4GP0JWgX3BO8iy9S1T+izea/XVEooplfXqVcC9hlxgU=
-			</data>
-		</dict>
-		<key>face_mask_green.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bwxmTJGp+JANJUeV/yRae4J+VIkufBhoUf0L1fye1JM=
-			</data>
-		</dict>
-		<key>face_mask_green@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hQ+DmLxLPQswFRK89zRRsto2dAcPaF3Js+htJBmNG/k=
-			</data>
-		</dict>
-		<key>face_mask_green@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9QREgxvKsghQaWp6bFUfeR1UWuKlPu0C3d6enJYoiDA=
-			</data>
-		</dict>
-		<key>face_mask_red.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ow3faX8S7OReaiJuVHnT25ZVButLKGry8vWM6WuvTsE=
-			</data>
-		</dict>
-		<key>face_mask_red@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BDlCnyk0d4gdmheeAqLBWN3HGztXvFBvFiQau8c2ytU=
-			</data>
-		</dict>
-		<key>face_mask_red@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			boef66BBTEZ2p1Uqun6hknZiF0IknGSrw2U330uApOg=
-			</data>
-		</dict>
-		<key>ic_volume_off.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zxQj+X0/1R2gFbUooA6i/zVvaMfoZTYozyMaz1NUI+4=
-			</data>
-		</dict>
-		<key>ic_volume_off@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9tQVi6+ITdZCPl8TVKURpVPyT+xaVLTGVahC+T8p5X0=
-			</data>
-		</dict>
-		<key>ic_volume_on.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dO5HzhahYqUrdbSVvKK3dz9QCfCVoG4sk75lXJ8RBXg=
-			</data>
-		</dict>
-		<key>ic_volume_on@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vWt/PQfMv6cP1FVbnmjH6pPin1K3b0i7pxmaGKcISE4=
-			</data>
-		</dict>
-		<key>icon_checked_gray.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q/Hw5Qal+fEgIxL0vQMhnDjf7zfWlpL+5h7gk+a/8lw=
-			</data>
-		</dict>
-		<key>icon_checked_gray@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E7fGfg6UdHpSsY68NtDrCqJQUA2uuPYqE46o2rQROtc=
-			</data>
-		</dict>
-		<key>icon_checked_gray@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6DiUrjkZE6/dc/ZxJyiEV7Puf86Y6GZcP/T8xj+4l3o=
-			</data>
-		</dict>
-		<key>icon_checked_white.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FLuw+yTh0eNPg/YBoyzVlMqXM1GPz6CODowwm0LqUeY=
-			</data>
-		</dict>
-		<key>icon_checked_white@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			95xI2MCf7ZETG3XqzQZXYBsEFi6N+7OCheGUUjMKQA4=
-			</data>
-		</dict>
-		<key>icon_checked_white@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jIycbnczCru1/UVjX6LQHLSKKGn0j8TPaUmJkxNI/c8=
-			</data>
-		</dict>
-		<key>triangulo_popup.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TEy3Lryx6r57GSA6y/K2daFntcLXL8uxOjbinOkA9Ew=
-			</data>
-		</dict>
-		<key>triangulo_popup@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L3Dchk7YTZ8UYmsZ54/nRHeWakO/nA1kiQZvCXnTL7I=
-			</data>
-		</dict>
-		<key>triangulo_popup@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MnPEilQPUN83LZet8hkC36JYP4RrZDxWl8QyYtsOpP0=
 			</data>
 		</dict>
 	</dict>
