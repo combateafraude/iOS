@@ -208,6 +208,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+SWIFT_CLASS("_TtC19PassiveFaceLiveness3Api")
+@interface Api : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness12AnalyticsApi")
+@interface AnalyticsApi : Api
+@end
+
+
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness6CafApi")
+@interface CafApi : Api
+@end
+
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness26PassiveFaceLivenessFailure")
 @interface PassiveFaceLivenessFailure : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -224,6 +242,11 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness18InvalidTokenReason")
 SWIFT_CLASS("_TtC19PassiveFaceLiveness7JWTUtil")
 @interface JWTUtil : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness9MobileApi")
+@interface MobileApi : Api
 @end
 
 
@@ -275,12 +298,20 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness25PassiveFaceLivenessLayout")
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness25PassiveFaceLivenessResult")
 @interface PassiveFaceLivenessResult : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness16PermissionReason")
 @interface PermissionReason : PassiveFaceLivenessFailure
+@end
+
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness21ServerFailureResponse")
+@interface ServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -292,6 +323,14 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness12ServerReason")
 SWIFT_CLASS("_TtC19PassiveFaceLiveness13StorageReason")
 @interface StorageReason : PassiveFaceLivenessFailure
 @end
+
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness25TokenVerificationResponse")
+@interface TokenVerificationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 #if __has_attribute(external_source_symbol)
