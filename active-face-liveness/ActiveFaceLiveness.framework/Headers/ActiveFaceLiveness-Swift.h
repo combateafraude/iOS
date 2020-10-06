@@ -257,7 +257,26 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness24ActiveFaceLivenessLayout")
 
 SWIFT_CLASS("_TtC18ActiveFaceLiveness24ActiveFaceLivenessResult")
 @interface ActiveFaceLivenessResult : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC18ActiveFaceLiveness3Api")
+@interface Api : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC18ActiveFaceLiveness12AnalyticsApi")
+@interface AnalyticsApi : Api
+@end
+
+
+
+SWIFT_CLASS("_TtC18ActiveFaceLiveness6CafApi")
+@interface CafApi : Api
 @end
 
 
@@ -285,6 +304,11 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness18InvalidTokenReason")
 @end
 
 
+SWIFT_CLASS("_TtC18ActiveFaceLiveness9MobileApi")
+@interface MobileApi : Api
+@end
+
+
 SWIFT_CLASS("_TtC18ActiveFaceLiveness13NetworkReason")
 @interface NetworkReason : ActiveFaceLivenessFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
@@ -296,6 +320,13 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness16PermissionReason")
 @end
 
 
+SWIFT_CLASS("_TtC18ActiveFaceLiveness21ServerFailureResponse")
+@interface ServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC18ActiveFaceLiveness12ServerReason")
 @interface ServerReason : ActiveFaceLivenessFailure
 @end
@@ -304,6 +335,14 @@ SWIFT_CLASS("_TtC18ActiveFaceLiveness12ServerReason")
 SWIFT_CLASS("_TtC18ActiveFaceLiveness13StorageReason")
 @interface StorageReason : ActiveFaceLivenessFailure
 @end
+
+
+SWIFT_CLASS("_TtC18ActiveFaceLiveness25TokenVerificationResponse")
+@interface TokenVerificationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 
