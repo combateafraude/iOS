@@ -208,6 +208,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+SWIFT_CLASS("_TtC16DocumentDetector3Api")
+@interface Api : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector12AnalyticsApi")
+@interface AnalyticsApi : Api
+@end
+
+
+
+SWIFT_CLASS("_TtC16DocumentDetector6CafApi")
+@interface CafApi : Api
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector7Capture")
 @interface Capture : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -320,18 +338,6 @@ SWIFT_CLASS("_TtC16DocumentDetector20DocumentDetectorStep")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector15DocumentQuality")
-@interface DocumentQuality : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector20DocumentQualityParam")
-@interface DocumentQualityParam : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC16DocumentDetector17DocumentValidator")
 @interface DocumentValidator : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -355,32 +361,25 @@ SWIFT_CLASS("_TtC16DocumentDetector5Label")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector15MessageResponse")
-@interface MessageResponse : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC16DocumentDetector9MobileApi")
+@interface MobileApi : Api
 @end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector13NetworkReason")
 @interface NetworkReason : DocumentDetectorFailure
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13OCRValidation")
-@interface OCRValidation : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector21OCRValidationResponse")
-@interface OCRValidationResponse : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector16PermissionReason")
 @interface PermissionReason : DocumentDetectorFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector21ServerFailureResponse")
+@interface ServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -392,6 +391,14 @@ SWIFT_CLASS("_TtC16DocumentDetector12ServerReason")
 SWIFT_CLASS("_TtC16DocumentDetector13StorageReason")
 @interface StorageReason : DocumentDetectorFailure
 @end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
+@interface TokenVerificationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 #if __has_attribute(external_source_symbol)
