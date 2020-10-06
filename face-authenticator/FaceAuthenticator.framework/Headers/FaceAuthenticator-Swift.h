@@ -208,6 +208,24 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator3Api")
+@interface Api : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC17FaceAuthenticator12AnalyticsApi")
+@interface AnalyticsApi : Api
+@end
+
+
+
+SWIFT_CLASS("_TtC17FaceAuthenticator6CafApi")
+@interface CafApi : Api
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator17FaceAuthenticator")
 @interface FaceAuthenticator : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -278,6 +296,11 @@ SWIFT_CLASS("_TtC17FaceAuthenticator7JWTUtil")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator9MobileApi")
+@interface MobileApi : Api
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator13NetworkReason")
 @interface NetworkReason : FaceAuthenticatorFailure
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
@@ -289,6 +312,13 @@ SWIFT_CLASS("_TtC17FaceAuthenticator16PermissionReason")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator21ServerFailureResponse")
+@interface ServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator12ServerReason")
 @interface ServerReason : FaceAuthenticatorFailure
 @end
@@ -296,6 +326,13 @@ SWIFT_CLASS("_TtC17FaceAuthenticator12ServerReason")
 
 SWIFT_CLASS("_TtC17FaceAuthenticator13StorageReason")
 @interface StorageReason : FaceAuthenticatorFailure
+@end
+
+
+SWIFT_CLASS("_TtC17FaceAuthenticator25TokenVerificationResponse")
+@interface TokenVerificationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
