@@ -7,6 +7,5 @@
 
 <hr>
 
-## [Releases](https://github.com/combateafraude/iOS/tree/releases)
-## [Documentation](https://docs.combateafraude.com/docs/mobile/ios/getting-started/)
-## [Demonstration](https://www.youtube.com/watch?v=HdTzIvI0FRc)
+- [Frameworks](https://github.com/combateafraude/iOS/tree/releases)
+- [Documentação oficial](https://docs.combateafraude.com/docs/mobile/ios/getting-started/)
