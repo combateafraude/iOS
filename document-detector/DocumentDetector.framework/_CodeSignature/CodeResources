@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kthPmLduNbahiEuXb7BDVAYLaVs=
+		L4SVpiBm1eAd0ig6gVSqa3OurSA=
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
@@ -14,31 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RbFXsqW/fQtEleFUGhjOm5p4NXc=
+		ptYz3ozFUpb8BqWsQ73UH6ZAnTQ=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		gLe8EhzQMIwF8yN7VoRxj5Axsa4=
+		wHiDpK48OK6A9TIvc5OWwwULjhY=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		gLe8EhzQMIwF8yN7VoRxj5Axsa4=
+		wHiDpK48OK6A9TIvc5OWwwULjhY=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		71pFd8c5oQsWNle2B1DLY5h+Clk=
 		</data>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		hcKg0r12qftsjD8ozqx1mKMKEbI=
+		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Ltsnmqz0yUimgY5a269mwdWP/fI=
+		sYCG/fGmCk0Iu00af4uxy7mTqVA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
 		<data>
 		71pFd8c5oQsWNle2B1DLY5h+Clk=
 		</data>
+		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		hcKg0r12qftsjD8ozqx1mKMKEbI=
+		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Ltsnmqz0yUimgY5a269mwdWP/fI=
+		sYCG/fGmCk0Iu00af4uxy7mTqVA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,11 +58,11 @@
 		</data>
 		<key>PopupDocumentDetector.storyboardc/PopupDocumentDetectorController.nib</key>
 		<data>
-		egzxd8JULV+r+Lp3ODaGRO9P4l0=
+		gVr8iB0SwEzG/wyIu/VPP5yWGIo=
 		</data>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<data>
-		OK35i84r9xPAw9Ebsbb/GNUEL3s=
+		Lb7FgjDnGcqWcXvDNT0gOS0qCpU=
 		</data>
 		<key>cnh.mp3</key>
 		<data>
@@ -111,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ybbwr6/wMpvx7CQkdQh1+PPqqJyO84QzSfSEr6vYy+A=
+			AVG4phT57ZclVZXSG6txOkL32rNSgfhwnftR0U1k5P0=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector-Swift.h</key>
@@ -125,14 +133,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+kzSpaypPFSE53ZxXIhUDxLaVQ7/MT393BtwYfwYz0=
+			XEFFiZ7rnpv9lNM3Tz2DVL38Nw38qtDpNNQ/pknx8F8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+kzSpaypPFSE53ZxXIhUDxLaVQ7/MT393BtwYfwYz0=
+			XEFFiZ7rnpv9lNM3Tz2DVL38Nw38qtDpNNQ/pknx8F8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -142,11 +150,18 @@
 			lodMux049LKRyRvCuT4c0Tb501OaEiYhqOeWQ64cj0w=
 			</data>
 		</dict>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5fcvQ6e8sopYMYkJxOXkRMa38Z3AdCdcKLMomFspN5c=
+			</data>
+		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aYUFcHYeli/N+4fllgnQAdcp8uzpB/beFdYlb4CVzdo=
+			fzPUOIB+VOlgIpoPtmmmmar4/t0h9FzMHzbqyYLuySM=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
@@ -156,11 +171,18 @@
 			lodMux049LKRyRvCuT4c0Tb501OaEiYhqOeWQ64cj0w=
 			</data>
 		</dict>
+		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5fcvQ6e8sopYMYkJxOXkRMa38Z3AdCdcKLMomFspN5c=
+			</data>
+		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aYUFcHYeli/N+4fllgnQAdcp8uzpB/beFdYlb4CVzdo=
+			fzPUOIB+VOlgIpoPtmmmmar4/t0h9FzMHzbqyYLuySM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -181,14 +203,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t5aSSr/VClLZE5utPxqUHO10Ude9AEKPls94VtJFHa8=
+			n9ZYOBiNg8uukka8wTdaExGjriPDpZse4W2iMM0ZUkI=
 			</data>
 		</dict>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			767X4VpRtgAvC/nHfF3OMvw60ntu/14cjG9DWegj8LA=
+			AOgwF6EDgbi7BLGW6vMMGkaH4inwJHSRGSs2mQ9cL4Q=
 			</data>
 		</dict>
 		<key>cnh.mp3</key>
