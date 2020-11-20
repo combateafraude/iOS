@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetector'
-  s.version          = '3.1.1'
+  s.version          = '4.1.1'
   s.summary          = 'DocumentDetector'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector/LICENSE' }
@@ -25,6 +25,5 @@ Pod::Spec.new do |s|
   
   s.dependency 'TensorFlowLiteSwift', '2.1.0'
   s.dependency 'Sentry', '5.2.0'
-  s.dependency 'Alamofire', '5.2'
  
 end
