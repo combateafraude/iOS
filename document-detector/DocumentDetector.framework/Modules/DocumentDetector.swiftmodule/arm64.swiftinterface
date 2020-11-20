@@ -5,7 +5,6 @@ import AVFoundation
 import AVKit
 import Accelerate
 import AdSupport
-import Alamofire
 import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
@@ -57,8 +56,8 @@ extension UIImage {
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
   public var baseUrl: Swift.String!
   public var relativeUrl: Swift.String!
-  public var method: Alamofire.HTTPMethod!
-  public var headers: Alamofire.HTTPHeaders!
+  public var method: Swift.String!
+  public var headers: [Swift.String]!
   public func getUrl(pathParam: Swift.String = "") -> Swift.String!
   @objc override dynamic public init()
   @objc deinit
