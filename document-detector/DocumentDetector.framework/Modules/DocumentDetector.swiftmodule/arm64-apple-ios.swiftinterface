@@ -90,6 +90,7 @@ extension UIImage {
   public var orientationThreshold: Swift.Double!
   public var stabilityThreshold: Swift.Double!
   public var luminosityThreshold: Swift.Float!
+  public var proxySettings: DocumentDetector.ProxySettings?
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -108,6 +109,7 @@ extension UIImage {
     public func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
     public func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
     public func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetector.Builder
+    public func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetector.Builder
     public func build() -> DocumentDetector.DocumentDetector
     @objc deinit
     @objc override dynamic public init()
@@ -188,6 +190,16 @@ extension UIImage {
 }
 @objc @_hasMissingDesignatedInitializers public class StorageReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
+}
+@objc public class ProxySettings : ObjectiveC.NSObject {
+  public var hostname: Swift.String!
+  public var port: Swift.Int!
+  public var user: Swift.String?
+  public var password: Swift.String?
+  public init(hostname: Swift.String, port: Swift.Int)
+  public func setAutentication(user: Swift.String, password: Swift.String) -> DocumentDetector.ProxySettings
+  @objc deinit
+  @objc override dynamic public init()
 }
 @objc public class DocumentDetectorStep : ObjectiveC.NSObject, Swift.Encodable {
   public var document: DocumentDetector.Document!
