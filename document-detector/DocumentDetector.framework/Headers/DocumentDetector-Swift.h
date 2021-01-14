@@ -376,6 +376,13 @@ SWIFT_CLASS("_TtC16DocumentDetector16PermissionReason")
 @end
 
 
+SWIFT_CLASS("_TtC16DocumentDetector13ProxySettings")
+@interface ProxySettings : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector21ServerFailureResponse")
 @interface ServerFailureResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
