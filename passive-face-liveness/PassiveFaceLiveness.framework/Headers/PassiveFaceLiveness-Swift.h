@@ -308,6 +308,13 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness16PermissionReason")
 @end
 
 
+SWIFT_CLASS("_TtC19PassiveFaceLiveness13ProxySettings")
+@interface ProxySettings : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness21ServerFailureResponse")
 @interface ServerFailureResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

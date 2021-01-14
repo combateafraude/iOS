@@ -105,6 +105,16 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   @objc deinit
   @objc override dynamic public init()
 }
+@objc public class ProxySettings : ObjectiveC.NSObject {
+  public var hostname: Swift.String!
+  public var port: Swift.Int!
+  public var user: Swift.String?
+  public var password: Swift.String?
+  public init(hostname: Swift.String, port: Swift.Int)
+  public func setAutentication(user: Swift.String, password: Swift.String) -> PassiveFaceLiveness.ProxySettings
+  @objc deinit
+  @objc override dynamic public init()
+}
 @objc @_hasMissingDesignatedInitializers public class PassiveFaceLiveness : ObjectiveC.NSObject, Swift.Encodable {
   public static var SDK_NAME: Swift.String
   public var mobileToken: Swift.String!
@@ -119,6 +129,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public var sensorStabilityMessage: Swift.String!
   public var stabilityThreshold: Swift.Double!
   public var beforePictureInterval: Foundation.TimeInterval!
+  public var proxySettings: PassiveFaceLiveness.ProxySettings?
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -132,6 +143,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
     public func setLayout(layout: PassiveFaceLiveness.PassiveFaceLivenessLayout) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setCaptureSettings(beforePictureInterval: Foundation.TimeInterval?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setProxySettings(proxySettings: PassiveFaceLiveness.ProxySettings?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLiveness
     @objc deinit
     @objc override dynamic public init()
