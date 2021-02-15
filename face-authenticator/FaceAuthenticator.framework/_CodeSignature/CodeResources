@@ -6,39 +6,47 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RXRv6HR6Di02d9QwKz6ZTFvoOXQ=
+		ABfrr/C4BzAFk7oqA7IQu4MgRHs=
 		</data>
 		<key>Headers/FaceAuthenticator-Swift.h</key>
 		<data>
-		I27/u5Edjmv2KnbAZo0H6pre8Uo=
+		zg3JYSvS9Q2cCJObUKzXYwsVpv4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8Pc2GKEf05duh3O7y6cakPRE2XA=
+		2nwfXRtmFlt0eB20UBf/2gT9psw=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Yl3NYbqgiXq99EEs+YkIAr2bacE=
+		8f+XmX0ZXko1/Uir7qcipUigsW4=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		Yl3NYbqgiXq99EEs+YkIAr2bacE=
+		8f+XmX0ZXko1/Uir7qcipUigsW4=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Pd+BhhVFW13OoKXZT+Mp6HpI46Y=
+		hNSIm/3rbT8YouddE5JmaUJc5y0=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		FXjjZ6MIU6vU0+phBAr3Vb++DGY=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Tt3cUnUW287Mf+VEbNch2ItVOq4=
+		7tM8S3LH+7fCvUA6DJhVvFsvG9U=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		Pd+BhhVFW13OoKXZT+Mp6HpI46Y=
+		hNSIm/3rbT8YouddE5JmaUJc5y0=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		FXjjZ6MIU6vU0+phBAr3Vb++DGY=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Tt3cUnUW287Mf+VEbNch2ItVOq4=
+		7tM8S3LH+7fCvUA6DJhVvFsvG9U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,56 +63,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gijlFWJnOQIJjUb02gRH2ORoO3s62Y80T/FEoUVgjNM=
+			10ru5+P4katwG5aGPlanIC2oh98urkNGQQ8+PvRNnAY=
 			</data>
 		</dict>
 		<key>Headers/FaceAuthenticator-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WUZL48Y4ESbOrA3I0kOajawf3jPk7xjZii/cNDCMop8=
+			7fL4eN7t1iqPlNvW22s42e8lMDkJI7NXL5j99ityfuI=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T1bsxgWzviU7kbmcPPHICJKthYgv6fdHj3lmNXoYmhE=
+			yB+jHTqL0bImnLxZbb3oVnBoQQWLAKUyGGF98QAH1SI=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T1bsxgWzviU7kbmcPPHICJKthYgv6fdHj3lmNXoYmhE=
+			yB+jHTqL0bImnLxZbb3oVnBoQQWLAKUyGGF98QAH1SI=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sngXDRej3g63ZVp3C8LfVljgDRQGJ6JriMOUBRw446I=
+			FHFr1oYEGSREF/o62aURkHX+XcI8FdY/eN4GL/bbG6s=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NmfY8tMXtnGrIonP4Kty82LF/iLjcb2XtMaHQWi/3ss=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ul6IjDjX3H3FY5uxqRXkUNecJ4BvXYjyqUnEQf/c/4s=
+			KhOWNUufpHyA2/npoN5fwoTaOIN27gNkC4YOT3PEn9E=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sngXDRej3g63ZVp3C8LfVljgDRQGJ6JriMOUBRw446I=
+			FHFr1oYEGSREF/o62aURkHX+XcI8FdY/eN4GL/bbG6s=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NmfY8tMXtnGrIonP4Kty82LF/iLjcb2XtMaHQWi/3ss=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ul6IjDjX3H3FY5uxqRXkUNecJ4BvXYjyqUnEQf/c/4s=
+			KhOWNUufpHyA2/npoN5fwoTaOIN27gNkC4YOT3PEn9E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
