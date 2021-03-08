@@ -63,6 +63,7 @@ extension UIImage {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CafApi : DocumentDetector.Api {
   public static var IMAGE_UPLOAD: DocumentDetector.CafApi
+  public static var TRANSACTIONS: DocumentDetector.CafApi
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class DocumentDetector : ObjectiveC.NSObject, Swift.Encodable {
@@ -90,6 +91,11 @@ extension UIImage {
   public var stabilityThreshold: Swift.Double!
   public var luminosityThreshold: Swift.Float!
   public var proxySettings: DocumentDetector.ProxySettings?
+  public var previewShow: Swift.Bool!
+  public var previewTitle: Swift.String!
+  public var previewSubtitle: Swift.String!
+  public var previewConfirmLabel: Swift.String!
+  public var previewRetryLabel: Swift.String!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -109,6 +115,7 @@ extension UIImage {
     public func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
     public func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetector.Builder
     public func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetector.Builder
+    public func showPreview(_ show: Swift.Bool, title: Swift.String?, subtitle: Swift.String?, confirmLabel: Swift.String?, retryLabel: Swift.String?) -> DocumentDetector.DocumentDetector.Builder
     public func build() -> DocumentDetector.DocumentDetector
     @objc deinit
     @objc override dynamic public init()
