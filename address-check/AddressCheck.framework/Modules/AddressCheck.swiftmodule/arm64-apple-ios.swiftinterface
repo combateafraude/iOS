@@ -14,6 +14,7 @@ public protocol AddressCollectionDelegate {
   func onError(error: AddressCheck.AddressCheckFailure)
 }
 public class AddressCollection {
+  public var delegate: AddressCheck.AddressCollectionDelegate?
   public init(addressCheck: AddressCheck.AddressCheck)
   public func setAddress(_ address: AddressCheck.Address)
   public static func setUserId(userId: Swift.String)

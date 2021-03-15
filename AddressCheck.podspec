@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AddressCheck'
-  s.version          = '4.0.0'
+  s.version          = '4.0.1'
   s.summary          = 'AddressCheck'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'address-check/LICENSE' }
