@@ -86,6 +86,9 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public static var IMAGE_UPLOAD: PassiveFaceLiveness.CafApi
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers public class LibraryReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers public class NetworkReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
   public var error: Swift.Error?
   @objc override dynamic public var description: Swift.String {
