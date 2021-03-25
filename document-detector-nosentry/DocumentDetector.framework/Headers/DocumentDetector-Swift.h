@@ -361,6 +361,11 @@ SWIFT_CLASS("_TtC16DocumentDetector5Label")
 @end
 
 
+SWIFT_CLASS("_TtC16DocumentDetector13LibraryReason")
+@interface LibraryReason : DocumentDetectorFailure
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector9MobileApi")
 @interface MobileApi : Api
 @end
