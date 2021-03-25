@@ -245,6 +245,11 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness7JWTUtil")
 @end
 
 
+SWIFT_CLASS("_TtC19PassiveFaceLiveness13LibraryReason")
+@interface LibraryReason : PassiveFaceLivenessFailure
+@end
+
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness9MobileApi")
 @interface MobileApi : Api
 @end
