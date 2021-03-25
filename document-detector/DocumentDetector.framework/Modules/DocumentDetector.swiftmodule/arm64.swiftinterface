@@ -169,6 +169,8 @@ extension UIImage {
   public static var RG_NEW_FULL: DocumentDetector.Label
   public static var RNE_BACK: DocumentDetector.Label
   public static var RNE_FRONT: DocumentDetector.Label
+  public static var RNM_BACK: DocumentDetector.Label
+  public static var RNM_FRONT: DocumentDetector.Label
   public var scanLabel: Swift.String!
   public var documentType: Swift.String?
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
@@ -250,6 +252,9 @@ extension UIImage {
   public init(response: [Swift.String : Any])
   @objc deinit
   @objc override dynamic public init()
+}
+@objc @_hasMissingDesignatedInitializers public class LibraryReason : DocumentDetector.DocumentDetectorFailure {
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class DocumentValidator : ObjectiveC.NSObject {
   public var isDocumentDetected: Swift.Bool!
