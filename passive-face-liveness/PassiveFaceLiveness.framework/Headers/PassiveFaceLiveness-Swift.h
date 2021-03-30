@@ -250,6 +250,12 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness13LibraryReason")
 @end
 
 
+SWIFT_CLASS("_TtC19PassiveFaceLiveness15MessageSettings")
+@interface MessageSettings : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness9MobileApi")
 @interface MobileApi : Api
 @end
