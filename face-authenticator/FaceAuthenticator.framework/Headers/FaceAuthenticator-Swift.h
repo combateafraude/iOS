@@ -296,6 +296,11 @@ SWIFT_CLASS("_TtC17FaceAuthenticator7JWTUtil")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator13LibraryReason")
+@interface LibraryReason : FaceAuthenticatorFailure
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator9MobileApi")
 @interface MobileApi : Api
 @end
