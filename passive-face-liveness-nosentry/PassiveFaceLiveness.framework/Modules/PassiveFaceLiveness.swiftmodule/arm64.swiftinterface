@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name PassiveFaceLiveness
 import AVFoundation
 import AVKit
@@ -33,6 +33,24 @@ extension UIImage {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class MessageSettings : ObjectiveC.NSObject {
+  public var stepName: Swift.String!
+  public var faceNotFoundMessage: Swift.String!
+  public var faceTooFarMessage: Swift.String!
+  public var faceNotFittedMessage: Swift.String!
+  public var holdItMessage: Swift.String!
+  public var invalidFaceMessage: Swift.String!
+  public var multipleFaceDetectedMessage: Swift.String!
+  @objc override dynamic public init()
+  public func setStepName(label: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  public func setFaceNotFoundMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  public func setFaceTooFarMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  public func setFaceNotFittedMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  public func setMultipleFaceDetectedMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  public func setHoldItMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  public func setInvalidFaceMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class UploadHelper {
   @objc deinit
 }
@@ -57,10 +75,10 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
-  @objc deinit
   @available(iOS 5.0, *)
   @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
   @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class StorageReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
   @objc deinit
@@ -71,13 +89,13 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public var signedResponse: Swift.String?
   public var trackingId: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class JWTUtil : ObjectiveC.NSObject {
   public static func payloadToDict(_ payload: Swift.String) -> [Swift.String : Any]?
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class InvalidTokenReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
   @objc deinit
@@ -104,8 +122,8 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
 @objc public class ServerFailureResponse : ObjectiveC.NSObject {
   public var message: Swift.String?
   public init(response: [Swift.String : Any])
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public class ProxySettings : ObjectiveC.NSObject {
   public var hostname: Swift.String!
@@ -114,8 +132,8 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public var password: Swift.String?
   public init(hostname: Swift.String, port: Swift.Int)
   public func setAutentication(user: Swift.String, password: Swift.String) -> PassiveFaceLiveness.ProxySettings
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class PassiveFaceLiveness : ObjectiveC.NSObject, Swift.Encodable {
   public static var SDK_NAME: Swift.String
@@ -137,6 +155,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public var previewSubtitle: Swift.String!
   public var previewConfirmLabel: Swift.String!
   public var previewRetryLabel: Swift.String!
+  public var messageSettings: PassiveFaceLiveness.MessageSettings!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -152,12 +171,13 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
     public func setCaptureSettings(beforePictureInterval: Foundation.TimeInterval?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setProxySettings(proxySettings: PassiveFaceLiveness.ProxySettings?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func showPreview(_ show: Swift.Bool, title: Swift.String?, subtitle: Swift.String?, confirmLabel: Swift.String?, retryLabel: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setMessageSettings(_ messageSettings: PassiveFaceLiveness.MessageSettings) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLiveness
-    @objc deinit
     @objc override dynamic public init()
+    @objc deinit
   }
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class PassiveFaceLivenessLayout : ObjectiveC.NSObject {
   public var closeImage: UIKit.UIImage?
@@ -171,8 +191,8 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public var status: Swift.String!
   public init(dict: [Swift.String : Any])
   public func isValidToken() -> Swift.Bool
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class ServerReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
   public var code: Swift.Int!
