@@ -31,6 +31,7 @@ extension UIImage {
   public var method: Swift.String!
   public var headers: [Swift.String]!
   public func getUrl(pathParam: Swift.String = "") -> Swift.String!
+  public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String!
   @objc override dynamic public init()
   @objc deinit
 }
@@ -115,9 +116,19 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   }
   @objc deinit
 }
+public enum Time {
+  case DEFAULT
+  case DAYS_30
+  public static func == (a: PassiveFaceLiveness.Time, b: PassiveFaceLiveness.Time) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MobileApi : PassiveFaceLiveness.Api {
   public static var TOKEN_VERIFICATION: PassiveFaceLiveness.MobileApi
   public static var FACE_LIVENESS: PassiveFaceLiveness.MobileApi
+  public static var IMAGE_UPLOAD: PassiveFaceLiveness.MobileApi
   @objc deinit
 }
 @objc public class ServerFailureResponse : ObjectiveC.NSObject {
@@ -139,9 +150,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
 @objc @_hasMissingDesignatedInitializers public class PassiveFaceLiveness : ObjectiveC.NSObject, Swift.Encodable {
   public static var SDK_NAME: Swift.String
   public var mobileToken: Swift.String!
-  public var personId: Swift.String?
-  public var personCPF: Swift.String?
-  public var personName: Swift.String?
+  public var peopleId: Swift.String?
   public var useAnalytics: Swift.Bool!
   public var requestTimeout: Foundation.TimeInterval!
   public var colorTheme: UIKit.UIColor!
@@ -159,12 +168,11 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public var previewConfirmLabel: Swift.String!
   public var previewRetryLabel: Swift.String!
   public var messageSettings: PassiveFaceLiveness.MessageSettings!
+  public var getUrlExpireTime: PassiveFaceLiveness.Time!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
-    public func setPersonId(personId: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
-    public func setPersonCPF(personCPF: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
-    public func setPersonName(personName: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setPeopleId(peopleId: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func enableSound(enableSound: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setNetworkSettings(requestTimeout: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
@@ -177,6 +185,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
     public func setProxySettings(proxySettings: PassiveFaceLiveness.ProxySettings?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func showPreview(_ show: Swift.Bool, title: Swift.String?, subtitle: Swift.String?, confirmLabel: Swift.String?, retryLabel: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setMessageSettings(_ messageSettings: PassiveFaceLiveness.MessageSettings) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setGetImageUrlExpireTime(_ expireTime: PassiveFaceLiveness.Time) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLiveness
     @objc override dynamic public init()
     @objc deinit
@@ -186,7 +195,9 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
 }
 @objc @_inheritsConvenienceInitializers public class PassiveFaceLivenessLayout : ObjectiveC.NSObject {
   public var closeImage: UIKit.UIImage?
+  public var font: Swift.String?
   @objc override dynamic public init()
+  public func setFont(name: Swift.String)
   public func changeMaskImages(greenMask: UIKit.UIImage?, whiteMask: UIKit.UIImage?, redMask: UIKit.UIImage?)
   public func changeSoundImages(soundOn: UIKit.UIImage?, soundOff: UIKit.UIImage?)
   @objc deinit
