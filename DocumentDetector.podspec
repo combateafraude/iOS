@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetector'
-  s.version          = '4.4.5'
+  s.version          = '4.4.6'
   s.summary          = 'DocumentDetector'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector/LICENSE' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
-  s.swift_version = '5'
+  s.swift_version = '5.3.2'
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'document-detector/DocumentDetector.framework'
 
