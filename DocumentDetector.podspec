@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetector'
-  s.version          = '4.4.6'
+  s.version          = '4.4.7'
   s.summary          = 'DocumentDetector'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector/LICENSE' }
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   s.dependency 'TensorFlowLiteSwift', '2.4.0'
-  s.dependency 'Sentry', '5.2.0'
+  s.dependency 'Sentry', '7.1.3'
  
 end
