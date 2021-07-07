@@ -150,7 +150,9 @@ public enum Time {
 @objc @_hasMissingDesignatedInitializers public class PassiveFaceLiveness : ObjectiveC.NSObject, Swift.Encodable {
   public static var SDK_NAME: Swift.String
   public var mobileToken: Swift.String!
-  public var peopleId: Swift.String?
+  public var personId: Swift.String?
+  public var personCPF: Swift.String?
+  public var personName: Swift.String?
   public var useAnalytics: Swift.Bool!
   public var requestTimeout: Foundation.TimeInterval!
   public var colorTheme: UIKit.UIColor!
@@ -172,7 +174,9 @@ public enum Time {
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
-    public func setPeopleId(peopleId: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setPersonId(personId: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setPersonCPF(personCPF: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setPersonName(personName: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func enableSound(enableSound: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setNetworkSettings(requestTimeout: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
