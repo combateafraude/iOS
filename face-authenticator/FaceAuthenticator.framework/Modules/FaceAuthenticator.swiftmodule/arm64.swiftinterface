@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name FaceAuthenticator
 import AVFoundation
 import AVKit
@@ -28,6 +28,26 @@ import Vision
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class InvalidConfigurationReason : FaceAuthenticator.FaceAuthenticatorFailure {
+  @objc deinit
+}
+public protocol FaceAuthenticatorCustomViewDelegate {
+  func show(loading show: Swift.Bool)
+  func show(message text: Swift.String)
+  func show(stepName text: Swift.String)
+  func show(mask type: FaceAuthenticator.MaskType)
+  func faceAuthenticatorController(didFinishWithResults results: FaceAuthenticator.FaceAuthenticatorResult)
+  func faceAuthenticatorControllerDidCancel()
+  func faceAuthenticatorController(didFailWithError error: FaceAuthenticator.FaceAuthenticatorFailure)
+}
+@objc public class FaceAuthenticatorCustomViewController : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  public init(faceAuthenticator: FaceAuthenticator.FaceAuthenticator, viewController: UIKit.UIViewController, previewView: UIKit.UIView)
+  public func viewDidLayoutSubviews()
+  public func viewWillDisappear()
+  public func viewDidAppear()
+  public func cancelButtonClick()
+  @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : FaceAuthenticator.Api {
@@ -74,7 +94,7 @@ import Vision
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthenticator : ObjectiveC.NSObject, Swift.Encodable {
   public static var SDK_NAME: Swift.String
-  public var peopleId: Swift.String!
+  public var personId: Swift.String!
   public var mobileToken: Swift.String!
   public var useAnalytics: Swift.Bool!
   public var requestTimeout: Foundation.TimeInterval!
@@ -89,7 +109,7 @@ import Vision
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
-    public func setPeopleId(_ peopleId: Swift.String) -> FaceAuthenticator.FaceAuthenticator.Builder
+    public func setPersonId(_ personId: Swift.String) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setNetworkSettings(requestTimeout: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setColorTheme(color: UIKit.UIColor) -> FaceAuthenticator.FaceAuthenticator.Builder
@@ -115,6 +135,16 @@ import Vision
   public func changeMaskImages(greenMask: UIKit.UIImage?, whiteMask: UIKit.UIImage?, redMask: UIKit.UIImage?)
   public func changeSoundImages(soundOn: UIKit.UIImage?, soundOff: UIKit.UIImage?)
   @objc deinit
+}
+public enum MaskType {
+  case normal
+  case success
+  case error
+  public static func == (a: FaceAuthenticator.MaskType, b: FaceAuthenticator.MaskType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MobileApi : FaceAuthenticator.Api {
   public static var TOKEN_VERIFICATION: FaceAuthenticator.MobileApi
