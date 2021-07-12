@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name DocumentDetector
 import AVFoundation
 import AVKit
@@ -78,7 +78,7 @@ extension UIImage {
 @objc @_hasMissingDesignatedInitializers public class DocumentDetector : ObjectiveC.NSObject, Swift.Encodable {
   public static var SDK_NAME: Swift.String
   public var mobileToken: Swift.String!
-  public var peopleId: Swift.String?
+  public var personId: Swift.String?
   public var useAnalytics: Swift.Bool!
   public var requestTimeout: Foundation.TimeInterval!
   public var colorTheme: UIKit.UIColor!
@@ -110,7 +110,7 @@ extension UIImage {
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
-    public func setPeopleId(peopleId: Swift.String?) -> DocumentDetector.DocumentDetector.Builder
+    public func setPersonId(personId: Swift.String?) -> DocumentDetector.DocumentDetector.Builder
     public func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> DocumentDetector.DocumentDetector.Builder
     public func setNetworkSettings(requestTimeout: Foundation.TimeInterval) -> DocumentDetector.DocumentDetector.Builder
     public func setColorTheme(color: UIKit.UIColor) -> DocumentDetector.DocumentDetector.Builder
@@ -168,6 +168,16 @@ extension UIImage {
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
+}
+public enum MaskType {
+  case normal
+  case success
+  case error
+  public static func == (a: DocumentDetector.MaskType, b: DocumentDetector.MaskType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc @_hasMissingDesignatedInitializers public class Label : ObjectiveC.NSObject, Swift.Encodable {
   public static var BLANK: DocumentDetector.Label
@@ -274,6 +284,28 @@ public enum Time {
 @objc public class ServerFailureResponse : ObjectiveC.NSObject {
   public var message: Swift.String?
   public init(response: [Swift.String : Any])
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol DocumentDetectorCustomViewControllerDelegate {
+  func show(loading show: Swift.Bool)
+  func show(message text: Swift.String)
+  func show(stepName text: Swift.String)
+  func show(mask type: DocumentDetector.MaskType)
+  func documentDetectionController(didFinishWithResults results: DocumentDetector.DocumentDetectorResult)
+  func documentDetectionControllerDidCancel()
+  func documentDetectionController(didFailWithError error: DocumentDetector.DocumentDetectorFailure)
+}
+@objc public class DocumentDetectorCustomViewController : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  public init(documentDetector: DocumentDetector.DocumentDetector, viewController: UIKit.UIViewController, previewView: UIKit.UIView)
+  public func viewDidLayoutSubviews()
+  public func viewWillAppear()
+  public func viewWillDisappear()
+  public func viewDidAppear()
+  public func cancelButtonClick()
+  @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
+  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
   @objc override dynamic public init()
   @objc deinit
 }
