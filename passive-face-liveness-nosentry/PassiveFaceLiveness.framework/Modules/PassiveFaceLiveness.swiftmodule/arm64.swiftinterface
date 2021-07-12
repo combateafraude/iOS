@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name PassiveFaceLiveness
 import AVFoundation
 import AVKit
@@ -13,6 +13,12 @@ import Foundation
 import Swift
 import UIKit
 import Vision
+public protocol PassiveFaceLivenessViewControllerDelegate {
+  func showLoading(show: Swift.Bool)
+  func showMessage(message: Swift.String)
+  func showStepName(name: Swift.String)
+  func showMask(type: PassiveFaceLiveness.MaskType)
+}
 extension UIImage {
   public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage
 }
@@ -56,6 +62,26 @@ extension UIImage {
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class PermissionReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
+  @objc deinit
+}
+public protocol PassiveFaceLivenessCustomViewDelegate {
+  func show(loading show: Swift.Bool)
+  func show(message text: Swift.String)
+  func show(stepName text: Swift.String)
+  func show(mask type: PassiveFaceLiveness.MaskType)
+  func passiveFaceLivenessController(didFinishWithResults results: PassiveFaceLiveness.PassiveFaceLivenessResult)
+  func passiveFaceLivenessControllerDidCancel()
+  func passiveFaceLivenessController(didFailWithError error: PassiveFaceLiveness.PassiveFaceLivenessFailure)
+}
+@objc public class PassiveFaceLivenessCustomViewController : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  public init(passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLiveness, viewController: UIKit.UIViewController, previewView: UIKit.UIView)
+  public func viewWillDisappear()
+  public func viewDidAppear()
+  public func viewDidLayoutSubviews()
+  public func cancelButtonClick()
+  @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : PassiveFaceLiveness.Api {
@@ -119,6 +145,16 @@ public enum Time {
   case DEFAULT
   case DAYS_30
   public static func == (a: PassiveFaceLiveness.Time, b: PassiveFaceLiveness.Time) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum MaskType {
+  case normal
+  case success
+  case error
+  public static func == (a: PassiveFaceLiveness.MaskType, b: PassiveFaceLiveness.MaskType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
