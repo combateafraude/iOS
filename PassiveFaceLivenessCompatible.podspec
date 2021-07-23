@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PassiveFaceLivenessCompatible'
-  s.version          = '3.4.1'
+  s.version          = '3.4.2'
   s.summary          = 'PassiveFaceLivenessCompatible'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'passive-face-liveness-compatible/LICENSE' }
