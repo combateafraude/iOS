@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetectorCompatible'
-  s.version          = '4.5.1'
+  s.version          = '4.5.2'
   s.summary          = 'DocumentDetectorCompatible'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector-compatible/LICENSE' }
