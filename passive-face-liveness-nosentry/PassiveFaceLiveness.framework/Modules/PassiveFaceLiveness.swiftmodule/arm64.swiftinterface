@@ -18,6 +18,7 @@ public protocol PassiveFaceLivenessViewControllerDelegate {
   func showMessage(message: Swift.String)
   func showStepName(name: Swift.String)
   func showMask(type: PassiveFaceLiveness.MaskType)
+  func show(manualCaptureButton hidden: Swift.Bool)
 }
 extension UIImage {
   public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage
@@ -69,6 +70,7 @@ public protocol PassiveFaceLivenessCustomViewDelegate {
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
   func show(mask type: PassiveFaceLiveness.MaskType)
+  func show(manualCaptureButton hidden: Swift.Bool)
   func passiveFaceLivenessController(didFinishWithResults results: PassiveFaceLiveness.PassiveFaceLivenessResult)
   func passiveFaceLivenessControllerDidCancel()
   func passiveFaceLivenessController(didFailWithError error: PassiveFaceLiveness.PassiveFaceLivenessFailure)
@@ -80,6 +82,7 @@ public protocol PassiveFaceLivenessCustomViewDelegate {
   public func viewDidLayoutSubviews()
   public func cancelButtonClick()
   @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  public func clickButtonManualCapture()
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
   @objc override dynamic public init()
   @objc deinit
@@ -206,6 +209,8 @@ public enum MaskType {
   public var previewRetryLabel: Swift.String!
   public var messageSettings: PassiveFaceLiveness.MessageSettings!
   public var getUrlExpireTime: PassiveFaceLiveness.Time!
+  public var enableManualCapture: Swift.Bool!
+  public var manualCaptureTime: Foundation.TimeInterval!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -225,6 +230,7 @@ public enum MaskType {
     public func showPreview(_ show: Swift.Bool, title: Swift.String?, subtitle: Swift.String?, confirmLabel: Swift.String?, retryLabel: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setMessageSettings(_ messageSettings: PassiveFaceLiveness.MessageSettings) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setGetImageUrlExpireTime(_ expireTime: PassiveFaceLiveness.Time) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLiveness
     @objc override dynamic public init()
     @objc deinit
