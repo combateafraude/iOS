@@ -59,6 +59,10 @@ extension UIImage {
   public var lowQualityDocumentMessage: Swift.String!
   public var uploadingImageMessage: Swift.String!
   @objc override dynamic public init()
+  public func setFitTheDocumentMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setVerifyingQualityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setLowQualityDocumentMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setUploadingImageMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
@@ -108,6 +112,8 @@ extension UIImage {
   public var previewRetryLabel: Swift.String!
   public var messageSettings: DocumentDetector.MessageSettings!
   public var getUrlExpireTime: DocumentDetector.Time!
+  public var enableManualCapture: Swift.Bool!
+  public var manualCaptureTime: Foundation.TimeInterval!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -130,6 +136,7 @@ extension UIImage {
     public func showPreview(_ show: Swift.Bool, title: Swift.String?, subtitle: Swift.String?, confirmLabel: Swift.String?, retryLabel: Swift.String?) -> DocumentDetector.DocumentDetector.Builder
     public func setMessageSettings(_ messageSettings: DocumentDetector.MessageSettings) -> DocumentDetector.DocumentDetector.Builder
     public func setGetImageUrlExpireTime(_ expireTime: DocumentDetector.Time) -> DocumentDetector.DocumentDetector.Builder
+    public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetector.Builder
     public func build() -> DocumentDetector.DocumentDetector
     @objc override dynamic public init()
     @objc deinit
@@ -208,7 +215,7 @@ public enum MaskType {
 }
 @objc @_hasMissingDesignatedInitializers public class Capture : ObjectiveC.NSObject, Swift.Encodable {
   public var image: UIKit.UIImage
-  public var scannedLabel: Swift.String!
+  public var scannedLabel: Swift.String?
   public var imageUrl: Swift.String?
   public var quality: Swift.Double!
   public func encode(to encoder: Swift.Encoder) throws
@@ -293,6 +300,7 @@ public protocol DocumentDetectorCustomViewControllerDelegate {
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
   func show(mask type: DocumentDetector.MaskType)
+  func show(manualCaptureButton hidden: Swift.Bool)
   func documentDetectionController(didFinishWithResults results: DocumentDetector.DocumentDetectorResult)
   func documentDetectionControllerDidCancel()
   func documentDetectionController(didFailWithError error: DocumentDetector.DocumentDetectorFailure)
@@ -305,6 +313,7 @@ public protocol DocumentDetectorCustomViewControllerDelegate {
   public func viewDidAppear()
   public func cancelButtonClick()
   @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  public func clickButtonManualCapture()
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
   @objc override dynamic public init()
