@@ -114,6 +114,7 @@ extension UIImage {
   public var getUrlExpireTime: DocumentDetector.Time!
   public var enableManualCapture: Swift.Bool!
   public var manualCaptureTime: Foundation.TimeInterval!
+  public var enableMultiLanguage: Swift.Bool!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -137,6 +138,7 @@ extension UIImage {
     public func setMessageSettings(_ messageSettings: DocumentDetector.MessageSettings) -> DocumentDetector.DocumentDetector.Builder
     public func setGetImageUrlExpireTime(_ expireTime: DocumentDetector.Time) -> DocumentDetector.DocumentDetector.Builder
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetector.Builder
+    public func enableMultiLanguage(enable: Swift.Bool) -> DocumentDetector.DocumentDetector.Builder
     public func build() -> DocumentDetector.DocumentDetector
     @objc override dynamic public init()
     @objc deinit
@@ -259,6 +261,7 @@ public enum Time {
   public var audio: Foundation.URL!
   public init(document: DocumentDetector.Document, stepLabel: Swift.String?, illustration: UIKit.UIImage?, audio: Foundation.URL?)
   public func encode(to encoder: Swift.Encoder) throws
+  public func resetAttributesToDefault()
   @objc override dynamic public init()
   @objc deinit
 }
@@ -286,6 +289,7 @@ public enum Time {
   public var audio: Foundation.URL!
   public static func getByLabel(label: DocumentDetector.Label) -> DocumentDetector.Document?
   public static func allDocuments() -> [DocumentDetector.Document]
+  public func setDefaultMessages()
   @objc override dynamic public init()
   @objc deinit
 }
