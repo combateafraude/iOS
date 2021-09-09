@@ -14,7 +14,7 @@ import Sentry
 import Swift
 import UIKit
 import Vision
-public protocol PassiveFaceLivenessViewControllerDelegate {
+public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   func showLoading(show: Swift.Bool)
   func showMessage(message: Swift.String)
   func showStepName(name: Swift.String)
@@ -66,7 +66,7 @@ extension UIImage {
 @objc @_hasMissingDesignatedInitializers public class PermissionReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
   @objc deinit
 }
-public protocol PassiveFaceLivenessCustomViewDelegate {
+public protocol PassiveFaceLivenessCustomViewDelegate : AnyObject {
   func show(loading show: Swift.Bool)
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
