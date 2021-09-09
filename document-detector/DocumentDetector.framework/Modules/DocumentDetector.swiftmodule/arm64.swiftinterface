@@ -299,7 +299,7 @@ public enum Time {
   @objc override dynamic public init()
   @objc deinit
 }
-public protocol DocumentDetectorCustomViewControllerDelegate {
+public protocol DocumentDetectorCustomViewControllerDelegate : AnyObject {
   func show(loading show: Swift.Bool)
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
