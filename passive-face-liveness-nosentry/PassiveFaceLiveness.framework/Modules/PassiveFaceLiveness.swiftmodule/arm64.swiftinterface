@@ -13,7 +13,7 @@ import Foundation
 import Swift
 import UIKit
 import Vision
-public protocol PassiveFaceLivenessViewControllerDelegate {
+public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   func showLoading(show: Swift.Bool)
   func showMessage(message: Swift.String)
   func showStepName(name: Swift.String)
@@ -65,7 +65,7 @@ extension UIImage {
 @objc @_hasMissingDesignatedInitializers public class PermissionReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
   @objc deinit
 }
-public protocol PassiveFaceLivenessCustomViewDelegate {
+public protocol PassiveFaceLivenessCustomViewDelegate : AnyObject {
   func show(loading show: Swift.Bool)
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
@@ -211,6 +211,7 @@ public enum MaskType {
   public var getUrlExpireTime: PassiveFaceLiveness.Time!
   public var enableManualCapture: Swift.Bool!
   public var manualCaptureTime: Foundation.TimeInterval!
+  public var enableMultiLanguage: Swift.Bool!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -231,6 +232,7 @@ public enum MaskType {
     public func setMessageSettings(_ messageSettings: PassiveFaceLiveness.MessageSettings) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setGetImageUrlExpireTime(_ expireTime: PassiveFaceLiveness.Time) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func enableMultiLanguage(enable: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLiveness
     @objc override dynamic public init()
     @objc deinit
