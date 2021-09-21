@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name PassiveFaceLiveness
 import AVFoundation
 import AVKit
@@ -14,6 +14,7 @@ import Sentry
 import Swift
 import UIKit
 import Vision
+import _Concurrency
 public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   func showLoading(show: Swift.Bool)
   func showMessage(message: Swift.String)
@@ -21,7 +22,7 @@ public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   func showMask(type: PassiveFaceLiveness.MaskType)
   func show(manualCaptureButton hidden: Swift.Bool)
 }
-extension UIImage {
+extension UIKit.UIImage {
   public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PassiveFaceLivenessFailure : ObjectiveC.NSObject, Swift.Encodable {
@@ -39,7 +40,6 @@ extension UIImage {
   public var headers: [Swift.String]!
   public func getUrl(pathParam: Swift.String = "") -> Swift.String!
   public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String!
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class MessageSettings : ObjectiveC.NSObject {
@@ -85,7 +85,6 @@ public protocol PassiveFaceLivenessCustomViewDelegate : AnyObject {
   @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   public func clickButtonManualCapture()
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : PassiveFaceLiveness.Api {
@@ -98,17 +97,14 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   func passiveFaceLivenessControllerDidCancel(_ passiveFacelivenessController: PassiveFaceLiveness.PassiveFaceLivenessController)
   func passiveFaceLivenessController(_ passiveFacelivenessController: PassiveFaceLiveness.PassiveFaceLivenessController, didFailWithError error: PassiveFaceLiveness.PassiveFaceLivenessFailure)
 }
-@objc final public class PassiveFaceLivenessController : UIKit.UINavigationController {
-  weak final public var passiveFaceLivenessDelegate: PassiveFaceLiveness.PassiveFaceLivenessControllerDelegate?
-  required public init(passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLiveness)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @objc get
+@objc @_Concurrency.MainActor(unsafe) final public class PassiveFaceLivenessController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) weak final public var passiveFaceLivenessDelegate: PassiveFaceLiveness.PassiveFaceLivenessControllerDelegate?
+  @_Concurrency.MainActor(unsafe) required public init(passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLiveness)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
-  @available(iOS 5.0, *)
-  @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
-  @objc override dynamic public init(rootViewController: UIKit.UIViewController)
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class StorageReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
@@ -120,7 +116,6 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public var signedResponse: Swift.String?
   public var trackingId: Swift.String?
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class JWTUtil : ObjectiveC.NSObject {
@@ -173,7 +168,6 @@ public enum MaskType {
 @objc public class ServerFailureResponse : ObjectiveC.NSObject {
   public var message: Swift.String?
   public init(response: [Swift.String : Any])
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class ProxySettings : ObjectiveC.NSObject {
@@ -183,7 +177,6 @@ public enum MaskType {
   public var password: Swift.String?
   public init(hostname: Swift.String, port: Swift.Int)
   public func setAutentication(user: Swift.String, password: Swift.String) -> PassiveFaceLiveness.ProxySettings
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class PassiveFaceLiveness : ObjectiveC.NSObject, Swift.Encodable {
@@ -235,10 +228,8 @@ public enum MaskType {
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func enableMultiLanguage(enable: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLiveness
-    @objc override dynamic public init()
     @objc deinit
   }
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class PassiveFaceLivenessLayout : ObjectiveC.NSObject {
@@ -255,7 +246,6 @@ public enum MaskType {
   public var status: Swift.String!
   public init(dict: [Swift.String : Any])
   public func isValidToken() -> Swift.Bool
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class ServerReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
