@@ -52,15 +52,17 @@ extension UIKit.UIImage {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class MessageSettings : ObjectiveC.NSObject {
-  public var fitTheDocumentMessage: Swift.String!
-  public var verifyingQualityMessage: Swift.String!
-  public var lowQualityDocumentMessage: Swift.String!
-  public var uploadingImageMessage: Swift.String!
   @objc override dynamic public init()
+  public func setWaitMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   public func setFitTheDocumentMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   public func setVerifyingQualityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   public func setLowQualityDocumentMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   public func setUploadingImageMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func getWaitMessage() -> Swift.String!
+  public func getFitTheDocumentMessage() -> Swift.String!
+  public func getVerifyingQualityMessage() -> Swift.String!
+  public func getLowQualityDocumentMessage() -> Swift.String!
+  public func getUploadingImageMessage() -> Swift.String!
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
@@ -131,8 +133,8 @@ extension UIKit.UIImage {
     public func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
     public func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetector.Builder
     public func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetector.Builder
-    public func showPreview(_ show: Swift.Bool, title: Swift.String?, subtitle: Swift.String?, confirmLabel: Swift.String?, retryLabel: Swift.String?) -> DocumentDetector.DocumentDetector.Builder
-    public func setMessageSettings(_ messageSettings: DocumentDetector.MessageSettings) -> DocumentDetector.DocumentDetector.Builder
+    public func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> DocumentDetector.DocumentDetector.Builder
+    public func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil) -> DocumentDetector.DocumentDetector.Builder
     public func setGetImageUrlExpireTime(_ expireTime: DocumentDetector.Time) -> DocumentDetector.DocumentDetector.Builder
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetector.Builder
     public func enableMultiLanguage(enable: Swift.Bool) -> DocumentDetector.DocumentDetector.Builder
