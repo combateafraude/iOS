@@ -30,11 +30,15 @@ import _Concurrency
 @objc @_hasMissingDesignatedInitializers public class InvalidConfigurationReason : FaceAuthenticator.FaceAuthenticatorFailure {
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers public class InvalidFaceReason : FaceAuthenticator.FaceAuthenticatorFailure {
+  @objc deinit
+}
 public protocol FaceAuthenticatorCustomViewDelegate {
   func show(loading show: Swift.Bool)
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
   func show(mask type: FaceAuthenticator.MaskType)
+  func show(manualCaptureButton hidden: Swift.Bool)
   func faceAuthenticatorController(didFinishWithResults results: FaceAuthenticator.FaceAuthenticatorResult)
   func faceAuthenticatorControllerDidCancel()
   func faceAuthenticatorController(didFailWithError error: FaceAuthenticator.FaceAuthenticatorFailure)
@@ -46,6 +50,7 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public func viewDidAppear()
   public func cancelButtonClick()
   @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  public func clickButtonManualCapture()
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
   @objc deinit
 }
@@ -102,6 +107,8 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public var sensorStabilityMessage: Swift.String!
   public var stabilityThreshold: Swift.Double!
   public var beforePictureInterval: Foundation.TimeInterval!
+  public var enableManualCapture: Swift.Bool!
+  public var manualCaptureTime: Foundation.TimeInterval!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -115,6 +122,7 @@ public protocol FaceAuthenticatorCustomViewDelegate {
     public func setLayout(layout: FaceAuthenticator.FaceAuthenticatorLayout) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setCaptureSettings(beforePictureInterval: Foundation.TimeInterval!) -> FaceAuthenticator.FaceAuthenticator.Builder
+    public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func build() -> FaceAuthenticator.FaceAuthenticator
     @objc deinit
   }

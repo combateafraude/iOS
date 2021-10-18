@@ -301,6 +301,11 @@ SWIFT_CLASS("_TtC17FaceAuthenticator26InvalidConfigurationReason")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator17InvalidFaceReason")
+@interface InvalidFaceReason : FaceAuthenticatorFailure
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator18InvalidTokenReason")
 @interface InvalidTokenReason : FaceAuthenticatorFailure
 @end
