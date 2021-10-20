@@ -370,6 +370,7 @@ SWIFT_CLASS("_TtC16DocumentDetector30DocumentDetectorViewController")
 /// stop session when controller is closed
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
+- (void)cancelButtonClick;
 /// receive camera data
 - (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
 - (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output willCapturePhotoForResolvedSettings:(AVCaptureResolvedPhotoSettings * _Nonnull)resolvedSettings;
