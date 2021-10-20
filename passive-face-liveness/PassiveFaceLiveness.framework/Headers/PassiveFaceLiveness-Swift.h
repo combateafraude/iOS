@@ -189,6 +189,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AVFoundation;
+@import CoreGraphics;
 @import CoreMedia;
 @import ObjectiveC;
 @import UIKit;
@@ -328,6 +329,33 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness25PassiveFaceLivenessResult")
 @interface PassiveFaceLivenessResult : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSNumber;
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness33PassiveFaceLivenessViewController")
+@interface PassiveFaceLivenessViewController : UIViewController <AVCapturePhotoCaptureDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+/// configure the size of camera layer
+- (void)viewDidLayoutSubviews;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (void)cancelButtonClick;
+/// Receive output from screen capture
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
+- (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhoto:(AVCapturePhoto * _Nonnull)photo error:(NSError * _Nullable)error;
+@end
+
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness18PassiveOverlayView")
+@interface PassiveOverlayView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 

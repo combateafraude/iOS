@@ -22,8 +22,35 @@ public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   func showMask(type: PassiveFaceLiveness.MaskType)
   func show(manualCaptureButton hidden: Swift.Bool)
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PassiveFaceLivenessViewController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  @_Concurrency.MainActor(unsafe) weak public var viewDelegate: PassiveFaceLiveness.PassiveFaceLivenessViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
+  @objc @_Concurrency.MainActor(unsafe) public func cancelButtonClick()
+  @_Concurrency.MainActor(unsafe) @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor(unsafe) public func clickButtonManualCapture()
+  @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+  @objc deinit
+}
 extension UIKit.UIImage {
   public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage
+}
+@objc @_Concurrency.MainActor(unsafe) open class PassiveOverlayView : UIKit.UIView, PassiveFaceLiveness.PassiveFaceLivenessViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) open func showLoading(show: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func showMessage(message: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func showStepName(name: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func showMask(type: PassiveFaceLiveness.MaskType)
+  @_Concurrency.MainActor(unsafe) open func show(manualCaptureButton hidden: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) weak public var viewController: PassiveFaceLiveness.PassiveFaceLivenessViewController?
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PassiveFaceLivenessFailure : ObjectiveC.NSObject, Swift.Encodable {
   public var message: Swift.String!
@@ -208,6 +235,7 @@ public enum MaskType {
   public var enableManualCapture: Swift.Bool!
   public var manualCaptureTime: Foundation.TimeInterval!
   public var enableMultiLanguage: Swift.Bool!
+  public var overlay: PassiveFaceLiveness.PassiveOverlayView!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -229,6 +257,7 @@ public enum MaskType {
     public func setGetImageUrlExpireTime(_ expireTime: PassiveFaceLiveness.Time) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func enableMultiLanguage(enable: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setOverlay(overlay: PassiveFaceLiveness.PassiveOverlayView) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLiveness
     @objc deinit
   }
