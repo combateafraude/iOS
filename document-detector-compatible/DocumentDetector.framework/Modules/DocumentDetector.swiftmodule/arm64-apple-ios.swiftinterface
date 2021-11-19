@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name DocumentDetector
 import AVFoundation
 import AVKit
@@ -17,6 +17,21 @@ import TensorFlowLite
 import UIKit
 import VideoToolbox
 import Vision
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class DocumentDetectorViewController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public func viewDidLayoutSubviews()
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  public func clickButtonManualCapture()
+  @objc public func cancelButtonClick()
+  @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
+  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+  @objc deinit
+}
 extension UIImage {
   public convenience init?(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
@@ -44,21 +59,27 @@ extension UIImage {
   @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
-  @objc deinit
   @available(iOS 5.0, *)
   @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
   @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class ServerReason : DocumentDetector.DocumentDetectorFailure {
   public var code: Swift.Int!
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class MessageSettings : ObjectiveC.NSObject {
-  public var fitTheDocumentMessage: Swift.String!
-  public var verifyingQualityMessage: Swift.String!
-  public var lowQualityDocumentMessage: Swift.String!
-  public var uploadingImageMessage: Swift.String!
   @objc override dynamic public init()
+  public func setWaitMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setFitTheDocumentMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setVerifyingQualityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setLowQualityDocumentMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setUploadingImageMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func getWaitMessage() -> Swift.String!
+  public func getFitTheDocumentMessage() -> Swift.String!
+  public func getVerifyingQualityMessage() -> Swift.String!
+  public func getLowQualityDocumentMessage() -> Swift.String!
+  public func getUploadingImageMessage() -> Swift.String!
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
@@ -108,6 +129,10 @@ extension UIImage {
   public var previewRetryLabel: Swift.String!
   public var messageSettings: DocumentDetector.MessageSettings!
   public var getUrlExpireTime: DocumentDetector.Time!
+  public var enableManualCapture: Swift.Bool!
+  public var manualCaptureTime: Foundation.TimeInterval!
+  public var enableMultiLanguage: Swift.Bool!
+  public var overlay: DocumentDetector.DocumentOverlayView!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -127,15 +152,18 @@ extension UIImage {
     public func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
     public func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetector.Builder
     public func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetector.Builder
-    public func showPreview(_ show: Swift.Bool, title: Swift.String?, subtitle: Swift.String?, confirmLabel: Swift.String?, retryLabel: Swift.String?) -> DocumentDetector.DocumentDetector.Builder
-    public func setMessageSettings(_ messageSettings: DocumentDetector.MessageSettings) -> DocumentDetector.DocumentDetector.Builder
+    public func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> DocumentDetector.DocumentDetector.Builder
+    public func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage_RG_FRONT: Swift.String? = nil, wrongDocumentMessage_RG_BACK: Swift.String? = nil, wrongDocumentMessage_RG_FULL: Swift.String? = nil, wrongDocumentMessage_CNH_FRONT: Swift.String? = nil, wrongDocumentMessage_CNH_BACK: Swift.String? = nil, wrongDocumentMessage_CNH_FULL: Swift.String? = nil, wrongDocumentMessage_CRLV: Swift.String? = nil, wrongDocumentMessage_RNE_FRONT: Swift.String? = nil, wrongDocumentMessage_RNE_BACK: Swift.String? = nil) -> DocumentDetector.DocumentDetector.Builder
     public func setGetImageUrlExpireTime(_ expireTime: DocumentDetector.Time) -> DocumentDetector.DocumentDetector.Builder
+    public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetector.Builder
+    public func enableMultiLanguage(enable: Swift.Bool) -> DocumentDetector.DocumentDetector.Builder
+    public func setOverlay(overlay: DocumentDetector.DocumentOverlayView) -> DocumentDetector.DocumentDetector.Builder
     public func build() -> DocumentDetector.DocumentDetector
-    @objc deinit
     @objc override dynamic public init()
+    @objc deinit
   }
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MobileApi : DocumentDetector.Api {
   public static var TOKEN_VERIFICATION: DocumentDetector.MobileApi
@@ -148,8 +176,8 @@ extension UIImage {
   public var status: Swift.String!
   public init(dict: [Swift.String : Any])
   public func isValidToken() -> Swift.Bool
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class DocumentDetectorLayout : ObjectiveC.NSObject {
   public var closeImage: UIKit.UIImage?
@@ -166,8 +194,8 @@ extension UIImage {
   public var type: Swift.String!
   public var captures: [DocumentDetector.Capture]!
   public var trackingId: Swift.String?
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
 public enum MaskType {
@@ -175,10 +203,10 @@ public enum MaskType {
   case success
   case error
   public static func == (a: DocumentDetector.MaskType, b: DocumentDetector.MaskType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_hasMissingDesignatedInitializers public class Label : ObjectiveC.NSObject, Swift.Encodable {
   public static var BLANK: DocumentDetector.Label
@@ -203,17 +231,36 @@ public enum MaskType {
   public func encode(to encoder: Swift.Encoder) throws
   public static func allLabels() -> [DocumentDetector.Label]
   public static func allScanLabels() -> [Swift.String]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Capture : ObjectiveC.NSObject, Swift.Encodable {
   public var image: UIKit.UIImage
-  public var scannedLabel: Swift.String!
+  public var scannedLabel: Swift.String?
   public var imageUrl: Swift.String?
   public var quality: Swift.Double!
   public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
+}
+@objc open class DocumentOverlayView : UIKit.UIView, DocumentDetector.DocumentDetectorCustomViewControllerDelegate {
+  open func show(loading show: Swift.Bool)
+  open func show(message text: Swift.String)
+  open func show(stepName text: Swift.String)
+  open func show(mask type: DocumentDetector.MaskType)
+  open func show(manualCaptureButton hidden: Swift.Bool)
+  open func updateOverlay(newSize: CoreGraphics.CGSize)
+  open func setCurrentActionChecked(checked: Swift.Bool)
+  open func setCurrentAction(text: Swift.String, checked: Swift.Bool)
+  open func setLastAction(text: Swift.String)
+  open func documentDetectionController(didFinishWithResults results: DocumentDetector.DocumentDetectorResult)
+  open func documentDetectionControllerDidCancel()
+  open func documentDetectionController(didFailWithError error: DocumentDetector.DocumentDetectorFailure)
+  weak public var viewController: DocumentDetector.DocumentDetectorViewController?
+  @objc dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class UploadHelper {
   @objc deinit
@@ -222,10 +269,10 @@ public enum Time {
   case DEFAULT
   case DAYS_30
   public static func == (a: DocumentDetector.Time, b: DocumentDetector.Time) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : DocumentDetector.Api {
   public static var REQUEST_TRACKING_ID: DocumentDetector.AnalyticsApi
@@ -242,8 +289,8 @@ public enum Time {
   public var password: Swift.String?
   public init(hostname: Swift.String, port: Swift.Int)
   public func setAutentication(user: Swift.String, password: Swift.String) -> DocumentDetector.ProxySettings
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public class DocumentDetectorStep : ObjectiveC.NSObject, Swift.Encodable {
   public var document: DocumentDetector.Document!
@@ -252,8 +299,9 @@ public enum Time {
   public var audio: Foundation.URL!
   public init(document: DocumentDetector.Document, stepLabel: Swift.String?, illustration: UIKit.UIImage?, audio: Foundation.URL?)
   public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
+  public func resetAttributesToDefault()
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class NetworkReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
@@ -279,20 +327,22 @@ public enum Time {
   public var audio: Foundation.URL!
   public static func getByLabel(label: DocumentDetector.Label) -> DocumentDetector.Document?
   public static func allDocuments() -> [DocumentDetector.Document]
-  @objc deinit
+  public func setDefaultMessages()
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public class ServerFailureResponse : ObjectiveC.NSObject {
   public var message: Swift.String?
   public init(response: [Swift.String : Any])
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
-public protocol DocumentDetectorCustomViewControllerDelegate {
+public protocol DocumentDetectorCustomViewControllerDelegate : AnyObject {
   func show(loading show: Swift.Bool)
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
   func show(mask type: DocumentDetector.MaskType)
+  func show(manualCaptureButton hidden: Swift.Bool)
   func documentDetectionController(didFinishWithResults results: DocumentDetector.DocumentDetectorResult)
   func documentDetectionControllerDidCancel()
   func documentDetectionController(didFailWithError error: DocumentDetector.DocumentDetectorFailure)
@@ -305,10 +355,11 @@ public protocol DocumentDetectorCustomViewControllerDelegate {
   public func viewDidAppear()
   public func cancelButtonClick()
   @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  public func clickButtonManualCapture()
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class LibraryReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
