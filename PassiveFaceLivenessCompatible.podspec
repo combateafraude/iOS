@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PassiveFaceLivenessCompatible'
-  s.version          = '3.4.2'
+  s.version          = '3.8.0'
   s.summary          = 'PassiveFaceLivenessCompatible'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'passive-face-liveness-compatible/LICENSE' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
-  s.swift_version = '5.3.1'
+  s.swift_version = '5.4.2'
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'passive-face-liveness-compatible/PassiveFaceLiveness.framework'
 
