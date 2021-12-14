@@ -109,6 +109,8 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public var beforePictureInterval: Foundation.TimeInterval!
   public var enableManualCapture: Swift.Bool!
   public var manualCaptureTime: Foundation.TimeInterval!
+  public var enableVideoCapture: Swift.Bool!
+  public var timeVideoCapture: Foundation.TimeInterval!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -121,8 +123,8 @@ public protocol FaceAuthenticatorCustomViewDelegate {
     public func showStatusLabel(show: Swift.Bool) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setLayout(layout: FaceAuthenticator.FaceAuthenticatorLayout) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> FaceAuthenticator.FaceAuthenticator.Builder
-    public func setCaptureSettings(beforePictureInterval: Foundation.TimeInterval!) -> FaceAuthenticator.FaceAuthenticator.Builder
-    public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticator.Builder
+    public func setImageCaptureSettings(beforePictureInterval: Foundation.TimeInterval!, enableManualCapture: Swift.Bool, timeManualCapture: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticator.Builder
+    public func setVideoCaptureSettings(time: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticator.Builder
     public func build() -> FaceAuthenticator.FaceAuthenticator
     @objc deinit
   }
