@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AmazonRootCA1.cer</key>
+		<data>
+		jaf5Zexe/DeRDxxuWf3BzGpu3hY=
+		</data>
 		<key>Assets.car</key>
 		<data>
 		lKPawJkk5ozMvEHfBzcEAzCYEa0=
@@ -22,11 +26,11 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		hSFTSdjy7+V7ejYTsVsEV9Ec4vk=
+		+cJbt9i8PsKxkvlDF2wrkWMF+/8=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		hSFTSdjy7+V7ejYTsVsEV9Ec4vk=
+		+cJbt9i8PsKxkvlDF2wrkWMF+/8=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XWtpA9OXOc0h5AGryDYq4fPgD6U=
+		ZXtb1aM9hj5sZvHZITVi6sqtS94=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +54,7 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		XWtpA9OXOc0h5AGryDYq4fPgD6U=
+		ZXtb1aM9hj5sZvHZITVi6sqtS94=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,6 +111,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AmazonRootCA1.cer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			js3miE89h7ESW6Maw/yxPXAW3n9XzJBP4cuXxq6YGW4=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
@@ -132,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TB8jvyytB7OPjMt8uLlLqsaHHupgmkAu+ijhDiB0VN4=
+			yUlMNYyuQf8FXbFu6zk7frZpJpCaNDo9DrIYeXVPQ58=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TB8jvyytB7OPjMt8uLlLqsaHHupgmkAu+ijhDiB0VN4=
+			yUlMNYyuQf8FXbFu6zk7frZpJpCaNDo9DrIYeXVPQ58=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -160,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWxhBp6Q2lrhsqYQYv46y16+3k9240FG3SGWTY6Kkns=
+			w7g/QXn8qxnA7vZJ+koyADRYgghE8d+kYUazFBm+824=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
@@ -181,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iWxhBp6Q2lrhsqYQYv46y16+3k9240FG3SGWTY6Kkns=
+			w7g/QXn8qxnA7vZJ+koyADRYgghE8d+kYUazFBm+824=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
