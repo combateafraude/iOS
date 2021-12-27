@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AmazonRootCA1.cer</key>
+		<data>
+		jaf5Zexe/DeRDxxuWf3BzGpu3hY=
+		</data>
 		<key>Assets.car</key>
 		<data>
 		lKPawJkk5ozMvEHfBzcEAzCYEa0=
@@ -18,11 +22,11 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		SUg/ihu0bi3CrKOCmRKLqmDqmbo=
+		isA5IWv4BfpgTcMPtqBiHFfkAJ0=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		SUg/ihu0bi3CrKOCmRKLqmDqmbo=
+		isA5IWv4BfpgTcMPtqBiHFfkAJ0=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RRVhfyDuB4nVZD8+6O4vOrwm9E4=
+		ri82Kd4mE4QbcGPRFDXK/9NZuJo=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +50,7 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		RRVhfyDuB4nVZD8+6O4vOrwm9E4=
+		ri82Kd4mE4QbcGPRFDXK/9NZuJo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +63,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AmazonRootCA1.cer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			js3miE89h7ESW6Maw/yxPXAW3n9XzJBP4cuXxq6YGW4=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
@@ -77,14 +88,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y41CKcbbYhTX9qb/AXPCMK0zijeIz2/to6gXklRqUU0=
+			lL1/mevFo/IhI56pEfZQkxr1iOkxv6pELOpoVxsyMF0=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y41CKcbbYhTX9qb/AXPCMK0zijeIz2/to6gXklRqUU0=
+			lL1/mevFo/IhI56pEfZQkxr1iOkxv6pELOpoVxsyMF0=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -105,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6T7YkbSqBxKO6CMxqiERElnfOFF+GJA8xmGmnmoLeY=
+			nDuiLSVmwAyn5pL9l/zGu/TgZVZSD4dKP4QUnNEyxEU=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
@@ -126,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6T7YkbSqBxKO6CMxqiERElnfOFF+GJA8xmGmnmoLeY=
+			nDuiLSVmwAyn5pL9l/zGu/TgZVZSD4dKP4QUnNEyxEU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
