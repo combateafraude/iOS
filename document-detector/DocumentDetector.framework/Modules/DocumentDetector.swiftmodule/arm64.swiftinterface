@@ -73,11 +73,17 @@ extension UIKit.UIImage {
   public func setVerifyingQualityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   public func setLowQualityDocumentMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   public func setUploadingImageMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setSensorLuminosityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setSensorOrientationMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setSensorStabilityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   public func getWaitMessage() -> Swift.String!
   public func getFitTheDocumentMessage() -> Swift.String!
   public func getVerifyingQualityMessage() -> Swift.String!
   public func getLowQualityDocumentMessage() -> Swift.String!
   public func getUploadingImageMessage() -> Swift.String!
+  public func getSensorLuminosityMessage() -> Swift.String!
+  public func getSensorOrientationMessage() -> Swift.String!
+  public func getSensorStabilityMessage() -> Swift.String!
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
@@ -109,9 +115,6 @@ extension UIKit.UIImage {
   public var documentDetectorLayout: DocumentDetector.DocumentDetectorLayout?
   public var shouldUpload: Swift.Bool!
   public var imageQuality: CoreGraphics.CGFloat!
-  public var sensorLuminosityMessage: Swift.String!
-  public var sensorOrientationMessage: Swift.String!
-  public var sensorStabilityMessage: Swift.String!
   public var verifyQuality: Swift.Bool!
   public var qualityThreshold: Swift.Double!
   public var detectionThreshold: Swift.Float!
@@ -143,14 +146,14 @@ extension UIKit.UIImage {
     public func showStatusLabel(show: Swift.Bool) -> DocumentDetector.DocumentDetector.Builder
     public func setDocumentDetectorFlow(flow: [DocumentDetector.DocumentDetectorStep]) -> DocumentDetector.DocumentDetector.Builder
     public func setLayout(layout: DocumentDetector.DocumentDetectorLayout) -> DocumentDetector.DocumentDetector.Builder
-    public func setLuminositySensorSettings(message: Swift.String?, luminosityThreshold: Swift.Float?) -> DocumentDetector.DocumentDetector.Builder
-    public func setOrientationSensorSettings(message: Swift.String?, orientationThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
-    public func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
+    public func setLuminositySensorSettings(luminosityThreshold: Swift.Float?) -> DocumentDetector.DocumentDetector.Builder
+    public func setOrientationSensorSettings(orientationThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
+    public func setStabilitySensorSettings(stabilityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
     public func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetector.Builder
     public func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetector.Builder
     public func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetector.Builder
     public func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> DocumentDetector.DocumentDetector.Builder
-    public func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage_RG_FRONT: Swift.String? = nil, wrongDocumentMessage_RG_BACK: Swift.String? = nil, wrongDocumentMessage_RG_FULL: Swift.String? = nil, wrongDocumentMessage_CNH_FRONT: Swift.String? = nil, wrongDocumentMessage_CNH_BACK: Swift.String? = nil, wrongDocumentMessage_CNH_FULL: Swift.String? = nil, wrongDocumentMessage_CRLV: Swift.String? = nil, wrongDocumentMessage_RNE_FRONT: Swift.String? = nil, wrongDocumentMessage_RNE_BACK: Swift.String? = nil) -> DocumentDetector.DocumentDetector.Builder
+    public func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage_RG_FRONT: Swift.String? = nil, wrongDocumentMessage_RG_BACK: Swift.String? = nil, wrongDocumentMessage_RG_FULL: Swift.String? = nil, wrongDocumentMessage_CNH_FRONT: Swift.String? = nil, wrongDocumentMessage_CNH_BACK: Swift.String? = nil, wrongDocumentMessage_CNH_FULL: Swift.String? = nil, wrongDocumentMessage_CRLV: Swift.String? = nil, wrongDocumentMessage_RNE_FRONT: Swift.String? = nil, wrongDocumentMessage_RNE_BACK: Swift.String? = nil, sensorLuminosityMessage: Swift.String? = nil, sensorOrientationMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil) -> DocumentDetector.DocumentDetector.Builder
     public func setGetImageUrlExpireTime(_ expireTime: DocumentDetector.Time) -> DocumentDetector.DocumentDetector.Builder
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetector.Builder
     public func enableMultiLanguage(enable: Swift.Bool) -> DocumentDetector.DocumentDetector.Builder
