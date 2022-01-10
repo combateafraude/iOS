@@ -79,6 +79,7 @@ extension UIKit.UIImage {
   public func setMultipleFaceDetectedMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
   public func setHoldItMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
   public func setInvalidFaceMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
+  public func setSensorStabilityMessage(message: Swift.String) -> PassiveFaceLiveness.MessageSettings
   public func getWaitMessage() -> Swift.String!
   public func getStepName() -> Swift.String!
   public func getFaceNotFoundMessage() -> Swift.String!
@@ -87,6 +88,7 @@ extension UIKit.UIImage {
   public func getMultipleFaceDetectedMessage() -> Swift.String!
   public func getHoldItMessage() -> Swift.String!
   public func getInvalidFaceMessage() -> Swift.String!
+  public func getSensorStabilityMessage() -> Swift.String!
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class UploadHelper {
@@ -221,7 +223,6 @@ public enum MaskType {
   public var showStepLabel: Swift.Bool!
   public var showStatusLabel: Swift.Bool!
   public var layout: PassiveFaceLiveness.PassiveFaceLivenessLayout?
-  public var sensorStabilityMessage: Swift.String!
   public var stabilityThreshold: Swift.Double!
   public var beforePictureInterval: Foundation.TimeInterval!
   public var proxySettings: PassiveFaceLiveness.ProxySettings?
@@ -249,11 +250,11 @@ public enum MaskType {
     public func showStepLabel(show: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func showStatusLabel(show: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setLayout(layout: PassiveFaceLiveness.PassiveFaceLivenessLayout) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
-    public func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setStabilitySensorSettings(stabilityThreshold: Swift.Double?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setCaptureSettings(beforePictureInterval: Foundation.TimeInterval?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setProxySettings(proxySettings: PassiveFaceLiveness.ProxySettings?) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
-    public func setMessageSettings(waitMessage: Swift.String? = nil, stepName: Swift.String? = nil, faceNotFoundMessage: Swift.String? = nil, faceTooFarMessage: Swift.String? = nil, faceNotFittedMessage: Swift.String? = nil, holdItMessage: Swift.String? = nil, invalidFaceMessage: Swift.String? = nil, multipleFaceDetectedMessage: Swift.String? = nil) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
+    public func setMessageSettings(waitMessage: Swift.String? = nil, stepName: Swift.String? = nil, faceNotFoundMessage: Swift.String? = nil, faceTooFarMessage: Swift.String? = nil, faceNotFittedMessage: Swift.String? = nil, holdItMessage: Swift.String? = nil, invalidFaceMessage: Swift.String? = nil, multipleFaceDetectedMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setGetImageUrlExpireTime(_ expireTime: PassiveFaceLiveness.Time) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
     public func enableMultiLanguage(enable: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLiveness.Builder
