@@ -114,7 +114,6 @@ extension UIKit.UIImage {
   public var documentDetectorFlow: [DocumentDetector.DocumentDetectorStep]!
   public var documentDetectorLayout: DocumentDetector.DocumentDetectorLayout?
   public var shouldUpload: Swift.Bool!
-  public var imageQuality: CoreGraphics.CGFloat!
   public var verifyQuality: Swift.Bool!
   public var qualityThreshold: Swift.Double!
   public var detectionThreshold: Swift.Float!
@@ -133,6 +132,8 @@ extension UIKit.UIImage {
   public var manualCaptureTime: Foundation.TimeInterval!
   public var enableMultiLanguage: Swift.Bool!
   public var overlay: DocumentDetector.DocumentOverlayView!
+  public var resolution: DocumentDetector.Resolution!
+  public var compressionQuality: CoreGraphics.CGFloat!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -158,6 +159,8 @@ extension UIKit.UIImage {
     public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.Builder
     public func enableMultiLanguage(enable: Swift.Bool) -> DocumentDetector.DocumentDetectorSdk.Builder
     public func setOverlay(overlay: DocumentDetector.DocumentOverlayView) -> DocumentDetector.DocumentDetectorSdk.Builder
+    public func setResolutionSettings(resolution: DocumentDetector.Resolution) -> DocumentDetector.DocumentDetectorSdk.Builder
+    public func setCompressSettings(compressionQuality: CoreGraphics.CGFloat) -> DocumentDetector.DocumentDetectorSdk.Builder
     public func build() -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
@@ -273,6 +276,14 @@ public enum Time {
   public static let ADD_EVENT: DocumentDetector.AnalyticsApi
   @objc deinit
 }
+public enum Resolution {
+  case low, medium, high, photo, inputPriority, hd1280x720, hd1920x1080, hd4K3840x2160, iFrame960x540, iFrame1280x720, vga640x480, cif352x288
+  public static func == (a: DocumentDetector.Resolution, b: DocumentDetector.Resolution) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc @_hasMissingDesignatedInitializers public class StorageReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
 }
@@ -367,3 +378,5 @@ extension DocumentDetector.MaskType : Swift.Equatable {}
 extension DocumentDetector.MaskType : Swift.Hashable {}
 extension DocumentDetector.Time : Swift.Equatable {}
 extension DocumentDetector.Time : Swift.Hashable {}
+extension DocumentDetector.Resolution : Swift.Equatable {}
+extension DocumentDetector.Resolution : Swift.Hashable {}
