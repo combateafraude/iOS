@@ -22,7 +22,7 @@ public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   func showMask(type: PassiveFaceLiveness.MaskType)
   func show(manualCaptureButton hidden: Swift.Bool)
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PassiveFaceLivenessViewController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PassiveFaceLivenessViewController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate, Foundation.URLSessionDelegate, Foundation.URLSessionTaskDelegate, Foundation.URLSessionDataDelegate {
   @_Concurrency.MainActor(unsafe) weak public var viewDelegate: PassiveFaceLiveness.PassiveFaceLivenessViewControllerDelegate?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -36,6 +36,7 @@ public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @_Concurrency.MainActor(unsafe) public func clickButtonManualCapture()
   @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+  @_Concurrency.MainActor(unsafe) @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError: Swift.Error?)
   @objc deinit
 }
 extension UIKit.UIImage {
@@ -142,7 +143,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class PassiveFaceLivenessResult : ObjectiveC.NSObject, Swift.Encodable {
-  public var image: UIKit.UIImage!
+  public var image: UIKit.UIImage?
   public var imageUrl: Swift.String!
   public var signedResponse: Swift.String?
   public var trackingId: Swift.String?
@@ -196,6 +197,14 @@ public enum MaskType {
   public static let IMAGE_UPLOAD: PassiveFaceLiveness.MobileApi
   @objc deinit
 }
+public enum Resolution {
+  case low, medium, high, photo, inputPriority, hd1280x720, hd1920x1080, hd4K3840x2160, iFrame960x540, iFrame1280x720, vga640x480, cif352x288
+  public static func == (a: PassiveFaceLiveness.Resolution, b: PassiveFaceLiveness.Resolution) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @objc public class ServerFailureResponse : ObjectiveC.NSObject {
   public var message: Swift.String?
   public init(response: [Swift.String : Any])
@@ -237,6 +246,10 @@ public enum MaskType {
   public var manualCaptureTime: Foundation.TimeInterval!
   public var enableMultiLanguage: Swift.Bool!
   public var overlay: PassiveFaceLiveness.PassiveOverlayView!
+  public var enableVideoCapture: Swift.Bool!
+  public var timeVideoCapture: Foundation.TimeInterval!
+  public var resolution: PassiveFaceLiveness.Resolution!
+  public var compressionQuality: CoreGraphics.CGFloat!
   public func encode(to encoder: Swift.Encoder) throws
   @objc public class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -251,14 +264,16 @@ public enum MaskType {
     public func showStatusLabel(show: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func setLayout(layout: PassiveFaceLiveness.PassiveFaceLivenessLayout) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func setStabilitySensorSettings(stabilityThreshold: Swift.Double?) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
-    public func setCaptureSettings(beforePictureInterval: Foundation.TimeInterval?) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func setProxySettings(proxySettings: PassiveFaceLiveness.ProxySettings?) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func setMessageSettings(waitMessage: Swift.String? = nil, stepName: Swift.String? = nil, faceNotFoundMessage: Swift.String? = nil, faceTooFarMessage: Swift.String? = nil, faceNotFittedMessage: Swift.String? = nil, holdItMessage: Swift.String? = nil, invalidFaceMessage: Swift.String? = nil, multipleFaceDetectedMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func setGetImageUrlExpireTime(_ expireTime: PassiveFaceLiveness.Time) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
-    public func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func enableMultiLanguage(enable: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func setOverlay(overlay: PassiveFaceLiveness.PassiveOverlayView) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
+    public func setImageCaptureSettings(beforePictureInterval: Foundation.TimeInterval!, enableManualCapture: Swift.Bool, timeManualCapture: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
+    public func setVideoCaptureSettings(time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
+    public func setResolutionSettings(resolution: PassiveFaceLiveness.Resolution) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
+    public func setCompressSettings(compressionQuality: CoreGraphics.CGFloat) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func build() -> PassiveFaceLiveness.PassiveFaceLivenessSdk
     @objc deinit
   }
@@ -288,3 +303,5 @@ extension PassiveFaceLiveness.Time : Swift.Equatable {}
 extension PassiveFaceLiveness.Time : Swift.Hashable {}
 extension PassiveFaceLiveness.MaskType : Swift.Equatable {}
 extension PassiveFaceLiveness.MaskType : Swift.Hashable {}
+extension PassiveFaceLiveness.Resolution : Swift.Equatable {}
+extension PassiveFaceLiveness.Resolution : Swift.Hashable {}

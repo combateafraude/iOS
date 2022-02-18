@@ -191,6 +191,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFoundation;
 @import CoreGraphics;
 @import CoreMedia;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -332,9 +333,11 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness22PassiveFaceLivenessSdk")
 @end
 
 @class NSNumber;
+@class NSURLSession;
+@class NSURLSessionTask;
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness33PassiveFaceLivenessViewController")
-@interface PassiveFaceLivenessViewController : UIViewController <AVCapturePhotoCaptureDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
+@interface PassiveFaceLivenessViewController : UIViewController <AVCapturePhotoCaptureDelegate, AVCaptureVideoDataOutputSampleBufferDelegate, NSURLSessionDataDelegate>
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
@@ -348,6 +351,7 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness33PassiveFaceLivenessViewController")
 /// Receive output from screen capture
 - (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
 - (void)captureOutput:(AVCapturePhotoOutput * _Nonnull)output didFinishProcessingPhoto:(AVCapturePhoto * _Nonnull)photo error:(NSError * _Nullable)error;
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)didCompleteWithError;
 @end
 
 
