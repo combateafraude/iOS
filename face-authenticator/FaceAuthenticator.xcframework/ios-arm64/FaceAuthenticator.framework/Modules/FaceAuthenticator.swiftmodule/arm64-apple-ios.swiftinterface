@@ -10,7 +10,6 @@ import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
 import CoreMotion
 import Foundation
-import PassiveFaceLiveness
 import Sentry
 import Swift
 import UIKit
