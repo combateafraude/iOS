@@ -166,6 +166,13 @@ public enum MaskType {
   public static var FACE_AUTHENTICATE: FaceAuthenticator.MobileApi {
     get
   }
+  public static let IMAGE_UPLOAD: FaceAuthenticator.MobileApi
+  public static var TOKEN_VERIFICATION_OTHER: FaceAuthenticator.MobileApi {
+    get
+  }
+  public static var FACE_AUTHENTICATE_OTHER: FaceAuthenticator.MobileApi {
+    get
+  }
   @objc deinit
 }
 extension UIKit.UIImage {
@@ -188,8 +195,7 @@ extension UIKit.UIImage {
   public func encode(to encoder: Swift.Encoder) throws
 }
 public enum CAFStage {
-  case BETA
-  case PROD
+  case BETA, PROD, OTHER
   public static func == (a: FaceAuthenticator.CAFStage, b: FaceAuthenticator.CAFStage) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
