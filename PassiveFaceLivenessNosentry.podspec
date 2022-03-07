@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PassiveFaceLivenessNosentry'
-  s.version          = '3.8.0'
-  s.summary          = 'PassiveFacelivenessNosentry'
+  s.name             = 'PassiveFaceLivenessNoSentry'
+  s.version          = '5.7.0'
+  s.summary          = 'PassiveFacelivenessNoSentry'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'passive-face-liveness-nosentry/LICENSE' }
   s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   s.swift_version = '5.3.2'
   s.ios.deployment_target = '11.0'
-  s.ios.vendored_frameworks = 'passive-face-liveness-nosentry/PassiveFaceLiveness.framework'
+  s.ios.vendored_frameworks = 'passive-face-liveness-nosentry/PassiveFaceLiveness.xcframework'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
