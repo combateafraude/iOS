@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetectorCompatible'
-  s.version          = '5.1.0'
+  s.version          = '6.4.0'
   s.summary          = 'DocumentDetectorCompatible'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector-compatible/LICENSE' }
@@ -18,12 +18,11 @@ Pod::Spec.new do |s|
   
   s.swift_version = '5.3.2'
   s.ios.deployment_target = '11.0'
-  s.ios.vendored_frameworks = 'document-detector-compatible/DocumentDetector.framework'
+  s.ios.vendored_frameworks = 'document-detector-compatible/DocumentDetector.xcframework'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   s.dependency 'TensorFlowLiteSwift', '2.4.0'
-  s.dependency 'Sentry', '7.1.3'
  
 end
