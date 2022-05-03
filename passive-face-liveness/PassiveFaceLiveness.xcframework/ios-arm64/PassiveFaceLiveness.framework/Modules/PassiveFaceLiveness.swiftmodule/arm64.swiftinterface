@@ -15,12 +15,13 @@ import Swift
 import UIKit
 import Vision
 import _Concurrency
-public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
-  func showLoading(show: Swift.Bool)
-  func showMessage(message: Swift.String)
-  func showStepName(name: Swift.String)
-  func showMask(type: PassiveFaceLiveness.MaskType)
-  func show(manualCaptureButton hidden: Swift.Bool)
+@objc public protocol PassiveFaceLivenessViewControllerDelegate {
+  @objc func showLoading(show: Swift.Bool)
+  @objc func showMessage(message: Swift.String)
+  @objc optional func showMessage(message: Swift.String, _ code: PassiveFaceLiveness.MessageStatus)
+  @objc func showStepName(name: Swift.String)
+  @objc func showMask(type: PassiveFaceLiveness.MaskType)
+  @objc func show(manualCaptureButton hidden: Swift.Bool)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class PassiveFaceLivenessViewController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate, Foundation.URLSessionDelegate, Foundation.URLSessionTaskDelegate, Foundation.URLSessionDataDelegate {
   @_Concurrency.MainActor(unsafe) weak public var viewDelegate: PassiveFaceLiveness.PassiveFaceLivenessViewControllerDelegate?
@@ -43,11 +44,12 @@ extension UIKit.UIImage {
   public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage
 }
 @objc @_Concurrency.MainActor(unsafe) open class PassiveOverlayView : UIKit.UIView, PassiveFaceLiveness.PassiveFaceLivenessViewControllerDelegate {
-  @_Concurrency.MainActor(unsafe) open func showLoading(show: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) open func showMessage(message: Swift.String)
-  @_Concurrency.MainActor(unsafe) open func showStepName(name: Swift.String)
-  @_Concurrency.MainActor(unsafe) open func showMask(type: PassiveFaceLiveness.MaskType)
-  @_Concurrency.MainActor(unsafe) open func show(manualCaptureButton hidden: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc open func showLoading(show: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc open func showMessage(message: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc open func showMessage(message: Swift.String, _ code: PassiveFaceLiveness.MessageStatus)
+  @_Concurrency.MainActor(unsafe) @objc open func showStepName(name: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc open func showMask(type: PassiveFaceLiveness.MaskType)
+  @_Concurrency.MainActor(unsafe) @objc open func show(manualCaptureButton hidden: Swift.Bool)
   @_Concurrency.MainActor(unsafe) weak public var viewController: PassiveFaceLiveness.PassiveFaceLivenessViewController?
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc dynamic public init()
@@ -174,13 +176,21 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   }
   @objc deinit
 }
-public enum MaskType {
+@objc public enum MessageStatus : Swift.Int {
+  case waitMessage, stepName, faceNotFoundMessage, faceTooFarMessage, faceNotFittedMessage, holdItMessage, invalidFaceMessage, multipleFaceDetectedMessage, sensorStabilityMessage, blank, undefined
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum MaskType : Swift.Int {
   case normal
   case success
   case error
-  public static func == (a: PassiveFaceLiveness.MaskType, b: PassiveFaceLiveness.MaskType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
@@ -304,8 +314,12 @@ public enum CAFStage {
   public var code: Swift.Int!
   @objc deinit
 }
+extension PassiveFaceLiveness.MessageStatus : Swift.Equatable {}
+extension PassiveFaceLiveness.MessageStatus : Swift.Hashable {}
+extension PassiveFaceLiveness.MessageStatus : Swift.RawRepresentable {}
 extension PassiveFaceLiveness.MaskType : Swift.Equatable {}
 extension PassiveFaceLiveness.MaskType : Swift.Hashable {}
+extension PassiveFaceLiveness.MaskType : Swift.RawRepresentable {}
 extension PassiveFaceLiveness.Resolution : Swift.Equatable {}
 extension PassiveFaceLiveness.Resolution : Swift.Hashable {}
 extension PassiveFaceLiveness.CAFStage : Swift.Equatable {}

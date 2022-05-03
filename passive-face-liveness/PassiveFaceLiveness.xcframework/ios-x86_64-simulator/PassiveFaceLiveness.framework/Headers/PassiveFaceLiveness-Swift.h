@@ -254,11 +254,31 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness13LibraryReason")
 @interface LibraryReason : PassiveFaceLivenessFailure
 @end
 
+typedef SWIFT_ENUM(NSInteger, MaskType, open) {
+  MaskTypeNormal = 0,
+  MaskTypeSuccess = 1,
+  MaskTypeError = 2,
+};
+
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness15MessageSettings")
 @interface MessageSettings : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, MessageStatus, open) {
+  MessageStatusWaitMessage = 0,
+  MessageStatusStepName = 1,
+  MessageStatusFaceNotFoundMessage = 2,
+  MessageStatusFaceTooFarMessage = 3,
+  MessageStatusFaceNotFittedMessage = 4,
+  MessageStatusHoldItMessage = 5,
+  MessageStatusInvalidFaceMessage = 6,
+  MessageStatusMultipleFaceDetectedMessage = 7,
+  MessageStatusSensorStabilityMessage = 8,
+  MessageStatusBlank = 9,
+  MessageStatusUndefined = 10,
+};
 
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness9MobileApi")
@@ -355,8 +375,27 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness33PassiveFaceLivenessViewController")
 @end
 
 
+SWIFT_PROTOCOL("_TtP19PassiveFaceLiveness41PassiveFaceLivenessViewControllerDelegate_")
+@protocol PassiveFaceLivenessViewControllerDelegate
+- (void)showLoadingWithShow:(BOOL)show;
+- (void)showMessageWithMessage:(NSString * _Nonnull)message;
+@optional
+- (void)showMessageWithMessage:(NSString * _Nonnull)message :(enum MessageStatus)code;
+@required
+- (void)showStepNameWithName:(NSString * _Nonnull)name;
+- (void)showMaskWithType:(enum MaskType)type;
+- (void)showWithManualCaptureButton:(BOOL)hidden;
+@end
+
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness18PassiveOverlayView")
-@interface PassiveOverlayView : UIView
+@interface PassiveOverlayView : UIView <PassiveFaceLivenessViewControllerDelegate>
+- (void)showLoadingWithShow:(BOOL)show;
+- (void)showMessageWithMessage:(NSString * _Nonnull)message;
+- (void)showMessageWithMessage:(NSString * _Nonnull)message :(enum MessageStatus)code;
+- (void)showStepNameWithName:(NSString * _Nonnull)name;
+- (void)showMaskWithType:(enum MaskType)type;
+- (void)showWithManualCaptureButton:(BOOL)hidden;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
