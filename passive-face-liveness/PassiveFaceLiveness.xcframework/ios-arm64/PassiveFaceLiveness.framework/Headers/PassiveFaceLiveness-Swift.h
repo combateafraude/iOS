@@ -254,10 +254,10 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness13LibraryReason")
 @interface LibraryReason : PassiveFaceLivenessFailure
 @end
 
-typedef SWIFT_ENUM(NSInteger, MaskType, open) {
-  MaskTypeNormal = 0,
-  MaskTypeSuccess = 1,
-  MaskTypeError = 2,
+typedef SWIFT_ENUM(NSInteger, Mask, open) {
+  MaskNormal = 0,
+  MaskSuccess = 1,
+  MaskError = 2,
 };
 
 
@@ -276,8 +276,9 @@ typedef SWIFT_ENUM(NSInteger, MessageStatus, open) {
   MessageStatusInvalidFaceMessage = 6,
   MessageStatusMultipleFaceDetectedMessage = 7,
   MessageStatusSensorStabilityMessage = 8,
-  MessageStatusBlank = 9,
-  MessageStatusUndefined = 10,
+  MessageStatusVerifyingLivenessMessageMessage = 9,
+  MessageStatusBlank = 10,
+  MessageStatusUndefined = 11,
 };
 
 
@@ -383,7 +384,7 @@ SWIFT_PROTOCOL("_TtP19PassiveFaceLiveness41PassiveFaceLivenessViewControllerDele
 - (void)showMessageWithMessage:(NSString * _Nonnull)message :(enum MessageStatus)code;
 @required
 - (void)showStepNameWithName:(NSString * _Nonnull)name;
-- (void)showMaskWithType:(enum MaskType)type;
+- (void)showMaskWithType:(enum Mask)type;
 - (void)showWithManualCaptureButton:(BOOL)hidden;
 @end
 
@@ -394,7 +395,7 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness18PassiveOverlayView")
 - (void)showMessageWithMessage:(NSString * _Nonnull)message;
 - (void)showMessageWithMessage:(NSString * _Nonnull)message :(enum MessageStatus)code;
 - (void)showStepNameWithName:(NSString * _Nonnull)name;
-- (void)showMaskWithType:(enum MaskType)type;
+- (void)showMaskWithType:(enum Mask)type;
 - (void)showWithManualCaptureButton:(BOOL)hidden;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
