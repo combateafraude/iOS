@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		IP0QN+ZMkhG0zqFP2xOAnqzduYU=
+		Gq2lQ4MTQBQu46o4+ApoyjjrCHI=
 		</data>
 		<key>Base.lproj/cnh.mp3</key>
 		<data>
@@ -19,6 +19,18 @@
 		<key>Base.lproj/crlv.mp3</key>
 		<data>
 		7SZFkBMGsQgECVw9tbatECrP218=
+		</data>
+		<key>Base.lproj/ctps.mp3</key>
+		<data>
+		Q9ePKkP9aYijqJqkDhj5S1A83I0=
+		</data>
+		<key>Base.lproj/ctpsback.mp3</key>
+		<data>
+		+dGTgv6Vcyj/VH+0y5i5aYXN9fk=
+		</data>
+		<key>Base.lproj/ctpsfront.mp3</key>
+		<data>
+		YAHxO+67DGb3PrThuAFkbeCypG4=
 		</data>
 		<key>Base.lproj/frentedacnh.mp3</key>
 		<data>
@@ -31,6 +43,10 @@
 		<key>Base.lproj/identifydocument.mp3</key>
 		<data>
 		9PH5Hn7nn1RRI5lySViXS28Q+qw=
+		</data>
+		<key>Base.lproj/passport.mp3</key>
+		<data>
+		rGLvjFwO3qfrT2pgqrjdemZImIY=
 		</data>
 		<key>Base.lproj/rg.mp3</key>
 		<data>
@@ -54,7 +70,7 @@
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		qNvptyOBdYY0qywr04a4XkkQUtY=
+		RDjaMyGc7q0aGCUieIuXq5NZ+fY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -66,11 +82,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zHH0v9J1Eh/GatPSNmSWYB4FucY=
+		egs8xtZBoWHXwuUnTVDbffe08GA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9iiTOWfopU2eRQjGrPf6nCIuiM8=
+		qfbnTsiddg+7yNoidyFtVUDNsFI=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -78,11 +94,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		zHH0v9J1Eh/GatPSNmSWYB4FucY=
+		egs8xtZBoWHXwuUnTVDbffe08GA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9iiTOWfopU2eRQjGrPf6nCIuiM8=
+		qfbnTsiddg+7yNoidyFtVUDNsFI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,7 +132,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			agAVlfAg0Keh4nRi/BiTuG/2kVg=
+			FADDqQtjOJihlthJNT5qjeWqcCM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -135,6 +151,33 @@
 			<key>hash</key>
 			<data>
 			qygJYg5FV/B/8pmfFOas6AFxFf0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/ctps.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q9ePKkP9aYijqJqkDhj5S1A83I0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/ctpsback.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+dGTgv6Vcyj/VH+0y5i5aYXN9fk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/ctpsfront.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YAHxO+67DGb3PrThuAFkbeCypG4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -162,6 +205,15 @@
 			<key>hash</key>
 			<data>
 			xOwy0XpSH6z00TcOXSNIOI1wS4E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/passport.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mSTNtndG8gaK/85ZBdqYzOVfZzc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,17 +265,17 @@
 		</dict>
 		<key>labels.txt</key>
 		<data>
-		oajQL7wZGbNgshp5gd3z6Cj5LCk=
+		7sYQs7M1qziCj12CIefCH/lHDv8=
 		</data>
 		<key>model.tflite</key>
 		<data>
-		6Yif0R2VpxtQfuCeA0PGX2UJ7AQ=
+		ND9MCZjTUBtkjDtEZLzchriKQ7A=
 		</data>
 		<key>pt-BR.lproj/Detector.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LovJxURY/HwaKLsA+Qyue1xf8Z8=
+			TG99evi2rBg2vD07YhVS8Vnw9AY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -232,7 +284,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QY8qYhRrnWHqzr9OOsL/+FRCh9g=
+			TG99evi2rBg2vD07YhVS8Vnw9AY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -251,7 +303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LG8987eVBsVDO9xIFB8i6zb5PGWMi20geE0KGxg9HFQ=
+			bWAirHIZIX6ka6Zp0YntGzQ0a+cY3Izw8o7BCYinHj8=
 			</data>
 		</dict>
 		<key>Base.lproj/cnh.mp3</key>
@@ -266,6 +318,27 @@
 			<key>hash2</key>
 			<data>
 			zX5NH+8YaKH9aIRHLaaY4bXgi99dC+rXU99wN/SpDSE=
+			</data>
+		</dict>
+		<key>Base.lproj/ctps.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D4hmYytVK/69Ky97ssaMH/k9h7pMl7tn3TCG6fD0ycM=
+			</data>
+		</dict>
+		<key>Base.lproj/ctpsback.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwG4jtXNd+m14QsthJB8S1AlswbELCp6wMP3DpFgjaw=
+			</data>
+		</dict>
+		<key>Base.lproj/ctpsfront.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ad4OCcM7sPHHIM323pvxq5XmNqP7lhTKNTVWmk1Rm7w=
 			</data>
 		</dict>
 		<key>Base.lproj/frentedacnh.mp3</key>
@@ -287,6 +360,13 @@
 			<key>hash2</key>
 			<data>
 			zxvZxM//96ug6Y9WZqN/QGFrd6riHseHPICkSjhga/k=
+			</data>
+		</dict>
+		<key>Base.lproj/passport.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L5oJF4Hopf8zP42GN+I2WacXUjQ7EjZWwNPQ7F1yB9M=
 			</data>
 		</dict>
 		<key>Base.lproj/rg.mp3</key>
@@ -328,7 +408,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+2tD3OgzNbo7zUCSI5ypbCIDJAmoGmwG0KOt3iW/mDY=
+			/uMUvUnAN4op/9PvTSPG6HwqGKP62UEP0VvWJ/ja5cY=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -342,14 +422,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1X2hsiglnBm0Kte4nSmk9uBICscFl+pKrfW+dfaH3Ao=
+			vOh/xmhWjzEr7yQHUzFW8eY+C1HasvUgT/dzadJMmWs=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fQk4GUQvSA5+V7d5ddtDGHWbFlONv7KaSrJrDEyAOhM=
+			CzyoBalcG+b1/cpQrfxt76RQJ9s/+iuPTEEMbKBQxro=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64.swiftdoc</key>
@@ -363,14 +443,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1X2hsiglnBm0Kte4nSmk9uBICscFl+pKrfW+dfaH3Ao=
+			vOh/xmhWjzEr7yQHUzFW8eY+C1HasvUgT/dzadJMmWs=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fQk4GUQvSA5+V7d5ddtDGHWbFlONv7KaSrJrDEyAOhM=
+			CzyoBalcG+b1/cpQrfxt76RQJ9s/+iuPTEEMbKBQxro=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -426,7 +506,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3bdcT3G5XKLG0rxWY2h4zcpJcRwe6x450puHliKHa8=
+			Bvb4gg81Uz9M3t+BBQtQZnDHYd2hZjg4kDS7eNK5VgI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -445,6 +525,33 @@
 			<key>hash2</key>
 			<data>
 			Wa/51R/NBBcpRUykHNlgBJZ5v6X1fBkavGufVe/XgQM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/ctps.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D4hmYytVK/69Ky97ssaMH/k9h7pMl7tn3TCG6fD0ycM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/ctpsback.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwG4jtXNd+m14QsthJB8S1AlswbELCp6wMP3DpFgjaw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/ctpsfront.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ad4OCcM7sPHHIM323pvxq5XmNqP7lhTKNTVWmk1Rm7w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -472,6 +579,15 @@
 			<key>hash2</key>
 			<data>
 			2pDbUxwib51C+jVZ+c+SE+BUTxQEpcTis5ZyCJ+o65I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/passport.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cbGvQidrRcbdALg+Toz1CQzgjSYfoUnGQ2c/BpqEm+8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -525,21 +641,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j2FFotxytKe5f9IWEdMECjf2Nu6OVjvr2hQ1wGsxJPg=
+			bLZfO+Wkxj+Y+USiBM1aea8EqoScR6D88eZuxF/Df6Y=
 			</data>
 		</dict>
 		<key>model.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+gLl7syFLfw2Xa5sYyDO9k8RKchpHW/2PXdVc3AG/Sc=
+			sXZCG+x4PHLq0eYBNga0SXpCMgTxNskKQLaB1MiDpJQ=
 			</data>
 		</dict>
 		<key>pt-BR.lproj/Detector.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			foG8+ZANDQqpkQyMtyVmnhg5BJm07M9XplmxTAE80a8=
+			yxlQ/A1AInCbHSfp3e7fL/H+QEnifHs0FlTOhrzirOM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -548,7 +664,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			19+GBnI1lZbsGZxiepQEx0NNq/bF+HAiKTadssXwYXI=
+			yxlQ/A1AInCbHSfp3e7fL/H+QEnifHs0FlTOhrzirOM=
 			</data>
 			<key>optional</key>
 			<true/>
