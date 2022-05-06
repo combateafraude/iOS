@@ -76,6 +76,7 @@ extension UIKit.UIImage {
   open func setSensorLuminosityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   open func setSensorOrientationMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   open func setSensorStabilityMessage(message: Swift.String) -> DocumentDetector.MessageSettings
+  public func setPopUpDocumentSubtitleMessage(message: Swift.String) -> DocumentDetector.MessageSettings
   open func getWaitMessage() -> Swift.String!
   open func getFitTheDocumentMessage() -> Swift.String!
   open func getVerifyingQualityMessage() -> Swift.String!
@@ -84,6 +85,7 @@ extension UIKit.UIImage {
   open func getSensorLuminosityMessage() -> Swift.String!
   open func getSensorOrientationMessage() -> Swift.String!
   open func getSensorStabilityMessage() -> Swift.String!
+  open func getPopUpDocumentSubtitleMessage() -> Swift.String
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
@@ -132,8 +134,10 @@ extension UIKit.UIImage {
   public var manualCaptureTime: Foundation.TimeInterval!
   public var enableMultiLanguage: Swift.Bool!
   public var overlay: DocumentDetector.DocumentOverlayView!
+  public var type: DocumentDetector.MaskType!
   public var resolution: DocumentDetector.Resolution!
   public var compressionQuality: CoreGraphics.CGFloat!
+  public var currentStepDoneDelay: Foundation.TimeInterval!
   public func encode(to encoder: Swift.Encoder) throws
   @objc open class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -154,13 +158,15 @@ extension UIKit.UIImage {
     open func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.Builder
-    open func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage_RG_FRONT: Swift.String? = nil, wrongDocumentMessage_RG_BACK: Swift.String? = nil, wrongDocumentMessage_RG_FULL: Swift.String? = nil, wrongDocumentMessage_CNH_FRONT: Swift.String? = nil, wrongDocumentMessage_CNH_BACK: Swift.String? = nil, wrongDocumentMessage_CNH_FULL: Swift.String? = nil, wrongDocumentMessage_CRLV: Swift.String? = nil, wrongDocumentMessage_RNE_FRONT: Swift.String? = nil, wrongDocumentMessage_RNE_BACK: Swift.String? = nil, sensorLuminosityMessage: Swift.String? = nil, sensorOrientationMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.Builder
+    open func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, popupDocumentSubtitleMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage_RG_FRONT: Swift.String? = nil, wrongDocumentMessage_RG_BACK: Swift.String? = nil, wrongDocumentMessage_RG_FULL: Swift.String? = nil, wrongDocumentMessage_CNH_FRONT: Swift.String? = nil, wrongDocumentMessage_CNH_BACK: Swift.String? = nil, wrongDocumentMessage_CNH_FULL: Swift.String? = nil, wrongDocumentMessage_CRLV: Swift.String? = nil, wrongDocumentMessage_RNE_FRONT: Swift.String? = nil, wrongDocumentMessage_RNE_BACK: Swift.String? = nil, sensorLuminosityMessage: Swift.String? = nil, sensorOrientationMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setGetImageUrlExpireTime(_ expireTime: Swift.String) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func enableMultiLanguage(_ enable: Swift.Bool) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setOverlay(overlay: DocumentDetector.DocumentOverlayView) -> DocumentDetector.DocumentDetectorSdk.Builder
+    public func setMask(type: DocumentDetector.MaskType) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setResolutionSettings(resolution: DocumentDetector.Resolution) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setCompressSettings(compressionQuality: CoreGraphics.CGFloat) -> DocumentDetector.DocumentDetectorSdk.Builder
+    open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func build() -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
@@ -198,13 +204,13 @@ extension UIKit.UIImage {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-public enum MaskType {
+@objc public enum Mask : Swift.Int {
   case normal
   case success
   case error
-  public static func == (a: DocumentDetector.MaskType, b: DocumentDetector.MaskType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
@@ -225,6 +231,9 @@ public enum MaskType {
   public static let RNE_FRONT: DocumentDetector.Label
   public static let RNM_BACK: DocumentDetector.Label
   public static let RNM_FRONT: DocumentDetector.Label
+  public static let CTPS_FRONT: DocumentDetector.Label
+  public static let CTPS_BACK: DocumentDetector.Label
+  public static let PASSPORT: DocumentDetector.Label
   public var scanLabel: Swift.String!
   public var documentType: Swift.String?
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
@@ -245,7 +254,7 @@ public enum MaskType {
   @_Concurrency.MainActor(unsafe) open func show(loading show: Swift.Bool)
   @_Concurrency.MainActor(unsafe) open func show(message text: Swift.String)
   @_Concurrency.MainActor(unsafe) open func show(stepName text: Swift.String)
-  @_Concurrency.MainActor(unsafe) open func show(mask type: DocumentDetector.MaskType)
+  @_Concurrency.MainActor(unsafe) open func show(mask type: DocumentDetector.Mask)
   @_Concurrency.MainActor(unsafe) open func show(manualCaptureButton hidden: Swift.Bool)
   @_Concurrency.MainActor(unsafe) open func updateOverlay(newSize: CoreGraphics.CGSize)
   @_Concurrency.MainActor(unsafe) open func setCurrentActionChecked(checked: Swift.Bool)
@@ -277,6 +286,15 @@ public enum Resolution {
 }
 @objc @_hasMissingDesignatedInitializers public class StorageReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
+}
+public enum MaskType {
+  case standard
+  case empty
+  public static func == (a: DocumentDetector.MaskType, b: DocumentDetector.MaskType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @objc open class ProxySettings : ObjectiveC.NSObject {
   public var hostname: Swift.String!
@@ -313,6 +331,9 @@ public enum Resolution {
   public static let CRLV: DocumentDetector.Document
   public static let RNE_FRONT: DocumentDetector.Document
   public static let RNE_BACK: DocumentDetector.Document
+  public static let CTPS_FRONT: DocumentDetector.Document
+  public static let CTPS_BACK: DocumentDetector.Document
+  public static let PASSPORT: DocumentDetector.Document
   public static let OTHERS: DocumentDetector.Document
   public var labels: [DocumentDetector.Label]
   public var stepLabel: Swift.String!
@@ -333,7 +354,7 @@ public protocol DocumentDetectorCustomViewControllerDelegate : AnyObject {
   func show(loading show: Swift.Bool)
   func show(message text: Swift.String)
   func show(stepName text: Swift.String)
-  func show(mask type: DocumentDetector.MaskType)
+  func show(mask type: DocumentDetector.Mask)
   func show(manualCaptureButton hidden: Swift.Bool)
   func documentDetectionController(didFinishWithResults results: DocumentDetector.DocumentDetectorResult)
   func documentDetectionControllerDidCancel()
@@ -365,7 +386,10 @@ public protocol DocumentDetectorCustomViewControllerDelegate : AnyObject {
   @objc override dynamic public init()
   @objc deinit
 }
-extension DocumentDetector.MaskType : Swift.Equatable {}
-extension DocumentDetector.MaskType : Swift.Hashable {}
+extension DocumentDetector.Mask : Swift.Equatable {}
+extension DocumentDetector.Mask : Swift.Hashable {}
+extension DocumentDetector.Mask : Swift.RawRepresentable {}
 extension DocumentDetector.Resolution : Swift.Equatable {}
 extension DocumentDetector.Resolution : Swift.Hashable {}
+extension DocumentDetector.MaskType : Swift.Equatable {}
+extension DocumentDetector.MaskType : Swift.Hashable {}

@@ -414,6 +414,12 @@ SWIFT_CLASS("_TtC16DocumentDetector13LibraryReason")
 @interface LibraryReason : DocumentDetectorFailure
 @end
 
+typedef SWIFT_ENUM(NSInteger, Mask, open) {
+  MaskNormal = 0,
+  MaskSuccess = 1,
+  MaskError = 2,
+};
+
 
 SWIFT_CLASS("_TtC16DocumentDetector15MessageSettings")
 @interface MessageSettings : NSObject
