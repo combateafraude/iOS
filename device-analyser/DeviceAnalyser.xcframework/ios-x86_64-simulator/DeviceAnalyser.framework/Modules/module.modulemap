@@ -1,0 +1,11 @@
+framework module DeviceAnalyser {
+  umbrella header "DeviceAnalyser.h"
+
+  export *
+  module * { export * }
+}
+
+module DeviceAnalyser.Swift {
+    header "DeviceAnalyser-Swift.h"
+    requires objc
+}
