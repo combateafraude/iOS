@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticator
 import AVFoundation
 import AVKit
@@ -14,6 +14,7 @@ import Sentry
 import Swift
 import UIKit
 import Vision
+import _Concurrency
 @objc @_hasMissingDesignatedInitializers public class PermissionReason : FaceAuthenticator.FaceAuthenticatorFailure {
   @objc deinit
 }
@@ -21,7 +22,6 @@ import Vision
   public var message: Swift.String?
   public init(response: [Swift.String : Any])
   @objc deinit
-  @objc override dynamic public init()
 }
 @objc @_hasMissingDesignatedInitializers public class ServerReason : FaceAuthenticator.FaceAuthenticatorFailure {
   public var code: Swift.Int!
@@ -53,7 +53,6 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public func clickButtonManualCapture()
   @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
   @objc deinit
-  @objc override dynamic public init()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : FaceAuthenticator.Api {
   public static var REQUEST_TRACKING_ID: FaceAuthenticator.AnalyticsApi {
@@ -78,13 +77,12 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public var status: Swift.String!
   public init(dict: [Swift.String : Any])
   public func isValidToken() -> Swift.Bool
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class JWTUtil : ObjectiveC.NSObject {
   public static func payloadToDict(_ payload: Swift.String) -> [Swift.String : Any]?
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
   public var baseUrl: Swift.String!
@@ -93,14 +91,12 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public var headers: [Swift.String]!
   public static var stage: FaceAuthenticator.CAFStage!
   public func getUrl(pathParam: Swift.String = "") -> Swift.String!
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthenticatorResult : ObjectiveC.NSObject, Swift.Encodable {
   public var authenticated: Swift.Bool!
   public var signedResponse: Swift.String!
   public var trackingId: Swift.String?
-  @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
@@ -123,6 +119,7 @@ public protocol FaceAuthenticatorCustomViewDelegate {
   public var enableVideoCapture: Swift.Bool!
   public var timeVideoCapture: Foundation.TimeInterval!
   public var stage: FaceAuthenticator.CAFStage!
+  public var currentStepDoneDelay: Foundation.TimeInterval!
   public func encode(to encoder: Swift.Encoder) throws
   @objc open class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -138,12 +135,11 @@ public protocol FaceAuthenticatorCustomViewDelegate {
     open func setImageCaptureSettings(beforePictureInterval: Foundation.TimeInterval!, enableManualCapture: Swift.Bool, timeManualCapture: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setVideoCaptureSettings(time: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setStage(stage: FaceAuthenticator.CAFStage) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
+    open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func build() -> FaceAuthenticator.FaceAuthenticatorSdk
     @objc deinit
-    @objc override dynamic public init()
   }
   @objc deinit
-  @objc override dynamic public init()
 }
 @objc @_hasMissingDesignatedInitializers public class LibraryReason : FaceAuthenticator.FaceAuthenticatorFailure {
   @objc deinit
@@ -160,10 +156,10 @@ public enum MaskType {
   case success
   case error
   public static func == (a: FaceAuthenticator.MaskType, b: FaceAuthenticator.MaskType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MobileApi : FaceAuthenticator.Api {
   public static var TOKEN_VERIFICATION: FaceAuthenticator.MobileApi {
@@ -181,7 +177,7 @@ public enum MaskType {
   }
   @objc deinit
 }
-extension UIImage {
+extension UIKit.UIImage {
   public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage
 }
 @_hasMissingDesignatedInitializers public class Device : Swift.Encodable {
@@ -197,16 +193,16 @@ extension UIImage {
   @objc override dynamic public var description: Swift.String {
     @objc get
   }
-  public func encode(to encoder: Swift.Encoder) throws
   @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public enum CAFStage {
   case BETA, PROD, OTHER
   public static func == (a: FaceAuthenticator.CAFStage, b: FaceAuthenticator.CAFStage) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_hasMissingDesignatedInitializers public class StorageReason : FaceAuthenticator.FaceAuthenticatorFailure {
   @objc deinit
@@ -216,18 +212,15 @@ public protocol FaceAuthenticatorControllerDelegate : ObjectiveC.NSObjectProtoco
   func faceAuthenticatorControllerDidCancel(_ faceAuthenticatorController: FaceAuthenticator.FaceAuthenticatorController)
   func faceAuthenticatorController(_ faceAuthenticatorController: FaceAuthenticator.FaceAuthenticatorController, didFailWithError error: FaceAuthenticator.FaceAuthenticatorFailure)
 }
-@objc final public class FaceAuthenticatorController : UIKit.UINavigationController {
-  weak final public var faceAuthenticatorDelegate: FaceAuthenticator.FaceAuthenticatorControllerDelegate?
-  required public init(faceAuthenticator: FaceAuthenticator.FaceAuthenticatorSdk)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @objc get
+@objc @_Concurrency.MainActor(unsafe) final public class FaceAuthenticatorController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) weak final public var faceAuthenticatorDelegate: FaceAuthenticator.FaceAuthenticatorControllerDelegate?
+  @_Concurrency.MainActor(unsafe) required public init(faceAuthenticator: FaceAuthenticator.FaceAuthenticatorSdk)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
   @objc deinit
-  @available(iOS 5.0, *)
-  @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
-  @objc override dynamic public init(rootViewController: UIKit.UIViewController)
 }
 public struct FaceAuthResults {
   public var faceImage: UIKit.UIImage
