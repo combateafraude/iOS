@@ -224,10 +224,21 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness12AnalyticsApi")
 @end
 
 
+typedef SWIFT_ENUM(NSInteger, CAFStage, open) {
+  CAFStageBETA = 0,
+  CAFStagePROD = 1,
+  CAFStageOTHER = 2,
+};
+
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness6CafApi")
 @interface CafApi : Api
 @end
+
+typedef SWIFT_ENUM(NSInteger, CaptureMode, open) {
+  CaptureModeAUTOMATIC = 0,
+  CaptureModeMANUAL = 1,
+};
 
 @class NSString;
 
@@ -258,6 +269,11 @@ typedef SWIFT_ENUM(NSInteger, Mask, open) {
   MaskNormal = 0,
   MaskSuccess = 1,
   MaskError = 2,
+};
+
+typedef SWIFT_ENUM(NSInteger, MaskType, open) {
+  MaskTypeStandard = 0,
+  MaskTypeEmpty = 1,
 };
 
 
@@ -353,6 +369,13 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness22PassiveFaceLivenessSdk")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+SWIFT_CLASS("_TtCC19PassiveFaceLiveness22PassiveFaceLivenessSdk7Builder")
+@interface Builder : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSNumber;
 @class NSURLSession;
 @class NSURLSessionTask;
@@ -376,27 +399,8 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness33PassiveFaceLivenessViewController")
 @end
 
 
-SWIFT_PROTOCOL("_TtP19PassiveFaceLiveness41PassiveFaceLivenessViewControllerDelegate_")
-@protocol PassiveFaceLivenessViewControllerDelegate
-- (void)showLoadingWithShow:(BOOL)show;
-- (void)showMessageWithMessage:(NSString * _Nonnull)message;
-@optional
-- (void)showMessageWithMessage:(NSString * _Nonnull)message :(enum MessageStatus)code;
-@required
-- (void)showStepNameWithName:(NSString * _Nonnull)name;
-- (void)showMaskWithType:(enum Mask)type;
-- (void)showWithManualCaptureButton:(BOOL)hidden;
-@end
-
-
 SWIFT_CLASS("_TtC19PassiveFaceLiveness18PassiveOverlayView")
-@interface PassiveOverlayView : UIView <PassiveFaceLivenessViewControllerDelegate>
-- (void)showLoadingWithShow:(BOOL)show;
-- (void)showMessageWithMessage:(NSString * _Nonnull)message;
-- (void)showMessageWithMessage:(NSString * _Nonnull)message :(enum MessageStatus)code;
-- (void)showStepNameWithName:(NSString * _Nonnull)name;
-- (void)showMaskWithType:(enum Mask)type;
-- (void)showWithManualCaptureButton:(BOOL)hidden;
+@interface PassiveOverlayView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -413,6 +417,21 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness13ProxySettings")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+typedef SWIFT_ENUM(NSInteger, Resolution, open) {
+  ResolutionLow = 0,
+  ResolutionMedium = 1,
+  ResolutionHigh = 2,
+  ResolutionPhoto = 3,
+  ResolutionInputPriority = 4,
+  ResolutionHd1280x720 = 5,
+  ResolutionHd1920x1080 = 6,
+  ResolutionHd4K3840x2160 = 7,
+  ResolutionIFrame960x540 = 8,
+  ResolutionIFrame1280x720 = 9,
+  ResolutionVga640x480 = 10,
+  ResolutionCif352x288 = 11,
+};
 
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness21ServerFailureResponse")
@@ -439,6 +458,15 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness25TokenVerificationResponse")
 @end
 
 
+
+typedef SWIFT_ENUM(NSInteger, ValidationFailure, open) {
+  ValidationFailureSENSOR_STABILITY_FAILURE = 0,
+  ValidationFailureFACE_NOT_FOUND = 1,
+  ValidationFailureFACE_TOO_FAR = 2,
+  ValidationFailureFRAMING_FAILURE = 3,
+  ValidationFailureMULTIPLE_FACES_FAILURE = 4,
+  ValidationFailureLIVENESS_FAILURE = 5,
+};
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
