@@ -235,6 +235,11 @@ SWIFT_CLASS("_TtC16DocumentDetector7Capture")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+typedef SWIFT_ENUM(NSInteger, CaptureMode, open) {
+  CaptureModeAUTOMATIC = 0,
+  CaptureModeMANUAL = 1,
+};
+
 
 SWIFT_CLASS("_TtC16DocumentDetector8Document")
 @interface Document : NSObject
@@ -352,6 +357,13 @@ SWIFT_CLASS("_TtC16DocumentDetector19DocumentDetectorSdk")
 @end
 
 
+SWIFT_CLASS("_TtCC16DocumentDetector19DocumentDetectorSdk7Builder")
+@interface Builder : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector20DocumentDetectorStep")
 @interface DocumentDetectorStep : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -420,6 +432,11 @@ typedef SWIFT_ENUM(NSInteger, Mask, open) {
   MaskError = 2,
 };
 
+typedef SWIFT_ENUM(NSInteger, MaskType, open) {
+  MaskTypeStandard = 0,
+  MaskTypeEmpty = 1,
+};
+
 
 SWIFT_CLASS("_TtC16DocumentDetector15MessageSettings")
 @interface MessageSettings : NSObject
@@ -448,6 +465,21 @@ SWIFT_CLASS("_TtC16DocumentDetector13ProxySettings")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+typedef SWIFT_ENUM(NSInteger, Resolution, open) {
+  ResolutionLow = 0,
+  ResolutionMedium = 1,
+  ResolutionHigh = 2,
+  ResolutionPhoto = 3,
+  ResolutionInputPriority = 4,
+  ResolutionHd1280x720 = 5,
+  ResolutionHd1920x1080 = 6,
+  ResolutionHd4K3840x2160 = 7,
+  ResolutionIFrame960x540 = 8,
+  ResolutionIFrame1280x720 = 9,
+  ResolutionVga640x480 = 10,
+  ResolutionCif352x288 = 11,
+};
+
 
 SWIFT_CLASS("_TtC16DocumentDetector21ServerFailureResponse")
 @interface ServerFailureResponse : NSObject
@@ -473,6 +505,15 @@ SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
 @end
 
 
+
+typedef SWIFT_ENUM(NSInteger, ValidationFailure, open) {
+  ValidationFailureSENSOR_LUMINOSITY_FAILURE = 0,
+  ValidationFailureSENSOR_ORIENTATION_FAILURE = 1,
+  ValidationFailureSENSOR_STABILITY_FAILURE = 2,
+  ValidationFailureFRAMING_FAILURE = 3,
+  ValidationFailureTYPIFICATION_FAILURE = 4,
+  ValidationFailureQUALITY_FAILURE = 5,
+};
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
