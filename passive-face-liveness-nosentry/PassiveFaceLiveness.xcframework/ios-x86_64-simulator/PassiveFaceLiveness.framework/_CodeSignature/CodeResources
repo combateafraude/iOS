@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		j8XRO7U73oFPu056Y3WweGCvY1I=
+		q1ekJdIxn9g3JsitdfK0Uml3gNc=
 		</data>
 		<key>Base.lproj/registrofacial.mp3</key>
 		<data>
@@ -18,35 +18,35 @@
 		</data>
 		<key>Headers/PassiveFaceLiveness-Swift.h</key>
 		<data>
-		cGYit/lgGRQVfsH5SRKAzT4C3nE=
+		YHt7FSnVXoSN/xLtxcCDwSsX+Rw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s1Lj0Z9bCgYQbe5L0uhYdFj35oM=
+		fPrqBoC6ZC5NhfHGQG28fcqfNac=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cbmT8WMjYUARqQwZVFfyC1rZFak=
+		ZPJJcJrvsCrqYKSScvaGLKoqpHs=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IGPf3RjYhBNzKOpT2aC+Y7Af8Jc=
+		UjAaeQPDsOw0VF/EWOKCRDGbfLM=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oRzdVfj9MYFE8lhmPI8ZwMT3+NU=
+		LHmCuChMteniuqzUg3RjZo1YWwY=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		cbmT8WMjYUARqQwZVFfyC1rZFak=
+		ZPJJcJrvsCrqYKSScvaGLKoqpHs=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		IGPf3RjYhBNzKOpT2aC+Y7Af8Jc=
+		UjAaeQPDsOw0VF/EWOKCRDGbfLM=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		oRzdVfj9MYFE8lhmPI8ZwMT3+NU=
+		LHmCuChMteniuqzUg3RjZo1YWwY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,17 +58,17 @@
 		</data>
 		<key>Preview.storyboardc/PreviewViewController.nib</key>
 		<data>
-		3RbrBNpihDcSFFiniAwj+bUh/0I=
+		BKBjMGobFBmI7T/ifwDI3P/cNEo=
 		</data>
 		<key>Preview.storyboardc/h5X-tz-HyN-view-erN-r5-fX4.nib</key>
 		<data>
-		dT2YyK+E1RCedtMhrEKE0cMXKT4=
+		v2eiR2ZLdWsVarTqLbPv/1WFeK8=
 		</data>
 		<key>en.lproj/Liveness.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RQf+fcXCJRFhU11l94s/Khpyo0g=
+			i+JCYTAsz4htNeTfqmLAMjk6GX0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -86,7 +86,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NBtsHpiVsNx1L/iAcb6H8bVNusA=
+			r4ciBMGqSU/UZDFQEs5WwjR4EZ8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/registrofacial.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zWX/dikWVv1lneaTvD6wVUbHyWA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -95,11 +104,15 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NBtsHpiVsNx1L/iAcb6H8bVNusA=
+			r4ciBMGqSU/UZDFQEs5WwjR4EZ8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>registrofacial - PT-BR.mp3</key>
+		<data>
+		zWX/dikWVv1lneaTvD6wVUbHyWA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -114,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lXWsnYWJbcWe3ffrUSL7rNaQALL+UljnQ0crhuIJJTM=
+			RZ2CFLC0YMpo5J1FxUczoYHiWCok/GbRxh16P0obk9M=
 			</data>
 		</dict>
 		<key>Base.lproj/registrofacial.mp3</key>
@@ -128,49 +141,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y3A3qJjEncrZqdV7ZVbSZL5ctGYfcN9CEkdD4dhbPWY=
+			luXFa4Fa/EtzxJ4cda2mLr+rkuPKunNhY18j1f7GbqY=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LJ/98qOlj3wO2FdnWOTi7ZIAPiIWLlZpcpcnlAHv1/Q=
+			BJJLs55pwXAZ78Np7nkW6jFFPGlp/FX3Ok3jx8kPaC0=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N1E5wtuN8QZ/4Gj5DuNv8cx9A8/QyW4zUpCEFu7y+dE=
+			F+MIBHK7am2WuvuT/q8r16TwhuJRGtpPm36vrSPJyUA=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LIXfKz8feIDPYJ1Y73WWJS5w0Ih9mOxdRaxx6E4bU4=
+			OKTSBHQ7rtPALXxH48ZkPiaXV7W0QjOBWQlAywrM+gE=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LJ/98qOlj3wO2FdnWOTi7ZIAPiIWLlZpcpcnlAHv1/Q=
+			BJJLs55pwXAZ78Np7nkW6jFFPGlp/FX3Ok3jx8kPaC0=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N1E5wtuN8QZ/4Gj5DuNv8cx9A8/QyW4zUpCEFu7y+dE=
+			F+MIBHK7am2WuvuT/q8r16TwhuJRGtpPm36vrSPJyUA=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LIXfKz8feIDPYJ1Y73WWJS5w0Ih9mOxdRaxx6E4bU4=
+			OKTSBHQ7rtPALXxH48ZkPiaXV7W0QjOBWQlAywrM+gE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -191,21 +204,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C7AcSlx+cE16fvVRki29KsptnKqCV5OpAQhhWkwjF0I=
+			atHzUOLwCgt5xXV11LTXVjdqx7xIfmcEcjqIUld7h/4=
 			</data>
 		</dict>
 		<key>Preview.storyboardc/h5X-tz-HyN-view-erN-r5-fX4.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AAlmfhnTBxGz0nurqNSq5KZ76K+YNXhC5ell8YafDME=
+			9mxAIvSc2/1PYHmjsKc/GkCucv2Rjl0LmmAKoNbEkr0=
 			</data>
 		</dict>
 		<key>en.lproj/Liveness.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+UCpj0VJS0zjA7RTRcfSZthPPqG56OK+F7GU73Zto9s=
+			ZDsLqUtjGU0Ut2KYTuqw2rNPPT2kmnFUhtHx2JnaeQU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -223,7 +236,16 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yubtprsbeHPPpmSe4MTVLgB5Gdj1VVQEcdzd+a/K3uU=
+			NEVor2ZmtrwfEEdIhR+1OovDpnplM9/2U9l8C+/FrkQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/registrofacial.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N5H2EdQRMN9cP/ORUi6IYE3x7Zu21GkwWAOvjiG5klc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -232,10 +254,17 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yubtprsbeHPPpmSe4MTVLgB5Gdj1VVQEcdzd+a/K3uU=
+			NEVor2ZmtrwfEEdIhR+1OovDpnplM9/2U9l8C+/FrkQ=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>registrofacial - PT-BR.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N5H2EdQRMN9cP/ORUi6IYE3x7Zu21GkwWAOvjiG5klc=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
