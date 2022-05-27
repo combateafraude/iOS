@@ -191,6 +191,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFoundation;
 @import CoreGraphics;
 @import CoreMedia;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -399,6 +400,13 @@ SWIFT_CLASS("_TtC16DocumentDetector19DocumentOverlayView")
 @end
 
 
+SWIFT_CLASS("_TtC16DocumentDetector23DocumentQualityResponse")
+@interface DocumentQualityResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector17DocumentValidator")
 @interface DocumentValidator : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -504,6 +512,40 @@ SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+
+
+
+
+SWIFT_CLASS("_TtC16DocumentDetector14UploadSettings")
+@interface UploadSettings : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector30UploadValidationViewController")
+@interface UploadValidationViewController : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class UIDocumentPickerViewController;
+@class NSURL;
+
+@interface UploadValidationViewController (SWIFT_EXTENSION(DocumentDetector)) <UIDocumentPickerDelegate>
+- (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
+- (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)controller;
+@end
+
+@class UIImagePickerController;
+
+@interface UploadValidationViewController (SWIFT_EXTENSION(DocumentDetector)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+@end
 
 
 typedef SWIFT_ENUM(NSInteger, ValidationFailure, open) {

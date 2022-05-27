@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		9fCb1Ps9xXKGU1UTRRO+xLpVa8s=
+		A3RBlFAxJD1LxFtZ8ZNv5IcXJhA=
 		</data>
 		<key>Base.lproj/cnh.mp3</key>
 		<data>
@@ -19,10 +19,6 @@
 		<key>Base.lproj/crlv.mp3</key>
 		<data>
 		7SZFkBMGsQgECVw9tbatECrP218=
-		</data>
-		<key>Base.lproj/ctps.mp3</key>
-		<data>
-		Q9ePKkP9aYijqJqkDhj5S1A83I0=
 		</data>
 		<key>Base.lproj/ctpsback.mp3</key>
 		<data>
@@ -70,11 +66,11 @@
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		43TJeAVNp4VQuLgbZKy8JblLoyA=
+		F/Ce1slHCxq9EvFhopAenE9QQVE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rof6w/QtM7UeDFG59swwaou+tuU=
+		Rep/NH0+9adwd3aiACbDiHwz+CM=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,11 +78,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		UBs17I24tIil/+iRPUmn+KbteYo=
+		DkOf0qLTVFVFlHYFiGuls60zK8g=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uqbSl0eYk/R0aNnpOXuRLZJZin0=
+		31dH1rfj7vRamCzzYlW30079axI=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -94,11 +90,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		UBs17I24tIil/+iRPUmn+KbteYo=
+		DkOf0qLTVFVFlHYFiGuls60zK8g=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		uqbSl0eYk/R0aNnpOXuRLZJZin0=
+		31dH1rfj7vRamCzzYlW30079axI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -148,7 +144,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FADDqQtjOJihlthJNT5qjeWqcCM=
+			B6mxF9QstG+QPkPUnF3nj294Hhc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -167,15 +163,6 @@
 			<key>hash</key>
 			<data>
 			qygJYg5FV/B/8pmfFOas6AFxFf0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>en.lproj/ctps.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q9ePKkP9aYijqJqkDhj5S1A83I0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -307,7 +294,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TG99evi2rBg2vD07YhVS8Vnw9AY=
+			VRZTTVYzNvi6M5/gDqtXqwCtvRg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -326,6 +313,24 @@
 			<key>hash</key>
 			<data>
 			7SZFkBMGsQgECVw9tbatECrP218=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/ctpsback.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+dGTgv6Vcyj/VH+0y5i5aYXN9fk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/ctpsfront.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YAHxO+67DGb3PrThuAFkbeCypG4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -353,6 +358,15 @@
 			<key>hash</key>
 			<data>
 			9PH5Hn7nn1RRI5lySViXS28Q+qw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/passport.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rGLvjFwO3qfrT2pgqrjdemZImIY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -445,7 +459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jxNziloggxFCkFLbHye0sa0SycpvUvhD4/FaLtrqbYY=
+			5eoIY4Yg0RLiTm9axS6o3hOCUZbV6ETyQQgjqgz1B9I=
 			</data>
 		</dict>
 		<key>Base.lproj/cnh.mp3</key>
@@ -460,13 +474,6 @@
 			<key>hash2</key>
 			<data>
 			zX5NH+8YaKH9aIRHLaaY4bXgi99dC+rXU99wN/SpDSE=
-			</data>
-		</dict>
-		<key>Base.lproj/ctps.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D4hmYytVK/69Ky97ssaMH/k9h7pMl7tn3TCG6fD0ycM=
 			</data>
 		</dict>
 		<key>Base.lproj/ctpsback.mp3</key>
@@ -550,7 +557,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PeVXpepLMwjUcgAHGv0g2vtEp3Z+kS5yys8La7qUJsQ=
+			ZUuM9fXE91bc5u0bxdlpJoGNWC1IrAU3XWqW8UVapmM=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -564,14 +571,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tm8YyE1JlppR7C9k8VoCB9Xu/i+XhvXVxv75GFE2bXw=
+			8JNLRzX3XgKkN8vM8NKSCUF7oHmQSlHH2q5IQuR4lQs=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PKSwZhSFnn5F4lGcsjP64cQdr4qGyuHKQvUEOdt/wM8=
+			6H4lupmcP7IZuhotOmfnuqw1X8J5Pn4Rr/FXSNQZzlg=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
@@ -585,14 +592,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tm8YyE1JlppR7C9k8VoCB9Xu/i+XhvXVxv75GFE2bXw=
+			8JNLRzX3XgKkN8vM8NKSCUF7oHmQSlHH2q5IQuR4lQs=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PKSwZhSFnn5F4lGcsjP64cQdr4qGyuHKQvUEOdt/wM8=
+			6H4lupmcP7IZuhotOmfnuqw1X8J5Pn4Rr/FXSNQZzlg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -676,7 +683,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bvb4gg81Uz9M3t+BBQtQZnDHYd2hZjg4kDS7eNK5VgI=
+			KTRgip3Jn0/YSrwZn+1CRRfev14b37iMvPrCkzU6uLw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -695,15 +702,6 @@
 			<key>hash2</key>
 			<data>
 			Wa/51R/NBBcpRUykHNlgBJZ5v6X1fBkavGufVe/XgQM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>en.lproj/ctps.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D4hmYytVK/69Ky97ssaMH/k9h7pMl7tn3TCG6fD0ycM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -853,7 +851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yxlQ/A1AInCbHSfp3e7fL/H+QEnifHs0FlTOhrzirOM=
+			nckLn9PNaRWQBu4wSnjD+WyMbXGROa9evVyJ8Sm6FDY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -872,6 +870,24 @@
 			<key>hash2</key>
 			<data>
 			zX5NH+8YaKH9aIRHLaaY4bXgi99dC+rXU99wN/SpDSE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/ctpsback.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwG4jtXNd+m14QsthJB8S1AlswbELCp6wMP3DpFgjaw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/ctpsfront.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ad4OCcM7sPHHIM323pvxq5XmNqP7lhTKNTVWmk1Rm7w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -899,6 +915,15 @@
 			<key>hash2</key>
 			<data>
 			zxvZxM//96ug6Y9WZqN/QGFrd6riHseHPICkSjhga/k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/passport.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L5oJF4Hopf8zP42GN+I2WacXUjQ7EjZWwNPQ7F1yB9M=
 			</data>
 			<key>optional</key>
 			<true/>
