@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZpUkwjWZ0k0WnYDzH8XOUaBmJZI=
+		RiHzLbXxDb9ekxZSPg8lFbuEZEs=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rKrWO+WMZvBFSTStLW/fKKl2eQU=
+		jEQ1vKVBY8zxhUUvr3bFTeMPb8s=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ZpUkwjWZ0k0WnYDzH8XOUaBmJZI=
+		RiHzLbXxDb9ekxZSPg8lFbuEZEs=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		rKrWO+WMZvBFSTStLW/fKKl2eQU=
+		jEQ1vKVBY8zxhUUvr3bFTeMPb8s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,15 +91,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pt-BR.lproj/registrofacial.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zWX/dikWVv1lneaTvD6wVUbHyWA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>pt-PT.lproj/Liveness.strings</key>
 		<dict>
 			<key>hash</key>
@@ -109,10 +100,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>registrofacial - PT-BR.mp3</key>
-		<data>
-		zWX/dikWVv1lneaTvD6wVUbHyWA=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -155,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AZ4NvP6G5a+LS7vMAMXidyWpIzO8cY99I/VtDLsI+o4=
+			ZbbT/Mcb53JM2afnG30DgVZdZ27MZaLZUXWwaGQU+54=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MPEnuX6VPbb09BjfT3I2Pgk8kCRCgJhyNmiMpz0J7uI=
+			5Ycjtc/4xotzJ3yF1kG+q03DzvEYPro2t8DbJ2am8kY=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftdoc</key>
@@ -176,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AZ4NvP6G5a+LS7vMAMXidyWpIzO8cY99I/VtDLsI+o4=
+			ZbbT/Mcb53JM2afnG30DgVZdZ27MZaLZUXWwaGQU+54=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MPEnuX6VPbb09BjfT3I2Pgk8kCRCgJhyNmiMpz0J7uI=
+			5Ycjtc/4xotzJ3yF1kG+q03DzvEYPro2t8DbJ2am8kY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -241,15 +228,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>pt-BR.lproj/registrofacial.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N5H2EdQRMN9cP/ORUi6IYE3x7Zu21GkwWAOvjiG5klc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>pt-PT.lproj/Liveness.strings</key>
 		<dict>
 			<key>hash2</key>
@@ -258,13 +236,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>registrofacial - PT-BR.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N5H2EdQRMN9cP/ORUi6IYE3x7Zu21GkwWAOvjiG5klc=
-			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

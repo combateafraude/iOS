@@ -46,6 +46,7 @@ public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   @objc @_Concurrency.MainActor(unsafe) public func cancelButtonClick()
   @_Concurrency.MainActor(unsafe) @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @_Concurrency.MainActor(unsafe) public func clickButtonManualCapture()
+  @_Concurrency.MainActor(unsafe) public func imageFromVideo(url: Foundation.URL, index: Swift.Int?, total: Swift.Int?) -> UIKit.UIImage?
   @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
   @_Concurrency.MainActor(unsafe) @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError: Swift.Error?)
   @objc deinit
@@ -326,7 +327,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
     open func enableMultiLanguage(_ enable: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     open func setOverlay(overlay: PassiveFaceLiveness.PassiveOverlayView) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     open func setImageCaptureSettings(beforePictureInterval: Foundation.TimeInterval!, enableManualCapture: Swift.Bool, timeManualCapture: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
-    open func setVideoCaptureSettings(time: Foundation.TimeInterval) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
+    open func setVideoCaptureSettings(time: Foundation.TimeInterval = 3) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     public func setMask(type: PassiveFaceLiveness.MaskType) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     open func setResolutionSettings(resolution: PassiveFaceLiveness.Resolution) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     open func setCompressSettings(compressionQuality: CoreGraphics.CGFloat) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
