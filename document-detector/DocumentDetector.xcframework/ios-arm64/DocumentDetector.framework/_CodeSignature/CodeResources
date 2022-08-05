@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		A3RBlFAxJD1LxFtZ8ZNv5IcXJhA=
+		FuWyhQ7vdswWuHRYjVAsDAJGRl8=
 		</data>
 		<key>Base.lproj/cnh.mp3</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DkOf0qLTVFVFlHYFiGuls60zK8g=
+		C3lXPiUg5lFkWJvcrj2Ei8PCokc=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4nDdNeIBYVyhgYGCHE7XqXgyXU8=
+		IZ7E9SAc0WxnJ4rSCEIEEOFBCZE=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		DkOf0qLTVFVFlHYFiGuls60zK8g=
+		C3lXPiUg5lFkWJvcrj2Ei8PCokc=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		4nDdNeIBYVyhgYGCHE7XqXgyXU8=
+		IZ7E9SAc0WxnJ4rSCEIEEOFBCZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -284,7 +284,7 @@
 		</data>
 		<key>model.tflite</key>
 		<data>
-		ND9MCZjTUBtkjDtEZLzchriKQ7A=
+		ORK9pA1aYI1+VpFnAPv6vsQOmFA=
 		</data>
 		<key>passport - PT-BR.mp3</key>
 		<data>
@@ -295,123 +295,6 @@
 			<key>hash</key>
 			<data>
 			VRZTTVYzNvi6M5/gDqtXqwCtvRg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/cnh.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4ZeZXbc0T8OBr9PH/nR+tUo6E4w=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/crlv.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7SZFkBMGsQgECVw9tbatECrP218=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/ctpsback.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+dGTgv6Vcyj/VH+0y5i5aYXN9fk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/ctpsfront.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YAHxO+67DGb3PrThuAFkbeCypG4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/frentedacnh.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			S2sXRgOmX6X5WNdH9PTekkERCrI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/frentedorg.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G06rZijvdEh1AAz1hF14WI10NLo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/identifydocument.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9PH5Hn7nn1RRI5lySViXS28Q+qw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/passport.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rGLvjFwO3qfrT2pgqrjdemZImIY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/rg.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X35+zhnicCtBMjwDENTXzmXkhgI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/rneback.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o1rb8dW/B8ybOgsBsKMXbPlojIg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/rnefront.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jmBgCY+v0AXXEV92BiNSNmhFW2Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/versodacnh.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MwVAtltqNr3PbKYSnIFC8+TXTvk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/versodorg.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wL/1CHwR6AHxJCl9jKWKfe3p0Cw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -459,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5eoIY4Yg0RLiTm9axS6o3hOCUZbV6ETyQQgjqgz1B9I=
+			hoLx7C8pJtHsbwFFaIBIcU5akw1CX2iv9bPLYzW0QK8=
 			</data>
 		</dict>
 		<key>Base.lproj/cnh.mp3</key>
@@ -571,14 +454,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JNLRzX3XgKkN8vM8NKSCUF7oHmQSlHH2q5IQuR4lQs=
+			fclAHDxSiL9oZR4HUKogCKBE2ZZBlDHgc1EM1jmrZ7c=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OQJAjb064lOQtY4c3c6KDq58eEgIGSfs5IkWwUoFBOA=
+			kgtAUNZXGouzmdEiqiXeq7aeu7gzW/4jrAdZisO3qW0=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
@@ -592,14 +475,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8JNLRzX3XgKkN8vM8NKSCUF7oHmQSlHH2q5IQuR4lQs=
+			fclAHDxSiL9oZR4HUKogCKBE2ZZBlDHgc1EM1jmrZ7c=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OQJAjb064lOQtY4c3c6KDq58eEgIGSfs5IkWwUoFBOA=
+			kgtAUNZXGouzmdEiqiXeq7aeu7gzW/4jrAdZisO3qW0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -837,7 +720,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXZCG+x4PHLq0eYBNga0SXpCMgTxNskKQLaB1MiDpJQ=
+			B3jSEpa1qvv1YaTrXdnUZGxRKpoSfMjniKw1jUDtp9Q=
 			</data>
 		</dict>
 		<key>passport - PT-BR.mp3</key>
@@ -852,123 +735,6 @@
 			<key>hash2</key>
 			<data>
 			nckLn9PNaRWQBu4wSnjD+WyMbXGROa9evVyJ8Sm6FDY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/cnh.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XqPZW2SnRUasxqWhpa8L6hzvHN1ut+aiNwe7V16kKzs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/crlv.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zX5NH+8YaKH9aIRHLaaY4bXgi99dC+rXU99wN/SpDSE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/ctpsback.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nwG4jtXNd+m14QsthJB8S1AlswbELCp6wMP3DpFgjaw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/ctpsfront.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ad4OCcM7sPHHIM323pvxq5XmNqP7lhTKNTVWmk1Rm7w=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/frentedacnh.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EoXOZPQHtR5Z78SpMCTzfwOm7jhsETd0I3JDNw5p/34=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/frentedorg.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1KuhDceAiDY3a6hj2MQQ3dBKoF4tTH1TcppsGR1iOV8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/identifydocument.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zxvZxM//96ug6Y9WZqN/QGFrd6riHseHPICkSjhga/k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/passport.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L5oJF4Hopf8zP42GN+I2WacXUjQ7EjZWwNPQ7F1yB9M=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/rg.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aVhq/VlCcogheb/QJ+NIeO7VsGeskXpux1x1AUJWiJA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/rneback.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gKqXFlVU4o5na7ccgiYIhrz09GOxXQ6MwDZUTGbk7+Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/rnefront.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WThuSPnmMsYGpAP3XDOA0QBoCSe5h5tHfJPJ2Aubk4c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/versodacnh.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			B8k0mNQ5FJM5tweHOIoubMB8Ka+ucoLjwAXulkRFAUc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/versodorg.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2+4bq+QLEWxFGabN10Ygn3k8Vr/kYrXPx8y0ruR8W4k=
 			</data>
 			<key>optional</key>
 			<true/>
