@@ -180,7 +180,7 @@ public class UploadValidationViewModel {
     open func setLuminositySensorSettings(luminosityThreshold: Swift.Float?) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setOrientationSensorSettings(orientationThreshold: Swift.Double?) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setStabilitySensorSettings(stabilityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetectorSdk.Builder
-    open func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetectorSdk.Builder
+    open func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double? = 1.8) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.Builder
