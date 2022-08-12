@@ -277,6 +277,9 @@ public class UploadValidationViewModel {
   public static let CTPS_FRONT: DocumentDetector.Label
   public static let CTPS_BACK: DocumentDetector.Label
   public static let PASSPORT: DocumentDetector.Label
+  public static let CNH_NEW_BACK: DocumentDetector.Label
+  public static let CNH_NEW_FRONT: DocumentDetector.Label
+  public static let CNH_NEW_FULL: DocumentDetector.Label
   public var scanLabel: Swift.String!
   public var documentType: Swift.String!
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
