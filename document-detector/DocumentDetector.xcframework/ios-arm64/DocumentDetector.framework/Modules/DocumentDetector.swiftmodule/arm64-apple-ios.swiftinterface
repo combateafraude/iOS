@@ -243,6 +243,8 @@ public class UploadValidationViewModel {
   public var type: Swift.String!
   public var captures: [DocumentDetector.Capture]!
   public var trackingId: Swift.String?
+  public static let LENS_FACING_FRONT: Swift.Int
+  public static let LENS_FACING_BACK: Swift.Int
   @objc override dynamic public init()
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
@@ -293,6 +295,7 @@ public class UploadValidationViewModel {
   public var scannedLabel: Swift.String?
   public var imageUrl: Swift.String?
   public var quality: Swift.Double!
+  public var lensFacing: Swift.Int!
   public func encode(to encoder: Swift.Encoder) throws
   @objc deinit
 }
