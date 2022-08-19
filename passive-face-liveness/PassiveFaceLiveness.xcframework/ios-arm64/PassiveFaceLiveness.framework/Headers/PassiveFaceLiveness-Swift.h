@@ -399,6 +399,7 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness33PassiveFaceLivenessViewController")
 @end
 
 
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness18PassiveOverlayView")
 @interface PassiveOverlayView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
