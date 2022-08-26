@@ -392,6 +392,7 @@ SWIFT_CLASS("_TtC16DocumentDetector30DocumentDetectorViewController")
 @end
 
 
+
 SWIFT_CLASS("_TtC16DocumentDetector19DocumentOverlayView")
 @interface DocumentOverlayView : UIView
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
