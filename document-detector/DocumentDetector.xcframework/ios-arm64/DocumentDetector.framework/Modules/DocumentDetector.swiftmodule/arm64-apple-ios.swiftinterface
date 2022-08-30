@@ -164,7 +164,6 @@ public class UploadValidationViewModel {
   public var compressionQuality: CoreGraphics.CGFloat!
   public var currentStepDoneDelay: Foundation.TimeInterval!
   public var uploadSettings: DocumentDetector.UploadSettings!
-  public var captureStages: [DocumentDetector.CaptureStage]!
   public func encode(to encoder: Swift.Encoder) throws
   @objc open class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
@@ -181,15 +180,12 @@ public class UploadValidationViewModel {
     open func setLuminositySensorSettings(luminosityThreshold: Swift.Float?) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setOrientationSensorSettings(orientationThreshold: Swift.Double?) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setStabilitySensorSettings(stabilityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetectorSdk.Builder
-    @available(*, deprecated, message: "Use CaptureStage class instead")
-    open func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double?) -> DocumentDetector.DocumentDetectorSdk.Builder
-    @available(*, deprecated, message: "Use CaptureStage class instead")
+    open func setQualitySettings(verifyQuality: Swift.Bool, qualityThreshold: Swift.Double? = 1.8) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setDetectionSettings(detectionThreshold: Swift.Float) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setProxySettings(proxySettings: DocumentDetector.ProxySettings?) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func showPreview(_ show: Swift.Bool, title: Swift.String? = nil, subtitle: Swift.String? = nil, confirmLabel: Swift.String? = nil, retryLabel: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setMessageSettings(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, popupDocumentSubtitleMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage_RG_FRONT: Swift.String? = nil, wrongDocumentMessage_RG_BACK: Swift.String? = nil, wrongDocumentMessage_RG_FULL: Swift.String? = nil, wrongDocumentMessage_CNH_FRONT: Swift.String? = nil, wrongDocumentMessage_CNH_BACK: Swift.String? = nil, wrongDocumentMessage_CNH_FULL: Swift.String? = nil, wrongDocumentMessage_CRLV: Swift.String? = nil, wrongDocumentMessage_RNE_FRONT: Swift.String? = nil, wrongDocumentMessage_RNE_BACK: Swift.String? = nil, sensorLuminosityMessage: Swift.String? = nil, sensorOrientationMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setGetImageUrlExpireTime(_ expireTime: Swift.String) -> DocumentDetector.DocumentDetectorSdk.Builder
-    @available(*, deprecated, message: "Use CaptureStage class instead")
     open func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func enableMultiLanguage(_ enable: Swift.Bool) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setOverlay(overlay: DocumentDetector.DocumentOverlayView) -> DocumentDetector.DocumentDetectorSdk.Builder
@@ -198,7 +194,6 @@ public class UploadValidationViewModel {
     open func setCompressSettings(compressionQuality: CoreGraphics.CGFloat) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setUploadSettings(uploadSettings: DocumentDetector.UploadSettings) -> DocumentDetector.DocumentDetectorSdk.Builder
-    open func setCaptureStages(captureStages: [DocumentDetector.CaptureStage]) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func build() -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
@@ -240,10 +235,6 @@ public class UploadValidationViewModel {
   public var rawValue: Swift.Int {
     get
   }
-}
-open class DetectionSettings {
-  public init(threshold: Swift.Float)
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class PermissionReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
@@ -388,10 +379,6 @@ public class DocumentDetectorAI {
   public init()
   @objc deinit
 }
-open class CaptureStage {
-  public init(durationMillis: Swift.Float?, wantSensorCheck: Swift.Bool, qualitySettings: DocumentDetector.QualitySettings?, detectionSettings: DocumentDetector.DetectionSettings?, captureMode: DocumentDetector.CaptureMode)
-  @objc deinit
-}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : DocumentDetector.Api {
   public static let REQUEST_TRACKING_ID: DocumentDetector.AnalyticsApi
   public static let ADD_EVENT: DocumentDetector.AnalyticsApi
@@ -533,10 +520,6 @@ public protocol DocumentDetectorCustomViewControllerDelegate : AnyObject {
   public var rawValue: Swift.Int {
     get
   }
-}
-open class QualitySettings {
-  public init(threshold: Swift.Double)
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class LibraryReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
