@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticator
 import AVFoundation
 import AVKit
@@ -78,6 +78,8 @@ public protocol FaceAuthenticatorCustomViewDelegate {
 @objc public class TokenVerificationResponse : ObjectiveC.NSObject {
   public var message: Swift.String!
   public var status: Swift.String!
+  public var tInt: Swift.String!
+  public var tExp: Swift.Int!
   public init(dict: [Swift.String : Any])
   public func isValidToken() -> Swift.Bool
   @objc deinit
@@ -213,6 +215,15 @@ public enum CAFStage {
   public var hashValue: Swift.Int {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class Metadata {
+  public static var metadataToken: Swift.String!
+  public static var metadataTimeStarted: Foundation.NSDate!
+  public static var expirationTime: Swift.Int!
+  public static func onStartMetaData(metadataToken: Swift.String, expirationTime: Swift.Int)
+  public static func isValidToken() -> Swift.Bool
+  public static func addMetadataOnImage(imageData: Foundation.Data, trackingID: Swift.String!) -> Foundation.Data
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class StorageReason : FaceAuthenticator.FaceAuthenticatorFailure {
   @objc deinit
