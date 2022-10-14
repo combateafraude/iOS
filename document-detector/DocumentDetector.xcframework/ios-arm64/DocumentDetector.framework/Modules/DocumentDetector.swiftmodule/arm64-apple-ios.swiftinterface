@@ -282,6 +282,7 @@ public class UploadValidationViewModel {
   public static let CNH_NEW_BACK: DocumentDetector.Label
   public static let CNH_NEW_FRONT: DocumentDetector.Label
   public static let CNH_NEW_FULL: DocumentDetector.Label
+  public static let CRLV_NEW: DocumentDetector.Label
   public var scanLabel: Swift.String!
   public var documentType: Swift.String!
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
