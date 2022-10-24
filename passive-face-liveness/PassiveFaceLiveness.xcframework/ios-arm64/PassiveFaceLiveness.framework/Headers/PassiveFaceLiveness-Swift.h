@@ -435,6 +435,11 @@ typedef SWIFT_ENUM(NSInteger, Resolution, open) {
 };
 
 
+SWIFT_CLASS("_TtC19PassiveFaceLiveness14SecurityReason")
+@interface SecurityReason : PassiveFaceLivenessFailure
+@end
+
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness21ServerFailureResponse")
 @interface ServerFailureResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
