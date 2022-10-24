@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/PassiveFaceLiveness-Swift.h</key>
 		<data>
-		YHt7FSnVXoSN/xLtxcCDwSsX+Rw=
+		1s84SqHmI3uoyEQM+ziO8bKBJg8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		n2FYsd9d8JeZfPsPHNvlVcxtV+U=
+		TKhlwV0n/5sdANtLWXWt1XmxwL8=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qU7tGHqG0QxlaFT2pOLhje7QwMQ=
+		DtdEw0QhJQ4ewArCMETSJ1jx+t0=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		aFbTfE3ewX0p1kZ65rIYjfjIcBU=
+		unWFx8E07upcejGTGN3nhH3WUos=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		qU7tGHqG0QxlaFT2pOLhje7QwMQ=
+		DtdEw0QhJQ4ewArCMETSJ1jx+t0=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		aFbTfE3ewX0p1kZ65rIYjfjIcBU=
+		unWFx8E07upcejGTGN3nhH3WUos=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i+JCYTAsz4htNeTfqmLAMjk6GX0=
+			WHjxyIiaigIZ3LbZ3Jc8ucyWago=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -86,16 +86,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r4ciBMGqSU/UZDFQEs5WwjR4EZ8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/registrofacial.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zWX/dikWVv1lneaTvD6wVUbHyWA=
+			KGqQyx5ldXmZEiGGHWwsnygV5Bs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -104,15 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r4ciBMGqSU/UZDFQEs5WwjR4EZ8=
+			KGqQyx5ldXmZEiGGHWwsnygV5Bs=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>registrofacial - PT-BR.mp3</key>
-		<data>
-		zWX/dikWVv1lneaTvD6wVUbHyWA=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -141,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			luXFa4Fa/EtzxJ4cda2mLr+rkuPKunNhY18j1f7GbqY=
+			Wrf1cg1K0/yLTSEc5O/cdifLBUGCGM7tO4h26/ic2Fw=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -155,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rDqjU1XkdaODmWFS3hreCFugJrJ+62ZJKXQQ8QgeJyM=
+			FabzVIU3/28LE/7fgOoV/P9qLqoB/U7Grmpesc55utU=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fQ9Zdk33OMPiOoQuv1mYJm6m7MuUEMAMW8ZkIZEcR4=
+			q+86D41iRXBBjhV5Of2d+toH5fzvnLW/DUfosarfIZM=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
@@ -176,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rDqjU1XkdaODmWFS3hreCFugJrJ+62ZJKXQQ8QgeJyM=
+			FabzVIU3/28LE/7fgOoV/P9qLqoB/U7Grmpesc55utU=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fQ9Zdk33OMPiOoQuv1mYJm6m7MuUEMAMW8ZkIZEcR4=
+			q+86D41iRXBBjhV5Of2d+toH5fzvnLW/DUfosarfIZM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -218,7 +205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDsLqUtjGU0Ut2KYTuqw2rNPPT2kmnFUhtHx2JnaeQU=
+			jL4bhUOJE5R00SsPeRPgtkEJ3S3BuSD4JqhcKfN5wBM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -236,16 +223,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEVor2ZmtrwfEEdIhR+1OovDpnplM9/2U9l8C+/FrkQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>pt-BR.lproj/registrofacial.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N5H2EdQRMN9cP/ORUi6IYE3x7Zu21GkwWAOvjiG5klc=
+			SIbQuNNy6oMyEG3CcVC48iOvA05qJu1ouiM3w0/J1xw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -254,17 +232,10 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEVor2ZmtrwfEEdIhR+1OovDpnplM9/2U9l8C+/FrkQ=
+			SIbQuNNy6oMyEG3CcVC48iOvA05qJu1ouiM3w0/J1xw=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>registrofacial - PT-BR.mp3</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N5H2EdQRMN9cP/ORUi6IYE3x7Zu21GkwWAOvjiG5klc=
-			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
