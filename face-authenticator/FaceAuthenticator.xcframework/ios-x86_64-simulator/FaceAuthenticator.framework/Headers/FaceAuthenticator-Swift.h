@@ -338,6 +338,11 @@ SWIFT_CLASS("_TtC17FaceAuthenticator16PermissionReason")
 @end
 
 
+SWIFT_CLASS("_TtC17FaceAuthenticator14SecurityReason")
+@interface SecurityReason : FaceAuthenticatorFailure
+@end
+
+
 SWIFT_CLASS("_TtC17FaceAuthenticator21ServerFailureResponse")
 @interface ServerFailureResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
