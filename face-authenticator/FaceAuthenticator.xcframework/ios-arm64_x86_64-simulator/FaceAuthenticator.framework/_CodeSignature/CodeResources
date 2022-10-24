@@ -14,11 +14,35 @@
 		</data>
 		<key>Headers/FaceAuthenticator-Swift.h</key>
 		<data>
-		4RyfP4SbdOumZbHZPCzYGk9kE1Q=
+		alYXScqCMAvwSsOpv74gVcyw2Rg=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		I3W1oi01cZsnHwnK9Kvo4KaQ1Uo=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		/4MhFfK+TPJ8e2zSelKaxGquAi8=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		dHMw9MXa29msdItp9xGhEaKuzlo=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		Mum4fGZwx6yztTeTvwhsCoQ6qAU=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		/4MhFfK+TPJ8e2zSelKaxGquAi8=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		dHMw9MXa29msdItp9xGhEaKuzlo=
+		</data>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		Mum4fGZwx6yztTeTvwhsCoQ6qAU=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +54,7 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MQhU1LVgoQV55nL9voEuLBRP3U0=
+		HogpIoqwHhjIqd+AF09juLUcCCk=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,7 +66,7 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MQhU1LVgoQV55nL9voEuLBRP3U0=
+		HogpIoqwHhjIqd+AF09juLUcCCk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,7 +97,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8OkZUtqk69FifIMS7mGon62gRvoYPhyPmdNLSza/UjA=
+			R0s4NGL7/qe+vbRkXxHZmaJmiQy1yoi8/C83Kh34bDA=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F2vl7++X+cRvV6tVefGXea9Cd0wKyxEs946etaLwT+8=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Og+/1KsuADxUoSWFUMHA2MYMQwiMbFpCAKwFJboitCI=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i/QOEUMKDJlFHxX/dPdC/45dqbYeqzP4CVYHqAYAejI=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F2vl7++X+cRvV6tVefGXea9Cd0wKyxEs946etaLwT+8=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Og+/1KsuADxUoSWFUMHA2MYMQwiMbFpCAKwFJboitCI=
+			</data>
+		</dict>
+		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i/QOEUMKDJlFHxX/dPdC/45dqbYeqzP4CVYHqAYAejI=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -94,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+fZ3SNM/X2VWDVYXBECrzZrU5LAgffDAlLgaELSpJQ=
+			iUFjt+5PAl2AlG7NyeSwhrm6U22qLDIyIAQxLti0WKk=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftdoc</key>
@@ -115,7 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z+fZ3SNM/X2VWDVYXBECrzZrU5LAgffDAlLgaELSpJQ=
+			iUFjt+5PAl2AlG7NyeSwhrm6U22qLDIyIAQxLti0WKk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
