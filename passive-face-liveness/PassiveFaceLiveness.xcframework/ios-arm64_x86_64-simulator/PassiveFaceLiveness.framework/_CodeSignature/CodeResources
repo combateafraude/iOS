@@ -18,11 +18,35 @@
 		</data>
 		<key>Headers/PassiveFaceLiveness-Swift.h</key>
 		<data>
-		1s84SqHmI3uoyEQM+ziO8bKBJg8=
+		kUV/vVTLA4627u04UzCefG9U6w0=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		dzPQslGttdGJDVe7IeJvMgBSwbA=
+		</data>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		pEnWDeMS5/7tQauKaKAtffkKJ9k=
+		</data>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		+aKenLhedwaf7qbHIVVrt4umjII=
+		</data>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		b/jfa6+o3TEETCfw7TLBGlkwNcs=
+		</data>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		pEnWDeMS5/7tQauKaKAtffkKJ9k=
+		</data>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		+aKenLhedwaf7qbHIVVrt4umjII=
+		</data>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		b/jfa6+o3TEETCfw7TLBGlkwNcs=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -128,7 +152,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wrf1cg1K0/yLTSEc5O/cdifLBUGCGM7tO4h26/ic2Fw=
+			jrNwAFvEo5WlQzaGSni7oUb33bQtnKgnhoXu+47g6lU=
+			</data>
+		</dict>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PhgBhfBMblxG29ovQOQgoTOW7opbJX8nupvfnzwJbKk=
+			</data>
+		</dict>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n/nczGpaxz0qaF+u63C178qIyg+CmU+xv0USYZWddYo=
+			</data>
+		</dict>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XHVbg9TdmAbSsccdaXB5S1JPil89Y9xKgD8vB+Ikvmw=
+			</data>
+		</dict>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PhgBhfBMblxG29ovQOQgoTOW7opbJX8nupvfnzwJbKk=
+			</data>
+		</dict>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n/nczGpaxz0qaF+u63C178qIyg+CmU+xv0USYZWddYo=
+			</data>
+		</dict>
+		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XHVbg9TdmAbSsccdaXB5S1JPil89Y9xKgD8vB+Ikvmw=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
