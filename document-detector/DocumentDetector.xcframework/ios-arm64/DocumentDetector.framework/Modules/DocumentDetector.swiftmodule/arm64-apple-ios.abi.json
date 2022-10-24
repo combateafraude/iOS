@@ -20036,6 +20036,7 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -20050,6 +20051,7 @@
                     "usr": "c:objc(cs)UIImage"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -20064,6 +20066,7 @@
                     "usr": "s:10Foundation3URLV"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               }
             ],
