@@ -399,6 +399,7 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness33PassiveFaceLivenessViewController")
 @end
 
 
+
 SWIFT_CLASS("_TtC19PassiveFaceLiveness18PassiveOverlayView")
 @interface PassiveOverlayView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -432,6 +433,11 @@ typedef SWIFT_ENUM(NSInteger, Resolution, open) {
   ResolutionVga640x480 = 10,
   ResolutionCif352x288 = 11,
 };
+
+
+SWIFT_CLASS("_TtC19PassiveFaceLiveness14SecurityReason")
+@interface SecurityReason : PassiveFaceLivenessFailure
+@end
 
 
 SWIFT_CLASS("_TtC19PassiveFaceLiveness21ServerFailureResponse")
