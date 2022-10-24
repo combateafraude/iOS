@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		A3RBlFAxJD1LxFtZ8ZNv5IcXJhA=
+		bp3CCWIhMJLe7pOEEqMKUbq8McA=
 		</data>
 		<key>Base.lproj/cnh.mp3</key>
 		<data>
@@ -66,35 +66,31 @@
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		F/Ce1slHCxq9EvFhopAenE9QQVE=
+		PqUDR6reHI6H6w11qRQ7JUSIqSQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DmtVCxiHM409Yi1R62HCAkooXbI=
+		2DuvYPGS+/HkCHKd9/NjKy/GUbo=
+		</data>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		pnFcj/xcIO7Oga22TnCU+sBmNy4=
+		</data>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		c8t8R/mPU5jACLz3NLyHCOPaZks=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		fboWcDskFDQwDHyCx+lbrn8wjvw=
+		H5vU4bAjjzMhcb12+ZJwxIEMglQ=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		gG5qJvQdwcDNPzNwXob2LUr994M=
+		c8t8R/mPU5jACLz3NLyHCOPaZks=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		A9/9vRSVbgGLtnLVK7ydCHGSM8I=
-		</data>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		fboWcDskFDQwDHyCx+lbrn8wjvw=
-		</data>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		gG5qJvQdwcDNPzNwXob2LUr994M=
-		</data>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		A9/9vRSVbgGLtnLVK7ydCHGSM8I=
+		3JejzuCWbdcNFH6vMcclG2nyPiM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,7 +106,7 @@
 		</data>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<data>
-		LPVIblor99vihyPAF/WsGwaV8Rw=
+		oMZZUqpSwzXNzKKYPN4i0UhJGj0=
 		</data>
 		<key>Preview.storyboardc/Info.plist</key>
 		<data>
@@ -122,7 +118,7 @@
 		</data>
 		<key>Preview.storyboardc/h5X-tz-HyN-view-ZgM-rn-lYk.nib</key>
 		<data>
-		7m+wNKe5TJjRi/Md9y1TEBG+nVQ=
+		rl1puPVV3NOIzbA8bOcxRpwdlfs=
 		</data>
 		<key>cnh - PT-BR.mp3</key>
 		<data>
@@ -342,7 +338,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5eoIY4Yg0RLiTm9axS6o3hOCUZbV6ETyQQgjqgz1B9I=
+			/P39BlHuMQwgve/c9uQdvz3erMcF5xRCndqYdHOuzIA=
 			</data>
 		</dict>
 		<key>Base.lproj/cnh.mp3</key>
@@ -440,49 +436,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZUuM9fXE91bc5u0bxdlpJoGNWC1IrAU3XWqW8UVapmM=
+			CNObeMpWXYz46bBZO1fYR88HIx/kC+gs7e70h1YyHH8=
+			</data>
+		</dict>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gOY0aDVttHzVPFYbLzmE70tc9ArwXM8EYAd3aUA8BiU=
+			</data>
+		</dict>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QZZe4AtuSC4drIbyi2T6Z/yUPObmdcgr3BXK+WY7ERY=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VG1X0RLJ7ijl8eWIumsmcEJi42HYShZCDbm4Mw+3RfA=
+			KJbOxOD2BanKlIBbD7cDpEK240VQNhdUJlgzQdYXRMQ=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DnkVg4X++FV3jU9g+QbqqcFlb+SZqUtXLiURtI8a2C0=
+			QZZe4AtuSC4drIbyi2T6Z/yUPObmdcgr3BXK+WY7ERY=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1K1Y+H5Q+tlFsaSI3Ds78uc5YdIhZAC9R6BWhjYTYUw=
-			</data>
-		</dict>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VG1X0RLJ7ijl8eWIumsmcEJi42HYShZCDbm4Mw+3RfA=
-			</data>
-		</dict>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DnkVg4X++FV3jU9g+QbqqcFlb+SZqUtXLiURtI8a2C0=
-			</data>
-		</dict>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1K1Y+H5Q+tlFsaSI3Ds78uc5YdIhZAC9R6BWhjYTYUw=
+			pnqOzyJ80M9GXGbrOttTayWxjTbZasuxArtFc0p6Jf0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -510,7 +499,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R/5ljyM8PZEOcvhUdQ3s9BVvn19q0cI8Nn1KzmCbpcM=
+			VxlJConcbPE5l9nGLvbv+EOqhfjj1B/z/k4FW/nSuPE=
 			</data>
 		</dict>
 		<key>Preview.storyboardc/Info.plist</key>
@@ -531,7 +520,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5lPtotrJU7zbvkX/bq01BIlWQYyd1YpyWv1UNJmfajQ=
+			IcX7YdTgdbm3NKP61T6Ryy8v5Xka0rapqbFnVnK973Y=
 			</data>
 		</dict>
 		<key>cnh - PT-BR.mp3</key>
