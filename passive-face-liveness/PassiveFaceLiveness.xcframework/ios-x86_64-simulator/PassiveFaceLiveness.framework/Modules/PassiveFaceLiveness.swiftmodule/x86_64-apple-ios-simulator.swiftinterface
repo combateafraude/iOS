@@ -91,14 +91,19 @@ extension UIKit.UIImage {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
+@objc @_hasMissingDesignatedInitializers public class SecurityReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
+  public var code: Swift.Int!
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
   public var baseUrl: Swift.String!
   public var relativeUrl: Swift.String!
   public var method: Swift.String!
   public var headers: [Swift.String]!
   public static var stage: PassiveFaceLiveness.CAFStage!
-  public func getUrl(pathParam: Swift.String = "") -> Swift.String!
-  public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String!
+  public func getUrl(pathParam: Swift.String = "") -> Swift.String
+  public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String
+  public func addQueryParamIn(url: Swift.String, name: Swift.String, value: Swift.String) -> Swift.String
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc open class MessageSettings : ObjectiveC.NSObject {
@@ -320,8 +325,8 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   public func encode(to encoder: Swift.Encoder) throws
   @objc open class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
-    open func setPersonId(personId: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
-    open func setPersonCPF(personCPF: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
+    open func setPersonId(_ personId: Swift.String) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
+    open func setPersonCPF(personCPF: Swift.String) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     open func setPersonName(personName: Swift.String?) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     open func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
     open func enableSound(_ enableSound: Swift.Bool) -> PassiveFaceLiveness.PassiveFaceLivenessSdk.Builder
