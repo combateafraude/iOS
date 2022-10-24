@@ -432,7 +432,7 @@ extension DocumentDetector.UploadValidationServer : DocumentDetector.UploadValid
   public var stepLabel: Swift.String!
   public var illustration: UIKit.UIImage!
   public var audio: Foundation.URL!
-  public init(document: DocumentDetector.Document, stepLabel: Swift.String?, illustration: UIKit.UIImage?, audio: Foundation.URL?)
+  public init(document: DocumentDetector.Document, stepLabel: Swift.String? = nil, illustration: UIKit.UIImage? = nil, audio: Foundation.URL? = nil)
   public func encode(to encoder: Swift.Encoder) throws
   open func resetAttributesToDefault()
   @objc deinit
