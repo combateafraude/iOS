@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticator
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticator
 import AVFoundation
 import AVKit
 import AdSupport
@@ -152,7 +152,7 @@ public protocol FaceAuthenticatorCustomViewDelegate {
     open func setLayout(layout: FaceAuthenticator.FaceAuthenticatorLayout) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setImageCaptureSettings(beforePictureInterval: Foundation.TimeInterval!, enableManualCapture: Swift.Bool, timeManualCapture: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
-    open func setVideoCaptureSettings(time: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
+    open func setVideoCaptureSettings(time: Foundation.TimeInterval = 3) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setStage(stage: FaceAuthenticator.CAFStage) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setEyesClosedSettings(threshold: Swift.Double = 0.5, isEnable: Swift.Bool = true, errorMessage: Swift.String = "Não use óculos escuros e mantenha os olhos abertos.") -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
