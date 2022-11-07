@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuthenticator'
-  s.version          = '5.10.0'
+  s.version          = '5.11.0'
   s.summary          = 'Face Authenticator'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-authenticator/LICENSE' }
@@ -21,5 +21,8 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'face-authenticator/FaceAuthenticator.xcframework'
  
   s.dependency 'Sentry', '7.11.0'
+
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
