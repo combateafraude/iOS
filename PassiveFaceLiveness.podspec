@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PassiveFaceLiveness'
-  s.version          = '5.24.0'
+  s.version          = '5.25.0'
   s.summary          = 'PassiveFaceLiveness'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'passive-face-liveness/LICENSE' }
@@ -21,5 +21,8 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'passive-face-liveness/PassiveFaceLiveness.xcframework'
 
   s.dependency 'Sentry', '7.11.0'
+
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
  
 end
