@@ -18,35 +18,11 @@
 		</data>
 		<key>Headers/PassiveFaceLiveness-Swift.h</key>
 		<data>
-		kUV/vVTLA4627u04UzCefG9U6w0=
+		1s84SqHmI3uoyEQM+ziO8bKBJg8=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		dzPQslGttdGJDVe7IeJvMgBSwbA=
-		</data>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		pEnWDeMS5/7tQauKaKAtffkKJ9k=
-		</data>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		QsRMLfHRyqZQM2oJ4KjGeJniWWk=
-		</data>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		c3R6hBGwl8YUnwZr0H7U6crDefM=
-		</data>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		pEnWDeMS5/7tQauKaKAtffkKJ9k=
-		</data>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		QsRMLfHRyqZQM2oJ4KjGeJniWWk=
-		</data>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		c3R6hBGwl8YUnwZr0H7U6crDefM=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +34,7 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LPMDQwN2QHgFZj5YaHXFti7XWIk=
+		RBDYuyZwaiUA2zu1QDUXUski8Mc=
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -70,7 +46,7 @@
 		</data>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		LPMDQwN2QHgFZj5YaHXFti7XWIk=
+		RBDYuyZwaiUA2zu1QDUXUski8Mc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,6 +78,24 @@
 			<key>hash</key>
 			<data>
 			aEKy3B0n6/+jgTrCr6d+zgghD5g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Liveness.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+SCJyQ/jn2fSQM6FvX/VJ05SQ/A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/registrofacial.mp3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sTP8gL+Xt3if+Wp3cHi+jXR7WXI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -152,49 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jrNwAFvEo5WlQzaGSni7oUb33bQtnKgnhoXu+47g6lU=
-			</data>
-		</dict>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PhgBhfBMblxG29ovQOQgoTOW7opbJX8nupvfnzwJbKk=
-			</data>
-		</dict>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pe86kD8Ufl69X/f98Q9xnME2PUKsC8WZWr5wHpoDguU=
-			</data>
-		</dict>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uWgTsg0FR4+4ZEu/omIQTNBnb2Byz0DI2RZrtro2aPE=
-			</data>
-		</dict>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PhgBhfBMblxG29ovQOQgoTOW7opbJX8nupvfnzwJbKk=
-			</data>
-		</dict>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pe86kD8Ufl69X/f98Q9xnME2PUKsC8WZWr5wHpoDguU=
-			</data>
-		</dict>
-		<key>Modules/PassiveFaceLiveness.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uWgTsg0FR4+4ZEu/omIQTNBnb2Byz0DI2RZrtro2aPE=
+			Wrf1cg1K0/yLTSEc5O/cdifLBUGCGM7tO4h26/ic2Fw=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -215,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pgsm24BQug4dOpEkHRFWi6WsbEM+zJ+g7O6c/ugShSg=
+			25BtogyzNCGRwkSToPkSAUH8edB5sl0KEDK0VFy4DLc=
 			</data>
 		</dict>
 		<key>Modules/PassiveFaceLiveness.swiftmodule/x86_64.swiftdoc</key>
@@ -236,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pgsm24BQug4dOpEkHRFWi6WsbEM+zJ+g7O6c/ugShSg=
+			25BtogyzNCGRwkSToPkSAUH8edB5sl0KEDK0VFy4DLc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -281,6 +233,24 @@
 			<key>hash2</key>
 			<data>
 			udbV+6BiQnYxRSY+XNwfAb653cyHc/qMqH/+rDHyDas=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Liveness.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kM8lpGWxXHbNObEAUMVEUJr8aZxbqRY1n5eNxdOwsHs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/registrofacial.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EGMgifSVakaLsay45EeAMqvukL/3NEOVEhl0+Q2NvSA=
 			</data>
 			<key>optional</key>
 			<true/>
