@@ -14,35 +14,11 @@
 		</data>
 		<key>Headers/FaceAuthenticator-Swift.h</key>
 		<data>
-		alYXScqCMAvwSsOpv74gVcyw2Rg=
+		4RyfP4SbdOumZbHZPCzYGk9kE1Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		I3W1oi01cZsnHwnK9Kvo4KaQ1Uo=
-		</data>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		/4MhFfK+TPJ8e2zSelKaxGquAi8=
-		</data>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		eVmrx1t4Xcpx0m2ZLiUJ7eUYlVU=
-		</data>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		vfkasjZ0rTgTjSFjURh7sotVRWc=
-		</data>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		/4MhFfK+TPJ8e2zSelKaxGquAi8=
-		</data>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		eVmrx1t4Xcpx0m2ZLiUJ7eUYlVU=
-		</data>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		vfkasjZ0rTgTjSFjURh7sotVRWc=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +26,11 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TnnYhs+XAoP0tPxrlAuTesAutP4=
+		QaRVe38TY2dAcsELfpYOTM8eBt4=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SV1WbYyvJQ1iqlCiAADAKrAMyIc=
+		ZvUggKA6DBdrbZYndtzzNU0nqgc=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,11 +38,11 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		TnnYhs+XAoP0tPxrlAuTesAutP4=
+		QaRVe38TY2dAcsELfpYOTM8eBt4=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SV1WbYyvJQ1iqlCiAADAKrAMyIc=
+		ZvUggKA6DBdrbZYndtzzNU0nqgc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,49 +73,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0s4NGL7/qe+vbRkXxHZmaJmiQy1yoi8/C83Kh34bDA=
-			</data>
-		</dict>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F2vl7++X+cRvV6tVefGXea9Cd0wKyxEs946etaLwT+8=
-			</data>
-		</dict>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xCx3t5TnvdlYyq9K/8Nl9CqkOxk8pw8Kw3CxAsRuZH4=
-			</data>
-		</dict>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6XPr+bn++Gz9v0xm4KPfu7IDdsNZW8mecaN7EtlCPzQ=
-			</data>
-		</dict>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F2vl7++X+cRvV6tVefGXea9Cd0wKyxEs946etaLwT+8=
-			</data>
-		</dict>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xCx3t5TnvdlYyq9K/8Nl9CqkOxk8pw8Kw3CxAsRuZH4=
-			</data>
-		</dict>
-		<key>Modules/FaceAuthenticator.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6XPr+bn++Gz9v0xm4KPfu7IDdsNZW8mecaN7EtlCPzQ=
+			8OkZUtqk69FifIMS7mGon62gRvoYPhyPmdNLSza/UjA=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -153,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tCDErz3y+ifkOjZP0o6BCzyqdjZ9fKbDc0M83jB/TUM=
+			OlU1BzMMsIMg//eB8AaqEtI1glYKu43zr0+CFWf/pvs=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I7PLKF7m2HlbJWUKmlRqKAWI9/250vUQeRmf5B6OOmk=
+			BvF9kUJaU6ySJVLe1NXe8lr6HOZRMknu64LEUS+j1K4=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftdoc</key>
@@ -174,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tCDErz3y+ifkOjZP0o6BCzyqdjZ9fKbDc0M83jB/TUM=
+			OlU1BzMMsIMg//eB8AaqEtI1glYKu43zr0+CFWf/pvs=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I7PLKF7m2HlbJWUKmlRqKAWI9/250vUQeRmf5B6OOmk=
+			BvF9kUJaU6ySJVLe1NXe8lr6HOZRMknu64LEUS+j1K4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

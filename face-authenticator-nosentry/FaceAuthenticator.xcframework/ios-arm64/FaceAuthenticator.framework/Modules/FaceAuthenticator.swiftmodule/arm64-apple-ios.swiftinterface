@@ -151,7 +151,7 @@ public protocol FaceAuthenticatorCustomViewDelegate {
     open func setLayout(layout: FaceAuthenticator.FaceAuthenticatorLayout) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setImageCaptureSettings(beforePictureInterval: Foundation.TimeInterval!, enableManualCapture: Swift.Bool, timeManualCapture: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
-    open func setVideoCaptureSettings(time: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
+    open func setVideoCaptureSettings(time: Foundation.TimeInterval = 3) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setStage(stage: FaceAuthenticator.CAFStage) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
     open func setEyesClosedSettings(threshold: Swift.Double = 0.5, isEnable: Swift.Bool = true, errorMessage: Swift.String = "Não use óculos escuros e mantenha os olhos abertos.") -> FaceAuthenticator.FaceAuthenticatorSdk.Builder
