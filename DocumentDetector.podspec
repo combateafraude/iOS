@@ -20,9 +20,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'document-detector/DocumentDetector.xcframework'
 
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
   
   s.dependency 'TensorFlowLiteSwift', '2.4.0'
   s.dependency 'Sentry', '7.11.0'
