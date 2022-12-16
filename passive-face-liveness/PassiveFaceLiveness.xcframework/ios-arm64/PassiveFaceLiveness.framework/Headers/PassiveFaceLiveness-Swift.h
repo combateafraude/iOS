@@ -227,13 +227,8 @@ SWIFT_CLASS("_TtC19PassiveFaceLiveness12AnalyticsApi")
 typedef SWIFT_ENUM(NSInteger, CAFStage, open) {
   CAFStageBETA = 0,
   CAFStagePROD = 1,
-  CAFStageOTHER = 2,
+  CAFStageDEV = 2,
 };
-
-
-SWIFT_CLASS("_TtC19PassiveFaceLiveness6CafApi")
-@interface CafApi : Api
-@end
 
 typedef SWIFT_ENUM(NSInteger, CaptureMode, open) {
   CaptureModeAUTOMATIC = 0,

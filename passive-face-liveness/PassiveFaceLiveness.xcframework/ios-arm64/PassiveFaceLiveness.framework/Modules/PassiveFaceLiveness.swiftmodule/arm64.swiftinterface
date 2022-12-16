@@ -4,11 +4,13 @@
 import AVFoundation
 import AVKit
 import AdSupport
+import CommonCrypto
 import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
 import CoreMotion
+import CryptoKit
 import Foundation
 import Sentry
 import Swift
@@ -46,13 +48,12 @@ public protocol PassiveFaceLivenessViewControllerDelegate : AnyObject {
   @objc @_Concurrency.MainActor(unsafe) public func cancelButtonClick()
   @_Concurrency.MainActor(unsafe) @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @_Concurrency.MainActor(unsafe) public func clickButtonManualCapture()
-  @_Concurrency.MainActor(unsafe) public func imageFromVideo(url: Foundation.URL, index: Swift.Int?, total: Swift.Int?) -> UIKit.UIImage?
   @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
   @_Concurrency.MainActor(unsafe) @objc public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError: Swift.Error?)
   @objc deinit
 }
 extension UIKit.UIImage {
-  public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage
+  public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreGraphics.CGFloat) -> UIKit.UIImage?
 }
 @objc @_Concurrency.MainActor(unsafe) open class PassiveOverlayView : UIKit.UIView, PassiveFaceLiveness.PassiveFaceLivenessViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) open func showLoading(show: Swift.Bool)
@@ -96,14 +97,14 @@ extension UIKit.UIImage {
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
-  public var baseUrl: Swift.String!
-  public var relativeUrl: Swift.String!
-  public var method: Swift.String!
-  public var headers: [Swift.String]!
-  public static var stage: PassiveFaceLiveness.CAFStage!
+  public var relativeUrl: Swift.String
+  public var method: Swift.String
+  public var headers: [Swift.String]
   public func getUrl(pathParam: Swift.String = "") -> Swift.String
-  public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String
+  public func addPathParamIn(url: Swift.String, path: Swift.String) -> Swift.String
   public func addQueryParamIn(url: Swift.String, name: Swift.String, value: Swift.String) -> Swift.String
+  public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String
+  public func getHMACSecret() -> Swift.String
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc open class MessageSettings : ObjectiveC.NSObject {
@@ -172,8 +173,8 @@ public protocol PassiveFaceLivenessCustomViewDelegate : AnyObject {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : PassiveFaceLiveness.Api {
-  public static let REQUEST_TRACKING_ID: PassiveFaceLiveness.AnalyticsApi
-  public static let ADD_EVENT: PassiveFaceLiveness.AnalyticsApi
+  public static func REQUEST_TRACKING_ID(with passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLivenessSdk) -> PassiveFaceLiveness.MobileApi
+  public static func ADD_EVENT(with passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLivenessSdk) -> PassiveFaceLiveness.MobileApi
   @objc deinit
 }
 public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProtocol {
@@ -196,9 +197,10 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
 }
 @_hasMissingDesignatedInitializers @objc public class PassiveFaceLivenessResult : ObjectiveC.NSObject, Swift.Encodable {
   public var image: UIKit.UIImage?
-  public var imageUrl: Swift.String!
+  public var bucket: Swift.String?
+  public var key: Swift.String?
   public var capturePath: Swift.String?
-  public var signedResponse: Swift.String?
+  public var signedResponse: Swift.String
   public var trackingId: Swift.String?
   public var lensFacing: Swift.Int!
   public static let LENS_FACING_FRONT: Swift.Int
@@ -215,10 +217,6 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class InvalidTokenReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CafApi : PassiveFaceLiveness.Api {
-  public static let IMAGE_UPLOAD: PassiveFaceLiveness.CafApi
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class LibraryReason : PassiveFaceLiveness.PassiveFaceLivenessFailure {
@@ -250,11 +248,9 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   }
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MobileApi : PassiveFaceLiveness.Api {
-  public static let TOKEN_VERIFICATION: PassiveFaceLiveness.MobileApi
-  public static let FACE_LIVENESS: PassiveFaceLiveness.MobileApi
-  public static let IMAGE_UPLOAD: PassiveFaceLiveness.MobileApi
-  public static let TOKEN_VERIFICATION_OTHER: PassiveFaceLiveness.MobileApi
-  public static let FACE_LIVENESS_OTHER: PassiveFaceLiveness.MobileApi
+  public static func ATTESTATION(with passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLivenessSdk) -> PassiveFaceLiveness.MobileApi
+  public static func FACE_LIVENESS(with passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLivenessSdk) -> PassiveFaceLiveness.MobileApi
+  public static func IMAGE_UPLOAD(with passiveFaceLiveness: PassiveFaceLiveness.PassiveFaceLivenessSdk) -> PassiveFaceLiveness.MobileApi
   @objc deinit
 }
 @objc public enum ValidationFailure : Swift.Int {
@@ -375,7 +371,7 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
   }
 }
 @objc public enum CAFStage : Swift.Int {
-  case BETA, PROD, OTHER
+  case BETA, PROD, DEV
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
