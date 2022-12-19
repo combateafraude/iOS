@@ -197,12 +197,11 @@ public protocol PassiveFaceLivenessControllerDelegate : ObjectiveC.NSObjectProto
 }
 @_hasMissingDesignatedInitializers @objc public class PassiveFaceLivenessResult : ObjectiveC.NSObject, Swift.Encodable {
   public var image: UIKit.UIImage?
-  public var bucket: Swift.String?
-  public var key: Swift.String?
+  public var imageUrl: Swift.String?
   public var capturePath: Swift.String?
-  public var signedResponse: Swift.String
+  public var signedResponse: Swift.String?
   public var trackingId: Swift.String?
-  public var lensFacing: Swift.Int!
+  public var lensFacing: Swift.Int
   public static let LENS_FACING_FRONT: Swift.Int
   public static let LENS_FACING_BACK: Swift.Int
   public func encode(to encoder: Swift.Encoder) throws
