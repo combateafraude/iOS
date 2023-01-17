@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetectorNoSentry'
-  s.version          = '7.9.0'
+  s.version          = '7.12.0-rc01'
   s.summary          = 'DocumentDetectorNoSentry'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector-nosentry/LICENSE' }
@@ -19,11 +19,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.3.2'
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'document-detector-nosentry/DocumentDetector.xcframework'
-
-
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  
-  s.dependency 'TensorFlowLiteSwift', '2.4.0'
  
 end
