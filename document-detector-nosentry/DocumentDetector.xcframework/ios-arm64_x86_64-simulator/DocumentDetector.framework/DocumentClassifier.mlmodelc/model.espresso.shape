@@ -1,0 +1,1236 @@
+{
+  "layer_shapes" : {
+    "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "mobilenetv2_0_50_192_input" : {
+      "k" : 3,
+      "w" : 192,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 192
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6" : {
+      "k" : 1280,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_relu__" : {
+      "k" : 1280,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 48,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 160,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "conv_0" : {
+      "k" : 32,
+      "w" : 4,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6" : {
+      "k" : 48,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_add\/add" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_add\/add" : {
+      "k" : 16,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/global_average_pooling2d\/Mean_presqueeze" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 80,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 48,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 16,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_add\/add" : {
+      "k" : 80,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_add\/add" : {
+      "k" : 80,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_neg__" : {
+      "k" : 1280,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/conv2d\/Relu__reduction_axis__1" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_add\/add" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 48,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/dense\/BiasAdd" : {
+      "k" : 1,
+      "w" : 23,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "Identity" : {
+      "k" : 1,
+      "w" : 23,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_neg__" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 48,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 48,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 288,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 80,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_add\/add" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/global_average_pooling2d\/Mean" : {
+      "k" : 1,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 2,
+      "h" : 1
+    },
+    "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 16,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_add\/add" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 288,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_add\/add" : {
+      "k" : 48,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_add\/add" : {
+      "k" : 48,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 48,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6" : {
+      "k" : 288,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 48,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6" : {
+      "k" : 48,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/conv2d\/Relu" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "transpose_163" : {
+      "k" : 4,
+      "w" : 32,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 4
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/expanded_conv_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 8,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 1280,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_add\/add" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 288,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 48,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 80,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_relu__" : {
+      "k" : 16,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 48,
+      "w" : 96,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 96
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6" : {
+      "k" : 288,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 48,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 48
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_relu__" : {
+      "k" : 96,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_3_project_BN\/FusedBatchNormV3_nchw" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_neg__" : {
+      "k" : 192,
+      "w" : 12,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 12
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_threshold6__" : {
+      "k" : 96,
+      "w" : 24,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 24
+    },
+    "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_neg__" : {
+      "k" : 480,
+      "w" : 6,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 6
+    }
+  }
+}
