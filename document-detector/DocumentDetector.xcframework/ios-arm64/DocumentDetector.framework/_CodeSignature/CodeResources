@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		/x1nGHn7mdmtiHH67AVDW35KH0Q=
+		0wnc/Qih5BkPts/4H2dGP6/4Y34=
 		</data>
 		<key>Base.lproj/cnh.mp3</key>
 		<data>
@@ -64,37 +64,57 @@
 		<data>
 		wL/1CHwR6AHxJCl9jKWKfe3p0Cw=
 		</data>
+		<key>DocumentClassifier.mlmodelc/analytics/coremldata.bin</key>
+		<data>
+		ZlM8wCmOrc/gdEekf3VFKtEXZgc=
+		</data>
+		<key>DocumentClassifier.mlmodelc/coremldata.bin</key>
+		<data>
+		afqcMxUodL3jf9oecxLIfAAOzIg=
+		</data>
+		<key>DocumentClassifier.mlmodelc/metadata.json</key>
+		<data>
+		tcYS2gTYfXip7gsegEWOuuGvRZQ=
+		</data>
+		<key>DocumentClassifier.mlmodelc/model.espresso.net</key>
+		<data>
+		ctZY4E32P4oppXBFzrzy99HGwmI=
+		</data>
+		<key>DocumentClassifier.mlmodelc/model.espresso.shape</key>
+		<data>
+		jmwpt04qdW7JFuBl3JM0GOLJ7K0=
+		</data>
+		<key>DocumentClassifier.mlmodelc/model.espresso.weights</key>
+		<data>
+		4wM/ELUFQpxyE2n/VtwfEM0UXpU=
+		</data>
+		<key>DocumentClassifier.mlmodelc/model/coremldata.bin</key>
+		<data>
+		ouIPdEgQx+YCLVUUac+uBH1zkwQ=
+		</data>
+		<key>DocumentClassifier.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<data>
+		tkgF5pxT7RlO+9uypQti9obolyA=
+		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		F/Ce1slHCxq9EvFhopAenE9QQVE=
+		RjeCfJb4ssNpQUGiNQps0W/RXgs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DmtVCxiHM409Yi1R62HCAkooXbI=
+		twoIFJHuPGUB1fEKF2AFoPQzacw=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4Y0ccCguk2Zzaj94HZk87pPMBY8=
+		rzV9ON22laednCar8FeoW25imak=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VvzNEa6HrJ9fBPKlP7lCfm8Yy/c=
+		nk13iRKtJpcMfSW1h/pMs2dQpsI=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0xPQJFXU+2p4U7LJge/JOCimeiw=
-		</data>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		4Y0ccCguk2Zzaj94HZk87pPMBY8=
-		</data>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		VvzNEa6HrJ9fBPKlP7lCfm8Yy/c=
-		</data>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		0xPQJFXU+2p4U7LJge/JOCimeiw=
+		VdIvWeeuOK+eROvVBA8zjXa1Pg0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,7 +130,7 @@
 		</data>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<data>
-		LPVIblor99vihyPAF/WsGwaV8Rw=
+		VcVWdiylXswWumhRlk8okU7b2IA=
 		</data>
 		<key>Preview.storyboardc/Info.plist</key>
 		<data>
@@ -122,7 +142,7 @@
 		</data>
 		<key>Preview.storyboardc/h5X-tz-HyN-view-ZgM-rn-lYk.nib</key>
 		<data>
-		7m+wNKe5TJjRi/Md9y1TEBG+nVQ=
+		rl1puPVV3NOIzbA8bOcxRpwdlfs=
 		</data>
 		<key>cnh - PT-BR.mp3</key>
 		<data>
@@ -404,14 +424,6 @@
 		<data>
 		9PH5Hn7nn1RRI5lySViXS28Q+qw=
 		</data>
-		<key>labels.txt</key>
-		<data>
-		eRlG8RCi1ncz0K3WJp5vCvdDrF4=
-		</data>
-		<key>model.tflite</key>
-		<data>
-		FKeL9zLQs/ZzCRJ2C+fqEQuBESo=
-		</data>
 		<key>passport - PT-BR.mp3</key>
 		<data>
 		rGLvjFwO3qfrT2pgqrjdemZImIY=
@@ -468,7 +480,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zMft+qqIqBEy/HXfsHWSwVz/VOMLYsHQqXF+ZZjnQbk=
+			AyN6ad71MRx8zS9cjuMy2SPlNyTv+1cL8FgFHjO2FnE=
 			</data>
 		</dict>
 		<key>Base.lproj/cnh.mp3</key>
@@ -562,53 +574,88 @@
 			2+4bq+QLEWxFGabN10Ygn3k8Vr/kYrXPx8y0ruR8W4k=
 			</data>
 		</dict>
+		<key>DocumentClassifier.mlmodelc/analytics/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t326imvHQvA4OU0bquyUH2zZWXoPik2fiw7vRHcMFfM=
+			</data>
+		</dict>
+		<key>DocumentClassifier.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BJiATeGc9RTwzfqOLf8ZHpWoSzJDvZklWvNciXQcQzI=
+			</data>
+		</dict>
+		<key>DocumentClassifier.mlmodelc/metadata.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BPjbnrOKtRd0QAsts56EI0wCIttrKKdcZFwo+WlFe6Y=
+			</data>
+		</dict>
+		<key>DocumentClassifier.mlmodelc/model.espresso.net</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IsNCBmXvl1wOk64cuwlKV/Ksw2tsDUhe1ZhPrYEMDJ0=
+			</data>
+		</dict>
+		<key>DocumentClassifier.mlmodelc/model.espresso.shape</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gjKQyJzDv/AyTIC1k3CbryDqs2uz8UBFKacg7VzvJ2g=
+			</data>
+		</dict>
+		<key>DocumentClassifier.mlmodelc/model.espresso.weights</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GMPyW5wkP3IVZHLbC4jNpPlGsMQID28Ee5SaxRE/GuA=
+			</data>
+		</dict>
+		<key>DocumentClassifier.mlmodelc/model/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			isSH1ozQajofT60UVyppXDzHwpMfIV8848sDfmp0RSk=
+			</data>
+		</dict>
+		<key>DocumentClassifier.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WTG9U2xFUClKISxvyNPBvuddqBeYC6C2cchgPa+zYjg=
+			</data>
+		</dict>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZUuM9fXE91bc5u0bxdlpJoGNWC1IrAU3XWqW8UVapmM=
+			GDdd9XWk+ORELaHQMcJycQwlcUgkHmPR80TMCveJkR4=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bw2oPrUfvQLNOhf+OWVn/mXgMF5U4odnZ9cDG4tVzg0=
+			DXgvpUaaKCUEUI8dHOhOaKpjIb/BUiSwjAvLdSUPB+o=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0gL8BrfIpdkKOhRGgT8nGYZSLXCSPUENAytGbO2omYM=
+			wTDxepk0Y6ArlKMVaH31c/c3a1bPe2oSH/uRG4FrN/8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+y25b2l1vzL4cMmXndsFl7oKFjNoNTaoDYXbnv2sSI=
-			</data>
-		</dict>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Bw2oPrUfvQLNOhf+OWVn/mXgMF5U4odnZ9cDG4tVzg0=
-			</data>
-		</dict>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0gL8BrfIpdkKOhRGgT8nGYZSLXCSPUENAytGbO2omYM=
-			</data>
-		</dict>
-		<key>Modules/DocumentDetector.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			d+y25b2l1vzL4cMmXndsFl7oKFjNoNTaoDYXbnv2sSI=
+			M9f6CJ8Ay6k2CTPH+Cb0qZhUrebdmRZFqCb5xe4jH1w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -636,7 +683,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R/5ljyM8PZEOcvhUdQ3s9BVvn19q0cI8Nn1KzmCbpcM=
+			+Bz1pDgbBTUg0jdGw/p/th6JMyPKtK4xvb1nB0zFhPU=
 			</data>
 		</dict>
 		<key>Preview.storyboardc/Info.plist</key>
@@ -657,7 +704,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5lPtotrJU7zbvkX/bq01BIlWQYyd1YpyWv1UNJmfajQ=
+			IcX7YdTgdbm3NKP61T6Ryy8v5Xka0rapqbFnVnK973Y=
 			</data>
 		</dict>
 		<key>cnh - PT-BR.mp3</key>
@@ -959,20 +1006,6 @@
 			<key>hash2</key>
 			<data>
 			zxvZxM//96ug6Y9WZqN/QGFrd6riHseHPICkSjhga/k=
-			</data>
-		</dict>
-		<key>labels.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+/XPWBQht+cYZgTg1+Z6ONrilfZrWknuqMvaWY00MY0=
-			</data>
-		</dict>
-		<key>model.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rm1VfpMk7sH0hFX9CDeQ13G0KpwY7i63a4VeoNuguUc=
 			</data>
 		</dict>
 		<key>passport - PT-BR.mp3</key>

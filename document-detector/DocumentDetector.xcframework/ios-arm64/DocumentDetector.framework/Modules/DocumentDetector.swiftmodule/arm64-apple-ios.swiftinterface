@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DocumentDetector
 import AVFoundation
 import AVKit
@@ -9,19 +9,20 @@ import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
+import CoreML
 import CoreMotion
 import Foundation
+import ImageIO
 import MobileCoreServices
 import PDFKit
 import Photos
 import Sentry
 import Swift
-import TensorFlowLite
 import UIKit
 import VideoToolbox
 import Vision
 import _Concurrency
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DocumentDetectorViewController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DocumentDetectorViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
@@ -31,14 +32,15 @@ import _Concurrency
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func clickButtonManualCapture()
   @objc @_Concurrency.MainActor(unsafe) public func cancelButtonClick()
-  @_Concurrency.MainActor(unsafe) @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
-  @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
-  @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
-  @_Concurrency.MainActor(unsafe) public func startCaptureSession()
   @objc deinit
 }
 extension UIKit.UIImage {
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
+}
+extension DocumentDetector.DocumentDetectorViewController {
+  @_Concurrency.MainActor(unsafe) public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
+  @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DocumentDetectorFailure : ObjectiveC.NSObject, Swift.Encodable {
   public var message: Swift.String!
@@ -128,6 +130,7 @@ public enum FileFormat : Swift.String {
   public static let TRANSACTIONS: DocumentDetector.CafApi
   @objc deinit
 }
+@available(iOS 13.0, *)
 public class UploadValidationViewModel {
   public init(documentDetector: DocumentDetector.DocumentDetectorSdk, uploadValidationMessage: DocumentDetector.UploadValidationMessage = .allowPermissionMessage, server: DocumentDetector.UploadValidationDataSource = UploadValidationServer(), documentDetectorAI: DocumentDetector.DocumentDetectorAI = .init())
   @objc deinit
@@ -618,6 +621,7 @@ public enum CountryCodes : Swift.String {
   public static let CNH_NEW_FRONT: DocumentDetector.Label
   public static let CNH_NEW_FULL: DocumentDetector.Label
   public static let CRLV_NEW: DocumentDetector.Label
+  public static let SELFIE: DocumentDetector.Label
   public var scanLabel: Swift.String!
   public var documentType: Swift.String!
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
@@ -676,7 +680,8 @@ public enum UploadErrorType {
     get
   }
 }
-@objc @_Concurrency.MainActor(unsafe) public class UploadValidationViewController : UIKit.UIViewController {
+@objc @available(iOS 13.0, *)
+@_Concurrency.MainActor(unsafe) public class UploadValidationViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) convenience public init(documentDetector: DocumentDetector.DocumentDetectorSdk)
   @_Concurrency.MainActor(unsafe) public init(documentDetector: DocumentDetector.DocumentDetectorSdk, nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -684,10 +689,12 @@ public enum UploadErrorType {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
 }
+@available(iOS 13.0, *)
 extension DocumentDetector.UploadValidationViewController : UIKit.UIDocumentPickerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func documentPicker(_ controller: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
   @_Concurrency.MainActor(unsafe) @objc dynamic public func documentPickerWasCancelled(_ controller: UIKit.UIDocumentPickerViewController)
 }
+@available(iOS 13.0, *)
 extension DocumentDetector.UploadValidationViewController : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
   @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
@@ -711,6 +718,7 @@ extension DocumentDetector.UploadValidationMessage {
 extension DocumentDetector.UploadValidationMessage : Swift.Equatable {
   public static func == (lhs: DocumentDetector.UploadValidationMessage, rhs: DocumentDetector.UploadValidationMessage) -> Swift.Bool
 }
+@available(iOS 13.0, *)
 public class DocumentDetectorAI {
   public init()
   @objc deinit
@@ -727,6 +735,9 @@ public class DocumentDetectorAI {
   public var rawValue: Swift.Int {
     get
   }
+}
+public struct Prediction {
+  public typealias ImagePredictorHandler = (DocumentDetector.Prediction) -> Swift.Void
 }
 @_hasMissingDesignatedInitializers @objc public class StorageReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
@@ -835,17 +846,8 @@ public protocol DocumentDetectorCustomViewControllerDelegate : AnyObject {
   func documentDetectionControllerDidCancel()
   func documentDetectionController(didFailWithError error: DocumentDetector.DocumentDetectorFailure)
 }
-@objc public class DocumentDetectorCustomViewController : ObjectiveC.NSObject, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
-  public init(documentDetector: DocumentDetector.DocumentDetectorSdk, viewController: UIKit.UIViewController, previewView: UIKit.UIView)
-  public func viewDidLayoutSubviews()
-  public func viewWillAppear()
-  public func viewWillDisappear()
-  public func viewDidAppear()
-  public func cancelButtonClick()
-  @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
-  public func clickButtonManualCapture()
-  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
-  @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+@objc @_inheritsConvenienceInitializers public class DocumentDetectorCustomViewController : ObjectiveC.NSObject {
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc public enum MaskType : Swift.Int {
