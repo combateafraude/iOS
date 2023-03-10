@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		0wnc/Qih5BkPts/4H2dGP6/4Y34=
+		CHmnmINBuCRyn8kqqDMezjxssAQ=
 		</data>
 		<key>Base.lproj/cnh.mp3</key>
 		<data>
@@ -98,23 +98,31 @@
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		RjeCfJb4ssNpQUGiNQps0W/RXgs=
+		linr4yfQN3zf796Ry+jzcrEf/bo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		twoIFJHuPGUB1fEKF2AFoPQzacw=
+		5KgF5wOurn5vVa+b99esU4xo+c8=
+		</data>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		0eXI+npLROef3J6eVI95iJbugf0=
+		</data>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		DsKmVVByGOddBAR7gtBG1CKNoEo=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WPMAeu77gmPsT99hJnKvpB5spew=
+		ZBJh9HZxVHv/rATXJsyzjHvo0oQ=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		nk13iRKtJpcMfSW1h/pMs2dQpsI=
+		DsKmVVByGOddBAR7gtBG1CKNoEo=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		oE4RibEEGlElnJDhqjQ1IdEXui0=
+		bxmM+XgCu/lkjz+jhAau2d+utms=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,7 +138,7 @@
 		</data>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<data>
-		VcVWdiylXswWumhRlk8okU7b2IA=
+		oMZZUqpSwzXNzKKYPN4i0UhJGj0=
 		</data>
 		<key>Preview.storyboardc/Info.plist</key>
 		<data>
@@ -164,7 +172,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7k2MEdd0Ob+BC6inQoMrIXSpcRQ=
+			wB4hQE/cbN+Na35s6lTGAfoq5Gw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -290,7 +298,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+ay+kDsRfVpJW71WdS9rUqxtwnI=
+			BIwXf16m6JLuO+aAiGwW9WOYqY4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -432,7 +440,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cvPQxISY0yxReOw+uASIWHqAV0w=
+			2tCkV1D5tPgWq93Swflrqn5dYwI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -480,7 +488,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AyN6ad71MRx8zS9cjuMy2SPlNyTv+1cL8FgFHjO2FnE=
+			z29KqCg4O6nwNLaHgdb51BeAomXzahcgJvW7R4BRg88=
 			</data>
 		</dict>
 		<key>Base.lproj/cnh.mp3</key>
@@ -634,28 +642,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GDdd9XWk+ORELaHQMcJycQwlcUgkHmPR80TMCveJkR4=
+			1NMklgC+oCUrNNMpCG6gJh8+zUCIm9tbwYHvPm/+3KY=
+			</data>
+		</dict>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KkXTUiebka527FucaqGJHg/crbwbvtuQda5yUJmO3cU=
+			</data>
+		</dict>
+		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			neu8VHJvCsTj5VJqzIFq4X3uuKb47Cw101WAWX4aa94=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k4kCWZ8oMF9wjba7kUb1707sURjEYMIj7/ufFxaDnqA=
+			A8eJWVcS34POAX45wmZAqqLVMHySdtUl1XJJ2bgE4Ts=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wTDxepk0Y6ArlKMVaH31c/c3a1bPe2oSH/uRG4FrN/8=
+			neu8VHJvCsTj5VJqzIFq4X3uuKb47Cw101WAWX4aa94=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JJKYHsWv25og1M22Q3TGtadVthQvrzMmfuxrJYPRSvw=
+			ugfrSMqNvQmOxe961Oe3cBr2jYx41BS8T3Q3sMN1jpo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -683,7 +705,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Bz1pDgbBTUg0jdGw/p/th6JMyPKtK4xvb1nB0zFhPU=
+			VxlJConcbPE5l9nGLvbv+EOqhfjj1B/z/k4FW/nSuPE=
 			</data>
 		</dict>
 		<key>Preview.storyboardc/Info.plist</key>
@@ -739,7 +761,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/mR+mBjBvhQ3z/C/4fKl1sMBFNoFXACsE+Y8v4Bl2yg=
+			8x3sMV+4Ku+1qcISqHda5Rro8lAZQhDcNpR8Fsxfp2k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -865,7 +887,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sETIoJcG2B3qaAWpdN52mf0gnTR1lPI/kuT/qeZV/no=
+			ovqOB6+8j9gl74VLFgg/4BrNHP1jzktmSsd7ycJxqno=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1019,7 +1041,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yoVQvZZxS/vhNwEAKv5QxcGZVCXZyxEXIDtl3XPynnA=
+			Ln4Sxb/Nct7IgOTFAYssKrWFTEl8WZmcQ8O9xnhfrjA=
 			</data>
 			<key>optional</key>
 			<true/>
