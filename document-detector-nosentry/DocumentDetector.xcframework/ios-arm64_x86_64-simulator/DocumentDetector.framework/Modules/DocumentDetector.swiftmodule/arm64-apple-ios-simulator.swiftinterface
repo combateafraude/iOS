@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DocumentDetector
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import Accelerate
@@ -21,6 +22,7 @@ import UIKit
 import VideoToolbox
 import Vision
 import _Concurrency
+import _StringProcessing
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DocumentDetectorViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -63,7 +65,7 @@ extension DocumentDetector.DocumentDetectorViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @objc deinit
 }
@@ -168,7 +170,7 @@ public class UploadValidationViewModel {
   public var overlay: DocumentDetector.DocumentOverlayView!
   public var type: DocumentDetector.MaskType!
   public var resolution: DocumentDetector.Resolution!
-  public var compressionQuality: CoreGraphics.CGFloat!
+  public var compressionQuality: CoreFoundation.CGFloat!
   public var currentStepDoneDelay: Foundation.TimeInterval!
   public var uploadSettings: DocumentDetector.UploadSettings!
   public var allowedPassportCountryList: [DocumentDetector.CountryCodes]?
@@ -200,7 +202,7 @@ public class UploadValidationViewModel {
     open func setOverlay(overlay: DocumentDetector.DocumentOverlayView) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setMask(type: DocumentDetector.MaskType) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setResolutionSettings(resolution: DocumentDetector.Resolution) -> DocumentDetector.DocumentDetectorSdk.Builder
-    open func setCompressSettings(compressionQuality: CoreGraphics.CGFloat) -> DocumentDetector.DocumentDetectorSdk.Builder
+    open func setCompressSettings(compressionQuality: CoreFoundation.CGFloat) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setUploadSettings(uploadSettings: DocumentDetector.UploadSettings) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func build() -> DocumentDetector.DocumentDetectorSdk
@@ -556,7 +558,7 @@ public enum CountryCodes : Swift.String {
 }
 @_inheritsConvenienceInitializers @objc open class DocumentDetectorLayout : ObjectiveC.NSObject {
   public var closeImage: UIKit.UIImage?
-  public var buttonSize: CoreGraphics.CGFloat?
+  public var buttonSize: CoreFoundation.CGFloat?
   public var buttonContentMode: UIKit.UIView.ContentMode?
   public var font: Swift.String?
   @objc override dynamic public init()
@@ -620,7 +622,6 @@ public enum CountryCodes : Swift.String {
   public static let CNH_NEW_FRONT: DocumentDetector.Label
   public static let CNH_NEW_FULL: DocumentDetector.Label
   public static let CRLV_NEW: DocumentDetector.Label
-  public static let SELFIE: DocumentDetector.Label
   public var scanLabel: Swift.String!
   public var documentType: Swift.String!
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
@@ -660,9 +661,9 @@ public enum CountryCodes : Swift.String {
   @_Concurrency.MainActor(unsafe) open func documentDetectionControllerDidCancel()
   @_Concurrency.MainActor(unsafe) open func documentDetectionController(didFailWithError error: DocumentDetector.DocumentDetectorFailure)
   @_Concurrency.MainActor(unsafe) weak public var viewController: DocumentDetector.DocumentDetectorViewController?
-  @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) open func updateOverlay(newSize: CoreGraphics.CGSize)
+  @_Concurrency.MainActor(unsafe) open func updateOverlay(newSize: CoreFoundation.CGSize)
   @_Concurrency.MainActor(unsafe) open func setCurrentActionChecked(checked: Swift.Bool)
   @_Concurrency.MainActor(unsafe) open func setCurrentAction(text: Swift.String, checked: Swift.Bool)
   @_Concurrency.MainActor(unsafe) open func setLastAction(text: Swift.String)
