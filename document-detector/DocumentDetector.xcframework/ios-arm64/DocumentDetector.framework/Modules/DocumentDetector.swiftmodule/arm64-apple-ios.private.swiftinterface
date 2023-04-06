@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DocumentDetector
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -42,7 +42,7 @@ extension UIKit.UIImage {
 extension DocumentDetector.DocumentDetectorViewController {
   @_Concurrency.MainActor(unsafe) public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
-  @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: Swift.Error?)
+  @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DocumentDetectorFailure : ObjectiveC.NSObject, Swift.Encodable {
   public var message: Swift.String!
@@ -50,7 +50,7 @@ extension DocumentDetector.DocumentDetectorViewController {
     @objc get
   }
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class InvalidConfigurationReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
@@ -61,7 +61,7 @@ extension DocumentDetector.DocumentDetectorViewController {
   @objc func documentDetectionController(_ scanner: DocumentDetector.DocumentDetectorController, didFailWithError error: DocumentDetector.DocumentDetectorFailure)
 }
 @objc(DocumentDetectorController) @_Concurrency.MainActor(unsafe) open class DocumentDetectorController : UIKit.UINavigationController {
-  @objc @_Concurrency.MainActor(unsafe) weak public var documentDetectorDelegate: DocumentDetector.DocumentDetectorControllerDelegate?
+  @objc @_Concurrency.MainActor(unsafe) weak public var documentDetectorDelegate: (any DocumentDetector.DocumentDetectorControllerDelegate)?
   @objc @_Concurrency.MainActor(unsafe) required public init(documentDetector: DocumentDetector.DocumentDetectorSdk)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -134,7 +134,7 @@ public enum FileFormat : Swift.String {
 }
 @available(iOS 13.0, *)
 public class UploadValidationViewModel {
-  public init(documentDetector: DocumentDetector.DocumentDetectorSdk, uploadValidationMessage: DocumentDetector.UploadValidationMessage = .allowPermissionMessage, server: DocumentDetector.UploadValidationDataSource = UploadValidationServer(), documentDetectorAI: DocumentDetector.DocumentDetectorAI = .init())
+  public init(documentDetector: DocumentDetector.DocumentDetectorSdk, uploadValidationMessage: DocumentDetector.UploadValidationMessage = .allowPermissionMessage, server: any DocumentDetector.UploadValidationDataSource = UploadValidationServer(), documentDetectorAI: DocumentDetector.DocumentDetectorAI = .init())
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc open class DocumentDetectorSdk : ObjectiveC.NSObject, Swift.Encodable {
@@ -175,7 +175,7 @@ public class UploadValidationViewModel {
   public var currentStepDoneDelay: Foundation.TimeInterval!
   public var uploadSettings: DocumentDetector.UploadSettings!
   public var allowedPassportCountryList: [DocumentDetector.CountryCodes]?
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc open class Builder : ObjectiveC.NSObject {
     public init(mobileToken: Swift.String)
     open func setAllowedPassportList(passportList: [DocumentDetector.CountryCodes]) -> DocumentDetector.DocumentDetectorSdk.Builder
@@ -586,7 +586,7 @@ public enum CountryCodes : Swift.String {
   public static let LENS_FACING_BACK: Swift.Int
   @objc override dynamic public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc public enum Mask : Swift.Int {
   case normal
@@ -626,7 +626,7 @@ public enum CountryCodes : Swift.String {
   public var scanLabel: Swift.String!
   public var documentType: Swift.String!
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   public static func allLabels() -> [DocumentDetector.Label]
   public static func allScanLabels() -> [Swift.String]
   @objc deinit
@@ -637,7 +637,7 @@ public enum CountryCodes : Swift.String {
   public var imageUrl: Swift.String?
   public var quality: Swift.Double!
   public var lensFacing: Swift.Int!
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @objc @_Concurrency.MainActor(unsafe) open class DocumentOverlayView : UIKit.UIView, DocumentDetector.DocumentDetectorCustomViewControllerDelegate {
@@ -712,8 +712,12 @@ extension DocumentDetector.UploadValidationMessage {
   public static let invalidFormatErrorMessage: DocumentDetector.UploadValidationMessage
   public static let invalidSizeErrorMessage: DocumentDetector.UploadValidationMessage
   public static let invalidDocumentErrorMessage: DocumentDetector.UploadValidationMessage
-  public static let invalidFrontDocumentErrorMessage: DocumentDetector.UploadValidationMessage
-  public static let invalidBackDocumentErrorMessage: DocumentDetector.UploadValidationMessage
+  public static let invalidFrontDocumentErrorWhenRequestedBackMessage: DocumentDetector.UploadValidationMessage
+  public static let invalidFrontDocumentErrorWhenRequestedFullMessage: DocumentDetector.UploadValidationMessage
+  public static let invalidBackDocumentErrorWhenRequestedFrontMessage: DocumentDetector.UploadValidationMessage
+  public static let invalidBackDocumentErrorWhenRequestedFullMessage: DocumentDetector.UploadValidationMessage
+  public static let invalidFullDocumentErrorWhenRequestedFrontMessage: DocumentDetector.UploadValidationMessage
+  public static let invalidFullDocumentErrorWhenRequestedBackMessage: DocumentDetector.UploadValidationMessage
   public static let invalidQualityErrorMessage: DocumentDetector.UploadValidationMessage
 }
 extension DocumentDetector.UploadValidationMessage : Swift.Equatable {
@@ -743,10 +747,10 @@ public struct Prediction {
 @_hasMissingDesignatedInitializers @objc public class StorageReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
 }
-public typealias ValidateDocumentQualityResponse = (DocumentDetector.DocumentQualityResponse?, Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void
+public typealias ValidateDocumentQualityResponse = (DocumentDetector.DocumentQualityResponse?, Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void
 public protocol UploadValidationDataSource {
   typealias UploadResponse = (Swift.String?, Swift.Int?, Swift.String?, DocumentDetector.UploadErrorType?) -> Swift.Void
-  func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   func authorizationStatus() -> Photos.PHAuthorizationStatus
   func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (Swift.String?) -> Swift.Void)
   func verifyQualityOfImage(_ imageURL: Swift.String, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
@@ -757,7 +761,7 @@ public class UploadValidationServer {
   @objc deinit
 }
 extension DocumentDetector.UploadValidationServer : DocumentDetector.UploadValidationDataSource {
-  public func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  public func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   public func authorizationStatus() -> Photos.PHAuthorizationStatus
   public func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (Swift.String?) -> Swift.Void)
   public func verifyQualityOfImage(_ imageURL: Swift.String, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
@@ -778,7 +782,7 @@ extension DocumentDetector.UploadValidationServer : DocumentDetector.UploadValid
   public var illustration: UIKit.UIImage!
   public var audio: Foundation.URL!
   public init(document: DocumentDetector.Document, stepLabel: Swift.String? = nil, illustration: UIKit.UIImage? = nil, audio: Foundation.URL? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   open func resetAttributesToDefault()
   @objc deinit
 }
