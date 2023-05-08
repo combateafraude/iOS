@@ -6,212 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ios_sdk_pfl_cs",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PassiveFaceLivenessViewController",
-        "printedName": "PassiveFaceLivenessViewController",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ios_sdk_pfl_cs@objc(cs)PassiveFaceLivenessViewController(im)viewDidLoad",
-            "mangledName": "$s14ios_sdk_pfl_cs33PassiveFaceLivenessViewControllerC11viewDidLoadyyF",
-            "moduleName": "ios_sdk_pfl_cs",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PassiveFaceLivenessViewController",
-                "printedName": "ios_sdk_pfl_cs.PassiveFaceLivenessViewController",
-                "usr": "c:@M@ios_sdk_pfl_cs@objc(cs)PassiveFaceLivenessViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ios_sdk_pfl_cs@objc(cs)PassiveFaceLivenessViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s14ios_sdk_pfl_cs33PassiveFaceLivenessViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "ios_sdk_pfl_cs",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ios_sdk_pfl_cs.PassiveFaceLivenessViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PassiveFaceLivenessViewController",
-                    "printedName": "ios_sdk_pfl_cs.PassiveFaceLivenessViewController",
-                    "usr": "c:@M@ios_sdk_pfl_cs@objc(cs)PassiveFaceLivenessViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ios_sdk_pfl_cs@objc(cs)PassiveFaceLivenessViewController(im)initWithCoder:",
-            "mangledName": "$s14ios_sdk_pfl_cs33PassiveFaceLivenessViewControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "ios_sdk_pfl_cs",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ios_sdk_pfl_cs@objc(cs)PassiveFaceLivenessViewController",
-        "mangledName": "$s14ios_sdk_pfl_cs33PassiveFaceLivenessViewControllerC",
-        "moduleName": "ios_sdk_pfl_cs",
-        "isOpen": true,
-        "declAttributes": [
-          "Custom",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9625,140 +9419,140 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Input\/FaceAuthSDK.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 11,
       "value": "\"ios_sdk_pfl_cs.FaceAuthSDK\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Input\/FaceLivenessSDK.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 12,
       "value": "\"Caf-PFL-CS\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Input\/FaceLivenessSDK.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 15,
       "value": "\"ios_sdk_pfl_cs.FaceLivenessSDK\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 161,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 161,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 647,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 769,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 789,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-pfl-cs\/ios-sdk-pfl-cs\/Controller\/Server\/CAFStage.swift",
       "kind": "IntegerLiteral",
       "offset": 175,
       "length": 3,

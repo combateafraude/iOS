@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ios_sdk_pfl_cs'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Face Authenticator CS'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-authenticator/LICENSE' }
@@ -22,5 +22,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+  s.dependency 'CSLiveness'
 
 end
