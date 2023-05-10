@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ios_sdk_pfl_cs'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'Face Authenticator CS'
   s.homepage         = 'https://github.com/combateafraude/iOS'
-  s.license          = { :type => 'MIT', :file => 'face-authenticator/LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'ios_sdk_pfl_cs/LICENSE' }
   s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
-  s.swift_version = '5.3.2'
+  s.swift_version = '5.7.2'
   s.ios.deployment_target = '13.0'
-  s.ios.vendored_frameworks = 'face-authenticator/FaceAuthenticator.xcframework'
+  s.ios.vendored_frameworks = 'ios_sdk_pfl_cs/ios_sdk_pfl_cs.xcframework'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
