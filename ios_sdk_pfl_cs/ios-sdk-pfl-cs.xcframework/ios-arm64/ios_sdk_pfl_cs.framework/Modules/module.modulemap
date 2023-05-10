@@ -1,4 +1,0 @@
-framework module ios_sdk_pfl_cs {
-  header "ios_sdk_pfl_cs-Swift.h"
-  requires objc
-}
