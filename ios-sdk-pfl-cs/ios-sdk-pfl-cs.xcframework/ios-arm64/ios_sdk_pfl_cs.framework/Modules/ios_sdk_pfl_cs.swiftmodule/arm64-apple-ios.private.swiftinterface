@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ios_sdk_pfl_cs
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CSLivenessSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public protocol FaceAuthSDKDelegate {
+  func didFinishFaceAuth(with faceAuthenticatorResult: ios_sdk_pfl_cs.FaceAuthenticatorResult)
+}
+@objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
+  public var clientSecret: Swift.String
+  public var clientID: Swift.String
+  public var token: Swift.String
+  public var personId: Swift.String
+  public var stage: ios_sdk_pfl_cs.CAFStage
+  public var sessionId: Swift.String
+  public var sdkVersion: Swift.String
+  public var delegate: (any ios_sdk_pfl_cs.FaceAuthSDKDelegate)?
+  open func startFaceAuthSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Builder : ObjectiveC.NSObject {
+    public var sessionId: Swift.String
+    public var sdkVersion: Swift.String
+    public var clientSecret: Swift.String
+    public var clientId: Swift.String
+    public var token: Swift.String
+    public var personId: Swift.String
+    @objc override dynamic public init()
+    open func setCredentials(clientId: Swift.String, clientSecret: Swift.String, token: Swift.String, personId: Swift.String) -> ios_sdk_pfl_cs.FaceAuthSDK.Builder
+    open func setStage(stage: ios_sdk_pfl_cs.CAFStage) -> ios_sdk_pfl_cs.FaceAuthSDK.Builder
+    open func build() -> ios_sdk_pfl_cs.FaceAuthSDK
+    @objc deinit
+  }
+  @objc deinit
+}
+public protocol FaceLivenessDelegate {
+  func didFinishLiveness(with faceLivenesResult: ios_sdk_pfl_cs.FaceLivenessResult)
+}
+@objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
+  public static let SDK_NAME: Swift.String
+  public var clientSecret: Swift.String
+  public var clientID: Swift.String
+  public var token: Swift.String
+  public var personId: Swift.String
+  public var stage: ios_sdk_pfl_cs.CAFStage
+  public var sessionId: Swift.String
+  public var sdkVersion: Swift.String
+  public var delegate: (any ios_sdk_pfl_cs.FaceLivenessDelegate)?
+  open func startSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Build : ObjectiveC.NSObject {
+    public var clientSecret: Swift.String
+    public var clientId: Swift.String
+    public var token: Swift.String
+    public var personId: Swift.String
+    @objc override dynamic public init()
+    open func setStage(stage: ios_sdk_pfl_cs.CAFStage) -> ios_sdk_pfl_cs.FaceLivenessSDK.Build
+    open func setCredentials(clientId: Swift.String, clientSecret: Swift.String, token: Swift.String, personId: Swift.String) -> ios_sdk_pfl_cs.FaceLivenessSDK.Build
+    open func build() -> ios_sdk_pfl_cs.FaceLivenessSDK
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct FaceLivenessResult {
+}
+public struct FaceAuthenticatorResult {
+}
+public struct FaceAuthenticatorData : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc public enum CAFStage : Swift.Int {
+  case BETA, PROD, DEV
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension ios_sdk_pfl_cs.CAFStage : Swift.Equatable {}
+extension ios_sdk_pfl_cs.CAFStage : Swift.Hashable {}
+extension ios_sdk_pfl_cs.CAFStage : Swift.RawRepresentable {}
