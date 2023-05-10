@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ios_sdk_pfl_cs'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'Face Authenticator CS'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-authenticator/LICENSE' }
