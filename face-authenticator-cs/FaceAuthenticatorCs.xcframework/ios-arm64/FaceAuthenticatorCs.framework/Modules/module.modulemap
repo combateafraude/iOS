@@ -1,0 +1,4 @@
+framework module FaceAuthenticatorCs {
+  header "FaceAuthenticatorCs-Swift.h"
+  requires objc
+}
