@@ -64,10 +64,22 @@ public protocol FaceLivenessDelegate {
   @objc deinit
 }
 public struct FaceLivenessResult {
+  public let isAlive: Swift.Bool
+  public let sessionId: Swift.String
+  public let imageBase64: Swift.String
+  public let errorMessage: Swift.String?
 }
 public struct FaceAuthenticatorResult {
+  public let isAlive: Swift.Bool
+  public var isMatch: Swift.Bool?
+  public let sessionID: Swift.String
+  public let imageBase64: Swift.String
+  public var errorMessage: Swift.String?
 }
 public struct FaceAuthenticatorData : Swift.Encodable {
+  public let personId: Swift.String
+  public let sessionId: Swift.String
+  public let sdkVersion: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc public enum CAFStage : Swift.Int {
