@@ -1,0 +1,4 @@
+framework module FaceAuthIprove {
+  header "FaceAuthIprove-Swift.h"
+  requires objc
+}
