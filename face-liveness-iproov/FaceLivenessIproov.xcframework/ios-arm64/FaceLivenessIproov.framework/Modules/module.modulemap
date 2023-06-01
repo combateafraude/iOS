@@ -1,0 +1,4 @@
+framework module FaceLivenessIproov {
+  header "FaceLivenessIproov-Swift.h"
+  requires objc
+}

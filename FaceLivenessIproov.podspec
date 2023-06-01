@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'face-liveness-iproov/FaceLivenessIproov.xcframework'
 
+  s.dependency 'iProov', '10.3.0'
 end
