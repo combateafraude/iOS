@@ -1,0 +1,46 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Identity
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FingerprintPro
+import Foundation
+@_exported import Identity
+import Swift
+import _Concurrency
+import _StringProcessing
+public typealias VerifyPolicyResponse = (isAutorized: Swift.Bool, attestation: Swift.String)
+public typealias VerifyPolicyResult = Identity.IdentityResult<Identity.VerifyPolicyResponse, Identity.VerifyPolicyResponse, Identity.IdentityError>
+public typealias VerifyPolicyListener = (Identity.VerifyPolicyResult) -> Swift.Void
+@objc @_hasMissingDesignatedInitializers open class IdentitySDK : ObjectiveC.NSObject {
+  public static let SDK_NAME: Swift.String
+  public var mobileToken: Swift.String
+  public func verifyPolicy(personID: Swift.String, policyId: Swift.String, listener: @escaping Identity.VerifyPolicyListener)
+  @objc deinit
+}
+extension Identity.IdentitySDK {
+  open class Builder {
+    public init(mobileToken: Swift.String)
+    open func build() -> Identity.IdentitySDK
+    @objc deinit
+  }
+}
+public enum IdentityError : Swift.Error {
+  case PermissionReason(Swift.String)
+  case AvailabilityReason(Swift.String)
+  case NetworkReason
+  case ServerReason(Swift.String, Swift.Int?)
+  case SecurityReason(Swift.String)
+  case StorageReason(Swift.String)
+  case LibraryReason(Swift.String)
+  case PolicyReason(Swift.String)
+}
+extension Identity.IdentityError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@frozen public enum IdentityResult<Success, Pending, Failure> where Failure : Swift.Error {
+  case onSuccess(Success)
+  case onPending(Pending)
+  case onError(Failure)
+}

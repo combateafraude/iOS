@@ -1,0 +1,11 @@
+framework module Identity {
+  umbrella header "Identity.h"
+
+  export *
+  module * { export * }
+}
+
+module Identity.Swift {
+  header "Identity-Swift.h"
+  requires objc
+}
