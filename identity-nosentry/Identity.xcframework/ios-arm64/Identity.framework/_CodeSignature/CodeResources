@@ -6,11 +6,11 @@
 	<dict>
 		<key>Frameworks/FingerprintPro.framework/FingerprintPro</key>
 		<data>
-		/kFXc4KtoidFyO2Dcoyvv8j8ats=
+		4XCV91CALMoOUkU3QgyuIBtUdPA=
 		</data>
 		<key>Frameworks/FingerprintPro.framework/Info.plist</key>
 		<data>
-		ReGBIZR7lwMDgfo2641Nb4Jjv/o=
+		dDnKCdbwAEn32N5b7bde5qU0X60=
 		</data>
 		<key>Frameworks/FingerprintPro.framework/VERSION</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Frameworks/FingerprintPro.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Q//6+N0mVji2KKYiYuW7gIVOVq8=
+		nknFc48JaMdrQpHP0d5Jzxt9cT8=
 		</data>
 		<key>Headers/Identity-Swift.h</key>
 		<data>
-		YhWroxypteho9/Lq39Oi4YmtFIU=
+		ZjGvkncE/NOa5U18nzd1WSXmoW8=
 		</data>
 		<key>Headers/Identity.h</key>
 		<data>
@@ -30,47 +30,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wb9dE4ABkpCCfY8BRr8IocnBr+8=
+		lnxEfWamD0WAJP2WUN1lLovyvKQ=
 		</data>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		8R8jfyNO1CFyytNiW8aGzB1Ws50=
 		</data>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lvNekrUJwJYQi1FQKL/hvtodzbU=
+		HqYX44sX55UVv4hrcQD9Yt80aFo=
 		</data>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		R5TPtqFhhIyfkSNDeHmRXbZV8sY=
+		IHboeeH9CU0R/mqt4hIkgRXKgiY=
 		</data>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lvNekrUJwJYQi1FQKL/hvtodzbU=
+		HqYX44sX55UVv4hrcQD9Yt80aFo=
 		</data>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zy0dRSTS7THzRoXG0mA9k6rnVZ0=
-		</data>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		8R8jfyNO1CFyytNiW8aGzB1Ws50=
-		</data>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		sS5scov0StIcLMj926a1Ny6ZWM8=
-		</data>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		/Smtmmo0htkJ+opQejPb/pUAuts=
-		</data>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		sS5scov0StIcLMj926a1Ny6ZWM8=
-		</data>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		AMp2Z7cFd0tQwadVbNXTvQuSxVE=
+		EGFIwyFlLsOKGgWyqR+CHtkBSPQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,14 +63,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tPNt6EUavf1wzbTf9QoubCkk/TKIOrsBSb/twh4e4Ec=
+			8T8+n9liVwTnow8JgY12NX2mVWBcx9C/q9iN5vS0R9I=
 			</data>
 		</dict>
 		<key>Frameworks/FingerprintPro.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nu2XKvVFZuSnMRKM3bBgln/65TAlccbrhwzu7M9Og4I=
+			zWfFt3Y3qff3hCQeLdwd5zrmdNZsx5dmvWbQnK/uB/o=
 			</data>
 		</dict>
 		<key>Frameworks/FingerprintPro.framework/VERSION</key>
@@ -104,14 +84,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2VWf3Vxw25VzTP906fGqbmpiqJTWlKxuNeH9XIRBAWQ=
+			43M/kRXgzE/wVKSi4uTCfdovMb8EuhIJanpbFe4zrvI=
 			</data>
 		</dict>
 		<key>Headers/Identity-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F4z5y5K2cdpkYtzTBCHfxu/jJHg9RLFDTjW86cohHWI=
+			f2eINPhfyBw8dIrzheyaN3gSkG8U75dYdPyZpz8Tcv4=
 			</data>
 		</dict>
 		<key>Headers/Identity.h</key>
@@ -121,74 +101,39 @@
 			pLi8VHIOo190Qvfxuf4h0VCxSkGFrJDc39DNzd6Eh4c=
 			</data>
 		</dict>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			RHQzmoQBZSB/GM6Dch0zAmDhP5+wfZoc/lbpMPRvtjQ=
 			</data>
 		</dict>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d2jypekwZXZopu1kQYlstmc4+K/P7qCBRVakyXgqnRI=
+			y4SWYMJCjmDhGxppuNvrX5U+sic3HHhZV5EyfqPC24A=
 			</data>
 		</dict>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FE8/CfWCImZ0smTRnfryt/8ek7UKFHt5L2OMfrp/fb8=
+			m8cjB9KgNCJWKiNCA1+myezEpwzeFHiGVLsu/a8no5c=
 			</data>
 		</dict>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d2jypekwZXZopu1kQYlstmc4+K/P7qCBRVakyXgqnRI=
+			y4SWYMJCjmDhGxppuNvrX5U+sic3HHhZV5EyfqPC24A=
 			</data>
 		</dict>
-		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/Identity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NKwjgftQjbJRF6dCFyMFkcmc5id8fF8YKnFrThIlQio=
-			</data>
-		</dict>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RHQzmoQBZSB/GM6Dch0zAmDhP5+wfZoc/lbpMPRvtjQ=
-			</data>
-		</dict>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			obCVI7QMzvyXxwGTswUqxYf+IokqhD1+uURTuC27M9o=
-			</data>
-		</dict>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9fNvAqq0l4jfeIhzDYKwYP/2k70z8pwmXi/ImIkNU50=
-			</data>
-		</dict>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			obCVI7QMzvyXxwGTswUqxYf+IokqhD1+uURTuC27M9o=
-			</data>
-		</dict>
-		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mOCXKwTEiRylV6Go4GyVu2UY3MrTHUVRTUhcvdkKhJ4=
+			Zjezl1bQgEbBBPVdwJhWmWj3qWfojFaJkJd3AaxcsEo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

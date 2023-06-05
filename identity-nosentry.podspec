@@ -7,18 +7,18 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'identity-nosentry'
-  s.version          = '1.0.0'
+  s.name             = 'Identity-NoSentry'
+  s.version          = '1.1.1'
   s.summary          = 'Identity'
   s.homepage         = 'https://github.com/combateafraude/iOS'
-  s.license          = { :type => 'MIT', :file => 'identity/LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'identity-nosentry/LICENSE' }
   s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
   s.swift_version = '5.7.0'
   s.ios.deployment_target = '12.4'
-  s.ios.vendored_frameworks = 'identity/Identity.xcframework'
+  s.ios.vendored_frameworks = 'identity-nosentry/Identity.xcframework'
 
   s.dependency 'FingerprintJSPro', '1.1.0'
   s.dependency 'AEOTPTextField'
