@@ -230,7 +230,9 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -251,6 +253,140 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8Identity14AEOTPTextField")
+@interface AEOTPTextField : UITextField
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+SWIFT_CLASS("_TtC8Identity23CodeAuthenticatorResult")
+@interface CodeAuthenticatorResult : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity34CodeAuthenticatorResultDisapproved")
+@interface CodeAuthenticatorResultDisapproved : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity28CodeAuthenticatorResultError")
+@interface CodeAuthenticatorResultError : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity34CodeAuthenticatorResultWithPending")
+@interface CodeAuthenticatorResultWithPending : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity5FAApi")
+@interface FAApi : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity14FAAnalyticsApi")
+@interface FAAnalyticsApi : FAApi
+@end
+
+
+
+SWIFT_CLASS("_TtC8Identity8FACafApi")
+@interface FACafApi : FAApi
+@end
+
+
+SWIFT_CLASS("_TtC8Identity11FAMobileApi")
+@interface FAMobileApi : FAApi
+@end
+
+
+SWIFT_CLASS("_TtC8Identity23FAServerFailureResponse")
+@interface FAServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity27FATokenVerificationResponse")
+@interface FATokenVerificationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSString;
+@class NSBundle;
+@class UIViewController;
+
+/// A view controller that manages the full flow for scanning documents.
+/// The <code>CFFaceAuthController</code> class is meant to be presented. It consists of a series of 3 different screens which guide the user:
+/// <ol>
+///   <li>
+///     Uses the camera to capture an image with a rectangle that has been detected.
+///   </li>
+///   <li>
+///     Edit the detected rectangle.
+///   </li>
+///   <li>
+///     Review the cropped down version of the rectangle.
+///   </li>
+/// </ol>
+SWIFT_CLASS("_TtC8Identity27FaceAuthenticatorController")
+@interface FaceAuthenticatorController : UINavigationController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC8Identity23FaceAuthenticatorLayout")
+@interface FaceAuthenticatorLayout : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8Identity23FaceAuthenticatorResult")
+@interface FaceAuthenticatorResult : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity28FaceAuthenticatorResultError")
+@interface FaceAuthenticatorResultError : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity20FaceAuthenticatorSdk")
+@interface FaceAuthenticatorSdk : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity15FingerprintUtil")
+@interface FingerprintUtil : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 /// The main goal of Identity SDK is to prove that a user is really who they really is. SDK acts as a multifactor authentication form for registered identities.
 SWIFT_CLASS("_TtC8Identity11IdentitySDK")
@@ -258,6 +394,15 @@ SWIFT_CLASS("_TtC8Identity11IdentitySDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+SWIFT_CLASS("_TtC8Identity7JWTUtil")
+@interface JWTUtil : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 #endif
@@ -500,7 +645,9 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -521,6 +668,140 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8Identity14AEOTPTextField")
+@interface AEOTPTextField : UITextField
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+SWIFT_CLASS("_TtC8Identity23CodeAuthenticatorResult")
+@interface CodeAuthenticatorResult : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity34CodeAuthenticatorResultDisapproved")
+@interface CodeAuthenticatorResultDisapproved : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity28CodeAuthenticatorResultError")
+@interface CodeAuthenticatorResultError : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity34CodeAuthenticatorResultWithPending")
+@interface CodeAuthenticatorResultWithPending : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity5FAApi")
+@interface FAApi : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity14FAAnalyticsApi")
+@interface FAAnalyticsApi : FAApi
+@end
+
+
+
+SWIFT_CLASS("_TtC8Identity8FACafApi")
+@interface FACafApi : FAApi
+@end
+
+
+SWIFT_CLASS("_TtC8Identity11FAMobileApi")
+@interface FAMobileApi : FAApi
+@end
+
+
+SWIFT_CLASS("_TtC8Identity23FAServerFailureResponse")
+@interface FAServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity27FATokenVerificationResponse")
+@interface FATokenVerificationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSString;
+@class NSBundle;
+@class UIViewController;
+
+/// A view controller that manages the full flow for scanning documents.
+/// The <code>CFFaceAuthController</code> class is meant to be presented. It consists of a series of 3 different screens which guide the user:
+/// <ol>
+///   <li>
+///     Uses the camera to capture an image with a rectangle that has been detected.
+///   </li>
+///   <li>
+///     Edit the detected rectangle.
+///   </li>
+///   <li>
+///     Review the cropped down version of the rectangle.
+///   </li>
+/// </ol>
+SWIFT_CLASS("_TtC8Identity27FaceAuthenticatorController")
+@interface FaceAuthenticatorController : UINavigationController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC8Identity23FaceAuthenticatorLayout")
+@interface FaceAuthenticatorLayout : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8Identity23FaceAuthenticatorResult")
+@interface FaceAuthenticatorResult : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity28FaceAuthenticatorResultError")
+@interface FaceAuthenticatorResultError : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity20FaceAuthenticatorSdk")
+@interface FaceAuthenticatorSdk : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC8Identity15FingerprintUtil")
+@interface FingerprintUtil : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 /// The main goal of Identity SDK is to prove that a user is really who they really is. SDK acts as a multifactor authentication form for registered identities.
 SWIFT_CLASS("_TtC8Identity11IdentitySDK")
@@ -528,6 +809,15 @@ SWIFT_CLASS("_TtC8Identity11IdentitySDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+SWIFT_CLASS("_TtC8Identity7JWTUtil")
+@interface JWTUtil : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 #endif
