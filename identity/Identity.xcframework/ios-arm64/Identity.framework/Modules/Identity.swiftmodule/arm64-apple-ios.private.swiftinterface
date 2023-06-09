@@ -1,8 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Identity
+// swift-module-flags: -target arm64-apple-ios12.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Identity
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import AEOTPTextField
 import AVFoundation
 import AVKit
 import AdSupport
@@ -12,7 +11,7 @@ import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
 import CoreLocation
 import CoreMotion
-import FingerprintJSPro
+import FingerprintPro
 import Foundation
 @_exported import Identity
 import Sentry
@@ -79,6 +78,26 @@ import _StringProcessing
   open func changeSoundImages(soundOn: UIKit.UIImage?, soundOff: UIKit.UIImage?)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AEOTPTextField : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) public var otpDefaultCharacter: Swift.String
+  @_Concurrency.MainActor(unsafe) public var otpBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpFilledBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpCornerRaduis: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpDefaultBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpFilledBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpDefaultBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpFilledBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpTextColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpFontSize: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) weak public var otpDelegate: Identity.AEOTPTextFieldDelegate?
+  @_Concurrency.MainActor(unsafe) public func configure(with slotCount: Swift.Int = 6)
+  @_Concurrency.MainActor(unsafe) public func clearOTP()
+  @_Concurrency.MainActor(unsafe) public func setText(_ text: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class JWTUtil : ObjectiveC.NSObject {
   public static func payloadToDict(_ payload: Swift.String) -> [Swift.String : Any]?
   @objc override dynamic public init()
@@ -112,12 +131,12 @@ public typealias VerifyPolicyListener = (Identity.VerifyPolicyResult) -> Swift.V
   @objc deinit
 }
 extension Identity.IdentitySDK {
-  open class Builder {
+  public class Builder {
     public init(mobileToken: Swift.String)
-    open func build() -> Identity.IdentitySDK
-    open func setStage(_ newStage: Identity.IdentityStage) -> Identity.IdentitySDK.Builder
-    open func setEmailURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
-    open func setPhoneURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
+    public func build() -> Identity.IdentitySDK
+    public func setStage(_ newStage: Identity.IdentityStage) -> Identity.IdentitySDK.Builder
+    public func setEmailURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
+    public func setPhoneURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
     @objc deinit
   }
 }
@@ -251,8 +270,8 @@ public class FAMetadata {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-extension UIKit.UIImage {
-  public class func imageWithImage(sourceImage: UIKit.UIImage, scaledToWidth: CoreFoundation.CGFloat) -> UIKit.UIImage
+public protocol AEOTPTextFieldDelegate : AnyObject {
+  func didUserFinishEnter(the code: Swift.String)
 }
 public enum CAFStage {
   case BETA, PROD, OTHER

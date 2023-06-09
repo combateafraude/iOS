@@ -230,6 +230,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -252,6 +253,16 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8Identity14AEOTPTextField")
+@interface AEOTPTextField : UITextField
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 
 SWIFT_CLASS("_TtC8Identity23CodeAuthenticatorResult")
 @interface CodeAuthenticatorResult : NSObject
@@ -319,7 +330,6 @@ SWIFT_CLASS("_TtC8Identity27FATokenVerificationResponse")
 
 @class NSString;
 @class NSBundle;
-@class NSCoder;
 @class UIViewController;
 
 /// A view controller that manages the full flow for scanning documents.
@@ -391,8 +401,6 @@ SWIFT_CLASS("_TtC8Identity7JWTUtil")
 @interface JWTUtil : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 
@@ -637,6 +645,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -659,6 +668,16 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8Identity14AEOTPTextField")
+@interface AEOTPTextField : UITextField
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 
 SWIFT_CLASS("_TtC8Identity23CodeAuthenticatorResult")
 @interface CodeAuthenticatorResult : NSObject
@@ -726,7 +745,6 @@ SWIFT_CLASS("_TtC8Identity27FATokenVerificationResponse")
 
 @class NSString;
 @class NSBundle;
-@class NSCoder;
 @class UIViewController;
 
 /// A view controller that manages the full flow for scanning documents.
@@ -798,8 +816,6 @@ SWIFT_CLASS("_TtC8Identity7JWTUtil")
 @interface JWTUtil : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 
