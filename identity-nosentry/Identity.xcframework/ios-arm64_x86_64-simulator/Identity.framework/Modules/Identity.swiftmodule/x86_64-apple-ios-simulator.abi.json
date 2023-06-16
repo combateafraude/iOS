@@ -11244,57 +11244,6 @@
         "printedName": "FAConfiguration",
         "children": [
           {
-            "kind": "Var",
-            "name": "SENTRY_DSN",
-            "printedName": "SENTRY_DSN",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8Identity15FAConfigurationC10SENTRY_DSNSSvpZ",
-            "mangledName": "$s8Identity15FAConfigurationC10SENTRY_DSNSSvpZ",
-            "moduleName": "Identity",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8Identity15FAConfigurationC10SENTRY_DSNSSvgZ",
-                "mangledName": "$s8Identity15FAConfigurationC10SENTRY_DSNSSvgZ",
-                "moduleName": "Identity",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -66795,13 +66744,6 @@
       "offset": 198,
       "length": 7,
       "value": "\"Identity.FAEvent\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/combateafraude\/new-identity-ios-sdk\/Identity\/Identity\/FaceAuthenticator\/Controller\/Utils\/FAConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 228,
-      "length": 75,
-      "value": "\"https:\/\/4264790ee0384745861f7c86f55f994f@o408304.ingest.sentry.io\/5372494\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/combateafraude\/new-identity-ios-sdk\/Identity\/Identity\/FaceAuthenticator\/Controller\/Analytics\/FAEventType.swift",
