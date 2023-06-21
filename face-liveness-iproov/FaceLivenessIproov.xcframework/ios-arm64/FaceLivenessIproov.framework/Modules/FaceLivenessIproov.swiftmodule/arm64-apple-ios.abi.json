@@ -166,6 +166,66 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvp",
+            "mangledName": "$s18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvg",
+                "mangledName": "$s18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -1791,7 +1851,7 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/Models\/LivenessResponse.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 501,
       "length": 16,
       "value": "\"ios-iproov-1.0\""
     },
@@ -1819,56 +1879,56 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3777,
+      "offset": 3804,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3850,
+      "offset": 3877,
       "length": 10,
       "value": "\"Cacelled\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3960,
+      "offset": 4014,
       "length": 65,
       "value": "\"ERROR - \""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3992,
+      "offset": 4046,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4024,
+      "offset": 4078,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4694,
+      "offset": 4748,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4806,
+      "offset": 4860,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/FaceLivenessIproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5067,
+      "offset": 5151,
       "length": 4,
       "value": "true"
     },
