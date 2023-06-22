@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuthenticatorIproov'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Face Authenticator Iproov'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-authenticator-iproov/LICENSE' }
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'face-authenticator-iproov/FaceAuthenticatorIproov.xcframework'
 
-  s.dependency 'FaceLivenessIproov', '1.0.0'
+  s.dependency 'FaceLivenessIproov', '1.3.0'
 end
