@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLiveness
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import iProov
+public struct FaceLivenessResult {
+  public let isAlive: Swift.Bool
+  public let token: Swift.String
+  public let errorMessage: Swift.String?
+}
+@objc public enum CAFStage : Swift.Int {
+  case BETA, PROD, DEV
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct FaceLivenessResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class FaceLivenessSDKViewModel {
+  public init(stage: FaceLiveness.CAFStage, faceLivenessSDK: FaceLiveness.FaceLivenessSDK)
+  public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessResult) -> Swift.Void)
+  @objc deinit
+}
+public protocol FaceLivenessDelegate {
+  func didFinishLiveness(with faceLivenesResult: FaceLiveness.FaceLivenessResult)
+  func startLoadingScreen()
+}
+@objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
+  public static let SDK_NAME: Swift.String
+  public var mobileToken: Swift.String
+  public var personId: Swift.String
+  public var stage: FaceLiveness.CAFStage
+  public var sdkVersion: Swift.String
+  public var delegate: (any FaceLiveness.FaceLivenessDelegate)?
+  open func startSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Build : ObjectiveC.NSObject {
+    public var mobileToken: Swift.String
+    public var personId: Swift.String
+    @objc override dynamic public init()
+    open func setStage(stage: FaceLiveness.CAFStage) -> FaceLiveness.FaceLivenessSDK.Build
+    open func setCredentials(mobileToken: Swift.String, personId: Swift.String) -> FaceLiveness.FaceLivenessSDK.Build
+    open func build() -> FaceLiveness.FaceLivenessSDK
+    @objc deinit
+  }
+  @objc deinit
+}
+extension FaceLiveness.CAFStage : Swift.Equatable {}
+extension FaceLiveness.CAFStage : Swift.Hashable {}
+extension FaceLiveness.CAFStage : Swift.RawRepresentable {}
