@@ -1,0 +1,2279 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceLivenessResult",
+        "printedName": "FaceLivenessResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isAlive",
+            "printedName": "isAlive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB6ResultV7isAliveSbvp",
+            "mangledName": "$s18FaceLivenessIproov0aB6ResultV7isAliveSbvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB6ResultV7isAliveSbvg",
+                "mangledName": "$s18FaceLivenessIproov0aB6ResultV7isAliveSbvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB6ResultV5tokenSSvp",
+            "mangledName": "$s18FaceLivenessIproov0aB6ResultV5tokenSSvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB6ResultV5tokenSSvg",
+                "mangledName": "$s18FaceLivenessIproov0aB6ResultV5tokenSSvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB6ResultV12errorMessageSSSgvp",
+            "mangledName": "$s18FaceLivenessIproov0aB6ResultV12errorMessageSSSgvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB6ResultV12errorMessageSSSgvg",
+                "mangledName": "$s18FaceLivenessIproov0aB6ResultV12errorMessageSSSgvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvp",
+            "mangledName": "$s18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvg",
+                "mangledName": "$s18FaceLivenessIproov0aB6ResultV8imageUrlSSSgvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18FaceLivenessIproov0aB6ResultV",
+        "mangledName": "$s18FaceLivenessIproov0aB6ResultV",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CAFStage",
+        "printedName": "CAFStage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "BETA",
+            "printedName": "BETA",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLivenessIproov.CAFStage.Type) -> FaceLivenessIproov.CAFStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceLivenessIproov.CAFStage",
+                    "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLivenessIproov.CAFStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CAFStage",
+                        "printedName": "FaceLivenessIproov.CAFStage",
+                        "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FaceLivenessIproov@E@CAFStage@CAFStageBETA",
+            "mangledName": "$s18FaceLivenessIproov8CAFStageO4BETAyA2CmF",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "PROD",
+            "printedName": "PROD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLivenessIproov.CAFStage.Type) -> FaceLivenessIproov.CAFStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceLivenessIproov.CAFStage",
+                    "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLivenessIproov.CAFStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CAFStage",
+                        "printedName": "FaceLivenessIproov.CAFStage",
+                        "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FaceLivenessIproov@E@CAFStage@CAFStagePROD",
+            "mangledName": "$s18FaceLivenessIproov8CAFStageO4PRODyA2CmF",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "DEV",
+            "printedName": "DEV",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLivenessIproov.CAFStage.Type) -> FaceLivenessIproov.CAFStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceLivenessIproov.CAFStage",
+                    "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLivenessIproov.CAFStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CAFStage",
+                        "printedName": "FaceLivenessIproov.CAFStage",
+                        "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FaceLivenessIproov@E@CAFStage@CAFStageDEV",
+            "mangledName": "$s18FaceLivenessIproov8CAFStageO3DEVyA2CmF",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLivenessIproov.CAFStage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceLivenessIproov.CAFStage",
+                    "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18FaceLivenessIproov8CAFStageO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18FaceLivenessIproov8CAFStageO8rawValueACSgSi_tcfc",
+            "moduleName": "FaceLivenessIproov",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov8CAFStageO8rawValueSivp",
+            "mangledName": "$s18FaceLivenessIproov8CAFStageO8rawValueSivp",
+            "moduleName": "FaceLivenessIproov",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov8CAFStageO8rawValueSivg",
+                "mangledName": "$s18FaceLivenessIproov8CAFStageO8rawValueSivg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@FaceLivenessIproov@E@CAFStage",
+        "mangledName": "$s18FaceLivenessIproov8CAFStageO",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceLivenessResponse",
+        "printedName": "FaceLivenessResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessResponse",
+                "printedName": "FaceLivenessIproov.FaceLivenessResponse",
+                "usr": "s:18FaceLivenessIproov0aB8ResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18FaceLivenessIproov0aB8ResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18FaceLivenessIproov0aB8ResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FaceLivenessIproov",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FaceLivenessIproov0aB8ResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18FaceLivenessIproov0aB8ResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FaceLivenessIproov",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18FaceLivenessIproov0aB8ResponseV",
+        "mangledName": "$s18FaceLivenessIproov0aB8ResponseV",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iProov",
+        "printedName": "iProov",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceLivenessSDKViewModel",
+        "printedName": "FaceLivenessSDKViewModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(stage:faceLivenessSDK:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessSDKViewModel",
+                "printedName": "FaceLivenessIproov.FaceLivenessSDKViewModel",
+                "usr": "s:18FaceLivenessIproov0aB12SDKViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CAFStage",
+                "printedName": "FaceLivenessIproov.CAFStage",
+                "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessSDK",
+                "printedName": "FaceLivenessIproov.FaceLivenessSDK",
+                "usr": "c:@M@FaceLivenessIproov@objc(cs)FaceLivenessSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18FaceLivenessIproov0aB12SDKViewModelC5stage04faceB3SDKAcA8CAFStageO_AA0abH0Ctcfc",
+            "mangledName": "$s18FaceLivenessIproov0aB12SDKViewModelC5stage04faceB3SDKAcA8CAFStageO_AA0abH0Ctcfc",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "launchIProov",
+            "printedName": "launchIProov(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLivenessIproov.FaceLivenessResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceLivenessResult",
+                    "printedName": "FaceLivenessIproov.FaceLivenessResult",
+                    "usr": "s:18FaceLivenessIproov0aB6ResultV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FaceLivenessIproov0aB12SDKViewModelC12launchIProov10completionyyAA0aB6ResultVc_tF",
+            "mangledName": "$s18FaceLivenessIproov0aB12SDKViewModelC12launchIProov10completionyyAA0aB6ResultVc_tF",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18FaceLivenessIproov0aB12SDKViewModelC",
+        "mangledName": "$s18FaceLivenessIproov0aB12SDKViewModelC",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceLivenessDelegate",
+        "printedName": "FaceLivenessDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didFinishLiveness",
+            "printedName": "didFinishLiveness(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessResult",
+                "printedName": "FaceLivenessIproov.FaceLivenessResult",
+                "usr": "s:18FaceLivenessIproov0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FaceLivenessIproov0aB8DelegateP09didFinishB04withyAA0aB6ResultV_tF",
+            "mangledName": "$s18FaceLivenessIproov0aB8DelegateP09didFinishB04withyAA0aB6ResultV_tF",
+            "moduleName": "FaceLivenessIproov",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLivenessIproov.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLivenessIproov.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLoadingScreen",
+            "printedName": "startLoadingScreen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FaceLivenessIproov0aB8DelegateP18startLoadingScreenyyF",
+            "mangledName": "$s18FaceLivenessIproov0aB8DelegateP18startLoadingScreenyyF",
+            "moduleName": "FaceLivenessIproov",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLivenessIproov.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLivenessIproov.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18FaceLivenessIproov0aB8DelegateP",
+        "mangledName": "$s18FaceLivenessIproov0aB8DelegateP",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceLivenessSDK",
+        "printedName": "FaceLivenessSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SDK_NAME",
+            "printedName": "SDK_NAME",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC0D5_NAMESSvpZ",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC0D5_NAMESSvpZ",
+            "moduleName": "FaceLivenessIproov",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC0D5_NAMESSvgZ",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC0D5_NAMESSvgZ",
+                "moduleName": "FaceLivenessIproov",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileToken",
+            "printedName": "mobileToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC11mobileTokenSSvp",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC11mobileTokenSSvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC11mobileTokenSSvg",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC11mobileTokenSSvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC11mobileTokenSSvs",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC11mobileTokenSSvs",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC11mobileTokenSSvM",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC11mobileTokenSSvM",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "personId",
+            "printedName": "personId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC8personIdSSvp",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC8personIdSSvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC8personIdSSvg",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC8personIdSSvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC8personIdSSvs",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC8personIdSSvs",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC8personIdSSvM",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC8personIdSSvM",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stage",
+            "printedName": "stage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CAFStage",
+                "printedName": "FaceLivenessIproov.CAFStage",
+                "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvp",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceLivenessIproov.CAFStage",
+                    "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvg",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceLivenessIproov.CAFStage",
+                    "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvs",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvs",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvM",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5stageAA8CAFStageOvM",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC10sdkVersionSSvp",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC10sdkVersionSSvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC10sdkVersionSSvg",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC10sdkVersionSSvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC10sdkVersionSSvs",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC10sdkVersionSSvs",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC10sdkVersionSSvM",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC10sdkVersionSSvM",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLivenessIproov.FaceLivenessDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceLivenessDelegate",
+                    "printedName": "FaceLivenessIproov.FaceLivenessDelegate",
+                    "usr": "s:18FaceLivenessIproov0aB8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "FaceLivenessIproov",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FaceLivenessIproov.FaceLivenessDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceLivenessDelegate",
+                        "printedName": "FaceLivenessIproov.FaceLivenessDelegate",
+                        "usr": "s:18FaceLivenessIproov0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FaceLivenessIproov.FaceLivenessDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceLivenessDelegate",
+                        "printedName": "FaceLivenessIproov.FaceLivenessDelegate",
+                        "usr": "s:18FaceLivenessIproov0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "FaceLivenessIproov",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startSDK",
+            "printedName": "startSDK(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC05startD014viewControllerySo06UIViewG0C_tF",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC05startD014viewControllerySo06UIViewG0C_tF",
+            "moduleName": "FaceLivenessIproov",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Build",
+            "printedName": "Build",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "mobileToken",
+                "printedName": "mobileToken",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvp",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvp",
+                "moduleName": "FaceLivenessIproov",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvg",
+                    "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvg",
+                    "moduleName": "FaceLivenessIproov",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvs",
+                    "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvs",
+                    "moduleName": "FaceLivenessIproov",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvM",
+                    "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC11mobileTokenSSvM",
+                    "moduleName": "FaceLivenessIproov",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "personId",
+                "printedName": "personId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvp",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvp",
+                "moduleName": "FaceLivenessIproov",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvg",
+                    "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvg",
+                    "moduleName": "FaceLivenessIproov",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvs",
+                    "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvs",
+                    "moduleName": "FaceLivenessIproov",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvM",
+                    "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC8personIdSSvM",
+                    "moduleName": "FaceLivenessIproov",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Build",
+                    "printedName": "FaceLivenessIproov.FaceLivenessSDK.Build",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildCAEycfc",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildCAEycfc",
+                "moduleName": "FaceLivenessIproov",
+                "overriding": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "setStage",
+                "printedName": "setStage(stage:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Build",
+                    "printedName": "FaceLivenessIproov.FaceLivenessSDK.Build",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceLivenessIproov.CAFStage",
+                    "usr": "c:@M@FaceLivenessIproov@E@CAFStage"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC8setStage5stageAeA8CAFStageO_tF",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC8setStage5stageAeA8CAFStageO_tF",
+                "moduleName": "FaceLivenessIproov",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCredentials",
+                "printedName": "setCredentials(mobileToken:personId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Build",
+                    "printedName": "FaceLivenessIproov.FaceLivenessSDK.Build",
+                    "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC14setCredentials11mobileToken8personIdAESS_SStF",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC14setCredentials11mobileToken8personIdAESS_SStF",
+                "moduleName": "FaceLivenessIproov",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceLivenessSDK",
+                    "printedName": "FaceLivenessIproov.FaceLivenessSDK",
+                    "usr": "c:@M@FaceLivenessIproov@objc(cs)FaceLivenessSDK"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC5buildACyF",
+                "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC5buildACyF",
+                "moduleName": "FaceLivenessIproov",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:18FaceLivenessIproov0aB3SDKC5BuildC",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKC5BuildC",
+            "moduleName": "FaceLivenessIproov",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessSDK",
+                "printedName": "FaceLivenessIproov.FaceLivenessSDK",
+                "usr": "c:@M@FaceLivenessIproov@objc(cs)FaceLivenessSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FaceLivenessIproov@objc(cs)FaceLivenessSDK(im)init",
+            "mangledName": "$s18FaceLivenessIproov0aB3SDKCACycfc",
+            "moduleName": "FaceLivenessIproov",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FaceLivenessIproov@objc(cs)FaceLivenessSDK",
+        "mangledName": "$s18FaceLivenessIproov0aB3SDKC",
+        "moduleName": "FaceLivenessIproov",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLivenessIproov",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/CAFStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/CAFStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/CAFStage.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 74,
+      "value": "\"jESHZ5GpZPvPe5pXt5D9WXrXWvvKAawrdzYDPRE3yNN2Uur78RGZAdrZvVwXrvdnMKHsBpHU\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/CAFStage.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 74,
+      "value": "\"LLKK9HgKNjCsxgyPScq5xz727mPB9z73yfcL2sc4BbTTNJ3KMrDWDM3UTe3BpuTzbS6epmvk\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/CAFStage.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 74,
+      "value": "\"m9hTENV2aUyqDvBrgK8VZVm7x89Xfjt4z2UrfNGNUvWAHfgAFaZk78LzS3KkfzJ7HPVxJa96\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/CAFStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/CAFStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Models\/LivenessResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 16,
+      "value": "\"ios-iproov-1.0\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 33,
+      "value": "\"wss:\/\/us.rp.secure.iproov.me\/ws\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 760,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3456,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3804,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3877,
+      "length": 10,
+      "value": "\"Cacelled\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4014,
+      "length": 65,
+      "value": "\"ERROR - \""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4046,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4078,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4748,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4860,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5160,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 789,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 844,
+      "length": 3,
+      "value": "\"?\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 1332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 1567,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 67,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authorization-partner\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 67,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authorization-partner\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 63,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authorization-partner\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 61,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/liveness-iproov\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 61,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/liveness-iproov\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 794,
+      "length": 57,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/liveness-iproov\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 67,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 67,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 63,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 18,
+      "value": "\"Calling route to\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 18,
+      "value": "\"Calling route to\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 3230,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 3291,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 3331,
+      "length": 14,
+      "value": "\"content-type\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 3931,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 16,
+      "value": "\"Caf-PFL-IPROVE\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1673,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 15,
+      "value": "\"FaceLivenessIproov.FaceLivenessSDK\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
+      "length": 16,
+      "value": "\"FinishSDKIprov\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 40,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 43,
+      "value": "\"https:\/\/api.analytics.combateafraude.com\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 40,
+      "value": "\"https:\/\/api.dev.public.caf.io\/v1\/sdks\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 36,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 43,
+      "value": "\"https:\/\/api.analytics.combateafraude.com\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 807,
+      "length": 41,
+      "value": "\"https:\/\/api.beta.public.caf.io\/v1\/sdks\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 978,
+      "length": 36,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1060,
+      "length": 43,
+      "value": "\"https:\/\/api.analytics.combateafraude.com\/\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLivenessIproov\/Server\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 1142,
+      "length": 36,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
+    }
+  ]
+}

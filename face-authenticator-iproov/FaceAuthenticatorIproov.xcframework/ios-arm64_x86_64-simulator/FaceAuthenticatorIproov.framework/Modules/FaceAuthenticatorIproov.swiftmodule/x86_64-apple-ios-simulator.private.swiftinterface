@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticatorIproov
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FaceLivenessIproov
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc public enum CAFStage : Swift.Int {
+  case BETA, PROD, DEV
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct FaceAuthenticatorResult {
+}
+public struct FaceAuthenticatorData : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol FaceAuthSDKDelegate {
+  func didFinishFaceAuth(with faceAuthenticatorResult: FaceAuthenticatorIproov.FaceAuthenticatorResult)
+}
+@objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
+  public var token: Swift.String
+  public var personId: Swift.String
+  public var stage: FaceLivenessIproov.CAFStage
+  public var sdkVersion: Swift.String
+  public var delegate: (any FaceAuthenticatorIproov.FaceAuthSDKDelegate)?
+  open func startFaceAuthSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Builder : ObjectiveC.NSObject {
+    public var sessionId: Swift.String
+    public var sdkVersion: Swift.String
+    public var token: Swift.String
+    public var personId: Swift.String
+    @objc override dynamic public init()
+    open func setCredentials(token: Swift.String, personId: Swift.String) -> FaceAuthenticatorIproov.FaceAuthSDK.Builder
+    open func setStage(stage: FaceLivenessIproov.CAFStage) -> FaceAuthenticatorIproov.FaceAuthSDK.Builder
+    open func build() -> FaceAuthenticatorIproov.FaceAuthSDK
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct FaceLivenessResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension FaceAuthenticatorIproov.CAFStage : Swift.Equatable {}
+extension FaceAuthenticatorIproov.CAFStage : Swift.Hashable {}
+extension FaceAuthenticatorIproov.CAFStage : Swift.RawRepresentable {}

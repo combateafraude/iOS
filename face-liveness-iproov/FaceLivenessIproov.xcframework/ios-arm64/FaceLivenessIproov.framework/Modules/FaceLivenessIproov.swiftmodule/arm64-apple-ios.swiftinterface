@@ -1,0 +1,59 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLivenessIproov
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import iProov
+public struct FaceLivenessResult {
+  public let isAlive: Swift.Bool
+  public let token: Swift.String
+  public let errorMessage: Swift.String?
+  public let imageUrl: Swift.String?
+}
+@objc public enum CAFStage : Swift.Int {
+  case BETA, PROD, DEV
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct FaceLivenessResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class FaceLivenessSDKViewModel {
+  public init(stage: FaceLivenessIproov.CAFStage, faceLivenessSDK: FaceLivenessIproov.FaceLivenessSDK)
+  public func launchIProov(completion: @escaping (FaceLivenessIproov.FaceLivenessResult) -> Swift.Void)
+  @objc deinit
+}
+public protocol FaceLivenessDelegate {
+  func didFinishLiveness(with faceLivenesResult: FaceLivenessIproov.FaceLivenessResult)
+  func startLoadingScreen()
+}
+@objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
+  public static let SDK_NAME: Swift.String
+  public var mobileToken: Swift.String
+  public var personId: Swift.String
+  public var stage: FaceLivenessIproov.CAFStage
+  public var sdkVersion: Swift.String
+  public var delegate: (any FaceLivenessIproov.FaceLivenessDelegate)?
+  open func startSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Build : ObjectiveC.NSObject {
+    public var mobileToken: Swift.String
+    public var personId: Swift.String
+    @objc override dynamic public init()
+    open func setStage(stage: FaceLivenessIproov.CAFStage) -> FaceLivenessIproov.FaceLivenessSDK.Build
+    open func setCredentials(mobileToken: Swift.String, personId: Swift.String) -> FaceLivenessIproov.FaceLivenessSDK.Build
+    open func build() -> FaceLivenessIproov.FaceLivenessSDK
+    @objc deinit
+  }
+  @objc deinit
+}
+extension FaceLivenessIproov.CAFStage : Swift.Equatable {}
+extension FaceLivenessIproov.CAFStage : Swift.Hashable {}
+extension FaceLivenessIproov.CAFStage : Swift.RawRepresentable {}

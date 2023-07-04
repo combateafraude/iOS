@@ -1,0 +1,336 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Identity
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import AdSupport
+import CommonCrypto/*.CC_LONG*/
+import CommonCrypto/*.CC_MD5*/
+import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import CoreImage
+import CoreLocation
+import CoreMotion
+import FingerprintPro
+import Foundation
+@_exported import Identity
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+@objc @_hasMissingDesignatedInitializers open class FaceAuthenticatorSdk : ObjectiveC.NSObject, Swift.Encodable {
+  public static let SDK_NAME: Swift.String
+  public var peopleId: Swift.String!
+  public var personCpf: Swift.String!
+  public var personName: Swift.String!
+  public var mobileToken: Swift.String!
+  public var useAnalytics: Swift.Bool!
+  public var requestTimeout: Foundation.TimeInterval!
+  public var colorTheme: UIKit.UIColor!
+  public var hasSound: Swift.Bool!
+  public var showStepLabel: Swift.Bool!
+  public var showStatusLabel: Swift.Bool!
+  public var layout: Identity.FaceAuthenticatorLayout?
+  public var sensorStabilityMessage: Swift.String!
+  public var stabilityThreshold: Swift.Double!
+  public var beforePictureInterval: Foundation.TimeInterval!
+  public var enableManualCapture: Swift.Bool!
+  public var manualCaptureTime: Foundation.TimeInterval!
+  public var enableVideoCapture: Swift.Bool!
+  public var timeVideoCapture: Foundation.TimeInterval!
+  public var stage: Identity.CAFStage!
+  public var currentStepDoneDelay: Foundation.TimeInterval!
+  public var eyesClosedSettings: Identity.FAEyesClosedSettings!
+  public func encode(to encoder: Swift.Encoder) throws
+  @objc open class Builder : ObjectiveC.NSObject {
+    public var personCPF: Swift.String!
+    public var personName: Swift.String!
+    public init(mobileToken: Swift.String)
+    open func setPeopleId(_ peopleId: Swift.String) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setPersonName(_ personName: Swift.String) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setPersonCPF(_ personCPF: Swift.String) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setAnalyticsSettings(useAnalytics: Swift.Bool!) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setNetworkSettings(requestTimeout: Foundation.TimeInterval) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setColorTheme(color: UIKit.UIColor) -> Identity.FaceAuthenticatorSdk.Builder
+    open func enableSound(hasSound: Swift.Bool) -> Identity.FaceAuthenticatorSdk.Builder
+    open func showStepLabel(show: Swift.Bool) -> Identity.FaceAuthenticatorSdk.Builder
+    open func showStatusLabel(show: Swift.Bool) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setLayout(layout: Identity.FaceAuthenticatorLayout) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setStabilitySensorSettings(message: Swift.String?, stabilityThreshold: Swift.Double?) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setImageCaptureSettings(beforePictureInterval: Foundation.TimeInterval!, enableManualCapture: Swift.Bool, timeManualCapture: Foundation.TimeInterval) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setVideoCaptureSettings(time: Foundation.TimeInterval = 3) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setStage(stage: Identity.CAFStage) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> Identity.FaceAuthenticatorSdk.Builder
+    open func setEyesClosedSettings(threshold: Swift.Double = 0.5, isEnable: Swift.Bool = true, errorMessage: Swift.String = "Não use óculos escuros e mantenha os olhos abertos.") -> Identity.FaceAuthenticatorSdk.Builder
+    open func build() -> Identity.FaceAuthenticatorSdk
+    @objc deinit
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class FaceAuthenticatorLayout : ObjectiveC.NSObject {
+  public var closeImage: UIKit.UIImage?
+  public var buttonContentMode: UIKit.UIView.ContentMode?
+  public var buttonSize: CoreFoundation.CGFloat?
+  @objc override dynamic public init()
+  open func changeMaskImages(greenMask: UIKit.UIImage?, whiteMask: UIKit.UIImage?, redMask: UIKit.UIImage?)
+  open func changeSoundImages(soundOn: UIKit.UIImage?, soundOff: UIKit.UIImage?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AEOTPTextField : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) public var otpDefaultCharacter: Swift.String
+  @_Concurrency.MainActor(unsafe) public var otpBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpFilledBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpCornerRaduis: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpDefaultBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpFilledBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpDefaultBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpFilledBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpTextColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var otpFontSize: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var otpFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) weak public var otpDelegate: Identity.AEOTPTextFieldDelegate?
+  @_Concurrency.MainActor(unsafe) public func configure(with slotCount: Swift.Int = 6)
+  @_Concurrency.MainActor(unsafe) public func clearOTP()
+  @_Concurrency.MainActor(unsafe) public func setText(_ text: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class JWTUtil : ObjectiveC.NSObject {
+  public static func payloadToDict(_ payload: Swift.String) -> [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias VerifyPolicyResponse = (isAuthorized: Swift.Bool, attestation: Swift.String)
+public typealias VerifyPolicyResult = Identity.IdentityResult<Identity.VerifyPolicyResponse, Identity.VerifyPolicyResponse, Identity.IdentityError>
+public typealias VerifyPolicyListener = (Identity.VerifyPolicyResult) -> Swift.Void
+@objc public class FATokenVerificationResponse : ObjectiveC.NSObject {
+  public var message: Swift.String!
+  public var status: Swift.String!
+  public var tInt: Swift.String!
+  public var tExp: Swift.Int!
+  public init(dict: [Swift.String : Any])
+  public func isValidToken() -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FACafApi : Identity.FAApi {
+  public static var IMAGE_UPLOAD: Identity.FACafApi {
+    get
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers open class IdentitySDK : ObjectiveC.NSObject {
+  public static let SDK_NAME: Swift.String
+  public var mobileToken: Swift.String
+  public var stage: Identity.IdentityStage
+  public var emailURL: Foundation.URL?
+  public var phoneURL: Foundation.URL?
+  public func verifyPolicy(personID: Swift.String, policyId: Swift.String, listener: @escaping Identity.VerifyPolicyListener)
+  @objc deinit
+}
+extension Identity.IdentitySDK {
+  public class Builder {
+    public init(mobileToken: Swift.String)
+    public func build() -> Identity.IdentitySDK
+    public func setStage(_ newStage: Identity.IdentityStage) -> Identity.IdentitySDK.Builder
+    public func setEmailURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
+    public func setPhoneURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
+    @objc deinit
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class FaceAuthenticatorResult : ObjectiveC.NSObject, Swift.Encodable {
+  public var isAuthorized: Swift.Bool?
+  public var attestation: Swift.String?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class FaceAuthenticatorResultError : ObjectiveC.NSObject, Swift.Encodable {
+  public var error: Swift.String
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class FAUploadHelper {
+  @objc deinit
+}
+public enum IdentityStage {
+  case DEV
+  case BETA
+  case PROD
+  public static func == (a: Identity.IdentityStage, b: Identity.IdentityStage) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class FAEyesClosedSettings {
+  @objc deinit
+}
+public enum FAMaskType {
+  case normal
+  case success
+  case error
+  public static func == (a: Identity.FAMaskType, b: Identity.FAMaskType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum IdentityError : Swift.Error {
+  case PermissionReason(Swift.String)
+  case AvailabilityReason(Swift.String)
+  case NetworkReason
+  case ServerReason(Swift.String, Swift.Int?)
+  case SecurityReason(Swift.String)
+  case StorageReason(Swift.String)
+  case LibraryReason(Swift.String)
+  case PolicyReason(Swift.String)
+}
+extension Identity.IdentityError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class FaceAuthenticatorController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override final public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @objc deinit
+}
+public struct FaceAuthResults {
+  public var faceImage: UIKit.UIImage
+  public var authenticated: Swift.Bool
+}
+@frozen public enum IdentityResult<Success, Pending, Failure> where Failure : Swift.Error {
+  case onSuccess(Success)
+  case onPending(Pending)
+  case onError(Failure)
+}
+@_hasMissingDesignatedInitializers public class FADevice : Swift.Encodable {
+  public var fingerprint: Swift.String!
+  public var model: Swift.String!
+  public var manufacturer: Swift.String!
+  public var operatingSystem: Swift.String!
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public class FAMetadata {
+  public var metadataToken: Swift.String!
+  public var metadataTimeStarted: Foundation.NSDate!
+  public var expirationTime: Swift.Int!
+  public init(metadataToken: Swift.String, expirationTime: Swift.Int)
+  public func isValidToken() -> Swift.Bool
+  @objc deinit
+}
+@objc public class FAServerFailureResponse : ObjectiveC.NSObject {
+  public var message: Swift.String?
+  public init(response: [Swift.String : Any])
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class OtherInfo : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class FAApi : ObjectiveC.NSObject {
+  public var baseUrl: Swift.String!
+  public var relativeUrl: Swift.String!
+  public var method: Swift.String!
+  public var headers: [Swift.String]!
+  public static var stage: Identity.CAFStage!
+  public func getUrl(pathParam: Swift.String = "") -> Swift.String!
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class CodeAuthenticatorResult : ObjectiveC.NSObject, Swift.Encodable {
+  public var isAuthorized: Swift.Bool?
+  public var attestation: Swift.String?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class CodeAuthenticatorResultWithPending : ObjectiveC.NSObject, Swift.Encodable {
+  public var isAuthorized: Swift.Bool?
+  public var attestation: Swift.String?
+  public var requestId: Swift.String?
+  public var message: Swift.String?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class CodeAuthenticatorResultError : ObjectiveC.NSObject, Swift.Encodable {
+  public var error: Swift.String
+  public var message: Swift.String
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class CodeAuthenticatorResultDisapproved : ObjectiveC.NSObject, Swift.Encodable {
+  public var isAuthorized: Swift.Bool?
+  public var attestation: Swift.String?
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public protocol AEOTPTextFieldDelegate : AnyObject {
+  func didUserFinishEnter(the code: Swift.String)
+}
+public enum CAFStage {
+  case BETA, PROD, OTHER
+  public static func == (a: Identity.CAFStage, b: Identity.CAFStage) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class FingerprintUtil : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum DeviceFlag : Swift.Int, Swift.Codable {
+  case notDetected
+  case detected
+  case notDetectable
+  case detectionFailed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class BateryInfo : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FAMobileApi : Identity.FAApi {
+  public static var TOKEN_VERIFICATION: Identity.FAMobileApi {
+    get
+  }
+  public static var FACE_AUTHENTICATE: Identity.FAMobileApi {
+    get
+  }
+  public static let IMAGE_UPLOAD: Identity.FAMobileApi
+  public static var TOKEN_VERIFICATION_OTHER: Identity.FAMobileApi {
+    get
+  }
+  public static var FACE_AUTHENTICATE_OTHER: Identity.FAMobileApi {
+    get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FAAnalyticsApi : Identity.FAApi {
+  public static var REQUEST_TRACKING_ID: Identity.FAAnalyticsApi {
+    get
+  }
+  public static var ADD_EVENT: Identity.FAAnalyticsApi {
+    get
+  }
+  @objc deinit
+}
+extension Identity.IdentityStage : Swift.Equatable {}
+extension Identity.IdentityStage : Swift.Hashable {}
+extension Identity.FAMaskType : Swift.Equatable {}
+extension Identity.FAMaskType : Swift.Hashable {}
+extension Identity.CAFStage : Swift.Equatable {}
+extension Identity.CAFStage : Swift.Hashable {}
+extension Identity.DeviceFlag : Swift.Equatable {}
+extension Identity.DeviceFlag : Swift.Hashable {}
+extension Identity.DeviceFlag : Swift.RawRepresentable {}
