@@ -20,5 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'face-liveness-auth/FaceLivenessAuth.xcframework'
 
-  s.dependency 'iProov', '10.3.0'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
