@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceLivenessAuth'
-  s.version          = '1.5.0'
+  s.version          = '1.6.0'
   s.summary          = 'FaceLivenessAuth'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-liveness-auth/LICENSE' }
@@ -19,9 +19,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.3.1'
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'face-liveness-auth/FaceLivenessAuth.xcframework'
-
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.dependency 'iProov', '10.3.0'
 
