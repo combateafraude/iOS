@@ -301,6 +301,20 @@ SWIFT_CLASS("_TtCC17FaceAuthenticator11FaceAuthSDK7Builder")
 @end
 
 
+
+SWIFT_CLASS("_TtC17FaceAuthenticator15FaceLivenessSDK")
+@interface FaceLivenessSDK : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtCC17FaceAuthenticator15FaceLivenessSDK5Build")
+@interface Build : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 #endif
 #if defined(__cplusplus)
 #endif

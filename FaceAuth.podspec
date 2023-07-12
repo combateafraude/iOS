@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuth'
-  s.version          = '1.4.0'
+  s.version          = '1.5.0'
   s.summary          = 'FaceAuth'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'FaceAuth/LICENSE' }
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
 
 
+  s.swift_version = '5.3.1'
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'FaceAuth/FaceAuth.xcframework'
 
-  s.dependency 'FaceLiveness', '~> 1.2.0'
-
+  s.dependency 'iProov', '10.3.0'
 end
