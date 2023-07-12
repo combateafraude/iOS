@@ -1,0 +1,4 @@
+framework module FaceLivenessAuth {
+  header "FaceLivenessAuth-Swift.h"
+  requires objc
+}
