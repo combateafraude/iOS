@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Identity'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Identity'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'identity/LICENSE' }
-  s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
+  s.author           = { 'services@caf.io' => 'services@caf.io' }
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
