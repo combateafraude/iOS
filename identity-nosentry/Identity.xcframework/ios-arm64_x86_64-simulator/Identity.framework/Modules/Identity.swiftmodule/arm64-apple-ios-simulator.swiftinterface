@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target arm64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Identity
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Identity
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
@@ -42,7 +42,7 @@ import _StringProcessing
   public var stage: Identity.CAFStage!
   public var currentStepDoneDelay: Foundation.TimeInterval!
   public var eyesClosedSettings: Identity.FAEyesClosedSettings!
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc open class Builder : ObjectiveC.NSObject {
     public var personCPF: Swift.String!
     public var personName: Swift.String!
@@ -89,7 +89,7 @@ import _StringProcessing
   @_Concurrency.MainActor(unsafe) public var otpTextColor: UIKit.UIColor
   @_Concurrency.MainActor(unsafe) public var otpFontSize: CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) public var otpFont: UIKit.UIFont
-  @_Concurrency.MainActor(unsafe) weak public var otpDelegate: Identity.AEOTPTextFieldDelegate?
+  @_Concurrency.MainActor(unsafe) weak public var otpDelegate: (any Identity.AEOTPTextFieldDelegate)?
   @_Concurrency.MainActor(unsafe) public func configure(with slotCount: Swift.Int = 6)
   @_Concurrency.MainActor(unsafe) public func clearOTP()
   @_Concurrency.MainActor(unsafe) public func setText(_ text: Swift.String)
@@ -143,12 +143,12 @@ extension Identity.IdentitySDK {
   public var isAuthorized: Swift.Bool?
   public var attestation: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthenticatorResultError : ObjectiveC.NSObject, Swift.Encodable {
   public var error: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class FAUploadHelper {
   @objc deinit
@@ -214,7 +214,7 @@ public struct FaceAuthResults {
   public var manufacturer: Swift.String!
   public var operatingSystem: Swift.String!
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class FAMetadata {
   public var metadataToken: Swift.String!
@@ -231,8 +231,8 @@ public class FAMetadata {
 }
 @_hasMissingDesignatedInitializers public class OtherInfo : Swift.Codable {
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_hasMissingDesignatedInitializers public class FAApi : ObjectiveC.NSObject {
   public var baseUrl: Swift.String!
@@ -247,7 +247,7 @@ public class FAMetadata {
   public var isAuthorized: Swift.Bool?
   public var attestation: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_hasMissingDesignatedInitializers public class CodeAuthenticatorResultWithPending : ObjectiveC.NSObject, Swift.Encodable {
   public var isAuthorized: Swift.Bool?
@@ -255,19 +255,19 @@ public class FAMetadata {
   public var requestId: Swift.String?
   public var message: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_hasMissingDesignatedInitializers public class CodeAuthenticatorResultError : ObjectiveC.NSObject, Swift.Encodable {
   public var error: Swift.String
   public var message: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_hasMissingDesignatedInitializers public class CodeAuthenticatorResultDisapproved : ObjectiveC.NSObject, Swift.Encodable {
   public var isAuthorized: Swift.Bool?
   public var attestation: Swift.String?
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol AEOTPTextFieldDelegate : AnyObject {
   func didUserFinishEnter(the code: Swift.String)
@@ -297,8 +297,8 @@ public enum DeviceFlag : Swift.Int, Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class BateryInfo : Swift.Codable {
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class FAMobileApi : Identity.FAApi {
   public static var TOKEN_VERIFICATION: Identity.FAMobileApi {
