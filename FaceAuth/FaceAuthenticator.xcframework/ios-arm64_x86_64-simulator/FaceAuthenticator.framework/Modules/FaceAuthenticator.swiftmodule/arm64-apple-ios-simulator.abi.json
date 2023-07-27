@@ -362,6 +362,357 @@
         "kind": "TypeDecl",
         "name": "FaceAuthenticatorResult",
         "printedName": "FaceAuthenticatorResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isAlive",
+            "printedName": "isAlive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbvp",
+            "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbvg",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isMatch",
+            "printedName": "isMatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0aB6ResultV7isMatchSbSgvp",
+            "mangledName": "$s17FaceAuthenticator0aB6ResultV7isMatchSbSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV7isMatchSbSgvg",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isMatchSbSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV7isMatchSbSgvs",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isMatchSbSgvs",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV7isMatchSbSgvM",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isMatchSbSgvM",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvp",
+            "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvg",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvs",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvs",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvM",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvM",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0aB6ResultV12errorMessageSSSgvp",
+            "mangledName": "$s17FaceAuthenticator0aB6ResultV12errorMessageSSSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV12errorMessageSSSgvg",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV12errorMessageSSSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV12errorMessageSSSgvs",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV12errorMessageSSSgvs",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV12errorMessageSSSgvM",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV12errorMessageSSSgvM",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:17FaceAuthenticator0aB6ResultV",
         "mangledName": "$s17FaceAuthenticator0aB6ResultV",
