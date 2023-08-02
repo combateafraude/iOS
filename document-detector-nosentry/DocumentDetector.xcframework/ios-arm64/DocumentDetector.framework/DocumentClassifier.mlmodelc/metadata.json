@@ -43,8 +43,8 @@
       "name" : "MLModelType_neuralNetwork"
     },
     "userDefinedMetadata" : {
-      "com.github.apple.coremltools.version" : "6.1",
-      "com.github.apple.coremltools.source" : "tensorflow==2.9.2"
+      "com.github.apple.coremltools.version" : "6.3.0",
+      "com.github.apple.coremltools.source" : "tensorflow==2.11.0"
     },
     "generatedClassName" : "DocumentClassifier",
     "inputSchema" : [
