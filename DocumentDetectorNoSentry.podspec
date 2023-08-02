@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetectorNoSentry'
-  s.version          = '7.12.2'
+  s.version          = '8.0.0'
   s.summary          = 'DocumentDetectorNoSentry'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector-nosentry/LICENSE' }

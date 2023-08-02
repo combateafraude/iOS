@@ -1,22 +1,25 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DocumentDetector
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import Accelerate
 import AdSupport
+import CommonCrypto
 import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
 import CoreML
 import CoreMotion
+import CryptoKit
 import Foundation
 import ImageIO
 import MobileCoreServices
 import PDFKit
 import Photos
+import Sentry
 import Swift
 import UIKit
 import VideoToolbox
@@ -42,6 +45,15 @@ extension DocumentDetector.DocumentDetectorViewController {
   @_Concurrency.MainActor(unsafe) public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
   @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
+}
+@objc public class ImageUploadResponseBody : ObjectiveC.NSObject {
+  public var uploadUrl: Swift.String?
+  public var imageUploadRetrieveData: DocumentDetector.ImageUploadResponseBody.ImageUploadRetrieveData?
+  public init(dict: [Swift.String : Any]?)
+  public struct ImageUploadRetrieveData : Swift.Encodable {
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class DocumentDetectorFailure : ObjectiveC.NSObject, Swift.Encodable {
   public var message: Swift.String!
@@ -72,6 +84,9 @@ extension DocumentDetector.DocumentDetectorViewController {
 @_hasMissingDesignatedInitializers @objc public class ServerReason : DocumentDetector.DocumentDetectorFailure {
   public var code: Swift.Int!
   @objc deinit
+}
+extension Swift.String {
+  public func localized() -> Swift.String
 }
 @objc open class UploadSettings : ObjectiveC.NSObject {
   public var enable: Swift.Bool
@@ -118,17 +133,14 @@ public enum FileFormat : Swift.String {
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Api : ObjectiveC.NSObject {
-  public var baseUrl: Swift.String!
-  public var relativeUrl: Swift.String!
-  public var method: Swift.String!
-  public var headers: [Swift.String]!
-  public func getUrl(pathParam: Swift.String = "") -> Swift.String!
-  public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String!
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CafApi : DocumentDetector.Api {
-  public static let IMAGE_UPLOAD: DocumentDetector.CafApi
-  public static let TRANSACTIONS: DocumentDetector.CafApi
+  public var relativeUrl: Swift.String
+  public var method: Swift.String
+  public var headers: [Swift.String]
+  public func getUrl(pathParam: Swift.String = "") -> Swift.String
+  public func addPathParamIn(url: Swift.String, path: Swift.String) -> Swift.String
+  public func addQueryParamIn(url: Swift.String, name: Swift.String, value: Swift.String) -> Swift.String
+  public func getUrlWithQueryParam(name: Swift.String = "", value: Swift.String = "") -> Swift.String
+  public func getHMACSecret() -> Swift.String
   @objc deinit
 }
 @available(iOS 13.0, *)
@@ -173,6 +185,7 @@ public class UploadValidationViewModel {
   public var compressionQuality: CoreFoundation.CGFloat!
   public var currentStepDoneDelay: Foundation.TimeInterval!
   public var uploadSettings: DocumentDetector.UploadSettings!
+  public var stage: DocumentDetector.CAFStage!
   public var allowedPassportCountryList: [DocumentDetector.CountryCodes]?
   public func encode(to encoder: any Swift.Encoder) throws
   @objc open class Builder : ObjectiveC.NSObject {
@@ -205,22 +218,30 @@ public class UploadValidationViewModel {
     open func setCompressSettings(compressionQuality: CoreFoundation.CGFloat) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func setUploadSettings(uploadSettings: DocumentDetector.UploadSettings) -> DocumentDetector.DocumentDetectorSdk.Builder
+    open func setStage(stage: DocumentDetector.CAFStage) -> DocumentDetector.DocumentDetectorSdk.Builder
     open func build() -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
   @objc deinit
 }
-@objc public class DocumentQualityResponse : ObjectiveC.NSObject {
-  public var quality: Swift.Double!
-  public var type: Swift.String!
+public struct DocumentQualityResponse : Swift.Decodable {
+  public var isQualityOk: Swift.Bool?
+  public var documentType: Swift.String?
+  public var imageUrl: Swift.String?
+  public var quality: Swift.Double?
+  public var analisysId: Swift.String?
+  public var imageScore: Swift.Double?
+  public var regulaId: Swift.String?
+  public var morePagesAvailable: Swift.Int?
   public init(dict: [Swift.String : Any])
-  @objc deinit
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MobileApi : DocumentDetector.Api {
-  public static let TOKEN_VERIFICATION: DocumentDetector.MobileApi
-  public static let DOCUMENT_QUALITY: DocumentDetector.MobileApi
-  public static let IMAGE_UPLOAD: DocumentDetector.MobileApi
-  public static let DOCUMENT_OCR: DocumentDetector.MobileApi
+  public static func DOCUMENT_OCR(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
+  public static func IMAGE_UPLOAD(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
+  public static func DOCUMENT_QUALITY(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
+  public static func TOKEN_VERIFICATION(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
+  public static func ATTESTATION(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
   @objc deinit
 }
 @objc public class TokenVerificationResponse : ObjectiveC.NSObject {
@@ -574,6 +595,14 @@ public enum CountryCodes : Swift.String {
     get
   }
 }
+@objc public enum CAFStage : Swift.Int {
+  case BETA, PROD, DEV
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers @objc public class PermissionReason : DocumentDetector.DocumentDetectorFailure {
   @objc deinit
 }
@@ -622,6 +651,8 @@ public enum CountryCodes : Swift.String {
   public static let CNH_NEW_FRONT: DocumentDetector.Label
   public static let CNH_NEW_FULL: DocumentDetector.Label
   public static let CRLV_NEW: DocumentDetector.Label
+  public static let CIN_BACK: DocumentDetector.Label
+  public static let CIN_FRONT: DocumentDetector.Label
   public var scanLabel: Swift.String!
   public var documentType: Swift.String!
   public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
@@ -728,8 +759,8 @@ public class DocumentDetectorAI {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AnalyticsApi : DocumentDetector.Api {
-  public static let REQUEST_TRACKING_ID: DocumentDetector.AnalyticsApi
-  public static let ADD_EVENT: DocumentDetector.AnalyticsApi
+  public static func REQUEST_TRACKING_ID(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
+  public static func ADD_EVENT(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
   @objc deinit
 }
 @objc public enum Resolution : Swift.Int {
@@ -751,8 +782,8 @@ public protocol UploadValidationDataSource {
   typealias UploadResponse = (Swift.String?, Swift.Int?, Swift.String?, DocumentDetector.UploadErrorType?) -> Swift.Void
   func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   func authorizationStatus() -> Photos.PHAuthorizationStatus
-  func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (Swift.String?) -> Swift.Void)
-  func verifyQualityOfImage(_ imageURL: Swift.String, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
+  func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (DocumentDetector.ImageUploadResponseBody?) -> Swift.Void)
+  func verifyQualityOfImage(_ imageResponse: DocumentDetector.ImageUploadResponseBody, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
   func compressImage(_ image: UIKit.UIImage, documentDetector: DocumentDetector.DocumentDetectorSdk) -> Foundation.Data?
 }
 public class UploadValidationServer {
@@ -762,8 +793,8 @@ public class UploadValidationServer {
 extension DocumentDetector.UploadValidationServer : DocumentDetector.UploadValidationDataSource {
   public func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   public func authorizationStatus() -> Photos.PHAuthorizationStatus
-  public func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (Swift.String?) -> Swift.Void)
-  public func verifyQualityOfImage(_ imageURL: Swift.String, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
+  public func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (DocumentDetector.ImageUploadResponseBody?) -> Swift.Void)
+  public func verifyQualityOfImage(_ imageResponse: DocumentDetector.ImageUploadResponseBody, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
   public func compressImage(_ image: UIKit.UIImage, documentDetector: DocumentDetector.DocumentDetectorSdk) -> Foundation.Data?
 }
 @objc open class ProxySettings : ObjectiveC.NSObject {
@@ -885,6 +916,9 @@ extension DocumentDetector.CountryCodes : Swift.RawRepresentable {}
 extension DocumentDetector.ValidationFailure : Swift.Equatable {}
 extension DocumentDetector.ValidationFailure : Swift.Hashable {}
 extension DocumentDetector.ValidationFailure : Swift.RawRepresentable {}
+extension DocumentDetector.CAFStage : Swift.Equatable {}
+extension DocumentDetector.CAFStage : Swift.Hashable {}
+extension DocumentDetector.CAFStage : Swift.RawRepresentable {}
 extension DocumentDetector.Mask : Swift.Equatable {}
 extension DocumentDetector.Mask : Swift.Hashable {}
 extension DocumentDetector.Mask : Swift.RawRepresentable {}
