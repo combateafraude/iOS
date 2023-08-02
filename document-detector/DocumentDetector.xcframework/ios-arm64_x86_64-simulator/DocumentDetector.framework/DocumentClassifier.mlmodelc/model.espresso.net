@@ -3165,7 +3165,7 @@
       "weights" : {
 
       },
-      "nC" : 23,
+      "nC" : 25,
       "blob_weights" : 215,
       "type" : "inner_product",
       "has_relu" : 0,
