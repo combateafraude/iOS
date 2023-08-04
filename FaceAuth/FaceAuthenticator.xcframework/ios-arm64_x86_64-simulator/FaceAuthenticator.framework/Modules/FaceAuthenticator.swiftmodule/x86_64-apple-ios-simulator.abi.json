@@ -788,205 +788,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Filter",
-        "printedName": "Filter",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "lineDrawing",
-            "printedName": "lineDrawing",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FaceAuthenticator.Filter.Type) -> FaceAuthenticator.Filter",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Filter",
-                    "printedName": "FaceAuthenticator.Filter",
-                    "usr": "s:17FaceAuthenticator6FilterO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FaceAuthenticator.Filter.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Filter",
-                        "printedName": "FaceAuthenticator.Filter",
-                        "usr": "s:17FaceAuthenticator6FilterO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:17FaceAuthenticator6FilterO11lineDrawingyA2CmF",
-            "mangledName": "$s17FaceAuthenticator6FilterO11lineDrawingyA2CmF",
-            "moduleName": "FaceAuthenticator"
-          },
-          {
-            "kind": "Var",
-            "name": "natural",
-            "printedName": "natural",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FaceAuthenticator.Filter.Type) -> FaceAuthenticator.Filter",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Filter",
-                    "printedName": "FaceAuthenticator.Filter",
-                    "usr": "s:17FaceAuthenticator6FilterO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FaceAuthenticator.Filter.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Filter",
-                        "printedName": "FaceAuthenticator.Filter",
-                        "usr": "s:17FaceAuthenticator6FilterO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:17FaceAuthenticator6FilterO7naturalyA2CmF",
-            "mangledName": "$s17FaceAuthenticator6FilterO7naturalyA2CmF",
-            "moduleName": "FaceAuthenticator"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FaceAuthenticator.Filter?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Filter",
-                    "printedName": "FaceAuthenticator.Filter",
-                    "usr": "s:17FaceAuthenticator6FilterO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:17FaceAuthenticator6FilterO8rawValueACSgSi_tcfc",
-            "mangledName": "$s17FaceAuthenticator6FilterO8rawValueACSgSi_tcfc",
-            "moduleName": "FaceAuthenticator",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17FaceAuthenticator6FilterO8rawValueSivp",
-            "mangledName": "$s17FaceAuthenticator6FilterO8rawValueSivp",
-            "moduleName": "FaceAuthenticator",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator6FilterO8rawValueSivg",
-                "mangledName": "$s17FaceAuthenticator6FilterO8rawValueSivg",
-                "moduleName": "FaceAuthenticator",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:17FaceAuthenticator6FilterO",
-        "mangledName": "$s17FaceAuthenticator6FilterO",
-        "moduleName": "FaceAuthenticator",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "Int",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "FaceAuthSDKDelegate",
         "printedName": "FaceAuthSDKDelegate",
         "children": [
@@ -1379,13 +1180,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Filter",
-                "printedName": "FaceAuthenticator.Filter",
-                "usr": "s:17FaceAuthenticator6FilterO"
+                "printedName": "FaceLiveness.Filter",
+                "usr": "s:12FaceLiveness6FilterO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvp",
-            "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvp",
+            "usr": "s:17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvp",
+            "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvp",
             "moduleName": "FaceAuthenticator",
             "declAttributes": [
               "HasStorage",
@@ -1401,13 +1202,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Filter",
-                    "printedName": "FaceAuthenticator.Filter",
-                    "usr": "s:17FaceAuthenticator6FilterO"
+                    "printedName": "FaceLiveness.Filter",
+                    "usr": "s:12FaceLiveness6FilterO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvg",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvg",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvg",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvg",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1425,13 +1226,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Filter",
-                    "printedName": "FaceAuthenticator.Filter",
-                    "usr": "s:17FaceAuthenticator6FilterO"
+                    "printedName": "FaceLiveness.Filter",
+                    "usr": "s:12FaceLiveness6FilterO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvs",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvs",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvs",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvs",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1448,8 +1249,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvM",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filterAA6FilterOvM",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvM",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC6filter0A8Liveness6FilterOvM",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1860,13 +1661,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Filter",
-                    "printedName": "FaceAuthenticator.Filter",
-                    "usr": "s:17FaceAuthenticator6FilterO"
+                    "printedName": "FaceLiveness.Filter",
+                    "usr": "s:12FaceLiveness6FilterO"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvp",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvp",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvp",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvp",
                 "moduleName": "FaceAuthenticator",
                 "declAttributes": [
                   "HasStorage",
@@ -1882,13 +1683,13 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Filter",
-                        "printedName": "FaceAuthenticator.Filter",
-                        "usr": "s:17FaceAuthenticator6FilterO"
+                        "printedName": "FaceLiveness.Filter",
+                        "usr": "s:12FaceLiveness6FilterO"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvg",
-                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvg",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvg",
+                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvg",
                     "moduleName": "FaceAuthenticator",
                     "implicit": true,
                     "accessorKind": "get"
@@ -1906,13 +1707,13 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Filter",
-                        "printedName": "FaceAuthenticator.Filter",
-                        "usr": "s:17FaceAuthenticator6FilterO"
+                        "printedName": "FaceLiveness.Filter",
+                        "usr": "s:12FaceLiveness6FilterO"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvs",
-                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvs",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvs",
+                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvs",
                     "moduleName": "FaceAuthenticator",
                     "implicit": true,
                     "accessorKind": "set"
@@ -1929,8 +1730,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvM",
-                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filterAA6FilterOvM",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvM",
+                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC6filter0A8Liveness6FilterOvM",
                     "moduleName": "FaceAuthenticator",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -2096,13 +1897,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Filter",
-                    "printedName": "FaceAuthenticator.Filter",
-                    "usr": "s:17FaceAuthenticator6FilterO"
+                    "printedName": "FaceLiveness.Filter",
+                    "usr": "s:12FaceLiveness6FilterO"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC9setFilter6filterAeA0G0O_tF",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC9setFilter6filterAeA0G0O_tF",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC9setFilter6filterAE0A8Liveness0G0O_tF",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC9setFilter6filterAE0A8Liveness0G0O_tF",
                 "moduleName": "FaceAuthenticator",
                 "isOpen": true,
                 "declAttributes": [
@@ -2674,21 +2475,21 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
+      "offset": 995,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2131,
+      "offset": 2195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2990,
+      "offset": 3054,
       "length": 3,
       "value": "200"
     },
@@ -2743,57 +2544,36 @@
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 177,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 177,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 177,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1558,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1635,
+      "offset": 1589,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1662,
+      "offset": 1616,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1719,
+      "offset": 1673,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 265,
       "length": 11,
       "value": "\"FaceAuthenticator.FaceAuthSDK\""
     },
