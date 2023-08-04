@@ -24,9 +24,17 @@ public struct FaceLivenessResult {
   }
 }
 public class FaceLivenessSDKViewModel {
-  public init(stage: FaceLiveness.CAFStage, faceLivenessSDK: FaceLiveness.FaceLivenessSDK)
+  public init(stage: FaceLiveness.CAFStage, faceLivenessSDK: FaceLiveness.FaceLivenessSDK, filter: FaceLiveness.Filter)
   public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessResult) -> Swift.Void)
   @objc deinit
+}
+public enum Filter : Swift.Int {
+  case lineDrawing, natural
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public protocol FaceLivenessDelegate {
   func didFinishLiveness(with faceLivenesResult: FaceLiveness.FaceLivenessResult)
@@ -38,13 +46,18 @@ public protocol FaceLivenessDelegate {
   public var personId: Swift.String
   public var stage: FaceLiveness.CAFStage
   public var sdkVersion: Swift.String
+  public var filter: FaceLiveness.Filter
+  public var enableScreeShot: Swift.Bool
   public var delegate: (any FaceLiveness.FaceLivenessDelegate)?
   open func startSDK(viewController: UIKit.UIViewController)
   @_inheritsConvenienceInitializers @objc open class Build : ObjectiveC.NSObject {
     public var mobileToken: Swift.String
     public var personId: Swift.String
+    public var enableScreeShot: Swift.Bool
     @objc override dynamic public init()
     open func setStage(stage: FaceLiveness.CAFStage) -> FaceLiveness.FaceLivenessSDK.Build
+    open func setFilter(filter: FaceLiveness.Filter) -> FaceLiveness.FaceLivenessSDK.Build
+    open func enableScreeShot(enableScreeShot: Swift.Bool) -> FaceLiveness.FaceLivenessSDK.Build
     open func setCredentials(mobileToken: Swift.String, personId: Swift.String) -> FaceLiveness.FaceLivenessSDK.Build
     open func build() -> FaceLiveness.FaceLivenessSDK
     @objc deinit
@@ -54,3 +67,6 @@ public protocol FaceLivenessDelegate {
 extension FaceLiveness.CAFStage : Swift.Equatable {}
 extension FaceLiveness.CAFStage : Swift.Hashable {}
 extension FaceLiveness.CAFStage : Swift.RawRepresentable {}
+extension FaceLiveness.Filter : Swift.Equatable {}
+extension FaceLiveness.Filter : Swift.Hashable {}
+extension FaceLiveness.Filter : Swift.RawRepresentable {}
