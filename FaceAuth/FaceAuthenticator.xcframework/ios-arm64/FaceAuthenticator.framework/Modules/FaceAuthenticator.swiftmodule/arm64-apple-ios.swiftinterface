@@ -17,10 +17,11 @@ import _StringProcessing
   }
 }
 public struct FaceAuthenticatorResult {
-  public let isAlive: Swift.Bool
+  public var isAlive: Swift.Bool?
   public var isMatch: Swift.Bool?
-  public var userId: Swift.String
+  public var userId: Swift.String?
   public var errorMessage: Swift.String?
+  public var signedResponse: Swift.String?
 }
 public struct FaceAuthenticatorData : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
