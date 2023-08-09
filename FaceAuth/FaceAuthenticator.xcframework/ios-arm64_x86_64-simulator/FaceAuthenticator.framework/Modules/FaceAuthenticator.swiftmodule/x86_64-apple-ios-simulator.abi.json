@@ -370,20 +370,28 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbvp",
-            "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbvp",
+            "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbSgvp",
+            "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbSgvp",
             "moduleName": "FaceAuthenticator",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -393,17 +401,75 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbvg",
-                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbvg",
+                "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbSgvg",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbSgvg",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbSgvs",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbSgvs",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV7isAliveSbSgvM",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV7isAliveSbSgvM",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -524,16 +590,25 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvp",
-            "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvp",
+            "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSSgvp",
+            "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSSgvp",
             "moduleName": "FaceAuthenticator",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -546,14 +621,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvg",
-                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvg",
+                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSSgvg",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSSgvg",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "get"
@@ -570,14 +653,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvs",
-                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvs",
+                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSSgvs",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSSgvs",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "set"
@@ -594,8 +685,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSvM",
-                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSvM",
+                "usr": "s:17FaceAuthenticator0aB6ResultV6userIdSSSgvM",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV6userIdSSSgvM",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -706,6 +797,116 @@
                 "declKind": "Accessor",
                 "usr": "s:17FaceAuthenticator0aB6ResultV12errorMessageSSSgvM",
                 "mangledName": "$s17FaceAuthenticator0aB6ResultV12errorMessageSSSgvM",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signedResponse",
+            "printedName": "signedResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0aB6ResultV14signedResponseSSSgvp",
+            "mangledName": "$s17FaceAuthenticator0aB6ResultV14signedResponseSSSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV14signedResponseSSSgvg",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV14signedResponseSSSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV14signedResponseSSSgvs",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV14signedResponseSSSgvs",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0aB6ResultV14signedResponseSSSgvM",
+                "mangledName": "$s17FaceAuthenticator0aB6ResultV14signedResponseSSSgvM",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2329,22 +2530,22 @@
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
       "kind": "StringLiteral",
       "offset": 614,
-      "length": 67,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
+      "length": 91,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov?shouldSignResponse=true\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 721,
-      "length": 67,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
+      "offset": 745,
+      "length": 91,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov?shouldSignResponse=true\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 828,
-      "length": 63,
-      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
+      "offset": 876,
+      "length": 87,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authentication-iproov?shouldSignResponse=true\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
@@ -2482,14 +2683,14 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2322,
+      "offset": 2164,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3129,
+      "offset": 2971,
       "length": 3,
       "value": "200"
     },
