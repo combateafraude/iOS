@@ -41836,13 +41836,6 @@
         "moduleName": "DocumentDetector"
       },
       {
-        "kind": "Import",
-        "name": "Sentry",
-        "printedName": "Sentry",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
         "kind": "TypeDecl",
         "name": "DocumentDetectorCustomViewControllerDelegate",
         "printedName": "DocumentDetectorCustomViewControllerDelegate",
@@ -42409,7 +42402,8 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -45985,84 +45979,84 @@
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "FloatLiteral",
-      "offset": 2576,
+      "offset": 2592,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "FloatLiteral",
-      "offset": 2588,
+      "offset": 2604,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2617,
+      "offset": 2633,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2679,
+      "offset": 2695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3135,
+      "offset": 3151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3680,
+      "offset": 3696,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "StringLiteral",
-      "offset": 4008,
+      "offset": 4024,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4791,
+      "offset": 4807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "FloatLiteral",
-      "offset": 4846,
+      "offset": 4862,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5024,
+      "offset": 5040,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2110,
       "length": 26,
       "value": "\"DocumentDetector.DocumentDetectorController\""
     },
     {
       "filePath": "\/Users\/luiz.carrion\/Documents\/GitHub\/mobile-ios-sdk\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2110,
       "length": 26,
       "value": "\"DocumentDetector.DocumentDetectorController\""
     },
