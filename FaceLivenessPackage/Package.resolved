@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iProov/ios.git",
+      "state" : {
+        "revision" : "f21800f548c87abcbd5a21c1cf83e4e30bca5d63",
+        "version" : "11.0.0-beta2"
+      }
+    }
+  ],
+  "version" : 2
+}
