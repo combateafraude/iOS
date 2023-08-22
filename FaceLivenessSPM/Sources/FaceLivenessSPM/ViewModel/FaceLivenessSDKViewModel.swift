@@ -12,7 +12,7 @@ protocol FaceLivenessSDKViewModelDelegate {
     func didFinishHelper()
 }
 
-public class FaceLivenessSDKViewModel {
+internal class FaceLivenessSDKViewModel {
     private let streamingURL = "wss://us.rp.secure.iproov.me/ws"
     
     private let faceLivenessSDK: FaceLivenessSDK
@@ -142,7 +142,6 @@ public class FaceLivenessSDKViewModel {
         ) { httpCode, response, error in
             
             guard let resp = response else {
-                print(response)
                 completion(FaceLivenessResult(
                     isAlive: false,
                     token: tokenResponse.token,
