@@ -9,17 +9,12 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "FaceAuthSPM",
-            targets: ["FaceAuthSPM"]),
+            targets: ["FaceAuthenticator"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/combateafraude/iOS/FaceLivenessSPM", branch: "releases")
+        
     ],
     targets: [
-        .target(
-            name: "FaceAuthSPM",
-            dependencies: []),
-        .testTarget(
-            name: "FaceAuthSPMTests",
-            dependencies: ["FaceAuthSPM"]),
+        .binaryTarget(name: "FaceAuthenticator", path: "./Sources/FaceAuthenticator.xcframework")
     ]
 )
