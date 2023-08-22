@@ -4,18 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "FaceLivenessSPM",
+    name: "FaceAuthSPM",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "FaceLivenessSPM",
-            targets: ["FaceLiveness"]),
+            name: "FaceAuthSPM",
+            targets: ["FaceAuthSPM"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/combateafraude/iOS/FaceLivenessSPM", branch: "releases")
     ],
     targets: [
-        .binaryTarget(name: "FaceLiveness", path: "./Sources/FaceLiveness.xcframework")
+        .target(
+            name: "FaceAuthSPM",
+            dependencies: []),
+        .testTarget(
+            name: "FaceAuthSPMTests",
+            dependencies: ["FaceAuthSPM"]),
     ]
 )
