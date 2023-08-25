@@ -1,0 +1,61 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticator
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FaceLiveness
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc public enum CAFStage : Swift.Int {
+  case BETA, PROD, DEV
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct FaceAuthenticatorResult {
+  public var isAlive: Swift.Bool?
+  public var isMatch: Swift.Bool?
+  public var userId: Swift.String?
+  public var errorMessage: Swift.String?
+  public var signedResponse: Swift.String?
+}
+public struct FaceAuthenticatorData : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol FaceAuthSDKDelegate {
+  func didFinishFaceAuth(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
+}
+@objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
+  public var token: Swift.String
+  public var personId: Swift.String
+  public var stage: FaceLiveness.CAFStage
+  public var sdkVersion: Swift.String
+  public var filter: FaceLiveness.Filter
+  public var delegate: (any FaceAuthenticator.FaceAuthSDKDelegate)?
+  open func startFaceAuthSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Builder : ObjectiveC.NSObject {
+    public var sessionId: Swift.String
+    public var sdkVersion: Swift.String
+    public var token: Swift.String
+    public var filter: FaceLiveness.Filter
+    public var personId: Swift.String
+    @objc override dynamic public init()
+    open func setCredentials(token: Swift.String, personId: Swift.String) -> FaceAuthenticator.FaceAuthSDK.Builder
+    open func setFilter(filter: FaceLiveness.Filter) -> FaceAuthenticator.FaceAuthSDK.Builder
+    open func setStage(stage: FaceLiveness.CAFStage) -> FaceAuthenticator.FaceAuthSDK.Builder
+    open func build() -> FaceAuthenticator.FaceAuthSDK
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct FaceLivenessResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension FaceAuthenticator.CAFStage : Swift.Equatable {}
+extension FaceAuthenticator.CAFStage : Swift.Hashable {}
+extension FaceAuthenticator.CAFStage : Swift.RawRepresentable {}
