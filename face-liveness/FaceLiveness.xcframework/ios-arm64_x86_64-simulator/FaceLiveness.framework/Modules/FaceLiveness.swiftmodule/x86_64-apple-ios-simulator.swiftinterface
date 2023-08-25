@@ -38,7 +38,6 @@ public enum Filter : Swift.Int {
 }
 public protocol FaceLivenessDelegate {
   func didFinishLiveness(with faceLivenesResult: FaceLiveness.FaceLivenessResult)
-  func startLoadingScreen()
 }
 @objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
   public static let SDK_NAME: Swift.String

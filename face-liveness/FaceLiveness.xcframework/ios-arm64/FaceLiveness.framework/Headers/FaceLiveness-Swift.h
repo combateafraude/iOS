@@ -300,7 +300,6 @@ SWIFT_CLASS("_TtCC12FaceLiveness15FaceLivenessSDK5Build")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 #endif
 #if defined(__cplusplus)
 #endif
