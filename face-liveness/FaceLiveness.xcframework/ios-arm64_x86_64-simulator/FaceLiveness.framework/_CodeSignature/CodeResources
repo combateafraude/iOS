@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		p9rGJ2Q7RbUSyEpbyUlHRVB16Eg=
+		g3fdHBdVkqXW2XBHjC7mWWDCwWg=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t9DPjG3cJLJxfho9+gIxjjiUaw0=
+		CoI9/Q99w5FZd8JAvoWsrSLLJ4I=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		p9rGJ2Q7RbUSyEpbyUlHRVB16Eg=
+		g3fdHBdVkqXW2XBHjC7mWWDCwWg=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4vdGuw5q5p/gwQz8E+AOaMQy248=
+		bF0XKmnjs4ohm8c3H18gq56w7/Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GeAAYK1WccKMb4ZT125/Pj/GmqP8kNKl3GM2smmQ/fw=
+			RCcwsYc2BSsF3MxYvTC3Tz65o7KqfxJGOr6oJ1lau6M=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZV/CEddb0P7+oBmiYznT88tEAZdaSo5SeqvPFkhH0vs=
+			Qi3CK5d7lKRjoOD1HIEnMjA70VBimae5duBN8BNnbFE=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GeAAYK1WccKMb4ZT125/Pj/GmqP8kNKl3GM2smmQ/fw=
+			RCcwsYc2BSsF3MxYvTC3Tz65o7KqfxJGOr6oJ1lau6M=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vpY3aLFCUdinRXiJNSgNN3ZH3ERrg7kDNTK+bJCEPTo=
+			gS4PHKztN0g81uPfrmqUsaZgmI+nwRjY33rzZSXKktI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
