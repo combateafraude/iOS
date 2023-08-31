@@ -600,6 +600,279 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "StatusControll",
+        "printedName": "StatusControll",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sucess",
+            "printedName": "sucess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLiveness.StatusControll.Type) -> FaceLiveness.StatusControll",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusControll",
+                    "printedName": "FaceLiveness.StatusControll",
+                    "usr": "s:12FaceLiveness14StatusControllO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLiveness.StatusControll.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusControll",
+                        "printedName": "FaceLiveness.StatusControll",
+                        "usr": "s:12FaceLiveness14StatusControllO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FaceLiveness14StatusControllO6sucessyA2CmF",
+            "mangledName": "$s12FaceLiveness14StatusControllO6sucessyA2CmF",
+            "moduleName": "FaceLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLiveness.StatusControll.Type) -> FaceLiveness.StatusControll",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusControll",
+                    "printedName": "FaceLiveness.StatusControll",
+                    "usr": "s:12FaceLiveness14StatusControllO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLiveness.StatusControll.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusControll",
+                        "printedName": "FaceLiveness.StatusControll",
+                        "usr": "s:12FaceLiveness14StatusControllO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FaceLiveness14StatusControllO4failyA2CmF",
+            "mangledName": "$s12FaceLiveness14StatusControllO4failyA2CmF",
+            "moduleName": "FaceLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "cancelled",
+            "printedName": "cancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLiveness.StatusControll.Type) -> FaceLiveness.StatusControll",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusControll",
+                    "printedName": "FaceLiveness.StatusControll",
+                    "usr": "s:12FaceLiveness14StatusControllO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLiveness.StatusControll.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusControll",
+                        "printedName": "FaceLiveness.StatusControll",
+                        "usr": "s:12FaceLiveness14StatusControllO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FaceLiveness14StatusControllO9cancelledyA2CmF",
+            "mangledName": "$s12FaceLiveness14StatusControllO9cancelledyA2CmF",
+            "moduleName": "FaceLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLiveness.StatusControll.Type) -> FaceLiveness.StatusControll",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusControll",
+                    "printedName": "FaceLiveness.StatusControll",
+                    "usr": "s:12FaceLiveness14StatusControllO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLiveness.StatusControll.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusControll",
+                        "printedName": "FaceLiveness.StatusControll",
+                        "usr": "s:12FaceLiveness14StatusControllO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FaceLiveness14StatusControllO5erroryA2CmF",
+            "mangledName": "$s12FaceLiveness14StatusControllO5erroryA2CmF",
+            "moduleName": "FaceLiveness"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLiveness.StatusControll?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusControll",
+                    "printedName": "FaceLiveness.StatusControll",
+                    "usr": "s:12FaceLiveness14StatusControllO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FaceLiveness14StatusControllO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12FaceLiveness14StatusControllO8rawValueACSgSi_tcfc",
+            "moduleName": "FaceLiveness",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness14StatusControllO8rawValueSivp",
+            "mangledName": "$s12FaceLiveness14StatusControllO8rawValueSivp",
+            "moduleName": "FaceLiveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness14StatusControllO8rawValueSivg",
+                "mangledName": "$s12FaceLiveness14StatusControllO8rawValueSivg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FaceLiveness14StatusControllO",
+        "mangledName": "$s12FaceLiveness14StatusControllO",
+        "moduleName": "FaceLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FaceLivenessSDKViewModel",
         "printedName": "FaceLivenessSDKViewModel",
         "children": [
@@ -655,7 +928,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FaceLiveness.FaceLivenessResult) -> ()",
+                "printedName": "(FaceLiveness.FaceLivenessResult, FaceLiveness.StatusControll) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -664,16 +937,29 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "FaceLivenessResult",
-                    "printedName": "FaceLiveness.FaceLivenessResult",
-                    "usr": "s:12FaceLiveness0aB6ResultV"
+                    "name": "Tuple",
+                    "printedName": "(FaceLiveness.FaceLivenessResult, FaceLiveness.StatusControll)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceLivenessResult",
+                        "printedName": "FaceLiveness.FaceLivenessResult",
+                        "usr": "s:12FaceLiveness0aB6ResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusControll",
+                        "printedName": "FaceLiveness.StatusControll",
+                        "usr": "s:12FaceLiveness14StatusControllO"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FaceLiveness0aB12SDKViewModelC15launchSDKHelper10completionyyAA0aB6ResultVc_tF",
-            "mangledName": "$s12FaceLiveness0aB12SDKViewModelC15launchSDKHelper10completionyyAA0aB6ResultVc_tF",
+            "usr": "s:12FaceLiveness0aB12SDKViewModelC15launchSDKHelper10completionyyAA0aB6ResultV_AA14StatusControllOtc_tF",
+            "mangledName": "$s12FaceLiveness0aB12SDKViewModelC15launchSDKHelper10completionyyAA0aB6ResultV_AA14StatusControllOtc_tF",
             "moduleName": "FaceLiveness",
             "declAttributes": [
               "AccessControl"
@@ -977,6 +1263,87 @@
             "declKind": "Func",
             "usr": "s:12FaceLiveness0aB8DelegateP09didFinishB04withyAA0aB6ResultV_tF",
             "mangledName": "$s12FaceLiveness0aB8DelegateP09didFinishB04withyAA0aB6ResultV_tF",
+            "moduleName": "FaceLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithFail",
+            "printedName": "didFinishWithFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessResult",
+                "printedName": "FaceLiveness.FaceLivenessResult",
+                "usr": "s:12FaceLiveness0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FaceLiveness0aB8DelegateP17didFinishWithFail4withyAA0aB6ResultV_tF",
+            "mangledName": "$s12FaceLiveness0aB8DelegateP17didFinishWithFail4withyAA0aB6ResultV_tF",
+            "moduleName": "FaceLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithCancelled",
+            "printedName": "didFinishWithCancelled(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessResult",
+                "printedName": "FaceLiveness.FaceLivenessResult",
+                "usr": "s:12FaceLiveness0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FaceLiveness0aB8DelegateP22didFinishWithCancelled4withyAA0aB6ResultV_tF",
+            "mangledName": "$s12FaceLiveness0aB8DelegateP22didFinishWithCancelled4withyAA0aB6ResultV_tF",
+            "moduleName": "FaceLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithError",
+            "printedName": "didFinishWithError(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessResult",
+                "printedName": "FaceLiveness.FaceLivenessResult",
+                "usr": "s:12FaceLiveness0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FaceLiveness0aB8DelegateP18didFinishWithError4withyAA0aB6ResultV_tF",
+            "mangledName": "$s12FaceLiveness0aB8DelegateP18didFinishWithError4withyAA0aB6ResultV_tF",
             "moduleName": "FaceLiveness",
             "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
             "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
@@ -2156,92 +2523,155 @@
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 221,
+      "offset": 322,
       "length": 33,
       "value": "\"wss:\/\/us.rp.secure.iproov.me\/ws\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 712,
+      "offset": 813,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3447,
+      "offset": 3651,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3825,
+      "offset": 4070,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3898,
-      "length": 36,
-      "value": "\"Cacelled: \""
+      "offset": 4143,
+      "length": 37,
+      "value": "\"Cancelled: \""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3933,
+      "offset": 4179,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4200,
+      "offset": 4488,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4257,
+      "offset": 4545,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4273,
+      "offset": 4561,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5065,
+      "offset": 5375,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5356,
+      "offset": 5666,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5468,
+      "offset": 5778,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5836,
+      "offset": 6146,
       "length": 4,
       "value": "true"
     },
@@ -2507,35 +2937,35 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 713,
+      "offset": 936,
       "length": 16,
       "value": "\"Caf-PFL-IPROVE\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2118,
+      "offset": 2758,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2149,
+      "offset": 2789,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2178,
+      "offset": 2818,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 651,
+      "offset": 874,
       "length": 15,
       "value": "\"FaceLiveness.FaceLivenessSDK\""
     },

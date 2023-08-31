@@ -23,9 +23,20 @@ public struct FaceLivenessResult {
     get
   }
 }
+public enum StatusControll : Swift.Int {
+  case sucess
+  case fail
+  case cancelled
+  case error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public class FaceLivenessSDKViewModel {
   public init(stage: FaceLiveness.CAFStage, faceLivenessSDK: FaceLiveness.FaceLivenessSDK, filter: FaceLiveness.Filter)
-  public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessResult) -> Swift.Void)
+  public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessResult, FaceLiveness.StatusControll) -> Swift.Void)
   @objc deinit
 }
 public enum Filter : Swift.Int {
@@ -37,7 +48,10 @@ public enum Filter : Swift.Int {
   }
 }
 public protocol FaceLivenessDelegate {
-  func didFinishLiveness(with faceLivenesResult: FaceLiveness.FaceLivenessResult)
+  func didFinishLiveness(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  func didFinishWithFail(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  func didFinishWithError(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
 }
 @objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
   public static let SDK_NAME: Swift.String
@@ -63,6 +77,9 @@ public protocol FaceLivenessDelegate {
 extension FaceLiveness.CAFStage : Swift.Equatable {}
 extension FaceLiveness.CAFStage : Swift.Hashable {}
 extension FaceLiveness.CAFStage : Swift.RawRepresentable {}
+extension FaceLiveness.StatusControll : Swift.Equatable {}
+extension FaceLiveness.StatusControll : Swift.Hashable {}
+extension FaceLiveness.StatusControll : Swift.RawRepresentable {}
 extension FaceLiveness.Filter : Swift.Equatable {}
 extension FaceLiveness.Filter : Swift.Hashable {}
 extension FaceLiveness.Filter : Swift.RawRepresentable {}
