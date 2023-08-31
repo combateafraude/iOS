@@ -28,6 +28,7 @@ public struct FaceAuthenticatorData : Swift.Encodable {
 }
 public protocol FaceAuthSDKDelegate {
   func didFinishFaceAuth(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
+  func didFinishWithError(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
   public var token: Swift.String
