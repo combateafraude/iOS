@@ -34,8 +34,7 @@ public enum StatusControll : Swift.Int {
     get
   }
 }
-public class FaceLivenessSDKViewModel {
-  public init(stage: FaceLiveness.CAFStage, faceLivenessSDK: FaceLiveness.FaceLivenessSDK, filter: FaceLiveness.Filter)
+@_hasMissingDesignatedInitializers public class FaceLivenessSDKViewModel {
   public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessResult, FaceLiveness.StatusControll) -> Swift.Void)
   @objc deinit
 }
@@ -52,6 +51,8 @@ public protocol FaceLivenessDelegate {
   func didFinishWithFail(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
   func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
   func didFinishWithError(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  func openLoadingScrean()
+  func closeLoadingScrean()
 }
 @objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
   public static let SDK_NAME: Swift.String
