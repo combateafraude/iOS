@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FaceLiveness-Swift.h</key>
 		<data>
-		FqCECzKKKZUiw51jp2LputtlZ08=
+		zkypfqZjrUHeM3G3r7tloHLq5wQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		puJcQgfiMCPDAuwZMCeAgiyz980=
+		q5xXr91h0iEHcXiwrPA9CFUpT3A=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		92VAFMa4TGFzkhOqJnFRp59YvOM=
+		0PbuloQr8ohWrk+/xk+B14oJgDc=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		92VAFMa4TGFzkhOqJnFRp59YvOM=
+		0PbuloQr8ohWrk+/xk+B14oJgDc=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4Zu/h9EcNF4272IHzVv79CLJMgQ=
+		NnSKcjkDKXbp39ocGdjFKPdIQ9U=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		puJcQgfiMCPDAuwZMCeAgiyz980=
+		q5xXr91h0iEHcXiwrPA9CFUpT3A=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WpFafnjK20rzFbtIN1P3BWy7BIU=
+		Gob7xABicosztMT0gL4q3GqKvyo=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WpFafnjK20rzFbtIN1P3BWy7BIU=
+		Gob7xABicosztMT0gL4q3GqKvyo=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3OXqu/efFsVrUhr5m6YP0+C302U=
+		CqNa5iUF0qBhKCLSIwMrJbD6D0I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,21 +63,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WtzxTjERff6lZRGIe4MuBBKMmegSOkvyiqlu6ElbBEw=
+			S+V/Hi7Xtc+voW2dKxXE6Ldb6kBft2gHFZQJDOy/Rpk=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			prpj6aNi3XUZKtpvV/mQketi+58UqutQORzrcUay1QQ=
+			WlL5ht+dBI/lSt9EGTgwkfQoNoypPnqxW/kW0akqpZc=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PauEalJuR8vwmeIeUE2S2d6UyLoSMhSEWuhtaukCC0=
+			C8B1STvq8AFBeurjT8LKLZ/ZFmqunH+Vhgs5yhgnSUY=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PauEalJuR8vwmeIeUE2S2d6UyLoSMhSEWuhtaukCC0=
+			C8B1STvq8AFBeurjT8LKLZ/ZFmqunH+Vhgs5yhgnSUY=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fdC8sFdSovIxYU4BiCvqdgF0jIUg58u1uX+ianPoSqw=
+			WuJMJuwtYlWR76d+9EK7RI234GHxLkI6OIVB7CpFFnI=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			prpj6aNi3XUZKtpvV/mQketi+58UqutQORzrcUay1QQ=
+			WlL5ht+dBI/lSt9EGTgwkfQoNoypPnqxW/kW0akqpZc=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mJYgF65sVea25jdNPmIhJtPNxXDvt+evxTdhMMXdpiA=
+			KpTOvFs+bZV0eq3bG1K2js1uGaFYtarj7xKH23v+enI=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mJYgF65sVea25jdNPmIhJtPNxXDvt+evxTdhMMXdpiA=
+			KpTOvFs+bZV0eq3bG1K2js1uGaFYtarj7xKH23v+enI=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YuaKjpuuEv+EquBJ0l1N6+FAn198a7pSCaWIXYs8Jlk=
+			hMSwEbZRbHtcbLm6m5Yzhaj3VhkeA2odTaqBbj8HP8U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
