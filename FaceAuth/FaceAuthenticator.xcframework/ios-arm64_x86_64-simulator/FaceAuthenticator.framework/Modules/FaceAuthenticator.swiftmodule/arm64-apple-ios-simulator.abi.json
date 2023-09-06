@@ -984,8 +984,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "didFinishFaceAuth",
-            "printedName": "didFinishFaceAuth(with:)",
+            "name": "didFinishSuccess",
+            "printedName": "didFinishSuccess(with:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1000,8 +1000,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FaceAuthenticator0A15AuthSDKDelegateP09didFinishaC04withyAA0aB6ResultV_tF",
-            "mangledName": "$s17FaceAuthenticator0A15AuthSDKDelegateP09didFinishaC04withyAA0aB6ResultV_tF",
+            "usr": "s:17FaceAuthenticator0A15AuthSDKDelegateP16didFinishSuccess4withyAA0aB6ResultV_tF",
+            "mangledName": "$s17FaceAuthenticator0A15AuthSDKDelegateP16didFinishSuccess4withyAA0aB6ResultV_tF",
             "moduleName": "FaceAuthenticator",
             "genericSig": "<τ_0_0 where τ_0_0 : FaceAuthenticator.FaceAuthSDKDelegate>",
             "sugared_genericSig": "<Self where Self : FaceAuthenticator.FaceAuthSDKDelegate>",
@@ -1029,6 +1029,60 @@
             "declKind": "Func",
             "usr": "s:17FaceAuthenticator0A15AuthSDKDelegateP18didFinishWithError4withyAA0aB6ResultV_tF",
             "mangledName": "$s17FaceAuthenticator0A15AuthSDKDelegateP18didFinishWithError4withyAA0aB6ResultV_tF",
+            "moduleName": "FaceAuthenticator",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceAuthenticator.FaceAuthSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceAuthenticator.FaceAuthSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithCancell",
+            "printedName": "didFinishWithCancell(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceAuthenticatorResult",
+                "printedName": "FaceAuthenticator.FaceAuthenticatorResult",
+                "usr": "s:17FaceAuthenticator0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceAuthenticator0A15AuthSDKDelegateP20didFinishWithCancell4withyAA0aB6ResultV_tF",
+            "mangledName": "$s17FaceAuthenticator0A15AuthSDKDelegateP20didFinishWithCancell4withyAA0aB6ResultV_tF",
+            "moduleName": "FaceAuthenticator",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceAuthenticator.FaceAuthSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceAuthenticator.FaceAuthSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithFail",
+            "printedName": "didFinishWithFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceAuthenticatorResult",
+                "printedName": "FaceAuthenticator.FaceAuthenticatorResult",
+                "usr": "s:17FaceAuthenticator0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FaceAuthenticator0A15AuthSDKDelegateP17didFinishWithFail4withyAA0aB6ResultV_tF",
+            "mangledName": "$s17FaceAuthenticator0A15AuthSDKDelegateP17didFinishWithFail4withyAA0aB6ResultV_tF",
             "moduleName": "FaceAuthenticator",
             "genericSig": "<τ_0_0 where τ_0_0 : FaceAuthenticator.FaceAuthSDKDelegate>",
             "sugared_genericSig": "<Self where Self : FaceAuthenticator.FaceAuthSDKDelegate>",
@@ -2725,56 +2779,56 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1013,
+      "offset": 1148,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2388,
+      "offset": 2514,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4524,
+      "offset": 4641,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1700,
+      "offset": 1866,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1897,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1758,
+      "offset": 1924,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1815,
+      "offset": 1981,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 573,
       "length": 11,
       "value": "\"FaceAuthenticator.FaceAuthSDK\""
     },

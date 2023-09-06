@@ -27,8 +27,10 @@ public struct FaceAuthenticatorData : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol FaceAuthSDKDelegate {
-  func didFinishFaceAuth(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
+  func didFinishSuccess(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
   func didFinishWithError(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
+  func didFinishWithCancell(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
+  func didFinishWithFail(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
   func startLoadingScrean()
   func stopLoadingScrean()
 }
