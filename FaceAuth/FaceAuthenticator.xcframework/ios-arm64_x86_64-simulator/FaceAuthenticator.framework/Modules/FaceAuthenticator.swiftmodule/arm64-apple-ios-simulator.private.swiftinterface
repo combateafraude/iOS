@@ -23,16 +23,28 @@ public struct FaceAuthenticatorResult {
   public var errorMessage: Swift.String?
   public var signedResponse: Swift.String?
 }
+public struct FaceAuthenticatorErrorResult {
+  public let errorType: FaceLiveness.ErrorType?
+  public let code: Swift.Int?
+  public let description: Swift.String?
+}
+public struct FaceAuthenticatorFailResult {
+  public let errorType: FaceLiveness.FailType?
+  public let code: Swift.Int?
+  public let description: Swift.String?
+}
 public struct FaceAuthenticatorData : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol FaceAuthSDKDelegate {
   func didFinishSuccess(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
-  func didFinishWithError(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
+  func didFinishWithError(with faceAuthenticatorErrorResult: FaceAuthenticator.FaceAuthenticatorErrorResult)
   func didFinishWithCancell(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
-  func didFinishWithFail(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
-  func startLoadingScrean()
-  func stopLoadingScrean()
+  func didFinishWithFail(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorFailResult)
+  func openLoadingScreenStartSDK()
+  func closeLoadingScreenStartSDK()
+  func openLoadingScreenValidation()
+  func closeLoadingScreenValidation()
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
   public var token: Swift.String
