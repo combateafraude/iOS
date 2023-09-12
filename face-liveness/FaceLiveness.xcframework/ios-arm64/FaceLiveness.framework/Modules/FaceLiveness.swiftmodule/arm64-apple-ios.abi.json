@@ -3632,126 +3632,112 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1596,
-      "length": 2,
-      "value": "01"
-    },
-    {
-      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1629,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4852,
+      "offset": 4445,
       "length": 3,
       "value": "001"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4882,
+      "offset": 4475,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5440,
+      "offset": 5033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5985,
+      "offset": 5578,
       "length": 2,
       "value": "05"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6357,
+      "offset": 5950,
       "length": 2,
       "value": "06"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6731,
+      "offset": 6324,
       "length": 2,
       "value": "07"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7108,
+      "offset": 6701,
       "length": 2,
       "value": "08"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7496,
+      "offset": 7089,
       "length": 2,
       "value": "09"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7861,
+      "offset": 7454,
       "length": 2,
       "value": "09"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7953,
+      "offset": 7546,
       "length": 12,
       "value": "\"FatalError\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8828,
+      "offset": 8421,
       "length": 2,
       "value": "03"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8841,
+      "offset": 8434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 9070,
+      "offset": 8663,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 9221,
+      "offset": 8814,
       "length": 2,
       "value": "02"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9234,
+      "offset": 8827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9563,
+      "offset": 9156,
       "length": 4,
       "value": "true"
     },
@@ -3899,55 +3885,55 @@
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
       "offset": 264,
-      "length": 67,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authorization-partner\""
+      "length": 68,
+      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/authorization-partner\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 371,
+      "offset": 372,
       "length": 63,
       "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authorization-partner\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 593,
       "length": 85,
       "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 717,
-      "length": 85,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true\""
+      "offset": 718,
+      "length": 86,
+      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 842,
+      "offset": 844,
       "length": 81,
       "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 1070,
+      "offset": 1072,
       "length": 67,
       "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 1177,
-      "length": 67,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
+      "offset": 1179,
+      "length": 68,
+      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 1284,
+      "offset": 1287,
       "length": 63,
       "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
     },
@@ -4024,35 +4010,35 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2373,
+      "offset": 2390,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 3156,
+      "offset": 3173,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 3723,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3737,
+      "offset": 3754,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3766,
+      "offset": 3783,
       "length": 2,
       "value": "\"\""
     },
