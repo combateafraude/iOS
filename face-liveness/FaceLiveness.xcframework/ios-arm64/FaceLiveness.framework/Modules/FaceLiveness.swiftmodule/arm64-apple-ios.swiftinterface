@@ -8,12 +8,47 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import iProov
+public enum ErrorType {
+  case getToken
+  case livenessError
+  case registerError
+  case cameraPermission
+  case captureAlreadyActive
+  case networkError
+  case serverError
+  case unexpectedError
+  public static func == (a: FaceLiveness.ErrorType, b: FaceLiveness.ErrorType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum FailType {
+  case unknown
+  public static func == (a: FaceLiveness.FailType, b: FaceLiveness.FailType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct FaceLivenessReport {
+}
 public struct FaceLivenessResult {
   public let isAlive: Swift.Bool
   public let token: Swift.String?
   public let errorMessage: Swift.String?
   public let imageUrl: Swift.String?
   public let signedResponse: Swift.String?
+}
+public struct FaceLivenessErrorResult {
+  public let errorType: FaceLiveness.ErrorType?
+  public let code: Swift.Int?
+  public let description: Swift.String?
+}
+public struct FaceLivenessFailResult {
+  public let failType: FaceLiveness.FailType?
+  public let code: Swift.Int?
+  public let description: Swift.String?
 }
 @objc public enum CAFStage : Swift.Int {
   case BETA, PROD, DEV
@@ -35,7 +70,7 @@ public enum StatusControll : Swift.Int {
   }
 }
 @_hasMissingDesignatedInitializers public class FaceLivenessSDKViewModel {
-  public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessResult, FaceLiveness.StatusControll) -> Swift.Void)
+  public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessReport, FaceLiveness.StatusControll) -> Swift.Void)
   @objc deinit
 }
 public enum Filter : Swift.Int {
@@ -48,11 +83,13 @@ public enum Filter : Swift.Int {
 }
 public protocol FaceLivenessDelegate {
   func didFinishLiveness(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
-  func didFinishWithFail(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  func didFinishWithFail(with faceLivenessFailResult: FaceLiveness.FaceLivenessFailResult)
   func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
-  func didFinishWithError(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
-  func openLoadingScrean()
-  func closeLoadingScrean()
+  func didFinishWithError(with faceLivenessErrorResult: FaceLiveness.FaceLivenessErrorResult)
+  func openLoadingScreenStartSDK()
+  func closeLoadingScreenStartSDK()
+  func openLoadingScreenValidation()
+  func closeLoadingScreenValidation()
 }
 @objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
   public static let SDK_NAME: Swift.String
@@ -75,6 +112,10 @@ public protocol FaceLivenessDelegate {
   }
   @objc deinit
 }
+extension FaceLiveness.ErrorType : Swift.Equatable {}
+extension FaceLiveness.ErrorType : Swift.Hashable {}
+extension FaceLiveness.FailType : Swift.Equatable {}
+extension FaceLiveness.FailType : Swift.Hashable {}
 extension FaceLiveness.CAFStage : Swift.Equatable {}
 extension FaceLiveness.CAFStage : Swift.Hashable {}
 extension FaceLiveness.CAFStage : Swift.RawRepresentable {}
