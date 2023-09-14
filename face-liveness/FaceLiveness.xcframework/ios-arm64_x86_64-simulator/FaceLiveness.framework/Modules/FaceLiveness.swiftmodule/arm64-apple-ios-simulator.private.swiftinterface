@@ -98,6 +98,7 @@ public protocol FaceLivenessDelegate {
   public var stage: FaceLiveness.CAFStage
   public var sdkVersion: Swift.String
   public var filter: FaceLiveness.Filter
+  public var withLoading: Swift.Bool
   public var delegate: (any FaceLiveness.FaceLivenessDelegate)?
   open func startSDK(viewController: UIKit.UIViewController)
   @_inheritsConvenienceInitializers @objc open class Build : ObjectiveC.NSObject {
@@ -107,6 +108,7 @@ public protocol FaceLivenessDelegate {
     open func setStage(stage: FaceLiveness.CAFStage) -> FaceLiveness.FaceLivenessSDK.Build
     open func setFilter(filter: FaceLiveness.Filter) -> FaceLiveness.FaceLivenessSDK.Build
     open func setCredentials(mobileToken: Swift.String, personId: Swift.String) -> FaceLiveness.FaceLivenessSDK.Build
+    open func setLoadingScreen(withLoading: Swift.Bool) -> FaceLiveness.FaceLivenessSDK.Build
     open func build() -> FaceLiveness.FaceLivenessSDK
     @objc deinit
   }
