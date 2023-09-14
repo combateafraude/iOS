@@ -15,6 +15,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ErrorType",
         "printedName": "ErrorType",
@@ -2874,6 +2891,91 @@
           },
           {
             "kind": "Var",
+            "name": "withLoading",
+            "printedName": "withLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB3SDKC11withLoadingSbvp",
+            "mangledName": "$s12FaceLiveness0aB3SDKC11withLoadingSbvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB3SDKC11withLoadingSbvg",
+                "mangledName": "$s12FaceLiveness0aB3SDKC11withLoadingSbvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB3SDKC11withLoadingSbvs",
+                "mangledName": "$s12FaceLiveness0aB3SDKC11withLoadingSbvs",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB3SDKC11withLoadingSbvM",
+                "mangledName": "$s12FaceLiveness0aB3SDKC11withLoadingSbvM",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "delegate",
             "printedName": "delegate",
             "children": [
@@ -3302,6 +3404,34 @@
               },
               {
                 "kind": "Function",
+                "name": "setLoadingScreen",
+                "printedName": "setLoadingScreen(withLoading:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Build",
+                    "printedName": "FaceLiveness.FaceLivenessSDK.Build",
+                    "usr": "s:12FaceLiveness0aB3SDKC5BuildC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12FaceLiveness0aB3SDKC5BuildC16setLoadingScreen04withF0AESb_tF",
+                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC16setLoadingScreen04withF0AESb_tF",
+                "moduleName": "FaceLiveness",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "build",
                 "printedName": "build()",
                 "children": [
@@ -3497,6 +3627,48 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
+      "kind": "FloatLiteral",
+      "offset": 603,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
+      "kind": "BooleanLiteral",
+      "offset": 792,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
+      "kind": "BooleanLiteral",
+      "offset": 846,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 14,
+      "value": "\"FaceLiveness.LoadingHUDView\""
+    },
+    {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/CAFStage.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
@@ -3625,119 +3797,119 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1113,
+      "offset": 1133,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4445,
+      "offset": 4465,
       "length": 3,
       "value": "001"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4475,
+      "offset": 4495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5033,
+      "offset": 5053,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5578,
+      "offset": 5598,
       "length": 2,
       "value": "05"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5950,
+      "offset": 5970,
       "length": 2,
       "value": "06"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6324,
+      "offset": 6344,
       "length": 2,
       "value": "07"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6701,
+      "offset": 6721,
       "length": 2,
       "value": "08"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7089,
+      "offset": 7109,
       "length": 2,
       "value": "09"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7454,
+      "offset": 7474,
       "length": 2,
       "value": "09"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 7546,
+      "offset": 7566,
       "length": 12,
       "value": "\"FatalError\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8421,
+      "offset": 8441,
       "length": 2,
       "value": "03"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8434,
+      "offset": 8454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8663,
+      "offset": 8683,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8814,
+      "offset": 8834,
       "length": 2,
       "value": "02"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8827,
+      "offset": 8847,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9156,
+      "offset": 9176,
       "length": 4,
       "value": "true"
     },
@@ -4010,35 +4182,42 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2390,
+      "offset": 2637,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 3173,
+      "offset": 3420,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3723,
+      "offset": 4009,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4043,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3754,
+      "offset": 4072,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3783,
+      "offset": 4101,
       "length": 2,
       "value": "\"\""
     },
