@@ -32,6 +32,7 @@ public struct FaceAuthenticatorFailResult {
   public let errorType: FaceLiveness.FailType?
   public let code: Swift.Int?
   public let description: Swift.String?
+  public let signedResponse: Swift.String?
 }
 public struct FaceAuthenticatorData : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
