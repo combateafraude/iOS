@@ -49,6 +49,7 @@ public struct FaceLivenessFailResult {
   public let failType: FaceLiveness.FailType?
   public let code: Swift.Int?
   public let description: Swift.String?
+  public let signedResponse: Swift.String?
 }
 @objc public enum CAFStage : Swift.Int {
   case BETA, PROD, DEV
