@@ -36963,8 +36963,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "requestID",
-            "printedName": "requestID",
+            "name": "requestId",
+            "printedName": "requestId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -36974,8 +36974,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity14PolicyResponseV9requestIDSSvp",
-            "mangledName": "$s8Identity14PolicyResponseV9requestIDSSvp",
+            "usr": "s:8Identity14PolicyResponseV9requestIdSSvp",
+            "mangledName": "$s8Identity14PolicyResponseV9requestIdSSvp",
             "moduleName": "Identity",
             "declAttributes": [
               "HasStorage"
@@ -36996,8 +36996,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity14PolicyResponseV9requestIDSSvg",
-                "mangledName": "$s8Identity14PolicyResponseV9requestIDSSvg",
+                "usr": "s:8Identity14PolicyResponseV9requestIdSSvg",
+                "mangledName": "$s8Identity14PolicyResponseV9requestIdSSvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -37023,8 +37023,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity14PolicyResponseV9requestIDSSvs",
-                "mangledName": "$s8Identity14PolicyResponseV9requestIDSSvs",
+                "usr": "s:8Identity14PolicyResponseV9requestIdSSvs",
+                "mangledName": "$s8Identity14PolicyResponseV9requestIdSSvs",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -37044,8 +37044,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity14PolicyResponseV9requestIDSSvM",
-                "mangledName": "$s8Identity14PolicyResponseV9requestIDSSvM",
+                "usr": "s:8Identity14PolicyResponseV9requestIdSSvM",
+                "mangledName": "$s8Identity14PolicyResponseV9requestIdSSvM",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -37156,8 +37156,8 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "requestID",
-                "printedName": "requestID",
+                "name": "requestId",
+                "printedName": "requestId",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -37187,8 +37187,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8Identity14PolicyResponseV10CodingKeysO9requestIDyA2EmF",
-                "mangledName": "$s8Identity14PolicyResponseV10CodingKeysO9requestIDyA2EmF",
+                "usr": "s:8Identity14PolicyResponseV10CodingKeysO9requestIdyA2EmF",
+                "mangledName": "$s8Identity14PolicyResponseV10CodingKeysO9requestIdyA2EmF",
                 "moduleName": "Identity",
                 "fixedbinaryorder": 0
               },
@@ -37539,7 +37539,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(requestID:policy:)",
+            "printedName": "init(requestId:policy:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -37561,8 +37561,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8Identity14PolicyResponseV9requestID6policyACSS_AA0B0Vtcfc",
-            "mangledName": "$s8Identity14PolicyResponseV9requestID6policyACSS_AA0B0Vtcfc",
+            "usr": "s:8Identity14PolicyResponseV9requestId6policyACSS_AA0B0Vtcfc",
+            "mangledName": "$s8Identity14PolicyResponseV9requestId6policyACSS_AA0B0Vtcfc",
             "moduleName": "Identity",
             "implicit": true,
             "init_kind": "Designated"
@@ -37654,8 +37654,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "requestID",
-            "printedName": "requestID",
+            "name": "requestId",
+            "printedName": "requestId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -37665,8 +37665,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity20SimplePolicyResponseV9requestIDSSvp",
-            "mangledName": "$s8Identity20SimplePolicyResponseV9requestIDSSvp",
+            "usr": "s:8Identity20SimplePolicyResponseV9requestIdSSvp",
+            "mangledName": "$s8Identity20SimplePolicyResponseV9requestIdSSvp",
             "moduleName": "Identity",
             "declAttributes": [
               "HasStorage"
@@ -37687,8 +37687,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity20SimplePolicyResponseV9requestIDSSvg",
-                "mangledName": "$s8Identity20SimplePolicyResponseV9requestIDSSvg",
+                "usr": "s:8Identity20SimplePolicyResponseV9requestIdSSvg",
+                "mangledName": "$s8Identity20SimplePolicyResponseV9requestIdSSvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -37714,8 +37714,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity20SimplePolicyResponseV9requestIDSSvs",
-                "mangledName": "$s8Identity20SimplePolicyResponseV9requestIDSSvs",
+                "usr": "s:8Identity20SimplePolicyResponseV9requestIdSSvs",
+                "mangledName": "$s8Identity20SimplePolicyResponseV9requestIdSSvs",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -37735,8 +37735,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity20SimplePolicyResponseV9requestIDSSvM",
-                "mangledName": "$s8Identity20SimplePolicyResponseV9requestIDSSvM",
+                "usr": "s:8Identity20SimplePolicyResponseV9requestIdSSvM",
+                "mangledName": "$s8Identity20SimplePolicyResponseV9requestIdSSvM",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -37847,8 +37847,8 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "requestID",
-                "printedName": "requestID",
+                "name": "requestId",
+                "printedName": "requestId",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -37878,8 +37878,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8Identity20SimplePolicyResponseV10CodingKeysO9requestIDyA2EmF",
-                "mangledName": "$s8Identity20SimplePolicyResponseV10CodingKeysO9requestIDyA2EmF",
+                "usr": "s:8Identity20SimplePolicyResponseV10CodingKeysO9requestIdyA2EmF",
+                "mangledName": "$s8Identity20SimplePolicyResponseV10CodingKeysO9requestIdyA2EmF",
                 "moduleName": "Identity",
                 "fixedbinaryorder": 0
               },
@@ -38230,7 +38230,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(requestID:policy:)",
+            "printedName": "init(requestId:policy:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -38252,8 +38252,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8Identity20SimplePolicyResponseV9requestID6policyACSS_AA0bC0Vtcfc",
-            "mangledName": "$s8Identity20SimplePolicyResponseV9requestID6policyACSS_AA0bC0Vtcfc",
+            "usr": "s:8Identity20SimplePolicyResponseV9requestId6policyACSS_AA0bC0Vtcfc",
+            "mangledName": "$s8Identity20SimplePolicyResponseV9requestId6policyACSS_AA0bC0Vtcfc",
             "moduleName": "Identity",
             "implicit": true,
             "init_kind": "Designated"
@@ -40395,8 +40395,8 @@
               },
               {
                 "kind": "Var",
-                "name": "trigger",
-                "printedName": "trigger",
+                "name": "options",
+                "printedName": "options",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -40426,48 +40426,10 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8Identity6PolicyV10CodingKeysO7triggeryA2EmF",
-                "mangledName": "$s8Identity6PolicyV10CodingKeysO7triggeryA2EmF",
+                "usr": "s:8Identity6PolicyV10CodingKeysO7optionsyA2EmF",
+                "mangledName": "$s8Identity6PolicyV10CodingKeysO7optionsyA2EmF",
                 "moduleName": "Identity",
                 "fixedbinaryorder": 5
-              },
-              {
-                "kind": "Var",
-                "name": "reauthenticationMethods",
-                "printedName": "reauthenticationMethods",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Identity.Policy.CodingKeys.Type) -> Identity.Policy.CodingKeys",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CodingKeys",
-                        "printedName": "Identity.Policy.CodingKeys",
-                        "usr": "s:8Identity6PolicyV10CodingKeysO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Identity.Policy.CodingKeys.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CodingKeys",
-                            "printedName": "Identity.Policy.CodingKeys",
-                            "usr": "s:8Identity6PolicyV10CodingKeysO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:8Identity6PolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
-                "mangledName": "$s8Identity6PolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
-                "moduleName": "Identity",
-                "fixedbinaryorder": 6
               },
               {
                 "kind": "Var",
@@ -40505,12 +40467,12 @@
                 "usr": "s:8Identity6PolicyV10CodingKeysO8policyIdyA2EmF",
                 "mangledName": "$s8Identity6PolicyV10CodingKeysO8policyIdyA2EmF",
                 "moduleName": "Identity",
-                "fixedbinaryorder": 7
+                "fixedbinaryorder": 6
               },
               {
                 "kind": "Var",
-                "name": "options",
-                "printedName": "options",
+                "name": "trigger",
+                "printedName": "trigger",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -40540,8 +40502,46 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8Identity6PolicyV10CodingKeysO7optionsyA2EmF",
-                "mangledName": "$s8Identity6PolicyV10CodingKeysO7optionsyA2EmF",
+                "usr": "s:8Identity6PolicyV10CodingKeysO7triggeryA2EmF",
+                "mangledName": "$s8Identity6PolicyV10CodingKeysO7triggeryA2EmF",
+                "moduleName": "Identity",
+                "fixedbinaryorder": 7
+              },
+              {
+                "kind": "Var",
+                "name": "reauthenticationMethods",
+                "printedName": "reauthenticationMethods",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Identity.Policy.CodingKeys.Type) -> Identity.Policy.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "Identity.Policy.CodingKeys",
+                        "usr": "s:8Identity6PolicyV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Identity.Policy.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "Identity.Policy.CodingKeys",
+                            "usr": "s:8Identity6PolicyV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8Identity6PolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
+                "mangledName": "$s8Identity6PolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
                 "moduleName": "Identity",
                 "fixedbinaryorder": 8
               },
@@ -42152,8 +42152,8 @@
               },
               {
                 "kind": "Var",
-                "name": "trigger",
-                "printedName": "trigger",
+                "name": "options",
+                "printedName": "options",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -42183,48 +42183,10 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8Identity12SimplePolicyV10CodingKeysO7triggeryA2EmF",
-                "mangledName": "$s8Identity12SimplePolicyV10CodingKeysO7triggeryA2EmF",
+                "usr": "s:8Identity12SimplePolicyV10CodingKeysO7optionsyA2EmF",
+                "mangledName": "$s8Identity12SimplePolicyV10CodingKeysO7optionsyA2EmF",
                 "moduleName": "Identity",
                 "fixedbinaryorder": 5
-              },
-              {
-                "kind": "Var",
-                "name": "reauthenticationMethods",
-                "printedName": "reauthenticationMethods",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Identity.SimplePolicy.CodingKeys.Type) -> Identity.SimplePolicy.CodingKeys",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CodingKeys",
-                        "printedName": "Identity.SimplePolicy.CodingKeys",
-                        "usr": "s:8Identity12SimplePolicyV10CodingKeysO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Identity.SimplePolicy.CodingKeys.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "CodingKeys",
-                            "printedName": "Identity.SimplePolicy.CodingKeys",
-                            "usr": "s:8Identity12SimplePolicyV10CodingKeysO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:8Identity12SimplePolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
-                "mangledName": "$s8Identity12SimplePolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
-                "moduleName": "Identity",
-                "fixedbinaryorder": 6
               },
               {
                 "kind": "Var",
@@ -42262,12 +42224,12 @@
                 "usr": "s:8Identity12SimplePolicyV10CodingKeysO8policyIdyA2EmF",
                 "mangledName": "$s8Identity12SimplePolicyV10CodingKeysO8policyIdyA2EmF",
                 "moduleName": "Identity",
-                "fixedbinaryorder": 7
+                "fixedbinaryorder": 6
               },
               {
                 "kind": "Var",
-                "name": "options",
-                "printedName": "options",
+                "name": "trigger",
+                "printedName": "trigger",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -42297,8 +42259,46 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8Identity12SimplePolicyV10CodingKeysO7optionsyA2EmF",
-                "mangledName": "$s8Identity12SimplePolicyV10CodingKeysO7optionsyA2EmF",
+                "usr": "s:8Identity12SimplePolicyV10CodingKeysO7triggeryA2EmF",
+                "mangledName": "$s8Identity12SimplePolicyV10CodingKeysO7triggeryA2EmF",
+                "moduleName": "Identity",
+                "fixedbinaryorder": 7
+              },
+              {
+                "kind": "Var",
+                "name": "reauthenticationMethods",
+                "printedName": "reauthenticationMethods",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Identity.SimplePolicy.CodingKeys.Type) -> Identity.SimplePolicy.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "Identity.SimplePolicy.CodingKeys",
+                        "usr": "s:8Identity12SimplePolicyV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Identity.SimplePolicy.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "Identity.SimplePolicy.CodingKeys",
+                            "usr": "s:8Identity12SimplePolicyV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8Identity12SimplePolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
+                "mangledName": "$s8Identity12SimplePolicyV10CodingKeysO23reauthenticationMethodsyA2EmF",
                 "moduleName": "Identity",
                 "fixedbinaryorder": 8
               },
@@ -67427,6 +67427,13 @@
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/PolicyResponse.swift",
       "kind": "StringLiteral",
+      "offset": 360,
+      "length": 8,
+      "value": "\"policy\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/PolicyResponse.swift",
+      "kind": "StringLiteral",
       "offset": 326,
       "length": 11,
       "value": "\"requestId\""
@@ -67434,16 +67441,37 @@
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/PolicyResponse.swift",
       "kind": "StringLiteral",
-      "offset": 527,
+      "offset": 360,
+      "length": 8,
+      "value": "\"policy\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/PolicyResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
       "length": 11,
       "value": "\"requestId\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/PolicyResponse.swift",
       "kind": "StringLiteral",
-      "offset": 527,
+      "offset": 572,
+      "length": 8,
+      "value": "\"policy\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/PolicyResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
       "length": 11,
       "value": "\"requestId\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/PolicyResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 8,
+      "value": "\"policy\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/FaceAuthenticator\/Controller\/Server\/Model\/Response\/FAImageUploadResponse.swift",
@@ -67492,28 +67520,28 @@
       "kind": "StringLiteral",
       "offset": 666,
       "length": 9,
-      "value": "\"trigger\""
+      "value": "\"options\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 715,
-      "length": 25,
-      "value": "\"reauthenticationMethods\""
-    },
-    {
-      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 700,
       "length": 10,
       "value": "\"policyId\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 734,
       "length": 9,
-      "value": "\"options\""
+      "value": "\"trigger\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 25,
+      "value": "\"reauthenticationMethods\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
@@ -67555,28 +67583,28 @@
       "kind": "StringLiteral",
       "offset": 666,
       "length": 9,
-      "value": "\"trigger\""
+      "value": "\"options\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 715,
-      "length": 25,
-      "value": "\"reauthenticationMethods\""
-    },
-    {
-      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 700,
       "length": 10,
       "value": "\"policyId\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 734,
       "length": 9,
-      "value": "\"options\""
+      "value": "\"trigger\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 25,
+      "value": "\"reauthenticationMethods\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
@@ -67618,28 +67646,28 @@
       "kind": "StringLiteral",
       "offset": 1319,
       "length": 9,
-      "value": "\"trigger\""
+      "value": "\"options\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
-      "length": 25,
-      "value": "\"reauthenticationMethods\""
-    },
-    {
-      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1353,
       "length": 10,
       "value": "\"policyId\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1387,
       "length": 9,
-      "value": "\"options\""
+      "value": "\"trigger\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 25,
+      "value": "\"reauthenticationMethods\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
@@ -67681,28 +67709,28 @@
       "kind": "StringLiteral",
       "offset": 1319,
       "length": 9,
-      "value": "\"trigger\""
+      "value": "\"options\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
-      "length": 25,
-      "value": "\"reauthenticationMethods\""
-    },
-    {
-      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1353,
       "length": 10,
       "value": "\"policyId\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1387,
       "length": 9,
-      "value": "\"options\""
+      "value": "\"trigger\""
+    },
+    {
+      "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Models\/Policy\/Policy.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 25,
+      "value": "\"reauthenticationMethods\""
     },
     {
       "filePath": "\/Users\/murilo.fank\/Documents\/GitHub\/new-identity-ios-sdk\/Identity\/Identity\/FaceAuthenticator\/FaceAuthenticatorController.swift",
