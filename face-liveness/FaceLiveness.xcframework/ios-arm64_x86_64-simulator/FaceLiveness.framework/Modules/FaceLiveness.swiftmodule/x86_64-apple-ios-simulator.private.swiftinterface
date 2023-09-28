@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLiveness
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLiveness
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
+import Starscream
 import Swift
 import UIKit
 import _Concurrency
@@ -34,10 +35,6 @@ public enum FailType {
 public struct FaceLivenessReport {
 }
 public struct FaceLivenessResult {
-  public let isAlive: Swift.Bool
-  public let token: Swift.String?
-  public let errorMessage: Swift.String?
-  public let imageUrl: Swift.String?
   public let signedResponse: Swift.String?
 }
 public struct FaceLivenessErrorResult {
