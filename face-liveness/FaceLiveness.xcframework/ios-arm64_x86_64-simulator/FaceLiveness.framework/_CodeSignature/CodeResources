@@ -4,53 +4,228 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Starscream.framework/Info.plist</key>
+		<data>
+		gHTXlQa8vWfaCKONzV+WoF5AVDY=
+		</data>
+		<key>Frameworks/Starscream.framework/Starscream</key>
+		<data>
+		BJoC4cH8OAE0bN3j0wgQCZyWSnE=
+		</data>
+		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
+		<data>
+		R2vXWHVLC+P6z7msmpl1c/DV6Z8=
+		</data>
+		<key>Frameworks/iProov.framework/Assets.car</key>
+		<data>
+		Ss31678kFbbr3Vb1Wco1fyLZ6ns=
+		</data>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vymfauKA3cBec9L8kawnqQqKoz8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/IProovViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X2UsUGq3891IxkRZXzCDkPhhP2U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/V/Tcz19DU0bRKeYdA5am54dx84=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/PausedOverlayViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y66UOTdBSWv10wHdDGhHeJWninQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/dyV-2X-wmS-view-kYa-1S-rr9.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cz94STG+AMq8FlJK37t8CoyKbvY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Info.plist</key>
+		<data>
+		sD56BjnQxygiE88/zKILG93TU1A=
+		</data>
+		<key>Frameworks/iProov.framework/_CodeSignature/CodeResources</key>
+		<data>
+		zca9sy5ICtFOZ3uVe2nYATntf3w=
+		</data>
+		<key>Frameworks/iProov.framework/cy-GB.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P1B8lyPH1xCV6qdd4xqiYMs8nU4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DsbBzHXgUfq77UVDGJukjeC6aaI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z1a/d+vrQuQU44GSDMP6xtjYcUM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/es-CO.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l/TyybD9Euv6RYeaw+10cWWfTbI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zpSwqfi8WefVQkK1whs8KugF4Vg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vlnYho5Q4esM4r21qVRt+tfniG4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/iProov</key>
+		<data>
+		RmQk0+Xg32M6iKVPZqp8BoHqzc4=
+		</data>
+		<key>Frameworks/iProov.framework/iProov.plist</key>
+		<data>
+		OArIRQG7dcUf3e75zWD24O2CnLA=
+		</data>
+		<key>Frameworks/iProov.framework/iproov.der</key>
+		<data>
+		TCdDFxdWWjoH8+bQAyxCWJSc+ew=
+		</data>
+		<key>Frameworks/iProov.framework/iproov__certificate_intermediate.der</key>
+		<data>
+		00FiYnJ/4YLgmWx5Ow+kRnbGVBo=
+		</data>
+		<key>Frameworks/iProov.framework/it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tIY+fnxi5JOyjzBH6vO3ZFLhAJ0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vls/puBdoqnfm7BhuJzyb+sbtSc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5ybvdrfWDpc5ol2sCufu6lGmznw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/pt.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nv8cAv8EVolKOAgglOhRAWZzyIk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/FaceLiveness-Swift.h</key>
 		<data>
 		zkypfqZjrUHeM3G3r7tloHLq5wQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h0mj3i/IC2Zyskhf7Qc1hqfB+G0=
+		hA1neqpvFXvNFf71UeH9XvSEuVQ=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eFzuBoNVC5pCib/3uWkZv72QBUI=
+		jLjK+kMyodKECRLk/Lp3kIySxy8=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YQvKRwut9uk8wMtG+L+n82PvjxE=
+		YMQr3b8lYhvy3yHJOtDyGT/OcW0=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0Hf/SZfjG+oKGQcs4derO3iXOyo=
+		FZysM8zSy1nRZUbGvmS8DR/vk6Y=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YQvKRwut9uk8wMtG+L+n82PvjxE=
+		YMQr3b8lYhvy3yHJOtDyGT/OcW0=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N0w/uXHxLMPAZ2XCvk1vYzH3hpk=
+		jxgjnj5foCVE3QZYRpZzEJcSiLs=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eFzuBoNVC5pCib/3uWkZv72QBUI=
+		jLjK+kMyodKECRLk/Lp3kIySxy8=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DRCKcxLXvduvd5+t837cr5kdjsc=
+		ckG/yYknK4DQkZ0QRPUxqUknwo4=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WLfAOJg44c8GstYEdavvYcXe9Uc=
+		N2iK07RhNTP/qTPlX6EjKB8YZFw=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DRCKcxLXvduvd5+t837cr5kdjsc=
+		ckG/yYknK4DQkZ0QRPUxqUknwo4=
 		</data>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dZFRBPx3KjGqBU8J01YB1lEKiiM=
+		RGeu0gqimw31qNuiUAV+c2UN4l4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +234,211 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Starscream.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nWKx4V3lgNIN7/1+I+7FM06pramhUid6IKE25MQXrlk=
+			</data>
+		</dict>
+		<key>Frameworks/Starscream.framework/Starscream</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r9awh6oXO1l10pM9THfhq+9MYkcGI4z+H8Y4tljujKA=
+			</data>
+		</dict>
+		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PsZgOiIrxUH7kdXt06Ugoo7N6vxKMxFXBslqpRkdG+A=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fYF8QFXy+PIVAn2E/HAq3UYh+8sxdDNkT+VI3BezBdo=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IWaCA3NfEK8qHuON4JL3StIurPLUCSs50aGJ5ns8lKY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/IProovViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LUZ8u8IuWV59HRK9aFm9z0aWmp1KKke7WJLesZg1RT0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V8+HITon5M52x1nVAguXEwYpDBDVQodWuFighoQjABg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/PausedOverlayViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X3LP/D/ufExsi9XelqI9LCCbuM1zGuHnbnoaHR1tIGs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Base.lproj/Main.storyboardc/dyV-2X-wmS-view-kYa-1S-rr9.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RvzydXutbCuK6W2lzzAkB5vr9pjonG6dIRXiJNuvn1U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MZfWj/eZqd5FT4i1/Ynz52sLFvinHSWshiMf27tOOaU=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			danbTgmMgBpXdIM9f12ojfHbf7AreK7QR4wjrhz6044=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/cy-GB.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sbvpDO4+tTktG/2j7gFG5tip7sfqykgiyTk49Cmj4w0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tq8l+j9h9PsEsoQfzyKx1zScxEWsamf9s2v7HylWJlQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yqJXrOobaLW1SoJ2FyYVc15mCBHeUL3zy+tUx+iZijg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/es-CO.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oFUFMTYoqcHGDgde7q6PntBzB2Rc3S4ujHOEk9MuNjY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S+wdB51TYZ/fKpAO+yRa3ZAuQVMx9uZxeenY9rzbVw0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2M9UW8W4/mx42DIFsBEbV/dZYVjEahAuc1cfSW4Uk9M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/iProov</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VD1m+XZrTVoAXCqEE8miafpQsaIDYAxR52T1M4T9y9o=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/iProov.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kJBkDhB3gYnB3aBoyN2MRfo2wvjBqKPfMkrr5IRLNwU=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/iproov.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7nk2QxmUdO1g79yMzeTTdEWSFoNZOqdRu/juSRo5Hpc=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/iproov__certificate_intermediate.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fE6QIHsrfK7AgEJsxGmQjLJ7kl7jscmZwiuFaIEv2ow=
+			</data>
+		</dict>
+		<key>Frameworks/iProov.framework/it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ybCFrrWh5YLWd+oHIm7h38qNCNEWvaE7Y5MS5NJiSAo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/nl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xl+hbRpTK+pDQVkwH9Kt12hem1ET53PoRE35MTBpgY4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jnizKyC//Nt2imHovSBlCbvGrqOwd7idzVmUVnEWGOo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/iProov.framework/pt.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+i+4SvjXZZ5lNk+Gx6nWtQd1OKZG280t1KdYMm3dA5o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/FaceLiveness-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -70,70 +450,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivyMLRWf+tuLCxthQRJwQIg/pw+RlU8uVvpCfkYX3QA=
+			+GUHZBkOlqVDKRhN74zfk/LdRP1ZEYpJBifOWqtEJ+c=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uQr0ULEm0HCns+mMP6gPMAUxaSTBjefvd+W2zRsk6Ig=
+			seh3kT08GzRksZrcYWjF8nVaub9IR3vSjiikZnX3xVU=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pOOJpGfr78HseQE43xgVdqsJmgqTzocOo8Rew0wL8bU=
+			B23vl6bmzRqVQ7Yo1wWGRO8pIRVf7/aFwnX19b+MVAM=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uQr0ULEm0HCns+mMP6gPMAUxaSTBjefvd+W2zRsk6Ig=
+			seh3kT08GzRksZrcYWjF8nVaub9IR3vSjiikZnX3xVU=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6zJKae3GH7QOrZBcWGa8cLzSZBY8PWKFDEO9rbtLtOU=
+			2Hw4qwcq5IOFSzjM4zDST3Ld31uYQ2eVnCKlBco9v70=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivyMLRWf+tuLCxthQRJwQIg/pw+RlU8uVvpCfkYX3QA=
+			+GUHZBkOlqVDKRhN74zfk/LdRP1ZEYpJBifOWqtEJ+c=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iskQxWmiIDqFN+At+sZIi0spKlAp+t06BAidp4u9384=
+			gcUknWbE1QCdTLIn9PedquFruVSsmiY9ZPonVLBGy9w=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7TjuT9paNfnkTpH7u0H/qBlKDP9WVng1mhoI0mw5X7o=
+			I1g3Ziv9Ex37tvdS2L1SewJEMuC2zXC5POpod0XuzBQ=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iskQxWmiIDqFN+At+sZIi0spKlAp+t06BAidp4u9384=
+			gcUknWbE1QCdTLIn9PedquFruVSsmiY9ZPonVLBGy9w=
 			</data>
 		</dict>
 		<key>Modules/FaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TZ9hE7QfbeCQnRftC8Qk6eR8UJPkLVpVjLof8D7jdyM=
+			QpemU236YE/KX3L9Zj/f2fxITjjDbwRAPp3SUOf2P+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
