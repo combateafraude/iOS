@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetectorNoSentry'
-  s.version          = '8.0.3'
+  s.version          = '8.0.4'
   s.summary          = 'DocumentDetectorNoSentry'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector-nosentry/LICENSE' }
-  s.author           = { 'ti@combateafraude.com' => 'ti@combateafraude.com' }
+  s.author           = { 'services@caf.io' => 'services@caf.io' }
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
  
   
