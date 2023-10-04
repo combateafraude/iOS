@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IdentityNoSentry'
-  s.version          = '1.1.5'
+  s.version          = '1.1.6-rc01'
   s.summary          = 'IdentityNoSentry'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'identity-nosentry/LICENSE' }
