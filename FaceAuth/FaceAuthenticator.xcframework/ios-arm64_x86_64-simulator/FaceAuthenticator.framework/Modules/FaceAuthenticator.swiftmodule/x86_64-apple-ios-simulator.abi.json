@@ -3539,36 +3539,36 @@
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2420,
-      "length": 2,
-      "value": "01"
-    },
-    {
-      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2919,
+      "offset": 2900,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3780,
+      "length": 10,
+      "value": "\"Canceled\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5038,
+      "offset": 4998,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5237,
+      "offset": 5197,
       "length": 2,
       "value": "08"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5574,
+      "offset": 5515,
       "length": 2,
       "value": "01"
     },
