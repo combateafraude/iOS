@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Identity
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -11,14 +11,17 @@ import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
 import CoreLocation
 import CoreMotion
+import DeveloperToolsSupport
 import FingerprintPro
 import Foundation
 @_exported import Identity
 import Swift
+import SwiftUI
 import UIKit
 import Vision
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_hasMissingDesignatedInitializers open class FaceAuthenticatorSdk : ObjectiveC.NSObject, Swift.Encodable {
   public static let SDK_NAME: Swift.String
   public var peopleId: Swift.String!
