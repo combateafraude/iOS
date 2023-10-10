@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceLiveness'
-  s.version          = '3.1.4-alfa'
+  s.version          = '3.1.5-alfa'
   s.summary          = 'Face Liveness'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-liveness/LICENSE' }
@@ -22,3 +22,4 @@ Pod::Spec.new do |s|
 
   s.dependency 'iProov', '10.3.1'
 end
+c
