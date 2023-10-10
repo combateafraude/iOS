@@ -188,6 +188,7 @@ public enum IdentityError : Swift.Error {
   case StorageReason(Swift.String)
   case LibraryReason(Swift.String)
   case PolicyReason(Swift.String)
+  case GetLocationReason(Swift.String)
 }
 extension Identity.IdentityError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
