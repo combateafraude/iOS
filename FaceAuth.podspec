@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuth'
-  s.version          = '3.1.5'
+  s.version          = '3.1.6'
   s.summary          = 'FaceAuth'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'FaceAuth/LICENSE' }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
 
   s.swift_version = '5.3.1'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'FaceAuth/FaceAuthenticator.xcframework'
 
   s.dependency 'FaceLiveness', '3.1.4'
