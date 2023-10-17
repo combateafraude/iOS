@@ -18,6 +18,8 @@ public enum ErrorType {
   case networkError
   case serverError
   case unexpectedError
+  case userTimeout
+  case notSupported
   public static func == (a: FaceLiveness.ErrorType, b: FaceLiveness.ErrorType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
