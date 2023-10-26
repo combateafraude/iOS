@@ -38,6 +38,7 @@ public struct FaceLivenessReport {
 }
 public struct FaceLivenessResult {
   public let signedResponse: Swift.String?
+  public let token: Swift.String?
 }
 public struct FaceLivenessErrorResult {
   public let errorType: FaceLiveness.ErrorType?
