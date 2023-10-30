@@ -42,7 +42,7 @@ public typealias VerifyPolicyListener = (Identity.VerifyPolicyResult) -> Swift.V
 @objc @_hasMissingDesignatedInitializers open class IdentitySDK : ObjectiveC.NSObject {
   public static let SDK_NAME: Swift.String
   public var mobileToken: Swift.String
-  public var stage: Identity.IdentityStage
+  public var stage: FaceLiveness.CAFStage
   public var emailURL: Foundation.URL?
   public var phoneURL: Foundation.URL?
   public var livenessToken: Swift.String
@@ -53,8 +53,7 @@ extension Identity.IdentitySDK {
   public class Builder {
     public init(mobileToken: Swift.String, livenessToken: Swift.String)
     public func build() -> Identity.IdentitySDK
-    public func setFaceAuthenticatorSettings(livenessToken: Swift.String) -> Identity.IdentitySDK.Builder
-    public func setStage(_ newStage: Identity.IdentityStage) -> Identity.IdentitySDK.Builder
+    public func setStage(_ newStage: FaceLiveness.CAFStage) -> Identity.IdentitySDK.Builder
     public func setEmailURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
     public func setPhoneURL(_ url: Foundation.URL?) -> Identity.IdentitySDK.Builder
     @objc deinit
@@ -70,16 +69,6 @@ extension Identity.IdentitySDK {
   public var error: Swift.String
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-}
-public enum IdentityStage {
-  case DEV
-  case BETA
-  case PROD
-  public static func == (a: Identity.IdentityStage, b: Identity.IdentityStage) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 public enum IdentityError : Swift.Error {
   case PermissionReason(Swift.String)
@@ -158,8 +147,6 @@ public enum DeviceFlag : Swift.Int, Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-extension Identity.IdentityStage : Swift.Equatable {}
-extension Identity.IdentityStage : Swift.Hashable {}
 extension Identity.DeviceFlag : Swift.Equatable {}
 extension Identity.DeviceFlag : Swift.Hashable {}
 extension Identity.DeviceFlag : Swift.RawRepresentable {}

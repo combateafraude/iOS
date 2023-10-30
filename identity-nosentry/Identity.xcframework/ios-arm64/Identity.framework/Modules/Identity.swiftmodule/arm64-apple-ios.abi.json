@@ -11467,6 +11467,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "FaceLiveness",
+        "printedName": "FaceLiveness",
+        "declKind": "Import",
+        "moduleName": "Identity"
+      },
+      {
         "kind": "TypeDecl",
         "name": "IdentitySDK",
         "printedName": "IdentitySDK",
@@ -11619,14 +11626,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity0A3SDKC5stageAA0A5StageOvp",
-            "mangledName": "$s8Identity0A3SDKC5stageAA0A5StageOvp",
+            "usr": "s:8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvp",
+            "mangledName": "$s8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvp",
             "moduleName": "Identity",
             "isOpen": true,
             "declAttributes": [
@@ -11642,14 +11649,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity0A3SDKC5stageAA0A5StageOvg",
-                "mangledName": "$s8Identity0A3SDKC5stageAA0A5StageOvg",
+                "usr": "s:8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvg",
+                "mangledName": "$s8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "isOpen": true,
@@ -11667,14 +11674,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity0A3SDKC5stageAA0A5StageOvs",
-                "mangledName": "$s8Identity0A3SDKC5stageAA0A5StageOvs",
+                "usr": "s:8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvs",
+                "mangledName": "$s8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvs",
                 "moduleName": "Identity",
                 "implicit": true,
                 "isOpen": true,
@@ -11692,8 +11699,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity0A3SDKC5stageAA0A5StageOvM",
-                "mangledName": "$s8Identity0A3SDKC5stageAA0A5StageOvM",
+                "usr": "s:8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvM",
+                "mangledName": "$s8Identity0A3SDKC5stage12FaceLiveness8CAFStageOvM",
                 "moduleName": "Identity",
                 "implicit": true,
                 "isOpen": true,
@@ -12244,14 +12251,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:8Identity0A3SDKC7BuilderC5stageAA0A5StageOvp",
-                "mangledName": "$s8Identity0A3SDKC7BuilderC5stageAA0A5StageOvp",
+                "usr": "s:8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvp",
+                "mangledName": "$s8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvp",
                 "moduleName": "Identity",
                 "isOpen": true,
                 "declAttributes": [
@@ -12268,14 +12275,14 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "IdentityStage",
-                        "printedName": "Identity.IdentityStage",
-                        "usr": "s:8Identity0A5StageO"
+                        "name": "CAFStage",
+                        "printedName": "FaceLiveness.CAFStage",
+                        "usr": "c:@M@FaceLiveness@E@CAFStage"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8Identity0A3SDKC7BuilderC5stageAA0A5StageOvg",
-                    "mangledName": "$s8Identity0A3SDKC7BuilderC5stageAA0A5StageOvg",
+                    "usr": "s:8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvg",
+                    "mangledName": "$s8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvg",
                     "moduleName": "Identity",
                     "implicit": true,
                     "isOpen": true,
@@ -12293,14 +12300,14 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "IdentityStage",
-                        "printedName": "Identity.IdentityStage",
-                        "usr": "s:8Identity0A5StageO"
+                        "name": "CAFStage",
+                        "printedName": "FaceLiveness.CAFStage",
+                        "usr": "c:@M@FaceLiveness@E@CAFStage"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8Identity0A3SDKC7BuilderC5stageAA0A5StageOvs",
-                    "mangledName": "$s8Identity0A3SDKC7BuilderC5stageAA0A5StageOvs",
+                    "usr": "s:8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvs",
+                    "mangledName": "$s8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvs",
                     "moduleName": "Identity",
                     "implicit": true,
                     "isOpen": true,
@@ -12318,8 +12325,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8Identity0A3SDKC7BuilderC5stageAA0A5StageOvM",
-                    "mangledName": "$s8Identity0A3SDKC7BuilderC5stageAA0A5StageOvM",
+                    "usr": "s:8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvM",
+                    "mangledName": "$s8Identity0A3SDKC7BuilderC5stage12FaceLiveness8CAFStageOvM",
                     "moduleName": "Identity",
                     "implicit": true,
                     "isOpen": true,
@@ -12703,35 +12710,6 @@
               },
               {
                 "kind": "Function",
-                "name": "setFaceAuthenticatorSettings",
-                "printedName": "setFaceAuthenticatorSettings(livenessToken:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Builder",
-                    "printedName": "Identity.IdentitySDK.Builder",
-                    "usr": "s:8Identity0A3SDKC7BuilderC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:8Identity0A3SDKC7BuilderC28setFaceAuthenticatorSettings13livenessTokenAESS_tF",
-                "mangledName": "$s8Identity0A3SDKC7BuilderC28setFaceAuthenticatorSettings13livenessTokenAESS_tF",
-                "moduleName": "Identity",
-                "isOpen": true,
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
                 "name": "setStage",
                 "printedName": "setStage(_:)",
                 "children": [
@@ -12743,14 +12721,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:8Identity0A3SDKC7BuilderC8setStageyAeA0aE0OF",
-                "mangledName": "$s8Identity0A3SDKC7BuilderC8setStageyAeA0aE0OF",
+                "usr": "s:8Identity0A3SDKC7BuilderC8setStageyAE12FaceLiveness8CAFStageOF",
+                "mangledName": "$s8Identity0A3SDKC7BuilderC8setStageyAE12FaceLiveness8CAFStageOF",
                 "moduleName": "Identity",
                 "isOpen": true,
                 "declAttributes": [
@@ -15461,6 +15439,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "FaceLiveness",
+        "printedName": "FaceLiveness",
+        "declKind": "Import",
+        "moduleName": "Identity"
+      },
+      {
         "kind": "TypeDecl",
         "name": "HTTPMethod",
         "printedName": "HTTPMethod",
@@ -16115,14 +16100,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity11PolicyRouteV5stageAA0A5StageOvp",
-            "mangledName": "$s8Identity11PolicyRouteV5stageAA0A5StageOvp",
+            "usr": "s:8Identity11PolicyRouteV5stage12FaceLiveness8CAFStageOvp",
+            "mangledName": "$s8Identity11PolicyRouteV5stage12FaceLiveness8CAFStageOvp",
             "moduleName": "Identity",
             "declAttributes": [
               "HasStorage"
@@ -16138,14 +16123,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity11PolicyRouteV5stageAA0A5StageOvg",
-                "mangledName": "$s8Identity11PolicyRouteV5stageAA0A5StageOvg",
+                "usr": "s:8Identity11PolicyRouteV5stage12FaceLiveness8CAFStageOvg",
+                "mangledName": "$s8Identity11PolicyRouteV5stage12FaceLiveness8CAFStageOvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -16343,9 +16328,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               },
               {
                 "kind": "TypeNominal",
@@ -16355,8 +16340,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8Identity11PolicyRouteV5token5stage8policyIdACSS_AA0A5StageOSStcfc",
-            "mangledName": "$s8Identity11PolicyRouteV5token5stage8policyIdACSS_AA0A5StageOSStcfc",
+            "usr": "s:8Identity11PolicyRouteV5token5stage8policyIdACSS_12FaceLiveness8CAFStageOSStcfc",
+            "mangledName": "$s8Identity11PolicyRouteV5token5stage8policyIdACSS_12FaceLiveness8CAFStageOSStcfc",
             "moduleName": "Identity",
             "implicit": true,
             "init_kind": "Designated"
@@ -16373,6 +16358,13 @@
             "printedName": "APIRoute",
             "usr": "s:8Identity8APIRouteP",
             "mangledName": "$s8Identity8APIRouteP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -16435,14 +16427,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity18VerifyContextRouteV5stageAA0A5StageOvp",
-            "mangledName": "$s8Identity18VerifyContextRouteV5stageAA0A5StageOvp",
+            "usr": "s:8Identity18VerifyContextRouteV5stage12FaceLiveness8CAFStageOvp",
+            "mangledName": "$s8Identity18VerifyContextRouteV5stage12FaceLiveness8CAFStageOvp",
             "moduleName": "Identity",
             "declAttributes": [
               "HasStorage"
@@ -16458,14 +16450,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity18VerifyContextRouteV5stageAA0A5StageOvg",
-                "mangledName": "$s8Identity18VerifyContextRouteV5stageAA0A5StageOvg",
+                "usr": "s:8Identity18VerifyContextRouteV5stage12FaceLiveness8CAFStageOvg",
+                "mangledName": "$s8Identity18VerifyContextRouteV5stage12FaceLiveness8CAFStageOvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -16663,9 +16655,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               },
               {
                 "kind": "TypeNominal",
@@ -16675,8 +16667,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8Identity18VerifyContextRouteV5token5stage8peopleIdACSS_AA0A5StageOSStcfc",
-            "mangledName": "$s8Identity18VerifyContextRouteV5token5stage8peopleIdACSS_AA0A5StageOSStcfc",
+            "usr": "s:8Identity18VerifyContextRouteV5token5stage8peopleIdACSS_12FaceLiveness8CAFStageOSStcfc",
+            "mangledName": "$s8Identity18VerifyContextRouteV5token5stage8peopleIdACSS_12FaceLiveness8CAFStageOSStcfc",
             "moduleName": "Identity",
             "implicit": true,
             "init_kind": "Designated"
@@ -16693,6 +16685,13 @@
             "printedName": "APIRoute",
             "usr": "s:8Identity8APIRouteP",
             "mangledName": "$s8Identity8APIRouteP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -16708,14 +16707,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity15VerifyStepRouteV5stageAA0A5StageOvp",
-            "mangledName": "$s8Identity15VerifyStepRouteV5stageAA0A5StageOvp",
+            "usr": "s:8Identity15VerifyStepRouteV5stage12FaceLiveness8CAFStageOvp",
+            "mangledName": "$s8Identity15VerifyStepRouteV5stage12FaceLiveness8CAFStageOvp",
             "moduleName": "Identity",
             "declAttributes": [
               "HasStorage"
@@ -16731,14 +16730,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity15VerifyStepRouteV5stageAA0A5StageOvg",
-                "mangledName": "$s8Identity15VerifyStepRouteV5stageAA0A5StageOvg",
+                "usr": "s:8Identity15VerifyStepRouteV5stage12FaceLiveness8CAFStageOvg",
+                "mangledName": "$s8Identity15VerifyStepRouteV5stage12FaceLiveness8CAFStageOvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -17024,9 +17023,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               },
               {
                 "kind": "TypeNominal",
@@ -17048,8 +17047,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8Identity15VerifyStepRouteV5stage8peopleId07attemptG020authenticationMethodAcA0A5StageO_S3Stcfc",
-            "mangledName": "$s8Identity15VerifyStepRouteV5stage8peopleId07attemptG020authenticationMethodAcA0A5StageO_S3Stcfc",
+            "usr": "s:8Identity15VerifyStepRouteV5stage8peopleId07attemptG020authenticationMethodAC12FaceLiveness8CAFStageO_S3Stcfc",
+            "mangledName": "$s8Identity15VerifyStepRouteV5stage8peopleId07attemptG020authenticationMethodAC12FaceLiveness8CAFStageO_S3Stcfc",
             "moduleName": "Identity",
             "implicit": true,
             "init_kind": "Designated"
@@ -17066,6 +17065,13 @@
             "printedName": "APIRoute",
             "usr": "s:8Identity8APIRouteP",
             "mangledName": "$s8Identity8APIRouteP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -17081,14 +17087,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity23VerifyPolicyFinishRouteV5stageAA0A5StageOvp",
-            "mangledName": "$s8Identity23VerifyPolicyFinishRouteV5stageAA0A5StageOvp",
+            "usr": "s:8Identity23VerifyPolicyFinishRouteV5stage12FaceLiveness8CAFStageOvp",
+            "mangledName": "$s8Identity23VerifyPolicyFinishRouteV5stage12FaceLiveness8CAFStageOvp",
             "moduleName": "Identity",
             "declAttributes": [
               "HasStorage"
@@ -17104,14 +17110,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity23VerifyPolicyFinishRouteV5stageAA0A5StageOvg",
-                "mangledName": "$s8Identity23VerifyPolicyFinishRouteV5stageAA0A5StageOvg",
+                "usr": "s:8Identity23VerifyPolicyFinishRouteV5stage12FaceLiveness8CAFStageOvg",
+                "mangledName": "$s8Identity23VerifyPolicyFinishRouteV5stage12FaceLiveness8CAFStageOvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -17350,9 +17356,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               },
               {
                 "kind": "TypeNominal",
@@ -17368,8 +17374,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8Identity23VerifyPolicyFinishRouteV5stage8peopleId014authenticationH0AcA0A5StageO_S2Stcfc",
-            "mangledName": "$s8Identity23VerifyPolicyFinishRouteV5stage8peopleId014authenticationH0AcA0A5StageO_S2Stcfc",
+            "usr": "s:8Identity23VerifyPolicyFinishRouteV5stage8peopleId014authenticationH0AC12FaceLiveness8CAFStageO_S2Stcfc",
+            "mangledName": "$s8Identity23VerifyPolicyFinishRouteV5stage8peopleId014authenticationH0AC12FaceLiveness8CAFStageO_S2Stcfc",
             "moduleName": "Identity",
             "implicit": true,
             "init_kind": "Designated"
@@ -17386,6 +17392,13 @@
             "printedName": "APIRoute",
             "usr": "s:8Identity8APIRouteP",
             "mangledName": "$s8Identity8APIRouteP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -17401,14 +17414,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Identity27SendAuthenticationCodeRouteV5stageAA0A5StageOvp",
-            "mangledName": "$s8Identity27SendAuthenticationCodeRouteV5stageAA0A5StageOvp",
+            "usr": "s:8Identity27SendAuthenticationCodeRouteV5stage12FaceLiveness8CAFStageOvp",
+            "mangledName": "$s8Identity27SendAuthenticationCodeRouteV5stage12FaceLiveness8CAFStageOvp",
             "moduleName": "Identity",
             "declAttributes": [
               "HasStorage"
@@ -17424,14 +17437,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
+                    "name": "CAFStage",
+                    "printedName": "FaceLiveness.CAFStage",
+                    "usr": "c:@M@FaceLiveness@E@CAFStage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Identity27SendAuthenticationCodeRouteV5stageAA0A5StageOvg",
-                "mangledName": "$s8Identity27SendAuthenticationCodeRouteV5stageAA0A5StageOvg",
+                "usr": "s:8Identity27SendAuthenticationCodeRouteV5stage12FaceLiveness8CAFStageOvg",
+                "mangledName": "$s8Identity27SendAuthenticationCodeRouteV5stage12FaceLiveness8CAFStageOvg",
                 "moduleName": "Identity",
                 "implicit": true,
                 "declAttributes": [
@@ -17717,9 +17730,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               },
               {
                 "kind": "TypeNominal",
@@ -17741,8 +17754,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8Identity27SendAuthenticationCodeRouteV5stage8peopleId07attemptH020authenticationMethodAcA0A5StageO_S3Stcfc",
-            "mangledName": "$s8Identity27SendAuthenticationCodeRouteV5stage8peopleId07attemptH020authenticationMethodAcA0A5StageO_S3Stcfc",
+            "usr": "s:8Identity27SendAuthenticationCodeRouteV5stage8peopleId07attemptH020authenticationMethodAC12FaceLiveness8CAFStageO_S3Stcfc",
+            "mangledName": "$s8Identity27SendAuthenticationCodeRouteV5stage8peopleId07attemptH020authenticationMethodAC12FaceLiveness8CAFStageO_S3Stcfc",
             "moduleName": "Identity",
             "implicit": true,
             "init_kind": "Designated"
@@ -17759,263 +17772,13 @@
             "printedName": "APIRoute",
             "usr": "s:8Identity8APIRouteP",
             "mangledName": "$s8Identity8APIRouteP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Identity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "IdentityStage",
-        "printedName": "IdentityStage",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "DEV",
-            "printedName": "DEV",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Identity.IdentityStage.Type) -> Identity.IdentityStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Identity.IdentityStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentityStage",
-                        "printedName": "Identity.IdentityStage",
-                        "usr": "s:8Identity0A5StageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8Identity0A5StageO3DEVyA2CmF",
-            "mangledName": "$s8Identity0A5StageO3DEVyA2CmF",
-            "moduleName": "Identity",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "BETA",
-            "printedName": "BETA",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Identity.IdentityStage.Type) -> Identity.IdentityStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Identity.IdentityStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentityStage",
-                        "printedName": "Identity.IdentityStage",
-                        "usr": "s:8Identity0A5StageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8Identity0A5StageO4BETAyA2CmF",
-            "mangledName": "$s8Identity0A5StageO4BETAyA2CmF",
-            "moduleName": "Identity",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "PROD",
-            "printedName": "PROD",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Identity.IdentityStage.Type) -> Identity.IdentityStage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IdentityStage",
-                    "printedName": "Identity.IdentityStage",
-                    "usr": "s:8Identity0A5StageO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Identity.IdentityStage.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IdentityStage",
-                        "printedName": "Identity.IdentityStage",
-                        "usr": "s:8Identity0A5StageO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8Identity0A5StageO4PRODyA2CmF",
-            "mangledName": "$s8Identity0A5StageO4PRODyA2CmF",
-            "moduleName": "Identity",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8Identity0A5StageO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s8Identity0A5StageO2eeoiySbAC_ACtFZ",
-            "moduleName": "Identity",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8Identity0A5StageO9hashValueSivp",
-            "mangledName": "$s8Identity0A5StageO9hashValueSivp",
-            "moduleName": "Identity",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8Identity0A5StageO9hashValueSivg",
-                "mangledName": "$s8Identity0A5StageO9hashValueSivg",
-                "moduleName": "Identity",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8Identity0A5StageO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s8Identity0A5StageO4hash4intoys6HasherVz_tF",
-            "moduleName": "Identity",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8Identity0A5StageO",
-        "mangledName": "$s8Identity0A5StageO",
-        "moduleName": "Identity",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -29818,6 +29581,13 @@
       },
       {
         "kind": "Import",
+        "name": "FaceLiveness",
+        "printedName": "FaceLiveness",
+        "declKind": "Import",
+        "moduleName": "Identity"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -38549,14 +38319,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Foundation3URLV8IdentityE07getBaseB03forSSAD0C5StageO_tFZ",
-            "mangledName": "$s10Foundation3URLV8IdentityE07getBaseB03forSSAD0C5StageO_tFZ",
+            "usr": "s:10Foundation3URLV8IdentityE07getBaseB03forSS12FaceLiveness8CAFStageO_tFZ",
+            "mangledName": "$s10Foundation3URLV8IdentityE07getBaseB03forSS12FaceLiveness8CAFStageO_tFZ",
             "moduleName": "Identity",
             "static": true,
             "isFromExtension": true,
@@ -38575,14 +38345,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Foundation3URLV8IdentityE03getcB03forSSAD0C5StageO_tFZ",
-            "mangledName": "$s10Foundation3URLV8IdentityE03getcB03forSSAD0C5StageO_tFZ",
+            "usr": "s:10Foundation3URLV8IdentityE03getcB03forSS12FaceLiveness8CAFStageO_tFZ",
+            "mangledName": "$s10Foundation3URLV8IdentityE03getcB03forSS12FaceLiveness8CAFStageO_tFZ",
             "moduleName": "Identity",
             "static": true,
             "isFromExtension": true,
@@ -38601,14 +38371,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IdentityStage",
-                "printedName": "Identity.IdentityStage",
-                "usr": "s:8Identity0A5StageO"
+                "name": "CAFStage",
+                "printedName": "FaceLiveness.CAFStage",
+                "usr": "c:@M@FaceLiveness@E@CAFStage"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Foundation3URLV8IdentityE012getAnalyticsB03forSSAD0C5StageO_tFZ",
-            "mangledName": "$s10Foundation3URLV8IdentityE012getAnalyticsB03forSSAD0C5StageO_tFZ",
+            "usr": "s:10Foundation3URLV8IdentityE012getAnalyticsB03forSS12FaceLiveness8CAFStageO_tFZ",
+            "mangledName": "$s10Foundation3URLV8IdentityE012getAnalyticsB03forSS12FaceLiveness8CAFStageO_tFZ",
             "moduleName": "Identity",
             "static": true,
             "isFromExtension": true,
@@ -39251,14 +39021,14 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Input\/IdentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 409,
+      "offset": 429,
       "length": 10,
       "value": "\"Identity\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Input\/IdentitySDK.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 367,
       "length": 11,
       "value": "\"Identity.IdentitySDK\""
     },
@@ -39328,84 +39098,77 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 233,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 235,
+      "offset": 255,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 258,
+      "offset": 278,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 280,
+      "offset": 300,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 303,
+      "offset": 323,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 213,
+      "offset": 233,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 235,
+      "offset": 255,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 258,
+      "offset": 278,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 280,
+      "offset": 300,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 303,
+      "offset": 323,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
-      "offset": 699,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 719,
       "length": 2,
       "value": "\"\""
     },
@@ -39413,6 +39176,13 @@
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
       "kind": "StringLiteral",
       "offset": 841,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/new-identity-ios-sdk\/Identity\/Identity\/Controller\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
       "length": 2,
       "value": "\"\""
     },
