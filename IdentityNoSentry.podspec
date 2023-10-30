@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IdentityNoSentry'
-  s.version          = '1.1.6'
+  s.version          = '1.2.0-rc03'
   s.summary          = 'IdentityNoSentry'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'identity-nosentry/LICENSE' }
@@ -17,8 +17,9 @@ Pod::Spec.new do |s|
  
   
   s.swift_version = '5.7.0'
-  s.ios.deployment_target = '12.4'
+  s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'identity-nosentry/Identity.xcframework'
 
   s.dependency 'FingerprintPro'
+  s.dependency 'FaceLiveness', '3.1.5-identity'
 end
