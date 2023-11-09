@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticator
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuthenticator
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import FaceLiveness
 import Foundation
@@ -16,6 +16,8 @@ import _SwiftConcurrencyShims
   public var rawValue: Swift.Int {
     get
   }
+}
+public struct FaceAuthReport {
 }
 public struct FaceAuthenticatorResult {
   public var isAlive: Swift.Bool?
@@ -49,23 +51,23 @@ public protocol FaceAuthSDKDelegate {
   func closeLoadingScreenValidation()
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
-  public var token: Swift.String
+  public var mobileToken: Swift.String
   public var personId: Swift.String
   public var stage: FaceLiveness.CAFStage
   public var sdkVersion: Swift.String
   public var filter: FaceLiveness.Filter
   public var delegate: (any FaceAuthenticator.FaceAuthSDKDelegate)?
   public var withLoading: Swift.Bool
-  open func startFaceAuthSDK(viewController: UIKit.UIViewController)
-  @_inheritsConvenienceInitializers @objc open class Builder : ObjectiveC.NSObject {
+  open func startFaceAuthSDK(viewController: UIKit.UIViewController, completion: @escaping (FaceAuthenticator.FaceAuthReport, FaceLiveness.StatusControll) -> Swift.Void)
+  @objc open class Builder : ObjectiveC.NSObject {
     public var sessionId: Swift.String
     public var sdkVersion: Swift.String
     public var withLoading: Swift.Bool
-    public var token: Swift.String
+    public var mobileToken: Swift.String
     public var filter: FaceLiveness.Filter
     public var personId: Swift.String
-    @objc override dynamic public init()
-    open func setCredentials(token: Swift.String, personId: Swift.String) -> FaceAuthenticator.FaceAuthSDK.Builder
+    public init(mobileToken: Swift.String)
+    open func setCredentials(personId: Swift.String) -> FaceAuthenticator.FaceAuthSDK.Builder
     open func setFilter(filter: FaceLiveness.Filter) -> FaceAuthenticator.FaceAuthSDK.Builder
     open func setStage(stage: FaceLiveness.CAFStage) -> FaceAuthenticator.FaceAuthSDK.Builder
     open func setLoading(withLoading: Swift.Bool) -> FaceAuthenticator.FaceAuthSDK.Builder
