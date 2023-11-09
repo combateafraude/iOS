@@ -41,10 +41,6 @@ public struct FaceAuthenticatorData : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol FaceAuthSDKDelegate {
-  func didFinishSuccess(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
-  func didFinishWithError(with faceAuthenticatorErrorResult: FaceAuthenticator.FaceAuthenticatorErrorResult)
-  func didFinishWithCancell(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
-  func didFinishWithFail(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorFailResult)
   func openLoadingScreenStartSDK()
   func closeLoadingScreenStartSDK()
   func openLoadingScreenValidation()
@@ -67,7 +63,7 @@ public protocol FaceAuthSDKDelegate {
     public var filter: FaceLiveness.Filter
     public var personId: Swift.String
     public init(mobileToken: Swift.String)
-    open func setCredentials(personId: Swift.String) -> FaceAuthenticator.FaceAuthSDK.Builder
+    open func setPersonId(personId: Swift.String) -> FaceAuthenticator.FaceAuthSDK.Builder
     open func setFilter(filter: FaceLiveness.Filter) -> FaceAuthenticator.FaceAuthSDK.Builder
     open func setStage(stage: FaceLiveness.CAFStage) -> FaceAuthenticator.FaceAuthSDK.Builder
     open func setLoading(withLoading: Swift.Bool) -> FaceAuthenticator.FaceAuthSDK.Builder
