@@ -694,6 +694,488 @@
         "kind": "TypeDecl",
         "name": "FaceLivenessReport",
         "printedName": "FaceLivenessReport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorType",
+            "printedName": "errorType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLiveness.ErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "FaceLiveness.ErrorType",
+                    "usr": "s:12FaceLiveness9ErrorTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FaceLiveness.ErrorType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "FaceLiveness.ErrorType",
+                        "usr": "s:12FaceLiveness9ErrorTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failType",
+            "printedName": "failType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLiveness.FailType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailType",
+                    "printedName": "FaceLiveness.FailType",
+                    "usr": "s:12FaceLiveness8FailTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FaceLiveness.FailType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailType",
+                        "printedName": "FaceLiveness.FailType",
+                        "usr": "s:12FaceLiveness8FailTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV4codeSiSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV4codeSiSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV4codeSiSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV4codeSiSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAlive",
+            "printedName": "isAlive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV7isAliveSbSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV7isAliveSbSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV7isAliveSbSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV7isAliveSbSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV5tokenSSSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV5tokenSSSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV5tokenSSSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV5tokenSSSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV12errorMessageSSSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV12errorMessageSSSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV12errorMessageSSSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV12errorMessageSSSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV8imageUrlSSSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV8imageUrlSSSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV8imageUrlSSSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV8imageUrlSSSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signedResponse",
+            "printedName": "signedResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB6ReportV14signedResponseSSSgvp",
+            "mangledName": "$s12FaceLiveness0aB6ReportV14signedResponseSSSgvp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB6ReportV14signedResponseSSSgvg",
+                "mangledName": "$s12FaceLiveness0aB6ReportV14signedResponseSSSgvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:12FaceLiveness0aB6ReportV",
         "mangledName": "$s12FaceLiveness0aB6ReportV",

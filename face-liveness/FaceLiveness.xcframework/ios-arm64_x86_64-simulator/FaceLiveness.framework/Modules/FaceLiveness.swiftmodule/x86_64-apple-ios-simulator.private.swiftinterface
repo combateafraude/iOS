@@ -35,6 +35,14 @@ public enum FailType {
   }
 }
 public struct FaceLivenessReport {
+  public let errorType: FaceLiveness.ErrorType?
+  public let failType: FaceLiveness.FailType?
+  public let code: Swift.Int?
+  public let isAlive: Swift.Bool?
+  public let token: Swift.String?
+  public let errorMessage: Swift.String?
+  public let imageUrl: Swift.String?
+  public let signedResponse: Swift.String?
 }
 public struct FaceLivenessResult {
   public let signedResponse: Swift.String?
