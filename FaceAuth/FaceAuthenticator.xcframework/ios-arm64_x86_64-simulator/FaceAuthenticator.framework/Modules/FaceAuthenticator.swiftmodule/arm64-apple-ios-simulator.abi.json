@@ -275,6 +275,25 @@
       },
       {
         "kind": "Import",
+        "name": "FaceLiveness",
+        "printedName": "FaceLiveness",
+        "declKind": "Import",
+        "moduleName": "FaceAuthenticator"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceAuthReport",
+        "printedName": "FaceAuthReport",
+        "declKind": "Struct",
+        "usr": "s:17FaceAuthenticator0A10AuthReportV",
+        "mangledName": "$s17FaceAuthenticator0A10AuthReportV",
+        "moduleName": "FaceAuthenticator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1662,8 +1681,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "token",
-            "printedName": "token",
+            "name": "mobileToken",
+            "printedName": "mobileToken",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1673,8 +1692,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17FaceAuthenticator0A7AuthSDKC5tokenSSvp",
-            "mangledName": "$s17FaceAuthenticator0A7AuthSDKC5tokenSSvp",
+            "usr": "s:17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvp",
+            "mangledName": "$s17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvp",
             "moduleName": "FaceAuthenticator",
             "declAttributes": [
               "HasStorage",
@@ -1695,8 +1714,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC5tokenSSvg",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC5tokenSSvg",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvg",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvg",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1719,8 +1738,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC5tokenSSvs",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC5tokenSSvs",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvs",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvs",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1737,8 +1756,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC5tokenSSvM",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC5tokenSSvM",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvM",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC11mobileTokenSSvM",
                 "moduleName": "FaceAuthenticator",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2283,7 +2302,7 @@
           {
             "kind": "Function",
             "name": "startFaceAuthSDK",
-            "printedName": "startFaceAuthSDK(viewController:)",
+            "printedName": "startFaceAuthSDK(viewController:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2295,11 +2314,42 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuthenticator.FaceAuthReport, FaceLiveness.StatusControll) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(FaceAuthenticator.FaceAuthReport, FaceLiveness.StatusControll)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceAuthReport",
+                        "printedName": "FaceAuthenticator.FaceAuthReport",
+                        "usr": "s:17FaceAuthenticator0A10AuthReportV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusControll",
+                        "printedName": "FaceLiveness.StatusControll",
+                        "usr": "s:12FaceLiveness14StatusControllO"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FaceAuthenticator0A7AuthSDKC05startacD014viewControllerySo06UIViewG0C_tF",
-            "mangledName": "$s17FaceAuthenticator0A7AuthSDKC05startacD014viewControllerySo06UIViewG0C_tF",
+            "usr": "s:17FaceAuthenticator0A7AuthSDKC05startacD014viewController10completionySo06UIViewG0C_yAA0aC6ReportV_0A8Liveness14StatusControllOtctF",
+            "mangledName": "$s17FaceAuthenticator0A7AuthSDKC05startacD014viewController10completionySo06UIViewG0C_yAA0aC6ReportV_0A8Liveness14StatusControllOtctF",
             "moduleName": "FaceAuthenticator",
             "declAttributes": [
               "AccessControl"
@@ -2568,8 +2618,8 @@
               },
               {
                 "kind": "Var",
-                "name": "token",
-                "printedName": "token",
+                "name": "mobileToken",
+                "printedName": "mobileToken",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2579,8 +2629,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvp",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvp",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvp",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvp",
                 "moduleName": "FaceAuthenticator",
                 "declAttributes": [
                   "HasStorage",
@@ -2601,8 +2651,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvg",
-                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvg",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvg",
+                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvg",
                     "moduleName": "FaceAuthenticator",
                     "implicit": true,
                     "accessorKind": "get"
@@ -2625,8 +2675,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvs",
-                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvs",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvs",
+                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvs",
                     "moduleName": "FaceAuthenticator",
                     "implicit": true,
                     "accessorKind": "set"
@@ -2643,8 +2693,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvM",
-                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC5tokenSSvM",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvM",
+                    "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenSSvM",
                     "moduleName": "FaceAuthenticator",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -2824,33 +2874,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Builder",
-                    "printedName": "FaceAuthenticator.FaceAuthSDK.Builder",
-                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderCAEycfc",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderCAEycfc",
-                "moduleName": "FaceAuthenticator",
-                "overriding": true,
-                "objc_name": "init",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
-                  "Override",
-                  "AccessControl"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Function",
-                "name": "setCredentials",
-                "printedName": "setCredentials(token:personId:)",
+                "printedName": "init(mobileToken:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2863,6 +2887,27 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenAESS_tcfc",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC11mobileTokenAESS_tcfc",
+                "moduleName": "FaceAuthenticator",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "setCredentials",
+                "printedName": "setCredentials(personId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "FaceAuthenticator.FaceAuthSDK.Builder",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC"
                   },
                   {
                     "kind": "TypeNominal",
@@ -2872,8 +2917,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC14setCredentials5token8personIdAESS_SStF",
-                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC14setCredentials5token8personIdAESS_SStF",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC14setCredentials8personIdAESS_tF",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderC14setCredentials8personIdAESS_tF",
                 "moduleName": "FaceAuthenticator",
                 "isOpen": true,
                 "declAttributes": [
@@ -2986,6 +3031,32 @@
                   "AccessControl"
                 ],
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "FaceAuthenticator.FaceAuthSDK.Builder",
+                    "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:17FaceAuthenticator0A7AuthSDKC7BuilderCAEycfc",
+                "mangledName": "$s17FaceAuthenticator0A7AuthSDKC7BuilderCAEycfc",
+                "moduleName": "FaceAuthenticator",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
               }
             ],
             "declKind": "Class",
@@ -2998,7 +3069,6 @@
               "ObjC"
             ],
             "superclassUsr": "c:objc(cs)NSObject",
-            "inheritsConvenienceInitializers": true,
             "superclassNames": [
               "ObjectiveC.NSObject"
             ],
@@ -3491,35 +3561,35 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 604,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
       "kind": "IntegerLiteral",
-      "offset": 593,
+      "offset": 731,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
       "kind": "FloatLiteral",
-      "offset": 603,
+      "offset": 741,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 792,
+      "offset": 930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 846,
+      "offset": 984,
       "length": 4,
       "value": "true"
     },
@@ -3533,93 +3603,93 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1337,
+      "offset": 1041,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2194,
+      "offset": 3607,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3074,
-      "length": 10,
-      "value": "\"Canceled\""
+      "offset": 4584,
+      "length": 20,
+      "value": "\"Terminated by user\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4103,
-      "length": 2,
-      "value": "08"
+      "offset": 5612,
+      "length": 1,
+      "value": "7"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4120,
-      "length": 22,
-      "value": "\"Error to bind result\""
+      "offset": 5655,
+      "length": 21,
+      "value": "\"Error bind response\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4508,
+      "offset": 6086,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4707,
-      "length": 2,
-      "value": "08"
+      "offset": 6248,
+      "length": 1,
+      "value": "7"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5025,
-      "length": 2,
-      "value": "01"
+      "offset": 6588,
+      "length": 1,
+      "value": "7"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2439,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2290,
+      "offset": 2473,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2319,
+      "offset": 2502,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2346,
+      "offset": 2529,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
-      "length": 2,
-      "value": "\"\""
+      "offset": 2053,
+      "length": 7,
+      "value": "\"FaceAuthenticator.Builder\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
