@@ -284,6 +284,488 @@
         "kind": "TypeDecl",
         "name": "FaceAuthReport",
         "printedName": "FaceAuthReport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorType",
+            "printedName": "errorType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLiveness.ErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "FaceLiveness.ErrorType",
+                    "usr": "s:12FaceLiveness9ErrorTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV9errorType0A8Liveness05ErrorF0OSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV9errorType0A8Liveness05ErrorF0OSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FaceLiveness.ErrorType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "FaceLiveness.ErrorType",
+                        "usr": "s:12FaceLiveness9ErrorTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV9errorType0A8Liveness05ErrorF0OSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV9errorType0A8Liveness05ErrorF0OSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failType",
+            "printedName": "failType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLiveness.FailType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailType",
+                    "printedName": "FaceLiveness.FailType",
+                    "usr": "s:12FaceLiveness8FailTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV8failType0A8Liveness04FailF0OSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV8failType0A8Liveness04FailF0OSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FaceLiveness.FailType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailType",
+                        "printedName": "FaceLiveness.FailType",
+                        "usr": "s:12FaceLiveness8FailTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV8failType0A8Liveness04FailF0OSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV8failType0A8Liveness04FailF0OSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV4codeSiSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV4codeSiSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV4codeSiSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV4codeSiSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAlive",
+            "printedName": "isAlive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV7isAliveSbSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV7isAliveSbSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV7isAliveSbSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV7isAliveSbSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV5tokenSSSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV5tokenSSSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV5tokenSSSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV5tokenSSSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV12errorMessageSSSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV12errorMessageSSSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV12errorMessageSSSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV12errorMessageSSSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV8imageUrlSSSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV8imageUrlSSSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV8imageUrlSSSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV8imageUrlSSSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signedResponse",
+            "printedName": "signedResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FaceAuthenticator0A10AuthReportV14signedResponseSSSgvp",
+            "mangledName": "$s17FaceAuthenticator0A10AuthReportV14signedResponseSSSgvp",
+            "moduleName": "FaceAuthenticator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FaceAuthenticator0A10AuthReportV14signedResponseSSSgvg",
+                "mangledName": "$s17FaceAuthenticator0A10AuthReportV14signedResponseSSSgvg",
+                "moduleName": "FaceAuthenticator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:17FaceAuthenticator0A10AuthReportV",
         "mangledName": "$s17FaceAuthenticator0A10AuthReportV",
