@@ -318,7 +318,6 @@ SWIFT_CLASS("_TtCC17FaceAuthenticator11FaceAuthSDK7Builder")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -646,7 +645,6 @@ SWIFT_CLASS("_TtCC17FaceAuthenticator11FaceAuthSDK7Builder")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
 
 #endif
 #if __has_attribute(external_source_symbol)
