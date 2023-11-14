@@ -104,7 +104,7 @@ public protocol FaceLivenessDelegate {
   public var filter: FaceLiveness.Filter
   public var withLoading: Swift.Bool
   public var delegate: (any FaceLiveness.FaceLivenessDelegate)?
-  open func startSDK(viewController: UIKit.UIViewController, completion: @escaping (FaceLiveness.FaceLivenessReport, FaceLiveness.StatusControll) -> Swift.Void)
+  open func startSDK(completion: @escaping (FaceLiveness.FaceLivenessReport, FaceLiveness.StatusControll) -> Swift.Void)
   @objc open class Build : ObjectiveC.NSObject {
     public var mobileToken: Swift.String
     public var personId: Swift.String
