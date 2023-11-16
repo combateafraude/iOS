@@ -49,10 +49,10 @@ public struct FaceAuthenticatorData : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol FaceAuthSDKDelegate {
-  func openLoadingScreenStartSDK()
-  func closeLoadingScreenStartSDK()
-  func openLoadingScreenValidation()
-  func closeLoadingScreenValidation()
+  func openLoadingScreenAuthSDK()
+  func closeLoadingScreenAuthSDK()
+  func openLoadingScreenAuth()
+  func closeLoadingScreenAuth()
 }
 @objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
   public var mobileToken: Swift.String
@@ -62,7 +62,7 @@ public protocol FaceAuthSDKDelegate {
   public var filter: FaceLiveness.Filter
   public var delegate: (any FaceAuthenticator.FaceAuthSDKDelegate)?
   public var withLoading: Swift.Bool
-  open func startFaceAuthSDK(completion: @escaping (FaceAuthenticator.FaceAuthReport, FaceLiveness.StatusControll) -> Swift.Void)
+  open func startFaceAuthSDK(viewController: UIKit.UIViewController, completion: @escaping (FaceAuthenticator.FaceAuthReport, FaceLiveness.StatusControll) -> Swift.Void)
   @objc open class Builder : ObjectiveC.NSObject {
     public var sessionId: Swift.String
     public var sdkVersion: Swift.String
