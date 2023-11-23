@@ -694,488 +694,6 @@
         "kind": "TypeDecl",
         "name": "FaceLivenessReport",
         "printedName": "FaceLivenessReport",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "errorType",
-            "printedName": "errorType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FaceLiveness.ErrorType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ErrorType",
-                    "printedName": "FaceLiveness.ErrorType",
-                    "usr": "s:12FaceLiveness9ErrorTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FaceLiveness.ErrorType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ErrorType",
-                        "printedName": "FaceLiveness.ErrorType",
-                        "usr": "s:12FaceLiveness9ErrorTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV9errorTypeAA05ErrorE0OSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "failType",
-            "printedName": "failType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FaceLiveness.FailType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FailType",
-                    "printedName": "FaceLiveness.FailType",
-                    "usr": "s:12FaceLiveness8FailTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FaceLiveness.FailType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FailType",
-                        "printedName": "FaceLiveness.FailType",
-                        "usr": "s:12FaceLiveness8FailTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV8failTypeAA04FailE0OSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "code",
-            "printedName": "code",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV4codeSiSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV4codeSiSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV4codeSiSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV4codeSiSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isAlive",
-            "printedName": "isAlive",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV7isAliveSbSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV7isAliveSbSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV7isAliveSbSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV7isAliveSbSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "token",
-            "printedName": "token",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV5tokenSSSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV5tokenSSSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV5tokenSSSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV5tokenSSSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "errorMessage",
-            "printedName": "errorMessage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV12errorMessageSSSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV12errorMessageSSSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV12errorMessageSSSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV12errorMessageSSSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "imageUrl",
-            "printedName": "imageUrl",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV8imageUrlSSSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV8imageUrlSSSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV8imageUrlSSSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV8imageUrlSSSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "signedResponse",
-            "printedName": "signedResponse",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12FaceLiveness0aB6ReportV14signedResponseSSSgvp",
-            "mangledName": "$s12FaceLiveness0aB6ReportV14signedResponseSSSgvp",
-            "moduleName": "FaceLiveness",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12FaceLiveness0aB6ReportV14signedResponseSSSgvg",
-                "mangledName": "$s12FaceLiveness0aB6ReportV14signedResponseSSSgvg",
-                "moduleName": "FaceLiveness",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
         "declKind": "Struct",
         "usr": "s:12FaceLiveness0aB6ReportV",
         "mangledName": "$s12FaceLiveness0aB6ReportV",
@@ -2596,9 +2114,316 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Time",
+        "printedName": "Time",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "threeHours",
+            "printedName": "threeHours",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLiveness.Time.Type) -> FaceLiveness.Time",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Time",
+                    "printedName": "FaceLiveness.Time",
+                    "usr": "s:12FaceLiveness4TimeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLiveness.Time.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Time",
+                        "printedName": "FaceLiveness.Time",
+                        "usr": "s:12FaceLiveness4TimeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FaceLiveness4TimeO10threeHoursyA2CmF",
+            "mangledName": "$s12FaceLiveness4TimeO10threeHoursyA2CmF",
+            "moduleName": "FaceLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "trirtyDays",
+            "printedName": "trirtyDays",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceLiveness.Time.Type) -> FaceLiveness.Time",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Time",
+                    "printedName": "FaceLiveness.Time",
+                    "usr": "s:12FaceLiveness4TimeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceLiveness.Time.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Time",
+                        "printedName": "FaceLiveness.Time",
+                        "usr": "s:12FaceLiveness4TimeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FaceLiveness4TimeO10trirtyDaysyA2CmF",
+            "mangledName": "$s12FaceLiveness4TimeO10trirtyDaysyA2CmF",
+            "moduleName": "FaceLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness4TimeO8rawValueSSvp",
+            "mangledName": "$s12FaceLiveness4TimeO8rawValueSSvp",
+            "moduleName": "FaceLiveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness4TimeO8rawValueSSvg",
+                "mangledName": "$s12FaceLiveness4TimeO8rawValueSSvg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceLiveness.Time?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Time",
+                    "printedName": "FaceLiveness.Time",
+                    "usr": "s:12FaceLiveness4TimeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FaceLiveness4TimeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12FaceLiveness4TimeO8rawValueACSgSS_tcfc",
+            "moduleName": "FaceLiveness",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FaceLiveness4TimeO",
+        "mangledName": "$s12FaceLiveness4TimeO",
+        "moduleName": "FaceLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FaceLivenessDelegate",
         "printedName": "FaceLivenessDelegate",
         "children": [
+          {
+            "kind": "Function",
+            "name": "didFinishLiveness",
+            "printedName": "didFinishLiveness(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessResult",
+                "printedName": "FaceLiveness.FaceLivenessResult",
+                "usr": "s:12FaceLiveness0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FaceLiveness0aB8DelegateP09didFinishB04withyAA0aB6ResultV_tF",
+            "mangledName": "$s12FaceLiveness0aB8DelegateP09didFinishB04withyAA0aB6ResultV_tF",
+            "moduleName": "FaceLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithFail",
+            "printedName": "didFinishWithFail(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessFailResult",
+                "printedName": "FaceLiveness.FaceLivenessFailResult",
+                "usr": "s:12FaceLiveness0aB10FailResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FaceLiveness0aB8DelegateP17didFinishWithFail4withyAA0abG6ResultV_tF",
+            "mangledName": "$s12FaceLiveness0aB8DelegateP17didFinishWithFail4withyAA0abG6ResultV_tF",
+            "moduleName": "FaceLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithCancelled",
+            "printedName": "didFinishWithCancelled(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessResult",
+                "printedName": "FaceLiveness.FaceLivenessResult",
+                "usr": "s:12FaceLiveness0aB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FaceLiveness0aB8DelegateP22didFinishWithCancelled4withyAA0aB6ResultV_tF",
+            "mangledName": "$s12FaceLiveness0aB8DelegateP22didFinishWithCancelled4withyAA0aB6ResultV_tF",
+            "moduleName": "FaceLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinishWithError",
+            "printedName": "didFinishWithError(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLivenessErrorResult",
+                "printedName": "FaceLiveness.FaceLivenessErrorResult",
+                "usr": "s:12FaceLiveness0aB11ErrorResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FaceLiveness0aB8DelegateP18didFinishWithError4withyAA0abG6ResultV_tF",
+            "mangledName": "$s12FaceLiveness0aB8DelegateP18didFinishWithError4withyAA0abG6ResultV_tF",
+            "moduleName": "FaceLiveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceLiveness.FaceLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceLiveness.FaceLivenessDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "openLoadingScreenStartSDK",
@@ -3260,6 +3085,91 @@
           },
           {
             "kind": "Var",
+            "name": "imageUrlExpirationTime",
+            "printedName": "imageUrlExpirationTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Time",
+                "printedName": "FaceLiveness.Time",
+                "usr": "s:12FaceLiveness4TimeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0Ovp",
+            "mangledName": "$s12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0Ovp",
+            "moduleName": "FaceLiveness",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Time",
+                    "printedName": "FaceLiveness.Time",
+                    "usr": "s:12FaceLiveness4TimeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0Ovg",
+                "mangledName": "$s12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0Ovg",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Time",
+                    "printedName": "FaceLiveness.Time",
+                    "usr": "s:12FaceLiveness4TimeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0Ovs",
+                "mangledName": "$s12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0Ovs",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0OvM",
+                "mangledName": "$s12FaceLiveness0aB3SDKC22imageUrlExpirationTimeAA0G0OvM",
+                "moduleName": "FaceLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "delegate",
             "printedName": "delegate",
             "children": [
@@ -3371,7 +3281,7 @@
           {
             "kind": "Function",
             "name": "startSDK",
-            "printedName": "startSDK(viewController:completion:)",
+            "printedName": "startSDK(viewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3383,42 +3293,11 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FaceLiveness.FaceLivenessReport, FaceLiveness.StatusControll) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(FaceLiveness.FaceLivenessReport, FaceLiveness.StatusControll)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FaceLivenessReport",
-                        "printedName": "FaceLiveness.FaceLivenessReport",
-                        "usr": "s:12FaceLiveness0aB6ReportV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "StatusControll",
-                        "printedName": "FaceLiveness.StatusControll",
-                        "usr": "s:12FaceLiveness14StatusControllO"
-                      }
-                    ]
-                  }
-                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FaceLiveness0aB3SDKC05startC014viewController10completionySo06UIViewF0C_yAA0aB6ReportV_AA14StatusControllOtctF",
-            "mangledName": "$s12FaceLiveness0aB3SDKC05startC014viewController10completionySo06UIViewF0C_yAA0aB6ReportV_AA14StatusControllOtctF",
+            "usr": "s:12FaceLiveness0aB3SDKC05startC014viewControllerySo06UIViewF0C_tF",
+            "mangledName": "$s12FaceLiveness0aB3SDKC05startC014viewControllerySo06UIViewF0C_tF",
             "moduleName": "FaceLiveness",
             "isOpen": true,
             "declAttributes": [
@@ -3602,28 +3481,112 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "imageUrlExpirationTime",
+                "printedName": "imageUrlExpirationTime",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Time",
+                    "printedName": "FaceLiveness.Time",
+                    "usr": "s:12FaceLiveness4TimeO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0Ovp",
+                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0Ovp",
+                "moduleName": "FaceLiveness",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Time",
+                        "printedName": "FaceLiveness.Time",
+                        "usr": "s:12FaceLiveness4TimeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0Ovg",
+                    "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0Ovg",
+                    "moduleName": "FaceLiveness",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Time",
+                        "printedName": "FaceLiveness.Time",
+                        "usr": "s:12FaceLiveness4TimeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0Ovs",
+                    "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0Ovs",
+                    "moduleName": "FaceLiveness",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0OvM",
+                    "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC22imageUrlExpirationTimeAA0H0OvM",
+                    "moduleName": "FaceLiveness",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(mobileToken:)",
+                "printedName": "init()",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Build",
                     "printedName": "FaceLiveness.FaceLivenessSDK.Build",
                     "usr": "s:12FaceLiveness0aB3SDKC5BuildC"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:12FaceLiveness0aB3SDKC5BuildC11mobileTokenAESS_tcfc",
-                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC11mobileTokenAESS_tcfc",
+                "usr": "s:12FaceLiveness0aB3SDKC5BuildCAEycfc",
+                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildCAEycfc",
                 "moduleName": "FaceLiveness",
+                "overriding": true,
+                "objc_name": "init",
                 "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override",
                   "AccessControl"
                 ],
                 "init_kind": "Designated"
@@ -3686,8 +3649,8 @@
               },
               {
                 "kind": "Function",
-                "name": "setPersonId",
-                "printedName": "setPersonId(personId:)",
+                "name": "setCredentials",
+                "printedName": "setCredentials(mobileToken:personId:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3700,11 +3663,45 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:12FaceLiveness0aB3SDKC5BuildC11setPersonId06personG0AESS_tF",
-                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC11setPersonId06personG0AESS_tF",
+                "usr": "s:12FaceLiveness0aB3SDKC5BuildC14setCredentials11mobileToken8personIdAESS_SStF",
+                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC14setCredentials11mobileToken8personIdAESS_SStF",
+                "moduleName": "FaceLiveness",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setImageUrlExpirationTime",
+                "printedName": "setImageUrlExpirationTime(time:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Build",
+                    "printedName": "FaceLiveness.FaceLivenessSDK.Build",
+                    "usr": "s:12FaceLiveness0aB3SDKC5BuildC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Time",
+                    "printedName": "FaceLiveness.Time",
+                    "usr": "s:12FaceLiveness4TimeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12FaceLiveness0aB3SDKC5BuildC25setImageUrlExpirationTime4timeAeA0I0O_tF",
+                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildC25setImageUrlExpirationTime4timeAeA0I0O_tF",
                 "moduleName": "FaceLiveness",
                 "isOpen": true,
                 "declAttributes": [
@@ -3761,32 +3758,6 @@
                   "AccessControl"
                 ],
                 "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Build",
-                    "printedName": "FaceLiveness.FaceLivenessSDK.Build",
-                    "usr": "s:12FaceLiveness0aB3SDKC5BuildC"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:12FaceLiveness0aB3SDKC5BuildCAEycfc",
-                "mangledName": "$s12FaceLiveness0aB3SDKC5BuildCAEycfc",
-                "moduleName": "FaceLiveness",
-                "overriding": true,
-                "implicit": true,
-                "objc_name": "init",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC",
-                  "Override"
-                ],
-                "init_kind": "Designated"
               }
             ],
             "declKind": "Class",
@@ -3799,6 +3770,7 @@
               "ObjC"
             ],
             "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
             "superclassNames": [
               "ObjectiveC.NSObject"
             ],
@@ -3964,70 +3936,70 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "StringLiteral",
-      "offset": 604,
+      "offset": 461,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "IntegerLiteral",
-      "offset": 731,
+      "offset": 588,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "FloatLiteral",
-      "offset": 741,
+      "offset": 598,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 803,
+      "offset": 660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 1009,
+      "offset": 866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 1072,
+      "offset": 929,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 1097,
+      "offset": 954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 1167,
+      "offset": 1024,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 1229,
+      "offset": 1086,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/View\/LoadingScrean.swift",
       "kind": "BooleanLiteral",
-      "offset": 1253,
+      "offset": 1110,
       "length": 4,
       "value": "true"
     },
@@ -4265,42 +4237,42 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 9433,
+      "offset": 9489,
       "length": 2,
       "value": "03"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9446,
+      "offset": 9502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 9675,
+      "offset": 9731,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 9826,
+      "offset": 9882,
       "length": 2,
       "value": "02"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 9839,
+      "offset": 9895,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/ViewModel\/FaceLivenessSDKViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10168,
+      "offset": 10224,
       "length": 4,
       "value": "true"
     },
@@ -4461,42 +4433,63 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 593,
-      "length": 85,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true\""
+      "offset": 616,
+      "length": 125,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true&getExpireIn=\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 718,
-      "length": 86,
-      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true\""
+      "offset": 740,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 844,
-      "length": 81,
-      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true\""
+      "offset": 781,
+      "length": 126,
+      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true&getExpireIn=\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 906,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 121,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/liveness-iproov?shouldSignResponse=true&getExpireIn=\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 1067,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
       "length": 67,
       "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1322,
       "length": 68,
       "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Server\/URL+.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1430,
       "length": 63,
       "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authentication-iproov\""
     },
@@ -4566,42 +4559,70 @@
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 575,
+      "length": 4,
+      "value": "\"3H\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 5,
+      "value": "\"30D\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 4,
+      "value": "\"3H\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 5,
+      "value": "\"30D\""
+    },
+    {
+      "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1192,
       "length": 16,
       "value": "\"Caf-PFL-IPROVE\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3686,
+      "offset": 3943,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 3720,
+      "offset": 3977,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3749,
+      "offset": 4006,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3338,
-      "length": 5,
-      "value": "\"FaceLiveness.Build\""
+      "offset": 4035,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabriel.martins\/Documents\/Dev\/ios-sdk-face-liveness-iproov\/FaceLiveness\/Input\/FaceLivenessSDK.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 1130,
       "length": 15,
       "value": "\"FaceLiveness.FaceLivenessSDK\""
     },

@@ -314,8 +314,7 @@ SWIFT_CLASS("_TtC12FaceLiveness15FaceLivenessSDK")
 
 SWIFT_CLASS("_TtCC12FaceLiveness15FaceLivenessSDK5Build")
 @interface Build : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -643,8 +642,7 @@ SWIFT_CLASS("_TtC12FaceLiveness15FaceLivenessSDK")
 
 SWIFT_CLASS("_TtCC12FaceLiveness15FaceLivenessSDK5Build")
 @interface Build : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

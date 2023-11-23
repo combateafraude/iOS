@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLiveness
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLiveness
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import Swift
@@ -35,14 +35,6 @@ public enum FailType {
   }
 }
 public struct FaceLivenessReport {
-  public let errorType: FaceLiveness.ErrorType?
-  public let failType: FaceLiveness.FailType?
-  public let code: Swift.Int?
-  public let isAlive: Swift.Bool?
-  public let token: Swift.String?
-  public let errorMessage: Swift.String?
-  public let imageUrl: Swift.String?
-  public let signedResponse: Swift.String?
 }
 public struct FaceLivenessResult {
   public let signedResponse: Swift.String?
@@ -89,7 +81,20 @@ public enum Filter : Swift.Int {
     get
   }
 }
+public enum Time : Swift.String {
+  case threeHours
+  case trirtyDays
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public protocol FaceLivenessDelegate {
+  func didFinishLiveness(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  func didFinishWithFail(with faceLivenessFailResult: FaceLiveness.FaceLivenessFailResult)
+  func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  func didFinishWithError(with faceLivenessErrorResult: FaceLiveness.FaceLivenessErrorResult)
   func openLoadingScreenStartSDK()
   func closeLoadingScreenStartSDK()
   func openLoadingScreenValidation()
@@ -103,15 +108,18 @@ public protocol FaceLivenessDelegate {
   public var sdkVersion: Swift.String
   public var filter: FaceLiveness.Filter
   public var withLoading: Swift.Bool
+  public var imageUrlExpirationTime: FaceLiveness.Time
   public var delegate: (any FaceLiveness.FaceLivenessDelegate)?
-  open func startSDK(viewController: UIKit.UIViewController, completion: @escaping (FaceLiveness.FaceLivenessReport, FaceLiveness.StatusControll) -> Swift.Void)
-  @objc open class Build : ObjectiveC.NSObject {
+  open func startSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Build : ObjectiveC.NSObject {
     public var mobileToken: Swift.String
     public var personId: Swift.String
-    public init(mobileToken: Swift.String)
+    public var imageUrlExpirationTime: FaceLiveness.Time
+    @objc override dynamic public init()
     open func setStage(stage: FaceLiveness.CAFStage) -> FaceLiveness.FaceLivenessSDK.Build
     open func setFilter(filter: FaceLiveness.Filter) -> FaceLiveness.FaceLivenessSDK.Build
-    open func setPersonId(personId: Swift.String) -> FaceLiveness.FaceLivenessSDK.Build
+    open func setCredentials(mobileToken: Swift.String, personId: Swift.String) -> FaceLiveness.FaceLivenessSDK.Build
+    open func setImageUrlExpirationTime(time: FaceLiveness.Time) -> FaceLiveness.FaceLivenessSDK.Build
     open func setLoadingScreen(withLoading: Swift.Bool) -> FaceLiveness.FaceLivenessSDK.Build
     open func build() -> FaceLiveness.FaceLivenessSDK
     @objc deinit
@@ -131,3 +139,6 @@ extension FaceLiveness.StatusControll : Swift.RawRepresentable {}
 extension FaceLiveness.Filter : Swift.Equatable {}
 extension FaceLiveness.Filter : Swift.Hashable {}
 extension FaceLiveness.Filter : Swift.RawRepresentable {}
+extension FaceLiveness.Time : Swift.Equatable {}
+extension FaceLiveness.Time : Swift.Hashable {}
+extension FaceLiveness.Time : Swift.RawRepresentable {}
