@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceLiveness'
-  s.version          = '0.0.2-ionic'
+  s.version          = '3.1.6'
   s.summary          = 'Face Liveness'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'face-liveness/LICENSE' }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
  
   
   s.swift_version = '5.3.2'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'face-liveness/FaceLiveness.xcframework'
 
   s.dependency 'iProov', '11.0.0'
