@@ -6,19 +6,19 @@
 	<dict>
 		<key>Frameworks/FingerprintPro.framework/FingerprintPro</key>
 		<data>
-		uglDcmnWGWJM4InfyHEWNRgb2lw=
+		3vOYtd0o+EkSKFLgOlWUiiSLz/A=
 		</data>
 		<key>Frameworks/FingerprintPro.framework/Info.plist</key>
 		<data>
-		Om4V/BUXUEv12WwXuHj20QpSCQc=
+		Xw0QqrJ/E99XD3VUp+iN8do9DF0=
 		</data>
 		<key>Frameworks/FingerprintPro.framework/VERSION</key>
 		<data>
-		NPfJBKBj0tN5HDhSHkCuFkjNLn4=
+		7QUQvKI+zQh6fJbucoOLF+K101U=
 		</data>
 		<key>Frameworks/FingerprintPro.framework/_CodeSignature/CodeResources</key>
 		<data>
-		7JyWIK9wxcrO8zZ4UOxhVutL0tg=
+		r4JA04Lfo7AIuwUN2WgScNlZTIo=
 		</data>
 		<key>Headers/Identity-Swift.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3fyi26kOt3RjiE0C30n+EG3gGQE=
+		R0DmNtbim4uDH8IZqVWzszVCv/0=
 		</data>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		s3bGZ55Qoe9tB+ClA6t0b0U8MI4=
+		KZoEuNftrJQNPbhTTZ7pnr3RjII=
 		</data>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		l4FZgBD3bGxpWR7Nss/D7zThONw=
+		ZcKBvevTjFY/qpVt6dbMTWf6fFM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,28 +81,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			flnbUHaZ9O8bs6OZe3VBnv8bZaCh0Y25fW9Mww5sPxw=
+			AgnV3B7Ucx+LVD79WWDvePr/OrpWecQOh0cLzSwCJdU=
 			</data>
 		</dict>
 		<key>Frameworks/FingerprintPro.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ShcztQeWrd6U/op4nGpva+xlKc9WBi9IqwJcIefSsTk=
+			1MvCY/h5QR3vREItseGJs+tL68Jk00GCjZeaotvCj6A=
 			</data>
 		</dict>
 		<key>Frameworks/FingerprintPro.framework/VERSION</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pCyvSlS7vieqRbbvvGNWxeKZsZdj5yi2zbcgGwLrvjY=
+			rYZQvJBX2d/YCZYbadutZAwojYCfpEQ31E2D07EYyCE=
 			</data>
 		</dict>
 		<key>Frameworks/FingerprintPro.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/7g5sTF7sIaxLVcmtBvINq7OCJNSBX7/FVI7VHUQOE=
+			fh/SmtnlOZQ2u6qqvzuMNE9DBLuDstCwP/iL+MLQsQk=
 			</data>
 		</dict>
 		<key>Headers/Identity-Swift.h</key>
@@ -123,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxKVDtTGscL8Nw5Mho9Wt+wc4zinOaQm9uI/i9IhNcs=
+			tO4lT1H6wZhtjIznUnMNTlxW5290YNrTFlXzzEzon+0=
 			</data>
 		</dict>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			omGcgXSl4FKVwRWyoSNx8lewEdCv4frjsObK4III+is=
+			6nxgQPrEEbvG1cbuHJBtX8/XoTmv7tzguZ6QPVV75FI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
