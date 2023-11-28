@@ -540,13 +540,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -1948,13 +1941,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -34988,13 +34974,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -35751,13 +35730,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -43675,34 +43647,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
         "kind": "TypeDecl",
         "name": "UIImage",
         "printedName": "UIImage",
@@ -44386,41 +44330,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       }
@@ -58053,205 +57962,16 @@
     {
       "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/CoreMLGenerated\/DocumentClassifier\/DocumentClassifier.swift",
       "kind": "Array",
-      "offset": 12401,
+      "offset": 11667,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/CoreMLGenerated\/DocumentClassifier\/DocumentClassifier.swift",
       "kind": "IntegerLiteral",
-      "offset": 12467,
+      "offset": 11733,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 734,
-      "length": 13,
-      "value": "\"camera_icon\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 876,
-      "length": 12,
-      "value": "\"check_grey\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1019,
-      "length": 13,
-      "value": "\"check_white\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1152,
-      "length": 7,
-      "value": "\"close\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1284,
-      "length": 10,
-      "value": "\"cnh_back\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1423,
-      "length": 12,
-      "value": "\"cnh_frente\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1562,
-      "length": 11,
-      "value": "\"cnh_front\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1698,
-      "length": 10,
-      "value": "\"cnh_full\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1835,
-      "length": 11,
-      "value": "\"cnh_verso\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1964,
-      "length": 6,
-      "value": "\"crlv\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2104,
-      "length": 15,
-      "value": "\"ctps_back_caf\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2255,
-      "length": 16,
-      "value": "\"ctps_front_caf\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2417,
-      "length": 21,
-      "value": "\"document_mask_green\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2580,
-      "length": 19,
-      "value": "\"document_mask_red\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2745,
-      "length": 21,
-      "value": "\"document_mask_white\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2899,
-      "length": 14,
-      "value": "\"generic_back\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3048,
-      "length": 15,
-      "value": "\"generic_front\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3196,
-      "length": 14,
-      "value": "\"invalid_icon\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3334,
-      "length": 9,
-      "value": "\"loading\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3469,
-      "length": 10,
-      "value": "\"passport\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3602,
-      "length": 9,
-      "value": "\"rg_back\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3736,
-      "length": 10,
-      "value": "\"rg_front\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3869,
-      "length": 9,
-      "value": "\"rg_full\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4003,
-      "length": 10,
-      "value": "\"rne_back\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4140,
-      "length": 11,
-      "value": "\"rne_front\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4284,
-      "length": 14,
-      "value": "\"success_icon\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Library\/Developer\/Xcode\/DerivedData\/Caf-exztxunbnibigrgpvifrpizdkpgd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/Caf.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4424,
-      "length": 10,
-      "value": "\"triangle\""
     }
   ]
 }
