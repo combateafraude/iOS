@@ -82,7 +82,8 @@ public enum Filter : Swift.Int {
 }
 public enum Time : Swift.String {
   case threeHours
-  case trirtyDays
+  case thirtyDays
+  case thirtyMin
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
