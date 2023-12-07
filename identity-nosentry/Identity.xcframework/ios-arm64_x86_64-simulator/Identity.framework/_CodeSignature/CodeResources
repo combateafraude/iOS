@@ -4,22 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/FingerprintPro.framework/FingerprintPro</key>
-		<data>
-		/Egncpg1BlNKN+TmsrWXwuO72YY=
-		</data>
-		<key>Frameworks/FingerprintPro.framework/Info.plist</key>
-		<data>
-		GYraX09L94s4C3MbT2BxqGBpgEk=
-		</data>
-		<key>Frameworks/FingerprintPro.framework/VERSION</key>
-		<data>
-		7QUQvKI+zQh6fJbucoOLF+K101U=
-		</data>
-		<key>Frameworks/FingerprintPro.framework/_CodeSignature/CodeResources</key>
-		<data>
-		rh6PEpLgpPQ9f5HKTXhzFrgIXR4=
-		</data>
 		<key>Headers/Identity-Swift.h</key>
 		<data>
 		wga1ssv72gG39A+mQWLzZDHhDBI=
@@ -30,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VvBQWd6V75IMOEFSIp16P4YDXCg=
+		j0/SkYlv1SX/8IOR8ZYToEoi/9M=
 		</data>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KZoEuNftrJQNPbhTTZ7pnr3RjII=
+		GyFt2K5n2j7BAi0QChVgFMOxjG0=
 		</data>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,11 +34,11 @@
 		</data>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cvKApQuYPDHxWIPuELQUTrVHuVQ=
+		OCpBHBmd3JILBYnIFWNmbCDrRIU=
 		</data>
 		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KZoEuNftrJQNPbhTTZ7pnr3RjII=
+		GyFt2K5n2j7BAi0QChVgFMOxjG0=
 		</data>
 		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,7 +54,7 @@
 		</data>
 		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+AUDuXGc5fkDC5qOyaIz/SkLme0=
+		qBHbVmJGMTZvAcnLxnAgq4rJjDM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,34 +81,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/FingerprintPro.framework/FingerprintPro</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/WveEfXFNxbyE3ujqhxj3bZOHzdwBUfbOuGoJLzZAD4=
-			</data>
-		</dict>
-		<key>Frameworks/FingerprintPro.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			I2OZJyxJR55emN88dLqlPnZULxRBvEyK+ULX84472zA=
-			</data>
-		</dict>
-		<key>Frameworks/FingerprintPro.framework/VERSION</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rYZQvJBX2d/YCZYbadutZAwojYCfpEQ31E2D07EYyCE=
-			</data>
-		</dict>
-		<key>Frameworks/FingerprintPro.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VkJOqBWmQpq5onVtPGNRisFix7Kyd9Fxb8c7c/632TI=
-			</data>
-		</dict>
 		<key>Headers/Identity-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -143,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tO4lT1H6wZhtjIznUnMNTlxW5290YNrTFlXzzEzon+0=
+			iquPG4c12hk8/rGs1kPnIquej0nU2UFbONyhhT84Yyw=
 			</data>
 		</dict>
 		<key>Modules/Identity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -171,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mOF1fDYreR+Wco2aCKcuv7krsN6xn3GpL5cDUHcQ3Kk=
+			aGlxTskLr5aTL2hZldoFjXtTKXtT+ZL7vRlCduQVhGw=
 			</data>
 		</dict>
 		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tO4lT1H6wZhtjIznUnMNTlxW5290YNrTFlXzzEzon+0=
+			iquPG4c12hk8/rGs1kPnIquej0nU2UFbONyhhT84Yyw=
 			</data>
 		</dict>
 		<key>Modules/Identity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -206,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VNRdyhU2m3UJehNfA1AcN5TPiMR5qlK8PBEyxbS8/lI=
+			M5sMjJo+Ksl5UIfxYbRARK/tGkdTtW6ofX0ZbgZU4XI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
