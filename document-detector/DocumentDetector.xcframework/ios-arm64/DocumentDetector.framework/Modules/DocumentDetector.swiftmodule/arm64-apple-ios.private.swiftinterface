@@ -19,7 +19,6 @@ import ImageIO
 import MobileCoreServices
 import PDFKit
 import Photos
-import Sentry
 import Swift
 import UIKit
 import VideoToolbox
