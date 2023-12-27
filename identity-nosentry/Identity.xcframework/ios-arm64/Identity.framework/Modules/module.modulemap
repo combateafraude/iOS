@@ -1,7 +1,7 @@
 framework module Identity {
   umbrella header "Identity.h"
-  export *
 
+  export *
   module * { export * }
 }
 

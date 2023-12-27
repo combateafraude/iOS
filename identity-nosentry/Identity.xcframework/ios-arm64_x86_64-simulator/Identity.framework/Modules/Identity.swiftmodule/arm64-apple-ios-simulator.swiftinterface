@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Identity
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -15,7 +15,6 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AEOTPTextField : UIKit.UITextField {
   @_Concurrency.MainActor(unsafe) public var otpDefaultCharacter: Swift.String
   @_Concurrency.MainActor(unsafe) public var otpBackgroundColor: UIKit.UIColor
@@ -37,7 +36,9 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 public typealias VerifyPolicyResponse = (isAuthorized: Swift.Bool, attestation: Swift.String)
-public typealias VerifyPolicyResult = Identity.IdentityResult<Identity.VerifyPolicyResponse, Identity.VerifyPolicyResponse, Identity.IdentityError>
+public typealias LoadingLiveness = (Swift.Bool)
+public typealias LoadedLiveness = (Swift.Bool)
+public typealias VerifyPolicyResult = Identity.IdentityResult<Identity.VerifyPolicyResponse, Identity.VerifyPolicyResponse, Identity.IdentityError, Identity.LoadingLiveness, Identity.LoadedLiveness>
 public typealias VerifyPolicyListener = (Identity.VerifyPolicyResult) -> Swift.Void
 @objc @_hasMissingDesignatedInitializers open class IdentitySDK : ObjectiveC.NSObject {
   public static let SDK_NAME: Swift.String
@@ -87,11 +88,13 @@ extension Identity.IdentityError : Foundation.LocalizedError {
     get
   }
 }
-@frozen public enum IdentityResult<Success, Pending, Failure> where Failure : Swift.Error {
+@frozen public enum IdentityResult<Success, Pending, Failure, Loading, Loaded> where Failure : Swift.Error {
   case onSuccess(Success)
   case onPending(Pending)
   case onError(Failure)
   case onCanceled(Failure)
+  case onLoading(Loading)
+  case onLoaded(Loaded)
 }
 @_hasMissingDesignatedInitializers public class OtherInfo : Swift.Codable {
   @objc deinit
