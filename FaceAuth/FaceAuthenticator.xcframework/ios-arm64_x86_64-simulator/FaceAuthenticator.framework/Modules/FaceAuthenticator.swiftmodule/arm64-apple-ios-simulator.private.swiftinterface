@@ -33,7 +33,6 @@ public protocol FaceAuthSDKDelegate {
   func didFinishSuccess(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
   func didFinishWithError(with faceAuthenticatorErrorResult: FaceAuthenticator.FaceAuthenticatorErrorResult)
   func didFinishWithCancell(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorResult)
-  func didFinishWithFail(with faceAuthenticatorResult: FaceAuthenticator.FaceAuthenticatorFailResult)
   func openLoadingScreenStartSDK()
   func closeLoadingScreenStartSDK()
   func openLoadingScreenValidation()
