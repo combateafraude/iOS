@@ -59,7 +59,6 @@ public struct FaceLivenessFailResult {
 }
 public enum StatusControll : Swift.Int {
   case sucess
-  case fail
   case cancelled
   case error
   public init?(rawValue: Swift.Int)
@@ -92,7 +91,6 @@ public enum Time : Swift.String {
 }
 public protocol FaceLivenessDelegate {
   func didFinishLiveness(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
-  func didFinishWithFail(with faceLivenessFailResult: FaceLiveness.FaceLivenessFailResult)
   func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
   func didFinishWithError(with faceLivenessErrorResult: FaceLiveness.FaceLivenessErrorResult)
   func openLoadingScreenStartSDK()
