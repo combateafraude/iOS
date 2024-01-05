@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FaceAuthenticator-Swift.h</key>
 		<data>
-		gHBckcpVhgBKeWrU+H7hn4aCG/g=
+		7ETgaw0nJFHADbTN+WGzLUQCuo8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AHcEAZh8jlC6N+ID4qQFTAaNTcs=
+		eFdQH92jcPTCgB6/S2s9QSbQaMI=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tn0iFbNk75gGGhYvE8qOdwpUmro=
+		dE0eRBh7LDqZlf6P6A8G8PO0kEk=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tn0iFbNk75gGGhYvE8qOdwpUmro=
+		dE0eRBh7LDqZlf6P6A8G8PO0kEk=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		We73LGEbeDk4hnqywSXxhgR7Iuk=
+		0GL8gEpG4mrO4TnBY9P6asciaLM=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AHcEAZh8jlC6N+ID4qQFTAaNTcs=
+		eFdQH92jcPTCgB6/S2s9QSbQaMI=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fdQ4iTHtGX5uQMNawLQUoyIInmM=
+		WlheO0P9x28NtDu7cAOjQ4pv9Bw=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fdQ4iTHtGX5uQMNawLQUoyIInmM=
+		WlheO0P9x28NtDu7cAOjQ4pv9Bw=
 		</data>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		C1qs8FswDqZDymCKXiX/1qXPasw=
+		7dMhEIZLZ0Iilw83mREy99ZC/e8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,21 +63,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VK+F88gLGvQTui9hrS1bDO+475DGZukFpy3gY+KndNk=
+			M0zqHS/JwEmAc6V9q5cpVNXLm80XiRFv8RFkDu7BkII=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Is2JYyAfMSvbTAetj/8oOC+FN5lR24u/33d6bRKtIgk=
+			j0UHaakL88fv+STO8RcuWRWTc5B5ro2Qe3RzwE3GbgU=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KVnO6Cg2UU4w3QrFJviwr/t5JvfRvslblbj0smuIXkk=
+			eo/Bf+Ri0ePPSNcB4npnat4vcuhNAgobhSbW6FzOjQY=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KVnO6Cg2UU4w3QrFJviwr/t5JvfRvslblbj0smuIXkk=
+			eo/Bf+Ri0ePPSNcB4npnat4vcuhNAgobhSbW6FzOjQY=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2trp+6WZCPpfSCmn6JgkebT9jtSdlLa3YlnPH5rnek8=
+			8Da3OVlqYAEbXELSFS5MScy3wVXh+zoDqzLSthv2ok8=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Is2JYyAfMSvbTAetj/8oOC+FN5lR24u/33d6bRKtIgk=
+			j0UHaakL88fv+STO8RcuWRWTc5B5ro2Qe3RzwE3GbgU=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjiZAdAar4EfVCkgru06GNgbU1z6sR5PvkOppW83GII=
+			y1PV4+hfSAhkIRfl30ABb7WWhTGbEyVfCRtTm4eU8+g=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjiZAdAar4EfVCkgru06GNgbU1z6sR5PvkOppW83GII=
+			y1PV4+hfSAhkIRfl30ABb7WWhTGbEyVfCRtTm4eU8+g=
 			</data>
 		</dict>
 		<key>Modules/FaceAuthenticator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TMYWNPLqxSrT8lOEK0LQDOv/hTP53Av+aS/RH9/57+w=
+			j7e5oQsRcWMWY/69JmnIRIg8xTQeYQ4dKDB2uTcBj88=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

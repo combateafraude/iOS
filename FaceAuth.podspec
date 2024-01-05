@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FaceAuth'
-  s.version          = '3.1.11'
+  s.version          = '3.1.12'
   s.summary          = 'FaceAuth'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'FaceAuth/LICENSE' }

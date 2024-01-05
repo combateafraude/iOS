@@ -281,12 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-typedef SWIFT_ENUM(NSInteger, CAFStage, open) {
-  CAFStageBETA = 0,
-  CAFStagePROD = 1,
-  CAFStageDEV = 2,
-};
-
 
 SWIFT_CLASS("_TtC17FaceAuthenticator11FaceAuthSDK")
 @interface FaceAuthSDK : NSObject
