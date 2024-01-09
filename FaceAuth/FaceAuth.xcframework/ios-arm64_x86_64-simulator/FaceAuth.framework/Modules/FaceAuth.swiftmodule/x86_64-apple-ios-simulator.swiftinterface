@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuth
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FaceLiveness
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public struct FaceAuthenticatorResult {
+  public var isAlive: Swift.Bool?
+  public var isMatch: Swift.Bool?
+  public var userId: Swift.String?
+  public var errorMessage: Swift.String?
+  public var signedResponse: Swift.String?
+}
+public struct FaceAuthenticatorErrorResult {
+  public let errorType: FaceLiveness.ErrorType?
+  public let code: Swift.Int?
+  public let description: Swift.String?
+}
+public struct FaceAuthenticatorFailResult {
+  public let errorType: FaceLiveness.FailType?
+  public let code: Swift.Int?
+  public let description: Swift.String?
+  public let signedResponse: Swift.String?
+}
+public struct FaceAuthenticatorData : Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol FaceAuthSDKDelegate {
+  func didFinishSuccess(with faceAuthenticatorResult: FaceAuth.FaceAuthenticatorResult)
+  func didFinishWithError(with faceAuthenticatorErrorResult: FaceAuth.FaceAuthenticatorErrorResult)
+  func didFinishWithCancell(with faceAuthenticatorResult: FaceAuth.FaceAuthenticatorResult)
+  func openLoadingScreenStartSDK()
+  func closeLoadingScreenStartSDK()
+  func openLoadingScreenValidation()
+  func closeLoadingScreenValidation()
+}
+@objc @_hasMissingDesignatedInitializers public class FaceAuthSDK : ObjectiveC.NSObject {
+  public var token: Swift.String
+  public var personId: Swift.String
+  public var stage: FaceLiveness.CAFStage
+  public var sdkVersion: Swift.String
+  public var filter: FaceLiveness.Filter
+  public var delegate: (any FaceAuth.FaceAuthSDKDelegate)?
+  public var withLoading: Swift.Bool
+  public var imageUrlExpirationTime: FaceLiveness.Time
+  open func startFaceAuthSDK(viewController: UIKit.UIViewController)
+  @_inheritsConvenienceInitializers @objc open class Builder : ObjectiveC.NSObject {
+    public var stage: FaceLiveness.CAFStage
+    public var sessionId: Swift.String
+    public var sdkVersion: Swift.String
+    public var withLoading: Swift.Bool
+    public var token: Swift.String
+    public var filter: FaceLiveness.Filter
+    public var personId: Swift.String
+    public var imageUrlExpirationTime: FaceLiveness.Time
+    @objc override dynamic public init()
+    open func setCredentials(token: Swift.String, personId: Swift.String) -> FaceAuth.FaceAuthSDK.Builder
+    open func setFilter(filter: FaceLiveness.Filter) -> FaceAuth.FaceAuthSDK.Builder
+    open func setImageUrlExpirationTime(time: FaceLiveness.Time) -> FaceAuth.FaceAuthSDK.Builder
+    open func setStage(stage: FaceLiveness.CAFStage) -> FaceAuth.FaceAuthSDK.Builder
+    open func setLoading(withLoading: Swift.Bool) -> FaceAuth.FaceAuthSDK.Builder
+    open func build() -> FaceAuth.FaceAuthSDK
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct FaceLivenessResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}

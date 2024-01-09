@@ -1,0 +1,4 @@
+framework module FaceAuth {
+  header "FaceAuth-Swift.h"
+  requires objc
+}
