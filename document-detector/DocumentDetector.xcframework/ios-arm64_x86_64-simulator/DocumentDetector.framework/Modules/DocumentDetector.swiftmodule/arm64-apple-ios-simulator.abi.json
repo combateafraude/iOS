@@ -46881,182 +46881,189 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11517,
+      "offset": 11519,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11629,
+      "offset": 11631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12057,
+      "offset": 12059,
       "length": 9,
       "value": "\"generic\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12550,
+      "offset": 13192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 13257,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 13265,
       "length": 4,
-      "value": "1200"
+      "value": "-1.0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12564,
-      "length": 4,
-      "value": "1200"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13310,
+      "offset": 14087,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13422,
+      "offset": 14199,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13534,
+      "offset": 14311,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 14917,
+      "offset": 15694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15337,
+      "offset": 16114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15432,
+      "offset": 16209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15645,
+      "offset": 16422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15982,
+      "offset": 16759,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16438,
+      "offset": 17215,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16591,
+      "offset": 17368,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16857,
+      "offset": 17634,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17011,
+      "offset": 17788,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17276,
+      "offset": 18053,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17431,
+      "offset": 18208,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 18087,
+      "offset": 18864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18206,
+      "offset": 18983,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18327,
+      "offset": 19104,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18447,
+      "offset": 19224,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21564,
+      "offset": 22341,
       "length": 24,
       "value": "\"Formato não suportado\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23963,
+      "offset": 24740,
       "length": 8,
       "value": "\"upload\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/refactor\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 24041,
+      "offset": 24818,
       "length": 8,
       "value": "\"upload\""
     },
