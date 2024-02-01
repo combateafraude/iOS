@@ -46132,63 +46132,63 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1765,
       "length": 58,
       "value": "\"App failed to create an image classifier model instance.\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 2246,
+      "offset": 2313,
       "length": 71,
       "value": "\"Vision image classification error...\n\n\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 2383,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
+      "offset": 2493,
       "length": 32,
       "value": "\"Vision request had no results.\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 2672,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 4561,
+      "offset": 4628,
       "length": 59,
       "value": "\"Failed to process request: \""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 4618,
+      "offset": 4685,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 5228,
+      "offset": 5295,
       "length": 54,
       "value": "\"Error: Vision request failed with error \"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImageAnalyzingPredictor.swift",
       "kind": "StringLiteral",
-      "offset": 5279,
+      "offset": 5346,
       "length": 1,
       "value": "\"\"\""
     },
@@ -46846,35 +46846,35 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8162,
+      "offset": 8311,
       "length": 39,
       "value": "\"Not able to open App privacy settings\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 9329,
+      "offset": 9478,
       "length": 44,
       "value": "\"É necessário a permissão para continuar\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10438,
+      "offset": 10587,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10550,
+      "offset": 10699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10815,
+      "offset": 10964,
       "length": 1,
       "value": "0"
     },
@@ -47959,28 +47959,28 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImagePredictor.swift",
       "kind": "StringLiteral",
-      "offset": 4317,
+      "offset": 4316,
       "length": 71,
       "value": "\"Vision image classification error...\n\n\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImagePredictor.swift",
       "kind": "StringLiteral",
-      "offset": 4387,
+      "offset": 4386,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImagePredictor.swift",
       "kind": "StringLiteral",
-      "offset": 4489,
+      "offset": 4488,
       "length": 32,
       "value": "\"Vision request had no results.\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Predictor\/ImagePredictor.swift",
       "kind": "StringLiteral",
-      "offset": 4668,
+      "offset": 4667,
       "length": 7,
       "value": "\"error\""
     },
