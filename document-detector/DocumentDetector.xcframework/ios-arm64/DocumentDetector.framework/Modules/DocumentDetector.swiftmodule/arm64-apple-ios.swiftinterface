@@ -142,9 +142,8 @@ public enum FileFormat : Swift.String {
   public func getHMACSecret() -> Swift.String
   @objc deinit
 }
-@available(iOS 13.0, *)
+@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 public class UploadValidationViewModel {
-  public init(documentDetector: DocumentDetector.DocumentDetectorSdk, uploadValidationMessage: DocumentDetector.UploadValidationMessage = .allowPermissionMessage, server: any DocumentDetector.UploadValidationDataSource = UploadValidationServer(), documentDetectorAI: DocumentDetector.DocumentDetectorAI = .init())
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc open class DocumentDetectorSdk : ObjectiveC.NSObject, Swift.Encodable {
@@ -777,22 +776,13 @@ public struct Prediction {
   @objc deinit
 }
 public typealias ValidateDocumentQualityResponse = (DocumentDetector.DocumentQualityResponse?, Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void
-public protocol UploadValidationDataSource {
-  typealias UploadResponse = (Swift.String?, Swift.Int?, Swift.String?, DocumentDetector.UploadErrorType?) -> Swift.Void
-  func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  func authorizationStatus() -> Photos.PHAuthorizationStatus
-  func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (DocumentDetector.ImageUploadResponseBody?) -> Swift.Void)
-  func verifyQualityOfImage(_ imageResponse: DocumentDetector.ImageUploadResponseBody, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
-  func compressImage(_ image: UIKit.UIImage, documentDetector: DocumentDetector.DocumentDetectorSdk) -> Foundation.Data?
-}
 public class UploadValidationServer {
   public init()
   @objc deinit
 }
-extension DocumentDetector.UploadValidationServer : DocumentDetector.UploadValidationDataSource {
+extension DocumentDetector.UploadValidationServer {
   public func requestAccessToPhotos(completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   public func authorizationStatus() -> Photos.PHAuthorizationStatus
-  public func getImageURLString(imageData: Foundation.Data, documentDetector: DocumentDetector.DocumentDetectorSdk, completion: @escaping (DocumentDetector.ImageUploadResponseBody?) -> Swift.Void)
   public func verifyQualityOfImage(_ imageResponse: DocumentDetector.ImageUploadResponseBody, documentDetector: DocumentDetector.DocumentDetectorSdk, type: Swift.String, completion: @escaping DocumentDetector.ValidateDocumentQualityResponse)
   public func compressImage(_ image: UIKit.UIImage, documentDetector: DocumentDetector.DocumentDetectorSdk) -> Foundation.Data?
 }

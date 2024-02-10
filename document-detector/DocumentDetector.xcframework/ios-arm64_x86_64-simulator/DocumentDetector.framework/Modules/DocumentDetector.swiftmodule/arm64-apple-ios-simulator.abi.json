@@ -4320,56 +4320,6 @@
         "kind": "TypeDecl",
         "name": "UploadValidationViewModel",
         "printedName": "UploadValidationViewModel",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(documentDetector:uploadValidationMessage:server:documentDetectorAI:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UploadValidationViewModel",
-                "printedName": "DocumentDetector.UploadValidationViewModel",
-                "usr": "s:16DocumentDetector25UploadValidationViewModelC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentDetectorSdk",
-                "printedName": "DocumentDetector.DocumentDetectorSdk",
-                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorSdk"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UploadValidationMessage",
-                "printedName": "DocumentDetector.UploadValidationMessage",
-                "hasDefaultArg": true,
-                "usr": "s:16DocumentDetector23UploadValidationMessageC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UploadValidationDataSource",
-                "printedName": "DocumentDetector.UploadValidationDataSource",
-                "hasDefaultArg": true,
-                "usr": "s:16DocumentDetector26UploadValidationDataSourceP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentDetectorAI",
-                "printedName": "DocumentDetector.DocumentDetectorAI",
-                "hasDefaultArg": true,
-                "usr": "s:16DocumentDetector0aB2AIC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16DocumentDetector25UploadValidationViewModelC08documentB006uploadD7Message6server0gB2AIAcA0aB3SdkC_AA0cdI0CAA0cD10DataSource_pAA0abK0Ctcfc",
-            "mangledName": "$s16DocumentDetector25UploadValidationViewModelC08documentB006uploadD7Message6server0gB2AIAcA0aB3SdkC_AA0cdI0CAA0cD10DataSource_pAA0abK0Ctcfc",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
         "declKind": "Class",
         "usr": "s:16DocumentDetector25UploadValidationViewModelC",
         "mangledName": "$s16DocumentDetector25UploadValidationViewModelC",
@@ -4378,7 +4328,8 @@
         "declAttributes": [
           "AccessControl",
           "Available"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -31493,6 +31444,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Label",
         "printedName": "Label",
@@ -37499,6 +37460,13 @@
       },
       {
         "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "DocumentDetector"
+      },
+      {
+        "kind": "Import",
         "name": "CryptoKit",
         "printedName": "CryptoKit",
         "declKind": "Import",
@@ -37665,288 +37633,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UploadValidationDataSource",
-        "printedName": "UploadValidationDataSource",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "requestAccessToPhotos",
-            "printedName": "requestAccessToPhotos(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.Bool, Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.Bool, Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector26UploadValidationDataSourceP21requestAccessToPhotos10completionyys6ResultOySbs5Error_pGc_tF",
-            "mangledName": "$s16DocumentDetector26UploadValidationDataSourceP21requestAccessToPhotos10completionyys6ResultOySbs5Error_pGc_tF",
-            "moduleName": "DocumentDetector",
-            "genericSig": "<τ_0_0 where τ_0_0 : DocumentDetector.UploadValidationDataSource>",
-            "sugared_genericSig": "<Self where Self : DocumentDetector.UploadValidationDataSource>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "authorizationStatus",
-            "printedName": "authorizationStatus()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PHAuthorizationStatus",
-                "printedName": "Photos.PHAuthorizationStatus",
-                "usr": "c:@E@PHAuthorizationStatus"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector26UploadValidationDataSourceP19authorizationStatusSo015PHAuthorizationH0VyF",
-            "mangledName": "$s16DocumentDetector26UploadValidationDataSourceP19authorizationStatusSo015PHAuthorizationH0VyF",
-            "moduleName": "DocumentDetector",
-            "genericSig": "<τ_0_0 where τ_0_0 : DocumentDetector.UploadValidationDataSource>",
-            "sugared_genericSig": "<Self where Self : DocumentDetector.UploadValidationDataSource>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getImageURLString",
-            "printedName": "getImageURLString(imageData:documentDetector:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentDetectorSdk",
-                "printedName": "DocumentDetector.DocumentDetectorSdk",
-                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorSdk"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DocumentDetector.ImageUploadResponseBody?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DocumentDetector.ImageUploadResponseBody?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ImageUploadResponseBody",
-                        "printedName": "DocumentDetector.ImageUploadResponseBody",
-                        "usr": "c:@M@DocumentDetector@objc(cs)ImageUploadResponseBody"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector26UploadValidationDataSourceP17getImageURLString05imageE008documentB010completiony10Foundation0E0V_AA0aB3SdkCyAA0hC12ResponseBodyCSgctF",
-            "mangledName": "$s16DocumentDetector26UploadValidationDataSourceP17getImageURLString05imageE008documentB010completiony10Foundation0E0V_AA0aB3SdkCyAA0hC12ResponseBodyCSgctF",
-            "moduleName": "DocumentDetector",
-            "genericSig": "<τ_0_0 where τ_0_0 : DocumentDetector.UploadValidationDataSource>",
-            "sugared_genericSig": "<Self where Self : DocumentDetector.UploadValidationDataSource>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "verifyQualityOfImage",
-            "printedName": "verifyQualityOfImage(_:documentDetector:type:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImageUploadResponseBody",
-                "printedName": "DocumentDetector.ImageUploadResponseBody",
-                "usr": "c:@M@DocumentDetector@objc(cs)ImageUploadResponseBody"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentDetectorSdk",
-                "printedName": "DocumentDetector.DocumentDetectorSdk",
-                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorSdk"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DocumentDetector.DocumentQualityResponse?, Swift.Result<Swift.Bool, Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(DocumentDetector.DocumentQualityResponse?, Swift.Result<Swift.Bool, Swift.Error>)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "DocumentDetector.DocumentQualityResponse?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DocumentQualityResponse",
-                            "printedName": "DocumentDetector.DocumentQualityResponse",
-                            "usr": "s:16DocumentDetector0A15QualityResponseV"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "Swift.Result<Swift.Bool, Swift.Error>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:s6ResultO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector26UploadValidationDataSourceP20verifyQualityOfImage_08documentB04type10completionyAA0jC12ResponseBodyC_AA0aB3SdkCSSyAA0ahN0VSg_s6ResultOySbs5Error_pGtctF",
-            "mangledName": "$s16DocumentDetector26UploadValidationDataSourceP20verifyQualityOfImage_08documentB04type10completionyAA0jC12ResponseBodyC_AA0aB3SdkCSSyAA0ahN0VSg_s6ResultOySbs5Error_pGtctF",
-            "moduleName": "DocumentDetector",
-            "genericSig": "<τ_0_0 where τ_0_0 : DocumentDetector.UploadValidationDataSource>",
-            "sugared_genericSig": "<Self where Self : DocumentDetector.UploadValidationDataSource>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "compressImage",
-            "printedName": "compressImage(_:documentDetector:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentDetectorSdk",
-                "printedName": "DocumentDetector.DocumentDetectorSdk",
-                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorSdk"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector26UploadValidationDataSourceP13compressImage_08documentB010Foundation0E0VSgSo7UIImageC_AA0aB3SdkCtF",
-            "mangledName": "$s16DocumentDetector26UploadValidationDataSourceP13compressImage_08documentB010Foundation0E0VSgSo7UIImageC_AA0aB3SdkCtF",
-            "moduleName": "DocumentDetector",
-            "genericSig": "<τ_0_0 where τ_0_0 : DocumentDetector.UploadValidationDataSource>",
-            "sugared_genericSig": "<Self where Self : DocumentDetector.UploadValidationDataSource>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:16DocumentDetector26UploadValidationDataSourceP",
-        "mangledName": "$s16DocumentDetector26UploadValidationDataSourceP",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UploadValidationServer",
         "printedName": "UploadValidationServer",
         "children": [
@@ -38039,65 +37725,6 @@
             "declKind": "Func",
             "usr": "s:16DocumentDetector22UploadValidationServerC19authorizationStatusSo015PHAuthorizationG0VyF",
             "mangledName": "$s16DocumentDetector22UploadValidationServerC19authorizationStatusSo015PHAuthorizationG0VyF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getImageURLString",
-            "printedName": "getImageURLString(imageData:documentDetector:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DocumentDetectorSdk",
-                "printedName": "DocumentDetector.DocumentDetectorSdk",
-                "usr": "c:@M@DocumentDetector@objc(cs)DocumentDetectorSdk"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DocumentDetector.ImageUploadResponseBody?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DocumentDetector.ImageUploadResponseBody?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ImageUploadResponseBody",
-                        "printedName": "DocumentDetector.ImageUploadResponseBody",
-                        "usr": "c:@M@DocumentDetector@objc(cs)ImageUploadResponseBody"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector22UploadValidationServerC17getImageURLString9imageData08documentB010completiony10Foundation0J0V_AA0aB3SdkCyAA0gC12ResponseBodyCSgctF",
-            "mangledName": "$s16DocumentDetector22UploadValidationServerC17getImageURLString9imageData08documentB010completiony10Foundation0J0V_AA0aB3SdkCyAA0gC12ResponseBodyCSgctF",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "AccessControl"
@@ -38246,15 +37873,6 @@
         "moduleName": "DocumentDetector",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "UploadValidationDataSource",
-            "printedName": "UploadValidationDataSource",
-            "usr": "s:16DocumentDetector26UploadValidationDataSourceP",
-            "mangledName": "$s16DocumentDetector26UploadValidationDataSourceP"
-          }
         ]
       },
       {
@@ -44893,1085 +44511,1092 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22723,
+      "offset": 22714,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22874,
+      "offset": 22865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23330,
+      "offset": 23321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23843,
+      "offset": 23834,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 24538,
+      "length": 18,
+      "value": "\"DOCUMENT_QUALITY\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24389,
+      "offset": 24682,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24462,
+      "offset": 24755,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24562,
+      "offset": 24855,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24632,
+      "offset": 24925,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24648,
+      "offset": 24941,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24729,
+      "offset": 25022,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24820,
+      "offset": 25113,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25016,
+      "offset": 25309,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25329,
+      "offset": 25622,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25337,
+      "offset": 25630,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25458,
+      "offset": 25751,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28037,
+      "offset": 28330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28180,
+      "offset": 28473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28437,
+      "offset": 28730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28609,
+      "offset": 28902,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28750,
+      "offset": 29043,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29372,
+      "offset": 29665,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29554,
+      "offset": 29847,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29718,
+      "offset": 30011,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29900,
+      "offset": 30193,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30431,
+      "offset": 30724,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30731,
+      "offset": 31024,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30809,
+      "offset": 31102,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31170,
+      "offset": 31463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31426,
+      "offset": 31719,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31713,
+      "offset": 32006,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31816,
+      "offset": 32109,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32207,
+      "offset": 32500,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32233,
+      "offset": 32526,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32241,
+      "offset": 32534,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32305,
+      "offset": 32598,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32308,
+      "offset": 32601,
       "length": 14,
       "value": "\"retrievedOcr\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32722,
+      "offset": 33015,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33225,
+      "offset": 33518,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33334,
+      "offset": 33627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33396,
+      "offset": 33689,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33407,
+      "offset": 33700,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33563,
+      "offset": 33856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33625,
+      "offset": 33918,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33855,
+      "offset": 34148,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34142,
+      "offset": 34435,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34195,
+      "offset": 34488,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34768,
+      "offset": 35061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34983,
+      "offset": 35276,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35109,
+      "offset": 35402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35217,
+      "offset": 35510,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35490,
+      "offset": 35783,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35655,
+      "offset": 35948,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35780,
+      "offset": 36073,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35796,
+      "offset": 36089,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35935,
+      "offset": 36228,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 36043,
+      "offset": 36336,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 36495,
+      "offset": 36788,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 36552,
+      "offset": 36845,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 36619,
+      "offset": 36912,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36683,
+      "offset": 36976,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36737,
+      "offset": 37030,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 36753,
+      "offset": 37046,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36862,
+      "offset": 37155,
       "length": 9,
       "value": "\"Preview\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37099,
+      "offset": 37392,
       "length": 23,
       "value": "\"PreviewViewController\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37831,
+      "offset": 38124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37894,
+      "offset": 38187,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37979,
+      "offset": 38272,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38143,
+      "offset": 38436,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38708,
+      "offset": 39001,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38855,
+      "offset": 39148,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38904,
+      "offset": 39197,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38920,
+      "offset": 39213,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39041,
+      "offset": 39334,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39099,
+      "offset": 39392,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39160,
+      "offset": 39453,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39427,
+      "offset": 39720,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39503,
+      "offset": 39796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 40257,
+      "offset": 40550,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 40263,
+      "offset": 40556,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 40283,
+      "offset": 40576,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41077,
+      "offset": 41370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41119,
+      "offset": 41412,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41180,
+      "offset": 41473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 41997,
+      "offset": 42290,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 42104,
+      "offset": 42397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 42161,
+      "offset": 42454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42382,
+      "offset": 42675,
       "length": 23,
       "value": "\"PopupDocumentDetector\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42523,
+      "offset": 42816,
       "length": 33,
       "value": "\"PopupDocumentDetectorController\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 43396,
+      "offset": 43689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 43445,
+      "offset": 43738,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 43630,
+      "offset": 43923,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 43747,
+      "offset": 44040,
       "length": 5,
       "value": "\"mp3\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 43995,
+      "offset": 44288,
       "length": 20,
       "value": "\"soundpath not find\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 44137,
+      "offset": 44430,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 44989,
+      "offset": 45282,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45061,
+      "offset": 45354,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45182,
+      "offset": 45475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45271,
+      "offset": 45564,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45509,
+      "offset": 45802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45550,
+      "offset": 45843,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45557,
+      "offset": 45850,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45688,
+      "offset": 45981,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45729,
+      "offset": 46022,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45736,
+      "offset": 46029,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45987,
+      "offset": 46280,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 46288,
+      "offset": 46581,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 46294,
+      "offset": 46587,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 46435,
+      "offset": 46728,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 46441,
+      "offset": 46734,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 47433,
+      "offset": 47726,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 47640,
+      "offset": 47933,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 47924,
+      "offset": 48217,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 48131,
+      "offset": 48424,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48762,
+      "offset": 49055,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 48816,
+      "offset": 49109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 48822,
+      "offset": 49115,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 49704,
+      "offset": 49997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50675,
+      "offset": 50968,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50804,
+      "offset": 51097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 51039,
+      "offset": 51332,
       "length": 4,
       "value": "1108"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51229,
+      "offset": 51522,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 51345,
+      "offset": 51638,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 51399,
+      "offset": 51692,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51415,
+      "offset": 51708,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51546,
+      "offset": 51839,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51612,
+      "offset": 51905,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51685,
+      "offset": 51978,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51748,
+      "offset": 52041,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51814,
+      "offset": 52107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 52174,
+      "offset": 52467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 52519,
+      "offset": 52812,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 52586,
+      "offset": 52879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 52893,
+      "offset": 53186,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 52951,
+      "offset": 53244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 52967,
+      "offset": 53260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53038,
+      "offset": 53331,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53209,
+      "offset": 53502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53273,
+      "offset": 53566,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53428,
+      "offset": 53721,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53572,
+      "offset": 53865,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53713,
+      "offset": 54006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53846,
+      "offset": 54139,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53886,
+      "offset": 54179,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 55475,
+      "offset": 55768,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 55598,
+      "offset": 55891,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 55963,
+      "offset": 56256,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 56022,
+      "offset": 56315,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 56580,
+      "offset": 56873,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 56733,
+      "offset": 57026,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 56974,
+      "offset": 57267,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 57175,
+      "offset": 57468,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 58028,
+      "offset": 58321,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 58389,
+      "offset": 58682,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 58455,
+      "offset": 58748,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 58541,
+      "offset": 58834,
       "length": 5,
       "value": "false"
     },
@@ -45985,14 +45610,14 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Model\/Response\/ImageUploadResponseBody.swift",
       "kind": "StringLiteral",
-      "offset": 715,
+      "offset": 745,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Model\/Response\/ImageUploadResponseBody.swift",
       "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 795,
       "length": 8,
       "value": "\"bucket\""
     },
@@ -46272,21 +45897,28 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 4618,
+      "offset": 4333,
+      "length": 11,
+      "value": "\"LOG EVENT\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Analytics\/Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 4727,
       "length": 33,
       "value": "\"[Analytics] Failed to log event\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4719,
+      "offset": 4828,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Analytics\/Analytics.swift",
       "kind": "IntegerLiteral",
-      "offset": 4727,
+      "offset": 4836,
       "length": 3,
       "value": "299"
     },
@@ -46321,28 +45953,28 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Input\/UploadSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 286,
+      "offset": 405,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Input\/UploadSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 444,
+      "offset": 563,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Input\/UploadSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 475,
+      "offset": 594,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Input\/UploadSettings.swift",
       "kind": "IntegerLiteral",
-      "offset": 569,
+      "offset": 688,
       "length": 8,
       "value": "10000000"
     },
@@ -46825,245 +46457,245 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6112,
+      "offset": 6105,
       "length": 8,
       "value": "\"cancel\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6838,
+      "offset": 6831,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6872,
+      "offset": 6865,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 8311,
+      "offset": 8304,
       "length": 39,
       "value": "\"Not able to open App privacy settings\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 9478,
+      "offset": 9471,
       "length": 44,
       "value": "\"É necessário a permissão para continuar\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10587,
+      "offset": 10617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10699,
+      "offset": 10729,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10964,
+      "offset": 10994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11659,
+      "offset": 11741,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11771,
+      "offset": 11853,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12199,
+      "offset": 12281,
       "length": 9,
       "value": "\"generic\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13332,
+      "offset": 13414,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 13397,
+      "offset": 13479,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 13405,
+      "offset": 13487,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14227,
+      "offset": 14309,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14339,
+      "offset": 14421,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14451,
+      "offset": 14533,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15834,
+      "offset": 15963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16254,
+      "offset": 16383,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16349,
+      "offset": 16478,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16562,
+      "offset": 16691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16899,
+      "offset": 17028,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17355,
+      "offset": 17484,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17508,
+      "offset": 17637,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17774,
+      "offset": 17903,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17928,
+      "offset": 18057,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18193,
+      "offset": 18322,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18348,
+      "offset": 18477,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 19004,
+      "offset": 19133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19123,
+      "offset": 19252,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19244,
+      "offset": 19373,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19364,
+      "offset": 19493,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22323,
+      "offset": 22559,
       "length": 24,
       "value": "\"Formato não suportado\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 24722,
+      "offset": 25019,
       "length": 8,
       "value": "\"upload\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 24800,
+      "offset": 25097,
       "length": 8,
       "value": "\"upload\""
     },
@@ -53179,6 +52811,27 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Analytics\/DebugMode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Analytics\/DebugMode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 340,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Analytics\/DebugMode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 416,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Model\/Label.swift",
       "kind": "StringLiteral",
       "offset": 246,
@@ -54042,21 +53695,21 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3079,
+      "offset": 3033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3426,
+      "offset": 3380,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3855,
+      "offset": 3809,
       "length": 4,
       "value": "true"
     },
@@ -54070,42 +53723,42 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "Dictionary",
-      "offset": 4478,
+      "offset": 4432,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4872,
+      "offset": 4826,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5427,
+      "offset": 5381,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5901,
+      "offset": 5855,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6780,
+      "offset": 6734,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7064,
+      "offset": 7018,
       "length": 4,
       "value": "true"
     },
@@ -54253,237 +53906,258 @@
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
       "offset": 2957,
+      "length": 113,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 2960,
       "length": 43,
       "value": "\"uploadValidation_invalidSizeError-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
+      "offset": 3018,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 3068,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 3106,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3273,
+      "offset": 3329,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3345,
+      "offset": 3401,
       "length": 45,
       "value": "\"uploadValidation_invalidDocumentError-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3427,
+      "offset": 3483,
       "length": 47,
       "value": "\"uploadValidation_invalidDocumentError-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3524,
+      "offset": 3580,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3769,
+      "offset": 3825,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3841,
+      "offset": 3897,
       "length": 50,
       "value": "\"uploadValidation_invalidFrontDocumentError-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 3984,
       "length": 52,
       "value": "\"uploadValidation_invalidFrontDocumentError-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4030,
+      "offset": 4086,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4275,
+      "offset": 4331,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4347,
+      "offset": 4403,
       "length": 54,
       "value": "\"uploadValidation_invalidFrontDocumentErrorFull-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4438,
+      "offset": 4494,
       "length": 56,
       "value": "\"uploadValidation_invalidFrontDocumentErrorFull-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 4600,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4789,
+      "offset": 4845,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4861,
+      "offset": 4917,
       "length": 49,
       "value": "\"uploadValidation_invalidBackDocumentError-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 4947,
+      "offset": 5003,
       "length": 51,
       "value": "\"uploadValidation_invalidBackDocumentError-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5048,
+      "offset": 5104,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5292,
+      "offset": 5348,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5364,
+      "offset": 5420,
       "length": 53,
       "value": "\"uploadValidation_invalidBackDocumentErrorFull-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5454,
+      "offset": 5510,
       "length": 55,
       "value": "\"uploadValidation_invalidBackDocumentErrorFull-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5559,
+      "offset": 5615,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5804,
+      "offset": 5860,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5876,
+      "offset": 5932,
       "length": 54,
       "value": "\"uploadValidation_invalidFullDocumentErrorFront-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5967,
+      "offset": 6023,
       "length": 56,
       "value": "\"uploadValidation_invalidFullDocumentErrorFront-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6073,
+      "offset": 6129,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6317,
+      "offset": 6373,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6389,
+      "offset": 6445,
       "length": 53,
       "value": "\"uploadValidation_invalidFullDocumentErrorBack-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6479,
+      "offset": 6535,
       "length": 55,
       "value": "\"uploadValidation_invalidFullDocumentErrorBack-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6584,
+      "offset": 6640,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6806,
+      "offset": 6862,
       "length": 36,
       "value": "\"uploadValidation_invalid-imageName\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6878,
+      "offset": 6934,
       "length": 44,
       "value": "\"uploadValidation_invalidQualityError-title\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6959,
+      "offset": 7015,
       "length": 46,
       "value": "\"uploadValidation_invalidQualityError-message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/Model\/UploadValidationMessage.swift",
       "kind": "StringLiteral",
-      "offset": 7055,
+      "offset": 7111,
       "length": 48,
       "value": "\"uploadValidation_allowanceButtonTitle-tryAgain\""
     },
@@ -54721,525 +54395,658 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 501,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 537,
+      "offset": 551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 594,
+      "offset": 589,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 621,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 655,
+      "offset": 735,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 910,
+      "offset": 990,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 1050,
+      "offset": 1130,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 1090,
+      "offset": 1170,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 1276,
+      "offset": 1356,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 1498,
+      "offset": 1578,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 1542,
+      "offset": 1622,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 1983,
+      "offset": 2063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 2066,
+      "offset": 2146,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 2249,
+      "offset": 2329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 2526,
+      "offset": 2606,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 3466,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4171,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4603,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5516,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6669,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 7142,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7946,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8315,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9529,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11008,
+      "offset": 3591,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 11834,
+      "offset": 3645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4323,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4755,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5713,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5767,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6962,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7016,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 7486,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8335,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8389,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8755,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9997,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10051,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11572,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11626,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12449,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 12473,
+      "offset": 13088,
       "length": 31,
       "value": "\"api.mobile.combateafraude.com\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 12635,
+      "offset": 13250,
       "length": 15,
       "value": "\"AmazonRootCA1\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 12667,
+      "offset": 13282,
       "length": 5,
       "value": "\"cer\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 13588,
+      "offset": 14203,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 14280,
+      "offset": 14509,
+      "length": 27,
+      "value": "\"HANDLE_RESPONSE_UNDECODED\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14599,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 14833,
+      "length": 17,
+      "value": "\"HANDLE_RESPONSE\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14918,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 15203,
       "length": 9,
       "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "Array",
-      "offset": 14593,
+      "offset": 15516,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 15485,
+      "offset": 16408,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 16263,
+      "offset": 17186,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 16315,
+      "offset": 17238,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 16606,
+      "offset": 17529,
       "length": 19,
       "value": "\"Content-Signature\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 16735,
+      "offset": 17658,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 17060,
+      "offset": 17983,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "BooleanLiteral",
-      "offset": 17313,
+      "offset": 18236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 17548,
+      "offset": 18471,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 17584,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 17786,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 18088,
-      "length": 19,
-      "value": "\"Content-Signature\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
-      "kind": "BooleanLiteral",
       "offset": 18507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 18709,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 19246,
+      "length": 19,
+      "value": "\"Content-Signature\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19665,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 18737,
+      "offset": 19895,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 18773,
+      "offset": 19931,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 18975,
+      "offset": 20133,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 19587,
+      "offset": 20971,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 19623,
+      "offset": 21007,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 19982,
+      "offset": 21366,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 20763,
+      "offset": 22147,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 20799,
+      "offset": 22183,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 21037,
+      "offset": 22421,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 21428,
+      "offset": 22812,
       "length": 19,
       "value": "\"Content-Signature\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 21629,
+      "offset": 23013,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 22805,
+      "offset": 24189,
       "length": 8,
       "value": "\"%02hhx\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 23600,
+      "offset": 24984,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 23624,
+      "offset": 25008,
       "length": 12,
       "value": "\"HTTPEnable\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 23722,
+      "offset": 25106,
       "length": 11,
       "value": "\"HTTPProxy\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 23815,
+      "offset": 25199,
       "length": 10,
       "value": "\"HTTPPort\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 23866,
+      "offset": 25250,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 23890,
+      "offset": 25274,
       "length": 13,
       "value": "\"HTTPSEnable\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 23989,
+      "offset": 25373,
       "length": 12,
       "value": "\"HTTPSProxy\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 24083,
+      "offset": 25467,
       "length": 11,
       "value": "\"HTTPSPort\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25044,
-      "length": 9,
-      "value": "\"uploads\""
+      "offset": 26435,
+      "length": 11,
+      "value": "\"\/v1\/sdks\/\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25247,
+      "offset": 26636,
       "length": 96,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25269,
+      "offset": 26658,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25283,
+      "offset": 26672,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25300,
+      "offset": 26689,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25314,
+      "offset": 26703,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25334,
+      "offset": 26723,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 25342,
+      "offset": 26731,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 26942,
+      "length": 96,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 26964,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 26978,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 26995,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 27009,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 27029,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
+      "kind": "StringLiteral",
+      "offset": 27037,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 26115,
+      "offset": 28282,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "IntegerLiteral",
-      "offset": 26199,
+      "offset": 28366,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/Controller\/Server\/Server.swift",
       "kind": "StringLiteral",
-      "offset": 113,
+      "offset": 127,
       "length": 6,
       "value": "\"DocumentDetector.Server\""
     },
@@ -55309,175 +55116,196 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "StringLiteral",
-      "offset": 2438,
+      "offset": 2485,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 2518,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2689,
+      "offset": 2768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
+      "kind": "StringLiteral",
+      "offset": 2838,
+      "length": 14,
+      "value": "\"IMAGE_UPLOAD\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3346,
+      "offset": 3565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3374,
+      "offset": 3593,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3382,
+      "offset": 3601,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3409,
+      "offset": 3628,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3436,
+      "offset": 3655,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3444,
+      "offset": 3663,
       "length": 3,
       "value": "499"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3471,
+      "offset": 3690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3503,
+      "offset": 3722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "StringLiteral",
-      "offset": 3945,
+      "offset": 4191,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "StringLiteral",
-      "offset": 3984,
+      "offset": 4230,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 4264,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "Array",
-      "offset": 4056,
+      "offset": 4302,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 4754,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
+      "kind": "StringLiteral",
+      "offset": 4806,
+      "length": 14,
+      "value": "\"UPLOAD TO S3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5324,
+      "offset": 5682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
+      "kind": "StringLiteral",
+      "offset": 5769,
+      "length": 18,
+      "value": "\"DOCUMENT_QUALITY\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5652,
+      "offset": 6128,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 6178,
+      "offset": 6654,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6210,
+      "offset": 6686,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6218,
+      "offset": 6694,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6528,
+      "offset": 7004,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7714,
+      "offset": 8190,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7778,
+      "offset": 8254,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/mobile-ios-sdk\/DocumentDetector\/UploadValidation\/UploadValidationServer.swift",
       "kind": "FloatLiteral",
-      "offset": 8883,
+      "offset": 9412,
       "length": 3,
       "value": "0.3"
     },
