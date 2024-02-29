@@ -453,6 +453,13 @@ SWIFT_CLASS("_TtC16DocumentDetector30DocumentDetectorViewController")
 
 
 
+SWIFT_CLASS("_TtC16DocumentDetector22DocumentFeedbackColors")
+@interface DocumentFeedbackColors : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector19DocumentOverlayView")
 @interface DocumentOverlayView : UIView
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -500,6 +507,7 @@ typedef SWIFT_ENUM(NSInteger, Mask, open) {
   MaskNormal = 0,
   MaskSuccess = 1,
   MaskError = 2,
+  MaskManual = 3,
 };
 
 typedef SWIFT_ENUM(NSInteger, MaskType, open) {
@@ -536,18 +544,8 @@ SWIFT_CLASS("_TtC16DocumentDetector13ProxySettings")
 @end
 
 typedef SWIFT_ENUM(NSInteger, Resolution, open) {
-  ResolutionLow = 0,
-  ResolutionMedium = 1,
-  ResolutionHigh = 2,
-  ResolutionPhoto = 3,
-  ResolutionInputPriority = 4,
-  ResolutionHd1280x720 = 5,
-  ResolutionHd1920x1080 = 6,
-  ResolutionHd4K3840x2160 = 7,
-  ResolutionIFrame960x540 = 8,
-  ResolutionIFrame1280x720 = 9,
-  ResolutionVga640x480 = 10,
-  ResolutionCif352x288 = 11,
+  ResolutionFULL_HD = 0,
+  ResolutionULTRA_HD = 1,
 };
 
 
@@ -573,6 +571,8 @@ SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
@@ -610,7 +610,6 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 @end
-
 
 
 typedef SWIFT_ENUM(NSInteger, ValidationFailure, open) {
