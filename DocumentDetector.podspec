@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
  
   
   s.swift_version = '5.3.2'
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.ios.vendored_frameworks = 'document-detector/DocumentDetector.xcframework'
   
   s.dependency 'TensorFlowLiteSwift', '2.14.0'
