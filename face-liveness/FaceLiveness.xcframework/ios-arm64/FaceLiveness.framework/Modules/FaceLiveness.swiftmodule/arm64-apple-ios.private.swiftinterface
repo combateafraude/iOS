@@ -2,12 +2,24 @@
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLiveness
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import FingerprintPro
 import Foundation
+import Security
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
 import iProov
+public enum CafResult<LivenessResult, SDKFailure> {
+  case sucess(LivenessResult)
+  case error(SDKFailure)
+  case canceled
+}
+public struct SDKFailure {
+  public let errorType: FaceLiveness.ErrorType?
+  public let code: Swift.Int?
+  public let description: Swift.String?
+}
 public enum ErrorType {
   case getToken
   case livenessError
@@ -33,8 +45,6 @@ public enum FailType {
     get
   }
 }
-public struct FaceLivenessReport {
-}
 public struct FaceLivenessResult {
   public let signedResponse: Swift.String?
 }
@@ -43,10 +53,7 @@ public struct FaceLivenessErrorResult {
   public let code: Swift.Int?
   public let description: Swift.String?
 }
-public struct FaceLivenessFailResult {
-  public let failType: FaceLiveness.FailType?
-  public let code: Swift.Int?
-  public let description: Swift.String?
+public struct LivenessResult {
   public let signedResponse: Swift.String?
 }
 @objc public enum CAFStage : Swift.Int {
@@ -54,6 +61,20 @@ public struct FaceLivenessFailResult {
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class FaceLivenessSDKViewModel {
+  public func launchSDKHelper(completion: @escaping (FaceLiveness.CafResult<FaceLiveness.LivenessResult, FaceLiveness.SDKFailure>) -> Swift.Void)
+  @objc deinit
+}
+public enum LivenessState : Swift.String {
+  case connecting
+  case connected
+  case closed
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -67,9 +88,24 @@ public enum StatusControll : Swift.Int {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class FaceLivenessSDKViewModel {
-  public func launchSDKHelper(completion: @escaping (FaceLiveness.FaceLivenessReport, FaceLiveness.StatusControll) -> Swift.Void)
-  @objc deinit
+public enum ResourceType : Swift.String {
+  case liveness
+  case authentication
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SdkType : Swift.String {
+  case Native
+  case ReactNative
+  case Flutter
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public enum Filter : Swift.Int {
   case lineDrawing, natural
@@ -89,34 +125,43 @@ public enum Time : Swift.String {
     get
   }
 }
-public protocol FaceLivenessDelegate {
+public protocol FaceLivenessDelegate : AnyObject {
+  @available(*, deprecated, message: "Use didFinishLiveness(with livenessResult: LivenessResult) instead.")
   func didFinishLiveness(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  @available(*, deprecated, message: "Use didFinishWithCancelled() instead.")
   func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
+  @available(*, deprecated, message: "Use didFinishWithError(with sdkFailure: SDKFailure) instead.")
   func didFinishWithError(with faceLivenessErrorResult: FaceLiveness.FaceLivenessErrorResult)
+  func didFinishLiveness(with livenessResult: FaceLiveness.LivenessResult)
+  func didFinishWithCancelled()
+  func didFinishWithError(with sdkFailure: FaceLiveness.SDKFailure)
   func openLoadingScreenStartSDK()
   func closeLoadingScreenStartSDK()
   func openLoadingScreenValidation()
   func closeLoadingScreenValidation()
+  func onConnectionChanged(_ state: FaceLiveness.LivenessState)
 }
 @objc @_hasMissingDesignatedInitializers open class FaceLivenessSDK : ObjectiveC.NSObject {
-  public static let SDK_NAME: Swift.String
-  public var mobileToken: Swift.String
-  public var personId: Swift.String
   public var stage: FaceLiveness.CAFStage
   public var sdkVersion: Swift.String
   public var filter: FaceLiveness.Filter
   public var withLoading: Swift.Bool
   public var imageUrlExpirationTime: FaceLiveness.Time
-  public var delegate: (any FaceLiveness.FaceLivenessDelegate)?
-  open func startSDK(viewController: UIKit.UIViewController)
+  public var sdkType: FaceLiveness.SdkType {
+    get
+    set
+  }
+  public var resourceType: FaceLiveness.ResourceType {
+    get
+    set
+  }
+  weak public var delegate: (any FaceLiveness.FaceLivenessDelegate)?
+  open func startSDK(viewController: UIKit.UIViewController, mobileToken: Swift.String, personId: Swift.String, debugEnabled: Swift.Bool = false)
   @_inheritsConvenienceInitializers @objc open class Build : ObjectiveC.NSObject {
-    public var mobileToken: Swift.String
-    public var personId: Swift.String
     public var imageUrlExpirationTime: FaceLiveness.Time
     @objc override dynamic public init()
     open func setStage(stage: FaceLiveness.CAFStage) -> FaceLiveness.FaceLivenessSDK.Build
     open func setFilter(filter: FaceLiveness.Filter) -> FaceLiveness.FaceLivenessSDK.Build
-    open func setCredentials(mobileToken: Swift.String, personId: Swift.String) -> FaceLiveness.FaceLivenessSDK.Build
     open func setImageUrlExpirationTime(time: FaceLiveness.Time) -> FaceLiveness.FaceLivenessSDK.Build
     open func setLoadingScreen(withLoading: Swift.Bool) -> FaceLiveness.FaceLivenessSDK.Build
     open func build() -> FaceLiveness.FaceLivenessSDK
@@ -131,9 +176,18 @@ extension FaceLiveness.FailType : Swift.Hashable {}
 extension FaceLiveness.CAFStage : Swift.Equatable {}
 extension FaceLiveness.CAFStage : Swift.Hashable {}
 extension FaceLiveness.CAFStage : Swift.RawRepresentable {}
+extension FaceLiveness.LivenessState : Swift.Equatable {}
+extension FaceLiveness.LivenessState : Swift.Hashable {}
+extension FaceLiveness.LivenessState : Swift.RawRepresentable {}
 extension FaceLiveness.StatusControll : Swift.Equatable {}
 extension FaceLiveness.StatusControll : Swift.Hashable {}
 extension FaceLiveness.StatusControll : Swift.RawRepresentable {}
+extension FaceLiveness.ResourceType : Swift.Equatable {}
+extension FaceLiveness.ResourceType : Swift.Hashable {}
+extension FaceLiveness.ResourceType : Swift.RawRepresentable {}
+extension FaceLiveness.SdkType : Swift.Equatable {}
+extension FaceLiveness.SdkType : Swift.Hashable {}
+extension FaceLiveness.SdkType : Swift.RawRepresentable {}
 extension FaceLiveness.Filter : Swift.Equatable {}
 extension FaceLiveness.Filter : Swift.Hashable {}
 extension FaceLiveness.Filter : Swift.RawRepresentable {}
