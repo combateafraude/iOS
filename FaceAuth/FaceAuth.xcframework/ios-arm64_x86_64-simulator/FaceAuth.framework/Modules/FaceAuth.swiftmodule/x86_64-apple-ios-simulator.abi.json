@@ -1251,8 +1251,8 @@
           },
           {
             "kind": "Function",
-            "name": "didFinishWithCancelled",
-            "printedName": "didFinishWithCancelled()",
+            "name": "didFinishFaceAuthWithCancelled",
+            "printedName": "didFinishFaceAuthWithCancelled()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1261,8 +1261,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8FaceAuth0aB11SDKDelegateP22didFinishWithCancelledyyF",
-            "mangledName": "$s8FaceAuth0aB11SDKDelegateP22didFinishWithCancelledyyF",
+            "usr": "s:8FaceAuth0aB11SDKDelegateP09didFinishaB13WithCancelledyyF",
+            "mangledName": "$s8FaceAuth0aB11SDKDelegateP09didFinishaB13WithCancelledyyF",
             "moduleName": "FaceAuth",
             "genericSig": "<τ_0_0 where τ_0_0 : FaceAuth.FaceAuthSDKDelegate>",
             "sugared_genericSig": "<Self where Self : FaceAuth.FaceAuthSDKDelegate>",
@@ -3199,49 +3199,49 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1596,
+      "offset": 1591,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2265,
+      "offset": 2260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3411,
+      "offset": 3406,
       "length": 2,
       "value": "08"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3428,
+      "offset": 3423,
       "length": 22,
       "value": "\"Error to bind result\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3817,
+      "offset": 3812,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4016,
+      "offset": 4011,
       "length": 2,
       "value": "08"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4344,
+      "offset": 4339,
       "length": 2,
       "value": "01"
     },
@@ -3250,7 +3250,7 @@
       "kind": "StringLiteral",
       "offset": 395,
       "length": 46,
-      "value": "\"4.0.0-iOS-\""
+      "value": "\"4.0.1-iOS-\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Models\/Constants.swift",
@@ -3262,35 +3262,35 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 2255,
+      "offset": 2263,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2292,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2311,
+      "offset": 2319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2368,
+      "offset": 2376,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
-      "offset": 545,
+      "offset": 553,
       "length": 11,
       "value": "\"FaceAuth.FaceAuthSDK\""
     },

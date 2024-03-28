@@ -37,7 +37,7 @@ public enum FASdkType : Swift.String {
 public protocol FaceAuthSDKDelegate {
   func didFinishSuccess(with faceAuthenticatorResult: FaceAuth.FaceAuthenticatorResult)
   func didFinishWithError(with faceAuthenticatorErrorResult: FaceAuth.FaceAuthenticatorErrorResult)
-  func didFinishWithCancelled()
+  func didFinishFaceAuthWithCancelled()
   func openLoadingScreenStartSDK()
   func closeLoadingScreenStartSDK()
   func openLoadingScreenValidation()
