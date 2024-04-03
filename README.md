@@ -9,7 +9,7 @@
 | SDK | Framework |
 | ------- | ------------- |
 | [DocumentDetector](https://docs.caf.io/sdks/ios/getting-started/documentdetector) | `pod 'DocumentDetector', '8.1.4'` |
-| [FaceAuth](https://docs.caf.io/sdks/ios/getting-started/faceliveness) | `pod 'FaceAuth', '4.0.1'` |
+| [FaceAuth](https://docs.caf.io/sdks/ios/getting-started/faceauth) | `pod 'FaceAuth', '4.0.1'` |
 | [FaceLiveness](https://docs.caf.io/sdks/ios/getting-started/faceliveness) | `pod 'FaceLiveness', '4.0.0'` |
 
 #### Requirements
