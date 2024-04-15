@@ -8,17 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DocumentDetector'
-  s.version          = '9.0.0'
+  s.version          = '8.1.5'
   s.summary          = 'DocumentDetector'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'document-detector/LICENSE' }
   s.author           = { 'services@caf.io' => 'services@caf.io' }
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
- 
-  
+
+
   s.swift_version = '5.3.2'
   s.ios.deployment_target = '12.0'
-  s.ios.vendored_frameworks = 'document-detector/DocumentDetector.xcframework'
-  
-  s.dependency 'TensorFlowLiteSwift', '2.14.0'
+  s.ios.vendored_frameworks = 'document-detector-old/DocumentDetector.xcframework'
+
 end

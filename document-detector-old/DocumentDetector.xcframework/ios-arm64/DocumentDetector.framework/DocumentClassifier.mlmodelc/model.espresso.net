@@ -1,0 +1,3216 @@
+{
+  "layers" : [
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/bn_Conv1\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 3,
+      "K" : 3,
+      "blob_biases" : 1,
+      "stride_x" : 2,
+      "name" : "sequential\/mobilenetv2_0.50_192\/bn_Conv1\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 16,
+      "bottom" : "mobilenetv2_0_50_192_input",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 7,
+      "K" : 16,
+      "blob_biases" : 5,
+      "name" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 16,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 16,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/Conv1_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 11,
+      "K" : 16,
+      "blob_biases" : 9,
+      "name" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 8,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 15,
+      "K" : 8,
+      "blob_biases" : 13,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 48,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/expanded_conv_project_BN\/FusedBatchNormV3_nchw",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 1,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 1,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 19,
+      "K" : 48,
+      "blob_biases" : 17,
+      "stride_x" : 2,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 48,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 48,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_1_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_1_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 23,
+      "K" : 48,
+      "blob_biases" : 21,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_1_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 16,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 27,
+      "K" : 16,
+      "blob_biases" : 25,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_project_BN\/FusedBatchNormV3_nchw",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 31,
+      "K" : 96,
+      "blob_biases" : 29,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 96,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 35,
+      "K" : 96,
+      "blob_biases" : 33,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 16,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_1_project_BN\/FusedBatchNormV3_nchw,sequential\/mobilenetv2_0.50_192\/block_2_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_2_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_2_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_2_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 39,
+      "K" : 16,
+      "blob_biases" : 37,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_2_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 1,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 1,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 43,
+      "K" : 96,
+      "blob_biases" : 41,
+      "stride_x" : 2,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 96,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_3_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_3_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 47,
+      "K" : 96,
+      "blob_biases" : 45,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_3_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 16,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 51,
+      "K" : 16,
+      "blob_biases" : 49,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_project_BN\/FusedBatchNormV3_nchw",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 55,
+      "K" : 96,
+      "blob_biases" : 53,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 96,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 59,
+      "K" : 96,
+      "blob_biases" : 57,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 16,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_3_project_BN\/FusedBatchNormV3_nchw,sequential\/mobilenetv2_0.50_192\/block_4_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_4_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_4_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_4_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 63,
+      "K" : 16,
+      "blob_biases" : 61,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 67,
+      "K" : 96,
+      "blob_biases" : 65,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 96,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 71,
+      "K" : 96,
+      "blob_biases" : 69,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 16,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_4_add\/add,sequential\/mobilenetv2_0.50_192\/block_5_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_5_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_5_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_5_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 75,
+      "K" : 16,
+      "blob_biases" : 73,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_5_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 1,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 1,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 79,
+      "K" : 96,
+      "blob_biases" : 77,
+      "stride_x" : 2,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 96,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 96,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_6_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_6_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 83,
+      "K" : 96,
+      "blob_biases" : 81,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_6_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 87,
+      "K" : 32,
+      "blob_biases" : 85,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_project_BN\/FusedBatchNormV3_nchw",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 91,
+      "K" : 192,
+      "blob_biases" : 89,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 192,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 95,
+      "K" : 192,
+      "blob_biases" : 93,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_6_project_BN\/FusedBatchNormV3_nchw,sequential\/mobilenetv2_0.50_192\/block_7_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_7_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_7_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_7_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 99,
+      "K" : 32,
+      "blob_biases" : 97,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 103,
+      "K" : 192,
+      "blob_biases" : 101,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 192,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 107,
+      "K" : 192,
+      "blob_biases" : 105,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_7_add\/add,sequential\/mobilenetv2_0.50_192\/block_8_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_8_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_8_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_8_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 111,
+      "K" : 32,
+      "blob_biases" : 109,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 115,
+      "K" : 192,
+      "blob_biases" : 113,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 192,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 119,
+      "K" : 192,
+      "blob_biases" : 117,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_8_add\/add,sequential\/mobilenetv2_0.50_192\/block_9_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_9_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_9_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_9_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 123,
+      "K" : 32,
+      "blob_biases" : 121,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_9_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 127,
+      "K" : 192,
+      "blob_biases" : 125,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 192,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 192,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_10_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_10_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 131,
+      "K" : 192,
+      "blob_biases" : 129,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_10_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 48,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 135,
+      "K" : 48,
+      "blob_biases" : 133,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 288,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_project_BN\/FusedBatchNormV3_nchw",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 139,
+      "K" : 288,
+      "blob_biases" : 137,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 288,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 288,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 143,
+      "K" : 288,
+      "blob_biases" : 141,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 48,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_10_project_BN\/FusedBatchNormV3_nchw,sequential\/mobilenetv2_0.50_192\/block_11_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_11_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_11_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_11_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 147,
+      "K" : 48,
+      "blob_biases" : 145,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 288,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 151,
+      "K" : 288,
+      "blob_biases" : 149,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 288,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 288,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 155,
+      "K" : 288,
+      "blob_biases" : 153,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 48,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_11_add\/add,sequential\/mobilenetv2_0.50_192\/block_12_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_12_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_12_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_12_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 159,
+      "K" : 48,
+      "blob_biases" : 157,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 288,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_12_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 1,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 1,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 163,
+      "K" : 288,
+      "blob_biases" : 161,
+      "stride_x" : 2,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 288,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 288,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_13_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_13_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 167,
+      "K" : 288,
+      "blob_biases" : 165,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_13_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 80,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 171,
+      "K" : 80,
+      "blob_biases" : 169,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 480,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_project_BN\/FusedBatchNormV3_nchw",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 175,
+      "K" : 480,
+      "blob_biases" : 173,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 480,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 480,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 179,
+      "K" : 480,
+      "blob_biases" : 177,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 80,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_13_project_BN\/FusedBatchNormV3_nchw,sequential\/mobilenetv2_0.50_192\/block_14_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_14_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_14_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_14_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 183,
+      "K" : 80,
+      "blob_biases" : 181,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 480,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 187,
+      "K" : 480,
+      "blob_biases" : 185,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 480,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 480,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 191,
+      "K" : 480,
+      "blob_biases" : 189,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 80,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_14_add\/add,sequential\/mobilenetv2_0.50_192\/block_15_project_BN\/FusedBatchNormV3_nchw",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_15_add\/add",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_15_add\/add",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_15_add\/add",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 195,
+      "K" : 80,
+      "blob_biases" : 193,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 480,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_15_add\/add",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 199,
+      "K" : 480,
+      "blob_biases" : 197,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 480,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 480,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_expand_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/block_16_project_BN\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/block_16_project_BN\/FusedBatchNormV3_nchw",
+      "blob_weights" : 203,
+      "K" : 480,
+      "blob_biases" : 201,
+      "name" : "sequential\/mobilenetv2_0.50_192\/block_16_project_BN\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 160,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_depthwise_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/Conv_1_bn\/FusedBatchNormV3_nchw",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_relu__",
+      "blob_weights" : 207,
+      "K" : 160,
+      "blob_biases" : 205,
+      "name" : "sequential\/mobilenetv2_0.50_192\/Conv_1_bn\/FusedBatchNormV3_nchw",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 1280,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/block_16_project_BN\/FusedBatchNormV3_nchw",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_relu__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_neg__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_neg__",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_neg__",
+      "beta" : 0
+    },
+    {
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_neg__",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_threshold6__",
+      "top" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_threshold6__",
+      "type" : "elementwise",
+      "name" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_threshold6__",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6__relu6_threshold6__",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6",
+      "top" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6",
+      "type" : "activation",
+      "name" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "conv_0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "conv_0",
+      "blob_weights" : 211,
+      "K" : 1280,
+      "blob_biases" : 209,
+      "name" : "conv_0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "sequential\/mobilenetv2_0.50_192\/out_relu\/Relu6",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 0,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 2,
+      "bottom" : "conv_0",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "transpose_163",
+      "top" : "transpose_163",
+      "type" : "transpose",
+      "name" : "transpose_163"
+    },
+    {
+      "bottom" : "transpose_163",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "sequential\/conv2d\/Relu",
+      "top" : "sequential\/conv2d\/Relu",
+      "type" : "activation",
+      "name" : "sequential\/conv2d\/Relu"
+    },
+    {
+      "axis_mode" : 4,
+      "bottom" : "sequential\/conv2d\/Relu",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_axis" : 1,
+      "nd_mode" : true,
+      "debug_info" : "sequential\/global_average_pooling2d\/Mean",
+      "use_version" : 1,
+      "top" : "sequential\/conv2d\/Relu__reduction_axis__1",
+      "type" : "reduce",
+      "name" : "sequential\/global_average_pooling2d\/Mean__reduction_axis__0"
+    },
+    {
+      "axis_mode" : 2,
+      "bottom" : "sequential\/conv2d\/Relu__reduction_axis__1",
+      "weights" : {
+
+      },
+      "mode" : 1,
+      "nd_axis" : 2,
+      "nd_mode" : true,
+      "debug_info" : "sequential\/global_average_pooling2d\/Mean",
+      "use_version" : 1,
+      "top" : "sequential\/global_average_pooling2d\/Mean_presqueeze",
+      "type" : "reduce",
+      "name" : "sequential\/global_average_pooling2d\/Mean_presqueeze"
+    },
+    {
+      "size_of_axes" : 2,
+      "bottom" : "sequential\/global_average_pooling2d\/Mean_presqueeze",
+      "axes_0" : 1,
+      "axes_1" : 2,
+      "weights" : {
+
+      },
+      "nd_axis" : 0,
+      "debug_info" : "sequential\/global_average_pooling2d\/Mean",
+      "version" : 1,
+      "top" : "sequential\/global_average_pooling2d\/Mean",
+      "type" : "squeeze",
+      "name" : "sequential\/global_average_pooling2d\/Mean"
+    },
+    {
+      "nB" : 32,
+      "top" : "sequential\/dense\/BiasAdd",
+      "has_biases" : 1,
+      "weights" : {
+
+      },
+      "nC" : 25,
+      "blob_weights" : 215,
+      "type" : "inner_product",
+      "has_relu" : 0,
+      "bottom" : "sequential\/global_average_pooling2d\/Mean",
+      "blob_biases" : 213,
+      "has_tanh" : 0,
+      "debug_info" : "sequential\/dense\/BiasAdd",
+      "name" : "sequential\/dense\/BiasAdd",
+      "has_prelu" : 0
+    },
+    {
+      "bottom" : "sequential\/dense\/BiasAdd",
+      "weights" : {
+
+      },
+      "nd_axis" : -1,
+      "debug_info" : "sequential\/dense\/Softmax",
+      "top" : "Identity",
+      "type" : "softmax_nd",
+      "name" : "sequential\/dense\/Softmax",
+      "attributes" : {
+        "is_output" : 1
+      }
+    }
+  ],
+  "transform_params" : {
+    "mobilenetv2_0_50_192_input" : {
+      "bias_a" : 0,
+      "bias_g" : -1,
+      "bias_r" : -1,
+      "bias_b" : -1,
+      "center_mean" : 0,
+      "is_network_bgr" : 0,
+      "scale" : 0.0078740157186985016
+    }
+  },
+  "storage" : "model.espresso.weights",
+  "metadata_in_weights" : [
+
+  ],
+  "properties" : {
+
+  },
+  "analyses" : {
+
+  },
+  "format_version" : 200
+}
