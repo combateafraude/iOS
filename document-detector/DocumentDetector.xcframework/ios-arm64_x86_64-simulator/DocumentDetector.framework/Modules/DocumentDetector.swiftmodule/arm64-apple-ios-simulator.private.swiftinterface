@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DocumentDetector
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -15,6 +15,7 @@ import CoreML
 import CoreMedia
 import CoreMotion
 import CryptoKit
+import DeveloperToolsSupport
 @_exported import DocumentDetector
 import Foundation
 import ImageIO
@@ -22,11 +23,13 @@ import MobileCoreServices
 import PDFKit
 import Photos
 import Swift
+import SwiftUI
 import TensorFlowLite
 import UIKit
 import VideoToolbox
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_Concurrency.MainActor(unsafe) open class DocumentOverlayView : UIKit.UIView, DocumentDetector.DocumentDetectorCustomViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) open func show(loading show: Swift.Bool)
   @_Concurrency.MainActor(unsafe) open func show(message text: Swift.String)
@@ -306,7 +309,6 @@ public class UploadValidationViewModel {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DocumentDetectorViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
@@ -323,7 +325,7 @@ extension DocumentDetector.DocumentDetectorViewController {
   @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVFoundation.AVCaptureResolvedPhotoSettings)
   @_Concurrency.MainActor(unsafe) public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
 }
-public enum CountryCodes : Swift.String {
+public enum CountryCodes : Swift.String, Swift.CaseIterable {
   case ABW
   case AFG
   case AGO
@@ -573,7 +575,11 @@ public enum CountryCodes : Swift.String {
   case ZMB
   case ZWE
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [DocumentDetector.CountryCodes]
   public typealias RawValue = Swift.String
+  public static var allCases: [DocumentDetector.CountryCodes] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
@@ -840,7 +846,6 @@ public enum UploadErrorType {
   public static func DOCUMENT_OCR(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
   public static func IMAGE_UPLOAD(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
   public static func DOCUMENT_QUALITY(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
-  public static func TOKEN_VERIFICATION(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
   public static func ATTESTATION(with documentDetector: DocumentDetector.DocumentDetectorSdk) -> DocumentDetector.MobileApi
   @objc deinit
 }

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		1nHG6JvK9yQ9T5kEFHEwLjPQzh0=
+		Lh1IdmBkR5vhRf9BllU90GiTZlI=
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		UJ4vm9oB2sRGFIbHSTOx5087dWI=
+		5JBvKMlCCCK+H74deVY+pmXEeDs=
 		</data>
 		<key>Headers/DocumentDetector.h</key>
 		<data>
@@ -26,31 +26,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QmoN4oFO0do9IQ7QMLFttpRQthg=
+		6ectvOn4HzXN4LGD5iw3mG7q1bo=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lYcFR3cKFv2wBcLizn7bVcDQQ0M=
+		eHPyt+rv/MqN8agNwqlMmcVH4BA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		HcYPitaAsXIDumONRQY8DTWvwkY=
+		EHeqWCZCTmGhUvVt0debPOsR/og=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		IQZXJ73c4Cw1PF1qa9Mt7DEWTvM=
+		rYOdg4BxGQ7kk3BUuOZA/L6y0D8=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HcYPitaAsXIDumONRQY8DTWvwkY=
+		EHeqWCZCTmGhUvVt0debPOsR/og=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		F4XwTxN9ejGTsS51psCK/3ZjPY4=
+		SHZlQ33v1aHohnAlq5kUXDRgj1A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		BVMC8Gwv/1V5JlPkpTOIM5ARVJk=
+		ERzn9BQmLS5TlAER6AjTuz9uaTc=
 		</data>
 		<key>PopupDocumentDetector.storyboardc/Info.plist</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>PopupDocumentDetector.storyboardc/raE-BD-Pfp-view-gwR-Tn-Ta1.nib</key>
 		<data>
-		oMZZUqpSwzXNzKKYPN4i0UhJGj0=
+		iQbzJ3MeKuTLdp4nEv5sYA+2+b8=
 		</data>
 		<key>Preview.storyboardc/Info.plist</key>
 		<data>
@@ -74,7 +74,11 @@
 		</data>
 		<key>Preview.storyboardc/h5X-tz-HyN-view-ZgM-rn-lYk.nib</key>
 		<data>
-		rl1puPVV3NOIzbA8bOcxRpwdlfs=
+		jqW0SvJDlpXldJgOvdxxgsJd3Fo=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		NUEyQJ/88vF60ZLJ/MSgKrr2dUk=
 		</data>
 		<key>doc_verify.tflite</key>
 		<data>
@@ -89,11 +93,29 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>en.lproj/DetectorPT.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n2VwJmHRITphupcfaqeCvQ2pxRI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Detector.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
 			7SCE1qebqI8D0bu7D199qEWUfyU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/DetectorPT.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n2VwJmHRITphupcfaqeCvQ2pxRI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -125,6 +147,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>pt-PT.lproj/DetectorPT.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n2VwJmHRITphupcfaqeCvQ2pxRI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -132,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dWCg/eiuP0UXrkYbN6/oGY8DDG5COax6wNJejjmzRhQ=
+			TSCltBKAJSXMZq2NFtT9k5ZNBTHecuYaCBu4T4UEXHI=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lHGTWtQw5jpOcM4QymVoJA875dKRv5HhjSVeIKVm63g=
+			aKKnStFNnQOdBx3IPvL/xcy+EthISzhiEu+S+rha79M=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector.h</key>
@@ -167,42 +198,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6qUNX8wS3IQOFVdBFD5gv3gWj1r+VNejzxNp0n/qTNk=
+			yJ89rCr/Q0jM6wuKEFbT5jGNw6s700Eudd1m4OcB09U=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6p+MpTJ+6/ZUd2cH2PC3YWEBLS8YIAq5CycXA/Qhecg=
+			Vd8herKZ3V/a6DsPti0WA986TZPielqVvdo+A5WilAc=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			65FjzMpmrtE6O4tWxI4TS3IVBEBvMbTkP402+oiE6ZA=
+			YJT+sV7l1yRJk5rGmo8kJTTcOjg9nhcFFyJZPMIC+IQ=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6p+MpTJ+6/ZUd2cH2PC3YWEBLS8YIAq5CycXA/Qhecg=
+			Vd8herKZ3V/a6DsPti0WA986TZPielqVvdo+A5WilAc=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lEgL5SYvjNVQ6AXq2xQ5BwpDGTrMyA8UDvmgQUIk+ko=
+			hEhuiOeHnKCrsog9FYIdqBRJyVl40rwu6QynVWUSPf0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j8a2sJtknZJTT3+oGoyl2SF0HqYKzAc3OANktNdJ+HU=
+			a4kDbR6xzNOHJ8haFDY/tyl/70n0q9jxUvTQ2c4E2vY=
 			</data>
 		</dict>
 		<key>PopupDocumentDetector.storyboardc/Info.plist</key>
@@ -223,7 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VxlJConcbPE5l9nGLvbv+EOqhfjj1B/z/k4FW/nSuPE=
+			4475vIkJaPc4pSprb+55BRwx/iK0iAezq9+WKELPtY0=
 			</data>
 		</dict>
 		<key>Preview.storyboardc/Info.plist</key>
@@ -244,7 +275,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IcX7YdTgdbm3NKP61T6Ryy8v5Xka0rapqbFnVnK973Y=
+			Xs9qS2QREOskj3Kb8LKZXQpW3KUa2pUoTnEUV1bZ5fM=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4ToPMj2EXkfnKigBt+eHv+RdPimlr9cqu2gDCOPgrSM=
 			</data>
 		</dict>
 		<key>doc_verify.tflite</key>
@@ -263,11 +301,29 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>en.lproj/DetectorPT.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/vybTpwtZM1P23bGO7xKE/VN+NJzpu/8NhqO/XZK3v4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>es.lproj/Detector.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			rYiiHWbdfgcu8E8E1NUMbflZbl7/d3elT70zmih7sGY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/DetectorPT.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/vybTpwtZM1P23bGO7xKE/VN+NJzpu/8NhqO/XZK3v4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -291,6 +347,15 @@
 			<true/>
 		</dict>
 		<key>pt-PT.lproj/Detector.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/vybTpwtZM1P23bGO7xKE/VN+NJzpu/8NhqO/XZK3v4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-PT.lproj/DetectorPT.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>

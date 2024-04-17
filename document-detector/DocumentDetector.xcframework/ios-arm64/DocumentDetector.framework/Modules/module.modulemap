@@ -1,7 +1,7 @@
 framework module DocumentDetector {
   umbrella header "DocumentDetector.h"
-
   export *
+
   module * { export * }
 }
 
