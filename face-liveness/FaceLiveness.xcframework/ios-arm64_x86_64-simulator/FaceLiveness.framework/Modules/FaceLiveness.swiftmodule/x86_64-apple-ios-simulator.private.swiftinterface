@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceLiveness
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import FingerprintPro
@@ -9,6 +9,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import iProov
 public enum CafResult<LivenessResult, SDKFailure> {
   case sucess(LivenessResult)
@@ -17,23 +18,17 @@ public enum CafResult<LivenessResult, SDKFailure> {
 }
 public struct SDKFailure {
   public let errorType: FaceLiveness.ErrorType?
-  public let code: Swift.Int?
   public let description: Swift.String?
 }
-public enum ErrorType {
-  case getToken
-  case livenessError
-  case registerError
+public enum ErrorType : Swift.String {
+  case unsupportedDevice
   case cameraPermission
-  case captureAlreadyActive
-  case networkError
-  case serverError
-  case unexpectedError
-  case userTimeout
-  case notSupported
-  public static func == (a: FaceLiveness.ErrorType, b: FaceLiveness.ErrorType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  case networkException
+  case serverException
+  case tokenException
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -50,7 +45,6 @@ public struct FaceLivenessResult {
 }
 public struct FaceLivenessErrorResult {
   public let errorType: FaceLiveness.ErrorType?
-  public let code: Swift.Int?
   public let description: Swift.String?
 }
 public struct LivenessResult {
@@ -126,12 +120,6 @@ public enum Time : Swift.String {
   }
 }
 public protocol FaceLivenessDelegate : AnyObject {
-  @available(*, deprecated, message: "Use didFinishLiveness(with livenessResult: LivenessResult) instead.")
-  func didFinishLiveness(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
-  @available(*, deprecated, message: "Use didFinishWithCancelled() instead.")
-  func didFinishWithCancelled(with faceLivenessResult: FaceLiveness.FaceLivenessResult)
-  @available(*, deprecated, message: "Use didFinishWithError(with sdkFailure: SDKFailure) instead.")
-  func didFinishWithError(with faceLivenessErrorResult: FaceLiveness.FaceLivenessErrorResult)
   func didFinishLiveness(with livenessResult: FaceLiveness.LivenessResult)
   func didFinishWithCancelled()
   func didFinishWithError(with sdkFailure: FaceLiveness.SDKFailure)
@@ -171,6 +159,7 @@ public protocol FaceLivenessDelegate : AnyObject {
 }
 extension FaceLiveness.ErrorType : Swift.Equatable {}
 extension FaceLiveness.ErrorType : Swift.Hashable {}
+extension FaceLiveness.ErrorType : Swift.RawRepresentable {}
 extension FaceLiveness.FailType : Swift.Equatable {}
 extension FaceLiveness.FailType : Swift.Hashable {}
 extension FaceLiveness.CAFStage : Swift.Equatable {}
