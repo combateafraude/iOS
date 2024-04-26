@@ -744,66 +744,6 @@
           },
           {
             "kind": "Var",
-            "name": "code",
-            "printedName": "code",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8FaceAuth0A24AuthenticatorErrorResultV4codeSiSgvp",
-            "mangledName": "$s8FaceAuth0A24AuthenticatorErrorResultV4codeSiSgvp",
-            "moduleName": "FaceAuth",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8FaceAuth0A24AuthenticatorErrorResultV4codeSiSgvg",
-                "mangledName": "$s8FaceAuth0A24AuthenticatorErrorResultV4codeSiSgvg",
-                "moduleName": "FaceAuth",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -3212,45 +3152,24 @@
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3406,
-      "length": 2,
-      "value": "08"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3423,
+      "offset": 3387,
       "length": 22,
       "value": "\"Error to bind result\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3812,
+      "offset": 3776,
       "length": 3,
       "value": "200"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4011,
-      "length": 2,
-      "value": "08"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4339,
-      "length": 2,
-      "value": "01"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Models\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 46,
-      "value": "\"4.0.1-iOS-\""
+      "value": "\"5.0.0-iOS-\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Models\/Constants.swift",

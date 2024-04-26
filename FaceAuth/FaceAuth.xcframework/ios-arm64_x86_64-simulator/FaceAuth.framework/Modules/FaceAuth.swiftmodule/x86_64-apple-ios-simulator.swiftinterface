@@ -18,7 +18,6 @@ public struct FaceAuthenticatorResult {
 }
 public struct FaceAuthenticatorErrorResult {
   public let errorType: FaceLiveness.ErrorType?
-  public let code: Swift.Int?
   public let description: Swift.String?
 }
 public struct FaceAuthenticatorData : Swift.Encodable {
