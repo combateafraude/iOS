@@ -170,7 +170,7 @@ public class DocumentRetrievedOcr {
   public var isPhoneStable: Swift.Bool!
   public var errorStatus: Swift.String!
   public var missedAttemps: Swift.Int!
-  public var lastLabelScanned: DocumentDetector.Label!
+  public var lastLabelScanned: DocumentDetector.CafLabel!
   @objc override dynamic public init()
   @objc deinit
 }
@@ -185,38 +185,38 @@ public struct Prediction {
     get
   }
 }
-@objc @_hasMissingDesignatedInitializers public class Label : ObjectiveC.NSObject, Swift.Encodable {
-  public static let BLANK: DocumentDetector.Label
-  public static let CNH_BACK: DocumentDetector.Label
-  public static let CNH_FRONT: DocumentDetector.Label
-  public static let CNH_FULL: DocumentDetector.Label
-  public static let CRLV: DocumentDetector.Label
-  public static let GENERIC: DocumentDetector.Label
-  public static let RG_BACK: DocumentDetector.Label
-  public static let RG_FRONT: DocumentDetector.Label
-  public static let RG_FULL: DocumentDetector.Label
-  public static let RG_NEW_BACK: DocumentDetector.Label
-  public static let RG_NEW_FRONT: DocumentDetector.Label
-  public static let RG_NEW_FULL: DocumentDetector.Label
-  public static let RNE_BACK: DocumentDetector.Label
-  public static let RNE_FRONT: DocumentDetector.Label
-  public static let RNM_BACK: DocumentDetector.Label
-  public static let RNM_FRONT: DocumentDetector.Label
-  public static let CTPS_FRONT: DocumentDetector.Label
-  public static let CTPS_BACK: DocumentDetector.Label
-  public static let PASSPORT: DocumentDetector.Label
-  public static let PASSPORT_FULL: DocumentDetector.Label
-  public static let CNH_NEW_BACK: DocumentDetector.Label
-  public static let CNH_NEW_FRONT: DocumentDetector.Label
-  public static let CNH_NEW_FULL: DocumentDetector.Label
-  public static let CRLV_NEW: DocumentDetector.Label
-  public static let CIN_BACK: DocumentDetector.Label
-  public static let CIN_FRONT: DocumentDetector.Label
+@objc @_hasMissingDesignatedInitializers public class CafLabel : ObjectiveC.NSObject, Swift.Encodable {
+  public static let BLANK: DocumentDetector.CafLabel
+  public static let CNH_BACK: DocumentDetector.CafLabel
+  public static let CNH_FRONT: DocumentDetector.CafLabel
+  public static let CNH_FULL: DocumentDetector.CafLabel
+  public static let CRLV: DocumentDetector.CafLabel
+  public static let GENERIC: DocumentDetector.CafLabel
+  public static let RG_BACK: DocumentDetector.CafLabel
+  public static let RG_FRONT: DocumentDetector.CafLabel
+  public static let RG_FULL: DocumentDetector.CafLabel
+  public static let RG_NEW_BACK: DocumentDetector.CafLabel
+  public static let RG_NEW_FRONT: DocumentDetector.CafLabel
+  public static let RG_NEW_FULL: DocumentDetector.CafLabel
+  public static let RNE_BACK: DocumentDetector.CafLabel
+  public static let RNE_FRONT: DocumentDetector.CafLabel
+  public static let RNM_BACK: DocumentDetector.CafLabel
+  public static let RNM_FRONT: DocumentDetector.CafLabel
+  public static let CTPS_FRONT: DocumentDetector.CafLabel
+  public static let CTPS_BACK: DocumentDetector.CafLabel
+  public static let PASSPORT: DocumentDetector.CafLabel
+  public static let PASSPORT_FULL: DocumentDetector.CafLabel
+  public static let CNH_NEW_BACK: DocumentDetector.CafLabel
+  public static let CNH_NEW_FRONT: DocumentDetector.CafLabel
+  public static let CNH_NEW_FULL: DocumentDetector.CafLabel
+  public static let CRLV_NEW: DocumentDetector.CafLabel
+  public static let CIN_BACK: DocumentDetector.CafLabel
+  public static let CIN_FRONT: DocumentDetector.CafLabel
   public var scanLabel: Swift.String!
   public var documentType: Swift.String!
-  public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.Label?
+  public static func getScannedLabel(scanLabel: Swift.String) -> DocumentDetector.CafLabel?
   public func encode(to encoder: any Swift.Encoder) throws
-  public static func allLabels() -> [DocumentDetector.Label]
+  public static func allLabels() -> [DocumentDetector.CafLabel]
   public static func allScanLabels() -> [Swift.String]
   @objc deinit
 }
@@ -276,7 +276,7 @@ public struct Prediction {
   public static let CTPS_BACK: DocumentDetector.Document
   public static let PASSPORT: DocumentDetector.Document
   public static let ANY: DocumentDetector.Document
-  public var labels: [DocumentDetector.Label]
+  public var labels: [DocumentDetector.CafLabel]
   public var stepLabel: Swift.String!
   public var wrongDocumentFoundMessage: Swift.String!
   public var illustration: UIKit.UIImage!
@@ -284,7 +284,7 @@ public struct Prediction {
     get
     set
   }
-  public static func getByLabel(label: DocumentDetector.Label) -> DocumentDetector.Document?
+  public static func getByLabel(label: DocumentDetector.CafLabel) -> DocumentDetector.Document?
   public static func allDocuments() -> [DocumentDetector.Document]
   open func setDefaults()
   @objc deinit

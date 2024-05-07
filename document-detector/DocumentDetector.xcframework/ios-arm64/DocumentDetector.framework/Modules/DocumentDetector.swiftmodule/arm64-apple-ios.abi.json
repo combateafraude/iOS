@@ -10325,21 +10325,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "DocumentDetector.Label?",
+                "printedName": "DocumentDetector.CafLabel?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvp",
-            "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvp",
+            "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvp",
+            "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -10356,21 +10356,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "DocumentDetector.Label?",
+                    "printedName": "DocumentDetector.CafLabel?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Label",
-                        "printedName": "DocumentDetector.Label",
-                        "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                        "name": "CafLabel",
+                        "printedName": "DocumentDetector.CafLabel",
+                        "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvg",
-                "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvg",
+                "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvg",
+                "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10388,21 +10388,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ImplicitlyUnwrappedOptional",
-                    "printedName": "DocumentDetector.Label?",
+                    "printedName": "DocumentDetector.CafLabel?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Label",
-                        "printedName": "DocumentDetector.Label",
-                        "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                        "name": "CafLabel",
+                        "printedName": "DocumentDetector.CafLabel",
+                        "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvs",
-                "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvs",
+                "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvs",
+                "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10419,8 +10419,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvM",
-                "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA0E0CSgvM",
+                "usr": "s:16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvM",
+                "mangledName": "$s16DocumentDetector0A9ValidatorC16lastLabelScannedAA03CafE0CSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10830,8 +10830,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Label",
-        "printedName": "Label",
+        "name": "CafLabel",
+        "printedName": "CafLabel",
         "children": [
           {
             "kind": "Var",
@@ -10840,14 +10840,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC5BLANKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC5BLANKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC5BLANKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC5BLANKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -10866,14 +10866,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC5BLANKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC5BLANKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC5BLANKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC5BLANKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -10891,14 +10891,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8CNH_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8CNH_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8CNH_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8CNH_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -10917,14 +10917,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8CNH_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8CNH_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8CNH_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8CNH_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -10942,14 +10942,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC9CNH_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC9CNH_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC9CNH_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC9CNH_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -10968,14 +10968,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC9CNH_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC9CNH_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC9CNH_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC9CNH_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -10993,14 +10993,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8CNH_FULLACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8CNH_FULLACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8CNH_FULLACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8CNH_FULLACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11019,14 +11019,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8CNH_FULLACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8CNH_FULLACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8CNH_FULLACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8CNH_FULLACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11044,14 +11044,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC4CRLVACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC4CRLVACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC4CRLVACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC4CRLVACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11070,14 +11070,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC4CRLVACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC4CRLVACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC4CRLVACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC4CRLVACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11095,14 +11095,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC7GENERICACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC7GENERICACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC7GENERICACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC7GENERICACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11121,14 +11121,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC7GENERICACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC7GENERICACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC7GENERICACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC7GENERICACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11146,14 +11146,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC7RG_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC7RG_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC7RG_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC7RG_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11172,14 +11172,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC7RG_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC7RG_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC7RG_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC7RG_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11197,14 +11197,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8RG_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8RG_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8RG_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8RG_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11223,14 +11223,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8RG_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8RG_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8RG_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8RG_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11248,14 +11248,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC7RG_FULLACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC7RG_FULLACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC7RG_FULLACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC7RG_FULLACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11274,14 +11274,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC7RG_FULLACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC7RG_FULLACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC7RG_FULLACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC7RG_FULLACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11299,14 +11299,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC11RG_NEW_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC11RG_NEW_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC11RG_NEW_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC11RG_NEW_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11325,14 +11325,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC11RG_NEW_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC11RG_NEW_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC11RG_NEW_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC11RG_NEW_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11350,14 +11350,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC12RG_NEW_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC12RG_NEW_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC12RG_NEW_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC12RG_NEW_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11376,14 +11376,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC12RG_NEW_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC12RG_NEW_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC12RG_NEW_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC12RG_NEW_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11401,14 +11401,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC11RG_NEW_FULLACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC11RG_NEW_FULLACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC11RG_NEW_FULLACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC11RG_NEW_FULLACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11427,14 +11427,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC11RG_NEW_FULLACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC11RG_NEW_FULLACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC11RG_NEW_FULLACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC11RG_NEW_FULLACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11452,14 +11452,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8RNE_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8RNE_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8RNE_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8RNE_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11478,14 +11478,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8RNE_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8RNE_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8RNE_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8RNE_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11503,14 +11503,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC9RNE_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC9RNE_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC9RNE_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC9RNE_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11529,14 +11529,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC9RNE_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC9RNE_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC9RNE_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC9RNE_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11554,14 +11554,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8RNM_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8RNM_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8RNM_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8RNM_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11580,14 +11580,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8RNM_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8RNM_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8RNM_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8RNM_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11605,14 +11605,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC9RNM_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC9RNM_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC9RNM_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC9RNM_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11631,14 +11631,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC9RNM_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC9RNM_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC9RNM_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC9RNM_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11656,14 +11656,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC10CTPS_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC10CTPS_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC10CTPS_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC10CTPS_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11682,14 +11682,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC10CTPS_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC10CTPS_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC10CTPS_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC10CTPS_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11707,14 +11707,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC9CTPS_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC9CTPS_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC9CTPS_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC9CTPS_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11733,14 +11733,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC9CTPS_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC9CTPS_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC9CTPS_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC9CTPS_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11758,14 +11758,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8PASSPORTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8PASSPORTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8PASSPORTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8PASSPORTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11784,14 +11784,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8PASSPORTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8PASSPORTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8PASSPORTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8PASSPORTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11809,14 +11809,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC13PASSPORT_FULLACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC13PASSPORT_FULLACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC13PASSPORT_FULLACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC13PASSPORT_FULLACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11835,14 +11835,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC13PASSPORT_FULLACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC13PASSPORT_FULLACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC13PASSPORT_FULLACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC13PASSPORT_FULLACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11860,14 +11860,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC12CNH_NEW_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC12CNH_NEW_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC12CNH_NEW_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC12CNH_NEW_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11886,14 +11886,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC12CNH_NEW_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC12CNH_NEW_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC12CNH_NEW_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC12CNH_NEW_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11911,14 +11911,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC13CNH_NEW_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC13CNH_NEW_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC13CNH_NEW_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC13CNH_NEW_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11937,14 +11937,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC13CNH_NEW_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC13CNH_NEW_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC13CNH_NEW_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC13CNH_NEW_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -11962,14 +11962,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC12CNH_NEW_FULLACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC12CNH_NEW_FULLACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC12CNH_NEW_FULLACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC12CNH_NEW_FULLACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -11988,14 +11988,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC12CNH_NEW_FULLACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC12CNH_NEW_FULLACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC12CNH_NEW_FULLACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC12CNH_NEW_FULLACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -12013,14 +12013,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8CRLV_NEWACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8CRLV_NEWACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8CRLV_NEWACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8CRLV_NEWACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -12039,14 +12039,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8CRLV_NEWACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8CRLV_NEWACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8CRLV_NEWACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8CRLV_NEWACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -12064,14 +12064,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC8CIN_BACKACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC8CIN_BACKACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC8CIN_BACKACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC8CIN_BACKACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -12090,14 +12090,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC8CIN_BACKACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC8CIN_BACKACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC8CIN_BACKACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC8CIN_BACKACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -12115,14 +12115,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC9CIN_FRONTACvpZ",
-            "mangledName": "$s16DocumentDetector5LabelC9CIN_FRONTACvpZ",
+            "usr": "s:16DocumentDetector8CafLabelC9CIN_FRONTACvpZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC9CIN_FRONTACvpZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -12141,14 +12141,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC9CIN_FRONTACvgZ",
-                "mangledName": "$s16DocumentDetector5LabelC9CIN_FRONTACvgZ",
+                "usr": "s:16DocumentDetector8CafLabelC9CIN_FRONTACvgZ",
+                "mangledName": "$s16DocumentDetector8CafLabelC9CIN_FRONTACvgZ",
                 "moduleName": "DocumentDetector",
                 "static": true,
                 "implicit": true,
@@ -12180,8 +12180,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC04scanC0SSSgvp",
-            "mangledName": "$s16DocumentDetector5LabelC04scanC0SSSgvp",
+            "usr": "s:16DocumentDetector8CafLabelC04scanD0SSSgvp",
+            "mangledName": "$s16DocumentDetector8CafLabelC04scanD0SSSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -12211,8 +12211,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC04scanC0SSSgvg",
-                "mangledName": "$s16DocumentDetector5LabelC04scanC0SSSgvg",
+                "usr": "s:16DocumentDetector8CafLabelC04scanD0SSSgvg",
+                "mangledName": "$s16DocumentDetector8CafLabelC04scanD0SSSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -12243,8 +12243,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC04scanC0SSSgvs",
-                "mangledName": "$s16DocumentDetector5LabelC04scanC0SSSgvs",
+                "usr": "s:16DocumentDetector8CafLabelC04scanD0SSSgvs",
+                "mangledName": "$s16DocumentDetector8CafLabelC04scanD0SSSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -12261,8 +12261,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC04scanC0SSSgvM",
-                "mangledName": "$s16DocumentDetector5LabelC04scanC0SSSgvM",
+                "usr": "s:16DocumentDetector8CafLabelC04scanD0SSSgvM",
+                "mangledName": "$s16DocumentDetector8CafLabelC04scanD0SSSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -12290,8 +12290,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector5LabelC12documentTypeSSSgvp",
-            "mangledName": "$s16DocumentDetector5LabelC12documentTypeSSSgvp",
+            "usr": "s:16DocumentDetector8CafLabelC12documentTypeSSSgvp",
+            "mangledName": "$s16DocumentDetector8CafLabelC12documentTypeSSSgvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -12321,8 +12321,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC12documentTypeSSSgvg",
-                "mangledName": "$s16DocumentDetector5LabelC12documentTypeSSSgvg",
+                "usr": "s:16DocumentDetector8CafLabelC12documentTypeSSSgvg",
+                "mangledName": "$s16DocumentDetector8CafLabelC12documentTypeSSSgvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -12353,8 +12353,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC12documentTypeSSSgvs",
-                "mangledName": "$s16DocumentDetector5LabelC12documentTypeSSSgvs",
+                "usr": "s:16DocumentDetector8CafLabelC12documentTypeSSSgvs",
+                "mangledName": "$s16DocumentDetector8CafLabelC12documentTypeSSSgvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -12371,8 +12371,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector5LabelC12documentTypeSSSgvM",
-                "mangledName": "$s16DocumentDetector5LabelC12documentTypeSSSgvM",
+                "usr": "s:16DocumentDetector8CafLabelC12documentTypeSSSgvM",
+                "mangledName": "$s16DocumentDetector8CafLabelC12documentTypeSSSgvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -12387,13 +12387,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "DocumentDetector.Label?",
+                "printedName": "DocumentDetector.CafLabel?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "usr": "s:Sq"
@@ -12406,8 +12406,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16DocumentDetector5LabelC010getScannedC004scanC0ACSgSS_tFZ",
-            "mangledName": "$s16DocumentDetector5LabelC010getScannedC004scanC0ACSgSS_tFZ",
+            "usr": "s:16DocumentDetector8CafLabelC010getScannedD004scanD0ACSgSS_tFZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC010getScannedD004scanD0ACSgSS_tFZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -12434,8 +12434,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16DocumentDetector5LabelC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s16DocumentDetector5LabelC6encode2toys7Encoder_p_tKF",
+            "usr": "s:16DocumentDetector8CafLabelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16DocumentDetector8CafLabelC6encode2toys7Encoder_p_tKF",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "AccessControl"
@@ -12451,21 +12451,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[DocumentDetector.Label]",
+                "printedName": "[DocumentDetector.CafLabel]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16DocumentDetector5LabelC9allLabelsSayACGyFZ",
-            "mangledName": "$s16DocumentDetector5LabelC9allLabelsSayACGyFZ",
+            "usr": "s:16DocumentDetector8CafLabelC9allLabelsSayACGyFZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC9allLabelsSayACGyFZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -12495,8 +12495,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16DocumentDetector5LabelC13allScanLabelsSaySSGyFZ",
-            "mangledName": "$s16DocumentDetector5LabelC13allScanLabelsSaySSGyFZ",
+            "usr": "s:16DocumentDetector8CafLabelC13allScanLabelsSaySSGyFZ",
+            "mangledName": "$s16DocumentDetector8CafLabelC13allScanLabelsSaySSGyFZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -12512,14 +12512,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@DocumentDetector@objc(cs)Label(im)init",
-            "mangledName": "$s16DocumentDetector5LabelCACycfc",
+            "usr": "c:@M@DocumentDetector@objc(cs)CafLabel(im)init",
+            "mangledName": "$s16DocumentDetector8CafLabelCACycfc",
             "moduleName": "DocumentDetector",
             "overriding": true,
             "implicit": true,
@@ -12533,8 +12533,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@DocumentDetector@objc(cs)Label",
-        "mangledName": "$s16DocumentDetector5LabelC",
+        "usr": "c:@M@DocumentDetector@objc(cs)CafLabel",
+        "mangledName": "$s16DocumentDetector8CafLabelC",
         "moduleName": "DocumentDetector",
         "declAttributes": [
           "AccessControl",
@@ -15311,21 +15311,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[DocumentDetector.Label]",
+                "printedName": "[DocumentDetector.CafLabel]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Label",
-                    "printedName": "DocumentDetector.Label",
-                    "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                    "name": "CafLabel",
+                    "printedName": "DocumentDetector.CafLabel",
+                    "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16DocumentDetector0A0C6labelsSayAA5LabelCGvp",
-            "mangledName": "$s16DocumentDetector0A0C6labelsSayAA5LabelCGvp",
+            "usr": "s:16DocumentDetector0A0C6labelsSayAA8CafLabelCGvp",
+            "mangledName": "$s16DocumentDetector0A0C6labelsSayAA8CafLabelCGvp",
             "moduleName": "DocumentDetector",
             "declAttributes": [
               "HasInitialValue",
@@ -15342,21 +15342,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[DocumentDetector.Label]",
+                    "printedName": "[DocumentDetector.CafLabel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Label",
-                        "printedName": "DocumentDetector.Label",
-                        "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                        "name": "CafLabel",
+                        "printedName": "DocumentDetector.CafLabel",
+                        "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector0A0C6labelsSayAA5LabelCGvg",
-                "mangledName": "$s16DocumentDetector0A0C6labelsSayAA5LabelCGvg",
+                "usr": "s:16DocumentDetector0A0C6labelsSayAA8CafLabelCGvg",
+                "mangledName": "$s16DocumentDetector0A0C6labelsSayAA8CafLabelCGvg",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "get"
@@ -15374,21 +15374,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[DocumentDetector.Label]",
+                    "printedName": "[DocumentDetector.CafLabel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Label",
-                        "printedName": "DocumentDetector.Label",
-                        "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                        "name": "CafLabel",
+                        "printedName": "DocumentDetector.CafLabel",
+                        "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector0A0C6labelsSayAA5LabelCGvs",
-                "mangledName": "$s16DocumentDetector0A0C6labelsSayAA5LabelCGvs",
+                "usr": "s:16DocumentDetector0A0C6labelsSayAA8CafLabelCGvs",
+                "mangledName": "$s16DocumentDetector0A0C6labelsSayAA8CafLabelCGvs",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "set"
@@ -15405,8 +15405,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16DocumentDetector0A0C6labelsSayAA5LabelCGvM",
-                "mangledName": "$s16DocumentDetector0A0C6labelsSayAA5LabelCGvM",
+                "usr": "s:16DocumentDetector0A0C6labelsSayAA8CafLabelCGvM",
+                "mangledName": "$s16DocumentDetector0A0C6labelsSayAA8CafLabelCGvM",
                 "moduleName": "DocumentDetector",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -15874,14 +15874,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Label",
-                "printedName": "DocumentDetector.Label",
-                "usr": "c:@M@DocumentDetector@objc(cs)Label"
+                "name": "CafLabel",
+                "printedName": "DocumentDetector.CafLabel",
+                "usr": "c:@M@DocumentDetector@objc(cs)CafLabel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16DocumentDetector0A0C10getByLabel5labelACSgAA0E0C_tFZ",
-            "mangledName": "$s16DocumentDetector0A0C10getByLabel5labelACSgAA0E0C_tFZ",
+            "usr": "s:16DocumentDetector0A0C10getByLabel5labelACSgAA03CafE0C_tFZ",
+            "mangledName": "$s16DocumentDetector0A0C10getByLabel5labelACSgAA03CafE0C_tFZ",
             "moduleName": "DocumentDetector",
             "static": true,
             "declAttributes": [
@@ -44863,403 +44863,403 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 246,
+      "offset": 252,
       "length": 5,
       "value": "\"any\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 253,
+      "offset": 259,
       "length": 7,
       "value": "\"blank\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 310,
       "length": 10,
       "value": "\"cnh_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 313,
+      "offset": 322,
       "length": 5,
       "value": "\"cnh\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 360,
+      "offset": 372,
       "length": 11,
       "value": "\"cnh_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 373,
+      "offset": 385,
       "length": 5,
       "value": "\"cnh\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 434,
       "length": 10,
       "value": "\"cnh_full\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 431,
+      "offset": 446,
       "length": 5,
       "value": "\"cnh\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 473,
+      "offset": 491,
       "length": 6,
       "value": "\"crlv\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 481,
+      "offset": 499,
       "length": 6,
       "value": "\"crlv\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 527,
+      "offset": 548,
       "length": 8,
       "value": "\"others\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 537,
+      "offset": 558,
       "length": 9,
       "value": "\"generic\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 610,
       "length": 9,
       "value": "\"rg_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 597,
+      "offset": 621,
       "length": 4,
       "value": "\"rg\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 642,
+      "offset": 669,
       "length": 10,
       "value": "\"rg_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 681,
       "length": 4,
       "value": "\"rg\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 728,
       "length": 9,
       "value": "\"rg_full\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 739,
       "length": 4,
       "value": "\"rg\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 790,
       "length": 13,
       "value": "\"rg_new_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 805,
       "length": 8,
       "value": "\"rg_new\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 861,
       "length": 14,
       "value": "\"rg_new_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 877,
       "length": 8,
       "value": "\"rg_new\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 893,
+      "offset": 932,
       "length": 13,
       "value": "\"rg_new_full\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 908,
+      "offset": 947,
       "length": 8,
       "value": "\"rg_new\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 957,
+      "offset": 999,
       "length": 10,
       "value": "\"rne_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 1011,
       "length": 5,
       "value": "\"rne\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1061,
       "length": 11,
       "value": "\"rne_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 1074,
       "length": 5,
       "value": "\"rne\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1123,
       "length": 10,
       "value": "\"rnm_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1135,
       "length": 5,
       "value": "\"rnm\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1185,
       "length": 11,
       "value": "\"rnm_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1198,
       "length": 5,
       "value": "\"rnm\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1195,
+      "offset": 1249,
       "length": 12,
       "value": "\"ctps_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1209,
+      "offset": 1263,
       "length": 6,
       "value": "\"ctps\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1257,
+      "offset": 1314,
       "length": 11,
       "value": "\"ctps_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1270,
+      "offset": 1327,
       "length": 6,
       "value": "\"ctps\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1317,
+      "offset": 1377,
       "length": 10,
       "value": "\"passport\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1329,
+      "offset": 1389,
       "length": 10,
       "value": "\"passport\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1385,
+      "offset": 1448,
       "length": 15,
       "value": "\"passport_full\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 1465,
       "length": 15,
       "value": "\"passport_full\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1462,
+      "offset": 1528,
       "length": 14,
       "value": "\"new_cnh_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1478,
+      "offset": 1544,
       "length": 9,
       "value": "\"cnh_new\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1533,
+      "offset": 1602,
       "length": 15,
       "value": "\"new_cnh_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1550,
+      "offset": 1619,
       "length": 9,
       "value": "\"cnh_new\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1676,
       "length": 14,
       "value": "\"new_cnh_full\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1620,
+      "offset": 1692,
       "length": 9,
       "value": "\"cnh_new\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1670,
+      "offset": 1745,
       "length": 10,
       "value": "\"new_crlv\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1681,
+      "offset": 1756,
       "length": 10,
       "value": "\"crlv_new\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1810,
       "length": 10,
       "value": "\"cin_back\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
+      "offset": 1821,
       "length": 5,
       "value": "\"cin\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1871,
       "length": 11,
       "value": "\"cin_front\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1883,
       "length": 5,
       "value": "\"cin\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "Array",
-      "offset": 2680,
+      "offset": 2770,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "Array",
-      "offset": 3562,
+      "offset": 3652,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4873,
+      "offset": 4963,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4917,
+      "offset": 5007,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/Label.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Model\/CafLabel.swift",
       "kind": "StringLiteral",
       "offset": 181,
-      "length": 5,
-      "value": "\"DocumentDetector.Label\""
+      "length": 8,
+      "value": "\"DocumentDetector.CafLabel\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/Utils\/UIImage+Buffer.swift",
@@ -45838,595 +45838,595 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 382,
+      "offset": 391,
       "length": 14,
       "value": "\"rg_front_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 463,
+      "offset": 472,
       "length": 14,
       "value": "\"Frente do RG\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 559,
       "length": 20,
       "value": "\"rg_front_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 657,
       "length": 34,
       "value": "\"Ops, esta não é a frente do RG\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 744,
+      "offset": 753,
       "length": 10,
       "value": "\"rg_front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 809,
+      "offset": 818,
       "length": 12,
       "value": "\"frentedorg\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 979,
+      "offset": 997,
       "length": 13,
       "value": "\"rg_back_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1058,
+      "offset": 1076,
       "length": 13,
       "value": "\"Verso do RG\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1143,
+      "offset": 1161,
       "length": 19,
       "value": "\"rg_back_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1239,
+      "offset": 1257,
       "length": 33,
       "value": "\"Ops, este não é o verso do RG\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1333,
+      "offset": 1351,
       "length": 9,
       "value": "\"rg_back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1396,
+      "offset": 1414,
       "length": 11,
       "value": "\"versodorg\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1573,
       "length": 13,
       "value": "\"rg_full_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1652,
       "length": 4,
       "value": "\"RG\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1728,
       "length": 19,
       "value": "\"rg_full_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1800,
+      "offset": 1824,
       "length": 31,
       "value": "\"Ops, este não é o RG aberto\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1892,
+      "offset": 1916,
       "length": 9,
       "value": "\"rg_full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 1979,
       "length": 4,
       "value": "\"rg\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2109,
+      "offset": 2139,
       "length": 15,
       "value": "\"cnh_front_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2222,
       "length": 15,
       "value": "\"Frente da CNH\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2281,
+      "offset": 2311,
       "length": 21,
       "value": "\"cnh_front_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2381,
+      "offset": 2411,
       "length": 35,
       "value": "\"Ops, esta não é a frente da CNH\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2479,
+      "offset": 2509,
       "length": 11,
       "value": "\"cnh_front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2546,
+      "offset": 2576,
       "length": 13,
       "value": "\"frentedacnh\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2705,
+      "offset": 2741,
       "length": 14,
       "value": "\"cnh_back_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2786,
+      "offset": 2822,
       "length": 14,
       "value": "\"Verso da CNH\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2873,
+      "offset": 2909,
       "length": 20,
       "value": "\"cnh_back_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 3007,
       "length": 34,
       "value": "\"Ops, este não é o verso da CNH\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3067,
+      "offset": 3103,
       "length": 10,
       "value": "\"cnh_back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3132,
+      "offset": 3168,
       "length": 12,
       "value": "\"versodacnh\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3290,
+      "offset": 3332,
       "length": 14,
       "value": "\"cnh_full_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3413,
       "length": 5,
       "value": "\"CNH\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3449,
+      "offset": 3491,
       "length": 20,
       "value": "\"cnh_full_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3547,
+      "offset": 3589,
       "length": 32,
       "value": "\"Ops, esta não é a CNH aberta\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3641,
+      "offset": 3683,
       "length": 10,
       "value": "\"cnh_full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 3748,
       "length": 5,
       "value": "\"cnh\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3841,
+      "offset": 3889,
       "length": 10,
       "value": "\"crlv_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3914,
+      "offset": 3962,
       "length": 6,
       "value": "\"CRLV\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 3989,
+      "offset": 4037,
       "length": 16,
       "value": "\"crlv_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4079,
+      "offset": 4127,
       "length": 26,
       "value": "\"Ops, este não é o CRLV\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4163,
+      "offset": 4211,
       "length": 6,
       "value": "\"crlv\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4220,
+      "offset": 4268,
       "length": 6,
       "value": "\"crlv\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4372,
+      "offset": 4426,
       "length": 15,
       "value": "\"rne_front_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4455,
+      "offset": 4509,
       "length": 15,
       "value": "\"Frente do RNE\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 4598,
       "length": 21,
       "value": "\"rne_front_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4644,
+      "offset": 4698,
       "length": 35,
       "value": "\"Ops, esta não é a frente do RNE\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4742,
+      "offset": 4796,
       "length": 11,
       "value": "\"rne_front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4809,
+      "offset": 4863,
       "length": 10,
       "value": "\"rnefront\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 4961,
+      "offset": 5021,
       "length": 14,
       "value": "\"rne_back_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5042,
+      "offset": 5102,
       "length": 14,
       "value": "\"Verso do RNE\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5129,
+      "offset": 5189,
       "length": 20,
       "value": "\"rne_back_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5227,
+      "offset": 5287,
       "length": 34,
       "value": "\"Ops, este não é o verso do RNE\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5323,
+      "offset": 5383,
       "length": 10,
       "value": "\"rne_back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5388,
+      "offset": 5448,
       "length": 9,
       "value": "\"rneback\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5529,
+      "offset": 5592,
       "length": 16,
       "value": "\"ctps_front_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5614,
+      "offset": 5677,
       "length": 16,
       "value": "\"Frente da CTPS\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5705,
+      "offset": 5768,
       "length": 26,
       "value": "\"ctps_front_caf_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5811,
+      "offset": 5874,
       "length": 36,
       "value": "\"Ops, este não é a frente da CTPS\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5911,
+      "offset": 5974,
       "length": 16,
       "value": "\"ctps_front_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 5984,
+      "offset": 6047,
       "length": 11,
       "value": "\"ctpsfront\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6124,
+      "offset": 6190,
       "length": 15,
       "value": "\"ctps_back_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6207,
+      "offset": 6273,
       "length": 15,
       "value": "\"Verso da CTPS\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6296,
+      "offset": 6362,
       "length": 25,
       "value": "\"ctps_back_caf_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6400,
+      "offset": 6466,
       "length": 35,
       "value": "\"Ops, este não é o verso da CTPS\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6498,
+      "offset": 6564,
       "length": 15,
       "value": "\"ctps_back_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6569,
+      "offset": 6635,
       "length": 10,
       "value": "\"ctpsback\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6726,
+      "offset": 6798,
       "length": 14,
       "value": "\"passport_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6807,
+      "offset": 6879,
       "length": 12,
       "value": "\"Passaporte\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6892,
+      "offset": 6964,
       "length": 20,
       "value": "\"passport_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 6990,
+      "offset": 7062,
       "length": 32,
       "value": "\"Ops, este não é o Passaporte\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7084,
+      "offset": 7156,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7149,
+      "offset": 7221,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7272,
+      "offset": 7347,
       "length": 11,
       "value": "\"Documento\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7345,
+      "offset": 7420,
       "length": 30,
       "value": "\"Documento de identificação\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7443,
+      "offset": 7518,
       "length": 18,
       "value": "\"others_wrong_caf\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7534,
+      "offset": 7609,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7593,
+      "offset": 7668,
       "length": 15,
       "value": "\"generic_front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 7658,
+      "offset": 7733,
       "length": 18,
       "value": "\"identifydocument\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "Array",
-      "offset": 7712,
+      "offset": 7790,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 8222,
+      "offset": 8300,
       "length": 24,
       "value": "\"wrong_document_message\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "BooleanLiteral",
-      "offset": 8536,
+      "offset": 8617,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 8783,
+      "offset": 8864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 8954,
+      "offset": 9035,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 9110,
+      "offset": 9191,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Input\/Document.swift",
       "kind": "Array",
-      "offset": 9850,
+      "offset": 9934,
       "length": 2,
       "value": "[]"
     },
@@ -46615,147 +46615,147 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11928,
+      "offset": 11931,
       "length": 5,
       "value": "\"any\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13015,
+      "offset": 13018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 13080,
+      "offset": 13083,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 13088,
+      "offset": 13091,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13759,
+      "offset": 13762,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13871,
+      "offset": 13874,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 13983,
+      "offset": 13986,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 15245,
+      "offset": 15251,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15670,
+      "offset": 15676,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15824,
+      "offset": 15830,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16079,
+      "offset": 16085,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16234,
+      "offset": 16240,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16488,
+      "offset": 16494,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16643,
+      "offset": 16649,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 17265,
+      "offset": 17274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17380,
+      "offset": 17389,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17497,
+      "offset": 17506,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17613,
+      "offset": 17622,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 20578,
+      "offset": 20587,
       "length": 24,
       "value": "\"Formato não suportado\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22919,
+      "offset": 22928,
       "length": 8,
       "value": "\"upload\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/UploadValidation\/ViewModel\/UploadValidationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22989,
+      "offset": 22998,
       "length": 8,
       "value": "\"upload\""
     },
@@ -47518,1008 +47518,1008 @@
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23674,
+      "offset": 23680,
       "length": 18,
       "value": "\"DOCUMENT_QUALITY\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23790,
+      "offset": 23796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23863,
+      "offset": 23869,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23935,
+      "offset": 23941,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24005,
+      "offset": 24011,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24021,
+      "offset": 24027,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24074,
+      "offset": 24080,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24165,
+      "offset": 24171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24361,
+      "offset": 24367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24646,
+      "offset": 24652,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24654,
+      "offset": 24660,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24775,
+      "offset": 24781,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26944,
+      "offset": 26953,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27043,
+      "offset": 27052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27255,
+      "offset": 27264,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27383,
+      "offset": 27392,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27524,
+      "offset": 27533,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28199,
+      "offset": 28208,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28381,
+      "offset": 28390,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28505,
+      "offset": 28514,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 28687,
+      "offset": 28696,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29219,
+      "offset": 29228,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29746,
+      "offset": 29755,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29871,
+      "offset": 29880,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30274,
+      "offset": 30283,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30528,
+      "offset": 30537,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30799,
+      "offset": 30808,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30902,
+      "offset": 30911,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31293,
+      "offset": 31302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31319,
+      "offset": 31328,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31327,
+      "offset": 31336,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31391,
+      "offset": 31400,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31394,
+      "offset": 31403,
       "length": 14,
       "value": "\"retrievedOcr\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31808,
+      "offset": 31817,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32307,
+      "offset": 32316,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32416,
+      "offset": 32425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32478,
+      "offset": 32487,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32489,
+      "offset": 32498,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32645,
+      "offset": 32654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32707,
+      "offset": 32716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32914,
+      "offset": 32923,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33181,
+      "offset": 33190,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33271,
+      "offset": 33280,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33316,
+      "offset": 33325,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33851,
+      "offset": 33863,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34066,
+      "offset": 34078,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34257,
+      "offset": 34269,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34352,
+      "offset": 34364,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34621,
+      "offset": 34633,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34774,
+      "offset": 34786,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34899,
+      "offset": 34911,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 34915,
+      "offset": 34927,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35106,
+      "offset": 35118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35202,
+      "offset": 35214,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35713,
+      "offset": 35725,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35770,
+      "offset": 35782,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35837,
+      "offset": 35849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35901,
+      "offset": 35913,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35955,
+      "offset": 35967,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35971,
+      "offset": 35983,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36077,
+      "offset": 36089,
       "length": 9,
       "value": "\"Preview\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36306,
+      "offset": 36318,
       "length": 23,
       "value": "\"PreviewViewController\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37018,
+      "offset": 37030,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37081,
+      "offset": 37093,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37150,
+      "offset": 37162,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37294,
+      "offset": 37306,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37830,
+      "offset": 37842,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 38015,
+      "offset": 38027,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38255,
+      "offset": 38267,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38373,
+      "offset": 38385,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38431,
+      "offset": 38443,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38492,
+      "offset": 38504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38627,
+      "offset": 38639,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38756,
+      "offset": 38768,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38824,
+      "offset": 38836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39294,
+      "offset": 39306,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39336,
+      "offset": 39348,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 39397,
+      "offset": 39409,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40194,
+      "offset": 40206,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 40301,
+      "offset": 40313,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 40358,
+      "offset": 40370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40575,
+      "offset": 40587,
       "length": 23,
       "value": "\"PopupDocumentDetector\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40708,
+      "offset": 40720,
       "length": 33,
       "value": "\"PopupDocumentDetectorController\""
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41569,
+      "offset": 41581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 41618,
+      "offset": 41630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42211,
+      "offset": 42223,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42279,
+      "offset": 42291,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42388,
+      "offset": 42400,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42473,
+      "offset": 42485,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42683,
+      "offset": 42695,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42720,
+      "offset": 42732,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42727,
+      "offset": 42739,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42846,
+      "offset": 42858,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42883,
+      "offset": 42895,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42890,
+      "offset": 42902,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 43125,
+      "offset": 43137,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 43402,
+      "offset": 43414,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 43408,
+      "offset": 43420,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 43537,
+      "offset": 43549,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 43543,
+      "offset": 43555,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 44453,
+      "offset": 44465,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 44661,
+      "offset": 44673,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 44947,
+      "offset": 44959,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45157,
+      "offset": 45169,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 45748,
+      "offset": 45760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45802,
+      "offset": 45814,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45808,
+      "offset": 45820,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 46667,
+      "offset": 46679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 47585,
+      "offset": 47597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 47706,
+      "offset": 47718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 47930,
+      "offset": 47942,
       "length": 4,
       "value": "1108"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48153,
+      "offset": 48165,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48481,
+      "offset": 48493,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48617,
+      "offset": 48629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48687,
+      "offset": 48699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48701,
+      "offset": 48713,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48778,
+      "offset": 48790,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48845,
+      "offset": 48857,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 48915,
+      "offset": 48927,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 49172,
+      "offset": 49184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 49375,
+      "offset": 49387,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 49760,
+      "offset": 49772,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 49827,
+      "offset": 49839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 49972,
+      "offset": 49984,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50036,
+      "offset": 50048,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50187,
+      "offset": 50199,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50384,
+      "offset": 50396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50570,
+      "offset": 50582,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50748,
+      "offset": 50760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 50780,
+      "offset": 50792,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51430,
+      "offset": 51442,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51443,
+      "offset": 51455,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51526,
+      "offset": 51538,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51592,
+      "offset": 51604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51606,
+      "offset": 51618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 52207,
+      "offset": 52219,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 52652,
+      "offset": 52664,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 53185,
+      "offset": 53197,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53543,
+      "offset": 53555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53609,
+      "offset": 53621,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 53695,
+      "offset": 53707,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 54410,
+      "offset": 54422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 54559,
+      "offset": 54571,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/AppDemo\/DocumentDetector\/Controller\/Scan\/DocumentDetectorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 54736,
+      "offset": 54748,
       "length": 4,
       "value": "true"
     },

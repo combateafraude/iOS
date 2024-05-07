@@ -321,6 +321,13 @@ typedef SWIFT_ENUM(NSInteger, CAFStage, open) {
 };
 
 
+SWIFT_CLASS("_TtC16DocumentDetector8CafLabel")
+@interface CafLabel : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector7Capture")
 @interface Capture : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -504,13 +511,6 @@ SWIFT_CLASS("_TtC16DocumentDetector26InvalidConfigurationReason")
 
 SWIFT_CLASS("_TtC16DocumentDetector18InvalidTokenReason")
 @interface InvalidTokenReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector5Label")
-@interface Label : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
