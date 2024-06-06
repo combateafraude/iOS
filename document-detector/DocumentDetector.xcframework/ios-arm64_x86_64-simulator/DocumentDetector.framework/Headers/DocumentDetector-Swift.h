@@ -301,24 +301,51 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS("_TtC16DocumentDetector3Api")
-@interface Api : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector12AnalyticsApi")
-@interface AnalyticsApi : Api
-@end
-
-
 typedef SWIFT_ENUM(NSInteger, CAFStage, open) {
   CAFStageBETA = 0,
   CAFStagePROD = 1,
   CAFStageDEV = 2,
 };
+
+
+SWIFT_CLASS("_TtC16DocumentDetector10CafCapture")
+@interface CafCapture : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, CafCaptureMode, open) {
+  CafCaptureModeAUTOMATIC = 0,
+  CafCaptureModeMANUAL = 1,
+};
+
+
+SWIFT_CLASS("_TtC16DocumentDetector11CafDocument")
+@interface CafDocument : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSString;
+
+SWIFT_CLASS("_TtC16DocumentDetector26CafDocumentDetectorFailure")
+@interface CafDocumentDetectorFailure : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector26CafImageUploadResponseBody")
+@interface CafImageUploadResponseBody : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector21CafInvalidTokenReason")
+@interface CafInvalidTokenReason : CafDocumentDetectorFailure
+@end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector8CafLabel")
@@ -328,27 +355,80 @@ SWIFT_CLASS("_TtC16DocumentDetector8CafLabel")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector7Capture")
-@interface Capture : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS("_TtC16DocumentDetector16CafLibraryReason")
+@interface CafLibraryReason : CafDocumentDetectorFailure
 @end
 
-typedef SWIFT_ENUM(NSInteger, CaptureMode, open) {
-  CaptureModeAUTOMATIC = 0,
-  CaptureModeMANUAL = 1,
+typedef SWIFT_ENUM(NSInteger, CafMask, open) {
+  CafMaskNormal = 0,
+  CafMaskSuccess = 1,
+  CafMaskError = 2,
+  CafMaskManual = 3,
+};
+
+typedef SWIFT_ENUM(NSInteger, CafMaskType, open) {
+  CafMaskTypeStandard = 0,
+  CafMaskTypeEmpty = 1,
 };
 
 
-SWIFT_CLASS("_TtC16DocumentDetector8Document")
-@interface Document : NSObject
+SWIFT_CLASS("_TtC16DocumentDetector18CafMessageSettings")
+@interface CafMessageSettings : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector16CafNetworkReason")
+@interface CafNetworkReason : CafDocumentDetectorFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector19CafPermissionReason")
+@interface CafPermissionReason : CafDocumentDetectorFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector16CafProxySettings")
+@interface CafProxySettings : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+typedef SWIFT_ENUM(NSInteger, CafResolution, open) {
+  CafResolutionFULL_HD = 0,
+  CafResolutionULTRA_HD = 1,
+};
+
+
+SWIFT_CLASS("_TtC16DocumentDetector24CafServerFailureResponse")
+@interface CafServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector15CafServerReason")
+@interface CafServerReason : CafDocumentDetectorFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector17CafUploadSettings")
+@interface CafUploadSettings : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, CafValidationFailure, open) {
+  CafValidationFailureSENSOR_LUMINOSITY_FAILURE = 0,
+  CafValidationFailureSENSOR_ORIENTATION_FAILURE = 1,
+  CafValidationFailureSENSOR_STABILITY_FAILURE = 2,
+  CafValidationFailureFRAMING_FAILURE = 3,
+  CafValidationFailureTYPIFICATION_FAILURE = 4,
+  CafValidationFailureQUALITY_FAILURE = 5,
+};
+
 @protocol DocumentDetectorControllerDelegate;
 @class DocumentDetectorSdk;
-@class NSString;
 @class NSBundle;
 @class NSCoder;
 @class UIViewController;
@@ -379,7 +459,6 @@ SWIFT_CLASS_NAMED("DocumentDetectorController")
 @end
 
 @class DocumentDetectorResult;
-@class DocumentDetectorFailure;
 
 /// A set of methods that your delegate object must implement to interact with the image scanner interface.
 SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
@@ -409,21 +488,13 @@ SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
 ///
 /// \param error The error that occured.
 ///
-- (void)documentDetectionController:(DocumentDetectorController * _Nonnull)scanner didFailWithError:(DocumentDetectorFailure * _Nonnull)error;
+- (void)documentDetectionController:(DocumentDetectorController * _Nonnull)scanner didFailWithError:(CafDocumentDetectorFailure * _Nonnull)error;
 @end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector36DocumentDetectorCustomViewController")
 @interface DocumentDetectorCustomViewController : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector23DocumentDetectorFailure")
-@interface DocumentDetectorFailure : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 
@@ -446,8 +517,8 @@ SWIFT_CLASS("_TtC16DocumentDetector19DocumentDetectorSdk")
 @end
 
 
-SWIFT_CLASS("_TtCC16DocumentDetector19DocumentDetectorSdk7Builder")
-@interface Builder : NSObject
+SWIFT_CLASS("_TtCC16DocumentDetector19DocumentDetectorSdk10CafBuilder")
+@interface CafBuilder : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -491,102 +562,6 @@ SWIFT_CLASS("_TtC16DocumentDetector19DocumentOverlayView")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector17DocumentValidator")
-@interface DocumentValidator : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector23ImageUploadResponseBody")
-@interface ImageUploadResponseBody : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector26InvalidConfigurationReason")
-@interface InvalidConfigurationReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector18InvalidTokenReason")
-@interface InvalidTokenReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13LibraryReason")
-@interface LibraryReason : DocumentDetectorFailure
-@end
-
-
-typedef SWIFT_ENUM(NSInteger, Mask, open) {
-  MaskNormal = 0,
-  MaskSuccess = 1,
-  MaskError = 2,
-  MaskManual = 3,
-};
-
-typedef SWIFT_ENUM(NSInteger, MaskType, open) {
-  MaskTypeStandard = 0,
-  MaskTypeEmpty = 1,
-};
-
-
-SWIFT_CLASS("_TtC16DocumentDetector15MessageSettings")
-@interface MessageSettings : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector9MobileApi")
-@interface MobileApi : Api
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13NetworkReason")
-@interface NetworkReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector16PermissionReason")
-@interface PermissionReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13ProxySettings")
-@interface ProxySettings : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-typedef SWIFT_ENUM(NSInteger, Resolution, open) {
-  ResolutionFULL_HD = 0,
-  ResolutionULTRA_HD = 1,
-};
-
-
-SWIFT_CLASS("_TtC16DocumentDetector21ServerFailureResponse")
-@interface ServerFailureResponse : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector12ServerReason")
-@interface ServerReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13StorageReason")
-@interface StorageReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
-@interface TokenVerificationResponse : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 
@@ -598,14 +573,6 @@ SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
 
 
 
-
-
-
-SWIFT_CLASS("_TtC16DocumentDetector14UploadSettings")
-@interface UploadSettings : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector30UploadValidationViewController") SWIFT_AVAILABILITY(ios,introduced=13.0)
@@ -633,15 +600,6 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 @end
 
-
-typedef SWIFT_ENUM(NSInteger, ValidationFailure, open) {
-  ValidationFailureSENSOR_LUMINOSITY_FAILURE = 0,
-  ValidationFailureSENSOR_ORIENTATION_FAILURE = 1,
-  ValidationFailureSENSOR_STABILITY_FAILURE = 2,
-  ValidationFailureFRAMING_FAILURE = 3,
-  ValidationFailureTYPIFICATION_FAILURE = 4,
-  ValidationFailureQUALITY_FAILURE = 5,
-};
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -954,24 +912,51 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS("_TtC16DocumentDetector3Api")
-@interface Api : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector12AnalyticsApi")
-@interface AnalyticsApi : Api
-@end
-
-
 typedef SWIFT_ENUM(NSInteger, CAFStage, open) {
   CAFStageBETA = 0,
   CAFStagePROD = 1,
   CAFStageDEV = 2,
 };
+
+
+SWIFT_CLASS("_TtC16DocumentDetector10CafCapture")
+@interface CafCapture : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, CafCaptureMode, open) {
+  CafCaptureModeAUTOMATIC = 0,
+  CafCaptureModeMANUAL = 1,
+};
+
+
+SWIFT_CLASS("_TtC16DocumentDetector11CafDocument")
+@interface CafDocument : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSString;
+
+SWIFT_CLASS("_TtC16DocumentDetector26CafDocumentDetectorFailure")
+@interface CafDocumentDetectorFailure : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector26CafImageUploadResponseBody")
+@interface CafImageUploadResponseBody : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector21CafInvalidTokenReason")
+@interface CafInvalidTokenReason : CafDocumentDetectorFailure
+@end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector8CafLabel")
@@ -981,27 +966,80 @@ SWIFT_CLASS("_TtC16DocumentDetector8CafLabel")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector7Capture")
-@interface Capture : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS("_TtC16DocumentDetector16CafLibraryReason")
+@interface CafLibraryReason : CafDocumentDetectorFailure
 @end
 
-typedef SWIFT_ENUM(NSInteger, CaptureMode, open) {
-  CaptureModeAUTOMATIC = 0,
-  CaptureModeMANUAL = 1,
+typedef SWIFT_ENUM(NSInteger, CafMask, open) {
+  CafMaskNormal = 0,
+  CafMaskSuccess = 1,
+  CafMaskError = 2,
+  CafMaskManual = 3,
+};
+
+typedef SWIFT_ENUM(NSInteger, CafMaskType, open) {
+  CafMaskTypeStandard = 0,
+  CafMaskTypeEmpty = 1,
 };
 
 
-SWIFT_CLASS("_TtC16DocumentDetector8Document")
-@interface Document : NSObject
+SWIFT_CLASS("_TtC16DocumentDetector18CafMessageSettings")
+@interface CafMessageSettings : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector16CafNetworkReason")
+@interface CafNetworkReason : CafDocumentDetectorFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector19CafPermissionReason")
+@interface CafPermissionReason : CafDocumentDetectorFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector16CafProxySettings")
+@interface CafProxySettings : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+typedef SWIFT_ENUM(NSInteger, CafResolution, open) {
+  CafResolutionFULL_HD = 0,
+  CafResolutionULTRA_HD = 1,
+};
+
+
+SWIFT_CLASS("_TtC16DocumentDetector24CafServerFailureResponse")
+@interface CafServerFailureResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector15CafServerReason")
+@interface CafServerReason : CafDocumentDetectorFailure
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector17CafUploadSettings")
+@interface CafUploadSettings : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, CafValidationFailure, open) {
+  CafValidationFailureSENSOR_LUMINOSITY_FAILURE = 0,
+  CafValidationFailureSENSOR_ORIENTATION_FAILURE = 1,
+  CafValidationFailureSENSOR_STABILITY_FAILURE = 2,
+  CafValidationFailureFRAMING_FAILURE = 3,
+  CafValidationFailureTYPIFICATION_FAILURE = 4,
+  CafValidationFailureQUALITY_FAILURE = 5,
+};
+
 @protocol DocumentDetectorControllerDelegate;
 @class DocumentDetectorSdk;
-@class NSString;
 @class NSBundle;
 @class NSCoder;
 @class UIViewController;
@@ -1032,7 +1070,6 @@ SWIFT_CLASS_NAMED("DocumentDetectorController")
 @end
 
 @class DocumentDetectorResult;
-@class DocumentDetectorFailure;
 
 /// A set of methods that your delegate object must implement to interact with the image scanner interface.
 SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
@@ -1062,21 +1099,13 @@ SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
 ///
 /// \param error The error that occured.
 ///
-- (void)documentDetectionController:(DocumentDetectorController * _Nonnull)scanner didFailWithError:(DocumentDetectorFailure * _Nonnull)error;
+- (void)documentDetectionController:(DocumentDetectorController * _Nonnull)scanner didFailWithError:(CafDocumentDetectorFailure * _Nonnull)error;
 @end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector36DocumentDetectorCustomViewController")
 @interface DocumentDetectorCustomViewController : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector23DocumentDetectorFailure")
-@interface DocumentDetectorFailure : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
 
@@ -1099,8 +1128,8 @@ SWIFT_CLASS("_TtC16DocumentDetector19DocumentDetectorSdk")
 @end
 
 
-SWIFT_CLASS("_TtCC16DocumentDetector19DocumentDetectorSdk7Builder")
-@interface Builder : NSObject
+SWIFT_CLASS("_TtCC16DocumentDetector19DocumentDetectorSdk10CafBuilder")
+@interface CafBuilder : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1144,102 +1173,6 @@ SWIFT_CLASS("_TtC16DocumentDetector19DocumentOverlayView")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector17DocumentValidator")
-@interface DocumentValidator : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector23ImageUploadResponseBody")
-@interface ImageUploadResponseBody : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector26InvalidConfigurationReason")
-@interface InvalidConfigurationReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector18InvalidTokenReason")
-@interface InvalidTokenReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13LibraryReason")
-@interface LibraryReason : DocumentDetectorFailure
-@end
-
-
-typedef SWIFT_ENUM(NSInteger, Mask, open) {
-  MaskNormal = 0,
-  MaskSuccess = 1,
-  MaskError = 2,
-  MaskManual = 3,
-};
-
-typedef SWIFT_ENUM(NSInteger, MaskType, open) {
-  MaskTypeStandard = 0,
-  MaskTypeEmpty = 1,
-};
-
-
-SWIFT_CLASS("_TtC16DocumentDetector15MessageSettings")
-@interface MessageSettings : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector9MobileApi")
-@interface MobileApi : Api
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13NetworkReason")
-@interface NetworkReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector16PermissionReason")
-@interface PermissionReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13ProxySettings")
-@interface ProxySettings : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-typedef SWIFT_ENUM(NSInteger, Resolution, open) {
-  ResolutionFULL_HD = 0,
-  ResolutionULTRA_HD = 1,
-};
-
-
-SWIFT_CLASS("_TtC16DocumentDetector21ServerFailureResponse")
-@interface ServerFailureResponse : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector12ServerReason")
-@interface ServerReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector13StorageReason")
-@interface StorageReason : DocumentDetectorFailure
-@end
-
-
-SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
-@interface TokenVerificationResponse : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 
@@ -1251,14 +1184,6 @@ SWIFT_CLASS("_TtC16DocumentDetector25TokenVerificationResponse")
 
 
 
-
-
-
-SWIFT_CLASS("_TtC16DocumentDetector14UploadSettings")
-@interface UploadSettings : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 SWIFT_CLASS("_TtC16DocumentDetector30UploadValidationViewController") SWIFT_AVAILABILITY(ios,introduced=13.0)
@@ -1286,15 +1211,6 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 - (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
 @end
 
-
-typedef SWIFT_ENUM(NSInteger, ValidationFailure, open) {
-  ValidationFailureSENSOR_LUMINOSITY_FAILURE = 0,
-  ValidationFailureSENSOR_ORIENTATION_FAILURE = 1,
-  ValidationFailureSENSOR_STABILITY_FAILURE = 2,
-  ValidationFailureFRAMING_FAILURE = 3,
-  ValidationFailureTYPIFICATION_FAILURE = 4,
-  ValidationFailureQUALITY_FAILURE = 5,
-};
 
 #endif
 #if __has_attribute(external_source_symbol)
