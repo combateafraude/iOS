@@ -30,6 +30,35 @@ import VideoToolbox
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_Concurrency.MainActor(unsafe) open class DocumentOverlayView : UIKit.UIView, DocumentDetector.DocumentDetectorCustomViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) open func show(loading show: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func show(message text: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func show(stepName text: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func show(mask type: DocumentDetector.CafMask)
+  @_Concurrency.MainActor(unsafe) open func show(manualCaptureButton hidden: Swift.Bool, reset: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func loading(status: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func readyToCapture(status: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func stepDoneSuccessfully(status: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func captureMode(status: DocumentDetector.CafCaptureMode)
+  @_Concurrency.MainActor(unsafe) open func mask(status: DocumentDetector.CafMask, visibility: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func popup(visibility: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func manualCaptureButton(visibility: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func switchCameraButton(visibility: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func preview(visibility: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func status(message: Swift.String, visibility: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func validationFailure(status: Swift.Bool, id: DocumentDetector.CafValidationFailure?)
+  @_Concurrency.MainActor(unsafe) open func currentStep(name: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func documentDetectionController(didFinishWithResults results: DocumentDetector.DocumentDetectorResult)
+  @_Concurrency.MainActor(unsafe) open func documentDetectionControllerDidCancel()
+  @_Concurrency.MainActor(unsafe) open func documentDetectionController(didFailWithError error: DocumentDetector.CafDocumentDetectorFailure)
+  @_Concurrency.MainActor(unsafe) weak public var viewController: DocumentDetector.DocumentDetectorViewController?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func updateOverlay(newSize: CoreFoundation.CGSize)
+  @_Concurrency.MainActor(unsafe) open func setCurrentAction(text: Swift.String)
+  @_Concurrency.MainActor(unsafe) open func updateCenterIcon(mask type: DocumentDetector.CafMask)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CafDocumentDetectorFailure : ObjectiveC.NSObject, Swift.Encodable {
   public var message: Swift.String!
   @objc override dynamic public var description: Swift.String {
@@ -235,6 +264,14 @@ public class CafDocumentRetrievedOcr {
   public static func allDocuments() -> [DocumentDetector.CafDocument]
   open func setDefaults()
   @objc deinit
+}
+@objc public enum CafValidationFailure : Swift.Int {
+  case SENSOR_LUMINOSITY_FAILURE, SENSOR_ORIENTATION_FAILURE, SENSOR_STABILITY_FAILURE, FRAMING_FAILURE, TYPIFICATION_FAILURE, QUALITY_FAILURE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DocumentDetectorViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -668,6 +705,7 @@ extension DocumentDetector.CafUploadValidationMessage : Swift.Equatable {
   public var enableManualCapture: Swift.Bool!
   public var manualCaptureTime: Foundation.TimeInterval!
   public var enableMultiLanguage: Swift.Bool!
+  public var overlay: DocumentDetector.DocumentOverlayView!
   public var type: DocumentDetector.CafMaskType!
   public var resolution: DocumentDetector.CafResolution!
   public var compressionQuality: CoreFoundation.CGFloat!
@@ -694,6 +732,7 @@ extension DocumentDetector.CafUploadValidationMessage : Swift.Equatable {
     open func setGetImageUrlExpireTime(_ expireTime: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setManualCaptureSettings(enable: Swift.Bool, time: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func enableMultiLanguage(_ enable: Swift.Bool) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
+    open func setOverlay(overlay: DocumentDetector.DocumentOverlayView) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setResolutionSettings(resolution: DocumentDetector.CafResolution) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCompressSettings(compressionQuality: CoreFoundation.CGFloat) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
@@ -754,6 +793,31 @@ extension DocumentDetector.CafUploadValidationMessage : Swift.Equatable {
   public var code: Swift.Int!
   @objc deinit
 }
+public protocol DocumentDetectorCustomViewControllerDelegate : AnyObject {
+  func show(loading show: Swift.Bool)
+  func show(message text: Swift.String)
+  func show(stepName text: Swift.String)
+  func show(mask type: DocumentDetector.CafMask)
+  func show(manualCaptureButton hidden: Swift.Bool, reset: Swift.Bool)
+  func loading(status: Swift.Bool)
+  func readyToCapture(status: Swift.Bool)
+  func stepDoneSuccessfully(status: Swift.Bool)
+  func validationFailure(status: Swift.Bool, id: DocumentDetector.CafValidationFailure?)
+  func captureMode(status: DocumentDetector.CafCaptureMode)
+  func mask(status: DocumentDetector.CafMask, visibility: Swift.Bool)
+  func popup(visibility: Swift.Bool)
+  func manualCaptureButton(visibility: Swift.Bool)
+  func preview(visibility: Swift.Bool)
+  func status(message: Swift.String, visibility: Swift.Bool)
+  func currentStep(name: Swift.String)
+  func documentDetectionController(didFinishWithResults results: DocumentDetector.DocumentDetectorResult)
+  func documentDetectionControllerDidCancel()
+  func documentDetectionController(didFailWithError error: DocumentDetector.CafDocumentDetectorFailure)
+}
+@objc @_inheritsConvenienceInitializers public class DocumentDetectorCustomViewController : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc open class CafProxySettings : ObjectiveC.NSObject {
   public var hostname: Swift.String!
   public var port: Swift.Int!
@@ -775,6 +839,9 @@ extension DocumentDetector.CAFStage : Swift.RawRepresentable {}
 extension DocumentDetector.CafResolution : Swift.Equatable {}
 extension DocumentDetector.CafResolution : Swift.Hashable {}
 extension DocumentDetector.CafResolution : Swift.RawRepresentable {}
+extension DocumentDetector.CafValidationFailure : Swift.Equatable {}
+extension DocumentDetector.CafValidationFailure : Swift.Hashable {}
+extension DocumentDetector.CafValidationFailure : Swift.RawRepresentable {}
 extension DocumentDetector.CafCountryCodes : Swift.Equatable {}
 extension DocumentDetector.CafCountryCodes : Swift.Hashable {}
 extension DocumentDetector.CafCountryCodes : Swift.RawRepresentable {}

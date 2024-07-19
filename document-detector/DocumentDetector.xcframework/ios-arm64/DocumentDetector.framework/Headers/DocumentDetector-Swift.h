@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -417,6 +418,15 @@ SWIFT_CLASS("_TtC16DocumentDetector17CafUploadSettings")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+typedef SWIFT_ENUM(NSInteger, CafValidationFailure, open) {
+  CafValidationFailureSENSOR_LUMINOSITY_FAILURE = 0,
+  CafValidationFailureSENSOR_ORIENTATION_FAILURE = 1,
+  CafValidationFailureSENSOR_STABILITY_FAILURE = 2,
+  CafValidationFailureFRAMING_FAILURE = 3,
+  CafValidationFailureTYPIFICATION_FAILURE = 4,
+  CafValidationFailureQUALITY_FAILURE = 5,
+};
+
 @protocol DocumentDetectorControllerDelegate;
 @class DocumentDetectorSdk;
 @class NSBundle;
@@ -482,6 +492,12 @@ SWIFT_PROTOCOL("_TtP16DocumentDetector34DocumentDetectorControllerDelegate_")
 @end
 
 
+SWIFT_CLASS("_TtC16DocumentDetector36DocumentDetectorCustomViewController")
+@interface DocumentDetectorCustomViewController : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC16DocumentDetector22DocumentDetectorLayout")
 @interface DocumentDetectorLayout : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -535,6 +551,14 @@ SWIFT_CLASS("_TtC16DocumentDetector22DocumentFeedbackColors")
 @interface DocumentFeedbackColors : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC16DocumentDetector19DocumentOverlayView")
+@interface DocumentOverlayView : UIView
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
