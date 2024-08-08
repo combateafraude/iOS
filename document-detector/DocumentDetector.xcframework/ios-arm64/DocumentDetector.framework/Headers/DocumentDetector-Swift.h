@@ -300,12 +300,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-typedef SWIFT_ENUM(NSInteger, CAFStage, open) {
-  CAFStageBETA = 0,
-  CAFStagePROD = 1,
-  CAFStageDEV = 2,
-};
-
 
 SWIFT_CLASS("_TtC16DocumentDetector10CafCapture")
 @interface CafCapture : NSObject
@@ -335,13 +329,6 @@ SWIFT_CLASS("_TtC16DocumentDetector26CafDocumentDetectorFailure")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector26CafImageUploadResponseBody")
-@interface CafImageUploadResponseBody : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 SWIFT_CLASS("_TtC16DocumentDetector21CafInvalidTokenReason")
 @interface CafInvalidTokenReason : CafDocumentDetectorFailure
 @end
@@ -365,17 +352,6 @@ typedef SWIFT_ENUM(NSInteger, CafMask, open) {
   CafMaskManual = 3,
 };
 
-typedef SWIFT_ENUM(NSInteger, CafMaskType, open) {
-  CafMaskTypeStandard = 0,
-  CafMaskTypeEmpty = 1,
-};
-
-
-SWIFT_CLASS("_TtC16DocumentDetector18CafMessageSettings")
-@interface CafMessageSettings : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_CLASS("_TtC16DocumentDetector16CafNetworkReason")
 @interface CafNetworkReason : CafDocumentDetectorFailure
@@ -393,11 +369,6 @@ SWIFT_CLASS("_TtC16DocumentDetector16CafProxySettings")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-typedef SWIFT_ENUM(NSInteger, CafResolution, open) {
-  CafResolutionFULL_HD = 0,
-  CafResolutionULTRA_HD = 1,
-};
-
 
 SWIFT_CLASS("_TtC16DocumentDetector24CafServerFailureResponse")
 @interface CafServerFailureResponse : NSObject
@@ -410,12 +381,12 @@ SWIFT_CLASS("_TtC16DocumentDetector15CafServerReason")
 @interface CafServerReason : CafDocumentDetectorFailure
 @end
 
+typedef SWIFT_ENUM(NSInteger, DDCAFStage, open) {
+  DDCAFStageBETA = 0,
+  DDCAFStagePROD = 1,
+  DDCAFStageDEV = 2,
+};
 
-SWIFT_CLASS("_TtC16DocumentDetector17CafUploadSettings")
-@interface CafUploadSettings : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 @protocol DocumentDetectorControllerDelegate;
 @class DocumentDetectorSdk;
@@ -517,7 +488,6 @@ SWIFT_CLASS("_TtC16DocumentDetector20DocumentDetectorStep")
 
 SWIFT_CLASS("_TtC16DocumentDetector30DocumentDetectorViewController")
 @interface DocumentDetectorViewController : UIViewController
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 /// configure the size of camera layer
 - (void)viewDidLayoutSubviews;
@@ -526,6 +496,7 @@ SWIFT_CLASS("_TtC16DocumentDetector30DocumentDetectorViewController")
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)cancelButtonClick;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 
