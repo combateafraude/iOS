@@ -1,0 +1,6 @@
+framework module CafSolutions {
+    umbrella header "CafSolutions.h"
+
+    export *
+    module * { export * }
+}
