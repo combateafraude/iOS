@@ -19,12 +19,195 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSolutions",
+        "printedName": "CafSolutions",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "FaceAuth"
       },
       {
         "kind": "Import",
         "name": "FaceLiveness",
         "printedName": "FaceLiveness",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSolutions",
+        "printedName": "CafSolutions",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FaceAuth"
       },
@@ -61,6 +244,33 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -829,7 +1039,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -857,6 +1067,43 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1115,6 +1362,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1317,7 +1574,7 @@
                 "kind": "TypeNominal",
                 "name": "CAFStage",
                 "printedName": "FaceLiveness.CAFStage",
-                "usr": "c:@M@FaceLiveness@E@CAFStage"
+                "usr": "s:12FaceLiveness8CAFStageO"
               }
             ],
             "declKind": "Var",
@@ -1339,7 +1596,7 @@
                     "kind": "TypeNominal",
                     "name": "CAFStage",
                     "printedName": "FaceLiveness.CAFStage",
-                    "usr": "c:@M@FaceLiveness@E@CAFStage"
+                    "usr": "s:12FaceLiveness8CAFStageO"
                   }
                 ],
                 "declKind": "Accessor",
@@ -1363,7 +1620,7 @@
                     "kind": "TypeNominal",
                     "name": "CAFStage",
                     "printedName": "FaceLiveness.CAFStage",
-                    "usr": "c:@M@FaceLiveness@E@CAFStage"
+                    "usr": "s:12FaceLiveness8CAFStageO"
                   }
                 ],
                 "declKind": "Accessor",
@@ -1486,12 +1743,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FaceAuth.FaceAuthSDKDelegate?",
+                "printedName": "(any FaceAuth.FaceAuthSDKDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "FaceAuthSDKDelegate",
-                    "printedName": "FaceAuth.FaceAuthSDKDelegate",
+                    "printedName": "any FaceAuth.FaceAuthSDKDelegate",
                     "usr": "s:8FaceAuth0aB11SDKDelegateP"
                   }
                 ],
@@ -1517,12 +1774,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "FaceAuth.FaceAuthSDKDelegate?",
+                    "printedName": "(any FaceAuth.FaceAuthSDKDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FaceAuthSDKDelegate",
-                        "printedName": "FaceAuth.FaceAuthSDKDelegate",
+                        "printedName": "any FaceAuth.FaceAuthSDKDelegate",
                         "usr": "s:8FaceAuth0aB11SDKDelegateP"
                       }
                     ],
@@ -1549,12 +1806,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "FaceAuth.FaceAuthSDKDelegate?",
+                    "printedName": "(any FaceAuth.FaceAuthSDKDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FaceAuthSDKDelegate",
-                        "printedName": "FaceAuth.FaceAuthSDKDelegate",
+                        "printedName": "any FaceAuth.FaceAuthSDKDelegate",
                         "usr": "s:8FaceAuth0aB11SDKDelegateP"
                       }
                     ],
@@ -1896,7 +2153,7 @@
                     "kind": "TypeNominal",
                     "name": "CAFStage",
                     "printedName": "FaceLiveness.CAFStage",
-                    "usr": "c:@M@FaceLiveness@E@CAFStage"
+                    "usr": "s:12FaceLiveness8CAFStageO"
                   }
                 ],
                 "declKind": "Var",
@@ -1918,7 +2175,7 @@
                         "kind": "TypeNominal",
                         "name": "CAFStage",
                         "printedName": "FaceLiveness.CAFStage",
-                        "usr": "c:@M@FaceLiveness@E@CAFStage"
+                        "usr": "s:12FaceLiveness8CAFStageO"
                       }
                     ],
                     "declKind": "Accessor",
@@ -1942,7 +2199,7 @@
                         "kind": "TypeNominal",
                         "name": "CAFStage",
                         "printedName": "FaceLiveness.CAFStage",
-                        "usr": "c:@M@FaceLiveness@E@CAFStage"
+                        "usr": "s:12FaceLiveness8CAFStageO"
                       }
                     ],
                     "declKind": "Accessor",
@@ -2579,7 +2836,7 @@
                     "kind": "TypeNominal",
                     "name": "CAFStage",
                     "printedName": "FaceLiveness.CAFStage",
-                    "usr": "c:@M@FaceLiveness@E@CAFStage"
+                    "usr": "s:12FaceLiveness8CAFStageO"
                   }
                 ],
                 "declKind": "Func",
@@ -2833,6 +3090,43 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2860,7 +3154,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2885,7 +3179,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2921,402 +3215,2637 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CAFStage",
+        "printedName": "CAFStage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CAFStage.Type) -> FaceAuth.CAFStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceAuth.CAFStage",
+                    "usr": "s:8FaceAuth8CAFStageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CAFStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CAFStage",
+                        "printedName": "FaceAuth.CAFStage",
+                        "usr": "s:8FaceAuth8CAFStageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth8CAFStageO3devyA2CmF",
+            "mangledName": "$s8FaceAuth8CAFStageO3devyA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "beta",
+            "printedName": "beta",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CAFStage.Type) -> FaceAuth.CAFStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceAuth.CAFStage",
+                    "usr": "s:8FaceAuth8CAFStageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CAFStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CAFStage",
+                        "printedName": "FaceAuth.CAFStage",
+                        "usr": "s:8FaceAuth8CAFStageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth8CAFStageO4betayA2CmF",
+            "mangledName": "$s8FaceAuth8CAFStageO4betayA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CAFStage.Type) -> FaceAuth.CAFStage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceAuth.CAFStage",
+                    "usr": "s:8FaceAuth8CAFStageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CAFStage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CAFStage",
+                        "printedName": "FaceAuth.CAFStage",
+                        "usr": "s:8FaceAuth8CAFStageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth8CAFStageO4prodyA2CmF",
+            "mangledName": "$s8FaceAuth8CAFStageO4prodyA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceAuth.CAFStage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAFStage",
+                    "printedName": "FaceAuth.CAFStage",
+                    "usr": "s:8FaceAuth8CAFStageO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8FaceAuth8CAFStageO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8FaceAuth8CAFStageO8rawValueACSgSi_tcfc",
+            "moduleName": "FaceAuth",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8FaceAuth8CAFStageO8rawValueSivp",
+            "mangledName": "$s8FaceAuth8CAFStageO8rawValueSivp",
+            "moduleName": "FaceAuth",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8FaceAuth8CAFStageO8rawValueSivg",
+                "mangledName": "$s8FaceAuth8CAFStageO8rawValueSivg",
+                "moduleName": "FaceAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8FaceAuth8CAFStageO",
+        "mangledName": "$s8FaceAuth8CAFStageO",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSdkType",
+        "printedName": "CafSdkType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "native",
+            "printedName": "native",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafSdkType.Type) -> FaceAuth.CafSdkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkType",
+                    "printedName": "FaceAuth.CafSdkType",
+                    "usr": "s:8FaceAuth10CafSdkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafSdkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafSdkType",
+                        "printedName": "FaceAuth.CafSdkType",
+                        "usr": "s:8FaceAuth10CafSdkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth10CafSdkTypeO6nativeyA2CmF",
+            "mangledName": "$s8FaceAuth10CafSdkTypeO6nativeyA2CmF",
+            "moduleName": "FaceAuth"
+          },
+          {
+            "kind": "Var",
+            "name": "reactNative",
+            "printedName": "reactNative",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafSdkType.Type) -> FaceAuth.CafSdkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkType",
+                    "printedName": "FaceAuth.CafSdkType",
+                    "usr": "s:8FaceAuth10CafSdkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafSdkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafSdkType",
+                        "printedName": "FaceAuth.CafSdkType",
+                        "usr": "s:8FaceAuth10CafSdkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth10CafSdkTypeO11reactNativeyA2CmF",
+            "mangledName": "$s8FaceAuth10CafSdkTypeO11reactNativeyA2CmF",
+            "moduleName": "FaceAuth"
+          },
+          {
+            "kind": "Var",
+            "name": "flutter",
+            "printedName": "flutter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafSdkType.Type) -> FaceAuth.CafSdkType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkType",
+                    "printedName": "FaceAuth.CafSdkType",
+                    "usr": "s:8FaceAuth10CafSdkTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafSdkType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafSdkType",
+                        "printedName": "FaceAuth.CafSdkType",
+                        "usr": "s:8FaceAuth10CafSdkTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth10CafSdkTypeO7flutteryA2CmF",
+            "mangledName": "$s8FaceAuth10CafSdkTypeO7flutteryA2CmF",
+            "moduleName": "FaceAuth"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceAuth.CafSdkType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkType",
+                    "printedName": "FaceAuth.CafSdkType",
+                    "usr": "s:8FaceAuth10CafSdkTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8FaceAuth10CafSdkTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8FaceAuth10CafSdkTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "FaceAuth",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8FaceAuth10CafSdkTypeO8rawValueSSvp",
+            "mangledName": "$s8FaceAuth10CafSdkTypeO8rawValueSSvp",
+            "moduleName": "FaceAuth",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8FaceAuth10CafSdkTypeO8rawValueSSvg",
+                "mangledName": "$s8FaceAuth10CafSdkTypeO8rawValueSSvg",
+                "moduleName": "FaceAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8FaceAuth10CafSdkTypeO",
+        "mangledName": "$s8FaceAuth10CafSdkTypeO",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKFailure",
+        "printedName": "CafSDKFailure",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(errorType:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKFailure",
+                "printedName": "FaceAuth.CafSDKFailure",
+                "usr": "s:8FaceAuth13CafSDKFailureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceAuth.CafErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8FaceAuth13CafSDKFailureV9errorType11descriptionAcA0c5ErrorF0OSg_SSSgtcfc",
+            "mangledName": "$s8FaceAuth13CafSDKFailureV9errorType11descriptionAcA0c5ErrorF0OSg_SSSgtcfc",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "errorType",
+            "printedName": "errorType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceAuth.CafErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8FaceAuth13CafSDKFailureV9errorTypeAA0c5ErrorF0OSgvp",
+            "mangledName": "$s8FaceAuth13CafSDKFailureV9errorTypeAA0c5ErrorF0OSgvp",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FaceAuth.CafErrorType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "FaceAuth.CafErrorType",
+                        "usr": "s:8FaceAuth12CafErrorTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8FaceAuth13CafSDKFailureV9errorTypeAA0c5ErrorF0OSgvg",
+                "mangledName": "$s8FaceAuth13CafSDKFailureV9errorTypeAA0c5ErrorF0OSgvg",
+                "moduleName": "FaceAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8FaceAuth13CafSDKFailureV11descriptionSSSgvp",
+            "mangledName": "$s8FaceAuth13CafSDKFailureV11descriptionSSSgvp",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8FaceAuth13CafSDKFailureV11descriptionSSSgvg",
+                "mangledName": "$s8FaceAuth13CafSDKFailureV11descriptionSSSgvg",
+                "moduleName": "FaceAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8FaceAuth13CafSDKFailureV",
+        "mangledName": "$s8FaceAuth13CafSDKFailureV",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafErrorType",
+        "printedName": "CafErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unsupportedDevice",
+            "printedName": "unsupportedDevice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafErrorType.Type) -> FaceAuth.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "FaceAuth.CafErrorType",
+                        "usr": "s:8FaceAuth12CafErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth12CafErrorTypeO17unsupportedDeviceyA2CmF",
+            "mangledName": "$s8FaceAuth12CafErrorTypeO17unsupportedDeviceyA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraPermission",
+            "printedName": "cameraPermission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafErrorType.Type) -> FaceAuth.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "FaceAuth.CafErrorType",
+                        "usr": "s:8FaceAuth12CafErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth12CafErrorTypeO16cameraPermissionyA2CmF",
+            "mangledName": "$s8FaceAuth12CafErrorTypeO16cameraPermissionyA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkException",
+            "printedName": "networkException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafErrorType.Type) -> FaceAuth.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "FaceAuth.CafErrorType",
+                        "usr": "s:8FaceAuth12CafErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth12CafErrorTypeO16networkExceptionyA2CmF",
+            "mangledName": "$s8FaceAuth12CafErrorTypeO16networkExceptionyA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serverException",
+            "printedName": "serverException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafErrorType.Type) -> FaceAuth.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "FaceAuth.CafErrorType",
+                        "usr": "s:8FaceAuth12CafErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth12CafErrorTypeO15serverExceptionyA2CmF",
+            "mangledName": "$s8FaceAuth12CafErrorTypeO15serverExceptionyA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenException",
+            "printedName": "tokenException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FaceAuth.CafErrorType.Type) -> FaceAuth.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FaceAuth.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "FaceAuth.CafErrorType",
+                        "usr": "s:8FaceAuth12CafErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8FaceAuth12CafErrorTypeO14tokenExceptionyA2CmF",
+            "mangledName": "$s8FaceAuth12CafErrorTypeO14tokenExceptionyA2CmF",
+            "moduleName": "FaceAuth",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FaceAuth.CafErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "FaceAuth.CafErrorType",
+                    "usr": "s:8FaceAuth12CafErrorTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8FaceAuth12CafErrorTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8FaceAuth12CafErrorTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "FaceAuth",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8FaceAuth12CafErrorTypeO8rawValueSSvp",
+            "mangledName": "$s8FaceAuth12CafErrorTypeO8rawValueSSvp",
+            "moduleName": "FaceAuth",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8FaceAuth12CafErrorTypeO8rawValueSSvg",
+                "mangledName": "$s8FaceAuth12CafErrorTypeO8rawValueSSvg",
+                "moduleName": "FaceAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8FaceAuth12CafErrorTypeO",
+        "mangledName": "$s8FaceAuth12CafErrorTypeO",
+        "moduleName": "FaceAuth",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 177,
-      "length": 67,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authorization-partner\""
+      "offset": 253,
+      "length": 20,
+      "value": "\"caf.io.caf.service\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 284,
-      "length": 68,
-      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/authorization-partner\""
+      "offset": 330,
+      "length": 29,
+      "value": "\"XCTestConfigurationFilePath\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 392,
-      "length": 63,
-      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authorization-partner\""
+      "offset": 481,
+      "length": 15,
+      "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 615,
-      "length": 91,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/faces\/authentication-iproov?shouldSignResponse=true\""
+      "offset": 525,
+      "length": 9,
+      "value": "\"Bearer \""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 746,
-      "length": 92,
-      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/faces\/authentication-iproov?shouldSignResponse=true\""
+      "offset": 571,
+      "length": 18,
+      "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/URL+.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 878,
-      "length": 87,
-      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/faces\/authentication-iproov?shouldSignResponse=true\""
+      "offset": 623,
+      "length": 14,
+      "value": "\"content-type\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 181,
-      "length": 5,
-      "value": "\"GET\""
+      "offset": 671,
+      "length": 40,
+      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 203,
-      "length": 6,
-      "value": "\"HEAD\""
+      "offset": 745,
+      "length": 41,
+      "value": "\"https:\/\/api.public.beta.caf.io\/v1\/sdks\/\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonConstants.swift",
       "kind": "StringLiteral",
-      "offset": 226,
-      "length": 6,
-      "value": "\"POST\""
+      "offset": 820,
+      "length": 36,
+      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashLogsManager.swift",
       "kind": "StringLiteral",
-      "offset": 248,
-      "length": 5,
-      "value": "\"PUT\""
+      "offset": 737,
+      "length": 19,
+      "value": "\"local_storage_log\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashLogsManager.swift",
       "kind": "StringLiteral",
-      "offset": 271,
-      "length": 7,
-      "value": "\"PATCH\""
+      "offset": 781,
+      "length": 4,
+      "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashLogsManager.swift",
       "kind": "StringLiteral",
-      "offset": 181,
-      "length": 5,
-      "value": "\"GET\""
+      "offset": 818,
+      "length": 12,
+      "value": "\"stackTrace\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 203,
-      "length": 6,
-      "value": "\"HEAD\""
+      "offset": 189,
+      "length": 14,
+      "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 226,
-      "length": 6,
-      "value": "\"POST\""
+      "offset": 252,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 248,
-      "length": 5,
-      "value": "\"PUT\""
+      "offset": 318,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Service\/CafService.swift",
       "kind": "StringLiteral",
-      "offset": 271,
-      "length": 7,
-      "value": "\"PATCH\""
+      "offset": 366,
+      "length": 19,
+      "value": "\"com.caf.sdk.queue\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 587,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 789,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 809,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 864,
-      "length": 3,
-      "value": "\"?\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 877,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 1135,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/APIRoute.swift",
-      "kind": "StringLiteral",
-      "offset": 1365,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
-      "kind": "StringLiteral",
-      "offset": 604,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
-      "kind": "IntegerLiteral",
-      "offset": 731,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
-      "kind": "FloatLiteral",
-      "offset": 741,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 930,
+      "offset": 252,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 984,
-      "length": 4,
-      "value": "true"
+      "offset": 288,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/View\/LoadingScrean.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/DebugMode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 360,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3114,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3492,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3542,
+      "length": 29,
+      "value": "\"iPod touch (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3589,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3639,
+      "length": 29,
+      "value": "\"iPod touch (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3686,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3736,
+      "length": 29,
+      "value": "\"iPod touch (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3783,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3796,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3809,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3833,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3861,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3911,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3940,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3953,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 3990,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4018,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4031,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4068,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4097,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4110,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4147,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4176,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4226,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4254,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4304,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4337,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4387,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4416,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4466,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4500,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4513,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4550,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4578,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4591,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4628,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4661,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4711,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4740,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4754,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4790,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4818,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4832,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4868,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4901,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4915,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4951,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 4979,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5029,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5058,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5072,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5108,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5141,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5191,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5220,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5270,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5299,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5349,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5382,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5432,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5469,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5480,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5491,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5502,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5520,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5546,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5557,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5568,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5596,
+      "length": 23,
+      "value": "\"iPad (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5637,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5648,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5659,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5687,
+      "length": 23,
+      "value": "\"iPad (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5728,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5740,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5778,
+      "length": 23,
+      "value": "\"iPad (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5819,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5830,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5869,
+      "length": 23,
+      "value": "\"iPad (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5910,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5922,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 5960,
+      "length": 23,
+      "value": "\"iPad (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6001,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6012,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6023,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6051,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6079,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6090,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6129,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6159,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6171,
+      "length": 10,
+      "value": "\"iPad11,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6209,
+      "length": 27,
+      "value": "\"iPad Air (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6254,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6265,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6276,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6304,
+      "length": 11,
+      "value": "\"iPad mini\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6333,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6344,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6355,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6383,
+      "length": 13,
+      "value": "\"iPad mini 2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6414,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6425,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6436,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6464,
+      "length": 13,
+      "value": "\"iPad mini 3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6495,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6506,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6545,
+      "length": 13,
+      "value": "\"iPad mini 4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6576,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6588,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6626,
+      "length": 28,
+      "value": "\"iPad mini (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6672,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6683,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6722,
+      "length": 21,
+      "value": "\"iPad Pro (9.7-inch)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6761,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6772,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6811,
+      "length": 22,
+      "value": "\"iPad Pro (12.9-inch)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6851,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6862,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6901,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6958,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 6969,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7008,
+      "length": 22,
+      "value": "\"iPad Pro (10.5-inch)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7048,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7059,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7070,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7081,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7099,
+      "length": 20,
+      "value": "\"iPad Pro (11-inch)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7137,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7148,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7159,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7170,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7188,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7245,
+      "length": 12,
+      "value": "\"AppleTV5,3\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7295,
+      "length": 10,
+      "value": "\"Apple TV\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7323,
+      "length": 12,
+      "value": "\"AppleTV6,2\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7373,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7404,
+      "length": 19,
+      "value": "\"AudioAccessory1,1\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7454,
+      "length": 9,
+      "value": "\"HomePod\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7481,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7489,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7522,
+      "length": 104,
+      "value": "\"Simulator \""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7585,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7618,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 7625,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafKeyChainManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1879,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafJWTDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 240,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafJWTDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafJWTDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 296,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafJWTDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 5,
+      "value": "\"iss\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 9,
+      "value": "\"builder\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 14,
+      "value": "\"memory_usage\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 7,
+      "value": "\"valid\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 6,
+      "value": "\"step\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 8,
+      "value": "\"upload\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 8,
+      "value": "\"cancel\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 11,
+      "value": "\"totalTime\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 9,
+      "value": "\"latency\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 11,
+      "value": "\"imageSize\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 18,
+      "value": "\"deviceIdentified\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 9,
+      "value": "\"appName\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 12,
+      "value": "\"appVersion\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 12,
+      "value": "\"deviceData\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 9,
+      "value": "\"context\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 8,
+      "value": "\"manual\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 882,
+      "length": 11,
+      "value": "\"automatic\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 19,
+      "value": "\"finish_with_error\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 21,
+      "value": "\"finish_with_success\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 14,
+      "value": "\"install_guid\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 528,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/Server\/APIRoute.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/View\/LoadingScreen.swift",
       "kind": "StringLiteral",
       "offset": 146,
       "length": 14,
       "value": "\"FaceAuth.LoadingHUDView\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1591,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2260,
-      "length": 2,
-      "value": "\"\""
+      "offset": 464,
+      "length": 6,
+      "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3387,
-      "length": 22,
-      "value": "\"Error to bind result\""
+      "offset": 499,
+      "length": 8,
+      "value": "\"reason\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/ViewModel\/FaceAuthenticatorViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3776,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Models\/Constants.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
       "kind": "StringLiteral",
-      "offset": 395,
-      "length": 46,
-      "value": "\"5.0.0-iOS-\""
+      "offset": 538,
+      "length": 10,
+      "value": "\"userInfo\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Models\/Constants.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
       "kind": "StringLiteral",
-      "offset": 439,
-      "length": 1,
-      "value": "\"-\""
+      "offset": 587,
+      "length": 18,
+      "value": "\"callStackSymbols\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 8,
+      "value": "\"signal\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 12,
+      "value": "\"stackTrace\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 11,
+      "value": "\"createdAt\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 8,
+      "value": "\"stored\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 27,
+      "value": "\"com.caf.sdk.crash.handler\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2263,
+      "offset": 1203,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 2292,
-      "length": 2,
-      "value": "\"\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/CrashHandler\/CafCrashHandler.swift",
+      "kind": "Dictionary",
+      "offset": 1275,
+      "length": 3,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/Models\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2319,
-      "length": 2,
-      "value": "\"\""
+      "offset": 392,
+      "length": 10,
+      "value": "\"FaceAuth\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/Models\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2376,
-      "length": 2,
-      "value": "\"\""
+      "offset": 431,
+      "length": 46,
+      "value": "\"6.0.0-iOS-\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/Models\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 1,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/CafCommonApi.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/OldSolutions\/FaceAuth\/FaceAuthenticator\/Input\/FaceAuthSDK.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 11,
       "value": "\"FaceAuth.FaceAuthSDK\""
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 307,
-      "length": 40,
-      "value": "\"https:\/\/api.public.dev.caf.io\/v1\/sdks\/\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Analytics\/CafContextOtherInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 344,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 392,
-      "length": 43,
-      "value": "\"https:\/\/api.analytics.combateafraude.com\/\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Utils\/CafSDKTimer.swift",
+      "kind": "Dictionary",
+      "offset": 207,
+      "length": 3,
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 474,
-      "length": 40,
-      "value": "\"https:\/\/api.dev.public.caf.io\/v1\/sdks\/\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/Public\/CafCommonModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 4,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 644,
-      "length": 36,
-      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/Public\/CafCommonModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 725,
-      "length": 43,
-      "value": "\"https:\/\/api.analytics.combateafraude.com\/\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/Public\/CafCommonModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 4,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 41,
-      "value": "\"https:\/\/api.beta.public.caf.io\/v1\/sdks\/\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/Public\/CafCommonModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 978,
-      "length": 36,
-      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/Public\/CafCommonModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 4,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1060,
-      "length": 43,
-      "value": "\"https:\/\/api.analytics.combateafraude.com\/\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 1142,
-      "length": 36,
-      "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 827,
-      "length": 18,
-      "value": "\"Calling route to\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 18,
-      "value": "\"Calling route to\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 3230,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 3291,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 3331,
-      "length": 14,
-      "value": "\"content-type\""
-    },
-    {
-      "filePath": "\/Users\/caf\/Documents\/ios_project\/ios-sdk-face-authenticator-iproov\/FaceAuthenticator\/Server\/Server.swift",
-      "kind": "StringLiteral",
-      "offset": 3931,
-      "length": 2,
-      "value": "\"\""
+      "filePath": "\/Users\/caf\/Documents\/ios_project\/caf-ios\/NewSolutions\/Common\/Sources\/Models\/Public\/CafCommonModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "2"
     }
   ]
 }

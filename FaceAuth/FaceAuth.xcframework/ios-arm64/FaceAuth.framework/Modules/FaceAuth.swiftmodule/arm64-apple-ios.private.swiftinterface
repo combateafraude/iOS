@@ -1,9 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FaceAuth
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FaceAuth
+import AdSupport
+import CafSolutions
+import CommonCrypto/*.CC_LONG*/
+import CommonCrypto/*.CC_MD5*/
+import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import FaceLiveness
 import Foundation
+import Security
 import Swift
 import UIKit
 import _Concurrency
@@ -75,6 +80,52 @@ public struct FaceLivenessResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public enum CAFStage : Swift.Int {
+  case dev
+  case beta
+  case prod
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CafSdkType : Swift.String {
+  case native
+  case reactNative
+  case flutter
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafSDKFailure {
+  public init(errorType: FaceAuth.CafErrorType?, description: Swift.String?)
+  public let errorType: FaceAuth.CafErrorType?
+  public let description: Swift.String?
+}
+public enum CafErrorType : Swift.String {
+  case unsupportedDevice
+  case cameraPermission
+  case networkException
+  case serverException
+  case tokenException
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 extension FaceAuth.FASdkType : Swift.Equatable {}
 extension FaceAuth.FASdkType : Swift.Hashable {}
 extension FaceAuth.FASdkType : Swift.RawRepresentable {}
+extension FaceAuth.CAFStage : Swift.Equatable {}
+extension FaceAuth.CAFStage : Swift.Hashable {}
+extension FaceAuth.CAFStage : Swift.RawRepresentable {}
+extension FaceAuth.CafSdkType : Swift.Equatable {}
+extension FaceAuth.CafSdkType : Swift.Hashable {}
+extension FaceAuth.CafSdkType : Swift.RawRepresentable {}
+extension FaceAuth.CafErrorType : Swift.Equatable {}
+extension FaceAuth.CafErrorType : Swift.Hashable {}
+extension FaceAuth.CafErrorType : Swift.RawRepresentable {}
