@@ -703,9 +703,6 @@ extension DocumentDetector.CafUploadValidationMessage : Swift.Equatable {
   public init(response: [Swift.String : Any])
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc public class CafPermissionReason : DocumentDetector.CafDocumentDetectorFailure {
-  @objc deinit
-}
 public enum CAFStage : Swift.Int {
   case dev
   case beta
@@ -742,6 +739,9 @@ public enum CafErrorType : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+@_hasMissingDesignatedInitializers @objc public class CafPermissionReason : DocumentDetector.CafDocumentDetectorFailure {
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class CafInvalidTokenReason : DocumentDetector.CafDocumentDetectorFailure {
   @objc deinit

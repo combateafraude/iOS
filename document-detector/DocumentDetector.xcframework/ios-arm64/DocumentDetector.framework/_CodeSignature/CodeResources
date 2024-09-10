@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zBZ1aJPt39WR9vFh2CxZoUR7BtQ=
+		7YRiVi10kCkYTNBdkzPseee0wQs=
 		</data>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<data>
-		DIhbw8u8LqWBrb5IEFNObWXn5i8=
+		zDEKNjlofwT+3clW9esUwt27Kgc=
 		</data>
 		<key>Headers/DocumentDetector.h</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P86511feAgB8/8gVekIPRpUUSiI=
+		FeDG57IkFO1cfr2SsxYrArF4ErI=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		RXRskqktZW80aOil9XzsnDBVHKE=
+		kAin7/A++xlcoQPuZJf00G3bSes=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		vfoUDnfOQLVaCuBq4GVeJEzv07w=
+		vrRffJizZAeiQHbaAyZfgd3k4/c=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vfoUDnfOQLVaCuBq4GVeJEzv07w=
+		vrRffJizZAeiQHbaAyZfgd3k4/c=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rHsriCsIsMLs1pnEHLkx6WdrhYA=
+		kRc4lLdgOImy0K5wWPU/coaLfj0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NkcnoSUBng2fnkjbF2tnB1WFJvR36WWMewRPbKAfUoU=
+			EYQ0vd76bNn+e9va7YjtZA1a167BRgE5N8qeeJgV7DQ=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hJjw+yhW5U4N0hiceWTvhUPZOzRP8CID/ABHBXAXq/4=
+			oALJf9Oq2uh+JQKqghE6zkfG0r9f50olgNTIRBeRJu4=
 			</data>
 		</dict>
 		<key>Headers/DocumentDetector.h</key>
@@ -198,14 +198,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wfkMdBAorwMAuH7G5DPmaMtssiWn3qaLciRmWyViPQA=
+			kbX3mh/c1eKtuH2QXU+cvHZ/OhWyRMWnB7EnCMyTSH8=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E5rvkz2ii6csIIAy8Vujg6C1Udh1fqDOqLiiVRqKszI=
+			aTJUU3Uj7wJUl9tesnSIVOpDqBm/30GukH4cqGJdjA0=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -219,14 +219,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E5rvkz2ii6csIIAy8Vujg6C1Udh1fqDOqLiiVRqKszI=
+			aTJUU3Uj7wJUl9tesnSIVOpDqBm/30GukH4cqGJdjA0=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JmIdMvPfkjRozno+niK0TpYwrPGpWI4erPVZwwTLaBo=
+			i8ByFzDCXLdgewCihIHFJGBfAY7hYPViPLkxPj2VrMk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

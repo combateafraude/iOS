@@ -521,6 +521,8 @@ SWIFT_CLASS("_TtC16DocumentDetector22DocumentFeedbackColors")
 
 
 
+
+
 SWIFT_CLASS("_TtC16DocumentDetector30UploadValidationViewController")
 @interface UploadValidationViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -1061,6 +1063,8 @@ SWIFT_CLASS("_TtC16DocumentDetector22DocumentFeedbackColors")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
