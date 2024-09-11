@@ -58,6 +58,9 @@ public struct LivenessResult {
   public func launchSDKHelper(completion: @escaping (FaceLiveness.CafResult<FaceLiveness.LivenessResult, FaceLiveness.SDKFailure>) -> Swift.Void)
   @objc deinit
 }
+public protocol CafFaceLivenessProvidersProtocol {
+  func startLivenessCheck(parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
+}
 public enum LivenessState : Swift.String {
   case connecting
   case connected
@@ -173,12 +176,13 @@ public enum CafSdkType : Swift.String {
     get
   }
 }
-public struct CafSDKFailure {
+public struct CafSDKFailure : Swift.Encodable {
   public init(errorType: FaceLiveness.CafErrorType?, description: Swift.String?)
   public let errorType: FaceLiveness.CafErrorType?
   public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum CafErrorType : Swift.String {
+public enum CafErrorType : Swift.String, Swift.Encodable {
   case unsupportedDevice
   case cameraPermission
   case networkException
