@@ -38,6 +38,9 @@ public enum FASdkType : Swift.String {
     get
   }
 }
+public protocol CafFaceLivenessProvidersProtocol {
+  func startLivenessCheck(parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
+}
 public protocol FaceAuthSDKDelegate {
   func didFinishSuccess(with faceAuthenticatorResult: FaceAuth.FaceAuthenticatorResult)
   func didFinishWithError(with faceAuthenticatorErrorResult: FaceAuth.FaceAuthenticatorErrorResult)
@@ -100,12 +103,13 @@ public enum CafSdkType : Swift.String {
     get
   }
 }
-public struct CafSDKFailure {
+public struct CafSDKFailure : Swift.Encodable {
   public init(errorType: FaceAuth.CafErrorType?, description: Swift.String?)
   public let errorType: FaceAuth.CafErrorType?
   public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum CafErrorType : Swift.String {
+public enum CafErrorType : Swift.String, Swift.Encodable {
   case unsupportedDevice
   case cameraPermission
   case networkException
