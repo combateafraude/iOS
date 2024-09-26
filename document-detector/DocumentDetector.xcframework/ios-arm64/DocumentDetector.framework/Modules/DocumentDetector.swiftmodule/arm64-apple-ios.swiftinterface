@@ -15,6 +15,7 @@ import CoreML
 import CoreMedia
 import CoreMotion
 import CryptoKit
+import Darwin
 import DeveloperToolsSupport
 @_exported import DocumentDetector
 import Foundation
@@ -25,13 +26,59 @@ import Photos
 import Security
 import Swift
 import SwiftUI
-import TensorFlowLite
+import TensorFlowLiteC
 import UIKit
 import UniformTypeIdentifiers
 import VideoToolbox
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct Tensor : Swift.Equatable, Swift.Hashable {
+  public let name: Swift.String
+  public let dataType: DocumentDetector.Tensor.DataType
+  public let shape: DocumentDetector.Tensor.Shape
+  public let data: Foundation.Data
+  public let quantizationParameters: DocumentDetector.QuantizationParameters?
+  public static func == (a: DocumentDetector.Tensor, b: DocumentDetector.Tensor) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension DocumentDetector.Tensor {
+  public enum DataType : Swift.Equatable, Swift.Hashable {
+    case bool
+    case uInt8
+    case int16
+    case int32
+    case int64
+    case float16
+    case float32
+    case float64
+    public static func == (a: DocumentDetector.Tensor.DataType, b: DocumentDetector.Tensor.DataType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension DocumentDetector.Tensor {
+  public struct Shape : Swift.Equatable, Swift.Hashable {
+    public let rank: Swift.Int
+    public let dimensions: [Swift.Int]
+    public init(_ dimensions: [Swift.Int])
+    public init(_ elements: Swift.Int...)
+    public static func == (a: DocumentDetector.Tensor.Shape, b: DocumentDetector.Tensor.Shape) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension DocumentDetector.Tensor.Shape : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral: Swift.Int...)
+  public typealias ArrayLiteralElement = Swift.Int
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CafDocumentDetectorFailure : ObjectiveC.NSObject, Swift.Encodable {
   public var message: Swift.String!
   @objc override dynamic public var description: Swift.String {
@@ -68,6 +115,22 @@ public enum CafFileFormat : Swift.String, Swift.Encodable {
   public var rawValue: Swift.Int {
     get
   }
+}
+@_hasMissingDesignatedInitializers final public class SignatureRunner {
+  final public let signatureKey: Swift.String
+  final public var inputs: [Swift.String] {
+    get
+  }
+  final public var outputs: [Swift.String] {
+    get
+  }
+  @objc deinit
+  final public func invoke(with inputs: [Swift.String : Foundation.Data]) throws
+  final public func input(named name: Swift.String) throws -> DocumentDetector.Tensor
+  final public func output(named name: Swift.String) throws -> DocumentDetector.Tensor
+  final public func resizeInput(named name: Swift.String, toShape shape: DocumentDetector.Tensor.Shape) throws
+  final public func copy(_ data: Foundation.Data, toInputNamed name: Swift.String) throws
+  final public func allocateTensors() throws
 }
 public class CafDocumentRetrievedOcr {
   public var fatherName: Swift.String?
@@ -140,11 +203,103 @@ public class CafDocumentRetrievedOcr {
   public init(dict: [Swift.String : Any])
   @objc deinit
 }
+@_hasMissingDesignatedInitializers final public class Interpreter {
+  final public let options: DocumentDetector.Interpreter.Options?
+  final public let delegates: [any DocumentDetector.Delegate]?
+  final public var inputTensorCount: Swift.Int {
+    get
+  }
+  final public var outputTensorCount: Swift.Int {
+    get
+  }
+  final public var signatureKeys: [Swift.String] {
+    get
+  }
+  convenience public init(modelPath: Swift.String, options: DocumentDetector.Interpreter.Options? = nil, delegates: [any DocumentDetector.Delegate]? = nil) throws
+  convenience public init(modelData: Foundation.Data, options: DocumentDetector.Interpreter.Options? = nil, delegates: [any DocumentDetector.Delegate]? = nil) throws
+  @objc deinit
+  final public func invoke() throws
+  final public func input(at index: Swift.Int) throws -> DocumentDetector.Tensor
+  final public func output(at index: Swift.Int) throws -> DocumentDetector.Tensor
+  final public func resizeInput(at index: Swift.Int, to shape: DocumentDetector.Tensor.Shape) throws
+  @discardableResult
+  final public func copy(_ data: Foundation.Data, toInputAt index: Swift.Int) throws -> DocumentDetector.Tensor
+  final public func allocateTensors() throws
+  final public func signatureRunner(with key: Swift.String) throws -> DocumentDetector.SignatureRunner
+}
+extension DocumentDetector.Interpreter {
+  public struct Options : Swift.Equatable, Swift.Hashable {
+    public var threadCount: Swift.Int?
+    public var isXNNPackEnabled: Swift.Bool
+    public init()
+    public static func == (a: DocumentDetector.Interpreter.Options, b: DocumentDetector.Interpreter.Options) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+@available(*, deprecated, renamed: "Interpreter.Options")
+public typealias InterpreterOptions = DocumentDetector.Interpreter.Options
+public enum InterpreterError : Swift.Error, Swift.Equatable, Swift.Hashable {
+  case invalidTensorIndex(index: Swift.Int, maxIndex: Swift.Int)
+  case invalidTensorDataCount(provided: Swift.Int, required: Swift.Int)
+  case invalidTensorDataType
+  case failedToLoadModel
+  case failedToCreateInterpreter
+  case failedToResizeInputTensor(index: Swift.Int)
+  case failedToCopyDataToInputTensor
+  case failedToAllocateTensors
+  case allocateTensorsRequired
+  case invokeInterpreterRequired
+  case tensorFlowLiteError(Swift.String)
+  public static func == (a: DocumentDetector.InterpreterError, b: DocumentDetector.InterpreterError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension DocumentDetector.InterpreterError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension DocumentDetector.InterpreterError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
 @objc public enum DDCAFStage : Swift.Int {
   case BETA, PROD, DEV
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum SignatureRunnerError : Swift.Error, Swift.Equatable, Swift.Hashable {
+  case invalidTensorDataCount(provided: Swift.Int, required: Swift.Int)
+  case invalidTensorDataType
+  case failedToCreateSignatureRunner(signatureKey: Swift.String)
+  case failedToGetTensor(tensorType: Swift.String, nameInSignature: Swift.String)
+  case failedToResizeInputTensor(inputName: Swift.String)
+  case failedToCopyDataToInputTensor
+  case failedToAllocateTensors
+  case failedToInvokeSignature(signatureKey: Swift.String)
+  case allocateTensorsRequired
+  public static func == (a: DocumentDetector.SignatureRunnerError, b: DocumentDetector.SignatureRunnerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension DocumentDetector.SignatureRunnerError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension DocumentDetector.SignatureRunnerError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
     get
   }
 }
@@ -210,6 +365,9 @@ public enum CafResolution : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public protocol CafFaceLivenessProvidersProtocol {
+  func startLivenessCheck(parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
 }
 extension UIKit.UIImage {
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
@@ -517,6 +675,10 @@ public enum CafCountryCodes : Swift.String, Swift.CaseIterable {
     get
   }
 }
+public protocol Delegate : AnyObject {
+  typealias CDelegate = Swift.UnsafeMutablePointer<TensorFlowLiteC.TfLiteDelegate>
+  var cDelegate: Self.CDelegate { get }
+}
 @objc open class DocumentDetectorStep : ObjectiveC.NSObject, Swift.Encodable {
   public var document: DocumentDetector.CafDocument!
   public var stepLabel: Swift.String!
@@ -586,6 +748,15 @@ open class CafMessageSettings : Swift.Encodable {
   open func getAiCapturedMessage() -> Swift.String
   @objc deinit
   open func encode(to encoder: any Swift.Encoder) throws
+}
+public struct QuantizationParameters : Swift.Equatable, Swift.Hashable {
+  public let scale: Swift.Float
+  public let zeroPoint: Swift.Int
+  public static func == (a: DocumentDetector.QuantizationParameters, b: DocumentDetector.QuantizationParameters) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public class CafUploadValidationMessage {
   public init(image: UIKit.UIImage? = nil, title: Swift.String, message: Swift.String = "", allowanceButtonTitle: Swift.String)
@@ -703,6 +874,12 @@ extension DocumentDetector.CafUploadValidationMessage : Swift.Equatable {
   public init(response: [Swift.String : Any])
   @objc deinit
 }
+@_hasMissingDesignatedInitializers @objc public class CafPermissionReason : DocumentDetector.CafDocumentDetectorFailure {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class CafInvalidTokenReason : DocumentDetector.CafDocumentDetectorFailure {
+  @objc deinit
+}
 public enum CAFStage : Swift.Int {
   case dev
   case beta
@@ -723,12 +900,13 @@ public enum CafSdkType : Swift.String {
     get
   }
 }
-public struct CafSDKFailure {
+public struct CafSDKFailure : Swift.Encodable {
   public init(errorType: DocumentDetector.CafErrorType?, description: Swift.String?)
   public let errorType: DocumentDetector.CafErrorType?
   public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
 }
-public enum CafErrorType : Swift.String {
+public enum CafErrorType : Swift.String, Swift.Encodable {
   case unsupportedDevice
   case cameraPermission
   case networkException
@@ -739,12 +917,6 @@ public enum CafErrorType : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers @objc public class CafPermissionReason : DocumentDetector.CafDocumentDetectorFailure {
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers @objc public class CafInvalidTokenReason : DocumentDetector.CafDocumentDetectorFailure {
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class CafCapture : ObjectiveC.NSObject, Swift.Encodable {
   public var image: UIKit.UIImage
@@ -794,6 +966,11 @@ public class CafImageUploadResponseBody : Swift.Encodable {
   public init(hostname: Swift.String, port: Swift.Int)
   open func setAutentication(user: Swift.String, password: Swift.String) -> DocumentDetector.CafProxySettings
   @objc deinit
+}
+public enum Runtime {
+  public static var version: Swift.String {
+    get
+  }
 }
 extension DocumentDetector.CafFileFormat : Swift.Equatable {}
 extension DocumentDetector.CafFileFormat : Swift.Hashable {}
