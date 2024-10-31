@@ -6,9 +6,9 @@
 
 ### Stable
 
-| SDK | Framework |
-| ------- | ------------- |
-| [DocumentDetector](https://docs.caf.io/sdks/ios/getting-started/documentdetector) | `pod 'DocumentDetector', '15.0.1'` | [SPM Repository](https://github.com/combateafraude/DocumentDetector) |
+| SDK | Framework | SPM |
+| ------- | ------------- | ------- |
+| [DocumentDetector](https://docs.caf.io/sdks/ios/getting-started/document-detector/v9-or-above) | `pod 'DocumentDetector', '15.0.1'` | [SPM Repository](https://github.com/combateafraude/DocumentDetector) |
 | [FaceAuth](https://docs.caf.io/sdks/ios/getting-started/faceauth) | `pod 'FaceAuth', '6.1.0'` |
 | [FaceLiveness](https://docs.caf.io/sdks/ios/getting-started/faceliveness) | `pod 'FaceLiveness', '6.2.0'` | [SPM Repository](https://github.com/combateafraude/FaceLiveness) |
 
