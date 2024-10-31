@@ -30,6 +30,7 @@ Make sure to add an NSCameraUsageDescription entry to your app's Info.plist file
 ## SPM SDK installation
 
 [DocumentDetector](https://github.com/combateafraude/DocumentDetector/blob/main/README.md)
+
 [FaceLiveness](https://github.com/combateafraude/FaceLiveness/blob/main/README.md)
 
 ## Cocoapods SDK installation
