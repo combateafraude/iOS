@@ -8,17 +8,17 @@
 
 | SDK | Framework |
 | ------- | ------------- |
-| [DocumentDetector](https://docs.caf.io/sdks/ios/getting-started/documentdetector) | `pod 'DocumentDetector', '11.0.0'` |
-| [FaceAuth](https://docs.caf.io/sdks/ios/getting-started/faceauth) | `pod 'FaceAuth', '5.0.0'` |
-| [FaceLiveness](https://docs.caf.io/sdks/ios/getting-started/faceliveness) | `pod 'FaceLiveness', '5.0.0'` |
+| [DocumentDetector](https://docs.caf.io/sdks/ios/getting-started/documentdetector) | `pod 'DocumentDetector', '15.0.1'` | [SPM Repository](https://github.com/combateafraude/DocumentDetector) |
+| [FaceAuth](https://docs.caf.io/sdks/ios/getting-started/faceauth) | `pod 'FaceAuth', '6.1.0'` |
+| [FaceLiveness](https://docs.caf.io/sdks/ios/getting-started/faceliveness) | `pod 'FaceLiveness', '6.2.0'` | [SPM Repository](https://github.com/combateafraude/FaceLiveness) |
 
 #### Requirements
 
 | Deployment Info | Version |
 | --------------- | ------- |
-| iOS Target | 12.0+ |
-| Xcode | 14.3.1+ |
-| Swift | 5.5+ |
+| iOS Target | 13.0+ |
+| Xcode | 15.4+ |
+| Swift | 5.10+ |
 
 - A valid [caf mobileToken](https://docs.caf.io/sdks/access-token).
 - Cocoapods installed
@@ -26,6 +26,11 @@
 #### Camera Usage Description
 
 Make sure to add an NSCameraUsageDescription entry to your app's Info.plist file, explaining why your app requires camera access. For example: "To scan and verify identity documents."
+
+## SPM SDK installation
+
+[DocumentDetector](https://github.com/combateafraude/DocumentDetector/blob/main/README.md)
+[FaceLiveness](https://github.com/combateafraude/FaceLiveness/blob/main/README.md)
 
 ## Cocoapods SDK installation
 
