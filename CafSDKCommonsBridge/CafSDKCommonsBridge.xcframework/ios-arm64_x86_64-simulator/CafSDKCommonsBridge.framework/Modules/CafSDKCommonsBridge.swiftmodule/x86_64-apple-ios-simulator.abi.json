@@ -1,0 +1,386 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CafSDKCommonsBridge",
+    "printedName": "CafSDKCommonsBridge",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(viewController:jsonString:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeInstance",
+                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafUnifiedEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafUnifiedEvent",
+                    "printedName": "CafSDK.CafUnifiedEvent",
+                    "usr": "s:6CafSDK0A12UnifiedEventO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19CafSDKCommonsBridgeAAC10initialize14viewController10jsonString8callbackAA0abC8InstanceVSo06UIViewF0C_SSy0A3SDK0A12UnifiedEventOctFZ",
+            "mangledName": "$s19CafSDKCommonsBridgeAAC10initialize14viewController10jsonString8callbackAA0abC8InstanceVSo06UIViewF0C_SSy0A3SDK0A12UnifiedEventOctFZ",
+            "moduleName": "CafSDKCommonsBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInstance",
+            "printedName": "getInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeInstance",
+                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19CafSDKCommonsBridgeAAC11getInstanceAA0abcE0VyFZ",
+            "mangledName": "$s19CafSDKCommonsBridgeAAC11getInstanceAA0abcE0VyFZ",
+            "moduleName": "CafSDKCommonsBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "release",
+            "printedName": "release()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19CafSDKCommonsBridgeAAC7releaseyyFZ",
+            "mangledName": "$s19CafSDKCommonsBridgeAAC7releaseyyFZ",
+            "moduleName": "CafSDKCommonsBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19CafSDKCommonsBridgeAAC",
+        "mangledName": "$s19CafSDKCommonsBridgeAAC",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsBridgeInstance",
+        "printedName": "CafSDKCommonsBridgeInstance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cafSdkProvider",
+            "printedName": "cafSdkProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Builder",
+                "printedName": "CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:6CafSDK0A11SDKProviderC7BuilderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvp",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvp",
+            "moduleName": "CafSDKCommonsBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:6CafSDK0A11SDKProviderC7BuilderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvg",
+                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvg",
+                "moduleName": "CafSDKCommonsBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cafSdkConfiguration",
+            "printedName": "cafSdkConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKConfiguration",
+                "printedName": "CafSDK.CafSDKConfiguration",
+                "usr": "s:6CafSDK0A16SDKConfigurationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "moduleName": "CafSDKCommonsBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKConfiguration",
+                    "printedName": "CafSDK.CafSDKConfiguration",
+                    "usr": "s:6CafSDK0A16SDKConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "moduleName": "CafSDKCommonsBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cafSdkProvider:cafSdkConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeInstance",
+                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Builder",
+                "printedName": "CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:6CafSDK0A11SDKProviderC7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKConfiguration",
+                "printedName": "CafSDK.CafSDKConfiguration",
+                "usr": "s:6CafSDK0A16SDKConfigurationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0eF13ConfigurationAC0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCG_AF0A16SDKConfigurationCtcfc",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0eF13ConfigurationAC0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCG_AF0A16SDKConfigurationCtcfc",
+            "moduleName": "CafSDKCommonsBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19CafSDKCommonsBridge0abC8InstanceV",
+        "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
