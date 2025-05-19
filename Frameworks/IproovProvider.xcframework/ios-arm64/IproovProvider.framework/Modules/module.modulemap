@@ -1,0 +1,4 @@
+framework module IproovProvider {
+  header "IproovProvider-Swift.h"
+  requires objc
+}

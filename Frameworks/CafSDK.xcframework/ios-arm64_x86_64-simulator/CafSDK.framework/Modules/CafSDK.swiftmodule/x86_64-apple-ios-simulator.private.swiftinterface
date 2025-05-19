@@ -1,0 +1,602 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CafSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AdSupport
+import CafSolutions
+import CommonCrypto/*.CC_LONG*/
+import CommonCrypto/*.CC_MD5*/
+import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import DeveloperToolsSupport
+import Foundation
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension UIKit.UIColor {
+  convenience public init(byHex: Swift.String)
+}
+public struct ColorConfiguration {
+  public let primaryColor: Swift.String?
+  public let secondaryColor: Swift.String?
+  public let contentColor: Swift.String?
+  public let backgroundColor: Swift.String?
+  public let mediumColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+}
+public enum CafEnvironment : Swift.Int {
+  case dev
+  case beta
+  case prod
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension CafSDK.CafEnvironment {
+  public func toString() -> Swift.String
+}
+public enum CafSdkPlatform : Swift.String {
+  case nativeIos
+  case reactNativeIos
+  case flutterIos
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafSDKFailure : Swift.Encodable {
+  public init(errorType: CafSDK.CafErrorType?, description: Swift.String?)
+  public let errorType: CafSDK.CafErrorType?
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable {
+  case unsupportedDevice
+  case cameraPermission
+  case networkException
+  case serverException
+  case tokenException
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  @objc deinit
+}
+public enum CafCountryCode : Swift.String, Swift.CaseIterable {
+  case abw
+  case afg
+  case ago
+  case aia
+  case ala
+  case alb
+  case and
+  case are
+  case arg
+  case arm
+  case asm
+  case ata
+  case atf
+  case atg
+  case aus
+  case aut
+  case aze
+  case bdi
+  case bel
+  case ben
+  case bes
+  case bfa
+  case bgd
+  case bgr
+  case bhr
+  case bhs
+  case bih
+  case blm
+  case blr
+  case blz
+  case bmu
+  case bol
+  case bra
+  case brb
+  case brn
+  case btn
+  case bvt
+  case bwa
+  case caf
+  case can
+  case cck
+  case che
+  case chl
+  case chn
+  case civ
+  case cmr
+  case cod
+  case cog
+  case cok
+  case col
+  case com
+  case cpv
+  case cri
+  case cub
+  case cuw
+  case cxr
+  case cym
+  case cyp
+  case cze
+  case deu
+  case dji
+  case dma
+  case dnk
+  case dom
+  case dza
+  case ecu
+  case egy
+  case eri
+  case esh
+  case esp
+  case est
+  case eth
+  case fin
+  case fji
+  case flk
+  case fra
+  case fro
+  case fsm
+  case gab
+  case gbr
+  case geo
+  case ggy
+  case gha
+  case gib
+  case gin
+  case glp
+  case gmb
+  case gnb
+  case gnq
+  case grc
+  case grd
+  case grl
+  case gtm
+  case guf
+  case gum
+  case guy
+  case hkg
+  case hmd
+  case hnd
+  case hrv
+  case hti
+  case hun
+  case idn
+  case imn
+  case ind
+  case iot
+  case irl
+  case irn
+  case irq
+  case isl
+  case isr
+  case ita
+  case jam
+  case jey
+  case jor
+  case jpn
+  case kaz
+  case ken
+  case kgz
+  case khm
+  case kir
+  case kna
+  case kor
+  case kwt
+  case lao
+  case lbn
+  case lbr
+  case lby
+  case lca
+  case lie
+  case lka
+  case lso
+  case ltu
+  case lux
+  case lva
+  case mac
+  case maf
+  case mar
+  case mco
+  case mda
+  case mdg
+  case mdv
+  case mex
+  case mhl
+  case mkd
+  case mli
+  case mlt
+  case mmr
+  case mne
+  case mng
+  case mnp
+  case moz
+  case mrt
+  case msr
+  case mtq
+  case mus
+  case mwi
+  case mys
+  case myt
+  case nam
+  case ncl
+  case ner
+  case nfk
+  case nga
+  case nic
+  case niu
+  case nld
+  case nor
+  case npl
+  case nru
+  case nzl
+  case omn
+  case pak
+  case pan
+  case pcn
+  case per
+  case phl
+  case plw
+  case png
+  case pol
+  case pri
+  case prk
+  case prt
+  case pry
+  case pse
+  case pyf
+  case qat
+  case reu
+  case rou
+  case rus
+  case rwa
+  case sau
+  case sdn
+  case sen
+  case sgp
+  case sgs
+  case shn
+  case sjm
+  case slb
+  case sle
+  case slv
+  case smr
+  case som
+  case spm
+  case srb
+  case ssd
+  case stp
+  case sur
+  case svk
+  case svn
+  case swe
+  case swz
+  case sxm
+  case syc
+  case syr
+  case tca
+  case tcd
+  case tgo
+  case tha
+  case tjk
+  case tkl
+  case tkm
+  case tls
+  case ton
+  case tto
+  case tun
+  case tur
+  case tuv
+  case twn
+  case tza
+  case uga
+  case ukr
+  case umi
+  case ury
+  case usa
+  case uzb
+  case vat
+  case vct
+  case ven
+  case vgb
+  case vir
+  case vnm
+  case vut
+  case wlf
+  case wsm
+  case yem
+  case zaf
+  case zmb
+  case zwe
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafCountryCode]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafCountryCode] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafDocumentFeedbackColors {
+  public var defaultColor: UIKit.UIColor
+  public var errorColor: UIKit.UIColor
+  public var successColor: UIKit.UIColor
+  public init(defaultColor: UIKit.UIColor = .black, errorColor: UIKit.UIColor = UIColor(byHex: "#E21B45"), successColor: UIKit.UIColor = UIColor(byHex: "#0BAA43"))
+}
+public struct CafDocumentDetectorLayout {
+  public var closeButtonImage: UIKit.UIImage?
+  public var closeButtonSize: CoreFoundation.CGFloat?
+  public var closeButtonColor: UIKit.UIColor?
+  public var closeButtonContentMode: UIKit.UIView.ContentMode?
+  public var uploadBackGroundColor: UIKit.UIColor
+  public var previewBackGroundColor: UIKit.UIColor
+  public var primaryColor: UIKit.UIColor
+  public var feedbackColors: CafSDK.CafDocumentFeedbackColors
+  public var font: Swift.String?
+  public init()
+  public mutating func setFont(name: Swift.String)
+  public mutating func setCloseButton(size: CoreFoundation.CGFloat? = nil, color: UIKit.UIColor? = nil, image: UIKit.UIImage? = nil, contentMode: UIKit.UIView.ContentMode? = nil)
+  public mutating func setPrimaryColor(_ color: UIKit.UIColor)
+  public mutating func setFeedbackColors(_ colors: CafSDK.CafDocumentFeedbackColors)
+}
+public enum CafDocumentStepType : Swift.String, Swift.CaseIterable {
+  case rgFront
+  case rgBack
+  case rgFull
+  case cnhFront
+  case cnhBack
+  case cnhFull
+  case crlv
+  case rneFront
+  case rneBack
+  case ctpsFront
+  case ctpsBack
+  case passport
+  case any
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafDocumentStepType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafDocumentStepType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafDocumentDetectorStep {
+  public let stepType: CafSDK.CafDocumentStepType
+  public let customStepLabel: Swift.String?
+  public let customIllustration: UIKit.UIImage?
+  public let showStepLabel: Swift.Bool
+  public init(stepType: CafSDK.CafDocumentStepType, customStepLabel: Swift.String? = nil, customIllustration: UIKit.UIImage? = nil, showStepLabel: Swift.Bool = true)
+}
+public enum CafFileFormatWrapper : Swift.String, Swift.CaseIterable {
+  case png
+  case jpeg
+  case pdf
+  case heif
+  case heic
+  public var utTypeIdentifier: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafFileFormatWrapper]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafFileFormatWrapper] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafUploadSettings {
+  public var enable: Swift.Bool
+  public var compress: Swift.Bool
+  public var fileFormats: [CafSDK.CafFileFormatWrapper]
+  public var maximumFileSize: Swift.Int
+  public init(enable: Swift.Bool = false, compress: Swift.Bool = true, fileFormats: [CafSDK.CafFileFormatWrapper] = [.png, .jpeg, .heif, .pdf, .heic], maximumFileSize: Swift.Int = 10_000_000)
+}
+public struct CafProxySettings {
+  public let hostname: Swift.String
+  public let port: Swift.Int
+  public var user: Swift.String?
+  public var password: Swift.String?
+  public init(hostname: Swift.String, port: Swift.Int)
+  public mutating func setAuthentication(user: Swift.String, password: Swift.String) -> CafSDK.CafProxySettings
+}
+public struct CafSelectDocumentConfig {
+  public init(screenTitle: Swift.String?, description: Swift.String?)
+}
+public struct CafFaceLivenessConfig {
+  public var instructionsConfig: CafSDK.CafInstructionsConfiguration
+  public var loadingEnabled: Swift.Bool
+  public var authBaseUrl: Swift.String
+  public var livenessBaseUrl: Swift.String
+  public var certificates: [Swift.String]
+  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, authBaseUrl: Swift.String = "", livenessBaseUrl: Swift.String = "", certificates: [Swift.String] = [])
+}
+public struct CafInstructionsConfiguration {
+  public var enabled: Swift.Bool
+  public var title: Swift.String?
+  public var descriptionText: Swift.String?
+  public var steps: [Swift.String]?
+  public var buttonTitle: Swift.String?
+  public var headerImage: UIKit.UIImage?
+  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
+}
+public struct CafMessageSettings {
+  public var waitMessage: Swift.String?
+  public var holdDocumentMessage: Swift.String?
+  public var fitTheDocumentMessage: Swift.String?
+  public var verifyingQualityMessage: Swift.String?
+  public var lowQualityDocumentMessage: Swift.String?
+  public var uploadingImageMessage: Swift.String?
+  public var sensorLuminosityMessage: Swift.String?
+  public var manualCaptureMessage: Swift.String?
+  public var sensorOrientationMessage: Swift.String?
+  public var sensorStabilityMessage: Swift.String?
+  public var popupDocumentSubtitleMessage: Swift.String?
+  public var passportCountryNotValidMessage: Swift.String?
+  public var passportCountryLoadingMessage: Swift.String?
+  public var aiScanDocumentMessage: Swift.String?
+  public var aiGetCloserMessage: Swift.String?
+  public var aiCentralizeMessage: Swift.String?
+  public var aiMoveAwayMessage: Swift.String?
+  public var aiAlignDocumentMessage: Swift.String?
+  public var aiTurnDocumentMessage: Swift.String?
+  public var aiCapturedMessage: Swift.String?
+  public init()
+  public mutating func setWaitMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setHoldDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setFitTheDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setVerifyingQualityMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setLowQualityDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setUploadingImageMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setSensorLuminosityMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setManualCaptureMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setSensorOrientationMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setSensorStabilityMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setPopupDocumentSubtitleMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setPassportCountryNotValidMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setPassportCountryLoadingMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setAiScanDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setAiGetCloserMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setAiCentralizeMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setAiMoveAwayMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setAiAlignDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setAiTurnDocumentMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+  public mutating func setAiCapturedMessage(_ message: Swift.String) -> CafSDK.CafMessageSettings
+}
+public enum CafUnifiedEvent : Swift.Error {
+  case loading
+  case loaded
+  case success(responses: [CafSDK.CafUnifiedResponse])
+  case error(message: Swift.String)
+  case cancelled
+  case log(level: CafSDK.CafLogLevel, message: Swift.String)
+}
+public struct CafUnifiedResponse {
+  public let moduleName: Swift.String
+  public let result: [Swift.String : Any]
+}
+public enum CafModuleType : Swift.String, Swift.CaseIterable {
+  case faceLiveness
+  case documentDetector
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafModuleType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafModuleType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafColorConfiguration {
+  public let primaryColor: Swift.String?
+  public let secondaryColor: Swift.String?
+  public let contentColor: Swift.String?
+  public let backgroundColor: Swift.String?
+  public let mediumColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+}
+public class CafSDKConfiguration {
+  final public let presentationOrder: [CafSDK.CafModuleType]
+  public var nextStepContent: CafSDK.CafConfirmationNextStepContent?
+  final public let colorConfig: CafSDK.CafColorConfiguration?
+  public var waitForAllServices: Swift.Bool
+  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true)
+  @objc deinit
+}
+extension CafSDK.CafSDKConfiguration {
+  public func setDocumentDetectorConfig(_ documentDetectorConfig: CafSDK.CafDocumentDetectorConfig?) -> CafSDK.CafSDKConfiguration
+}
+extension CafSDK.CafSDKConfiguration {
+  public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?) -> CafSDK.CafSDKConfiguration
+}
+public enum CafLogLevel : Swift.String {
+  case debug
+  case usage
+  case info
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class CafSDKProvider {
+  public class Builder<Presenter> where Presenter : UIKit.UIViewController {
+    public init(_ context: Presenter, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment = .prod, configuration: CafSDK.CafSDKConfiguration, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
+    public func build() -> CafSDK.CafSDKProvider
+    @objc deinit
+  }
+  final public func start()
+  @objc deinit
+}
+public struct CafDocumentDetectorConfig {
+  public var flow: [CafSDK.CafDocumentDetectorStep]
+  public var layout: CafSDK.CafDocumentDetectorLayout
+  public var uploadSettings: CafSDK.CafUploadSettings
+  public var instructionsConfig: CafSDK.CafInstructionsConfiguration
+  public var manualCaptureEnabled: Swift.Bool
+  public var manualCaptureTime: Foundation.TimeInterval
+  public var requestTimeout: Foundation.TimeInterval
+  public var showPopup: Swift.Bool
+  public var proxySettings: CafSDK.CafProxySettings?
+  public var previewShow: Swift.Bool
+  public var previewTitle: Swift.String?
+  public var previewSubtitle: Swift.String?
+  public var previewConfirmLabel: Swift.String?
+  public var previewRetryLabel: Swift.String?
+  public var messageSettings: CafSDK.CafMessageSettings
+  public var getUrlExpireTime: Swift.String?
+  public var enableMultiLanguage: Swift.Bool
+  public var currentStepDoneDelay: Foundation.TimeInterval
+  public var allowedPassportCountryList: [CafSDK.CafCountryCode]?
+  public var selectDocumentConfig: CafSDK.CafSelectDocumentConfig?
+  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: false), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, previewTitle: Swift.String? = nil, previewSubtitle: Swift.String? = nil, previewConfirmLabel: Swift.String? = nil, previewRetryLabel: Swift.String? = nil, messageSettings: CafSDK.CafMessageSettings = CafMessageSettings(), getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil)
+}
+extension CafSDK.CafEnvironment : Swift.Equatable {}
+extension CafSDK.CafEnvironment : Swift.Hashable {}
+extension CafSDK.CafEnvironment : Swift.RawRepresentable {}
+extension CafSDK.CafSdkPlatform : Swift.Equatable {}
+extension CafSDK.CafSdkPlatform : Swift.Hashable {}
+extension CafSDK.CafSdkPlatform : Swift.RawRepresentable {}
+extension CafSDK.CafErrorType : Swift.Equatable {}
+extension CafSDK.CafErrorType : Swift.Hashable {}
+extension CafSDK.CafErrorType : Swift.RawRepresentable {}
+extension CafSDK.CafCountryCode : Swift.Equatable {}
+extension CafSDK.CafCountryCode : Swift.Hashable {}
+extension CafSDK.CafCountryCode : Swift.RawRepresentable {}
+extension CafSDK.CafDocumentStepType : Swift.Equatable {}
+extension CafSDK.CafDocumentStepType : Swift.Hashable {}
+extension CafSDK.CafDocumentStepType : Swift.RawRepresentable {}
+extension CafSDK.CafFileFormatWrapper : Swift.Equatable {}
+extension CafSDK.CafFileFormatWrapper : Swift.Hashable {}
+extension CafSDK.CafFileFormatWrapper : Swift.RawRepresentable {}
+extension CafSDK.CafModuleType : Swift.Equatable {}
+extension CafSDK.CafModuleType : Swift.Hashable {}
+extension CafSDK.CafModuleType : Swift.RawRepresentable {}
+extension CafSDK.CafLogLevel : Swift.Equatable {}
+extension CafSDK.CafLogLevel : Swift.Hashable {}
+extension CafSDK.CafLogLevel : Swift.RawRepresentable {}

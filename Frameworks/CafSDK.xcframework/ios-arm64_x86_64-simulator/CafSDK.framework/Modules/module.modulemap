@@ -1,0 +1,4 @@
+framework module CafSDK {
+  header "CafSDK-Swift.h"
+  requires objc
+}
