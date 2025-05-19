@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CafSDKCommonsBridgeiOS
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CafSDKCommonsBridge
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CafSDK
 import Foundation
@@ -10,12 +10,12 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridge {
-  public static func initialize(viewController: UIKit.UIViewController, jsonString: Swift.String, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
-  public static func getInstance() -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+  public static func initialize(viewController: UIKit.UIViewController, jsonString: Swift.String, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit
 }
-public func buildAccordingToSettings(deserializedJson: CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel, viewController: UIKit.UIViewController, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+public func buildAccordingToSettings(deserializedJson: CafSDKCommonsBridge.CafSDKCommonsBridgeModel, viewController: UIKit.UIViewController, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
 public struct CafSDKCommonsBridgeInstance {
   public let cafSdkProvider: CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
@@ -25,7 +25,7 @@ public struct CafSDKCommonsBridgeInstance {
   @objc deinit
 }
 public struct CafSDKCommonsBridgeModel : Swift.Decodable {
-  public init(mobileToken: Swift.String, personId: Swift.String, environment: Swift.Int, configuration: CafSDKCommonsBridgeiOS.CafSDKCommonsConfigurationBridgeModel)
+  public init(mobileToken: Swift.String, personId: Swift.String, environment: Swift.Int, configuration: CafSDKCommonsBridge.CafSDKCommonsConfigurationBridgeModel)
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CafSDKCommonsColorConfigurationBridgeModel : Swift.Decodable {
