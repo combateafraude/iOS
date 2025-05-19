@@ -1,0 +1,168 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CafFaceLiveness
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AdSupport
+@_exported import CafFaceLiveness
+import CafSolutions
+import CommonCrypto/*.CC_LONG*/
+import CommonCrypto/*.CC_MD5*/
+import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import DeveloperToolsSupport
+import FingerprintPro
+import Foundation
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension UIKit.UIColor {
+  convenience public init(byHex: Swift.String)
+}
+public struct ColorConfiguration {
+  public let primaryColor: Swift.String?
+  public let secondaryColor: Swift.String?
+  public let contentColor: Swift.String?
+  public let backgroundColor: Swift.String?
+  public let mediumColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+}
+public enum CafEnvironment : Swift.Int {
+  case dev
+  case beta
+  case prod
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension CafFaceLiveness.CafEnvironment {
+  public func toString() -> Swift.String
+}
+public enum CafSdkPlatform : Swift.String {
+  case nativeIos
+  case reactNativeIos
+  case flutterIos
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafSDKFailure : Swift.Encodable {
+  public init(errorType: CafFaceLiveness.CafErrorType?, description: Swift.String?)
+  public let errorType: CafFaceLiveness.CafErrorType?
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable {
+  case unsupportedDevice
+  case cameraPermission
+  case networkException
+  case serverException
+  case tokenException
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  @objc deinit
+}
+public enum CafResourceType : Swift.String {
+  case liveness
+  case authentication
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafLivenessResult {
+  public let signedResponse: Swift.String?
+  public init(signedResponse: Swift.String?)
+}
+public protocol CafFaceLivenessDelegate : AnyObject {
+  func didFinishWithSuccess(livenessResult: CafFaceLiveness.CafLivenessResult)
+  func cancelled()
+  func didFinishWithError(sdkFailure: CafFaceLiveness.CafSDKFailure)
+  func loading()
+  func loaded()
+}
+@objc @_hasMissingDesignatedInitializers open class CafFaceLivenessSDK : ObjectiveC.NSObject {
+  public var stage: CafFaceLiveness.CafEnvironment
+  public var loading: Swift.Bool
+  public var authBaseUrl: Swift.String
+  public var livenessBaseUrl: Swift.String
+  public var certificates: [Swift.String]
+  public var instructionsConfig: CafFaceLiveness.CafInstructionsConfiguration
+  public var colorConfig: CafFaceLiveness.ColorConfiguration?
+  public var sdkType: CafFaceLiveness.CafSdkPlatform {
+    get
+    set
+  }
+  public var resourceType: CafFaceLiveness.CafResourceType {
+    get
+    set
+  }
+  public var logEventHandler: (((Swift.String, Swift.String)) -> Swift.Void)?
+  weak public var delegate: (any CafFaceLiveness.CafFaceLivenessDelegate)?
+  @objc @_inheritsConvenienceInitializers open class CafFaceLivenessBuilder : ObjectiveC.NSObject {
+    @objc override dynamic public init()
+    open func setStage(stage: CafFaceLiveness.CafEnvironment) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setLoadingScreen(withLoading: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setAuthBaseUrl(authBaseUrl: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setLivenessBaseUrl(livenessBaseUrl: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setCertificates(certificates: [Swift.String]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setInstructionsConfig(instructionsConfig: CafFaceLiveness.CafInstructionsConfiguration) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setColorConfiguration(colorConfig: CafFaceLiveness.ColorConfiguration) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func build() -> CafFaceLiveness.CafFaceLivenessSDK
+    @objc deinit
+  }
+  open func startSDK(viewController: UIKit.UIViewController, mobileToken: Swift.String, personId: Swift.String, debugEnabled: Swift.Bool = false, sessionId: Swift.String = UUID().uuidString)
+  @objc deinit
+}
+public struct CafInstructionsConfiguration {
+  public var enabled: Swift.Bool
+  public var title: Swift.String?
+  public var descriptionText: Swift.String?
+  public var steps: [Swift.String]?
+  public var buttonTitle: Swift.String?
+  public var headerImage: UIKit.UIImage?
+  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
+}
+public enum CafLogLevel : Swift.String {
+  case debug
+  case usage
+  case info
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension CafFaceLiveness.CafEnvironment : Swift.Equatable {}
+extension CafFaceLiveness.CafEnvironment : Swift.Hashable {}
+extension CafFaceLiveness.CafEnvironment : Swift.RawRepresentable {}
+extension CafFaceLiveness.CafSdkPlatform : Swift.Equatable {}
+extension CafFaceLiveness.CafSdkPlatform : Swift.Hashable {}
+extension CafFaceLiveness.CafSdkPlatform : Swift.RawRepresentable {}
+extension CafFaceLiveness.CafErrorType : Swift.Equatable {}
+extension CafFaceLiveness.CafErrorType : Swift.Hashable {}
+extension CafFaceLiveness.CafErrorType : Swift.RawRepresentable {}
+extension CafFaceLiveness.CafResourceType : Swift.Equatable {}
+extension CafFaceLiveness.CafResourceType : Swift.Hashable {}
+extension CafFaceLiveness.CafResourceType : Swift.RawRepresentable {}
+extension CafFaceLiveness.CafLogLevel : Swift.Equatable {}
+extension CafFaceLiveness.CafLogLevel : Swift.Hashable {}
+extension CafFaceLiveness.CafLogLevel : Swift.RawRepresentable {}

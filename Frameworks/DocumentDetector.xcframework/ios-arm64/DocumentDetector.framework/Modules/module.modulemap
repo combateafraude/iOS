@@ -1,0 +1,11 @@
+framework module DocumentDetector {
+  umbrella header "DocumentDetector.h"
+  export *
+
+  module * { export * }
+}
+
+module DocumentDetector.Swift {
+  header "DocumentDetector-Swift.h"
+  requires objc
+}
