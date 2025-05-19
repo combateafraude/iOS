@@ -1,15 +1,15 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "CafSDKCommonsBridge",
-    "printedName": "CafSDKCommonsBridge",
+    "name": "CafSDKCommonsBridgeiOS",
+    "printedName": "CafSDKCommonsBridgeiOS",
     "children": [
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -19,7 +19,7 @@
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
+        "moduleName": "CafSDKCommonsBridgeiOS"
       },
       {
         "kind": "TypeDecl",
@@ -34,8 +34,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsBridgeInstance",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
               },
               {
                 "kind": "TypeNominal",
@@ -69,9 +69,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridgeAAC10initialize14viewController10jsonString8callbackAA0abC8InstanceVSo06UIViewF0C_SSy0A3SDK0A12UnifiedEventOctFZ",
-            "mangledName": "$s19CafSDKCommonsBridgeAAC10initialize14viewController10jsonString8callbackAA0abC8InstanceVSo06UIViewF0C_SSy0A3SDK0A12UnifiedEventOctFZ",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB6BridgeC10initialize14viewController10jsonString8callbackAA0abE8InstanceVSo06UIViewH0C_SSy0A3SDK0A12UnifiedEventOctFZ",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB6BridgeC10initialize14viewController10jsonString8callbackAA0abE8InstanceVSo06UIViewH0C_SSy0A3SDK0A12UnifiedEventOctFZ",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "static": true,
             "declAttributes": [
               "Final",
@@ -87,14 +87,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsBridgeInstance",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridgeAAC11getInstanceAA0abcE0VyFZ",
-            "mangledName": "$s19CafSDKCommonsBridgeAAC11getInstanceAA0abcE0VyFZ",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB6BridgeC11getInstanceAA0abeG0VyFZ",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB6BridgeC11getInstanceAA0abeG0VyFZ",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "static": true,
             "declAttributes": [
               "Final",
@@ -114,9 +114,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridgeAAC7releaseyyFZ",
-            "mangledName": "$s19CafSDKCommonsBridgeAAC7releaseyyFZ",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB6BridgeC7releaseyyFZ",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB6BridgeC7releaseyyFZ",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "static": true,
             "declAttributes": [
               "Final",
@@ -126,9 +126,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:19CafSDKCommonsBridgeAAC",
-        "mangledName": "$s19CafSDKCommonsBridgeAAC",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB6BridgeC",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB6BridgeC",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl"
         ],
@@ -155,7 +155,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -165,7 +165,7 @@
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
+        "moduleName": "CafSDKCommonsBridgeiOS"
       },
       {
         "kind": "Function",
@@ -175,14 +175,14 @@
           {
             "kind": "TypeNominal",
             "name": "CafSDKCommonsBridgeInstance",
-            "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+            "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
           },
           {
             "kind": "TypeNominal",
             "name": "CafSDKCommonsBridgeModel",
-            "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeModel",
-            "usr": "s:19CafSDKCommonsBridge0abC5ModelV"
+            "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV"
           },
           {
             "kind": "TypeNominal",
@@ -210,9 +210,9 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:19CafSDKCommonsBridge24buildAccordingToSettings16deserializedJson14viewController8callbackAA0abC8InstanceVAA0abC5ModelV_So06UIViewK0Cy0A3SDK0A12UnifiedEventOctF",
-        "mangledName": "$s19CafSDKCommonsBridge24buildAccordingToSettings16deserializedJson14viewController8callbackAA0abC8InstanceVAA0abC5ModelV_So06UIViewK0Cy0A3SDK0A12UnifiedEventOctF",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS24buildAccordingToSettings16deserializedJson14viewController8callbackAA0aB14BridgeInstanceVAA0abN5ModelV_So06UIViewL0Cy0A3SDK0A12UnifiedEventOctF",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS24buildAccordingToSettings16deserializedJson14viewController8callbackAA0aB14BridgeInstanceVAA0abN5ModelV_So06UIViewL0Cy0A3SDK0A12UnifiedEventOctF",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl"
         ],
@@ -223,7 +223,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -233,7 +233,7 @@
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
+        "moduleName": "CafSDKCommonsBridgeiOS"
       },
       {
         "kind": "TypeDecl",
@@ -261,9 +261,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvp",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvp",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvp",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvp",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -292,9 +292,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvg",
-                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvg",
-                "moduleName": "CafSDKCommonsBridge",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvg",
+                "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV14cafSdkProvider0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCGvg",
+                "moduleName": "CafSDKCommonsBridgeiOS",
                 "implicit": true,
                 "accessorKind": "get"
               }
@@ -313,9 +313,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -336,9 +336,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
-                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
-                "moduleName": "CafSDKCommonsBridge",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "moduleName": "CafSDKCommonsBridgeiOS",
                 "implicit": true,
                 "accessorKind": "get"
               }
@@ -352,8 +352,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsBridgeInstance",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
               },
               {
                 "kind": "TypeNominal",
@@ -377,9 +377,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0eF13ConfigurationAC0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCG_AF0A16SDKConfigurationCtcfc",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV14cafSdkProvider0eF13ConfigurationAC0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCG_AF0A16SDKConfigurationCtcfc",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV14cafSdkProvider0gH13ConfigurationAC0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCG_AF0A16SDKConfigurationCtcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV14cafSdkProvider0gH13ConfigurationAC0A3SDK0A11SDKProviderC7BuilderCy_So16UIViewControllerCG_AF0A16SDKConfigurationCtcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "declAttributes": [
               "AccessControl"
             ],
@@ -387,9 +387,9 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:19CafSDKCommonsBridge0abC8InstanceV",
-        "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl"
         ],
@@ -415,7 +415,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -425,9 +425,9 @@
         "name": "CafSDKCommonsBridgeJsonParser",
         "printedName": "CafSDKCommonsBridgeJsonParser",
         "declKind": "Class",
-        "usr": "s:19CafSDKCommonsBridge0abC10JsonParserC",
-        "mangledName": "$s19CafSDKCommonsBridge0abC10JsonParserC",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB16BridgeJsonParserC",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB16BridgeJsonParserC",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl"
         ],
@@ -462,8 +462,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsBridgeModel",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeModel",
-                "usr": "s:19CafSDKCommonsBridge0abC5ModelV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV"
               },
               {
                 "kind": "TypeNominal",
@@ -486,14 +486,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsConfigurationBridgeModel",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsConfigurationBridgeModel",
-                "usr": "s:19CafSDKCommonsBridge0ab13ConfigurationC5ModelV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19CafSDKCommonsBridge0abC5ModelV11mobileToken8personId11environment13configurationACSS_SSSiAA0ab13ConfigurationcD0Vtcfc",
-            "mangledName": "$s19CafSDKCommonsBridge0abC5ModelV11mobileToken8personId11environment13configurationACSS_SSSiAA0ab13ConfigurationcD0Vtcfc",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV11mobileToken8personId11environment13configurationACSS_SSSiAA0ab13ConfigurationeF0Vtcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB11BridgeModelV11mobileToken8personId11environment13configurationACSS_SSSiAA0ab13ConfigurationeF0Vtcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "declAttributes": [
               "AccessControl"
             ],
@@ -507,8 +507,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsBridgeModel",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeModel",
-                "usr": "s:19CafSDKCommonsBridge0abC5ModelV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV"
               },
               {
                 "kind": "TypeNominal",
@@ -518,18 +518,18 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19CafSDKCommonsBridge0abC5ModelV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s19CafSDKCommonsBridge0abC5ModelV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB11BridgeModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:19CafSDKCommonsBridge0abC5ModelV",
-        "mangledName": "$s19CafSDKCommonsBridge0abC5ModelV",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB11BridgeModelV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -571,8 +571,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsColorConfigurationBridgeModel",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsColorConfigurationBridgeModel",
-                "usr": "s:19CafSDKCommonsBridge0ab18ColorConfigurationC5ModelV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsColorConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV"
               },
               {
                 "kind": "TypeNominal",
@@ -582,18 +582,18 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19CafSDKCommonsBridge0ab18ColorConfigurationC5ModelV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s19CafSDKCommonsBridge0ab18ColorConfigurationC5ModelV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:19CafSDKCommonsBridge0ab18ColorConfigurationC5ModelV",
-        "mangledName": "$s19CafSDKCommonsBridge0ab18ColorConfigurationC5ModelV",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -635,8 +635,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsConfigurationBridgeModel",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsConfigurationBridgeModel",
-                "usr": "s:19CafSDKCommonsBridge0ab13ConfigurationC5ModelV"
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV"
               },
               {
                 "kind": "TypeNominal",
@@ -646,18 +646,18 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19CafSDKCommonsBridge0ab13ConfigurationC5ModelV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s19CafSDKCommonsBridge0ab13ConfigurationC5ModelV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "CafSDKCommonsBridge",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:19CafSDKCommonsBridge0ab13ConfigurationC5ModelV",
-        "mangledName": "$s19CafSDKCommonsBridge0ab13ConfigurationC5ModelV",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -691,7 +691,7 @@
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -715,9 +715,9 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:19CafSDKCommonsBridge02toA11EnvironmentyS2iF",
-        "mangledName": "$s19CafSDKCommonsBridge02toA11EnvironmentyS2iF",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS02toA11EnvironmentyS2iF",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS02toA11EnvironmentyS2iF",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl"
         ],
@@ -728,7 +728,7 @@
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -752,9 +752,9 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:19CafSDKCommonsBridge02toA10ModuleTypeySSSiF",
-        "mangledName": "$s19CafSDKCommonsBridge02toA10ModuleTypeySSSiF",
-        "moduleName": "CafSDKCommonsBridge",
+        "usr": "s:22CafSDKCommonsBridgeiOS02toA10ModuleTypeySSSiF",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS02toA10ModuleTypeySSSiF",
+        "moduleName": "CafSDKCommonsBridgeiOS",
         "declAttributes": [
           "AccessControl"
         ],
