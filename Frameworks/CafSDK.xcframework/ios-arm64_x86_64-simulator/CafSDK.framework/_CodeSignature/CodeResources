@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		SHcBMBJ4E9fkM3qJ0wBijmvMkYA=
+		5tuN2VC1tqcP7vLT/+YPajlnd8w=
 		</data>
 		<key>Headers/CafSDK-Swift.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PQjaIoenZ1uT/JP2QZweIx1xIZY=
+		ZQ2jBa1Hoq7K7KxbfcEsbcGPDlw=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		z3tc+OILEOvhisSzXrcldMO34n4=
+		9QDUx4t7GW/VEO4kao08Frun2eU=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TB9Ef5ZBiQvH2+2r7PRWvrvHoFo=
+		TLhHetb3H0kdGMSMMurmlXPmIWs=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TB9Ef5ZBiQvH2+2r7PRWvrvHoFo=
+		TLhHetb3H0kdGMSMMurmlXPmIWs=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fQufcNd+wfDTqZInkYecNtmyuPI=
+		9I0vMmD3LrprW7zmJSURYqybXKk=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		z3tc+OILEOvhisSzXrcldMO34n4=
+		9QDUx4t7GW/VEO4kao08Frun2eU=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		A0QFIk+ATrhUlM31BOwwEkV3xFQ=
+		Rd1yR0r3arxv45cdM53KxmB9GBo=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		A0QFIk+ATrhUlM31BOwwEkV3xFQ=
+		Rd1yR0r3arxv45cdM53KxmB9GBo=
 		</data>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YEY50/VJOyZvVYUn1PGiI8fIXe0=
+		Eehr9aaMNsazHbqoZwoVRvUN/GE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I7+CbT5XJlLW79axk5D1Tz4MQUHOjytcAXrmwBLVAFM=
+			+gBc9Tp8IZjZ5z/hyx+TmaCtVmLO9cfr5ibbanf9FlE=
 			</data>
 		</dict>
 		<key>Headers/CafSDK-Swift.h</key>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hCif8FwFo0JKbz6BvZJksyQ5vnWsPDkjNflGnGqzH4=
+			DNhi8c7RxZ+K17nHRClc0QAZMd6VLeHnOnMd+Bl98ew=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6FWAOFiXAOs75eF/+AqfdagEP27BWJx3NyEB1XKphsQ=
+			XvBPs5VJgnFZ/9BaN5e/JipdxxYb5Z/w6mDT7Ev/6sM=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -129,28 +129,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6FWAOFiXAOs75eF/+AqfdagEP27BWJx3NyEB1XKphsQ=
+			XvBPs5VJgnFZ/9BaN5e/JipdxxYb5Z/w6mDT7Ev/6sM=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zD3sxwYVDO+7PYi8tOivgoNRxTnJUeXpyMvtgx5RTxc=
+			Orks6ThQHSDlRpNtAZxg/GSk6ujD3bhLB3MNNdptkNo=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hCif8FwFo0JKbz6BvZJksyQ5vnWsPDkjNflGnGqzH4=
+			DNhi8c7RxZ+K17nHRClc0QAZMd6VLeHnOnMd+Bl98ew=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6A9a8b2ddOK/4INsbpJogyGNduLp6h8oCot0JYLE3A=
+			HIh6ecLe8d5vHa1dpAr7ePEvXvSyuXuqjhAj0hNHRq0=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6A9a8b2ddOK/4INsbpJogyGNduLp6h8oCot0JYLE3A=
+			HIh6ecLe8d5vHa1dpAr7ePEvXvSyuXuqjhAj0hNHRq0=
 			</data>
 		</dict>
 		<key>Modules/CafSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j71ziXGyV0Mh/ek1S//4jW05bu639B2KmxXKtNHx/Nk=
+			GBtCiC0vOWC6F84ah+rswQXUWndKO+oBBz+47eXB4Yo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

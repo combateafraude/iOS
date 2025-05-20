@@ -490,7 +490,7 @@ public struct CafMessageSettings {
 public enum CafUnifiedEvent : Swift.Error {
   case loading
   case loaded
-  case success(responses: [CafSDK.CafUnifiedResponse])
+  case success(response: CafSDK.CafUnifiedResponse)
   case error(message: Swift.String)
   case cancelled
   case log(level: CafSDK.CafLogLevel, message: Swift.String)
@@ -524,8 +524,7 @@ public class CafSDKConfiguration {
   final public let presentationOrder: [CafSDK.CafModuleType]
   public var nextStepContent: CafSDK.CafConfirmationNextStepContent?
   final public let colorConfig: CafSDK.CafColorConfiguration?
-  public var waitForAllServices: Swift.Bool
-  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true)
+  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil)
   @objc deinit
 }
 extension CafSDK.CafSDKConfiguration {
@@ -552,6 +551,12 @@ public enum CafLogLevel : Swift.String {
   }
   final public func start()
   @objc deinit
+}
+public struct CafTheme {
+  public let primaryHexColor: Swift.String
+  public let secondaryHexColor: Swift.String
+  public let font: Swift.String
+  public init(primaryHexColor: Swift.String, secondaryHexColor: Swift.String, font: Swift.String)
 }
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]
