@@ -10,18 +10,21 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridge {
-  public static func initialize(viewController: UIKit.UIViewController, jsonString: Swift.String, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+  public static var deserializedJson: CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeDTO?
+  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
   public static func getInstance() -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit
 }
-public func buildAccordingToSettings(deserializedJson: CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel, viewController: UIKit.UIViewController, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+public func buildAccordingToSettings(deserializedJson: CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+public struct CafSDKCommonsBridgeDTO {
+}
 public struct CafSDKCommonsBridgeInstance {
-  public let cafSdkProvider: CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
-  public init(cafSdkProvider: CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>, cafSdkConfiguration: CafSDK.CafSDKConfiguration)
+  public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration)
 }
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeJsonParser {
+  public func parseJson(jsonString: Swift.String) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel?
   @objc deinit
 }
 public struct CafSDKCommonsBridgeModel : Swift.Decodable {
@@ -34,5 +37,3 @@ public struct CafSDKCommonsColorConfigurationBridgeModel : Swift.Decodable {
 public struct CafSDKCommonsConfigurationBridgeModel : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-public func toCafEnvironment(_ cafEnvironment: Swift.Int) -> Swift.Int
-public func toCafModuleType(_ cafModuleType: Swift.Int) -> Swift.String

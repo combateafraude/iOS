@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6VlQqIMYjWHTIppZfClTWwwvvWY=
+		X8IYD94GtGWhJdbsD4+w3z38Dro=
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IF+hPTQPbiAsGz7NtHbkvFTVUvQ=
+		dZSPNAUow3UUsDTM3qh6xcOQls8=
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IF+hPTQPbiAsGz7NtHbkvFTVUvQ=
+		dZSPNAUow3UUsDTM3qh6xcOQls8=
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d3wf/TNnTb8YfYmrbcruQ2zbubQ=
+		Fy/t/88a4RDKt5G9PQBoOqWquhY=
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6VlQqIMYjWHTIppZfClTWwwvvWY=
+		X8IYD94GtGWhJdbsD4+w3z38Dro=
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l9JrdXPytfXIW4+oVDUohLCuu24=
+		yp327LxfPD9CMnMboTmyfkq5Yn8=
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l9JrdXPytfXIW4+oVDUohLCuu24=
+		yp327LxfPD9CMnMboTmyfkq5Yn8=
 		</data>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Gt6xsRxiCBA8Hr3hEY7/4vswiA=
+		t1oASbnmkhis6dyhsd5dlo70B4E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jDvJdqdykn7nC/sarsmUobKDUYiztujijU5fVNpxBuo=
+			/5w/3lD/CWRNA49Ic4j0/q3NJkUap2tGALvhM/bQAT0=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+qvHCAmwRU22l16zbmndRc7AFDJBsGNp7EA5fBUhYU=
+			6xNY1KiBOmDkSxWwHSrOzBR9aEK//jd2aO4nUkgEDLs=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+qvHCAmwRU22l16zbmndRc7AFDJBsGNp7EA5fBUhYU=
+			6xNY1KiBOmDkSxWwHSrOzBR9aEK//jd2aO4nUkgEDLs=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NYKPPsgGXamFEjnptm0C9NRrzNw92nM2JWG8cWFlJhk=
+			Xme5CDSphjSxqeGAA3RKi8AyCK8qmKoihLfoiC6jN68=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jDvJdqdykn7nC/sarsmUobKDUYiztujijU5fVNpxBuo=
+			/5w/3lD/CWRNA49Ic4j0/q3NJkUap2tGALvhM/bQAT0=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+x7h9XOCAfM/LcEalfQ9f8aDqEVdPpkkj7utRBJQLpc=
+			2tFohHpcL2E8JqzwHVUPqfn+Sndyu/91DeR6yG8csvc=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+x7h9XOCAfM/LcEalfQ9f8aDqEVdPpkkj7utRBJQLpc=
+			2tFohHpcL2E8JqzwHVUPqfn+Sndyu/91DeR6yG8csvc=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridgeiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yLOvN0vOJ1KDNNb3VEGJoEvYxipxVBnGk8ms8nwq8a0=
+			WjlDUur6XQ9KJN3neRyuBIkJIYI5VsLJzehAtseSxbk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
