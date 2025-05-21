@@ -9,13 +9,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class CafSDKCommonsBridge {
-  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
-  public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
-  public static func getDeserializedJson() -> CafSDKCommonsBridge.CafSDKCommonsBridgeDTO
-  public static func release()
-  @objc deinit
-}
 public struct CafSDKCommonsBridgeDTO {
   public init(mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment, sdkConfiguration: CafSDK.CafSDKConfiguration)
 }
@@ -23,4 +16,11 @@ public struct CafSDKCommonsBridgeInstance {
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
   public let cafDeserializedJson: CafSDKCommonsBridge.CafSDKCommonsBridgeDTO
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, cafDeserializedJson: CafSDKCommonsBridge.CafSDKCommonsBridgeDTO)
+}
+@_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
+  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func getDeserializedJson() -> CafSDKCommonsBridge.CafSDKCommonsBridgeDTO
+  public static func release()
+  @objc deinit
 }
