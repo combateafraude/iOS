@@ -13,12 +13,11 @@ import _SwiftConcurrencyShims
   public static var deserializedJson: CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeDTO?
   public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
   public static func getInstance() -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+  public static func getDeserializedJson() -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeDTO
   public static func release()
   @objc deinit
 }
 public func buildAccordingToSettings(deserializedJson: CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
-public struct CafSDKCommonsBridgeDTO {
-}
 public struct CafSDKCommonsBridgeInstance {
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration)
@@ -36,4 +35,7 @@ public struct CafSDKCommonsColorConfigurationBridgeModel : Swift.Decodable {
 }
 public struct CafSDKCommonsConfigurationBridgeModel : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct CafSDKCommonsBridgeDTO {
+  public init(mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment, sdkConfiguration: CafSDK.CafSDKConfiguration)
 }
