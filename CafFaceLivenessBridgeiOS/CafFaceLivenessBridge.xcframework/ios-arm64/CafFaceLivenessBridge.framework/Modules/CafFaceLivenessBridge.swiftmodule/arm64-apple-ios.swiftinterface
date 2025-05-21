@@ -14,16 +14,3 @@ import _SwiftConcurrencyShims
   public static func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String)
   @objc deinit
 }
-public func buildAccordingToSettings(configuration: CafSDK.CafSDKConfiguration, deserializedJson: CafFaceLivenessBridge.CafFaceLivenessBridgeModel?)
-@_hasMissingDesignatedInitializers public class CafFaceLivenessBridgeJsonParser {
-  public func parseJson(jsonString: Swift.String) -> CafFaceLivenessBridge.CafFaceLivenessBridgeModel?
-  @objc deinit
-}
-public struct CafFaceLivenessBridgeModel : Swift.Decodable {
-  public init(configuration: CafFaceLivenessBridge.CafFaceLivenessConfigurationBridgeModel)
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct CafFaceLivenessConfigurationBridgeModel : Swift.Decodable {
-  public init(loading: Swift.Bool, certificates: [Swift.String], livenessBaseUrl: Swift.String, authBaseUrl: Swift.String)
-  public init(from decoder: any Swift.Decoder) throws
-}
