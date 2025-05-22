@@ -16,8 +16,9 @@ public struct CafSDKCommonsBridgeInstance {
   public let environment: CafSDK.CafEnvironment
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment)
 }
-public struct CafSDKCommonsBridgeMain {
+@_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
   public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
+  @objc deinit
 }

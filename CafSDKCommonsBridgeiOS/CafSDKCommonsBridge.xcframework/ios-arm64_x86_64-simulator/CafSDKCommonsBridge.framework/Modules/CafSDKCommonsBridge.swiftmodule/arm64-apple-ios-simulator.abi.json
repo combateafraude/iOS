@@ -340,11 +340,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0abC4MainV10initialize10jsonStringAA0abC8InstanceVSS_tFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0abC4MainV10initialize10jsonStringAA0abC8InstanceVSS_tFZ",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC10initialize10jsonStringAA0abC8InstanceVSS_tFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC10initialize10jsonStringAA0abC8InstanceVSS_tFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -362,11 +363,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0abC4MainV11getInstanceAA0abcF0VyFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0abC4MainV11getInstanceAA0abcF0VyFZ",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC11getInstanceAA0abcF0VyFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC11getInstanceAA0abcF0VyFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -383,23 +385,25 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0abC4MainV7releaseyyFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0abC4MainV7releaseyyFZ",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC7releaseyyFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC7releaseyyFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:19CafSDKCommonsBridge0abC4MainV",
-        "mangledName": "$s19CafSDKCommonsBridge0abC4MainV",
+        "declKind": "Class",
+        "usr": "s:19CafSDKCommonsBridge0abC4MainC",
+        "mangledName": "$s19CafSDKCommonsBridge0abC4MainC",
         "moduleName": "CafSDKCommonsBridge",
         "declAttributes": [
           "AccessControl"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
