@@ -1,0 +1,4 @@
+framework module CafFaceLivenessBridgeiOS {
+  header "CafFaceLivenessBridgeiOS-Swift.h"
+  requires objc
+}
