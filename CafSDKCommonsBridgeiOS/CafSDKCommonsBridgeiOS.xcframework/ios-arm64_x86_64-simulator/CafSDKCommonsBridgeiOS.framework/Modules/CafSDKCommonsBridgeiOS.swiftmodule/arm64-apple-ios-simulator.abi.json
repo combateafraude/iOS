@@ -245,6 +245,51 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mobileToken:personId:environment:cafSdkConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeInstance",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafEnvironment",
+                "printedName": "CafSDK.CafEnvironment",
+                "usr": "s:6CafSDK0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKConfiguration",
+                "printedName": "CafSDK.CafSDKConfiguration",
+                "usr": "s:6CafSDK0A16SDKConfigurationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11mobileToken8personId11environment19cafSdkConfigurationACSS_SS0A3SDK0A11EnvironmentOAH0A16SDKConfigurationCtcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11mobileToken8personId11environment19cafSdkConfigurationACSS_SS0A3SDK0A11EnvironmentOAH0A16SDKConfigurationCtcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -472,6 +517,51 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(mobileToken:personId:environment:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeModel",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsConfigurationBridgeModel",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV11mobileToken8personId11environment13configurationACSS_SSSiAA0ab13ConfigurationeF0Vtcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB11BridgeModelV11mobileToken8personId11environment13configurationACSS_SSSiAA0ab13ConfigurationeF0Vtcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -536,6 +626,102 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(primaryColor:secondaryColor:backgroundColor:contentColor:mediumColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsColorConfigurationBridgeModel",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsColorConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV07primaryE009secondaryE0010backgroundE007contentE006mediumE0ACSSSg_A4Itcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV07primaryE009secondaryE0010backgroundE007contentE006mediumE0ACSSSg_A4Itcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -597,6 +783,56 @@
         "name": "CafSDKCommonsConfigurationBridgeModel",
         "printedName": "CafSDKCommonsConfigurationBridgeModel",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(presentationOrder:colorConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsConfigurationBridgeModel",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsColorConfigurationBridgeModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKCommonsColorConfigurationBridgeModel",
+                    "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsColorConfigurationBridgeModel",
+                    "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV17presentationOrder05colorE0ACSaySiG_AA0ab5ColorefG0VSgtcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV17presentationOrder05colorE0ACSaySiG_AA0ab5ColorefG0VSgtcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CafSDKCommonsBridgeiOS'
-  s.version      = '1.0.0-beta24'
+  s.version      = '1.0.0-beta25'
   s.summary      = 'CafFaceLiveness framework for facial recognition'
   s.homepage     = 'https://github.com/combateafraude/iOS'
   s.license      = { :type => 'MIT', :file => 'CafSDKCommonsBridgeiOS/LICENSE' }

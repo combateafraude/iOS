@@ -15,6 +15,7 @@ public struct CafSDKCommonsBridgeInstance {
   public let personId: Swift.String
   public let environment: CafSDK.CafEnvironment
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
+  public init(mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment, cafSdkConfiguration: CafSDK.CafSDKConfiguration)
 }
 public struct CafSDKCommonsBridgeJsonParser {
   public func parseJson(jsonString: Swift.String) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel?
@@ -25,12 +26,15 @@ public struct CafSDKCommonsBridgeMain {
   public static func release()
 }
 public struct CafSDKCommonsBridgeModel : Swift.Decodable {
+  public init(mobileToken: Swift.String, personId: Swift.String, environment: Swift.Int, configuration: CafSDKCommonsBridgeiOS.CafSDKCommonsConfigurationBridgeModel)
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CafSDKCommonsColorConfigurationBridgeModel : Swift.Decodable {
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, contentColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CafSDKCommonsConfigurationBridgeModel : Swift.Decodable {
+  public init(presentationOrder: [Swift.Int], colorConfiguration: CafSDKCommonsBridgeiOS.CafSDKCommonsColorConfigurationBridgeModel? = nil)
   public init(from decoder: any Swift.Decoder) throws
 }
 public func toCafEnvironment(_ cafEnvironment: Swift.Int) -> Swift.Int
