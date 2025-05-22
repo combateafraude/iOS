@@ -10,7 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class CafFaceLivenessBridgeMain {
+public struct CafFaceLivenessBridgeMain {
   public static func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String)
-  @objc deinit
 }
