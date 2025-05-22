@@ -9,14 +9,14 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct CafSDKCommonsBridge {
+  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+  public static func getInstance() -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
+  public static func release()
+}
 public struct CafSDKCommonsBridgeInstance {
   public let mobileToken: Swift.String
   public let personId: Swift.String
   public let environment: CafSDK.CafEnvironment
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
-}
-public struct CafSDKCommonsBridge {
-  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
-  public static func getInstance() -> CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance
-  public static func release()
 }
