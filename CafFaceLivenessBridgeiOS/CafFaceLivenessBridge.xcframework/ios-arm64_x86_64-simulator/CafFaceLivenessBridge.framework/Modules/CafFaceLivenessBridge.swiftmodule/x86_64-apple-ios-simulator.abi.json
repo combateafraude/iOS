@@ -1,0 +1,314 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CafFaceLivenessBridge",
+    "printedName": "CafFaceLivenessBridge",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafFaceLiveness",
+        "printedName": "CafFaceLiveness",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Function",
+        "name": "buildAccordingToSettings",
+        "printedName": "buildAccordingToSettings(configuration:deserializedJson:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CafSDKConfiguration",
+            "printedName": "CafSDK.CafSDKConfiguration",
+            "usr": "s:6CafSDK0A16SDKConfigurationC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeModel?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessBridgeModel",
+                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeModel",
+                "usr": "s:21CafFaceLivenessBridge0abcD5ModelV"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:21CafFaceLivenessBridge24buildAccordingToSettings13configuration16deserializedJsony0A3SDK0A16SDKConfigurationC_AA0abcD5ModelVSgtF",
+        "mangledName": "$s21CafFaceLivenessBridge24buildAccordingToSettings13configuration16deserializedJsony0A3SDK0A16SDKConfigurationC_AA0abcD5ModelVSgtF",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFaceLivenessBridgeJsonParser",
+        "printedName": "CafFaceLivenessBridgeJsonParser",
+        "declKind": "Struct",
+        "usr": "s:21CafFaceLivenessBridge0abcD10JsonParserV",
+        "mangledName": "$s21CafFaceLivenessBridge0abcD10JsonParserV",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFaceLivenessBridgeMain",
+        "printedName": "CafFaceLivenessBridgeMain",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "applySettings",
+            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKConfiguration",
+                "printedName": "CafSDK.CafSDKConfiguration",
+                "usr": "s:6CafSDK0A16SDKConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CafFaceLivenessBridge0abcD4MainV13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainV13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21CafFaceLivenessBridge0abcD4MainV",
+        "mangledName": "$s21CafFaceLivenessBridge0abcD4MainV",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFaceLivenessBridgeModel",
+        "printedName": "CafFaceLivenessBridgeModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessBridgeModel",
+                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeModel",
+                "usr": "s:21CafFaceLivenessBridge0abcD5ModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21CafFaceLivenessBridge0abcD5ModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD5ModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafFaceLivenessBridge",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21CafFaceLivenessBridge0abcD5ModelV",
+        "mangledName": "$s21CafFaceLivenessBridge0abcD5ModelV",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFaceLivenessConfigurationBridgeModel",
+        "printedName": "CafFaceLivenessConfigurationBridgeModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessConfigurationBridgeModel",
+                "printedName": "CafFaceLivenessBridge.CafFaceLivenessConfigurationBridgeModel",
+                "usr": "s:21CafFaceLivenessBridge0abc13ConfigurationD5ModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21CafFaceLivenessBridge0abc13ConfigurationD5ModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21CafFaceLivenessBridge0abc13ConfigurationD5ModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafFaceLivenessBridge",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21CafFaceLivenessBridge0abc13ConfigurationD5ModelV",
+        "mangledName": "$s21CafFaceLivenessBridge0abc13ConfigurationD5ModelV",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
