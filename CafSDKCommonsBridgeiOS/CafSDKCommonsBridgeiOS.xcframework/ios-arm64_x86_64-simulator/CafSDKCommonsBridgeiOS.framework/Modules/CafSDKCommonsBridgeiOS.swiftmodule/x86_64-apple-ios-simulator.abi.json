@@ -1,0 +1,737 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CafSDKCommonsBridgeiOS",
+    "printedName": "CafSDKCommonsBridgeiOS",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS"
+      },
+      {
+        "kind": "Function",
+        "name": "buildAccordingToSettings",
+        "printedName": "buildAccordingToSettings(deserializedJson:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "CafSDKCommonsBridgeInstance",
+            "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CafSDKCommonsBridgeModel",
+            "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:22CafSDKCommonsBridgeiOS24buildAccordingToSettings16deserializedJsonAA0aB14BridgeInstanceVAA0abK5ModelV_tF",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS24buildAccordingToSettings16deserializedJsonAA0aB14BridgeInstanceVAA0abK5ModelV_tF",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsBridgeInstance",
+        "printedName": "CafSDKCommonsBridgeInstance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mobileToken",
+            "printedName": "mobileToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11mobileTokenSSvp",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11mobileTokenSSvp",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11mobileTokenSSvg",
+                "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11mobileTokenSSvg",
+                "moduleName": "CafSDKCommonsBridgeiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "personId",
+            "printedName": "personId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV8personIdSSvp",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV8personIdSSvp",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV8personIdSSvg",
+                "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV8personIdSSvg",
+                "moduleName": "CafSDKCommonsBridgeiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafEnvironment",
+                "printedName": "CafSDK.CafEnvironment",
+                "usr": "s:6CafSDK0A11EnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11environment0A3SDK0A11EnvironmentOvp",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11environment0A3SDK0A11EnvironmentOvp",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafEnvironment",
+                    "printedName": "CafSDK.CafEnvironment",
+                    "usr": "s:6CafSDK0A11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11environment0A3SDK0A11EnvironmentOvg",
+                "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV11environment0A3SDK0A11EnvironmentOvg",
+                "moduleName": "CafSDKCommonsBridgeiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cafSdkConfiguration",
+            "printedName": "cafSdkConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKConfiguration",
+                "printedName": "CafSDK.CafSDKConfiguration",
+                "usr": "s:6CafSDK0A16SDKConfigurationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKConfiguration",
+                    "printedName": "CafSDK.CafSDKConfiguration",
+                    "usr": "s:6CafSDK0A16SDKConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "moduleName": "CafSDKCommonsBridgeiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsBridgeJsonParser",
+        "printedName": "CafSDKCommonsBridgeJsonParser",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "parseJson",
+            "printedName": "parseJson(jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKCommonsBridgeModel",
+                    "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel",
+                    "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB16BridgeJsonParserV05parseF010jsonStringAA0abE5ModelVSgSS_tF",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB16BridgeJsonParserV05parseF010jsonStringAA0abE5ModelVSgSS_tF",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB16BridgeJsonParserV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB16BridgeJsonParserV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsBridgeMain",
+        "printedName": "CafSDKCommonsBridgeMain",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeInstance",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB10BridgeMainV10initialize10jsonStringAA0abE8InstanceVSS_tFZ",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB10BridgeMainV10initialize10jsonStringAA0abE8InstanceVSS_tFZ",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInstance",
+            "printedName": "getInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeInstance",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeInstance",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB14BridgeInstanceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB10BridgeMainV11getInstanceAA0abeH0VyFZ",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB10BridgeMainV11getInstanceAA0abeH0VyFZ",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "release",
+            "printedName": "release()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB10BridgeMainV7releaseyyFZ",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB10BridgeMainV7releaseyyFZ",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB10BridgeMainV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB10BridgeMainV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsBridgeModel",
+        "printedName": "CafSDKCommonsBridgeModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsBridgeModel",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB11BridgeModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB11BridgeModelV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB11BridgeModelV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsColorConfigurationBridgeModel",
+        "printedName": "CafSDKCommonsColorConfigurationBridgeModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsColorConfigurationBridgeModel",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsColorConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB29ColorConfigurationBridgeModelV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafSDKCommonsConfigurationBridgeModel",
+        "printedName": "CafSDKCommonsConfigurationBridgeModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKCommonsConfigurationBridgeModel",
+                "printedName": "CafSDKCommonsBridgeiOS.CafSDKCommonsConfigurationBridgeModel",
+                "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafSDKCommonsBridgeiOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS0aB24ConfigurationBridgeModelV",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "toCafEnvironment",
+        "printedName": "toCafEnvironment(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:22CafSDKCommonsBridgeiOS02toA11EnvironmentyS2iF",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS02toA11EnvironmentyS2iF",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "toCafModuleType",
+        "printedName": "toCafModuleType(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:22CafSDKCommonsBridgeiOS02toA10ModuleTypeySSSiF",
+        "mangledName": "$s22CafSDKCommonsBridgeiOS02toA10ModuleTypeySSSiF",
+        "moduleName": "CafSDKCommonsBridgeiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
