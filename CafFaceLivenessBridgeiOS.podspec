@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CafFaceLivenessBridgeiOS'
-  s.version      = '1.0.0-beta19'
+  s.version      = '1.0.0-beta20'
   s.summary      = 'CafFaceLiveness framework for facial recognition'
   s.homepage     = 'https://github.com/combateafraude/iOS'
   s.license      = { :type => 'MIT', :file => 'CafFaceLivenessBridgeiOS/LICENSE' }
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'CafFaceLivenessBridgeiOS/CafFaceLivenessBridgeiOS.xcframework'
 
   s.dependency 'CafSDKiOS/CafFaceLiveness', '2.0.0-beta6'
-  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta24'
+  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta25'
 end

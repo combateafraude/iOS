@@ -17,8 +17,10 @@ public struct CafFaceLivenessBridgeMain {
   public static func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String)
 }
 public struct CafFaceLivenessBridgeModel : Swift.Decodable {
+  public init(configuration: CafFaceLivenessBridgeiOS.CafFaceLivenessConfigurationBridgeModel? = nil)
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CafFaceLivenessConfigurationBridgeModel : Swift.Decodable {
+  public init(loading: Swift.Bool? = nil, certificates: [Swift.String]? = nil, livenessBaseUrl: Swift.String? = nil, authBaseUrl: Swift.String? = nil)
   public init(from decoder: any Swift.Decoder) throws
 }

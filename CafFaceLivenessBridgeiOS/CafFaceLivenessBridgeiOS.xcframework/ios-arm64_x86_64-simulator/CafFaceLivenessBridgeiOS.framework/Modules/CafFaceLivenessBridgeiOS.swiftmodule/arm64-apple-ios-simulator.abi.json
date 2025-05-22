@@ -187,6 +187,42 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessBridgeModel",
+                "printedName": "CafFaceLivenessBridgeiOS.CafFaceLivenessBridgeModel",
+                "usr": "s:24CafFaceLivenessBridgeiOS0abC11BridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafFaceLivenessBridgeiOS.CafFaceLivenessConfigurationBridgeModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFaceLivenessConfigurationBridgeModel",
+                    "printedName": "CafFaceLivenessBridgeiOS.CafFaceLivenessConfigurationBridgeModel",
+                    "usr": "s:24CafFaceLivenessBridgeiOS0abC24ConfigurationBridgeModelV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24CafFaceLivenessBridgeiOS0abC11BridgeModelV13configurationAcA0abc13ConfigurationfG0VSg_tcfc",
+            "mangledName": "$s24CafFaceLivenessBridgeiOS0abC11BridgeModelV13configurationAcA0abc13ConfigurationfG0VSg_tcfc",
+            "moduleName": "CafFaceLivenessBridgeiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -248,6 +284,95 @@
         "name": "CafFaceLivenessConfigurationBridgeModel",
         "printedName": "CafFaceLivenessConfigurationBridgeModel",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(loading:certificates:livenessBaseUrl:authBaseUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessConfigurationBridgeModel",
+                "printedName": "CafFaceLivenessBridgeiOS.CafFaceLivenessConfigurationBridgeModel",
+                "usr": "s:24CafFaceLivenessBridgeiOS0abC24ConfigurationBridgeModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24CafFaceLivenessBridgeiOS0abC24ConfigurationBridgeModelV7loading12certificates15livenessBaseUrl04authlM0ACSbSg_SaySSGSgSSSgAKtcfc",
+            "mangledName": "$s24CafFaceLivenessBridgeiOS0abC24ConfigurationBridgeModelV7loading12certificates15livenessBaseUrl04authlM0ACSbSg_SaySSGSgSSSgAKtcfc",
+            "moduleName": "CafFaceLivenessBridgeiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
