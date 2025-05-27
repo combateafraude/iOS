@@ -80,15 +80,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
-            "mangledName": "$s25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
+            "usr": "s:25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
+            "mangledName": "$s25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
             "moduleName": "CafDocumentDetectorBridge",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
