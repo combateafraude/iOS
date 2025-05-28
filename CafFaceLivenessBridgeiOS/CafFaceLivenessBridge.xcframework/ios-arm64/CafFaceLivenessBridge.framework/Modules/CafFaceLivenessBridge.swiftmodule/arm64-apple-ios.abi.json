@@ -16,25 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "CafFaceLiveness",
-        "printedName": "CafFaceLiveness",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CafFaceLivenessBridge",
         "declAttributes": [
@@ -46,7 +29,10 @@
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge"
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
