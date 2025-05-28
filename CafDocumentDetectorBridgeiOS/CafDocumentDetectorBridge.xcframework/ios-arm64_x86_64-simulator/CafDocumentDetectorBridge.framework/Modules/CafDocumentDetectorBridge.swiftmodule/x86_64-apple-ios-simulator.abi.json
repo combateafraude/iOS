@@ -206,9 +206,9 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeAdapter.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 988,
       "length": 45,
       "value": "\"^(\\d{1,2}d)?\\s?(\\d{1,2}h)?\\s?(\\d{1,2}m)?$\""
     }
