@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CafDocumentDetectorUIBridgeiOS'
-  s.version      = '1.0.0-beta1'
+  s.version      = '1.0.0-beta2'
   s.summary      = 'CafDocumentDetector framework for document detection'
   s.homepage     = 'https://github.com/combateafraude/iOS'
   s.license      = { :type => 'MIT', :file => 'CafDocumentDetectorUIBridgeiOS/LICENSE' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'CafDocumentDetectorUIBridgeiOS/CafDocumentDetectorUIBridge.xcframework'
 
-  s.dependency 'CafSDKiOS/DocumentDetector', '3.0.0'
-  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta33'
+  s.dependency 'CafSDKiOS/DocumentDetector', '4.0.0'
+  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta35'
   s.dependency 'CafSolutions', '2.0.3'
 end
