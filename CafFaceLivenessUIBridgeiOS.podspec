@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'CafFaceLivenessUIBridgeiOS/CafFaceLivenessUIBridge.xcframework'
 
-  s.dependency 'CafSDKiOS/CafFaceLiveness', '4.0.0'
-  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta35'
+  s.dependency 'CafSDKiOS/CafFaceLiveness', '4.1.0'
+  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta36'
   s.dependency 'CafSolutions', '2.0.3'
 end
