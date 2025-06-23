@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'CafDocumentDetectorUIBridgeiOS/CafDocumentDetectorUIBridge.xcframework'
 
   s.dependency 'CafSDKiOS/DocumentDetector', '4.1.1'
-  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta38'
+  s.dependency 'CafSDKCommonsBridgeiOS', '1.0.0-beta39'
   s.dependency 'CafSolutions', '2.0.3'
 end
