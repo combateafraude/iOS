@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0-beta1'
   s.summary          = 'Caf iOS Bridges SDK'
   s.homepage         = 'https://github.com/combateafraude/iOS'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'CafBridgesFrameworks/LICENSE' }
   s.author           = { 'Caf' => 'service@caf.io' }
   s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
 
