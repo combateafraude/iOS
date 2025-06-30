@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'CafDocumentDetectorUIBridgeiOS'
-  s.version      = '1.0.0-beta10'
+  s.version      = '1.0.0-beta11'
   s.summary      = 'CafDocumentDetector framework for document detection'
   s.homepage     = 'https://github.com/combateafraude/iOS'
   s.license      = { :type => 'MIT', :file => 'CafDocumentDetectorUIBridgeiOS/LICENSE' }
