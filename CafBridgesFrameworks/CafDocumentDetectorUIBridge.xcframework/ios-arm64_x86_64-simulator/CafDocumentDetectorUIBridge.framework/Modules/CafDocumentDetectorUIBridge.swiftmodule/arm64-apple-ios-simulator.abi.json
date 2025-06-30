@@ -1,0 +1,223 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CafDocumentDetectorUIBridge",
+    "printedName": "CafDocumentDetectorUIBridge",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafDocumentDetectorUIBridgeMain",
+        "printedName": "CafDocumentDetectorUIBridgeMain",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "applySettings",
+            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKConfiguration",
+                "printedName": "CafSDK.CafSDKConfiguration",
+                "usr": "s:6CafSDK0A16SDKConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
+            "moduleName": "CafDocumentDetectorUIBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC",
+        "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DocumentDetector",
+        "printedName": "DocumentDetector",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DocumentDetector",
+        "printedName": "DocumentDetector",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-ui-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeUIBridgeAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 45,
+      "value": "\"^(\\d{1,2}d)?\\s?(\\d{1,2}h)?\\s?(\\d{1,2}m)?$\""
+    }
+  ]
+}
