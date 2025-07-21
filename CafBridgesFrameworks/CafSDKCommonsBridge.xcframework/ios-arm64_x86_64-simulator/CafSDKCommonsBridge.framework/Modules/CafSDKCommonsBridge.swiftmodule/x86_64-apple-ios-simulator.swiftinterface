@@ -16,6 +16,12 @@ public struct CafSDKCommonsBridgeInstance {
   public let environment: CafSDK.CafEnvironment
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment)
 }
+@_hasMissingDesignatedInitializers public class CafImageLoader {
+  public static func loadImageAsync(from urlString: Swift.String, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  public static func loadImageSync(from urlString: Swift.String) -> UIKit.UIImage?
+  public static func loadImageWithFallback(from urlString: Swift.String, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
   public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
