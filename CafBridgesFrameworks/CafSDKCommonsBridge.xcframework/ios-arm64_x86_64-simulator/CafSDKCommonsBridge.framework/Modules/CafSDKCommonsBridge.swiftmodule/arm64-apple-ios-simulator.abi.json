@@ -311,203 +311,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CafImageLoader",
-        "printedName": "CafImageLoader",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "loadImageAsync",
-            "printedName": "loadImageAsync(from:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UIKit.UIImage?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageLoaderC04loadD5Async4from10completionySS_ySo7UIImageCSgctFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageLoaderC04loadD5Async4from10completionySS_ySo7UIImageCSgctFZ",
-            "moduleName": "CafSDKCommonsBridge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "loadImageSync",
-            "printedName": "loadImageSync(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageLoaderC04loadD4Sync4fromSo7UIImageCSgSS_tFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageLoaderC04loadD4Sync4fromSo7UIImageCSgSS_tFZ",
-            "moduleName": "CafSDKCommonsBridge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "loadImageWithFallback",
-            "printedName": "loadImageWithFallback(from:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UIKit.UIImage?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageLoaderC04loadD12WithFallback4from10completionySS_ySo7UIImageCSgctFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageLoaderC04loadD12WithFallback4from10completionySS_ySo7UIImageCSgctFZ",
-            "moduleName": "CafSDKCommonsBridge",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:19CafSDKCommonsBridge0A11ImageLoaderC",
-        "mangledName": "$s19CafSDKCommonsBridge0A11ImageLoaderC",
-        "moduleName": "CafSDKCommonsBridge",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
@@ -685,123 +488,20 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageParserV04loadD04from10completionySSSg_ySo7UIImageCSgctFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserV04loadD04from10completionySSSg_ySo7UIImageCSgctFZ",
+            "usr": "s:19CafSDKCommonsBridge0A11ImageParserC04loadD04from10completionySSSg_ySo7UIImageCSgctFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserC04loadD04from10completionySSSg_ySo7UIImageCSgctFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "loadImageSync",
-            "printedName": "loadImageSync(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageParserV04loadD4Sync4fromSo7UIImageCSgSSSg_tFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserV04loadD4Sync4fromSo7UIImageCSgSSSg_tFZ",
-            "moduleName": "CafSDKCommonsBridge",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isRemoteURL",
-            "printedName": "isRemoteURL(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageParserV11isRemoteURLySbSSFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserV11isRemoteURLySbSSFZ",
-            "moduleName": "CafSDKCommonsBridge",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isLocalURL",
-            "printedName": "isLocalURL(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageParserV10isLocalURLySbSSFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserV10isLocalURLySbSSFZ",
-            "moduleName": "CafSDKCommonsBridge",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "loadMultipleImages",
-            "printedName": "loadMultipleImages(from:completion:)",
+            "name": "loadImage",
+            "printedName": "loadImage(from:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -810,30 +510,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String?]",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
                   }
                 ],
-                "usr": "s:Sa"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([UIKit.UIImage?]) -> ()",
+                "printedName": "(UIKit.UIImage?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -842,49 +534,41 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[UIKit.UIImage?]",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "UIKit.UIImage?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIImage",
-                            "printedName": "UIKit.UIImage",
-                            "usr": "c:objc(cs)UIImage"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
                       }
                     ],
-                    "usr": "s:Sa"
+                    "usr": "s:Sq"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0A11ImageParserV18loadMultipleImages4from10completionySaySSSgG_ySaySo7UIImageCSgGctFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserV18loadMultipleImages4from10completionySaySSSgG_ySaySo7UIImageCSgGctFZ",
+            "usr": "s:19CafSDKCommonsBridge0A11ImageParserC04loadD04from10completiony10Foundation3URLVSg_ySo7UIImageCSgctFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserC04loadD04from10completiony10Foundation3URLVSg_ySo7UIImageCSgctFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:19CafSDKCommonsBridge0A11ImageParserV",
-        "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserV",
+        "declKind": "Class",
+        "usr": "s:19CafSDKCommonsBridge0A11ImageParserC",
+        "mangledName": "$s19CafSDKCommonsBridge0A11ImageParserC",
         "moduleName": "CafSDKCommonsBridge",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
