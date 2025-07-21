@@ -59,6 +59,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CafDocumentDetectorUIBridgeMain",
         "printedName": "CafDocumentDetectorUIBridgeMain",

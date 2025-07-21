@@ -28,3 +28,10 @@ public struct CafSDKCommonsBridgeInstance {
   public static func release()
   @objc deinit
 }
+public struct CafImageParser {
+  public static func loadImage(from imageUrlString: Swift.String?, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  public static func loadImageSync(from imageUrlString: Swift.String?) -> UIKit.UIImage?
+  public static func isRemoteURL(_ urlString: Swift.String) -> Swift.Bool
+  public static func isLocalURL(_ urlString: Swift.String) -> Swift.Bool
+  public static func loadMultipleImages(from imageUrls: [Swift.String?], completion: @escaping ([UIKit.UIImage?]) -> Swift.Void)
+}

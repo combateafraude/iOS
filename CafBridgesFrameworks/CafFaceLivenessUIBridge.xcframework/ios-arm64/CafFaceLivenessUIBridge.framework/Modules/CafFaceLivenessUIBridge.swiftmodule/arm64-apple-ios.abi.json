@@ -63,6 +63,13 @@
         "moduleName": "CafFaceLivenessUIBridge"
       },
       {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessUIBridge"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CafFaceLivenessUIBridgeMain",
         "printedName": "CafFaceLivenessUIBridgeMain",
