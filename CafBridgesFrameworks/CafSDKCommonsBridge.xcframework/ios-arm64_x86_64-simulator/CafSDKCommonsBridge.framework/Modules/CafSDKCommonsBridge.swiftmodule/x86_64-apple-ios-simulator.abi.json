@@ -23,6 +23,13 @@
       },
       {
         "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafSDKCommonsBridge"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -324,24 +331,41 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(jsonString:)",
+            "printedName": "initialize(jsonString:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "CafSDKCommonsBridgeInstance",
-                "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDKCommonsBridge.CafSDKCommonsBridgeInstance) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKCommonsBridgeInstance",
+                    "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
+                    "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0abC4MainC10initialize10jsonStringAA0abC8InstanceVSS_tFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC10initialize10jsonStringAA0abC8InstanceVSS_tFZ",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC10initialize10jsonString10completionySS_yAA0abC8InstanceVctFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC10initialize10jsonString10completionySS_yAA0abC8InstanceVctFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
