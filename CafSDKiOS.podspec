@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '2.0.0-beta7'
+  s.version          = '5.1.0-beta1'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Caf' => 'service@caf.io' }
-  s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s  }
+  s.source           = { :git => 'https://github.com/combateafraude/caf-ios-sdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
@@ -25,8 +25,9 @@ Pod::Spec.new do |s|
   # Document Detector component
   s.subspec 'DocumentDetector' do |dd|
     dd.vendored_frameworks = 'Frameworks/DocumentDetector.xcframework'
+    dd.dependency 'CafSDKiOS/Core'
     dd.dependency 'TensorFlowLiteC', '2.14.0'
-    dd.dependency 'CafSolutions', '2.0.3'
+    dd.dependency 'CafSolutions', '2.0.5'
   end
 
   # Face Liveness
@@ -39,14 +40,15 @@ Pod::Spec.new do |s|
   # Face Liveness core
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
+    flc.dependency 'CafSDKiOS/Core'
     flc.dependency 'FingerprintPro', '2.7.0'
-    flc.dependency 'CafSolutions', '2.0.3'
+    flc.dependency 'CafSolutions', '2.0.5'
   end
 
   # Iproov integration
   s.subspec 'IproovProvider' do |ip|
     ip.vendored_frameworks = 'Frameworks/IproovProvider.xcframework'
-    ip.dependency 'iProov', '12.3.0'
+    ip.dependency 'iProov', '12.3.1'
     ip.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
