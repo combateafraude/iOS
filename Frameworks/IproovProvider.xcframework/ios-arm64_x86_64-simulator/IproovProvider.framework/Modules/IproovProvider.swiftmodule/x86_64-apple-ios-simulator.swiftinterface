@@ -1,35 +1,20 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IproovProvider
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
-import AVFoundation
 import AdSupport
 import CafSolutions
 import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
-import DeveloperToolsSupport
 import Foundation
 import Security
 import Swift
-import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import iProov
-extension UIKit.UIColor {
-  convenience public init(byHex: Swift.String)
-}
-public struct ColorConfiguration {
-  public let primaryColor: Swift.String?
-  public let secondaryColor: Swift.String?
-  public let contentColor: Swift.String?
-  public let backgroundColor: Swift.String?
-  public let mediumColor: Swift.String?
-  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
-}
-public enum CafEnvironment : Swift.Int {
+public enum CAFStage : Swift.Int {
   case dev
   case beta
   case prod
@@ -38,9 +23,6 @@ public enum CafEnvironment : Swift.Int {
   public var rawValue: Swift.Int {
     get
   }
-}
-extension IproovProvider.CafEnvironment {
-  public func toString() -> Swift.String
 }
 public enum CafSdkPlatform : Swift.String {
   case nativeIos
@@ -70,47 +52,17 @@ public enum CafErrorType : Swift.String, Swift.Encodable {
     get
   }
 }
-final public class CafConfirmationNextStepContent {
-  final public var title: Swift.String?
-  final public var description: Swift.String?
-  final public var buttonTitle: Swift.String?
-  final public var image: UIKit.UIImage?
-  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
-  @objc deinit
-}
-public struct CafInstructionsConfiguration {
-  public var enabled: Swift.Bool
-  public var title: Swift.String?
-  public var descriptionText: Swift.String?
-  public var steps: [Swift.String]?
-  public var buttonTitle: Swift.String?
-  public var headerImage: UIKit.UIImage?
-  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
-}
 @_inheritsConvenienceInitializers @objc(CafIproovProvider) public class CafIproovProvider : ObjectiveC.NSObject, CafSolutions.CafFaceLivenessProvidersProtocol {
   @objc override dynamic public init()
   @objc public func startLivenessCheck(parameters: [Swift.String : Any], livenessBaseUrl: Swift.String, certificates: [Swift.String], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
-public enum CafLogLevel : Swift.String {
-  case debug
-  case usage
-  case info
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-extension IproovProvider.CafEnvironment : Swift.Equatable {}
-extension IproovProvider.CafEnvironment : Swift.Hashable {}
-extension IproovProvider.CafEnvironment : Swift.RawRepresentable {}
+extension IproovProvider.CAFStage : Swift.Equatable {}
+extension IproovProvider.CAFStage : Swift.Hashable {}
+extension IproovProvider.CAFStage : Swift.RawRepresentable {}
 extension IproovProvider.CafSdkPlatform : Swift.Equatable {}
 extension IproovProvider.CafSdkPlatform : Swift.Hashable {}
 extension IproovProvider.CafSdkPlatform : Swift.RawRepresentable {}
 extension IproovProvider.CafErrorType : Swift.Equatable {}
 extension IproovProvider.CafErrorType : Swift.Hashable {}
 extension IproovProvider.CafErrorType : Swift.RawRepresentable {}
-extension IproovProvider.CafLogLevel : Swift.Equatable {}
-extension IproovProvider.CafLogLevel : Swift.Hashable {}
-extension IproovProvider.CafLogLevel : Swift.RawRepresentable {}
