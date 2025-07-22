@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CafFaceLiveness
 import CafSDK
-import CafSDKCommonsBridge
 import Foundation
 import Swift
 import UIKit
