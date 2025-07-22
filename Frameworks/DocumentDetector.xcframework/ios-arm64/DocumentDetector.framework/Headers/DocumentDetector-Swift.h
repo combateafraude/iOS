@@ -432,14 +432,14 @@ SWIFT_CLASS("_TtC16DocumentDetector22DocumentDetectorResult")
 @end
 
 
-SWIFT_CLASS("_TtC16DocumentDetector19DocumentDetectorSdk")
+SWIFT_CLASS("_TtC16DocumentDetector19DocumentDetectorSdk") SWIFT_DEPRECATED_MSG("This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
 @interface DocumentDetectorSdk : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtCC16DocumentDetector19DocumentDetectorSdk10CafBuilder")
+SWIFT_CLASS("_TtCC16DocumentDetector19DocumentDetectorSdk10CafBuilder") SWIFT_DEPRECATED_MSG("This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
 @interface CafBuilder : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
