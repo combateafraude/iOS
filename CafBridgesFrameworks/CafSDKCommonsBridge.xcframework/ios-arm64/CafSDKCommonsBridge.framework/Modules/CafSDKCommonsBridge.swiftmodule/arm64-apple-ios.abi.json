@@ -23,13 +23,6 @@
       },
       {
         "kind": "Import",
-        "name": "CafSDKCommonsBridge",
-        "printedName": "CafSDKCommonsBridge",
-        "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
