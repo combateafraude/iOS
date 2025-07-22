@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '5.1.0-beta1'
+  s.version          = '5.1.0-beta2'
   s.summary          = 'Caf iOS SDK'
-  s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/combateafraude/iOS'
+  s.license          = { :type => 'MIT', :file => 'Frameworks/LICENSE' }
   s.author           = { 'Caf' => 'service@caf.io' }
-  s.source           = { :git => 'https://github.com/combateafraude/caf-ios-sdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
