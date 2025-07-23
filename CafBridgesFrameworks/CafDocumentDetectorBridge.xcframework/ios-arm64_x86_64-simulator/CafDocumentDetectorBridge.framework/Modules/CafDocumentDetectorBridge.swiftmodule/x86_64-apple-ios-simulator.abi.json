@@ -26,6 +26,13 @@
       },
       {
         "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -131,6 +138,13 @@
         "kind": "Import",
         "name": "DocumentDetector",
         "printedName": "DocumentDetector",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
         "declKind": "Import",
         "moduleName": "CafDocumentDetectorBridge"
       },

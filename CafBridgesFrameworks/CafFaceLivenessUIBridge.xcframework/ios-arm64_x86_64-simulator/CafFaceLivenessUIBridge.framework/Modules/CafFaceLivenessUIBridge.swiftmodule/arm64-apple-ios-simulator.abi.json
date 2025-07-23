@@ -6,8 +6,8 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
         "declKind": "Import",
         "moduleName": "CafFaceLivenessUIBridge",
         "declAttributes": [
@@ -16,15 +16,22 @@
       },
       {
         "kind": "Import",
-        "name": "CafSDK",
-        "printedName": "CafSDK",
+        "name": "CafFaceLiveness",
+        "printedName": "CafFaceLiveness",
         "declKind": "Import",
         "moduleName": "CafFaceLivenessUIBridge"
       },
       {
         "kind": "Import",
-        "name": "CafFaceLiveness",
-        "printedName": "CafFaceLiveness",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessUIBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CafFaceLivenessUIBridge"
       },

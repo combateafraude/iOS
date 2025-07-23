@@ -22,3 +22,7 @@ public struct CafSDKCommonsBridgeInstance {
   public static func release()
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class CafImageParser {
+  public static func loadImage(from urlString: Swift.String?) -> UIKit.UIImage?
+  @objc deinit
+}
