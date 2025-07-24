@@ -1,4 +1,0 @@
-framework module CafDocumentDetectorUIBridge {
-  header "CafDocumentDetectorUIBridge-Swift.h"
-  requires objc
-}
