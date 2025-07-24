@@ -4,136 +4,183 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		5tuN2VC1tqcP7vLT/+YPajlnd8w=
+		</data>
 		<key>Headers/IproovProvider-Swift.h</key>
 		<data>
-		sMFErrS1xT6SKf8AmI84Tadjfws=
+		x5vrTzNMYL+B1lsUe5OczbCXJVI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fw1gGpY4JyVuTupPQ+tkMVp6mxY=
+		pWpE6c9i4F0b6SgKWwBb8Cb5vuk=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Qn/+JnyQPH5TLI/1FAXmSVJGBVc=
+		Xs+yFrv8N1jqwP1K6jk2e7raFtA=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gSGoJ8reLbwn8ZTY9hXYF+XMSvc=
+		d2yT2L29F5RVG/Lp3BdfccmB0aw=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9O+lOaRaGzN2mPbCIyr6uMlV104=
+		nmYYprOqLV0eZqUan+EpWMhB9FA=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gSGoJ8reLbwn8ZTY9hXYF+XMSvc=
+		d2yT2L29F5RVG/Lp3BdfccmB0aw=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2BHZqlWyxZJvf6BSa/86XD9e6c4=
+		UW4CUInji21QaiSdrdtzlwrwLxw=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Qn/+JnyQPH5TLI/1FAXmSVJGBVc=
+		Xs+yFrv8N1jqwP1K6jk2e7raFtA=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		z0nbSRvLziRIKZDkDiCOECiajq8=
+		SscBWdqxV+pLgyLQJTaKHMgKics=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CE+smCOj711ukSN8IUk9PVRkpbw=
+		N5ChIEJJnFub/nwtOguv6zMcsrg=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		z0nbSRvLziRIKZDkDiCOECiajq8=
+		SscBWdqxV+pLgyLQJTaKHMgKics=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jA2CYhtwxVbyChPr8wXa5IKTQB8=
+		iCukVeiAwjHhDRq6IpFMJLBR3fs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		GkMOrR2vOQpR4E5VI85VwYDTS/g=
 		</data>
+		<key>en.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PzQGui93Tpvx0qetIFvS8vYPAeA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0GcslkksOJh//+KqiAcZS/hhJAA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gThEObMbb/sA8OvFuEFlHFukJYc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-PT.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PzQGui93Tpvx0qetIFvS8vYPAeA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+gBc9Tp8IZjZ5z/hyx+TmaCtVmLO9cfr5ibbanf9FlE=
+			</data>
+		</dict>
 		<key>Headers/IproovProvider-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E+EZ6CLetLpWf+mDs1BR1/8QplmoDPPqB3EiUv2QqKg=
+			ftaQdxQt8UAUgvbAFL3QFgJyjA2fp+32w6Sw+aDyG04=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWVMM18oU8wD8zkolGyTVvnDVmsfn7UOVHQXu7C8M7c=
+			gDSYp+vAThOx6VifScoWAeDcSWRKPp8W9GBQ8BgNgeg=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s4re5qTrCSHd7clHp/K/khsWaYeTGDQGyHGBPG148CQ=
+			Gm7H56c1Tgd4vdhr1auw0JuL22Qs0bFe6FtQpI+YD1A=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3Ibh1d2P7SBBZWnaIxXbjJYMxNgKvBkxu7o1t6QW3A=
+			+mOb0gqX7rJ9/kNwF0VPZltNkLClTKOO7AV5nRjg+sA=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s4re5qTrCSHd7clHp/K/khsWaYeTGDQGyHGBPG148CQ=
+			Gm7H56c1Tgd4vdhr1auw0JuL22Qs0bFe6FtQpI+YD1A=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g6mP4+tv3wrlo6gdJkEg2f2CQnYGuEPDKlu/wpM1zeY=
+			rhnkgGW/5ICFrhRBeTDQ6gsdPekIfLxgibhkNK6LAic=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWVMM18oU8wD8zkolGyTVvnDVmsfn7UOVHQXu7C8M7c=
+			gDSYp+vAThOx6VifScoWAeDcSWRKPp8W9GBQ8BgNgeg=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7rarODMypAATVFWIf1RBhOk264xwTFkD1qlmHhYCjmc=
+			mLxzKspI3e2eFbWP73cZuQTXV7AQUIItlTSEWlvvYG4=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1RydUk1FeBoLZvg6HfPfjpiDLf92ee6xlcaS8WTuj3M=
+			tIXd+UPKQzB+mtVs/XPNzrDjF3oBGSDLOLIEyPQhSqU=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7rarODMypAATVFWIf1RBhOk264xwTFkD1qlmHhYCjmc=
+			mLxzKspI3e2eFbWP73cZuQTXV7AQUIItlTSEWlvvYG4=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bvnK7ShBvXGo+SQ9WaqcvW9Lq4jNMBBgjcEQWbKIvb8=
+			8nKCq6Uw6IXKNkTdW1dM7cjvTCzo1erLza20De84Bpw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -142,6 +189,42 @@
 			<data>
 			B3thunyKzce0mKOsbUtpqC0KG6lQLOztEwomhg6rN8E=
 			</data>
+		</dict>
+		<key>en.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			txycGi7+uNGvoVWme/1UvoG3aIc20BBqRngLDrjuWg8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BRcQq5blbklPZadFgdqUVQ/EmnlRYEWrvlExeUolQNU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-BR.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k1p2079K6+diRwKY1UOcwCk3eNULKYyNQL+X1q/GoTk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-PT.lproj/CDSStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			txycGi7+uNGvoVWme/1UvoG3aIc20BBqRngLDrjuWg8=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
