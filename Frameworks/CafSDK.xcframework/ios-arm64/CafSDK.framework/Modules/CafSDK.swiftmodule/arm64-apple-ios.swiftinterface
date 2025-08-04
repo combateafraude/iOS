@@ -484,7 +484,7 @@ public struct CafUploadSettings {
   public var compress: Swift.Bool
   public var fileFormats: [CafSDK.CafFileFormatWrapper]
   public var maximumFileSize: Swift.Int
-  public init(enable: Swift.Bool = false, compress: Swift.Bool = true, fileFormats: [CafSDK.CafFileFormatWrapper] = [.png, .jpeg, .heif, .pdf, .heic], maximumFileSize: Swift.Int = 10_000_000)
+  public init(enable: Swift.Bool = true, compress: Swift.Bool = true, fileFormats: [CafSDK.CafFileFormatWrapper] = [.png, .jpeg, .heif, .pdf, .heic], maximumFileSize: Swift.Int = 10_000_000)
 }
 public struct CafProxySettings {
   public let hostname: Swift.String
@@ -646,7 +646,7 @@ public struct CafDocumentDetectorConfig {
   public var selectDocumentConfig: CafSDK.CafSelectDocumentConfig?
   public var sdkType: CafSDK.CafSdkPlatform
   public var maxRetryAttempts: Swift.Int
-  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: false), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2)
+  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2)
 }
 extension CafSDK.CafEnvironment : Swift.Equatable {}
 extension CafSDK.CafEnvironment : Swift.Hashable {}

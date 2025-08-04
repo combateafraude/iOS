@@ -164,9 +164,11 @@ final public class CafConfirmationNextStepContent {
   public static let RG_FRONT: DocumentDetector.CafDocument
   public static let RG_BACK: DocumentDetector.CafDocument
   public static let RG_FULL: DocumentDetector.CafDocument
+  public static let RG_DIGITAL: DocumentDetector.CafDocument
   public static let CNH_FRONT: DocumentDetector.CafDocument
   public static let CNH_BACK: DocumentDetector.CafDocument
   public static let CNH_FULL: DocumentDetector.CafDocument
+  public static let CNH_DIGITAL: DocumentDetector.CafDocument
   public static let CRLV: DocumentDetector.CafDocument
   public static let RNE_FRONT: DocumentDetector.CafDocument
   public static let RNE_BACK: DocumentDetector.CafDocument
@@ -271,7 +273,9 @@ public class CafDocumentRetrievedOcr {
 }
 public enum CafDocumentType : Swift.String {
   case rg
+  case rgDigital
   case cnh
+  case cnhDigital
   case crlv
   case rne
   case ctps
