@@ -9,6 +9,10 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class CafImageParser {
+  public static func loadImage(from urlString: Swift.String?) -> UIKit.UIImage?
+  @objc deinit
+}
 public struct CafSDKCommonsBridgeInstance {
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
   public let mobileToken: Swift.String
@@ -20,9 +24,5 @@ public struct CafSDKCommonsBridgeInstance {
   public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class CafImageParser {
-  public static func loadImage(from urlString: Swift.String?) -> UIKit.UIImage?
   @objc deinit
 }
