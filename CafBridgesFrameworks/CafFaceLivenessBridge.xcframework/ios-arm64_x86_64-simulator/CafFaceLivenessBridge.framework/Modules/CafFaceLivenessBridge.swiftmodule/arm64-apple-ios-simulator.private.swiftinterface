@@ -11,6 +11,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public class CafFaceLivenessBridgeMain {
   public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSdkBridgePlatform)
-  public static func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String, sdkPlatform: CafSDK.CafSdkPlatform)
+  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String)
   @objc deinit
 }

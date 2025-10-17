@@ -93,7 +93,7 @@
           {
             "kind": "Function",
             "name": "applySettings",
-            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:sdkPlatform:)",
+            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -111,17 +111,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CafSdkPlatform",
-                "printedName": "CafSDK.CafSdkPlatform",
-                "usr": "s:6CafSDK0A11SdkPlatformO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonString11sdkPlatformy0A3SDK0A16SDKConfigurationC_SSAH0aiO0OtKF",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonString11sdkPlatformy0A3SDK0A16SDKConfigurationC_SSAH0aiO0OtKF",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKF",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKF",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "AccessControl"
