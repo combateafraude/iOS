@@ -16,22 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "CafFaceLiveness",
-        "printedName": "CafFaceLiveness",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessUIBridge"
-      },
-      {
-        "kind": "Import",
         "name": "CafSDKCommonsBridge",
         "printedName": "CafSDKCommonsBridge",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessUIBridge"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "CafFaceLivenessUIBridge"
       },
@@ -63,10 +49,44 @@
         "moduleName": "CafFaceLivenessUIBridge"
       },
       {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessUIBridge"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CafFaceLivenessUIBridgeMain",
         "printedName": "CafFaceLivenessUIBridgeMain",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkBridgePlatform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessUIBridgeMain",
+                "printedName": "CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeMain",
+                "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
+            "moduleName": "CafFaceLivenessUIBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Function",
             "name": "applySettings",
@@ -91,12 +111,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
-            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStF",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStF",
             "moduleName": "CafFaceLivenessUIBridge",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -109,7 +127,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",

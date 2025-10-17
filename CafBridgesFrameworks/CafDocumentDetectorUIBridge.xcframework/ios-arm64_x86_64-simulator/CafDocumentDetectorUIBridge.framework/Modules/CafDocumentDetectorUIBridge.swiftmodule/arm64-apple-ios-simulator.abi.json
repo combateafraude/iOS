@@ -33,13 +33,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafDocumentDetectorUIBridge"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -59,14 +52,48 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorUIBridge"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CafDocumentDetectorUIBridgeMain",
         "printedName": "CafDocumentDetectorUIBridgeMain",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkBridgePlatform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafDocumentDetectorUIBridgeMain",
+                "printedName": "CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeMain",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
+            "moduleName": "CafDocumentDetectorUIBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "applySettings",
-            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:)",
+            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:sdkPlatform:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -84,15 +111,19 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkPlatform",
+                "printedName": "CafSDK.CafSdkPlatform",
+                "usr": "s:6CafSDK0A11SdkPlatformO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonString11sdkPlatformy0A3SDK0A16SDKConfigurationC_SSAH0aiO0OtKF",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonString11sdkPlatformy0A3SDK0A16SDKConfigurationC_SSAH0aiO0OtKF",
             "moduleName": "CafDocumentDetectorUIBridge",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "throwing": true,
@@ -106,7 +137,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -257,7 +287,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-ui-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeUIBridgeAdapter.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-ui-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeUIBridgeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 45,

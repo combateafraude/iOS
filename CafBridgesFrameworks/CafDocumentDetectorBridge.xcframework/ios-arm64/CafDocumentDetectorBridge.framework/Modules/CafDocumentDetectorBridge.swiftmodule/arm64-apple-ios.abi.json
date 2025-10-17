@@ -33,13 +33,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafDocumentDetectorBridge"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -59,10 +52,44 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CafDocumentDetectorBridgeMain",
         "printedName": "CafDocumentDetectorBridgeMain",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkBridgePlatform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafDocumentDetectorBridgeMain",
+                "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeMain",
+                "usr": "s:25CafDocumentDetectorBridge0abcD4MainC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25CafDocumentDetectorBridge0abcD4MainC03sdkD8PlatformAC0a10SDKCommonsD00a3SdkdG0O_tcfc",
+            "mangledName": "$s25CafDocumentDetectorBridge0abcD4MainC03sdkD8PlatformAC0a10SDKCommonsD00a3SdkdG0O_tcfc",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Function",
             "name": "applySettings",
@@ -87,12 +114,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
-            "mangledName": "$s25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKFZ",
+            "usr": "s:25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKF",
+            "mangledName": "$s25CafDocumentDetectorBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKF",
             "moduleName": "CafDocumentDetectorBridge",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "throwing": true,
@@ -106,7 +131,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -237,7 +261,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 45,

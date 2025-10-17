@@ -35,14 +35,48 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CafFaceLivenessBridgeMain",
         "printedName": "CafFaceLivenessBridgeMain",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkBridgePlatform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessBridgeMain",
+                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeMain",
+                "usr": "s:21CafFaceLivenessBridge0abcD4MainC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21CafFaceLivenessBridge0abcD4MainC03sdkD8PlatformAC0a10SDKCommonsD00a3SdkdG0O_tcfc",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC03sdkD8PlatformAC0a10SDKCommonsD00a3SdkdG0O_tcfc",
+            "moduleName": "CafFaceLivenessBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "applySettings",
-            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:)",
+            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:sdkPlatform:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -60,11 +94,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkPlatform",
+                "printedName": "CafSDK.CafSdkPlatform",
+                "usr": "s:6CafSDK0A11SdkPlatformO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
+            "usr": "s:21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonString11sdkPlatformy0A3SDK0A16SDKConfigurationC_SSAH0aiO0OtFZ",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonString11sdkPlatformy0A3SDK0A16SDKConfigurationC_SSAH0aiO0OtFZ",
             "moduleName": "CafFaceLivenessBridge",
             "static": true,
             "declAttributes": [
@@ -81,7 +121,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",

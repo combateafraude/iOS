@@ -508,6 +508,220 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CafSdkBridgePlatform",
+        "printedName": "CafSdkBridgePlatform",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "reactNativeIos",
+            "printedName": "reactNativeIos",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDKCommonsBridge.CafSdkBridgePlatform.Type) -> CafSDKCommonsBridge.CafSdkBridgePlatform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkBridgePlatform",
+                    "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                    "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafSdkBridgePlatform",
+                        "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                        "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO14reactNativeIosyA2CmF",
+            "mangledName": "$s19CafSDKCommonsBridge0a3SdkC8PlatformO14reactNativeIosyA2CmF",
+            "moduleName": "CafSDKCommonsBridge"
+          },
+          {
+            "kind": "Var",
+            "name": "flutterIos",
+            "printedName": "flutterIos",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDKCommonsBridge.CafSdkBridgePlatform.Type) -> CafSDKCommonsBridge.CafSdkBridgePlatform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkBridgePlatform",
+                    "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                    "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafSdkBridgePlatform",
+                        "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                        "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO10flutterIosyA2CmF",
+            "mangledName": "$s19CafSDKCommonsBridge0a3SdkC8PlatformO10flutterIosyA2CmF",
+            "moduleName": "CafSDKCommonsBridge"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSdkBridgePlatform",
+                    "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                    "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19CafSDKCommonsBridge0a3SdkC8PlatformO8rawValueACSgSS_tcfc",
+            "moduleName": "CafSDKCommonsBridge",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO8rawValueSSvp",
+            "mangledName": "$s19CafSDKCommonsBridge0a3SdkC8PlatformO8rawValueSSvp",
+            "moduleName": "CafSDKCommonsBridge",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO8rawValueSSvg",
+                "mangledName": "$s19CafSDKCommonsBridge0a3SdkC8PlatformO8rawValueSSvg",
+                "moduleName": "CafSDKCommonsBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO",
+        "mangledName": "$s19CafSDKCommonsBridge0a3SdkC8PlatformO",
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "CafSDK",
         "printedName": "CafSDK",
