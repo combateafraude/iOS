@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gjS6uYdEv0cqbvbO6ABgLgBvCvs=
+		G7FEz2pewwqSZ/xFIaYNJTg4v00=
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KAlSBA8Ut/QdpV9sZvj0qE8MoQk=
+		teor0jYcLi67gnX/cZ6azO9DkGA=
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gjS6uYdEv0cqbvbO6ABgLgBvCvs=
+		G7FEz2pewwqSZ/xFIaYNJTg4v00=
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s1kU+MsByTKWEk/mY8tM08h2gMA=
+		QO8h0xYDGy/LkMxnvxUBcLSy2Xc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XaBX87K1tuab257csO4ZQl/Iv2HGx4Vr02bpZ+uSBLw=
+			zY1rsBBpP8BaVwwe4w6LM/gWSPQDpOrE1byH2vg9zq4=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EjpBGmpLp0Nf+ELxxeEi2GMbkHgmtV3NHbWeTQkHy6U=
+			MtcUVXeQQYPAmZt1U6xzEnvRSDKgl7Lc8+bKgy4UwkU=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XaBX87K1tuab257csO4ZQl/Iv2HGx4Vr02bpZ+uSBLw=
+			zY1rsBBpP8BaVwwe4w6LM/gWSPQDpOrE1byH2vg9zq4=
 			</data>
 		</dict>
 		<key>Modules/CafDocumentDetectorBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M1iLbDUBsfTfBQyph43AWswP88DxqkJcrV8jN/yVWOM=
+			Gv7N1qYXjCQCB+5f1VpDPb1bGopZ9xUsTq8XDo27Cek=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
