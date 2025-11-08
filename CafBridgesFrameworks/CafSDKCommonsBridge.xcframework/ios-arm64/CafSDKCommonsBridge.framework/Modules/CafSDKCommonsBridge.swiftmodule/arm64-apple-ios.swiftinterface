@@ -14,14 +14,12 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 public struct CafSDKCommonsBridgeInstance {
+  public let cafSdkProvider: CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
-  public let mobileToken: Swift.String
-  public let personId: Swift.String
-  public let environment: CafSDK.CafEnvironment
-  public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment)
+  public init(cafSdkProvider: CafSDK.CafSDKProvider.Builder<UIKit.UIViewController>, cafSdkConfiguration: CafSDK.CafSDKConfiguration)
 }
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
-  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func initialize(viewController: UIKit.UIViewController, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void, jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit
