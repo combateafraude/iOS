@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   caf_solutions_version = '2.0.5'
-  caf_sdk_ios_version = '5.7.0'
+  caf_sdk_ios_version = '5.7.1-rc.1'
 
   s.subspec 'Core' do |core|
     core.dependency 'CafSDKiOS/DocumentDetector'
