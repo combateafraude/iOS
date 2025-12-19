@@ -1,16 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DocumentDetector
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DocumentDetector
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import AVKit
 import Accelerate
 import AdSupport
 import CafSolutions
 import CommonCrypto
-import CommonCrypto/*.CC_LONG*/
-import CommonCrypto/*.CC_MD5*/
-import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
 import CoreImage
 import CoreML
 import CoreMedia
@@ -67,7 +64,9 @@ public struct ColorConfiguration {
   public let contentColor: Swift.String?
   public let backgroundColor: Swift.String?
   public let mediumColor: Swift.String?
-  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+  public let dialogBackgroundColor: Swift.String?
+  public let dialogBorderColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
 }
 public enum CafEnvironment : Swift.Int {
   case dev
@@ -120,6 +119,10 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case libraryException
   case permissionException
   case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
+  case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [DocumentDetector.CafErrorType]
   public typealias RawValue = Swift.String
@@ -189,6 +192,7 @@ final public class CafConfirmationNextStepContent {
   public static func getByLabel(label: DocumentDetector.CafLabel) -> DocumentDetector.CafDocument?
   public static func allDocuments() -> [DocumentDetector.CafDocument]
   open func setDefaults()
+  open func applyCustomWrongDocumentTitle(_ title: Swift.String)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CafDocumentDetectorFailure : ObjectiveC.NSObject, Swift.Encodable {
@@ -758,6 +762,7 @@ open class DDMessageSettings : Swift.Encodable {
   @objc deinit
 }
 public struct DDSelectDocumentConfig {
+  public init(screenTitle: Swift.String? = nil, description: Swift.String? = nil, customTitles: [DocumentDetector.CafDocumentType : Swift.String]? = nil, customDescriptions: [DocumentDetector.CafDocumentType : Swift.String]? = nil)
 }
 open class DDUploadSettings : Swift.Encodable {
   public var enable: Swift.Bool
@@ -866,6 +871,7 @@ public protocol Delegate : AnyObject {
   public var customStrings: [any DocumentDetector.DDCustomization]?
   public var entrypoint: Swift.String?
   public var maxRetryAttempts: Swift.Int!
+  public var cafSdkVersion: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   @objc open class CafBuilder : ObjectiveC.NSObject {
@@ -891,13 +897,13 @@ public protocol Delegate : AnyObject {
     open func setCompressSettings(compressionQuality: CoreFoundation.CGFloat) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCurrentStepDoneDelay(currentStepDoneDelay: Foundation.TimeInterval) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setUploadSettings(uploadSettings: DocumentDetector.DDUploadSettings) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
-    open func setSelectDocumentConfig(title: Swift.String? = nil, description: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
+    open func setSelectDocumentConfig(title: Swift.String? = nil, description: Swift.String? = nil, customTitles: [Swift.String : Swift.String]? = nil, customDescriptions: [Swift.String : Swift.String]? = nil) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setStage(stage: DocumentDetector.DDCAFStage) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setCustomStrings(customStrings: [any DocumentDetector.DDCustomization]) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setSdkType(type: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setMaxRetryAttempts(maxRetryAttempts: Swift.Int) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
-    open func build(entrypoint: Swift.String? = nil) -> DocumentDetector.DocumentDetectorSdk
+    open func build(entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String = "") -> DocumentDetector.DocumentDetectorSdk
     @objc deinit
   }
   @objc deinit

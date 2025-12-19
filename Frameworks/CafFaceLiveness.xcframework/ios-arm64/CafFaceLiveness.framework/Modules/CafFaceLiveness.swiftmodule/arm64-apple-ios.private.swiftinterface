@@ -1,14 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CafFaceLiveness
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafFaceLiveness
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import AdSupport
 @_exported import CafFaceLiveness
 import CafSolutions
-import CommonCrypto/*.CC_LONG*/
-import CommonCrypto/*.CC_MD5*/
-import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import CommonCrypto
 import DeveloperToolsSupport
 import FingerprintPro
 import Foundation
@@ -28,7 +26,9 @@ public struct ColorConfiguration {
   public let contentColor: Swift.String?
   public let backgroundColor: Swift.String?
   public let mediumColor: Swift.String?
-  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+  public let dialogBackgroundColor: Swift.String?
+  public let dialogBorderColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
 }
 public enum CafEnvironment : Swift.Int {
   case dev
@@ -81,6 +81,10 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case libraryException
   case permissionException
   case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
+  case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafFaceLiveness.CafErrorType]
   public typealias RawValue = Swift.String
@@ -121,6 +125,18 @@ final public class CafConfirmationNextStepContent {
   public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
   @objc deinit
 }
+public protocol FLCustomization {
+}
+extension Swift.Sequence where Self.Element == any CafFaceLiveness.FLCustomization {
+  public func first<T>(of _: T.Type) -> T?
+}
+final public class FLPayFaceCustomization : CafFaceLiveness.FLCustomization {
+  final public var cameraMessageFont: Swift.String?
+  final public var startMessage: Swift.String?
+  final public var facePositionedMessage: Swift.String?
+  public init(cameraMessageFont: Swift.String? = nil, startMessage: Swift.String? = nil, facePositionedMessage: Swift.String? = nil)
+  @objc deinit
+}
 public enum CafResourceType : Swift.String {
   case liveness
   case authentication
@@ -153,6 +169,8 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var instructionsConfig: CafFaceLiveness.CafInstructionsConfiguration
   public var colorConfig: CafFaceLiveness.ColorConfiguration?
   public var customLocalization: Swift.String?
+  public var flCustomizations: [any CafFaceLiveness.FLCustomization]
+  public var payFaceDebugMode: Swift.Bool
   public var sdkType: CafFaceLiveness.CafSdkPlatform {
     get
     set
@@ -165,6 +183,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var logEventHandler: (((Swift.String, Swift.String)) -> Swift.Void)?
   weak public var delegate: (any CafFaceLiveness.CafFaceLivenessDelegate)?
   public var entrypoint: Swift.String?
+  public var bridgeConfigParams: [Swift.String : Swift.String]?
   @objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   open class CafFaceLivenessBuilder : ObjectiveC.NSObject {
     @objc override dynamic public init()
@@ -179,10 +198,15 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     open func setCustomLocalization(path: Swift.String?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setMaxRetryAttempts(attempts: Swift.Int) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setCustomStrings(customStrings: [any CafFaceLiveness.FLCustomization]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setPayFaceDebugMode(debugMode: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setBridge(config: [Swift.String : Swift.String]?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
-    open func build(entrypoint: Swift.String? = nil) -> CafFaceLiveness.CafFaceLivenessSDK
+    open func build(entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String = "") -> CafFaceLiveness.CafFaceLivenessSDK
     @objc deinit
   }
+  @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
+  open func loadSession(mobileToken: Swift.String, personId: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
   @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
   open func startSDK(viewController: UIKit.UIViewController, mobileToken: Swift.String, personId: Swift.String, debugEnabled: Swift.Bool = false, sessionId: Swift.String = UUID().uuidString)
   @objc deinit

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '5.1.0-beta9'
+  s.version          = '5.7.1-rc.1'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
     fl.dependency 'CafSDKiOS/CafFaceLivenessCore'
     fl.dependency 'CafSDKiOS/IproovProvider'
     fl.dependency 'CafSDKiOS/FaceTec2DProvider'
+    fl.dependency 'CafSDKiOS/FortfaceProvider'
   end
 
   # Face Liveness core
@@ -56,5 +57,13 @@ Pod::Spec.new do |s|
   s.subspec 'FaceTec2DProvider' do |fp|
     fp.vendored_frameworks = 'Frameworks/FaceTec2DProvider.xcframework'
     fp.dependency 'CafSDKiOS/CafFaceLivenessCore'
+  end
+
+  s.subspec 'FortfaceProvider' do |ff|
+    ff.vendored_frameworks = [
+      'Frameworks/Fortface.xcframework',
+      'Frameworks/FortfaceProvider.xcframework'
+    ]
+    ff.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 end

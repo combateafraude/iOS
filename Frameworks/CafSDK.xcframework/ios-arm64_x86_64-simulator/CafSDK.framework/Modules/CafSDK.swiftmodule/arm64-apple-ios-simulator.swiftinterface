@@ -1,13 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CafSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import AdSupport
 import CafSolutions
-import CommonCrypto/*.CC_LONG*/
-import CommonCrypto/*.CC_MD5*/
-import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import CommonCrypto
 import DeveloperToolsSupport
 import Foundation
 import Security
@@ -26,7 +24,9 @@ public struct ColorConfiguration {
   public let contentColor: Swift.String?
   public let backgroundColor: Swift.String?
   public let mediumColor: Swift.String?
-  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+  public let dialogBackgroundColor: Swift.String?
+  public let dialogBorderColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
 }
 public enum CafEnvironment : Swift.Int {
   case dev
@@ -79,6 +79,10 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case libraryException
   case permissionException
   case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
+  case faceAuthentication
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CafSDK.CafErrorType]
   public typealias RawValue = Swift.String
@@ -494,8 +498,40 @@ public struct CafProxySettings {
   public init(hostname: Swift.String, port: Swift.Int)
   public mutating func setAuthentication(user: Swift.String, password: Swift.String) -> CafSDK.CafProxySettings
 }
+public enum CafDocumentTypeKey : Swift.String, Swift.CaseIterable {
+  case rg
+  case rgDigital
+  case cnh
+  case cnhDigital
+  case crlv
+  case rne
+  case ctps
+  case passport
+  case any
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CafSDK.CafDocumentTypeKey]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafDocumentTypeKey] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct CafSelectDocumentConfig {
-  public init(screenTitle: Swift.String?, description: Swift.String?)
+  public let screenTitle: Swift.String?
+  public let description: Swift.String?
+  public let customTitles: [CafSDK.CafDocumentTypeKey : Swift.String]?
+  public let customDescriptions: [CafSDK.CafDocumentTypeKey : Swift.String]?
+  public init(screenTitle: Swift.String? = nil, description: Swift.String? = nil, customTitles: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil, customDescriptions: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil)
+}
+public protocol CafFLCustomization {
+}
+public struct CafFLPayFaceCustomization : CafSDK.CafFLCustomization {
+  public var cameraMessageFont: Swift.String?
+  public var startMessage: Swift.String?
+  public var facePositionedMessage: Swift.String?
+  public init(cameraMessageFont: Swift.String? = nil, startMessage: Swift.String? = nil, facePositionedMessage: Swift.String? = nil)
 }
 public struct CafFaceLivenessConfig {
   public var instructionsConfig: CafSDK.CafInstructionsConfiguration
@@ -505,7 +541,10 @@ public struct CafFaceLivenessConfig {
   public var customLocalization: Swift.String?
   public var maxRetryAttempts: Swift.Int
   public var sdkType: CafSDK.CafSdkPlatform
-  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos)
+  public var flCustomizations: [any CafSDK.CafFLCustomization]
+  public var payFaceDebugMode: Swift.Bool
+  public var bridgeConfig: [Swift.String : Swift.String]?
+  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos, flCustomizations: [any CafSDK.CafFLCustomization] = [], payFaceDebugMode: Swift.Bool = false, bridgeConfig: [Swift.String : Swift.String]? = nil)
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
@@ -571,21 +610,30 @@ public struct CafColorConfiguration {
   public let contentColor: Swift.String?
   public let backgroundColor: Swift.String?
   public let mediumColor: Swift.String?
-  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil)
+  public let dialogBackgroundColor: Swift.String?
+  public let dialogBorderColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
 }
 public class CafSDKConfiguration {
   final public let presentationOrder: [CafSDK.CafModuleType]
   public var nextStepContent: CafSDK.CafConfirmationNextStepContent?
   final public let colorConfig: CafSDK.CafColorConfiguration?
   public var waitForAllServices: Swift.Bool
-  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true)
+  public var enableTransitionScreens: Swift.Bool
+  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true, enableTransitionScreens: Swift.Bool = true)
   @objc deinit
 }
 extension CafSDK.CafSDKConfiguration {
   public func setDocumentDetectorConfig(_ documentDetectorConfig: CafSDK.CafDocumentDetectorConfig?) -> CafSDK.CafSDKConfiguration
 }
 extension CafSDK.CafSDKConfiguration {
+  public func getDocumentDetectorConfig() -> CafSDK.CafDocumentDetectorConfig?
+}
+extension CafSDK.CafSDKConfiguration {
   public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?) -> CafSDK.CafSDKConfiguration
+}
+extension CafSDK.CafSDKConfiguration {
+  public func getFaceLivenessConfig() -> CafSDK.CafFaceLivenessConfig?
 }
 public enum CafLogLevel : Swift.String {
   case debug
@@ -613,6 +661,7 @@ public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
     @objc deinit
   }
   final public func start()
+  final public func loadSession()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CafSecurityUtils {
@@ -632,8 +681,8 @@ public struct CafDocumentDetectorConfig {
   public var layout: CafSDK.CafDocumentDetectorLayout
   public var uploadSettings: CafSDK.CafUploadSettings
   public var instructionsConfig: CafSDK.CafInstructionsConfiguration
-  public var manualCaptureEnabled: Swift.Bool
-  public var manualCaptureTime: Foundation.TimeInterval
+  public var manualCaptureEnabled: Swift.Bool?
+  public var manualCaptureTime: Foundation.TimeInterval?
   public var requestTimeout: Foundation.TimeInterval
   public var showPopup: Swift.Bool
   public var proxySettings: CafSDK.CafProxySettings?
@@ -646,7 +695,7 @@ public struct CafDocumentDetectorConfig {
   public var selectDocumentConfig: CafSDK.CafSelectDocumentConfig?
   public var sdkType: CafSDK.CafSdkPlatform
   public var maxRetryAttempts: Swift.Int
-  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool = true, manualCaptureTime: Foundation.TimeInterval = 45, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2)
+  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool? = true, manualCaptureTime: Foundation.TimeInterval? = 0, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2)
 }
 extension CafSDK.CafEnvironment : Swift.Equatable {}
 extension CafSDK.CafEnvironment : Swift.Hashable {}
@@ -669,6 +718,9 @@ extension CafSDK.CafDocumentStepType : Swift.RawRepresentable {}
 extension CafSDK.CafFileFormatWrapper : Swift.Equatable {}
 extension CafSDK.CafFileFormatWrapper : Swift.Hashable {}
 extension CafSDK.CafFileFormatWrapper : Swift.RawRepresentable {}
+extension CafSDK.CafDocumentTypeKey : Swift.Equatable {}
+extension CafSDK.CafDocumentTypeKey : Swift.Hashable {}
+extension CafSDK.CafDocumentTypeKey : Swift.RawRepresentable {}
 extension CafSDK.CafModuleType : Swift.Equatable {}
 extension CafSDK.CafModuleType : Swift.Hashable {}
 extension CafSDK.CafModuleType : Swift.RawRepresentable {}
