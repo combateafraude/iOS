@@ -63,7 +63,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdkBridgePlatform:)",
+            "printedName": "init(sdkBridgePlatform:bridgeConfiguration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -76,11 +76,31 @@
                 "name": "CafSdkBridgePlatform",
                 "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
                 "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
-            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatform19bridgeConfigurationAC0a10SDKCommonsG00a3SdkgH0O_SDyS2SGtcfc",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatform19bridgeConfigurationAC0a10SDKCommonsG00a3SdkgH0O_SDyS2SGtcfc",
             "moduleName": "CafFaceLivenessUIBridge",
             "declAttributes": [
               "AccessControl"

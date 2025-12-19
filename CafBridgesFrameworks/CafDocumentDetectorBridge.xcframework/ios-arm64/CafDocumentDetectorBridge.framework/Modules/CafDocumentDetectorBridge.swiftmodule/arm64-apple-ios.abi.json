@@ -218,16 +218,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafDocumentDetectorBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
