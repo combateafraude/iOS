@@ -114,8 +114,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -131,8 +132,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStF",
-            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStF",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringSb0A3SDK0A16SDKConfigurationC_SStF",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringSb0A3SDK0A16SDKConfigurationC_SStF",
             "moduleName": "CafFaceLivenessUIBridge",
             "declAttributes": [
               "AccessControl"

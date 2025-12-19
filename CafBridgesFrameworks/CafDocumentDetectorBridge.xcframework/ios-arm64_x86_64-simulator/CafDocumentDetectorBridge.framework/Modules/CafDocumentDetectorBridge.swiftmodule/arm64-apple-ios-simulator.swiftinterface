@@ -13,6 +13,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public class CafDocumentDetectorBridgeMain {
   public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSdkBridgePlatform)
-  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String) throws
+  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String) throws -> Swift.Bool
   @objc deinit
 }
