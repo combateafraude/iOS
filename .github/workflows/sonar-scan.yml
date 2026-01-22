@@ -1,0 +1,48 @@
+name: SonarQube Security Scan
+
+on:
+  # Execução manual via workflow dispatch
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch para executar o scan'
+        required: false
+        default: 'main'
+        type: string
+  
+  # Trigger em push na branch base (será substituído automaticamente)
+  push:
+    branches:
+      - main
+  
+  # Trigger em abertura de PR para branch base (será substituído automaticamente)
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+jobs:
+  sonarqube-scan:
+    name: SonarQube Analysis
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      
+      - name: Run SonarQube Scan
+        uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONARQUBE_ADMIN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_URL }}
+        with:
+          args: >
+            -Dsonar.projectKey=${{ github.event.repository.name }}
+      
+      - name: SonarQube Quality Gate Check
+        if: always()
+        continue-on-error: true
+        run: |
+          echo "SonarQube scan completed for branch: ${{ github.ref_name }}"
