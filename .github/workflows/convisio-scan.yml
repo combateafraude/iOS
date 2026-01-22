@@ -1,0 +1,44 @@
+name: Conviso Security Scan
+
+on:
+  # Execução manual via workflow dispatch
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch para executar o scan'
+        required: false
+        default: 'main'
+        type: string
+  
+  # Trigger em push na branch base (será substituído automaticamente)
+  push:
+    branches:
+      - main
+  
+  # Trigger em abertura de PR para branch base (será substituído automaticamente)
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+jobs:
+  conviso-ast:
+    runs-on: ubuntu-latest
+    container:
+      image: convisoappsec/convisocli:latest
+      env:
+        CONVISO_API_KEY: ${{ secrets.CONVISO_API_KEY }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Run Conviso AST Scan
+        run: |
+          conviso ast run --vulnerability-auto-close
+      
+      - name: Upload Scan Results
+        if: always()
+        continue-on-error: true
+        run: |
+          echo "Scan completed for branch: ${{ github.ref_name }}"
