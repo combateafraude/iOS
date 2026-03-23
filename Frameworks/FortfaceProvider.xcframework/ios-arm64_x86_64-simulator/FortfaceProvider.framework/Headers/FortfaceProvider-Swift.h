@@ -281,8 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CafSolutions;
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -306,21 +304,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class NSString;
 /// A class that implements the <code>CafFaceLivenessProvidersProtocol</code> to provide liveness check functionality using Fortface.
 SWIFT_CLASS_NAMED("CafFortfaceProvider")
-@interface CafFortfaceProvider : NSObject <CafSolutionsCafFaceLivenessProvidersProtocol>
+@interface CafFortfaceProvider : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Starts a liveness check using the provided parameters.
-/// \param parameters A dictionary containing the parameters for the liveness check.
-///
-/// \param livenessBaseUrl The base URL for the liveness service.
-///
-/// \param certificates Array of certificates for SSL pinning (not used by Fortface).
-///
-/// \param completion A closure to be called with the results of the liveness check.
-///
-- (void)startLivenessCheckParameters:(NSDictionary<NSString *, id> * _Nonnull)parameters livenessBaseUrl:(NSString * _Nonnull)livenessBaseUrl certificates:(NSArray<NSString *> * _Nonnull)certificates completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
 @end
 
 #endif
@@ -614,8 +601,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CafSolutions;
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -639,21 +624,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class NSString;
 /// A class that implements the <code>CafFaceLivenessProvidersProtocol</code> to provide liveness check functionality using Fortface.
 SWIFT_CLASS_NAMED("CafFortfaceProvider")
-@interface CafFortfaceProvider : NSObject <CafSolutionsCafFaceLivenessProvidersProtocol>
+@interface CafFortfaceProvider : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Starts a liveness check using the provided parameters.
-/// \param parameters A dictionary containing the parameters for the liveness check.
-///
-/// \param livenessBaseUrl The base URL for the liveness service.
-///
-/// \param certificates Array of certificates for SSL pinning (not used by Fortface).
-///
-/// \param completion A closure to be called with the results of the liveness check.
-///
-- (void)startLivenessCheckParameters:(NSDictionary<NSString *, id> * _Nonnull)parameters livenessBaseUrl:(NSString * _Nonnull)livenessBaseUrl certificates:(NSArray<NSString *> * _Nonnull)certificates completion:(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nonnull))completion;
 @end
 
 #endif

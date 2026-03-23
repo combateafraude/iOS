@@ -1,0 +1,4 @@
+framework module CafLivenessBase {
+  header "CafLivenessBase-Swift.h"
+  requires objc
+}

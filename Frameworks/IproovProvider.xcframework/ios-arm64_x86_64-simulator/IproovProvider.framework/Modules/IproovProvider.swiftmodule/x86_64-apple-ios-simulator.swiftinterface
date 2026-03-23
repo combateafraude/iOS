@@ -1,13 +1,17 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IproovProvider
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IproovProvider
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import AdSupport
-import CafSolutions
+import CafLivenessBase
 import CommonCrypto
+import Darwin
 import DeveloperToolsSupport
 import Foundation
+import MachO
+import Network
+import ObjectiveC
 import Security
 import Swift
 import SwiftUI
@@ -16,6 +20,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import iProov
+import ObjectiveC.runtime
 extension UIKit.UIColor {
   convenience public init(byHex: Swift.String)
 }
@@ -27,13 +32,17 @@ public struct ColorConfiguration {
   public let mediumColor: Swift.String?
   public let dialogBackgroundColor: Swift.String?
   public let dialogBorderColor: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
+  #endif
 }
 public enum CafEnvironment : Swift.Int {
   case dev
   case beta
   case prod
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -46,20 +55,26 @@ public enum CafSdkPlatform : Swift.String {
   case nativeIos
   case reactNativeIos
   case flutterIos
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public struct CafSDKError : Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(errorType: IproovProvider.CafErrorType, description: Swift.String?)
+  #endif
   public let errorType: IproovProvider.CafErrorType
   public let description: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CafSDKFailure : Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(signedResponse: Swift.String?, failureReason: IproovProvider.CafFailureType, description: Swift.String?)
+  #endif
   public let signedResponse: Swift.String?
   public let failureReason: IproovProvider.CafFailureType
   public let description: Swift.String?
@@ -83,8 +98,11 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case cameraException
   case certificateException
   case invalidOptionsException
+  case securityException
   case faceAuthentication
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [IproovProvider.CafErrorType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [IproovProvider.CafErrorType] {
@@ -104,9 +122,24 @@ public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case faceTooFar
   case faceTooClose
   case sunglasses
+  case eyewear
   case obscuredFace
   case multipleFaces
+  case faceNotFound
+  case framesBlurry
+  case lightingIssues
+  case motionIssue
+  case backgroundIssue
+  case deviceIssue
+  case deviceRestart
+  case systemError
+  case rejected
+  case timeout
+  case userNotFound
+  case processingFault
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [IproovProvider.CafFailureType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [IproovProvider.CafFailureType] {
@@ -121,44 +154,48 @@ final public class CafConfirmationNextStepContent {
   final public var description: Swift.String?
   final public var buttonTitle: Swift.String?
   final public var image: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  #endif
   @objc deinit
+}
+public protocol CafInstructionsAnalyticsDelegate : AnyObject {
+  func cameraPermissionRequested()
+  func cameraPermissionGranted()
+  func cameraPermissionDenied()
 }
 public struct CafInstructionsConfiguration {
   public var enabled: Swift.Bool
-  public var title: Swift.String?
-  public var descriptionText: Swift.String?
-  public var steps: [Swift.String]?
-  public var buttonTitle: Swift.String?
-  public var headerImage: UIKit.UIImage?
-  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, descriptionText: Swift.String? = nil, steps: [Swift.String]? = nil, buttonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
+  public var captureTitle: Swift.String?
+  public var captureDescriptionText: Swift.String?
+  public var captureSteps: [Swift.String]?
+  public var captureButtonTitle: Swift.String?
+  public var captureHeaderImage: UIKit.UIImage?
+  public var uploadTitle: Swift.String?
+  public var uploadDescriptionText: Swift.String?
+  public var uploadSteps: [Swift.String]?
+  public var uploadButtonTitle: Swift.String?
+  public var uploadHeaderImage: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(enabled: Swift.Bool = true, captureTitle: Swift.String? = nil, captureDescriptionText: Swift.String? = nil, captureSteps: [Swift.String]? = nil, captureButtonTitle: Swift.String? = nil, captureHeaderImage: UIKit.UIImage? = nil, uploadTitle: Swift.String? = nil, uploadDescriptionText: Swift.String? = nil, uploadSteps: [Swift.String]? = nil, uploadButtonTitle: Swift.String? = nil, uploadHeaderImage: UIKit.UIImage? = nil)
+  #endif
 }
-@_inheritsConvenienceInitializers @objc(CafIproovProvider) public class CafIproovProvider : ObjectiveC.NSObject, CafSolutions.CafFaceLivenessProvidersProtocol {
+@_inheritsConvenienceInitializers @objc(CafIproovProvider) public class CafIproovProvider : ObjectiveC.NSObject, CafLivenessBase.CafFaceLivenessProvidersProtocol {
   @objc override dynamic public init()
-  @objc public func startLivenessCheck(parameters: [Swift.String : Any], livenessBaseUrl: Swift.String, certificates: [Swift.String], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func startLivenessCheck(parameters: [Swift.String : Any], livenessBaseUrl: Swift.String, certificates: [Swift.String], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
 public enum CafLogLevel : Swift.String {
   case debug
   case usage
   case info
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class CafSecurityUtils {
-  public static func clearAllCaches()
-  public static func sanitizeString(_ input: Swift.String, sensitiveFields: [Swift.String] = ["token", "mobileToken", "personId", "authorization", "bearer", "attestationToken"]) -> Swift.String
-  public static func validateNoSensitiveDataInLogs(_ data: Foundation.Data) -> Swift.Bool
-  public static func isDeviceSecure() -> Swift.Bool
-  public static func secureOverwrite(_ data: inout Foundation.Data)
-  public static func secureOverwrite(_ string: inout Swift.String)
-  public static func createSecureURLSessionConfiguration() -> Foundation.URLSessionConfiguration
-  public static func addCacheControlHeaders(to request: inout Foundation.URLRequest)
-  public static func sanitizeDataForLogging(_ data: Foundation.Data) -> Foundation.Data
-  @objc deinit
 }
 extension IproovProvider.CafEnvironment : Swift.Equatable {}
 extension IproovProvider.CafEnvironment : Swift.Hashable {}
