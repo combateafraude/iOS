@@ -1,18 +1,20 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '5.7.1-rc.1'
+  s.version          = '6.3.1-rc.2'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Caf' => 'service@caf.io' }
-  s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.name + "-" + s.version.to_s }
+  s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
-  s.default_subspec = 'CafSDK'
+  s.default_subspec = 'CafCore'
 
+  caf_solutions_version = '2.0.5'
+  
   # Main SDK framework
-  s.subspec 'Core' do |core|
+  s.subspec 'CafCore' do |core|
     core.vendored_frameworks = 'Frameworks/CafSDK.xcframework'
   end
 
@@ -25,9 +27,8 @@ Pod::Spec.new do |s|
   # Document Detector component
   s.subspec 'DocumentDetector' do |dd|
     dd.vendored_frameworks = 'Frameworks/DocumentDetector.xcframework'
-    dd.dependency 'CafSDKiOS/Core'
+    dd.dependency 'CafSDKiOS/CafCore'
     dd.dependency 'TensorFlowLiteC', '2.14.0'
-    dd.dependency 'CafSolutions', '2.0.5'
   end
 
   # Face Liveness
@@ -39,17 +40,21 @@ Pod::Spec.new do |s|
   end
 
   # Face Liveness core
+  s.subspec 'CafLivenessBase' do |base|
+    base.vendored_frameworks = 'Frameworks/CafLivenessBase.xcframework'
+  end
+
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
-    flc.dependency 'CafSDKiOS/Core'
+    flc.dependency 'CafSDKiOS/CafCore'
     flc.dependency 'FingerprintPro', '2.7.0'
-    flc.dependency 'CafSolutions', '2.0.5'
+    flc.dependency 'CafSDKiOS/CafLivenessBase'
   end
 
   # Iproov integration
   s.subspec 'IproovProvider' do |ip|
     ip.vendored_frameworks = 'Frameworks/IproovProvider.xcframework'
-    ip.dependency 'iProov', '12.3.1'
+    ip.dependency 'iProov', '13.1.0'
     ip.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
@@ -59,11 +64,58 @@ Pod::Spec.new do |s|
     fp.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
+  # Fortface integration
   s.subspec 'FortfaceProvider' do |ff|
     ff.vendored_frameworks = [
       'Frameworks/Fortface.xcframework',
       'Frameworks/FortfaceProvider.xcframework'
     ]
     ff.dependency 'CafSDKiOS/CafFaceLivenessCore'
+  end
+
+  s.subspec 'CafFaceLivenessLite' do |cfl|
+    cfl.vendored_frameworks = 'CafFacelivenessLite/CafFaceLivenessLite.xcframework'
+    cfl.dependency 'iProov', '13.1.0'
+  end
+
+
+  # --- Bridges --- #
+
+  s.subspec 'CafSDKCommonsBridgeiOS' do |cb|
+    cb.vendored_frameworks = 'Frameworks/CafSDKCommonsBridge.xcframework'
+    cb.dependency 'CafSDKiOS/CafCore'
+    cb.dependency 'CafSolutions', caf_solutions_version
+  end
+
+  # --- Document Detector
+
+  s.subspec 'CafDocumentDetectorBridgeiOS' do |dd|
+    dd.vendored_frameworks = 'Frameworks/CafDocumentDetectorBridge.xcframework'
+    dd.dependency 'CafSDKiOS/DocumentDetector'
+    dd.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+    dd.dependency 'CafSolutions', caf_solutions_version
+  end
+
+  s.subspec 'CafDocumentDetectorUIBridgeiOS' do |ddui|
+    ddui.vendored_frameworks = 'Frameworks/CafDocumentDetectorUIBridge.xcframework'
+    ddui.dependency 'CafSDKiOS/DocumentDetector'
+    ddui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+    ddui.dependency 'CafSolutions', caf_solutions_version
+  end
+
+  # --- Face Liveness
+
+  s.subspec 'CafFaceLivenessBridgeiOS' do |fl|
+    fl.vendored_frameworks = 'Frameworks/CafFaceLivenessBridge.xcframework'
+    fl.dependency 'CafSDKiOS/CafFaceLivenessCore'
+    fl.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+    fl.dependency 'CafSolutions', caf_solutions_version
+  end
+
+  s.subspec 'CafFaceLivenessUIBridgeiOS' do |flui|
+    flui.vendored_frameworks = 'Frameworks/CafFaceLivenessUIBridge.xcframework'
+    flui.dependency 'CafSDKiOS/CafFaceLivenessCore'
+    flui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+    flui.dependency 'CafSolutions', caf_solutions_version
   end
 end
