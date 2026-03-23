@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDKCommonsBridge
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDKCommonsBridge
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CafSDK
 import Foundation
 import Swift
@@ -10,7 +10,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class CafImageParser {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func loadImage(from urlString: Swift.String?) -> UIKit.UIImage?
+  #endif
   @objc deinit
 }
 public struct CafSDKCommonsBridgeInstance {
@@ -29,7 +31,9 @@ public struct CafSDKCommonsBridgeInstance {
 public enum CafSdkBridgePlatform : Swift.String {
   case reactNativeIos
   case flutterIos
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get

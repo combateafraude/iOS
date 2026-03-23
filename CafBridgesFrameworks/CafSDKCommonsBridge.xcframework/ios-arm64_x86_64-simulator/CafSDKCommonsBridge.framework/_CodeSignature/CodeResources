@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/CafSDKCommonsBridge-Swift.h</key>
 		<data>
-		4CPIAlBh1alxcD2s9mF3nPwiXxI=
+		MpZEF1eXQdaIOYATPf7AFbR511E=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QjM97eawveQg+2kTyhRquo86JAY=
+		B1pAj3IX/1Hg0YBi3/7NSYzwYdA=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QMeZkbdPNgd7TtSAQpksSnUC5Bo=
+		ggJxp3rvVb9eEgEnbA0834ryqhA=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fb4LJ5hE/XSYIa83yGykc10fV8k=
+		aRH8s5pN/PJuv4u0GSpoxJiai88=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QMeZkbdPNgd7TtSAQpksSnUC5Bo=
+		ggJxp3rvVb9eEgEnbA0834ryqhA=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		koSaog0oEy6bqDacZK6vYSrSWcE=
+		WBvcFKEnTLd1erdIwX3AOLNF+Sg=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TgPBBPOrnj3vl6EfuwrfouwOwD4=
+		ORoi4te55mcG/O4ARWwegJ6IFf0=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mytobUZeaND27uv8vYlqj/eZHGQ=
+		QUE2UL7+woiUanO4VRNU0T2PC1s=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TgPBBPOrnj3vl6EfuwrfouwOwD4=
+		ORoi4te55mcG/O4ARWwegJ6IFf0=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		csrst3wwlbshZCIfyWXh5FG1b6A=
+		ocnuG3jk2VRO99ia9AoAwc6tJro=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9Vkd4BFCj7EY4Cz0/SyCcqDg5GUa7mjgF75EFiod3k=
+			vEgqqvP4Twb2OGxnXRCCc3SGhlpnRBq3y+nOeENjnMM=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -77,28 +77,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G1uTcvSPW5op9QKzXoykqhAxkKufOU9NVQCSQ9JRc3g=
+			ySc4fhBCJIlSUVsvCcFOfUfcV7RXF3QMdg5aoiLNj2U=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Or8mwzcvi4/YY0U1v9CGYeK88XkAAAv8f05fJONvwtI=
+			6XmmtX+i3cEEl3pQYG4EF5ezPU070g8CpAUkaUBm9JI=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G1uTcvSPW5op9QKzXoykqhAxkKufOU9NVQCSQ9JRc3g=
+			ySc4fhBCJIlSUVsvCcFOfUfcV7RXF3QMdg5aoiLNj2U=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zlI2hOJIuxp2FPLm+h+eXOh6eYGJBa2EGM24F1SD5TQ=
+			OtRdoP6rzC7Yr4NOjNY9qalIJOQtlmPM4CPTP6fc9ow=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEijxOTIoed+Ynjy6JL3GHn6C2YvkUFkCjE4qBJu588=
+			sSjUIPjXRJWe6Q6nZLX3Zrnze3PhWz5QldaVXKldU0c=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			roFh1k/F0oCcdJHOUMrTGOecrj+y5h7DQNVgT528g6s=
+			Uz2J5V1QMR3ocjTN9RBg0vmRCp8uxelHbQxWnPkHrjs=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEijxOTIoed+Ynjy6JL3GHn6C2YvkUFkCjE4qBJu588=
+			sSjUIPjXRJWe6Q6nZLX3Zrnze3PhWz5QldaVXKldU0c=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UxNCqBx39EhDtaPBn9KET34GXqalvvk/xfV0KrHMI9I=
+			mOljpDIbRK+gIgYmgEAFoFKN/HBqrDkTU6r31i5HhM0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOSBridges'
-  s.version          = '1.4.0-rc.6'
+  s.version          = '2.0.0-rc.1'
   s.summary          = 'Caf iOS Bridges SDK'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'CafBridgesFrameworks/LICENSE' }
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   caf_solutions_version = '2.0.5'
-  caf_sdk_ios_version = '5.7.1-rc.1'
+  caf_sdk_ios_version = '6.3.0'
 
   s.subspec 'Core' do |core|
     core.dependency 'CafSDKiOS/DocumentDetector'
@@ -46,14 +46,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'CafFaceLivenessBridgeiOS' do |fl|
     fl.vendored_frameworks = 'CafBridgesFrameworks/CafFaceLivenessBridge.xcframework'
-    fl.dependency 'CafSDKiOS/CafFaceLiveness', caf_sdk_ios_version
+    fl.dependency 'CafSDKiOS/CafFaceLivenessCore', caf_sdk_ios_version
     fl.dependency 'CafSDKiOSBridges/CafSDKCommonsBridgeiOS'
     fl.dependency 'CafSolutions', caf_solutions_version
   end
 
   s.subspec 'CafFaceLivenessUIBridgeiOS' do |flui|
     flui.vendored_frameworks = 'CafBridgesFrameworks/CafFaceLivenessUIBridge.xcframework'
-    flui.dependency 'CafSDKiOS/CafFaceLiveness', caf_sdk_ios_version
+    flui.dependency 'CafSDKiOS/CafFaceLivenessCore', caf_sdk_ios_version
     flui.dependency 'CafSDKiOSBridges/CafSDKCommonsBridgeiOS'
     flui.dependency 'CafSolutions', caf_solutions_version
   end
