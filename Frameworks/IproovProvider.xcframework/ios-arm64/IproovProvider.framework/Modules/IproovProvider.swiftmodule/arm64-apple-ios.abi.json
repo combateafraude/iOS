@@ -10413,7 +10413,7 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3753,
+      "offset": 4071,
       "length": 1,
       "value": "0"
     },
@@ -10637,21 +10637,14 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 252,
+      "offset": 344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
-      "kind": "BooleanLiteral",
-      "offset": 360,
+      "offset": 416,
       "length": 5,
       "value": "false"
     },
