@@ -1,0 +1,4 @@
+framework module FortfaceProvider {
+  header "FortfaceProvider-Swift.h"
+  requires objc
+}
