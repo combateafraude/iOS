@@ -31081,6 +31081,2019 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CerttaConfiguration",
+        "printedName": "CerttaConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mobileToken",
+            "printedName": "mobileToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK19CerttaConfigurationV11mobileTokenSSSgvp",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV11mobileTokenSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK19CerttaConfigurationV11mobileTokenSSSgvg",
+                "mangledName": "$s6CafSDK19CerttaConfigurationV11mobileTokenSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK19CerttaConfigurationV6userIDSSSgvp",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV6userIDSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK19CerttaConfigurationV6userIDSSSgvg",
+                "mangledName": "$s6CafSDK19CerttaConfigurationV6userIDSSSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafEnvironment",
+                "printedName": "CafSDK.CafEnvironment",
+                "usr": "s:6CafSDK0A11EnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK19CerttaConfigurationV11environmentAA0A11EnvironmentOvp",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV11environmentAA0A11EnvironmentOvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafEnvironment",
+                    "printedName": "CafSDK.CafEnvironment",
+                    "usr": "s:6CafSDK0A11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK19CerttaConfigurationV11environmentAA0A11EnvironmentOvg",
+                "mangledName": "$s6CafSDK19CerttaConfigurationV11environmentAA0A11EnvironmentOvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "securityEnabled",
+            "printedName": "securityEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK19CerttaConfigurationV15securityEnabledSbSgvp",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV15securityEnabledSbSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK19CerttaConfigurationV15securityEnabledSbSgvg",
+                "mangledName": "$s6CafSDK19CerttaConfigurationV15securityEnabledSbSgvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mobileToken:userID:environment:securityEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaConfiguration",
+                "printedName": "CafSDK.CerttaConfiguration",
+                "usr": "s:6CafSDK19CerttaConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafEnvironment",
+                "printedName": "CafSDK.CafEnvironment",
+                "usr": "s:6CafSDK0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabledACSS_SSAA0A11EnvironmentOSbtcfc",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabledACSS_SSAA0A11EnvironmentOSbtcfc",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CafSDK19CerttaConfigurationV",
+        "mangledName": "$s6CafSDK19CerttaConfigurationV",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Certta",
+        "printedName": "Certta",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Certta",
+                "printedName": "CafSDK.Certta",
+                "usr": "s:6CafSDK6CerttaC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK6CerttaC6sharedACvpZ",
+            "mangledName": "$s6CafSDK6CerttaC6sharedACvpZ",
+            "moduleName": "CafSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Certta",
+                    "printedName": "CafSDK.Certta",
+                    "usr": "s:6CafSDK6CerttaC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK6CerttaC6sharedACvgZ",
+                "mangledName": "$s6CafSDK6CerttaC6sharedACvgZ",
+                "moduleName": "CafSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaConfiguration",
+                "printedName": "CafSDK.CerttaConfiguration",
+                "usr": "s:6CafSDK19CerttaConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK6CerttaC9configure13configurationyAA0C13ConfigurationV_tF",
+            "mangledName": "$s6CafSDK6CerttaC9configure13configurationyAA0C13ConfigurationV_tF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMobileToken",
+            "printedName": "setMobileToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK6CerttaC14setMobileTokenyySSF",
+            "mangledName": "$s6CafSDK6CerttaC14setMobileTokenyySSF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserID",
+            "printedName": "setUserID(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK6CerttaC9setUserIDyySSF",
+            "mangledName": "$s6CafSDK6CerttaC9setUserIDyySSF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setColorConfiguration",
+            "printedName": "setColorConfiguration(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafSDK.CafColorConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafColorConfiguration",
+                    "printedName": "CafSDK.CafColorConfiguration",
+                    "usr": "s:6CafSDK0A18ColorConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK6CerttaC21setColorConfigurationyyAA0aeF0VSgF",
+            "mangledName": "$s6CafSDK6CerttaC21setColorConfigurationyyAA0aeF0VSgF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearSession",
+            "printedName": "clearSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK6CerttaC12clearSessionyyF",
+            "mangledName": "$s6CafSDK6CerttaC12clearSessionyyF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isSessionActive",
+            "printedName": "isSessionActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK6CerttaC15isSessionActiveSbvp",
+            "mangledName": "$s6CafSDK6CerttaC15isSessionActiveSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK6CerttaC15isSessionActiveSbvg",
+                "mangledName": "$s6CafSDK6CerttaC15isSessionActiveSbvg",
+                "moduleName": "CafSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6CafSDK6CerttaC",
+        "mangledName": "$s6CafSDK6CerttaC",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CerttaError",
+        "printedName": "CerttaError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initializationError",
+            "printedName": "initializationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CerttaError.Type) -> (Swift.String) -> CafSDK.CerttaError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CafSDK.CerttaError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CerttaError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK11CerttaErrorO014initializationD0yACSScACmF",
+            "mangledName": "$s6CafSDK11CerttaErrorO014initializationD0yACSScACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "permissionError",
+            "printedName": "permissionError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CerttaError.Type) -> (Swift.String) -> CafSDK.CerttaError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CafSDK.CerttaError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CerttaError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK11CerttaErrorO010permissionD0yACSScACmF",
+            "mangledName": "$s6CafSDK11CerttaErrorO010permissionD0yACSScACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "securityError",
+            "printedName": "securityError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CerttaError.Type) -> (Swift.String) -> CafSDK.CerttaError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CafSDK.CerttaError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CerttaError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK11CerttaErrorO08securityD0yACSScACmF",
+            "mangledName": "$s6CafSDK11CerttaErrorO08securityD0yACSScACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CerttaError.Type) -> (Swift.String) -> CafSDK.CerttaError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CafSDK.CerttaError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CerttaError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK11CerttaErrorO07unknownD0yACSScACmF",
+            "mangledName": "$s6CafSDK11CerttaErrorO07unknownD0yACSScACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CerttaError.Type) -> (Swift.String) -> CafSDK.CerttaError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CafSDK.CerttaError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.CerttaError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaError",
+                        "printedName": "CafSDK.CerttaError",
+                        "usr": "s:6CafSDK11CerttaErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK11CerttaErrorO07networkD0yACSScACmF",
+            "mangledName": "$s6CafSDK11CerttaErrorO07networkD0yACSScACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK11CerttaErrorO7messageSSvp",
+            "mangledName": "$s6CafSDK11CerttaErrorO7messageSSvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK11CerttaErrorO7messageSSvg",
+                "mangledName": "$s6CafSDK11CerttaErrorO7messageSSvg",
+                "moduleName": "CafSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK11CerttaErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s6CafSDK11CerttaErrorO16errorDescriptionSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK11CerttaErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s6CafSDK11CerttaErrorO16errorDescriptionSSSgvg",
+                "moduleName": "CafSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failureReason",
+            "printedName": "failureReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK11CerttaErrorO13failureReasonSSSgvp",
+            "mangledName": "$s6CafSDK11CerttaErrorO13failureReasonSSSgvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK11CerttaErrorO13failureReasonSSSgvg",
+                "mangledName": "$s6CafSDK11CerttaErrorO13failureReasonSSSgvg",
+                "moduleName": "CafSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CafSDK11CerttaErrorO",
+        "mangledName": "$s6CafSDK11CerttaErrorO",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessConfiguration",
+        "printedName": "LivenessConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "maxRetryAttempts",
+            "printedName": "maxRetryAttempts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK21LivenessConfigurationV16maxRetryAttemptsSivp",
+            "mangledName": "$s6CafSDK21LivenessConfigurationV16maxRetryAttemptsSivp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK21LivenessConfigurationV16maxRetryAttemptsSivg",
+                "mangledName": "$s6CafSDK21LivenessConfigurationV16maxRetryAttemptsSivg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceAuthEnabled",
+            "printedName": "faceAuthEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK21LivenessConfigurationV15faceAuthEnabledSbvp",
+            "mangledName": "$s6CafSDK21LivenessConfigurationV15faceAuthEnabledSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK21LivenessConfigurationV15faceAuthEnabledSbvg",
+                "mangledName": "$s6CafSDK21LivenessConfigurationV15faceAuthEnabledSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showLoading",
+            "printedName": "showLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK21LivenessConfigurationV11showLoadingSbvp",
+            "mangledName": "$s6CafSDK21LivenessConfigurationV11showLoadingSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK21LivenessConfigurationV11showLoadingSbvg",
+                "mangledName": "$s6CafSDK21LivenessConfigurationV11showLoadingSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useFaceLivenessUi",
+            "printedName": "useFaceLivenessUi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK21LivenessConfigurationV07useFaceC2UiSbvp",
+            "mangledName": "$s6CafSDK21LivenessConfigurationV07useFaceC2UiSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK21LivenessConfigurationV07useFaceC2UiSbvg",
+                "mangledName": "$s6CafSDK21LivenessConfigurationV07useFaceC2UiSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(maxRetryAttempts:faceAuthEnabled:showLoading:useFaceLivenessUi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessConfiguration",
+                "printedName": "CafSDK.LivenessConfiguration",
+                "usr": "s:6CafSDK21LivenessConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK21LivenessConfigurationV16maxRetryAttempts15faceAuthEnabled11showLoading07useFaceC2UiACSi_S3btcfc",
+            "mangledName": "$s6CafSDK21LivenessConfigurationV16maxRetryAttempts15faceAuthEnabled11showLoading07useFaceC2UiACSi_S3btcfc",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CafSDK21LivenessConfigurationV",
+        "mangledName": "$s6CafSDK21LivenessConfigurationV",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CerttaLiveness",
+        "printedName": "CerttaLiveness",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaLiveness",
+                "printedName": "CafSDK.CerttaLiveness",
+                "usr": "s:6CafSDK14CerttaLivenessC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK14CerttaLivenessC6sharedACvpZ",
+            "mangledName": "$s6CafSDK14CerttaLivenessC6sharedACvpZ",
+            "moduleName": "CafSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CerttaLiveness",
+                    "printedName": "CafSDK.CerttaLiveness",
+                    "usr": "s:6CafSDK14CerttaLivenessC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK14CerttaLivenessC6sharedACvgZ",
+                "mangledName": "$s6CafSDK14CerttaLivenessC6sharedACvgZ",
+                "moduleName": "CafSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(from:configuration:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessConfiguration",
+                "printedName": "CafSDK.LivenessConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:6CafSDK21LivenessConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessEvent",
+                    "printedName": "CafSDK.LivenessEvent",
+                    "usr": "s:6CafSDK13LivenessEventO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK14CerttaLivenessC4open4from13configuration8callbackySo16UIViewControllerC_AA0D13ConfigurationVyAA0D5EventOctF",
+            "mangledName": "$s6CafSDK14CerttaLivenessC4open4from13configuration8callbackySo16UIViewControllerC_AA0D13ConfigurationVyAA0D5EventOctF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadSession",
+            "printedName": "loadSession(from:configuration:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessConfiguration",
+                "printedName": "CafSDK.LivenessConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:6CafSDK21LivenessConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafUnifiedEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafUnifiedEvent",
+                    "printedName": "CafSDK.CafUnifiedEvent",
+                    "usr": "s:6CafSDK0A12UnifiedEventO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CafSDK14CerttaLivenessC11loadSession4from13configuration8callbackySo16UIViewControllerC_AA0D13ConfigurationVyAA0A12UnifiedEventOctF",
+            "mangledName": "$s6CafSDK14CerttaLivenessC11loadSession4from13configuration8callbackySo16UIViewControllerC_AA0D13ConfigurationVyAA0A12UnifiedEventOctF",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6CafSDK14CerttaLivenessC",
+        "mangledName": "$s6CafSDK14CerttaLivenessC",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessFailure",
+        "printedName": "LivenessFailure",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "imageCaptureFailure",
+            "printedName": "imageCaptureFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessFailure.Type) -> (Swift.String) -> CafSDK.LivenessFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CafSDK.LivenessFailure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessFailure",
+                        "printedName": "CafSDK.LivenessFailure",
+                        "usr": "s:6CafSDK15LivenessFailureO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.LivenessFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessFailure",
+                        "printedName": "CafSDK.LivenessFailure",
+                        "usr": "s:6CafSDK15LivenessFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK15LivenessFailureO012imageCaptureD0yACSScACmF",
+            "mangledName": "$s6CafSDK15LivenessFailureO012imageCaptureD0yACSScACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "faceRecognitionFailure",
+            "printedName": "faceRecognitionFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessFailure.Type) -> (Swift.String, Swift.String) -> CafSDK.LivenessFailure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> CafSDK.LivenessFailure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessFailure",
+                        "printedName": "CafSDK.LivenessFailure",
+                        "usr": "s:6CafSDK15LivenessFailureO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(result: Swift.String, cause: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.LivenessFailure.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessFailure",
+                        "printedName": "CafSDK.LivenessFailure",
+                        "usr": "s:6CafSDK15LivenessFailureO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK15LivenessFailureO015faceRecognitionD0yACSS_SStcACmF",
+            "mangledName": "$s6CafSDK15LivenessFailureO015faceRecognitionD0yACSS_SStcACmF",
+            "moduleName": "CafSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CafSDK15LivenessFailureO",
+        "mangledName": "$s6CafSDK15LivenessFailureO",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessResult",
+        "printedName": "LivenessResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessResult.Type) -> (Swift.String) -> CafSDK.LivenessResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CafSDK.LivenessResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessResult",
+                        "printedName": "CafSDK.LivenessResult",
+                        "usr": "s:6CafSDK14LivenessResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(response: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.LivenessResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessResult",
+                        "printedName": "CafSDK.LivenessResult",
+                        "usr": "s:6CafSDK14LivenessResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK14LivenessResultO7successyACSS_tcACmF",
+            "mangledName": "$s6CafSDK14LivenessResultO7successyACSS_tcACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessResult.Type) -> (CafSDK.LivenessFailure) -> CafSDK.LivenessResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CafSDK.LivenessFailure) -> CafSDK.LivenessResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessResult",
+                        "printedName": "CafSDK.LivenessResult",
+                        "usr": "s:6CafSDK14LivenessResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessFailure",
+                        "printedName": "CafSDK.LivenessFailure",
+                        "usr": "s:6CafSDK15LivenessFailureO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.LivenessResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessResult",
+                        "printedName": "CafSDK.LivenessResult",
+                        "usr": "s:6CafSDK14LivenessResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK14LivenessResultO6failedyAcA0C7FailureOcACmF",
+            "mangledName": "$s6CafSDK14LivenessResultO6failedyAcA0C7FailureOcACmF",
+            "moduleName": "CafSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CafSDK14LivenessResultO",
+        "mangledName": "$s6CafSDK14LivenessResultO",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessEvent",
+        "printedName": "LivenessEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessEvent.Type) -> (CafSDK.LivenessResult) -> CafSDK.LivenessEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CafSDK.LivenessResult) -> CafSDK.LivenessEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessEvent",
+                        "printedName": "CafSDK.LivenessEvent",
+                        "usr": "s:6CafSDK13LivenessEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(result: CafSDK.LivenessResult)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LivenessResult",
+                            "printedName": "CafSDK.LivenessResult",
+                            "usr": "s:6CafSDK14LivenessResultO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.LivenessEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessEvent",
+                        "printedName": "CafSDK.LivenessEvent",
+                        "usr": "s:6CafSDK13LivenessEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK13LivenessEventO9completedyAcA0C6ResultO_tcACmF",
+            "mangledName": "$s6CafSDK13LivenessEventO9completedyAcA0C6ResultO_tcACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "log",
+            "printedName": "log",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessEvent.Type) -> (Swift.String, Swift.String) -> CafSDK.LivenessEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> CafSDK.LivenessEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessEvent",
+                        "printedName": "CafSDK.LivenessEvent",
+                        "usr": "s:6CafSDK13LivenessEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(level: Swift.String, message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.LivenessEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessEvent",
+                        "printedName": "CafSDK.LivenessEvent",
+                        "usr": "s:6CafSDK13LivenessEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK13LivenessEventO3logyACSS_SStcACmF",
+            "mangledName": "$s6CafSDK13LivenessEventO3logyACSS_SStcACmF",
+            "moduleName": "CafSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.LivenessEvent.Type) -> (CafSDK.CerttaError) -> CafSDK.LivenessEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CafSDK.CerttaError) -> CafSDK.LivenessEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessEvent",
+                        "printedName": "CafSDK.LivenessEvent",
+                        "usr": "s:6CafSDK13LivenessEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: CafSDK.CerttaError)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CerttaError",
+                            "printedName": "CafSDK.CerttaError",
+                            "usr": "s:6CafSDK11CerttaErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafSDK.LivenessEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessEvent",
+                        "printedName": "CafSDK.LivenessEvent",
+                        "usr": "s:6CafSDK13LivenessEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CafSDK13LivenessEventO5erroryAcA11CerttaErrorO_tcACmF",
+            "mangledName": "$s6CafSDK13LivenessEventO5erroryAcA11CerttaErrorO_tcACmF",
+            "moduleName": "CafSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CafSDK13LivenessEventO",
+        "mangledName": "$s6CafSDK13LivenessEventO",
+        "moduleName": "CafSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -38324,7 +40337,7 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3753,
+      "offset": 4071,
       "length": 1,
       "value": "0"
     },
@@ -38637,23 +40650,72 @@
       "value": "\"com.caf.sdk.queue\""
     },
     {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "BooleanLiteral",
-      "offset": 252,
+      "offset": 959,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/CerttaLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 79,
+      "value": "\"Invalid configuration. Max retry attempts must be greater than or equal to 0.\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/CerttaLiveness.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1000,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/CerttaLiveness.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1035,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/CerttaLiveness.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1070,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/CerttaLiveness.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1110,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
+      "offset": 344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",
       "kind": "BooleanLiteral",
-      "offset": 360,
+      "offset": 416,
       "length": 5,
       "value": "false"
     },

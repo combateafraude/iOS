@@ -746,6 +746,75 @@ public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
   final public func loadSession()
   @objc deinit
 }
+public struct CerttaConfiguration {
+  public let mobileToken: Swift.String?
+  public let userID: Swift.String?
+  public let environment: CafSDK.CafEnvironment
+  public let securityEnabled: Swift.Bool?
+  public init(mobileToken: Swift.String = "", userID: Swift.String = "", environment: CafSDK.CafEnvironment, securityEnabled: Swift.Bool = true)
+}
+@_hasMissingDesignatedInitializers final public class Certta {
+  public static let shared: CafSDK.Certta
+  final public func configure(configuration: CafSDK.CerttaConfiguration)
+  final public func setMobileToken(_ mobileToken: Swift.String)
+  final public func setUserID(_ userID: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setColorConfiguration(_ colorConfiguration: CafSDK.CafColorConfiguration?)
+  #endif
+  final public func clearSession()
+  final public var isSessionActive: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+public enum CerttaError {
+  case initializationError(Swift.String)
+  case permissionError(Swift.String)
+  case securityError(Swift.String)
+  case unknownError(Swift.String)
+  case networkError(Swift.String)
+  public var message: Swift.String {
+    get
+  }
+}
+extension CafSDK.CerttaError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var failureReason: Swift.String? {
+    get
+  }
+  #endif
+}
+public struct LivenessConfiguration {
+  public let maxRetryAttempts: Swift.Int
+  public let faceAuthEnabled: Swift.Bool
+  public let showLoading: Swift.Bool
+  public let useFaceLivenessUi: Swift.Bool
+  public init(maxRetryAttempts: Swift.Int = 3, faceAuthEnabled: Swift.Bool = false, showLoading: Swift.Bool = true, useFaceLivenessUi: Swift.Bool = false)
+}
+@_hasMissingDesignatedInitializers final public class CerttaLiveness {
+  public static let shared: CafSDK.CerttaLiveness
+  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.LivenessConfiguration = LivenessConfiguration(), callback: @escaping (CafSDK.LivenessEvent) -> Swift.Void)
+  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.LivenessConfiguration = LivenessConfiguration(), callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
+  @objc deinit
+}
+public enum LivenessFailure {
+  case imageCaptureFailure(Swift.String)
+  case faceRecognitionFailure(result: Swift.String, cause: Swift.String)
+}
+public enum LivenessResult {
+  case success(response: Swift.String)
+  case failed(CafSDK.LivenessFailure)
+}
+public enum LivenessEvent {
+  case completed(result: CafSDK.LivenessResult)
+  case log(level: Swift.String, message: Swift.String)
+  case error(error: CafSDK.CerttaError)
+}
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]
   public var layout: CafSDK.CafDocumentDetectorLayout
