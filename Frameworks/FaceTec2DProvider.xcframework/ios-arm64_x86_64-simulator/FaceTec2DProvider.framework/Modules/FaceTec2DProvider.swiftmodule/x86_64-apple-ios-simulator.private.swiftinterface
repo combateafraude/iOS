@@ -1,0 +1,213 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FaceTec2DProvider
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AVFoundation
+import AdSupport
+import CafLivenessBase
+import CommonCrypto
+import Darwin
+import DeveloperToolsSupport
+import Foundation
+import MachO
+import Network
+import ObjectiveC
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import ObjectiveC.runtime
+extension UIKit.UIColor {
+  convenience public init(byHex: Swift.String)
+}
+public struct ColorConfiguration {
+  public let primaryColor: Swift.String?
+  public let secondaryColor: Swift.String?
+  public let contentColor: Swift.String?
+  public let backgroundColor: Swift.String?
+  public let mediumColor: Swift.String?
+  public let dialogBackgroundColor: Swift.String?
+  public let dialogBorderColor: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
+  #endif
+}
+public enum CafEnvironment : Swift.Int {
+  case dev
+  case beta
+  case prod
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension FaceTec2DProvider.CafEnvironment {
+  public func toString() -> Swift.String
+}
+public enum CafSdkPlatform : Swift.String {
+  case nativeIos
+  case reactNativeIos
+  case flutterIos
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafSDKError : Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(errorType: FaceTec2DProvider.CafErrorType, description: Swift.String?)
+  #endif
+  public let errorType: FaceTec2DProvider.CafErrorType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct CafSDKFailure : Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(signedResponse: Swift.String?, failureReason: FaceTec2DProvider.CafFailureType, description: Swift.String?)
+  #endif
+  public let signedResponse: Swift.String?
+  public let failureReason: FaceTec2DProvider.CafFailureType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unsupportedDevice
+  case cameraPermission
+  case networkException
+  case serverException
+  case tokenException
+  case captureAlreadyActiveException
+  case unexpectedErrorException
+  case userTimeoutException
+  case imageNotFoundException
+  case tooManyRequestsException
+  case unknownException
+  case libraryException
+  case permissionException
+  case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
+  case securityException
+  case faceAuthentication
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [FaceTec2DProvider.CafErrorType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [FaceTec2DProvider.CafErrorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unknown
+  case tooMuchMovement
+  case tooBright
+  case tooDark
+  case misalignedFace
+  case eyesClosed
+  case faceTooFar
+  case faceTooClose
+  case sunglasses
+  case eyewear
+  case obscuredFace
+  case multipleFaces
+  case faceNotFound
+  case framesBlurry
+  case lightingIssues
+  case motionIssue
+  case backgroundIssue
+  case deviceIssue
+  case deviceRestart
+  case systemError
+  case rejected
+  case timeout
+  case userNotFound
+  case processingFault
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [FaceTec2DProvider.CafFailureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [FaceTec2DProvider.CafFailureType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  #endif
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(CafFaceTec2DProvider) public class CafFaceTec2DProvider : ObjectiveC.NSObject, CafLivenessBase.CafFaceLivenessProvidersProtocol {
+  public func startLivenessCheck(parameters: [Swift.String : Any], livenessBaseUrl: Swift.String, certificates: [Swift.String], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol CafInstructionsAnalyticsDelegate : AnyObject {
+  func cameraPermissionRequested()
+  func cameraPermissionGranted()
+  func cameraPermissionDenied()
+}
+public struct CafInstructionsConfiguration {
+  public var enabled: Swift.Bool
+  public var captureTitle: Swift.String?
+  public var captureDescriptionText: Swift.String?
+  public var captureSteps: [Swift.String]?
+  public var captureButtonTitle: Swift.String?
+  public var captureHeaderImage: UIKit.UIImage?
+  public var uploadTitle: Swift.String?
+  public var uploadDescriptionText: Swift.String?
+  public var uploadSteps: [Swift.String]?
+  public var uploadButtonTitle: Swift.String?
+  public var uploadHeaderImage: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(enabled: Swift.Bool = true, captureTitle: Swift.String? = nil, captureDescriptionText: Swift.String? = nil, captureSteps: [Swift.String]? = nil, captureButtonTitle: Swift.String? = nil, captureHeaderImage: UIKit.UIImage? = nil, uploadTitle: Swift.String? = nil, uploadDescriptionText: Swift.String? = nil, uploadSteps: [Swift.String]? = nil, uploadButtonTitle: Swift.String? = nil, uploadHeaderImage: UIKit.UIImage? = nil)
+  #endif
+}
+public enum CafLogLevel : Swift.String {
+  case debug
+  case usage
+  case info
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension FaceTec2DProvider.CafEnvironment : Swift.Equatable {}
+extension FaceTec2DProvider.CafEnvironment : Swift.Hashable {}
+extension FaceTec2DProvider.CafEnvironment : Swift.RawRepresentable {}
+extension FaceTec2DProvider.CafSdkPlatform : Swift.Equatable {}
+extension FaceTec2DProvider.CafSdkPlatform : Swift.Hashable {}
+extension FaceTec2DProvider.CafSdkPlatform : Swift.RawRepresentable {}
+extension FaceTec2DProvider.CafErrorType : Swift.Equatable {}
+extension FaceTec2DProvider.CafErrorType : Swift.Hashable {}
+extension FaceTec2DProvider.CafErrorType : Swift.RawRepresentable {}
+extension FaceTec2DProvider.CafFailureType : Swift.Equatable {}
+extension FaceTec2DProvider.CafFailureType : Swift.Hashable {}
+extension FaceTec2DProvider.CafFailureType : Swift.RawRepresentable {}
+extension FaceTec2DProvider.CafLogLevel : Swift.Equatable {}
+extension FaceTec2DProvider.CafLogLevel : Swift.Hashable {}
+extension FaceTec2DProvider.CafLogLevel : Swift.RawRepresentable {}
