@@ -1,0 +1,92 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDLiveFaceIAD
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import AVFoundation
+import CommonCrypto
+import CryptoKit
+import Darwin
+import Dispatch
+import Foundation
+@_exported import IDLiveFaceIAD
+import MachO
+import MobileCoreServices
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public protocol Timestampable {
+  var timestamp: Foundation.Date { get }
+}
+extension IDLiveFaceIAD.FaceIADController {
+  public typealias Completion = (Swift.Result<Foundation.Data, any Swift.Error>) -> Swift.Void
+  convenience public init(dispatchQueue: Dispatch.DispatchQueue = FaceIADController.defaultDispatchQueue())
+  final public func process(_ image: any IDLiveFaceIAD.ImageProtocol)
+  final public func isReady(qualifiedImage: any IDLiveFaceIAD.ImageProtocol, completion: @escaping (Swift.Bool) -> Swift.Void)
+  final public func reset()
+  final public func createIADBundle(payloadSize: IDLiveFaceIAD.PayloadSize = .normal, key: Foundation.Data? = nil, keyId: Swift.String? = nil, externalMeta: Swift.String? = nil) throws -> Foundation.Data
+  final public func createIADBundle(payloadSize: IDLiveFaceIAD.PayloadSize = .normal, key: Foundation.Data? = nil, keyId: Swift.String? = nil, externalMeta: Swift.String? = nil) async throws -> Foundation.Data
+  final public func createIADBundle(payloadSize: IDLiveFaceIAD.PayloadSize = .normal, key: Foundation.Data? = nil, keyId: Swift.String? = nil, externalMeta: Swift.String? = nil, completion: @escaping IDLiveFaceIAD.FaceIADController.Completion)
+  final public func isReady(qualifiedImage: any IDLiveFaceIAD.ImageProtocol) async -> Swift.Bool
+}
+extension IDLiveFaceIAD.FaceIADController {
+  final public class func defaultDispatchQueue() -> Dispatch.DispatchQueue
+}
+public protocol ImageProtocol : AnyObject, IDLiveFaceIAD.Timestampable {
+  var timestamp: Foundation.Date { get }
+  var dimensions: CoreFoundation.CGSize { get }
+  func jpegData(compressionQuality: Swift.Float) -> Foundation.Data?
+  func pngData() -> Foundation.Data?
+}
+public enum PayloadType : Swift.Int {
+  case unspecified
+  case face
+  case document
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class FaceIADController {
+  @objc deinit
+}
+public enum CreateBundleError : Foundation.LocalizedError {
+  case notEnoughImages
+  case invalidFormatType
+  case imageBinaryRepresentation
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: IDLiveFaceIAD.CreateBundleError, b: IDLiveFaceIAD.CreateBundleError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PayloadSize {
+  case normal
+  case small
+  public init?(stringValue: Swift.String)
+  public static func == (a: IDLiveFaceIAD.PayloadSize, b: IDLiveFaceIAD.PayloadSize) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class IADCallReceiverHelper : ObjectiveC.NSObject {
+  @available(*, deprecated, message: "Use IADController.createIADBundle(...) instead")
+  @objc public static func call(_ params: [Swift.String : Any]) -> Any
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension IDLiveFaceIAD.PayloadType : Swift.Equatable {}
+extension IDLiveFaceIAD.PayloadType : Swift.Hashable {}
+extension IDLiveFaceIAD.PayloadType : Swift.RawRepresentable {}
+extension IDLiveFaceIAD.CreateBundleError : Swift.Equatable {}
+extension IDLiveFaceIAD.CreateBundleError : Swift.Hashable {}
+extension IDLiveFaceIAD.PayloadSize : Swift.Equatable {}
+extension IDLiveFaceIAD.PayloadSize : Swift.Hashable {}

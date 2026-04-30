@@ -1,0 +1,11 @@
+framework module IDLiveFaceCamera {
+  umbrella header "IDLiveFaceCamera.h"
+  export *
+
+  module * { export * }
+}
+
+module IDLiveFaceCamera.Swift {
+  header "IDLiveFaceCamera-Swift.h"
+  requires objc
+}
