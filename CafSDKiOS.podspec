@@ -40,15 +40,15 @@ Pod::Spec.new do |s|
   end
 
   # Face Liveness core
-  s.subspec 'CafLivenessBase' do |base|
-    base.vendored_frameworks = 'Frameworks/CafLivenessBase.xcframework'
+  s.subspec 'CerttaBase' do |base|
+    base.vendored_frameworks = 'Frameworks/CerttaBase.xcframework'
   end
 
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
     flc.dependency 'CafSDKiOS/CafCore'
     flc.dependency 'FingerprintPro', '2.7.0'
-    flc.dependency 'CafSDKiOS/CafLivenessBase'
+    flc.dependency 'CafSDKiOS/CerttaBase'
   end
 
   # Iproov integration
