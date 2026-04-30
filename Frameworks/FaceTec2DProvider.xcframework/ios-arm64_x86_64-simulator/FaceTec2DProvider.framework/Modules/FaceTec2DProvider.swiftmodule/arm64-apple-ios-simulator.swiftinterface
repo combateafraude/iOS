@@ -4,11 +4,12 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import AdSupport
-import CafLivenessBase
+import CerttaBase
 import CommonCrypto
 import Darwin
 import DeveloperToolsSupport
 import Foundation
+import ImageIO
 import MachO
 import Network
 import ObjectiveC
@@ -62,7 +63,7 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKError : Swift.Encodable {
+public struct CafSDKError : Swift.Encodable, Swift.Error {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(errorType: FaceTec2DProvider.CafErrorType, description: Swift.String?)
   #endif
@@ -158,7 +159,7 @@ final public class CafConfirmationNextStepContent {
   #endif
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(CafFaceTec2DProvider) public class CafFaceTec2DProvider : ObjectiveC.NSObject, CafLivenessBase.CafFaceLivenessProvidersProtocol {
+@_inheritsConvenienceInitializers @objc(CafFaceTec2DProvider) public class CafFaceTec2DProvider : ObjectiveC.NSObject, CerttaBase.CafFaceLivenessProvidersProtocol {
   public func startLivenessCheck(parameters: [Swift.String : Any], livenessBaseUrl: Swift.String, certificates: [Swift.String], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
@@ -195,6 +196,29 @@ public enum CafLogLevel : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension FaceTec2DProvider.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [FaceTec2DProvider.FileIntegrityCheck])
+public enum IntegrityCheckerImageTarget {
+  case `default`
+  case custom(Swift.String)
+}
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(from data: Foundation.Data) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(named name: Swift.String, in bundle: Foundation.Bundle) -> UIKit.UIImage?
+  #endif
 }
 extension FaceTec2DProvider.CafEnvironment : Swift.Equatable {}
 extension FaceTec2DProvider.CafEnvironment : Swift.Hashable {}

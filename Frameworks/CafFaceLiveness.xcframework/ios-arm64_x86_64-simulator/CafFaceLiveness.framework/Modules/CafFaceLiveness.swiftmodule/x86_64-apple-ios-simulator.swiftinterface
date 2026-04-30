@@ -5,12 +5,13 @@
 import AVFoundation
 import AdSupport
 @_exported import CafFaceLiveness
-import CafLivenessBase
+import CerttaBase
 import CommonCrypto
 import Darwin
 import DeveloperToolsSupport
 import FingerprintPro
 import Foundation
+import ImageIO
 import MachO
 import Network
 import ObjectiveC
@@ -64,7 +65,7 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKError : Swift.Encodable {
+public struct CafSDKError : Swift.Encodable, Swift.Error {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(errorType: CafFaceLiveness.CafErrorType, description: Swift.String?)
   #endif
@@ -169,10 +170,9 @@ extension Swift.Sequence where Self.Element == any CafFaceLiveness.FLCustomizati
 }
 final public class FLPayFaceCustomization : CafFaceLiveness.FLCustomization {
   final public var cameraMessageFont: Swift.String?
-  final public var startMessage: Swift.String?
-  final public var facePositionedMessage: Swift.String?
+  final public var noFaceMessage: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(cameraMessageFont: Swift.String? = nil, startMessage: Swift.String? = nil, facePositionedMessage: Swift.String? = nil)
+  public init(cameraMessageFont: Swift.String? = nil, noFaceMessage: Swift.String? = nil)
   #endif
   @objc deinit
 }
@@ -213,6 +213,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
   public var colorConfig: CafFaceLiveness.ColorConfiguration?
   public var customLocalization: Swift.String?
   public var flCustomizations: [any CafFaceLiveness.FLCustomization]
+  public var securityEnabled: Swift.Bool
   public var payFaceDebugMode: Swift.Bool
   public var sdkType: CafFaceLiveness.CafSdkPlatform {
     get
@@ -244,6 +245,7 @@ open class CafFaceLivenessSDK : ObjectiveC.NSObject {
     open func setSdkType(type: Swift.String) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setMaxRetryAttempts(attempts: Swift.Int) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setCustomStrings(customStrings: [any CafFaceLiveness.FLCustomization]) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
+    open func setSecurityEnabled(enabled: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     open func setPayFaceDebugMode(debugMode: Swift.Bool) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
     #if compiler(>=5.3) && $NonescapableTypes
     open func setBridge(config: [Swift.String : Swift.String]?) -> CafFaceLiveness.CafFaceLivenessSDK.CafFaceLivenessBuilder
@@ -292,6 +294,25 @@ public enum CafLogLevel : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension CafFaceLiveness.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [CafFaceLiveness.FileIntegrityCheck])
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(from data: Foundation.Data) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(named name: Swift.String, in bundle: Foundation.Bundle) -> UIKit.UIImage?
+  #endif
 }
 extension CafFaceLiveness.CafEnvironment : Swift.Equatable {}
 extension CafFaceLiveness.CafEnvironment : Swift.Hashable {}

@@ -7,7 +7,7 @@
 
 #if defined(DEBUG_MODE) && (defined(ANDROID_PLAT) || defined(IOS_PLAT))
 
-// definido como Android
+// NDK logging branch
 #if defined(ANDROID_PLAT)
 
 #include <android/log.h>

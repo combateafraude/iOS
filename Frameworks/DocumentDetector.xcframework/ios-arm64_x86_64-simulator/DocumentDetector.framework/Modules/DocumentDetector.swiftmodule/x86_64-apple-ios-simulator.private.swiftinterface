@@ -104,7 +104,7 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKError : Swift.Encodable {
+public struct CafSDKError : Swift.Encodable, Swift.Error {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(errorType: DocumentDetector.CafErrorType, description: Swift.String?)
   #endif
@@ -977,6 +977,7 @@ extension DocumentDetector.DocumentDetectorController : DocumentDetector.CafInst
   public var customStrings: [any DocumentDetector.DDCustomization]?
   public var entrypoint: Swift.String?
   public var maxRetryAttempts: Swift.Int!
+  public var securityEnabled: Swift.Bool!
   public var cafSdkVersion: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
@@ -1026,6 +1027,7 @@ extension DocumentDetector.DocumentDetectorController : DocumentDetector.CafInst
     open func setCustomStrings(customStrings: [any DocumentDetector.DDCustomization]) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setSdkType(type: Swift.String) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     open func setMaxRetryAttempts(maxRetryAttempts: Swift.Int) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
+    open func setSecurityEnabled(enabled: Swift.Bool) -> DocumentDetector.DocumentDetectorSdk.CafBuilder
     #if compiler(>=5.3) && $NonescapableTypes
     @available(*, deprecated, message: "This method of using the SDK is deprecated. Use CafSDK as the single entry point for all functionalities. Access the integration documentation at: https://docs.caf.io/caf-sdk/ios/getting-started-with-the-sdk")
     open func build(entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String = "") -> DocumentDetector.DocumentDetectorSdk
@@ -1074,6 +1076,17 @@ extension DocumentDetector.DocumentDetectorViewController {
   public init(defaultColor: UIKit.UIColor, errorColor: UIKit.UIColor, successColor: UIKit.UIColor)
   @objc deinit
 }
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension DocumentDetector.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [DocumentDetector.FileIntegrityCheck])
 @_hasMissingDesignatedInitializers final public class Interpreter {
   final public let options: DocumentDetector.Interpreter.Options?
   final public let delegates: [any DocumentDetector.Delegate]?
@@ -1252,6 +1265,14 @@ public enum Runtime {
   public static var version: Swift.String {
     get
   }
+}
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(from data: Foundation.Data) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(named name: Swift.String, in bundle: Foundation.Bundle) -> UIKit.UIImage?
+  #endif
 }
 @objc @_Concurrency.MainActor @preconcurrency public class UploadValidationViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency convenience public init(documentDetector: DocumentDetector.DocumentDetectorSdk)

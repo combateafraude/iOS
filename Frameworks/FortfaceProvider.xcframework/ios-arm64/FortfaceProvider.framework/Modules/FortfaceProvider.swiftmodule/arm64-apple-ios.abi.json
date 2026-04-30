@@ -148,16 +148,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "FortfaceProvider",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "FortfaceProvider"
       },
       {
@@ -176,13 +166,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FortfaceProvider"
       },
       {
         "kind": "Import",
@@ -1601,6 +1584,27 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4925,8 +4929,8 @@
       },
       {
         "kind": "Import",
-        "name": "CafLivenessBase",
-        "printedName": "CafLivenessBase",
+        "name": "CerttaBase",
+        "printedName": "CerttaBase",
         "declKind": "Import",
         "moduleName": "FortfaceProvider"
       },
@@ -5074,8 +5078,8 @@
             "kind": "Conformance",
             "name": "CafFaceLivenessProvidersProtocol",
             "printedName": "CafFaceLivenessProvidersProtocol",
-            "usr": "s:15CafLivenessBase0a4FaceB17ProvidersProtocolP",
-            "mangledName": "$s15CafLivenessBase0a4FaceB17ProvidersProtocolP"
+            "usr": "s:10CerttaBase32CafFaceLivenessProvidersProtocolP",
+            "mangledName": "$s10CerttaBase32CafFaceLivenessProvidersProtocolP"
           },
           {
             "kind": "Conformance",
@@ -5146,6 +5150,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FortfaceProvider",
         "declAttributes": [
@@ -6797,6 +6811,27 @@
       },
       {
         "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
         "name": "Security",
         "printedName": "Security",
         "declKind": "Import",
@@ -7199,6 +7234,13 @@
       },
       {
         "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7206,6 +7248,558 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileIntegrityCheck",
+        "printedName": "FileIntegrityCheck",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundleID",
+            "printedName": "bundleID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FortfaceProvider.FileIntegrityCheck.Type) -> (Swift.String) -> FortfaceProvider.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FortfaceProvider.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "FortfaceProvider.FileIntegrityCheck",
+                        "usr": "s:16FortfaceProvider18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FortfaceProvider.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "FortfaceProvider.FileIntegrityCheck",
+                        "usr": "s:16FortfaceProvider18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FortfaceProvider18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "mangledName": "$s16FortfaceProvider18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "moduleName": "FortfaceProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileProvision",
+            "printedName": "mobileProvision",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FortfaceProvider.FileIntegrityCheck.Type) -> (Swift.String) -> FortfaceProvider.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FortfaceProvider.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "FortfaceProvider.FileIntegrityCheck",
+                        "usr": "s:16FortfaceProvider18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FortfaceProvider.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "FortfaceProvider.FileIntegrityCheck",
+                        "usr": "s:16FortfaceProvider18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FortfaceProvider18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "mangledName": "$s16FortfaceProvider18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "moduleName": "FortfaceProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "machO",
+            "printedName": "machO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FortfaceProvider.FileIntegrityCheck.Type) -> (Swift.String, Swift.String) -> FortfaceProvider.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> FortfaceProvider.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "FortfaceProvider.FileIntegrityCheck",
+                        "usr": "s:16FortfaceProvider18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FortfaceProvider.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "FortfaceProvider.FileIntegrityCheck",
+                        "usr": "s:16FortfaceProvider18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FortfaceProvider18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "mangledName": "$s16FortfaceProvider18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "moduleName": "FortfaceProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FortfaceProvider18FileIntegrityCheckO11descriptionSSvp",
+            "mangledName": "$s16FortfaceProvider18FileIntegrityCheckO11descriptionSSvp",
+            "moduleName": "FortfaceProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FortfaceProvider18FileIntegrityCheckO11descriptionSSvg",
+                "mangledName": "$s16FortfaceProvider18FileIntegrityCheckO11descriptionSSvg",
+                "moduleName": "FortfaceProvider",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16FortfaceProvider18FileIntegrityCheckO",
+        "mangledName": "$s16FortfaceProvider18FileIntegrityCheckO",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntegrityCheckerImageTarget",
+        "printedName": "IntegrityCheckerImageTarget",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FortfaceProvider.IntegrityCheckerImageTarget.Type) -> FortfaceProvider.IntegrityCheckerImageTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntegrityCheckerImageTarget",
+                    "printedName": "FortfaceProvider.IntegrityCheckerImageTarget",
+                    "usr": "s:16FortfaceProvider27IntegrityCheckerImageTargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FortfaceProvider.IntegrityCheckerImageTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntegrityCheckerImageTarget",
+                        "printedName": "FortfaceProvider.IntegrityCheckerImageTarget",
+                        "usr": "s:16FortfaceProvider27IntegrityCheckerImageTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FortfaceProvider27IntegrityCheckerImageTargetO7defaultyA2CmF",
+            "mangledName": "$s16FortfaceProvider27IntegrityCheckerImageTargetO7defaultyA2CmF",
+            "moduleName": "FortfaceProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FortfaceProvider.IntegrityCheckerImageTarget.Type) -> (Swift.String) -> FortfaceProvider.IntegrityCheckerImageTarget",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FortfaceProvider.IntegrityCheckerImageTarget",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntegrityCheckerImageTarget",
+                        "printedName": "FortfaceProvider.IntegrityCheckerImageTarget",
+                        "usr": "s:16FortfaceProvider27IntegrityCheckerImageTargetO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FortfaceProvider.IntegrityCheckerImageTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntegrityCheckerImageTarget",
+                        "printedName": "FortfaceProvider.IntegrityCheckerImageTarget",
+                        "usr": "s:16FortfaceProvider27IntegrityCheckerImageTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FortfaceProvider27IntegrityCheckerImageTargetO6customyACSScACmF",
+            "mangledName": "$s16FortfaceProvider27IntegrityCheckerImageTargetO6customyACSScACmF",
+            "moduleName": "FortfaceProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16FortfaceProvider27IntegrityCheckerImageTargetO",
+        "mangledName": "$s16FortfaceProvider27IntegrityCheckerImageTargetO",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "FortfaceProvider"
       },
       {
         "kind": "Import",
@@ -7374,6 +7968,201 @@
             "printedName": "_ExpressibleByColorLiteral",
             "usr": "s:s26_ExpressibleByColorLiteralP",
             "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "gifImage",
+            "printedName": "gifImage(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC16FortfaceProviderE8gifImage4fromABSg10Foundation4DataV_tFZ",
+            "mangledName": "$sSo7UIImageC16FortfaceProviderE8gifImage4fromABSg10Foundation4DataV_tFZ",
+            "moduleName": "FortfaceProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gifImage",
+            "printedName": "gifImage(named:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC16FortfaceProviderE8gifImage5named2inABSgSS_So8NSBundleCtFZ",
+            "mangledName": "$sSo7UIImageC16FortfaceProviderE8gifImage5named2inABSgSS_So8NSBundleCtFZ",
+            "moduleName": "FortfaceProvider",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
           }
         ]
       }
@@ -7972,182 +8761,168 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
-      "length": 8,
-      "value": "\"manual\""
-    },
-    {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
-      "kind": "StringLiteral",
-      "offset": 1625,
-      "length": 11,
-      "value": "\"automatic\""
-    },
-    {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
-      "kind": "StringLiteral",
-      "offset": 1670,
+      "offset": 1590,
       "length": 19,
       "value": "\"finish_with_error\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 1645,
       "length": 21,
       "value": "\"finish_with_success\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
+      "offset": 1702,
       "length": 21,
       "value": "\"finish_with_pending\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 1839,
+      "offset": 1759,
       "length": 21,
       "value": "\"finish_with_failure\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 1892,
+      "offset": 1812,
       "length": 11,
       "value": "\"cancelled\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 1860,
       "length": 16,
       "value": "\"tokenException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 1995,
+      "offset": 1915,
       "length": 18,
       "value": "\"networkException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2051,
+      "offset": 1971,
       "length": 17,
       "value": "\"serverException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2109,
+      "offset": 2029,
       "length": 20,
       "value": "\"faceAuthentication\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2167,
+      "offset": 2087,
       "length": 17,
       "value": "\"cameraException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2223,
+      "offset": 2143,
       "length": 18,
       "value": "\"cameraPermission\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2204,
       "length": 22,
       "value": "\"certificateException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2353,
+      "offset": 2273,
       "length": 29,
       "value": "\"too_many_requests_exception\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2427,
+      "offset": 2347,
       "length": 24,
       "value": "\"imageNotFoundException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2497,
+      "offset": 2417,
       "length": 25,
       "value": "\"invalidOptionsException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2496,
       "length": 33,
       "value": "\"multiWindowUnsupportedException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2576,
       "length": 26,
       "value": "\"unexpectedErrorException\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2747,
+      "offset": 2667,
       "length": 12,
       "value": "\"automatica\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2788,
+      "offset": 2708,
       "length": 8,
       "value": "\"manual\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2825,
+      "offset": 2745,
       "length": 8,
       "value": "\"Upload\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2871,
+      "offset": 2791,
       "length": 10,
       "value": "\"provider\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2911,
+      "offset": 2831,
       "length": 13,
       "value": "\"environment\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2961,
+      "offset": 2881,
       "length": 20,
       "value": "\"sdkInfoEnvironment\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3013,
+      "offset": 2933,
       "length": 19,
       "value": "\"entrypointVersion\""
     },
@@ -8994,168 +9769,168 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7012,
+      "offset": 7020,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7107,
+      "offset": 7115,
       "length": 19,
       "value": "\"too_much_movement\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7222,
+      "offset": 7230,
       "length": 12,
       "value": "\"too_bright\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7322,
+      "offset": 7330,
       "length": 10,
       "value": "\"too_dark\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7422,
+      "offset": 7430,
       "length": 17,
       "value": "\"misaligned_face\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7520,
+      "offset": 7528,
       "length": 13,
       "value": "\"eyes_closed\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7618,
+      "offset": 7626,
       "length": 14,
       "value": "\"face_too_far\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7727,
+      "offset": 7735,
       "length": 16,
       "value": "\"face_too_close\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7838,
+      "offset": 7846,
       "length": 12,
       "value": "\"sunglasses\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7924,
+      "offset": 7932,
       "length": 9,
       "value": "\"eyewear\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8020,
+      "offset": 8028,
       "length": 15,
       "value": "\"obscured_face\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8112,
+      "offset": 8120,
       "length": 16,
       "value": "\"multiple_faces\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8202,
+      "offset": 8210,
       "length": 16,
       "value": "\"face_not_found\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8294,
+      "offset": 8302,
       "length": 15,
       "value": "\"frames_blurry\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8427,
+      "offset": 8435,
       "length": 17,
       "value": "\"lighting_issues\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8508,
+      "offset": 8516,
       "length": 14,
       "value": "\"motion_issue\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8611,
+      "offset": 8619,
       "length": 18,
       "value": "\"background_issue\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8698,
+      "offset": 8706,
       "length": 14,
       "value": "\"device_issue\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8782,
+      "offset": 8790,
       "length": 16,
       "value": "\"device_restart\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8898,
+      "offset": 8906,
       "length": 14,
       "value": "\"system_error\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8980,
+      "offset": 8988,
       "length": 10,
       "value": "\"rejected\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9042,
+      "offset": 9050,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9138,
+      "offset": 9146,
       "length": 16,
       "value": "\"user_not_found\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9230,
+      "offset": 9238,
       "length": 18,
       "value": "\"processing_fault\""
     },
@@ -10379,15 +11154,36 @@
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafDocumentDetectorBFFAnalytics.swift",
+      "kind": "Array",
+      "offset": 643,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafDocumentDetectorBFFAnalytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafDocumentDetectorBFFAnalytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 762,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafDocumentDetectorBFFAnalytics.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafDocumentDetectorBFFAnalytics.swift",
       "kind": "Dictionary",
-      "offset": 4203,
+      "offset": 5965,
       "length": 3,
       "value": "[]"
     },
@@ -10597,268 +11393,268 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 990,
-      "length": 23,
-      "value": "\"cameraBackgroundColor\""
-    },
-    {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1063,
-      "length": 29,
-      "value": "\"instructionsBackgroundColor\""
-    },
-    {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1132,
+      "offset": 986,
       "length": 19,
       "value": "\"getDeviceInfoOnly\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
-      "length": 14,
-      "value": "\"startMessage\""
+      "offset": 1041,
+      "length": 15,
+      "value": "\"noFaceMessage\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1244,
-      "length": 23,
-      "value": "\"facePositionedMessage\""
-    },
-    {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1307,
+      "offset": 1096,
       "length": 19,
       "value": "\"cameraMessageFont\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1382,
+      "offset": 1171,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1421,
+      "offset": 1210,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1461,
+      "offset": 1250,
       "length": 10,
       "value": "\"Canceled\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1499,
+      "offset": 1288,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1536,
+      "offset": 1325,
       "length": 9,
       "value": "\"Timeout\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1580,
+      "offset": 1369,
       "length": 14,
       "value": "\"DeniedCamera\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1633,
+      "offset": 1422,
       "length": 18,
       "value": "\"fortfaceLiveness\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1681,
+      "offset": 1470,
       "length": 9,
       "value": "\"capture\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1719,
+      "offset": 1508,
       "length": 8,
       "value": "\"cancel\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1772,
+      "offset": 1561,
       "length": 24,
       "value": "\"cameraPermissionDenied\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1833,
+      "offset": 1622,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1692,
       "length": 11,
       "value": "\"automatic\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1945,
+      "offset": 1734,
       "length": 10,
       "value": "\"portrait\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1987,
+      "offset": 1776,
       "length": 11,
       "value": "\"landscape\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2062,
+      "offset": 1851,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 1891,
       "length": 7,
       "value": "\"modal\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2171,
+      "offset": 1960,
       "length": 29,
       "value": "\"Missing required parameters\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2032,
       "length": 36,
       "value": "\"Fortface SDK initialization failed\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2315,
+      "offset": 2104,
       "length": 25,
       "value": "\"Session creation failed\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2387,
+      "offset": 2176,
       "length": 29,
       "value": "\"Invalid device request info\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2454,
+      "offset": 2243,
       "length": 29,
       "value": "\"Handshake validation failed\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2520,
+      "offset": 2309,
       "length": 27,
       "value": "\"There is something wrong!\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2601,
+      "offset": 2390,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2641,
+      "offset": 2430,
       "length": 10,
       "value": "\"\/metrics\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2708,
+      "offset": 2497,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2740,
+      "offset": 2529,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2807,
+      "offset": 2596,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2857,
+      "offset": 2646,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2931,
+      "offset": 2720,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2972,
+      "offset": 2761,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3016,
+      "offset": 2805,
       "length": 12,
       "value": "\"sessionKey\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-fortface-provider\/Sources\/Models\/CafFortfaceConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3058,
+      "offset": 2847,
       "length": 9,
       "value": "\"isValid\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafGifOverlayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafGifOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 430,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafGifOverlayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 3,
+      "value": "200"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-design-system\/ViewControllers\/CafInstructions\/CafInstructionsViewModel.swift",
@@ -10918,38 +11714,640 @@
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 452,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1381,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1447,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1480,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1540,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1567,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1603,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1626,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 492,
+      "offset": 1756,
       "length": 28,
       "value": "[27042, 27043, 27044, 27045]"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 579,
+      "offset": 1843,
+      "length": 198,
+      "value": "[27042, 27043, 27044, 27045, 80, 443, 8080, 8443, 1337, 3000, 4444, 5555, 6666, 8888, 9090, 9999, 1234, 4321, 31337, 12345, 18080, 28015, 38080]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2254,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2317,
+      "length": 5,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2375,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 2560,
       "length": 361,
       "value": "[\"\/usr\/sbin\/frida-server\", \"\/usr\/bin\/frida-server\", \"\/usr\/local\/bin\/frida-server\", \"\/usr\/lib\/frida\", \"\/usr\/local\/lib\/frida\", \"\/Library\/Frameworks\/FridaGadget.framework\", \"\/var\/containers\/Bundle\/Application\/*\/Payload\/*.app\/Frameworks\/FridaGadget.framework\", \"\/.frida\", \"\/tmp\/frida-*\"]"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 1003,
+      "offset": 2984,
       "length": 158,
       "value": "[\"frida\", \"Frida\", \"FridaGadget\", \"frida-gadget\", \"frida-agent\", \"gum-js-loop\", \"gmain\", \"linjector\", \"frida_agent\", \"frida_agent_main\"]"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 1224,
+      "offset": 3205,
       "length": 114,
       "value": "[\"gum-js-loop\", \"gmain\", \"gdbus\", \"pool-frida\", \"frida-helper\", \"linjector\", \"frida-portal\"]"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 2049,
+      "offset": 3379,
+      "length": 895,
+      "value": "[\"\/var\/jb\/.installed_dopamine\", \"\/var\/jb\/basebin\/jbctl\", \"\/var\/jb\/basebin\/bootstrapd\", \"\/var\/jb\/basebin\/opainject\", \"\/var\/jb\/basebin\/launchdhook.dylib\", \"\/var\/jb\/basebin\/.fakelib\/dyld\", \"\/var\/jb\/basebin\/.version\", \"\/var\/jb\/basebin\/.safe_mode\", \"\/var\/jb\/basebin\/bootlogo.jp2\", \"\/var\/jb\/basebin\/LaunchDaemons\/com.opa334.Dopamine.idownloadd.plist\", \"\/var\/jb\/prep_bootstrap.sh\", \"\/var\/jb\/etc\/apt\/sources.list.d\/default.sources\", \"\/var\/jb\/usr\/lib\/ellekit.dylib\", \"\/var\/jb\/usr\/lib\/libjailbreak.dylib\", \"\/var\/jb\/usr\/bin\/sbreload\", \"\/var\/jb\/usr\/sbin\/pw\", \"\/var\/jb\/Library\/MobileSubstrate\/DynamicLibraries\"]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 4333,
+      "length": 138,
+      "value": "[\"dopamine\", \"ellekit\", \"roothide\", \"libjailbreak\", \"jbctl\", \"bootstrapd\", \"systemhook\", \"launchdhook\", \"opainject\"]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 4537,
+      "length": 515,
+      "value": "[\"\/var\/jb\", \"\/var\/jb\/basebin\", \"\/var\/jb\/basebin\/jbctl\", \"\/var\/jb\/basebin\/bootstrapd\", \"\/var\/jb\/basebin\/opainject\", \"\/var\/jb\/basebin\/launchdhook.dylib\", \"\/var\/jb\/basebin\/.fakelib\/dyld\", \"\/var\/jb\/usr\/lib\/ellekit.dylib\", \"\/var\/jb\/usr\/lib\/libjailbreak.dylib\", \"\/var\/jb\/usr\/bin\/su\", \"\/var\/jb\/usr\/sbin\/frida-server\", \"\/var\/jb\/Library\/MobileSubstrate\/DynamicLibraries\", \"\/var\/binpack\", \"\/cores\/binpack\"]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 5117,
+      "length": 137,
+      "value": "[\"ellekit\", \"libjailbreak\", \"roothide\", \"dopamine\", \"palera1n\", \"fugu15\", \"substrate\", \"systemhook\", \"launchdhook\"]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 5335,
+      "length": 193,
+      "value": "[(\"HOME\", \"\/var\/root\"), (\"CFFIXED_USER_HOME\", \"\/var\/root\"), (\"TMPDIR\", \"\/var\/tmp\"), (\"DYLD_INSERT_LIBRARIES\", \"systemhook\"), (\"PATH\", \"\/var\/jb\/\")]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 5587,
+      "length": 35,
+      "value": "[\"JBRAND\", \"_JBROOT\"]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5681,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5734,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6145,
+      "length": 24,
+      "value": "\"io.caf.securityMonitor\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Dictionary",
+      "offset": 6293,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 7272,
       "length": 83,
       "value": "[\"token\", \"mobileToken\", \"personId\", \"authorization\", \"bearer\", \"attestationToken\"]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10270,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15094,
+      "length": 7,
+      "value": "100000"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 35603,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 36024,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 36066,
+      "length": 8,
+      "value": "\"sysctl\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 36411,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 36453,
+      "length": 6,
+      "value": "\"stat\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 36775,
+      "length": 9,
+      "value": "\"libdyld\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 36815,
+      "length": 8,
+      "value": "\"dladdr\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37166,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37208,
+      "length": 8,
+      "value": "\"access\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37483,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37488,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37573,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37619,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 37987,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 38029,
+      "length": 8,
+      "value": "\"getenv\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40712,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 40717,
+      "length": 8,
+      "value": "\"ptrace\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40917,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 41021,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 42088,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 42133,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 42168,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 48350,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 48364,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "Array",
+      "offset": 49336,
+      "length": 190,
+      "value": "[(\"isFridaDetected\", \"SbyFZ\"), (\"denyDebuggerAttachment\", \"yyFZ\"), (\"isDebuggerAttached\", \"SbyFZ\")]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 52218,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52526,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 52581,
+      "length": 8,
+      "value": "\"socket\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 52643,
+      "length": 9,
+      "value": "\"connect\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 52706,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 52729,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 52922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 52994,
+      "length": 11,
+      "value": "\"libsystem\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 53160,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53522,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53549,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53613,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 53848,
+      "length": 11,
+      "value": "\"127.0.0.1\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54003,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 54171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 54234,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54453,
+      "length": 5,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54504,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54569,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54610,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 54957,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 55001,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62479,
+      "length": 7,
+      "value": "120000"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-service\/CafService.swift",
@@ -10973,6 +12371,216 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 8,
+      "value": "\"ptrace\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1195,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1199,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1202,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 75,
+      "value": "\"Error occured when calling ptrace(). Denying debugger may not be reliable\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1605,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1727,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1929,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2148,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2266,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2400,
+      "length": 10,
+      "value": "0xe7ffdefe"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2580,
+      "length": 10,
+      "value": "0xD4200000"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2631,
+      "length": 10,
+      "value": "0xFFE0001F"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2722,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2899,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2916,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3147,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/DebuggerChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3192,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/FishHookChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4077,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/FishHookChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/FishHookChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25864,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/FishHookChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11287,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 11330,
+      "length": 6,
+      "value": "\"fork\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11501,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11527,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-security\/RuntimeHookChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 8,
+      "value": "\"dladdr\""
+    },
+    {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-service\/ServiceConstants.swift",
       "kind": "StringLiteral",
       "offset": 177,
@@ -10989,35 +12597,42 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dwglucyauicjrndusrveeexowspy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FortfaceProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FortfaceProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 743,
+      "offset": 732,
+      "length": 12,
+      "value": "\"arrow_left\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dwglucyauicjrndusrveeexowspy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FortfaceProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FortfaceProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
       "length": 20,
       "value": "\"confirmation_image\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dwglucyauicjrndusrveeexowspy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FortfaceProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FortfaceProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 885,
+      "offset": 1026,
       "length": 11,
       "value": "\"doc_image\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dwglucyauicjrndusrveeexowspy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FortfaceProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FortfaceProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1161,
       "length": 12,
       "value": "\"face_image\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dwglucyauicjrndusrveeexowspy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FortfaceProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FortfaceProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1165,
+      "offset": 1306,
       "length": 14,
       "value": "\"failure_icon\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dwglucyauicjrndusrveeexowspy\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FortfaceProvider\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphoneos\/FortfaceProvider.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1307,
+      "offset": 1448,
       "length": 14,
       "value": "\"upload_image\""
     }

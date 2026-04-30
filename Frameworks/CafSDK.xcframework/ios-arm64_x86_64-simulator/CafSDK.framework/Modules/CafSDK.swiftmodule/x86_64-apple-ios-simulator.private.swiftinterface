@@ -4,11 +4,11 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import AdSupport
-import CafSolutions
 import CommonCrypto
 import Darwin
 import DeveloperToolsSupport
 import Foundation
+import ImageIO
 import MachO
 import Network
 import ObjectiveC
@@ -62,7 +62,7 @@ public enum CafSdkPlatform : Swift.String {
     get
   }
 }
-public struct CafSDKError : Swift.Encodable {
+public struct CafSDKError : Swift.Encodable, Swift.Error {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(errorType: CafSDK.CafErrorType, description: Swift.String?)
   #endif
@@ -586,10 +586,9 @@ public protocol CafFLCustomization {
 }
 public struct CafFLPayFaceCustomization : CafSDK.CafFLCustomization {
   public var cameraMessageFont: Swift.String?
-  public var startMessage: Swift.String?
-  public var facePositionedMessage: Swift.String?
+  public var noFaceMessage: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(cameraMessageFont: Swift.String? = nil, startMessage: Swift.String? = nil, facePositionedMessage: Swift.String? = nil)
+  public init(cameraMessageFont: Swift.String? = nil, noFaceMessage: Swift.String? = nil)
   #endif
 }
 public struct CafFaceLivenessConfig {
@@ -604,8 +603,9 @@ public struct CafFaceLivenessConfig {
   public var payFaceDebugMode: Swift.Bool
   public var bridgeConfig: [Swift.String : Swift.String]?
   public var debug: Swift.Bool
+  public var securityEnabled: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos, flCustomizations: [any CafSDK.CafFLCustomization] = [], payFaceDebugMode: Swift.Bool = false, bridgeConfig: [Swift.String : Swift.String]? = nil, debug: Swift.Bool = false)
+  public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos, flCustomizations: [any CafSDK.CafFLCustomization] = [], payFaceDebugMode: Swift.Bool = false, bridgeConfig: [Swift.String : Swift.String]? = nil, debug: Swift.Bool = false, securityEnabled: Swift.Bool = false)
   #endif
 }
 public protocol CafInstructionsAnalyticsDelegate : AnyObject {
@@ -670,6 +670,7 @@ public struct CafUnifiedResponse {
 public enum CafModuleType : Swift.String, Swift.CaseIterable {
   case faceLiveness
   case documentDetector
+  case smartCapture
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -700,8 +701,9 @@ public class CafSDKConfiguration {
   final public let colorConfig: CafSDK.CafColorConfiguration?
   public var waitForAllServices: Swift.Bool
   public var enableTransitionScreens: Swift.Bool
+  public var securityEnabled: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true, enableTransitionScreens: Swift.Bool = true)
+  public init(presentationOrder: [CafSDK.CafModuleType], colorConfig: CafSDK.CafColorConfiguration? = nil, nextStepContent: CafSDK.CafConfirmationNextStepContent? = nil, waitForAllServices: Swift.Bool = true, enableTransitionScreens: Swift.Bool = true, securityEnabled: Swift.Bool = false)
   #endif
   @objc deinit
 }
@@ -746,6 +748,12 @@ public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
   final public func loadSession()
   @objc deinit
 }
+public protocol CerttaDelegate : AnyObject {
+  func certtaDidLog(level: Swift.String, message: Swift.String)
+}
+extension CafSDK.CerttaDelegate {
+  public func certtaDidLog(level: Swift.String, message: Swift.String)
+}
 public struct CerttaConfiguration {
   public let mobileToken: Swift.String?
   public let userID: Swift.String?
@@ -755,9 +763,10 @@ public struct CerttaConfiguration {
 }
 @_hasMissingDesignatedInitializers final public class Certta {
   public static let shared: CafSDK.Certta
+  weak final public var delegate: (any CafSDK.CerttaDelegate)?
   final public func configure(configuration: CafSDK.CerttaConfiguration)
-  final public func setMobileToken(_ mobileToken: Swift.String)
-  final public func setUserID(_ userID: Swift.String)
+  final public func updateMobileToken(_ mobileToken: Swift.String)
+  final public func updateUserId(_ userID: Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes
   final public func setColorConfiguration(_ colorConfiguration: CafSDK.CafColorConfiguration?)
   #endif
@@ -773,6 +782,7 @@ public enum CerttaError {
   case securityError(Swift.String)
   case unknownError(Swift.String)
   case networkError(Swift.String)
+  case cancelled
   public var message: Swift.String {
     get
   }
@@ -789,6 +799,83 @@ extension CafSDK.CerttaError : Foundation.LocalizedError {
   }
   #endif
 }
+public struct CerttaDocumentDetectorConfiguration {
+  public init(flow: [CafSDK.CafDocumentDetectorStep], ui: CafSDK.CerttaDocumentDetectorUIConfiguration, enableMultiLanguage: Swift.Bool = true)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(flow: [CafSDK.CafDocumentDetectorStep], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), requestTimeout: Foundation.TimeInterval = 60, showPreCapturePopup: Swift.Bool = true, showPreview: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], enableMultiLanguage: Swift.Bool = true, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, maxRetryAttempts: Swift.Int = 2)
+  #endif
+  public init(from sdkConfig: CafSDK.CafDocumentDetectorConfig)
+}
+@_hasMissingDesignatedInitializers final public class CerttaDocumentDetector {
+  public static let shared: CafSDK.CerttaDocumentDetector
+  weak final public var delegate: (any CafSDK.CerttaDocumentDetectorDelegate)?
+  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaDocumentDetectorConfiguration = CerttaDocumentDetectorConfiguration(flow: []))
+  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaDocumentDetectorConfiguration = CerttaDocumentDetectorConfiguration(flow: []))
+  @objc deinit
+}
+public protocol CerttaDocumentDetectorDelegate : AnyObject {
+  func didFinish(result: Swift.String)
+  func didFinishWith(_ error: CafSDK.CerttaError)
+}
+extension CafSDK.CerttaDocumentDetectorDelegate {
+  public func didFinish(result: Swift.String)
+  public func didFinishWith(_ error: CafSDK.CerttaError)
+}
+public struct CafDocumentDetectorDocumentSelectionScreen {
+  public var title: Swift.String?
+  public var subtitle: Swift.String?
+  public var titlesByDocumentKind: [CafSDK.CafDocumentTypeKey : Swift.String]?
+  public var descriptionsByDocumentKind: [CafSDK.CafDocumentTypeKey : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, subtitle: Swift.String? = nil, titlesByDocumentKind: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil, descriptionsByDocumentKind: [CafSDK.CafDocumentTypeKey : Swift.String]? = nil)
+  #endif
+}
+public struct CafDocumentDetectorInstructionsScreen {
+  public var enabled: Swift.Bool
+  public var title: Swift.String?
+  public var message: Swift.String?
+  public var steps: [Swift.String]?
+  public var primaryButtonTitle: Swift.String?
+  public var headerImage: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(enabled: Swift.Bool = true, title: Swift.String? = nil, message: Swift.String? = nil, steps: [Swift.String]? = nil, primaryButtonTitle: Swift.String? = nil, headerImage: UIKit.UIImage? = nil)
+  #endif
+}
+public struct CafDocumentDetectorCaptureScreen {
+  public var closeButtonImage: UIKit.UIImage?
+  public var closeButtonSize: CoreFoundation.CGFloat?
+  public var closeButtonTintColor: UIKit.UIColor?
+  public var closeButtonContentMode: UIKit.UIView.ContentMode?
+  public var documentFrameNeutralColor: UIKit.UIColor
+  public var documentFrameValidationFailedColor: UIKit.UIColor
+  public var documentFrameValidationPassedColor: UIKit.UIColor
+  public var fontName: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(closeButtonImage: UIKit.UIImage? = nil, closeButtonSize: CoreFoundation.CGFloat? = nil, closeButtonTintColor: UIKit.UIColor? = nil, closeButtonContentMode: UIKit.UIView.ContentMode? = nil, documentFrameNeutralColor: UIKit.UIColor = .black, documentFrameValidationFailedColor: UIKit.UIColor = UIColor(byHex: "#E21B45"), documentFrameValidationPassedColor: UIKit.UIColor = UIColor(byHex: "#0BAA43"), fontName: Swift.String? = nil)
+  #endif
+}
+public struct CerttaDocumentDetectorCustomization {
+  public var ddCustomizations: [any CafSDK.CafDDCustomization]
+  public init(ddCustomizations: [any CafSDK.CafDDCustomization] = [])
+}
+public struct CerttaDocumentDetectorUIConfiguration {
+  public var documentSelectionScreen: CafSDK.CafDocumentDetectorDocumentSelectionScreen
+  public var layoutResourceName: Swift.String?
+  public var instructionsScreen: CafSDK.CafDocumentDetectorInstructionsScreen
+  public var captureScreen: CafSDK.CafDocumentDetectorCaptureScreen
+  public var uploadSettings: CafSDK.CafUploadSettings
+  public var showPreview: Swift.Bool
+  public var requestTimeout: Swift.Int
+  public var showPopup: Swift.Bool
+  public var maxRetryAttempts: Swift.Int
+  public var customization: CafSDK.CerttaDocumentDetectorCustomization
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(documentSelectionScreen: CafSDK.CafDocumentDetectorDocumentSelectionScreen = CafDocumentDetectorDocumentSelectionScreen(), layoutResourceName: Swift.String? = nil, instructionsScreen: CafSDK.CafDocumentDetectorInstructionsScreen = CafDocumentDetectorInstructionsScreen(), captureScreen: CafSDK.CafDocumentDetectorCaptureScreen = CafDocumentDetectorCaptureScreen(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: false), showPreview: Swift.Bool = true, requestTimeout: Swift.Int = 60, showPopup: Swift.Bool = true, maxRetryAttempts: Swift.Int = 2, customization: CafSDK.CerttaDocumentDetectorCustomization = CerttaDocumentDetectorCustomization())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(layout: CafSDK.CafDocumentDetectorLayout, instructions: CafSDK.CafInstructionsConfiguration, documentTypeSelection: CafSDK.CafSelectDocumentConfig?)
+  #endif
+}
 public struct LivenessConfiguration {
   public let maxRetryAttempts: Swift.Int
   public let faceAuthEnabled: Swift.Bool
@@ -798,9 +885,20 @@ public struct LivenessConfiguration {
 }
 @_hasMissingDesignatedInitializers final public class CerttaLiveness {
   public static let shared: CafSDK.CerttaLiveness
-  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.LivenessConfiguration = LivenessConfiguration(), callback: @escaping (CafSDK.LivenessEvent) -> Swift.Void)
-  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.LivenessConfiguration = LivenessConfiguration(), callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
+  weak final public var delegate: (any CafSDK.CerttaLivenessDelegate)?
+  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.LivenessConfiguration = LivenessConfiguration())
+  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.LivenessConfiguration = LivenessConfiguration())
   @objc deinit
+}
+public protocol CerttaLivenessDelegate : AnyObject {
+  func didFinish(signedResponse: Swift.String)
+  func didFail(_ failure: CafSDK.LivenessFailure)
+  func didFinishWith(_ error: CafSDK.CerttaError)
+}
+extension CafSDK.CerttaLivenessDelegate {
+  public func didFinish(signedResponse: Swift.String)
+  public func didFail(_ failure: CafSDK.LivenessFailure)
+  public func didFinishWith(_ error: CafSDK.CerttaError)
 }
 public enum LivenessFailure {
   case imageCaptureFailure(Swift.String)
@@ -814,6 +912,33 @@ public enum LivenessEvent {
   case completed(result: CafSDK.LivenessResult)
   case log(level: Swift.String, message: Swift.String)
   case error(error: CafSDK.CerttaError)
+}
+public struct CerttaSmartCaptureConfiguration {
+  public let requestTimeout: Foundation.TimeInterval
+  public let previewEnabled: Swift.Bool
+  public let autoCapture: Swift.Bool
+  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true)
+}
+@_hasMissingDesignatedInitializers final public class CerttaSmartCapture {
+  public static let shared: CafSDK.CerttaSmartCapture
+  weak final public var delegate: (any CafSDK.CerttaSmartCaptureDelegate)?
+  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaSmartCaptureConfiguration = CerttaSmartCaptureConfiguration())
+  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaSmartCaptureConfiguration = CerttaSmartCaptureConfiguration())
+  @objc deinit
+}
+public struct CerttaSmartCaptureConfig {
+  public var requestTimeout: Foundation.TimeInterval
+  public var autoCapture: Swift.Bool
+  public var previewEnabled: Swift.Bool
+  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true)
+}
+public protocol CerttaSmartCaptureDelegate : AnyObject {
+  func didFinish(result: Swift.String)
+  func didFinishWith(_ error: CafSDK.CerttaError)
+}
+extension CafSDK.CerttaSmartCaptureDelegate {
+  public func didFinish(result: Swift.String)
+  public func didFinishWith(_ error: CafSDK.CerttaError)
 }
 public struct CafDocumentDetectorConfig {
   public var flow: [CafSDK.CafDocumentDetectorStep]
@@ -834,8 +959,28 @@ public struct CafDocumentDetectorConfig {
   public var selectDocumentConfig: CafSDK.CafSelectDocumentConfig?
   public var sdkType: CafSDK.CafSdkPlatform
   public var maxRetryAttempts: Swift.Int
+  public var securityEnabled: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool? = true, manualCaptureTime: Foundation.TimeInterval? = 0, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2)
+  public init(flow: [CafSDK.CafDocumentDetectorStep] = [], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), manualCaptureEnabled: Swift.Bool? = true, manualCaptureTime: Foundation.TimeInterval? = 0, requestTimeout: Foundation.TimeInterval = 60, showPopup: Swift.Bool = true, proxySettings: CafSDK.CafProxySettings? = nil, previewShow: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool = true, currentStepDoneDelay: Foundation.TimeInterval = 1, allowedPassportCountryList: [CafSDK.CafCountryCode]? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, sdkType: CafSDK.CafSdkPlatform = .nativeIos, maxRetryAttempts: Swift.Int = 2, securityEnabled: Swift.Bool = false)
+  #endif
+}
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension CafSDK.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [CafSDK.FileIntegrityCheck])
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(from data: Foundation.Data) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(named name: Swift.String, in bundle: Foundation.Bundle) -> UIKit.UIImage?
   #endif
 }
 extension CafSDK.CafEnvironment : Swift.Equatable {}
