@@ -930,7 +930,8 @@ public struct CerttaSmartCaptureConfig {
   public var requestTimeout: Foundation.TimeInterval
   public var autoCapture: Swift.Bool
   public var previewEnabled: Swift.Bool
-  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true)
+  public var enableSecurity: Swift.Bool
+  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, enableSecurity: Swift.Bool = true)
 }
 public protocol CerttaSmartCaptureDelegate : AnyObject {
   func didFinish(result: Swift.String)

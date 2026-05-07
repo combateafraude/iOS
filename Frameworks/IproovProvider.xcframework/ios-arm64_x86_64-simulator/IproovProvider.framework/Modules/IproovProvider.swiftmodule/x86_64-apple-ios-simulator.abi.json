@@ -7169,6 +7169,47 @@
       },
       {
         "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IproovProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IproovProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Darwin",
         "printedName": "Darwin",
         "declKind": "Import",
@@ -8691,51 +8732,289 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2671,
       "length": 12,
       "value": "\"automatica\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2708,
+      "offset": 2712,
       "length": 8,
       "value": "\"manual\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 2749,
       "length": 8,
       "value": "\"Upload\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2791,
+      "offset": 2795,
       "length": 10,
       "value": "\"provider\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2831,
+      "offset": 2835,
       "length": 13,
       "value": "\"environment\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2881,
+      "offset": 2885,
       "length": 20,
       "value": "\"sdkInfoEnvironment\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 2937,
       "length": 19,
       "value": "\"entrypointVersion\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 2994,
+      "length": 17,
+      "value": "\"preview_enabled\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3044,
+      "length": 17,
+      "value": "\"request_timeout\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3091,
+      "length": 14,
+      "value": "\"mobile_token\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3137,
+      "length": 16,
+      "value": "\"extra_settings\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3197,
+      "length": 15,
+      "value": "\"supplier_name\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3259,
+      "length": 18,
+      "value": "\"supplier_product\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3326,
+      "length": 20,
+      "value": "\"accepted_documents\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3368,
+      "length": 5,
+      "value": "\"key\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3398,
+      "length": 8,
+      "value": "\"bucket\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3433,
+      "length": 11,
+      "value": "\"people_id\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3473,
+      "length": 13,
+      "value": "\"tracking_id\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3526,
+      "length": 25,
+      "value": "\"expected_document_types\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3591,
+      "length": 25,
+      "value": "\"expected_document_sides\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3657,
+      "length": 26,
+      "value": "\"previous_signed_response\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3713,
+      "length": 15,
+      "value": "\"is_quality_ok\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3758,
+      "length": 16,
+      "value": "\"is_doc_type_ok\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3804,
+      "length": 16,
+      "value": "\"is_doc_side_ok\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3851,
+      "length": 15,
+      "value": "\"document_type\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3897,
+      "length": 15,
+      "value": "\"document_side\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3939,
+      "length": 11,
+      "value": "\"image_url\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 3992,
+      "length": 17,
+      "value": "\"signed_response\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4043,
+      "length": 13,
+      "value": "\"device_name\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4086,
+      "length": 14,
+      "value": "\"device_model\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4129,
+      "length": 13,
+      "value": "\"system_name\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4174,
+      "length": 16,
+      "value": "\"system_version\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4225,
+      "length": 19,
+      "value": "\"device_identifier\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4279,
+      "length": 19,
+      "value": "\"screen_resolution\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4328,
+      "length": 14,
+      "value": "\"screen_scale\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4378,
+      "length": 20,
+      "value": "\"preferred_language\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4423,
+      "length": 8,
+      "value": "\"region\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4459,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4502,
+      "length": 15,
+      "value": "\"is_jailbroken\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4541,
+      "length": 8,
+      "value": "\"app_id\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 4583,
+      "length": 18,
+      "value": "\"security_enabled\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsServer.swift",
@@ -11519,168 +11798,168 @@
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 15094,
+      "offset": 14968,
       "length": 7,
       "value": "100000"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 35603,
+      "offset": 35477,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36024,
+      "offset": 35898,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36066,
+      "offset": 35940,
       "length": 8,
       "value": "\"sysctl\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36411,
+      "offset": 36285,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36453,
+      "offset": 36327,
       "length": 6,
       "value": "\"stat\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36775,
+      "offset": 36649,
       "length": 9,
       "value": "\"libdyld\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 36815,
+      "offset": 36689,
       "length": 8,
       "value": "\"dladdr\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37166,
+      "offset": 37040,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37208,
+      "offset": 37082,
       "length": 8,
       "value": "\"access\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 37483,
+      "offset": 37357,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37488,
+      "offset": 37362,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37573,
+      "offset": 37447,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37619,
+      "offset": 37493,
       "length": 6,
       "value": "\"open\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 37987,
+      "offset": 37861,
       "length": 11,
       "value": "\"libsystem\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 38029,
+      "offset": 37903,
       "length": 8,
       "value": "\"getenv\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 41381,
+      "offset": 41255,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 42088,
+      "offset": 41962,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 42133,
+      "offset": 42007,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 42168,
+      "offset": 42042,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 48350,
+      "offset": 48224,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "StringLiteral",
-      "offset": 48364,
+      "offset": 48238,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "Array",
-      "offset": 49336,
+      "offset": 49210,
       "length": 190,
       "value": "[(\"isFridaDetected\", \"SbyFZ\"), (\"denyDebuggerAttachment\", \"yyFZ\"), (\"isDebuggerAttached\", \"SbyFZ\")]"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSecurityUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 62479,
+      "offset": 62353,
       "length": 7,
       "value": "120000"
     },
@@ -11690,6 +11969,671 @@
       "offset": 366,
       "length": 19,
       "value": "\"com.caf.sdk.queue\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 6,
+      "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 6,
+      "value": "\"beta\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 5,
+      "value": "\"dev\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 12,
+      "value": "\"native_ios\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 13,
+      "value": "\"flutter_ios\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 18,
+      "value": "\"react_native_ios\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 18,
+      "value": "\"user_interaction\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 10,
+      "value": "\"api_call\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 10,
+      "value": "\"sdk_step\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1094,
+      "length": 10,
+      "value": "\"sdk_flow\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 11,
+      "value": "\"sdk_error\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1171,
+      "length": 10,
+      "value": "\"identify\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 13,
+      "value": "\"device_info\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1250,
+      "length": 7,
+      "value": "\"crash\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 10,
+      "value": "\"identify\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 11,
+      "value": "\"start_sdk\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1388,
+      "length": 15,
+      "value": "\"bridge_params\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 12,
+      "value": "\"first_open\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 7,
+      "value": "\"crash\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 19,
+      "value": "\"provider_response\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1532,
+      "length": 12,
+      "value": "\"sdk_result\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1566,
+      "length": 12,
+      "value": "\"sdk_closed\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 27,
+      "value": "\"camera_permission_granted\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1679,
+      "length": 29,
+      "value": "\"camera_permission_requested\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 26,
+      "value": "\"camera_permission_denied\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1798,
+      "length": 19,
+      "value": "\"sdk_configuration\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1840,
+      "length": 13,
+      "value": "\"device_info\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1882,
+      "length": 19,
+      "value": "\"device_identified\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 16,
+      "value": "\"app_identified\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1966,
+      "length": 13,
+      "value": "\"device_data\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2003,
+      "length": 14,
+      "value": "\"api_response\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2090,
+      "length": 23,
+      "value": "\"capture_screen_opened\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2140,
+      "length": 17,
+      "value": "\"capture_started\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2189,
+      "length": 23,
+      "value": "\"preview_screen_opened\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 18,
+      "value": "\"preview_accepted\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2296,
+      "length": 30,
+      "value": "\"preview_screen_retry_clicked\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2364,
+      "length": 29,
+      "value": "\"document_captured_validated\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2423,
+      "length": 33,
+      "value": "\"image_upload_links_route_called\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2490,
+      "length": 25,
+      "value": "\"validation_route_called\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2545,
+      "length": 20,
+      "value": "\"document_validated\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2602,
+      "length": 28,
+      "value": "\"document_capture_completed\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2658,
+      "length": 18,
+      "value": "\"capture_finished\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 11,
+      "value": "\"sdk_error\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2734,
+      "length": 16,
+      "value": "\"internal_error\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2785,
+      "length": 26,
+      "value": "\"attestation_route_called\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2843,
+      "length": 22,
+      "value": "\"permission_requested\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2895,
+      "length": 20,
+      "value": "\"permission_granted\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2944,
+      "length": 19,
+      "value": "\"permission_denied\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2988,
+      "length": 15,
+      "value": "\"no_connection\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 3029,
+      "length": 16,
+      "value": "\"sdk_background\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 7875,
+      "length": 20,
+      "value": "\"identify-analytics\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 7922,
+      "length": 17,
+      "value": "\"track-analytics\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 7963,
+      "length": 13,
+      "value": "\"crashlytics\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "Array",
+      "offset": 12452,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 12482,
+      "length": 21,
+      "value": "\"caf_analytics_queue\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 12538,
+      "length": 29,
+      "value": "\"caf_analytics_queue_session\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12641,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12677,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12710,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 12860,
+      "length": 30,
+      "value": "\"io.caf.analytics.pathmonitor\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 12954,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 13004,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 13061,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 13114,
+      "length": 105,
+      "value": "\"https:\/\/firestore.googleapis.com\/v1\/projects\/caf-solutions\/databases\/(default)\/documents\/feature_toggle\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 85,
+      "length": 14,
+      "value": "\"install_guid\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 9,
+      "value": "\"builder\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 7,
+      "value": "\"stage\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 17,
+      "value": "\"installation_id\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 10,
+      "value": "\"app_name\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 14,
+      "value": "\"build_number\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 13,
+      "value": "\"device_data\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 9,
+      "value": "\"context\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 517,
+      "length": 10,
+      "value": "\"sdk_name\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 17,
+      "value": "\"sdk_environment\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 12,
+      "value": "\"entrypoint\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 20,
+      "value": "\"entrypoint_version\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 10,
+      "value": "\"provider\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 14,
+      "value": "\"failure_type\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 930,
+      "length": 17,
+      "value": "\"signed_response\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 14,
+      "value": "\"api_endpoint\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 15,
+      "value": "\"response_code\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 15,
+      "value": "\"response_time\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1114,
+      "length": 15,
+      "value": "\"response_data\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaDocumentDetectorBFFAnalytics.swift",
+      "kind": "Array",
+      "offset": 712,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaDocumentDetectorBFFAnalytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 797,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaDocumentDetectorBFFAnalytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 831,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaDocumentDetectorBFFAnalytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaDocumentDetectorBFFAnalytics.swift",
+      "kind": "Dictionary",
+      "offset": 7238,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/DebugMode.swift",

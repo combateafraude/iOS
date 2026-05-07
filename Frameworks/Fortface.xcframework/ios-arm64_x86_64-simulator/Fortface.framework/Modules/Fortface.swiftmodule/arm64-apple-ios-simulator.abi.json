@@ -23185,13 +23185,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Payface\/Desktop\/fortface-sdk-ios\/Fortface\/Fortface\/controller\/DocCameraViewControllerExtension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8343,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/Payface\/Desktop\/fortface-sdk-ios\/Fortface\/view\/components\/CancelButton.swift",
       "kind": "StringLiteral",
       "offset": 232,
@@ -25776,15 +25769,8 @@
     },
     {
       "filePath": "\/Users\/Payface\/Desktop\/fortface-sdk-ios\/Fortface\/Fortface\/controller\/DocConfirmViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1255,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/Payface\/Desktop\/fortface-sdk-ios\/Fortface\/Fortface\/controller\/DocConfirmViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1331,
+      "offset": 1155,
       "length": 3,
       "value": "0.0"
     },
