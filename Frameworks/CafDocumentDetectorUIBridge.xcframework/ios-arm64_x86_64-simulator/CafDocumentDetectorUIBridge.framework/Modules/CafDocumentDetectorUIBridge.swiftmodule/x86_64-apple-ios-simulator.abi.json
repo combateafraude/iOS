@@ -170,16 +170,6 @@
       },
       {
         "kind": "Import",
-        "name": "CafSDK",
-        "printedName": "CafSDK",
-        "declKind": "Import",
-        "moduleName": "CafDocumentDetectorUIBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "DocumentDetector",
         "printedName": "DocumentDetector",
         "declKind": "Import",
@@ -271,7 +261,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kevin.francelino\/Development\/certta\/caf-ios\/caf-bridges\/caf-document-detector-ui-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeUIBridgeAdapter.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-ui-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeUIBridgeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 45,

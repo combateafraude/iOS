@@ -3,7 +3,6 @@
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDKCommonsBridge
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CafSDK
-import Foundation
 import Swift
 import UIKit
 import _Concurrency
@@ -15,6 +14,45 @@ import _SwiftConcurrencyShims
   #endif
   @objc deinit
 }
+public struct CafSDKBridgeBuilderConfiguration {
+  public var presentationOrder: [Swift.Int]
+  public var colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration?
+  public var nextStepContentConfiguration: CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration?
+  public var waitForAllServices: Swift.Bool?
+  public var enableTransitionScreens: Swift.Bool?
+  public var enableSecurityModule: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(presentationOrder: [Swift.Int] = [], colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration? = nil, nextStepContentConfiguration: CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration? = nil, waitForAllServices: Swift.Bool? = nil, enableTransitionScreens: Swift.Bool? = nil, enableSecurityModule: Swift.Bool? = nil)
+  #endif
+}
+public struct CafSDKBridgeColorConfiguration {
+  public var primaryColor: Swift.String?
+  public var secondaryColor: Swift.String?
+  public var backgroundColor: Swift.String?
+  public var contentColor: Swift.String?
+  public var mediumColor: Swift.String?
+  public var dialogBackgroundColor: Swift.String?
+  public var dialogBorderColor: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, contentColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
+  #endif
+}
+public struct CafSDKBridgeConfiguration {
+  public var mobileToken: Swift.String
+  public var personId: Swift.String
+  public var environment: Swift.Int
+  public var configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration
+  public init(mobileToken: Swift.String = "", personId: Swift.String = "", environment: Swift.Int = 0, configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration = CafSDKBridgeBuilderConfiguration())
+}
+public struct CafSDKBridgeNextStepContentConfiguration {
+  public var title: Swift.String?
+  public var description: Swift.String?
+  public var buttonText: Swift.String?
+  public var image: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonText: Swift.String? = nil, image: Swift.String? = nil)
+  #endif
+}
 public struct CafSDKCommonsBridgeInstance {
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
   public let mobileToken: Swift.String
@@ -23,7 +61,7 @@ public struct CafSDKCommonsBridgeInstance {
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment)
 }
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
-  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func initialize(configuration: CafSDKCommonsBridge.CafSDKBridgeConfiguration) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit
