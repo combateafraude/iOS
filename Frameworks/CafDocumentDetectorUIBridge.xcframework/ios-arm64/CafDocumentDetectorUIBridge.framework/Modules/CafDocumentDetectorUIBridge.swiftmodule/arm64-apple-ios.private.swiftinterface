@@ -12,7 +12,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public class CafDocumentDetectorUIBridgeMain {
-  public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSdkBridgePlatform)
+  public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform)
   public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String) throws
   @objc deinit
 }

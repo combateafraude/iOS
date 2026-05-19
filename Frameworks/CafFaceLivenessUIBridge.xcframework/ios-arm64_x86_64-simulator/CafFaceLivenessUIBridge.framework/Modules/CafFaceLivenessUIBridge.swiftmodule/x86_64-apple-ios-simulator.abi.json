@@ -73,9 +73,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CafSdkBridgePlatform",
-                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
-                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+                "name": "CafSDKBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSDKBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0A17SDKBridgePlatformO"
               },
               {
                 "kind": "TypeNominal",
@@ -99,8 +99,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatform19bridgeConfigurationAC0a10SDKCommonsG00a3SdkgH0O_SDyS2SGtcfc",
-            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatform19bridgeConfigurationAC0a10SDKCommonsG00a3SdkgH0O_SDyS2SGtcfc",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatform19bridgeConfigurationAC0a10SDKCommonsG00a9SDKBridgeH0O_SDyS2SGtcfc",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC17sdkBridgePlatform19bridgeConfigurationAC0a10SDKCommonsG00a9SDKBridgeH0O_SDyS2SGtcfc",
             "moduleName": "CafFaceLivenessUIBridge",
             "declAttributes": [
               "AccessControl"

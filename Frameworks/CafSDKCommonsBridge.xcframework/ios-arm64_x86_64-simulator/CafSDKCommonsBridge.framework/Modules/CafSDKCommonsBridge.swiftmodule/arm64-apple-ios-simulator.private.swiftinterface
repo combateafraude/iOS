@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDKCommonsBridge
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CafSDK
+import Foundation
 import Swift
 import UIKit
 import _Concurrency
@@ -21,9 +22,6 @@ public struct CafSDKBridgeBuilderConfiguration {
   public var waitForAllServices: Swift.Bool?
   public var enableTransitionScreens: Swift.Bool?
   public var enableSecurityModule: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(presentationOrder: [Swift.Int] = [], colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration? = nil, nextStepContentConfiguration: CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration? = nil, waitForAllServices: Swift.Bool? = nil, enableTransitionScreens: Swift.Bool? = nil, enableSecurityModule: Swift.Bool? = nil)
-  #endif
 }
 public struct CafSDKBridgeColorConfiguration {
   public var primaryColor: Swift.String?
@@ -33,24 +31,36 @@ public struct CafSDKBridgeColorConfiguration {
   public var mediumColor: Swift.String?
   public var dialogBackgroundColor: Swift.String?
   public var dialogBorderColor: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, contentColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
-  #endif
 }
 public struct CafSDKBridgeConfiguration {
   public var mobileToken: Swift.String
   public var personId: Swift.String
   public var environment: Swift.Int
   public var configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration
-  public init(mobileToken: Swift.String = "", personId: Swift.String = "", environment: Swift.Int = 0, configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration = CafSDKBridgeBuilderConfiguration())
 }
 public struct CafSDKBridgeNextStepContentConfiguration {
   public var title: Swift.String?
   public var description: Swift.String?
   public var buttonText: Swift.String?
   public var image: Swift.String?
+}
+public enum CafSDKBridgePlatform : Swift.String {
+  case reactNativeIos
+  case flutterIos
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonText: Swift.String? = nil, image: Swift.String? = nil)
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafSDKCommonsBridgeConfigurationMapper {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from map: [Swift.String : Any]) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.MappingError>
   #endif
 }
 public struct CafSDKCommonsBridgeInstance {
@@ -66,17 +76,21 @@ public struct CafSDKCommonsBridgeInstance {
   public static func release()
   @objc deinit
 }
-public enum CafSdkBridgePlatform : Swift.String {
-  case reactNativeIos
-  case flutterIos
+public enum MappingError : Swift.Error, Swift.Equatable {
+  case invalidJson
+  case missingRequiredKey(key: Swift.String)
+  case unexpectedKey(key: Swift.String)
+  case invalidEnvironment(received: Swift.Int)
+  case invalidPresentationOrder(received: Swift.Int)
+  public static func == (a: CafSDKCommonsBridge.MappingError, b: CafSDKCommonsBridge.MappingError) -> Swift.Bool
+}
+extension CafSDKCommonsBridge.MappingError : Foundation.LocalizedError {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+  public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
-extension CafSDKCommonsBridge.CafSdkBridgePlatform : Swift.Equatable {}
-extension CafSDKCommonsBridge.CafSdkBridgePlatform : Swift.Hashable {}
-extension CafSDKCommonsBridge.CafSdkBridgePlatform : Swift.RawRepresentable {}
+extension CafSDKCommonsBridge.CafSDKBridgePlatform : Swift.Equatable {}
+extension CafSDKCommonsBridge.CafSDKBridgePlatform : Swift.Hashable {}
+extension CafSDKCommonsBridge.CafSDKBridgePlatform : Swift.RawRepresentable {}

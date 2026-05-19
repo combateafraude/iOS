@@ -76,14 +76,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CafSdkBridgePlatform",
-                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
-                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+                "name": "CafSDKBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSDKBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0A17SDKBridgePlatformO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a3SdkgH0O_tcfc",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a9SDKBridgeH0O_tcfc",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD4MainC17sdkBridgePlatformAC0a10SDKCommonsG00a9SDKBridgeH0O_tcfc",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "AccessControl"
