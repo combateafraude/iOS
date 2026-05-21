@@ -2664,7 +2664,10 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -3190,7 +3193,10 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
+        "moduleName": "CafSDKCommonsBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -3667,254 +3673,177 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 111,
+      "offset": 233,
       "length": 13,
       "value": "\"mobileToken\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 151,
+      "offset": 273,
       "length": 10,
       "value": "\"personId\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 191,
+      "offset": 313,
       "length": 13,
       "value": "\"environment\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 236,
+      "offset": 358,
       "length": 15,
       "value": "\"configuration\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 319,
+      "offset": 441,
       "length": 19,
       "value": "\"presentationOrder\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 379,
+      "offset": 501,
       "length": 20,
       "value": "\"colorConfiguration\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 450,
+      "offset": 572,
       "length": 30,
       "value": "\"nextStepContentConfiguration\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 643,
       "length": 20,
       "value": "\"waitForAllServices\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 587,
+      "offset": 709,
       "length": 25,
       "value": "\"enableTransitionScreens\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 655,
+      "offset": 777,
       "length": 22,
       "value": "\"enableSecurityModule\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 860,
       "length": 14,
       "value": "\"primaryColor\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 789,
+      "offset": 911,
       "length": 16,
       "value": "\"secondaryColor\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 843,
+      "offset": 965,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 1017,
       "length": 14,
       "value": "\"contentColor\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 1065,
       "length": 13,
       "value": "\"mediumColor\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 1000,
+      "offset": 1122,
       "length": 23,
       "value": "\"dialogBackgroundColor\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 1063,
+      "offset": 1185,
       "length": 19,
       "value": "\"dialogBorderColor\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1268,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 1187,
+      "offset": 1309,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1355,
       "length": 12,
       "value": "\"buttonText\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "StringLiteral",
-      "offset": 1273,
+      "offset": 1395,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1473,
+      "offset": 1595,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1477,
+      "offset": 1599,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1526,
+      "offset": 1648,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1530,
+      "offset": 1652,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 468,
-      "length": 47,
-      "value": "\"Failed to parse JSON string into a valid map.\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 73,
-      "value": "\"Required key '\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 599,
-      "length": 52,
-      "value": "\"' is missing. Check that the field name is correct.\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 709,
-      "length": 62,
-      "value": "\"Unexpected key '\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 732,
-      "length": 39,
-      "value": "\"' found. Only known keys are accepted.\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 839,
-      "length": 92,
-      "value": "\"Invalid value for '\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 875,
-      "length": 56,
-      "value": "\"': \""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 889,
-      "length": 1,
-      "value": "\". Expected 0 (prod), 1 (beta) or 2 (dev).\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 1005,
-      "length": 166,
-      "value": "\"Invalid value in '\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 1060,
-      "length": 111,
-      "value": "\"': \""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Enums\/MappingError.swift",
-      "kind": "StringLiteral",
-      "offset": 1074,
-      "length": 1,
-      "value": "\". Expected 0 (documentDetector), 1 (documentDetectorUi), 2 (faceLiveness) or 3 (faceLivenessUi).\""
     }
   ]
 }

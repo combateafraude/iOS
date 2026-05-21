@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BZ1q0u30GU+OQQhv8xw0sc/iLsQ=
+		bArwtXwkVi69CTuEEPg9vpIU96k=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		A1nhA9Y2Mfzc9OCPiaur8qS3uto=
+		bDyjC2xh59IrcDk/iRpS1vWXpf4=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FkowY12LzCWu0mHlsMW29awAjiQ=
+		ZSAoH9UAqvkbWkxhtvSqukLGGXU=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		A1nhA9Y2Mfzc9OCPiaur8qS3uto=
+		bDyjC2xh59IrcDk/iRpS1vWXpf4=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qBTqh+v1AqbsiNAgF8aMpdGjfvk=
+		OcKckHeFqVVgarlvV5o48SJ7jsc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g1AxmRlGsv8kprBRPY3ha+V6Em9kHMWSbtzcQubrkqU=
+			psSYpF5huKgfVF/mwSz2w+JFcvYOwD79vmI3m2TIjAI=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIHoj0umVDnWy7bpEsqpietZa8BvmcQ/xnZYMlQTGzM=
+			10DrJEV9y2VJrx0cIppz9iW5Us4qVQIZhvWVj6JVzkw=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g1AxmRlGsv8kprBRPY3ha+V6Em9kHMWSbtzcQubrkqU=
+			psSYpF5huKgfVF/mwSz2w+JFcvYOwD79vmI3m2TIjAI=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GdZsQAxVuFh0YBh8VEVzSPeA+oz4fN37xqnnYWPXZfk=
+			1dY2FbIKWuRRUfUHvOOtq8dTNleCAMMKPqEYcj1kIZg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

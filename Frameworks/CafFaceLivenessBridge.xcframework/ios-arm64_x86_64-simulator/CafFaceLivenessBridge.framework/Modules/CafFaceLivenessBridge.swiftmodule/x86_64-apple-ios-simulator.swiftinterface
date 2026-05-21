@@ -9,8 +9,29 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct CafFaceLivenessBridgeConfiguration {
+  public let loading: Swift.Bool?
+  public let certificates: [Swift.String]?
+  public let livenessBaseUrl: Swift.String?
+  public let authBaseUrl: Swift.String?
+  public let maxRetryAttempts: Swift.Int?
+  public let executeFaceAuth: Swift.Bool?
+  public let payFaceDebugMode: Swift.Bool?
+  public let debugModeEnabled: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(loading: Swift.Bool? = nil, certificates: [Swift.String]? = nil, livenessBaseUrl: Swift.String? = nil, authBaseUrl: Swift.String? = nil, maxRetryAttempts: Swift.Int? = nil, executeFaceAuth: Swift.Bool? = nil, payFaceDebugMode: Swift.Bool? = nil, debugModeEnabled: Swift.Bool? = nil)
+  #endif
+}
+public enum CafFaceLivenessBridgeConfigurationMapper {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from map: [Swift.String : Any]) -> Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  #endif
+}
 public class CafFaceLivenessBridgeMain {
   public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform, bridgeConfiguration: [Swift.String : Swift.String])
-  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String)
+  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String) throws
   @objc deinit
 }
