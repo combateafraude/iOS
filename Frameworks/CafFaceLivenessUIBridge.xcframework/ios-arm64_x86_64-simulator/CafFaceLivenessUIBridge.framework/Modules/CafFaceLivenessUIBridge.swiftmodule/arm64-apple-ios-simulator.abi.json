@@ -1006,7 +1006,7 @@
           {
             "kind": "Function",
             "name": "applySettings",
-            "printedName": "applySettings(cafSdkConfigurationInstance:jsonString:)",
+            "printedName": "applySettings(cafSdkConfigurationInstance:configuration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1021,19 +1021,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "CafFaceLivenessUIBridgeConfiguration",
+                "printedName": "CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration",
+                "usr": "s:23CafFaceLivenessUIBridge0abcD13ConfigurationV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKF",
-            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStKF",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance13configurationy0A3SDK0A16SDKConfigurationC_AA0abcdJ0VtF",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance13configurationy0A3SDK0A16SDKConfigurationC_AA0abcdJ0VtF",
             "moduleName": "CafFaceLivenessUIBridge",
             "declAttributes": [
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],

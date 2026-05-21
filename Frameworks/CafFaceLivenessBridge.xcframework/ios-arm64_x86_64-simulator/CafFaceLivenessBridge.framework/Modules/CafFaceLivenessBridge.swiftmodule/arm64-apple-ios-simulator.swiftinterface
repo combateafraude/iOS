@@ -32,6 +32,6 @@ public enum CafFaceLivenessBridgeConfigurationMapper {
 }
 public class CafFaceLivenessBridgeMain {
   public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform, bridgeConfiguration: [Swift.String : Swift.String])
-  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String) throws
+  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, configuration: CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration)
   @objc deinit
 }
