@@ -15,53 +15,73 @@ import _SwiftConcurrencyShims
   #endif
   @objc deinit
 }
+public enum CafJsonParser {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func decode<T>(_ type: T.Type, from jsonString: Swift.String) -> Swift.Result<T, CafSDKCommonsBridge.MappingError> where T : Swift.Decodable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func decode<T>(_ type: T.Type, from dict: [Swift.String : Any]) -> Swift.Result<T, CafSDKCommonsBridge.MappingError> where T : Swift.Decodable
+  #endif
+  public static func validateAllowedKeys(in decoder: any Swift.Decoder, allowed: Swift.Set<Swift.String>) throws
+}
 public struct CafSDKBridgeBuilderConfiguration {
-  public var presentationOrder: [Swift.Int]
-  public var colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration?
-  public var nextStepContentConfiguration: CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration?
-  public var waitForAllServices: Swift.Bool?
-  public var enableTransitionScreens: Swift.Bool?
-  public var enableSecurityModule: Swift.Bool?
+  public let presentationOrder: [Swift.Int]
+  public let colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration?
+  public let nextStepContentConfiguration: CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration?
+  public let waitForAllServices: Swift.Bool?
+  public let enableTransitionScreens: Swift.Bool?
+  public let enableSecurityModule: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(presentationOrder: [Swift.Int] = [], colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration? = nil, nextStepContentConfiguration: CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration? = nil, waitForAllServices: Swift.Bool? = nil, enableTransitionScreens: Swift.Bool? = nil, enableSecurityModule: Swift.Bool? = nil)
+  #endif
 }
 public struct CafSDKBridgeColorConfiguration {
-  public var primaryColor: Swift.String?
-  public var secondaryColor: Swift.String?
-  public var backgroundColor: Swift.String?
-  public var contentColor: Swift.String?
-  public var mediumColor: Swift.String?
-  public var dialogBackgroundColor: Swift.String?
-  public var dialogBorderColor: Swift.String?
+  public let primaryColor: Swift.String?
+  public let secondaryColor: Swift.String?
+  public let backgroundColor: Swift.String?
+  public let contentColor: Swift.String?
+  public let mediumColor: Swift.String?
+  public let dialogBackgroundColor: Swift.String?
+  public let dialogBorderColor: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, contentColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
+  #endif
 }
 public struct CafSDKBridgeConfiguration {
-  public var mobileToken: Swift.String
-  public var personId: Swift.String
-  public var environment: Swift.Int
-  public var configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration
+  public let mobileToken: Swift.String
+  public let personId: Swift.String
+  public let environment: Swift.Int
+  public let configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration
+  public init(mobileToken: Swift.String, personId: Swift.String, environment: Swift.Int = 0, configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration = CafSDKBridgeBuilderConfiguration())
 }
 public struct CafSDKBridgeNextStepContentConfiguration {
-  public var title: Swift.String?
-  public var description: Swift.String?
-  public var buttonText: Swift.String?
-  public var image: Swift.String?
-}
-public enum CafSDKBridgePlatform : Swift.String {
-  case reactNativeIos
-  case flutterIos
+  public let title: Swift.String?
+  public let description: Swift.String?
+  public let buttonText: Swift.String?
+  public let image: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonText: Swift.String? = nil, image: Swift.String? = nil)
   #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
 }
 public enum CafSDKCommonsBridgeConfigurationMapper {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func map(from jsonString: Swift.String) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.MappingError>
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func map(from map: [Swift.String : Any]) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  public static func map(from dict: [Swift.String : Any]) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.MappingError>
   #endif
+}
+extension CafSDKCommonsBridge.CafSDKBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafSDKCommonsBridge.CafSDKBridgeColorConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct CafSDKCommonsBridgeInstance {
   public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
@@ -75,6 +95,17 @@ public struct CafSDKCommonsBridgeInstance {
   public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit
+}
+public enum CafSDKBridgePlatform : Swift.String {
+  case reactNativeIos
+  case flutterIos
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public enum MappingError : Swift.Error, Swift.Equatable {
   case invalidJson

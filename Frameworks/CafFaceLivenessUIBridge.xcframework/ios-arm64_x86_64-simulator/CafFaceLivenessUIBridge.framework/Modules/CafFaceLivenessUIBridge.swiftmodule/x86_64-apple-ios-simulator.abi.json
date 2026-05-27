@@ -534,6 +534,67 @@
           },
           {
             "kind": "Var",
+            "name": "screenCaptureEnabled",
+            "printedName": "screenCaptureEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD13ConfigurationV20screenCaptureEnabledSbSgvp",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD13ConfigurationV20screenCaptureEnabledSbSgvp",
+            "moduleName": "CafFaceLivenessUIBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23CafFaceLivenessUIBridge0abcD13ConfigurationV20screenCaptureEnabledSbSgvg",
+                "mangledName": "$s23CafFaceLivenessUIBridge0abcD13ConfigurationV20screenCaptureEnabledSbSgvg",
+                "moduleName": "CafFaceLivenessUIBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "instructionScreen",
             "printedName": "instructionScreen",
             "children": [
@@ -595,7 +656,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(loading:certificates:livenessBaseUrl:authBaseUrl:maxRetryAttempts:executeFaceAuth:payFaceDebugMode:debugModeEnabled:instructionScreen:)",
+            "printedName": "init(loading:certificates:livenessBaseUrl:authBaseUrl:maxRetryAttempts:executeFaceAuth:payFaceDebugMode:debugModeEnabled:screenCaptureEnabled:instructionScreen:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -734,6 +795,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration?",
                 "children": [
                   {
@@ -748,12 +824,41 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23CafFaceLivenessUIBridge0abcD13ConfigurationV7loading12certificates15livenessBaseUrl04authiJ016maxRetryAttempts07executeB4Auth03payB9DebugMode05debugS7Enabled17instructionScreenACSbSg_SaySSGSgSSSgAPSiSgA3mA0abc13UIInstructionwE0VSgtcfc",
-            "mangledName": "$s23CafFaceLivenessUIBridge0abcD13ConfigurationV7loading12certificates15livenessBaseUrl04authiJ016maxRetryAttempts07executeB4Auth03payB9DebugMode05debugS7Enabled17instructionScreenACSbSg_SaySSGSgSSSgAPSiSgA3mA0abc13UIInstructionwE0VSgtcfc",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD13ConfigurationV7loading12certificates15livenessBaseUrl04authiJ016maxRetryAttempts07executeB4Auth03payB9DebugMode05debugS7Enabled013screenCaptureU017instructionScreenACSbSg_SaySSGSgSSSgAQSiSgA4nA0abc13UIInstructionyE0VSgtcfc",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD13ConfigurationV7loading12certificates15livenessBaseUrl04authiJ016maxRetryAttempts07executeB4Auth03payB9DebugMode05debugS7Enabled013screenCaptureU017instructionScreenACSbSg_SaySSGSgSSSgAQSiSgA4nA0abc13UIInstructionyE0VSgtcfc",
             "moduleName": "CafFaceLivenessUIBridge",
             "declAttributes": [
               "AccessControl"
             ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessUIBridgeConfiguration",
+                "printedName": "CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration",
+                "usr": "s:23CafFaceLivenessUIBridge0abcD13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23CafFaceLivenessUIBridge0abcD13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abcD13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafFaceLivenessUIBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
             "init_kind": "Designated"
           }
         ],
@@ -778,6 +883,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           }
         ]
       },
@@ -907,8 +1019,7 @@
         "mangledName": "$s23CafFaceLivenessUIBridge0abcD19ConfigurationMapperO",
         "moduleName": "CafFaceLivenessUIBridge",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -926,6 +1037,23 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessUIBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessUIBridge"
       },
       {
         "kind": "Import",
@@ -1484,6 +1612,35 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessUIInstructionScreenConfiguration",
+                "printedName": "CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration",
+                "usr": "s:23CafFaceLivenessUIBridge0abC32UIInstructionScreenConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23CafFaceLivenessUIBridge0abC32UIInstructionScreenConfigurationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23CafFaceLivenessUIBridge0abC32UIInstructionScreenConfigurationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafFaceLivenessUIBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -1508,117 +1665,18 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           }
         ]
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 312,
-      "length": 15,
-      "value": "\"configuration\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 376,
-      "length": 32,
-      "value": "\"instructionScreenConfiguration\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 9,
-      "value": "\"loading\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 14,
-      "value": "\"certificates\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 562,
-      "length": 17,
-      "value": "\"livenessBaseUrl\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 613,
-      "length": 13,
-      "value": "\"authBaseUrl\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 665,
-      "length": 18,
-      "value": "\"maxRetryAttempts\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 721,
-      "length": 17,
-      "value": "\"executeFaceAuth\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 777,
-      "length": 18,
-      "value": "\"payFaceDebugMode\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 834,
-      "length": 18,
-      "value": "\"debugModeEnabled\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 918,
-      "length": 7,
-      "value": "\"image\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 953,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 994,
-      "length": 13,
-      "value": "\"description\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 1035,
-      "length": 7,
-      "value": "\"steps\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-ui-bridge\/Sources\/Mappers\/CafFaceLivenessUIBridgeConfigurationMapper.swift",
-      "kind": "StringLiteral",
-      "offset": 1075,
-      "length": 12,
-      "value": "\"buttonText\""
-    }
-  ]
+  "ConstValues": []
 }

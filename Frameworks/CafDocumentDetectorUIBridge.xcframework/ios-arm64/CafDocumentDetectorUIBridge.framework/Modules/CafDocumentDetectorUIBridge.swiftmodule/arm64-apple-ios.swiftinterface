@@ -11,8 +11,245 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct CafDocumentDetectorUIBridgeBuilderConfiguration {
+  public let flow: [CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeFlow]
+  public let uploadSettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadSettings?
+  public let manualCaptureEnabled: Swift.Bool?
+  public let manualCaptureTime: Swift.Double?
+  public let requestTimeout: Swift.Double?
+  public let showPopup: Swift.Bool?
+  public let proxySettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeProxySettings?
+  public let previewShow: Swift.Bool?
+  public let previewCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgePreviewCustomization?
+  public let messageCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeMessageCustomization?
+  public let uploadCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadCustomization?
+  public let uploadMessagesCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadMessagesCustomization?
+  public let retryCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeRetryCustomization?
+  public let getUrlExpireTime: Swift.String?
+  public let enableMultiLanguage: Swift.Bool?
+  public let currentStepDoneDelay: Swift.Double?
+  public let allowedPassportCountryList: [Swift.Int]?
+  public let maxRetryAttempts: Swift.Int?
+  public let securitySettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeSecuritySettings?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(flow: [CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeFlow] = [], uploadSettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadSettings? = nil, manualCaptureEnabled: Swift.Bool? = nil, manualCaptureTime: Swift.Double? = nil, requestTimeout: Swift.Double? = nil, showPopup: Swift.Bool? = nil, proxySettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeProxySettings? = nil, previewShow: Swift.Bool? = nil, previewCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgePreviewCustomization? = nil, messageCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeMessageCustomization? = nil, uploadCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadCustomization? = nil, uploadMessagesCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadMessagesCustomization? = nil, retryCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeRetryCustomization? = nil, getUrlExpireTime: Swift.String? = nil, enableMultiLanguage: Swift.Bool? = nil, currentStepDoneDelay: Swift.Double? = nil, allowedPassportCountryList: [Swift.Int]? = nil, maxRetryAttempts: Swift.Int? = nil, securitySettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeSecuritySettings? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeConfiguration {
+  public let configuration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration
+  public let instructionScreenConfiguration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration?
+  public let documentSelectionScreenConfiguration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(configuration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration = CafDocumentDetectorUIBridgeBuilderConfiguration(), instructionScreenConfiguration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration? = nil, documentSelectionScreenConfiguration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration? = nil)
+  #endif
+}
+public enum CafDocumentDetectorUIBridgeConfigurationMapper {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from dict: [Swift.String : Any]) -> Swift.Result<CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  #endif
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeFlow : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadSettings : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeProxySettings : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeProxySettingsAuthentication : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgePreviewCustomization : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeMessageCustomization : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadCustomization : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadMessagesCustomization : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeRetryCustomization : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeSecuritySettings : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentGroupLabels : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CafDocumentDetectorUIBridgeDocumentGroupLabels {
+  public let rg: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let rgDigital: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let cnh: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let cnhDigital: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let ctps: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let rne: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let crlv: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let passport: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  public let other: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(rg: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, rgDigital: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, cnh: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, cnhDigital: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, ctps: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, rne: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, crlv: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, passport: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil, other: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeDocumentLabel {
+  public let title: Swift.String
+  public let description: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String, description: Swift.String? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration {
+  public let title: Swift.String?
+  public let description: Swift.String?
+  public let groupLabels: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentGroupLabels?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, groupLabels: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentGroupLabels? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeFlow {
+  public let document: Swift.Int
+  public let stepLabel: Swift.String?
+  public let illustration: Swift.String?
+  public let message: Swift.String?
+  public let okButtonTitle: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(document: Swift.Int, stepLabel: Swift.String? = nil, illustration: Swift.String? = nil, message: Swift.String? = nil, okButtonTitle: Swift.String? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeInstructionScreenConfiguration {
+  public let enable: Swift.Bool?
+  public let captureImage: Swift.String?
+  public let captureTitle: Swift.String?
+  public let captureSteps: [Swift.String]?
+  public let uploadImage: Swift.String?
+  public let uploadTitle: Swift.String?
+  public let uploadSteps: [Swift.String]?
+  public let uploadDescription: Swift.String?
+  public let uploadButtonText: Swift.String?
+  public let description: Swift.String?
+  public let buttonText: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(enable: Swift.Bool? = nil, captureImage: Swift.String? = nil, captureTitle: Swift.String? = nil, captureSteps: [Swift.String]? = nil, uploadImage: Swift.String? = nil, uploadTitle: Swift.String? = nil, uploadSteps: [Swift.String]? = nil, uploadDescription: Swift.String? = nil, uploadButtonText: Swift.String? = nil, description: Swift.String? = nil, buttonText: Swift.String? = nil)
+  #endif
+}
 public class CafDocumentDetectorUIBridgeMain {
   public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform)
-  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String) throws
+  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, configuration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeConfiguration) throws
   @objc deinit
+}
+public struct CafDocumentDetectorUIBridgeMessageCustomization {
+  public let waitMessage: Swift.String?
+  public let fitTheDocumentMessage: Swift.String?
+  public let holdItMessage: Swift.String?
+  public let verifyingQualityMessage: Swift.String?
+  public let lowQualityDocumentMessage: Swift.String?
+  public let uploadingImageMessage: Swift.String?
+  public let openDocumentWrongMessage: Swift.String?
+  public let popupDocumentSubtitleMessage: Swift.String?
+  public let unsupportedDocumentMessage: Swift.String?
+  public let wrongDocumentMessage: Swift.String?
+  public let documentNotFoundMessage: Swift.String?
+  public let sensorLuminosityMessage: Swift.String?
+  public let sensorOrientationMessage: Swift.String?
+  public let sensorStabilityMessage: Swift.String?
+  public let positiveButtonMessage: Swift.String?
+  public let manualCaptureMessage: Swift.String?
+  public let predictorScanDocumentMessage: Swift.String?
+  public let predictorGetCloserMessage: Swift.String?
+  public let predictorCentralizeMessage: Swift.String?
+  public let predictorMoveAwayMessage: Swift.String?
+  public let predictorAlignDocumentMessage: Swift.String?
+  public let predictorTurnDocumentMessage: Swift.String?
+  public let predictorCapturedMessage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(waitMessage: Swift.String? = nil, fitTheDocumentMessage: Swift.String? = nil, holdItMessage: Swift.String? = nil, verifyingQualityMessage: Swift.String? = nil, lowQualityDocumentMessage: Swift.String? = nil, uploadingImageMessage: Swift.String? = nil, openDocumentWrongMessage: Swift.String? = nil, popupDocumentSubtitleMessage: Swift.String? = nil, unsupportedDocumentMessage: Swift.String? = nil, wrongDocumentMessage: Swift.String? = nil, documentNotFoundMessage: Swift.String? = nil, sensorLuminosityMessage: Swift.String? = nil, sensorOrientationMessage: Swift.String? = nil, sensorStabilityMessage: Swift.String? = nil, positiveButtonMessage: Swift.String? = nil, manualCaptureMessage: Swift.String? = nil, predictorScanDocumentMessage: Swift.String? = nil, predictorGetCloserMessage: Swift.String? = nil, predictorCentralizeMessage: Swift.String? = nil, predictorMoveAwayMessage: Swift.String? = nil, predictorAlignDocumentMessage: Swift.String? = nil, predictorTurnDocumentMessage: Swift.String? = nil, predictorCapturedMessage: Swift.String? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgePreviewCustomization {
+  public let title: Swift.String?
+  public let message: Swift.String?
+  public let okButton: Swift.String?
+  public let tryAgainButton: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, message: Swift.String? = nil, okButton: Swift.String? = nil, tryAgainButton: Swift.String? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeProxySettings {
+  public let hostname: Swift.String
+  public let port: Swift.Int
+  public let authentication: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeProxySettingsAuthentication?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(hostname: Swift.String, port: Swift.Int, authentication: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeProxySettingsAuthentication? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeProxySettingsAuthentication {
+  public let user: Swift.String
+  public let password: Swift.String
+  public init(user: Swift.String, password: Swift.String)
+}
+public struct CafDocumentDetectorUIBridgeRetryCustomization {
+  public let title: Swift.String?
+  public let description: Swift.String?
+  public let textButton: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, textButton: Swift.String? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeSecuritySettings {
+  public let useDevelopmentMode: Swift.Bool?
+  public let useAdb: Swift.Bool?
+  public let useDebug: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(useDevelopmentMode: Swift.Bool? = nil, useAdb: Swift.Bool? = nil, useDebug: Swift.Bool? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeUploadCustomization {
+  public let image: Swift.String?
+  public let message: Swift.String?
+  public let uploadButton: Swift.String?
+  public let cancelButton: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(image: Swift.String? = nil, message: Swift.String? = nil, uploadButton: Swift.String? = nil, cancelButton: Swift.String? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeUploadMessagesCustomization {
+  public let sending: Swift.String?
+  public let verifyingIntegrity: Swift.String?
+  public let processingData: Swift.String?
+  public let almostDone: Swift.String?
+  public let timeBetweenMessages: Swift.Double?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(sending: Swift.String? = nil, verifyingIntegrity: Swift.String? = nil, processingData: Swift.String? = nil, almostDone: Swift.String? = nil, timeBetweenMessages: Swift.Double? = nil)
+  #endif
+}
+public struct CafDocumentDetectorUIBridgeUploadSettings {
+  public let enable: Swift.Bool?
+  public let compress: Swift.Bool?
+  public let fileFormats: [Swift.Int]?
+  public let maxFileSize: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(enable: Swift.Bool? = nil, compress: Swift.Bool? = nil, fileFormats: [Swift.Int]? = nil, maxFileSize: Swift.Int? = nil)
+  #endif
 }

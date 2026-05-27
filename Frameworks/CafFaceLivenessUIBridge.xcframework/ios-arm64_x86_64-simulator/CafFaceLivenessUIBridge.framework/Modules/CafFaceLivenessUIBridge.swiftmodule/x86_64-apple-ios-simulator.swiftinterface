@@ -19,9 +19,10 @@ public struct CafFaceLivenessUIBridgeConfiguration {
   public let executeFaceAuth: Swift.Bool?
   public let payFaceDebugMode: Swift.Bool?
   public let debugModeEnabled: Swift.Bool?
+  public let screenCaptureEnabled: Swift.Bool?
   public let instructionScreen: CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(loading: Swift.Bool? = nil, certificates: [Swift.String]? = nil, livenessBaseUrl: Swift.String? = nil, authBaseUrl: Swift.String? = nil, maxRetryAttempts: Swift.Int? = nil, executeFaceAuth: Swift.Bool? = nil, payFaceDebugMode: Swift.Bool? = nil, debugModeEnabled: Swift.Bool? = nil, instructionScreen: CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration? = nil)
+  public init(loading: Swift.Bool? = nil, certificates: [Swift.String]? = nil, livenessBaseUrl: Swift.String? = nil, authBaseUrl: Swift.String? = nil, maxRetryAttempts: Swift.Int? = nil, executeFaceAuth: Swift.Bool? = nil, payFaceDebugMode: Swift.Bool? = nil, debugModeEnabled: Swift.Bool? = nil, screenCaptureEnabled: Swift.Bool? = nil, instructionScreen: CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration? = nil)
   #endif
 }
 public enum CafFaceLivenessUIBridgeConfigurationMapper {
@@ -29,8 +30,14 @@ public enum CafFaceLivenessUIBridgeConfigurationMapper {
   public static func map(from jsonString: Swift.String) -> Swift.Result<CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration, CafSDKCommonsBridge.MappingError>
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func map(from map: [Swift.String : Any]) -> Swift.Result<CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  public static func map(from dict: [Swift.String : Any]) -> Swift.Result<CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration, CafSDKCommonsBridge.MappingError>
   #endif
+}
+extension CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
 }
 public class CafFaceLivenessUIBridgeMain {
   public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform, bridgeConfiguration: [Swift.String : Swift.String])
