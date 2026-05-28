@@ -83,16 +83,19 @@ extension CafSDKCommonsBridge.CafSDKBridgeColorConfiguration : Swift.Decodable {
 extension CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct CafSDKCommonsBridgeInstance {
-  public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
-  public let mobileToken: Swift.String
-  public let personId: Swift.String
-  public let environment: CafSDK.CafEnvironment
+final public class CafSDKCommonsBridgeInstance {
+  final public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
+  final public let mobileToken: Swift.String
+  final public let personId: Swift.String
+  final public let environment: CafSDK.CafEnvironment
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
-  public static func initialize(configuration: CafSDKCommonsBridge.CafSDKBridgeConfiguration) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
-  public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func initialize(configuration: CafSDKCommonsBridge.CafSDKBridgeConfiguration)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance?
+  #endif
   public static func release()
   @objc deinit
 }
