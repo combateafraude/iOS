@@ -589,170 +589,6 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(loading:certificates:livenessBaseUrl:authBaseUrl:maxRetryAttempts:executeFaceAuth:payFaceDebugMode:debugModeEnabled:screenCaptureEnabled:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafFaceLivenessBridgeConfiguration",
-                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
-                "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV7loading12certificates15livenessBaseUrl04authiJ016maxRetryAttempts07executeB4Auth03payB9DebugMode05debugS7Enabled013screenCaptureU0ACSbSg_SaySSGSgSSSgAPSiSgA4Mtcfc",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD13ConfigurationV7loading12certificates15livenessBaseUrl04authiJ016maxRetryAttempts07executeB4Auth03payB9DebugMode05debugS7Enabled013screenCaptureU0ACSbSg_SaySSGSgSSSgAPSiSgA4Mtcfc",
-            "moduleName": "CafFaceLivenessBridge",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -841,7 +677,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Result",
-                "printedName": "Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.MappingError>",
+                "printedName": "Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -851,9 +687,9 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "MappingError",
-                    "printedName": "CafSDKCommonsBridge.MappingError",
-                    "usr": "s:19CafSDKCommonsBridge12MappingErrorO"
+                    "name": "CafSDKBridgeException",
+                    "printedName": "CafSDKCommonsBridge.CafSDKBridgeException",
+                    "usr": "s:19CafSDKCommonsBridge0A18SDKBridgeExceptionO"
                   }
                 ],
                 "usr": "s:s6ResultO"
@@ -866,68 +702,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD012MappingErrorOGSS_tFZ",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD012MappingErrorOGSS_tFZ",
+            "usr": "s:21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
             "moduleName": "CafFaceLivenessBridge",
             "static": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "map",
-            "printedName": "map(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Result",
-                "printedName": "Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.MappingError>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafFaceLivenessBridgeConfiguration",
-                    "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
-                    "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MappingError",
-                    "printedName": "CafSDKCommonsBridge.MappingError",
-                    "usr": "s:19CafSDKCommonsBridge12MappingErrorO"
-                  }
-                ],
-                "usr": "s:s6ResultO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD012MappingErrorOGSDySSypG_tFZ",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD012MappingErrorOGSDySSypG_tFZ",
-            "moduleName": "CafFaceLivenessBridge",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -953,6 +734,28 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CafSDKBridgeMapper",
+            "printedName": "CafSDKBridgeMapper",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Configuration",
+                "printedName": "Configuration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFaceLivenessBridgeConfiguration",
+                    "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
+                    "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:19CafSDKCommonsBridge0A15SDKBridgeMapperP",
+            "mangledName": "$s19CafSDKCommonsBridge0A15SDKBridgeMapperP"
           }
         ]
       },

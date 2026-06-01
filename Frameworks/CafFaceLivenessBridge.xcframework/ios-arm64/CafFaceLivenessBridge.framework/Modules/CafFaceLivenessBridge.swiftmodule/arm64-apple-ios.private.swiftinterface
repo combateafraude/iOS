@@ -19,17 +19,12 @@ public struct CafFaceLivenessBridgeConfiguration {
   public let payFaceDebugMode: Swift.Bool?
   public let debugModeEnabled: Swift.Bool?
   public let screenCaptureEnabled: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(loading: Swift.Bool? = nil, certificates: [Swift.String]? = nil, livenessBaseUrl: Swift.String? = nil, authBaseUrl: Swift.String? = nil, maxRetryAttempts: Swift.Int? = nil, executeFaceAuth: Swift.Bool? = nil, payFaceDebugMode: Swift.Bool? = nil, debugModeEnabled: Swift.Bool? = nil, screenCaptureEnabled: Swift.Bool? = nil)
-  #endif
 }
-public enum CafFaceLivenessBridgeConfigurationMapper {
+public enum CafFaceLivenessBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func map(from jsonString: Swift.String) -> Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.MappingError>
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
   #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func map(from dict: [Swift.String : Any]) -> Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.MappingError>
-  #endif
+  public typealias Configuration = CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration
 }
 extension CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
