@@ -11,7 +11,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct CafDocumentDetectorUIBridgeBuilderConfiguration {
+public struct CafDocumentDetectorUIBridgeConfiguration {
   public let flow: [CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeFlow]
   public let uploadSettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadSettings?
   public let manualCaptureEnabled: Swift.Bool?
@@ -31,11 +31,8 @@ public struct CafDocumentDetectorUIBridgeBuilderConfiguration {
   public let allowedPassportCountryList: [Swift.Int]?
   public let maxRetryAttempts: Swift.Int?
   public let securitySettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeSecuritySettings?
-}
-public struct CafDocumentDetectorUIBridgeConfiguration {
-  public let configuration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration
-  public let instructionScreenConfiguration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration?
-  public let documentSelectionScreenConfiguration: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration?
+  public let instructionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration?
+  public let documentSelectionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration?
 }
 public enum CafDocumentDetectorUIBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -44,9 +41,6 @@ public enum CafDocumentDetectorUIBridgeConfigurationMapper : CafSDKCommonsBridge
   public typealias Configuration = CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeConfiguration
 }
 extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeFlow : Swift.Decodable {

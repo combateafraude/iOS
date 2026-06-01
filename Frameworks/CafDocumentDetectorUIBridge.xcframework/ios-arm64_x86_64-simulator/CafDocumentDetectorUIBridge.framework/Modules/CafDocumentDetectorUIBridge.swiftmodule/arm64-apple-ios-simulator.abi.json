@@ -33,8 +33,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "CafDocumentDetectorUIBridgeBuilderConfiguration",
-        "printedName": "CafDocumentDetectorUIBridgeBuilderConfiguration",
+        "name": "CafDocumentDetectorUIBridgeConfiguration",
+        "printedName": "CafDocumentDetectorUIBridgeConfiguration",
         "children": [
           {
             "kind": "Var",
@@ -57,8 +57,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV4flowSayAA0abcD4FlowVGvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV4flowSayAA0abcD4FlowVGvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV4flowSayAA0abcD4FlowVGvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV4flowSayAA0abcD4FlowVGvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -88,8 +88,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV4flowSayAA0abcD4FlowVGvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV4flowSayAA0abcD4FlowVGvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV4flowSayAA0abcD4FlowVGvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV4flowSayAA0abcD4FlowVGvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -117,8 +117,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV14uploadSettingsAA0abcd6UploadG0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV14uploadSettingsAA0abcd6UploadG0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -148,8 +148,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV14uploadSettingsAA0abcd6UploadG0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV14uploadSettingsAA0abcd6UploadG0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -177,8 +177,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20manualCaptureEnabledSbSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20manualCaptureEnabledSbSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20manualCaptureEnabledSbSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20manualCaptureEnabledSbSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -208,8 +208,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20manualCaptureEnabledSbSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20manualCaptureEnabledSbSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20manualCaptureEnabledSbSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20manualCaptureEnabledSbSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -237,8 +237,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV17manualCaptureTimeSdSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV17manualCaptureTimeSdSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV17manualCaptureTimeSdSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV17manualCaptureTimeSdSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -268,8 +268,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV17manualCaptureTimeSdSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV17manualCaptureTimeSdSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV17manualCaptureTimeSdSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV17manualCaptureTimeSdSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -297,8 +297,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14requestTimeoutSdSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14requestTimeoutSdSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV14requestTimeoutSdSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV14requestTimeoutSdSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -328,8 +328,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14requestTimeoutSdSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV14requestTimeoutSdSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV14requestTimeoutSdSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV14requestTimeoutSdSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -357,8 +357,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV9showPopupSbSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV9showPopupSbSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV9showPopupSbSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV9showPopupSbSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -388,8 +388,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV9showPopupSbSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV9showPopupSbSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV9showPopupSbSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV9showPopupSbSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -417,8 +417,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV13proxySettingsAA0abcd5ProxyH0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV13proxySettingsAA0abcd5ProxyH0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV13proxySettingsAA0abcd5ProxyG0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV13proxySettingsAA0abcd5ProxyG0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -448,8 +448,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV13proxySettingsAA0abcd5ProxyH0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV13proxySettingsAA0abcd5ProxyH0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV13proxySettingsAA0abcd5ProxyG0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV13proxySettingsAA0abcd5ProxyG0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -477,8 +477,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV11previewShowSbSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV11previewShowSbSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV11previewShowSbSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV11previewShowSbSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -508,8 +508,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV11previewShowSbSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV11previewShowSbSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV11previewShowSbSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV11previewShowSbSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -537,8 +537,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20previewCustomizationAA0abcd7PreviewG0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20previewCustomizationAA0abcd7PreviewG0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -568,8 +568,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20previewCustomizationAA0abcd7PreviewG0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20previewCustomizationAA0abcd7PreviewG0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -597,8 +597,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20messageCustomizationAA0abcd7MessageG0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20messageCustomizationAA0abcd7MessageG0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -628,8 +628,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20messageCustomizationAA0abcd7MessageG0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20messageCustomizationAA0abcd7MessageG0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -657,8 +657,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV19uploadCustomizationAA0abcd6UploadG0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV19uploadCustomizationAA0abcd6UploadG0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -688,8 +688,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV19uploadCustomizationAA0abcd6UploadG0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV19uploadCustomizationAA0abcd6UploadG0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -717,8 +717,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadgH0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadgH0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -748,8 +748,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadgH0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadgH0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -777,8 +777,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV18retryCustomizationAA0abcd5RetryG0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV18retryCustomizationAA0abcd5RetryG0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -808,8 +808,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV18retryCustomizationAA0abcd5RetryG0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV18retryCustomizationAA0abcd5RetryG0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -837,8 +837,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16getUrlExpireTimeSSSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16getUrlExpireTimeSSSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV16getUrlExpireTimeSSSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV16getUrlExpireTimeSSSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -868,8 +868,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16getUrlExpireTimeSSSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16getUrlExpireTimeSSSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV16getUrlExpireTimeSSSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV16getUrlExpireTimeSSSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -897,8 +897,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19enableMultiLanguageSbSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19enableMultiLanguageSbSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV19enableMultiLanguageSbSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV19enableMultiLanguageSbSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -928,8 +928,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19enableMultiLanguageSbSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV19enableMultiLanguageSbSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV19enableMultiLanguageSbSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV19enableMultiLanguageSbSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -957,8 +957,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20currentStepDoneDelaySdSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20currentStepDoneDelaySdSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20currentStepDoneDelaySdSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20currentStepDoneDelaySdSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -988,8 +988,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20currentStepDoneDelaySdSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV20currentStepDoneDelaySdSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV20currentStepDoneDelaySdSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV20currentStepDoneDelaySdSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1025,8 +1025,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV26allowedPassportCountryListSaySiGSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV26allowedPassportCountryListSaySiGSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV26allowedPassportCountryListSaySiGSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV26allowedPassportCountryListSaySiGSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -1064,8 +1064,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV26allowedPassportCountryListSaySiGSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV26allowedPassportCountryListSaySiGSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV26allowedPassportCountryListSaySiGSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV26allowedPassportCountryListSaySiGSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1093,8 +1093,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16maxRetryAttemptsSiSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16maxRetryAttemptsSiSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV16maxRetryAttemptsSiSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV16maxRetryAttemptsSiSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -1124,8 +1124,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16maxRetryAttemptsSiSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16maxRetryAttemptsSiSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV16maxRetryAttemptsSiSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV16maxRetryAttemptsSiSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1153,8 +1153,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16securitySettingsAA0abcd8SecurityH0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16securitySettingsAA0abcd8SecurityH0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV16securitySettingsAA0abcd8SecurityG0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV16securitySettingsAA0abcd8SecurityG0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -1184,119 +1184,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16securitySettingsAA0abcd8SecurityH0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV16securitySettingsAA0abcd8SecurityH0VSgvg",
-                "moduleName": "CafDocumentDetectorUIBridge",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafDocumentDetectorUIBridgeBuilderConfiguration",
-                "printedName": "CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "CafDocumentDetectorUIBridge",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV",
-        "mangledName": "$s27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV",
-        "moduleName": "CafDocumentDetectorUIBridge",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CafDocumentDetectorUIBridgeConfiguration",
-        "printedName": "CafDocumentDetectorUIBridgeConfiguration",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "configuration",
-            "printedName": "configuration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafDocumentDetectorUIBridgeBuilderConfiguration",
-                "printedName": "CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV13configurationAA0abcd7BuilderE0Vvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV13configurationAA0abcd7BuilderE0Vvp",
-            "moduleName": "CafDocumentDetectorUIBridge",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafDocumentDetectorUIBridgeBuilderConfiguration",
-                    "printedName": "CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeBuilderConfiguration",
-                    "usr": "s:27CafDocumentDetectorUIBridge0abcD20BuilderConfigurationV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV13configurationAA0abcd7BuilderE0Vvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV13configurationAA0abcd7BuilderE0Vvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV16securitySettingsAA0abcd8SecurityG0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV16securitySettingsAA0abcd8SecurityG0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1305,8 +1194,8 @@
           },
           {
             "kind": "Var",
-            "name": "instructionScreenConfiguration",
-            "printedName": "instructionScreenConfiguration",
+            "name": "instructionScreen",
+            "printedName": "instructionScreen",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1324,8 +1213,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV017instructionScreenE0AA0abcd11InstructiongE0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV017instructionScreenE0AA0abcd11InstructiongE0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV17instructionScreenAA0abcd11InstructiongE0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV17instructionScreenAA0abcd11InstructiongE0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -1355,8 +1244,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV017instructionScreenE0AA0abcd11InstructiongE0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV017instructionScreenE0AA0abcd11InstructiongE0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV17instructionScreenAA0abcd11InstructiongE0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV17instructionScreenAA0abcd11InstructiongE0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1365,8 +1254,8 @@
           },
           {
             "kind": "Var",
-            "name": "documentSelectionScreenConfiguration",
-            "printedName": "documentSelectionScreenConfiguration",
+            "name": "documentSelectionScreen",
+            "printedName": "documentSelectionScreen",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1384,8 +1273,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV023documentSelectionScreenE0AA0abcdbghE0VSgvp",
-            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV023documentSelectionScreenE0AA0abcdbghE0VSgvp",
+            "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV23documentSelectionScreenAA0abcdbghE0VSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV23documentSelectionScreenAA0abcdbghE0VSgvp",
             "moduleName": "CafDocumentDetectorUIBridge",
             "declAttributes": [
               "HasStorage",
@@ -1415,8 +1304,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV023documentSelectionScreenE0AA0abcdbghE0VSgvg",
-                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV023documentSelectionScreenE0AA0abcdbghE0VSgvg",
+                "usr": "s:27CafDocumentDetectorUIBridge0abcD13ConfigurationV23documentSelectionScreenAA0abcdbghE0VSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge0abcD13ConfigurationV23documentSelectionScreenAA0abcdbghE0VSgvg",
                 "moduleName": "CafDocumentDetectorUIBridge",
                 "implicit": true,
                 "accessorKind": "get"

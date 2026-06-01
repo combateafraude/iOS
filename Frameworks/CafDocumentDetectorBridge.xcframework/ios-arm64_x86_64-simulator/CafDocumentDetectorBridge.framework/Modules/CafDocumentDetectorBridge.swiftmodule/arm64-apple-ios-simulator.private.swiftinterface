@@ -11,7 +11,7 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct CafDocumentDetectorBridgeBuilderConfiguration {
+public struct CafDocumentDetectorBridgeConfiguration {
   public let flow: [CafDocumentDetectorBridge.CafDocumentDetectorBridgeFlow]
   public let uploadSettings: CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadSettings?
   public let manualCaptureEnabled: Swift.Bool?
@@ -32,9 +32,6 @@ public struct CafDocumentDetectorBridgeBuilderConfiguration {
   public let maxRetryAttempts: Swift.Int?
   public let securitySettings: CafDocumentDetectorBridge.CafDocumentDetectorBridgeSecuritySettings?
 }
-public struct CafDocumentDetectorBridgeConfiguration {
-  public let configuration: CafDocumentDetectorBridge.CafDocumentDetectorBridgeBuilderConfiguration
-}
 public enum CafDocumentDetectorBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func map(from jsonString: Swift.String) -> Swift.Result<CafDocumentDetectorBridge.CafDocumentDetectorBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
@@ -42,9 +39,6 @@ public enum CafDocumentDetectorBridgeConfigurationMapper : CafSDKCommonsBridge.C
   public typealias Configuration = CafDocumentDetectorBridge.CafDocumentDetectorBridgeConfiguration
 }
 extension CafDocumentDetectorBridge.CafDocumentDetectorBridgeConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension CafDocumentDetectorBridge.CafDocumentDetectorBridgeBuilderConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CafDocumentDetectorBridge.CafDocumentDetectorBridgeFlow : Swift.Decodable {
