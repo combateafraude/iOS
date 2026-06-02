@@ -81,17 +81,6 @@ public struct CafSDKBridgeNextStepContentConfiguration {
   public let buttonText: Swift.String?
   public let image: Swift.String?
 }
-public enum CafSDKBridgePlatform : Swift.String {
-  case reactNativeIos
-  case flutterIos
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public enum CafSDKCommonsBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func map(from jsonString: Swift.String) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
@@ -122,6 +111,17 @@ public struct CafSDKCommonsBridgeInstance {
   public static func getInstance() throws -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit
+}
+public enum CafSDKBridgePlatform : Swift.String {
+  case reactNativeIos
+  case flutterIos
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 extension CafSDKCommonsBridge.CafSDKBridgeErrorType : Swift.Equatable {}
 extension CafSDKCommonsBridge.CafSDKBridgeErrorType : Swift.Hashable {}
