@@ -608,6 +608,112 @@ public struct CafFaceLivenessConfig {
   public init(instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), loadingEnabled: Swift.Bool = true, reverseProxyConfig: CafSDK.CafReverseProxyConfig = CafReverseProxyConfig(), executeFaceAuth: Swift.Bool = false, customLocalization: Swift.String? = nil, maxRetryAttempts: Swift.Int = -1, sdkType: CafSDK.CafSdkPlatform = .nativeIos, flCustomizations: [any CafSDK.CafFLCustomization] = [], payFaceDebugMode: Swift.Bool = false, bridgeConfig: [Swift.String : Swift.String]? = nil, debug: Swift.Bool = false, securityEnabled: Swift.Bool = false)
   #endif
 }
+public struct CafFaceLivenessExplicitFields : Swift.OptionSet, Swift.Sendable {
+  public let rawValue: Swift.UInt
+  public init(rawValue: Swift.UInt)
+  public static let loading: CafSDK.CafFaceLivenessExplicitFields
+  public static let instructions: CafSDK.CafFaceLivenessExplicitFields
+  public static let faceAuth: CafSDK.CafFaceLivenessExplicitFields
+  public static let payFace: CafSDK.CafFaceLivenessExplicitFields
+  public static let debug: CafSDK.CafFaceLivenessExplicitFields
+  public static let all: CafSDK.CafFaceLivenessExplicitFields
+  public typealias ArrayLiteralElement = CafSDK.CafFaceLivenessExplicitFields
+  public typealias Element = CafSDK.CafFaceLivenessExplicitFields
+  public typealias RawValue = Swift.UInt
+}
+public struct CafDocumentDetectorExplicitFields : Swift.OptionSet, Swift.Sendable {
+  public let rawValue: Swift.UInt
+  public init(rawValue: Swift.UInt)
+  public static let allowUpload: CafSDK.CafDocumentDetectorExplicitFields
+  public static let uploadCompress: CafSDK.CafDocumentDetectorExplicitFields
+  public static let manualCapture: CafSDK.CafDocumentDetectorExplicitFields
+  public static let showPreCapturePopup: CafSDK.CafDocumentDetectorExplicitFields
+  public static let instructions: CafSDK.CafDocumentDetectorExplicitFields
+  public static let previewAfterCapture: CafSDK.CafDocumentDetectorExplicitFields
+  public static let enableMultiLanguage: CafSDK.CafDocumentDetectorExplicitFields
+  public static let documentSelection: CafSDK.CafDocumentDetectorExplicitFields
+  public static let all: CafSDK.CafDocumentDetectorExplicitFields
+  public typealias ArrayLiteralElement = CafSDK.CafDocumentDetectorExplicitFields
+  public typealias Element = CafSDK.CafDocumentDetectorExplicitFields
+  public typealias RawValue = Swift.UInt
+}
+public struct CafSmartCaptureExplicitFields : Swift.OptionSet, Swift.Sendable {
+  public let rawValue: Swift.UInt
+  public init(rawValue: Swift.UInt)
+  public static let autoCapture: CafSDK.CafSmartCaptureExplicitFields
+  public static let previewEnabled: CafSDK.CafSmartCaptureExplicitFields
+  public static let all: CafSDK.CafSmartCaptureExplicitFields
+  public typealias ArrayLiteralElement = CafSDK.CafSmartCaptureExplicitFields
+  public typealias Element = CafSDK.CafSmartCaptureExplicitFields
+  public typealias RawValue = Swift.UInt
+}
+public struct CafFeatureConfigDocument : Swift.Codable, Swift.Equatable {
+  public let schemaVersion: Swift.String
+  public let configVersion: Swift.String
+  public let ttlSeconds: Swift.Int
+  public let features: CafSDK.CafFeatureFlags
+  public init(schemaVersion: Swift.String = "1.0.0", configVersion: Swift.String = "2026-05-05T12:30:00Z", ttlSeconds: Swift.Int = 3600, features: CafSDK.CafFeatureFlags = CafFeatureFlags())
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: CafSDK.CafFeatureConfigDocument, b: CafSDK.CafFeatureConfigDocument) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension CafSDK.CafFeatureFlags {
+  public func merging(into faceConfig: CafSDK.CafFaceLivenessConfig, skipping explicit: CafSDK.CafFaceLivenessExplicitFields = []) -> CafSDK.CafFaceLivenessConfig
+}
+extension CafSDK.CafFeatureFlags {
+  public func merging(into docConfig: CafSDK.CafDocumentDetectorConfig, skipping explicit: CafSDK.CafDocumentDetectorExplicitFields = []) -> CafSDK.CafDocumentDetectorConfig
+}
+public enum CafFeatureFlagKey : Swift.String, Swift.CaseIterable, Swift.Sendable {
+  case faceLivenessModuleEnabled
+  case documentDetectorModuleEnabled
+  case smartCaptureModuleEnabled
+  case livenessLoadingEnabled
+  case livenessInstructionsEnabled
+  case faceAuthEnabled
+  case payFaceProviderEnabled
+  case livenessDebug
+  case documentDetectorAllowUpload
+  case documentDetectorUploadCompress
+  case documentDetectorManualCaptureEnabled
+  case documentDetectorShowPreCapturePopup
+  case documentDetectorInstructionsEnabled
+  case documentDetectorPreviewAfterCapture
+  case documentDetectorEnableMultiLanguage
+  case documentDetectorDocumentSelectionEnabled
+  case smartCaptureAutoCapture
+  case smartCapturePreviewEnabled
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [CafSDK.CafFeatureFlagKey]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.CafFeatureFlagKey] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafFeatureFlags : Swift.Codable, Swift.Equatable, Swift.Sendable {
+  public var entries: [Swift.String : Swift.Bool] {
+    get
+  }
+  public init(entries: [Swift.String : Swift.Bool] = [:])
+  public func contains(_ key: Swift.String) -> Swift.Bool
+  public func contains(_ key: CafSDK.CafFeatureFlagKey) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func bool(for key: Swift.String) -> Swift.Bool?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func bool(for key: CafSDK.CafFeatureFlagKey) -> Swift.Bool?
+  #endif
+  public func isModuleDisabled(_ key: CafSDK.CafFeatureFlagKey) -> Swift.Bool
+  public mutating func set(_ key: CafSDK.CafFeatureFlagKey, value: Swift.Bool)
+  public mutating func remove(_ key: CafSDK.CafFeatureFlagKey)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: CafSDK.CafFeatureFlags, b: CafSDK.CafFeatureFlags) -> Swift.Bool
+}
 public protocol CafInstructionsAnalyticsDelegate : AnyObject {
   func cameraPermissionRequested()
   func cameraPermissionGranted()
@@ -695,6 +801,15 @@ public struct CafColorConfiguration {
   public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
   #endif
 }
+public enum CafModuleConfigMergePolicy {
+  case featureFlags
+  case explicit
+  public static func == (a: CafSDK.CafModuleConfigMergePolicy, b: CafSDK.CafModuleConfigMergePolicy) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public class CafSDKConfiguration {
   final public let presentationOrder: [CafSDK.CafModuleType]
   public var nextStepContent: CafSDK.CafConfirmationNextStepContent?
@@ -709,12 +824,12 @@ public class CafSDKConfiguration {
 }
 extension CafSDK.CafSDKConfiguration {
   #if compiler(>=5.3) && $NonescapableTypes
-  public func setDocumentDetectorConfig(_ documentDetectorConfig: CafSDK.CafDocumentDetectorConfig?) -> CafSDK.CafSDKConfiguration
+  public func setDocumentDetectorConfig(_ documentDetectorConfig: CafSDK.CafDocumentDetectorConfig?, mergePolicy: CafSDK.CafModuleConfigMergePolicy = .featureFlags) -> CafSDK.CafSDKConfiguration
   #endif
 }
 extension CafSDK.CafSDKConfiguration {
   #if compiler(>=5.3) && $NonescapableTypes
-  public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?) -> CafSDK.CafSDKConfiguration
+  public func setFaceLivenessConfig(_ faceLivenessConfig: CafSDK.CafFaceLivenessConfig?, mergePolicy: CafSDK.CafModuleConfigMergePolicy = .featureFlags) -> CafSDK.CafSDKConfiguration
   #endif
 }
 public enum CafLogLevel : Swift.String {
@@ -737,6 +852,30 @@ public struct CafReverseProxyConfig : Swift.Codable, Swift.Equatable {
   public static func == (a: CafSDK.CafReverseProxyConfig, b: CafSDK.CafReverseProxyConfig) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum CafSDKFeatureFlagsResolver {
+  public static let faceLivenessDisabledMessage: Swift.String
+  public static let documentDetectorDisabledMessage: Swift.String
+  public static let smartCaptureDisabledMessage: Swift.String
+}
+public enum CafFaceLivenessRemoteOverride {
+  case none(CafSDK.CafFaceLivenessConfig)
+  case disabled
+  case apply(CafSDK.CafFaceLivenessConfig)
+}
+extension CafSDK.CafSDKFeatureFlagsResolver {
+  public static func resolveFaceLiveness(mobileToken: Swift.String, environment: CafSDK.CafEnvironment, base faceConfig: CafSDK.CafFaceLivenessConfig, explicitFields: CafSDK.CafFaceLivenessExplicitFields = [], bundle: Foundation.Bundle = Bundle(for: CafSDKProvider.self)) -> CafSDK.CafFaceLivenessRemoteOverride
+}
+public enum CafFaceLivenessResolvedConfig {
+  public static func mergingFeatureFlags(mobileToken: Swift.String, environment: CafSDK.CafEnvironment, base: CafSDK.CafFaceLivenessConfig, explicitFields: CafSDK.CafFaceLivenessExplicitFields = [], bundle: Foundation.Bundle = Bundle(for: CafSDKProvider.self)) -> CafSDK.CafFaceLivenessConfig
+}
+public enum CafDocumentDetectorRemoteOverride {
+  case none(CafSDK.CafDocumentDetectorConfig)
+  case disabled
+  case apply(CafSDK.CafDocumentDetectorConfig)
+}
+extension CafSDK.CafSDKFeatureFlagsResolver {
+  public static func resolveDocumentDetector(mobileToken: Swift.String, environment: CafSDK.CafEnvironment, base docConfig: CafSDK.CafDocumentDetectorConfig, explicitFields: CafSDK.CafDocumentDetectorExplicitFields = [], bundle: Foundation.Bundle = Bundle(for: CafSDKProvider.self)) -> CafSDK.CafDocumentDetectorRemoteOverride
 }
 @_hasMissingDesignatedInitializers final public class CafSDKProvider {
   public class Builder<Presenter> where Presenter : UIKit.UIViewController {
@@ -800,17 +939,19 @@ extension CafSDK.CerttaError : Foundation.LocalizedError {
   #endif
 }
 public struct CerttaDocumentDetectorConfiguration {
-  public init(flow: [CafSDK.CafDocumentDetectorStep], ui: CafSDK.CerttaDocumentDetectorUIConfiguration, enableMultiLanguage: Swift.Bool = true)
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(flow: [CafSDK.CafDocumentDetectorStep], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings = CafUploadSettings(enable: true), instructionsConfig: CafSDK.CafInstructionsConfiguration = CafInstructionsConfiguration(), requestTimeout: Foundation.TimeInterval = 60, showPreCapturePopup: Swift.Bool = true, showPreview: Swift.Bool = false, ddCustomizations: [any CafSDK.CafDDCustomization] = [], enableMultiLanguage: Swift.Bool = true, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, maxRetryAttempts: Swift.Int = 2)
+  public init(flow: [CafSDK.CafDocumentDetectorStep], ui: CafSDK.CerttaDocumentDetectorUIConfiguration, enableMultiLanguage: Swift.Bool? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(flow: [CafSDK.CafDocumentDetectorStep], layout: CafSDK.CafDocumentDetectorLayout = CafDocumentDetectorLayout(), uploadSettings: CafSDK.CafUploadSettings? = nil, instructionsConfig: CafSDK.CafInstructionsConfiguration? = nil, requestTimeout: Foundation.TimeInterval = 60, showPreCapturePopup: Swift.Bool? = nil, showPreview: Swift.Bool? = nil, ddCustomizations: [any CafSDK.CafDDCustomization] = [], enableMultiLanguage: Swift.Bool? = nil, selectDocumentConfig: CafSDK.CafSelectDocumentConfig? = nil, maxRetryAttempts: Swift.Int = 2, manualCaptureEnabled: Swift.Bool? = nil)
   #endif
   public init(from sdkConfig: CafSDK.CafDocumentDetectorConfig)
 }
 @_hasMissingDesignatedInitializers final public class CerttaDocumentDetector {
   public static let shared: CafSDK.CerttaDocumentDetector
   weak final public var delegate: (any CafSDK.CerttaDocumentDetectorDelegate)?
-  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaDocumentDetectorConfiguration = CerttaDocumentDetectorConfiguration(flow: []))
-  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaDocumentDetectorConfiguration = CerttaDocumentDetectorConfiguration(flow: []))
+  final public func open(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaDocumentDetectorConfiguration)
+  final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaDocumentDetectorConfiguration)
   @objc deinit
 }
 public protocol CerttaDocumentDetectorDelegate : AnyObject {
@@ -881,7 +1022,10 @@ public struct LivenessConfiguration {
   public let faceAuthEnabled: Swift.Bool
   public let showLoading: Swift.Bool
   public let useFaceLivenessUi: Swift.Bool
-  public init(maxRetryAttempts: Swift.Int = 3, faceAuthEnabled: Swift.Bool = false, showLoading: Swift.Bool = true, useFaceLivenessUi: Swift.Bool = false)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(baseFaceConfig: CafSDK.CafFaceLivenessConfig? = nil, maxRetryAttempts: Swift.Int? = nil, faceAuthEnabled: Swift.Bool? = nil, showLoading: Swift.Bool? = nil, useFaceLivenessUi: Swift.Bool = false)
+  #endif
+  public func baseConfigForFeatureFlags() -> CafSDK.CafFaceLivenessConfig
 }
 @_hasMissingDesignatedInitializers final public class CerttaLiveness {
   public static let shared: CafSDK.CerttaLiveness
@@ -890,6 +1034,7 @@ public struct LivenessConfiguration {
   final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.LivenessConfiguration = LivenessConfiguration())
   @objc deinit
 }
+public func certtaFaceConfigEnsuringVisibleStartup(_ config: CafSDK.CafFaceLivenessConfig) -> CafSDK.CafFaceLivenessConfig
 public protocol CerttaLivenessDelegate : AnyObject {
   func didFinish(signedResponse: Swift.String)
   func didFail(_ failure: CafSDK.LivenessFailure)
@@ -917,7 +1062,11 @@ public struct CerttaSmartCaptureConfiguration {
   public let requestTimeout: Foundation.TimeInterval
   public let previewEnabled: Swift.Bool
   public let autoCapture: Swift.Bool
-  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true)
+  public let showInstructions: Swift.Bool
+  public let validationType: CafSDK.CerttaSmartCaptureValidationType
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool? = nil, autoCapture: Swift.Bool? = nil, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload)
+  #endif
 }
 @_hasMissingDesignatedInitializers final public class CerttaSmartCapture {
   public static let shared: CafSDK.CerttaSmartCapture
@@ -926,12 +1075,26 @@ public struct CerttaSmartCaptureConfiguration {
   final public func loadSession(from presenter: UIKit.UIViewController, configuration: CafSDK.CerttaSmartCaptureConfiguration = CerttaSmartCaptureConfiguration())
   @objc deinit
 }
+public enum CerttaSmartCaptureValidationType : Swift.String {
+  case capture
+  case upload
+  case captureAndUpload
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct CerttaSmartCaptureConfig {
   public var requestTimeout: Foundation.TimeInterval
   public var autoCapture: Swift.Bool
   public var previewEnabled: Swift.Bool
+  public var showInstructions: Swift.Bool
+  public var validationType: CafSDK.CerttaSmartCaptureValidationType
   public var enableSecurity: Swift.Bool
-  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, enableSecurity: Swift.Bool = true)
+  public init(requestTimeout: Foundation.TimeInterval = 60.0, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true)
 }
 public protocol CerttaSmartCaptureDelegate : AnyObject {
   func didFinish(result: Swift.String)
@@ -983,6 +1146,9 @@ extension UIKit.UIImage {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func gifImage(named name: Swift.String, in bundle: Foundation.Bundle) -> UIKit.UIImage?
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func framedImageSequence(folder: Swift.String, frameCount: Swift.Int, reversed: Swift.Bool = false, fileExtension: Swift.String = "png", in bundle: Foundation.Bundle) -> [UIKit.UIImage]?
+  #endif
 }
 extension CafSDK.CafEnvironment : Swift.Equatable {}
 extension CafSDK.CafEnvironment : Swift.Hashable {}
@@ -1008,9 +1174,17 @@ extension CafSDK.CafFileFormatWrapper : Swift.RawRepresentable {}
 extension CafSDK.CafDocumentTypeKey : Swift.Equatable {}
 extension CafSDK.CafDocumentTypeKey : Swift.Hashable {}
 extension CafSDK.CafDocumentTypeKey : Swift.RawRepresentable {}
+extension CafSDK.CafFeatureFlagKey : Swift.Equatable {}
+extension CafSDK.CafFeatureFlagKey : Swift.Hashable {}
+extension CafSDK.CafFeatureFlagKey : Swift.RawRepresentable {}
 extension CafSDK.CafModuleType : Swift.Equatable {}
 extension CafSDK.CafModuleType : Swift.Hashable {}
 extension CafSDK.CafModuleType : Swift.RawRepresentable {}
+extension CafSDK.CafModuleConfigMergePolicy : Swift.Equatable {}
+extension CafSDK.CafModuleConfigMergePolicy : Swift.Hashable {}
 extension CafSDK.CafLogLevel : Swift.Equatable {}
 extension CafSDK.CafLogLevel : Swift.Hashable {}
 extension CafSDK.CafLogLevel : Swift.RawRepresentable {}
+extension CafSDK.CerttaSmartCaptureValidationType : Swift.Equatable {}
+extension CafSDK.CerttaSmartCaptureValidationType : Swift.Hashable {}
+extension CafSDK.CerttaSmartCaptureValidationType : Swift.RawRepresentable {}

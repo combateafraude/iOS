@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Am8aYVJiDOFnVVApGeZCzrAgXYE=
+		ay1y8lFcb1H2bQJ/qh7Zstu7q4I=
 		</data>
 		<key>Headers/FortfaceProvider-Swift.h</key>
 		<data>
@@ -14,61 +14,57 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		esJTTAFQR+PAVObyje88RijMsXk=
+		IUGX/BxjJWPnk7EA3BW0fyaKumo=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		99VT8flaSNpo8DY9O0Uo2U4SsNQ=
+		QK5e4D5xsFnXSadgRfAgR+D7W4M=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kzj4HVnBSNU7oDDUMBnY04eBBnY=
+		NicvZzztJqDf/kOhKqlwyZBe+58=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Nulu2pOHaAp/Y8GuoI0LRuoi+Zc=
+		PNUI/G73Uxiob1T6i8OFJsFqorQ=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kzj4HVnBSNU7oDDUMBnY04eBBnY=
+		NicvZzztJqDf/kOhKqlwyZBe+58=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rh7G0TXbIsntuM1lLzryK+sc2rY=
+		F/RMIPsMsl7KbYEE9QuJ9tNWEsU=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JxfGpseNXyD8UBqG7V6jCmErNog=
+		JyrxiD9SRjq20FPu9txpmTy4L6I=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		C6p6ZJvOuTDKpPmt+qK/cF3ZOio=
+		Z9AGPSpv4Icalh6rr6gkugX9OIE=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WojU+vH/0s1/0SAbKY8wa7xMjag=
+		TnnLPpNoBzxNUJgWjazl4PpBK3k=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		C6p6ZJvOuTDKpPmt+qK/cF3ZOio=
+		Z9AGPSpv4Icalh6rr6gkugX9OIE=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+KLWHKyOJnFPAGWlv99KN1BmCvY=
+		vlk21vur5a80IWImBtiGVH/FROM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		YTjWsbGokEti0Twt6R5Bq1eRmvc=
 		</data>
-		<key>Spininng.gif</key>
-		<data>
-		AoCOEaAPe6+WgphRTHByXqufc0w=
-		</data>
 		<key>en.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kFp+MDtzaC0RU8KrRtDGvdd/IVM=
+			zBhoHvgPJSNfAzgA6qGGXxOI97I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -77,16 +73,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			139+vQ8W/2fy2QF3VaDQ2VMIl88=
+			LyY2xd74JkQdO9z/Mc/J+wjLLxc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>loading_spinner_1.webp</key>
+		<data>
+		+4wIS7pjGq7H0gTmcBYKA9aDjow=
+		</data>
 		<key>pt-BR.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wF/tV7s9QmxzBKAr26Zo8Qq7l+Q=
+			E3b5rnh8ng8Kh9J2M9aTBfzYGtM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/YB6+fpdl91y+S0CSFO02hg/RTU=
+			a/DEld2VrMiURIFCTcM457UESWA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GXthQUTVb9V0OBQbAZBUAtT50PXt43ahIhHWKJudWbg=
+			1zA6Iq0CoiOmS1ILZfZ9xEiALSuiFZBG7Z8JitVPiqc=
 			</data>
 		</dict>
 		<key>Headers/FortfaceProvider-Swift.h</key>
@@ -121,70 +121,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wdrnE2sNV3eF/BqDics9+srIAVvhDSV54DahAZ/f6u8=
+			zjBNQSCabIxcrtiV2L11z82vo8gmjuzfFe8CmIXG66c=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			33eVdUvnJwvNrBqTr23KuCLFeAkmjhpNB0pAsipm8v0=
+			EuFx/wwvROnEIRoKvthfA+GQ6XpCEvvEBdasxhe7UZY=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WhNIXce/A8JoGKgajmCc0kxTEWYS77OaJYidxdN1EoE=
+			tJVWpGVojb0YBA+al3XVHXz+BHLP7OChxovyLRqjYQI=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			33eVdUvnJwvNrBqTr23KuCLFeAkmjhpNB0pAsipm8v0=
+			EuFx/wwvROnEIRoKvthfA+GQ6XpCEvvEBdasxhe7UZY=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jReIu0nx1q79499yCtRJ2yovYLwIPl/RqpK4iCSzV7M=
+			KwFq/28ItQe1Zx8UtqjgFiuTDMyZPYJb2vu/lVgvE+g=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uJobtJaMC/JAm7k1bcysiPnuo/G8aO5GeQ4efhITVj4=
+			binR43hU1/jX/jJohDorLTJCZv7toy2sJo99IufDMLA=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dp+RSv/6yl1QJrY8gOZm841XVF6G+D9NaIa//54FihM=
+			d7fSKBnOk1P+Czq5yfU6Wm9UgBykStM8M+/Jb7/ZdTE=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hfLTgGspcxtDBieYSvOSyE2yoUQn1Mr3mvn/caFSr30=
+			vOQ/yaR1RcLBIumu5z/+Q3ZqIwNx3Pp0RkpxBdz4+fU=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dp+RSv/6yl1QJrY8gOZm841XVF6G+D9NaIa//54FihM=
+			d7fSKBnOk1P+Czq5yfU6Wm9UgBykStM8M+/Jb7/ZdTE=
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w81wlxCbWNbqKPCWvyDlY/o4TMr4Apof9MyFYScxYn4=
+			jORJuCtd2YqLFu9DwTUxYe7VNw1O5Cv4wn9rqJUTnZg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -194,18 +194,11 @@
 			ioFY7MHuPNE05MkPm1eaV0aIxihdyoUfXQlWaZkLlF4=
 			</data>
 		</dict>
-		<key>Spininng.gif</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ui9X+RNMIZfDqBoVp9WlAfEMZbgvLQ300OCcSI4te54=
-			</data>
-		</dict>
 		<key>en.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0zPzsYHFmGZVbNYiKzt7MwIoQU8PYPWFQraeJ73euaE=
+			05HxnLUwZD/QjRXP7fnGxCDp7ZJua5jrk8iBm9kJ/SE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -214,16 +207,23 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zjLGgkm5cel2BZ3mr+FN0XTS6mmNZ6Lx61nGDetdC0k=
+			0+z7nZfE3+nEKM3AKa/lefrRwXoJoj2kFOyb2jgysLs=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>loading_spinner_1.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y9dO6upNyHXKBJe1KNkJR2NKrKytR292cggt4wEFRT8=
+			</data>
 		</dict>
 		<key>pt-BR.lproj/CDSStrings.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4e0iHLCUd/zGImYZuS0ABuUQ++EwBrQcal1jk1ibYtM=
+			PBKFxQbc0gdGYdztqFIoF1iI+yW/xPqozBuHAGTscTE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tNKRfqrTxtXorYquYuloncBWfvxKqFnDyvBzPvL5y/Y=
+			dclNpLLAlz4z/8pbHQuZTjxOOBYem2+ykjqm4KItGNY=
 			</data>
 			<key>optional</key>
 			<true/>

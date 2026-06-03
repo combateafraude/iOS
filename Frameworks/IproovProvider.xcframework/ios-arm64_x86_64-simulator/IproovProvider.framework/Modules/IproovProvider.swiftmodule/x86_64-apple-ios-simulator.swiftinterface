@@ -216,6 +216,9 @@ extension UIKit.UIImage {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func gifImage(named name: Swift.String, in bundle: Foundation.Bundle) -> UIKit.UIImage?
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func framedImageSequence(folder: Swift.String, frameCount: Swift.Int, reversed: Swift.Bool = false, fileExtension: Swift.String = "png", in bundle: Foundation.Bundle) -> [UIKit.UIImage]?
+  #endif
 }
 extension IproovProvider.CafEnvironment : Swift.Equatable {}
 extension IproovProvider.CafEnvironment : Swift.Hashable {}
