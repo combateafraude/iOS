@@ -99,15 +99,19 @@ extension CafSDKCommonsBridge.CafSDKBridgeColorConfiguration : Swift.Decodable {
 extension CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct CafSDKCommonsBridgeInstance {
-  public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
-  public let mobileToken: Swift.String
-  public let personId: Swift.String
-  public let environment: CafSDK.CafEnvironment
+final public class CafSDKCommonsBridgeInstance {
+  final public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
+  final public let mobileToken: Swift.String
+  final public let personId: Swift.String
+  final public let environment: CafSDK.CafEnvironment
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
-  public static func initialize(configuration: CafSDKCommonsBridge.CafSDKBridgeConfiguration)
+  public static func initialize(configuration: CafSDKCommonsBridge.CafSDKBridgeConfiguration, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
+  public static func build(viewController: UIKit.UIViewController) throws
+  public static func loadSession() throws
+  public static func startSDK() throws
   public static func getInstance() throws -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit

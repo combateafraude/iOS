@@ -2619,10 +2619,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceC19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvp",
             "moduleName": "CafSDKCommonsBridge",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -2642,10 +2643,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
-                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceC19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
+                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC19cafSdkConfiguration0A3SDK0A16SDKConfigurationCvg",
                 "moduleName": "CafSDKCommonsBridge",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -2663,10 +2667,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV11mobileTokenSSvp",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV11mobileTokenSSvp",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceC11mobileTokenSSvp",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC11mobileTokenSSvp",
             "moduleName": "CafSDKCommonsBridge",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -2686,10 +2691,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV11mobileTokenSSvg",
-                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV11mobileTokenSSvg",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceC11mobileTokenSSvg",
+                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC11mobileTokenSSvg",
                 "moduleName": "CafSDKCommonsBridge",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -2707,10 +2715,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV8personIdSSvp",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV8personIdSSvp",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceC8personIdSSvp",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC8personIdSSvp",
             "moduleName": "CafSDKCommonsBridge",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -2730,10 +2739,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV8personIdSSvg",
-                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV8personIdSSvg",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceC8personIdSSvg",
+                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC8personIdSSvg",
                 "moduleName": "CafSDKCommonsBridge",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -2751,10 +2763,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV11environment0A3SDK0A11EnvironmentOvp",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV11environment0A3SDK0A11EnvironmentOvp",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceC11environment0A3SDK0A11EnvironmentOvp",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC11environment0A3SDK0A11EnvironmentOvp",
             "moduleName": "CafSDKCommonsBridge",
             "declAttributes": [
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -2774,10 +2787,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV11environment0A3SDK0A11EnvironmentOvg",
-                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV11environment0A3SDK0A11EnvironmentOvg",
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceC11environment0A3SDK0A11EnvironmentOvg",
+                "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC11environment0A3SDK0A11EnvironmentOvg",
                 "moduleName": "CafSDKCommonsBridge",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -2791,7 +2807,7 @@
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsBridgeInstance",
                 "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceC"
               },
               {
                 "kind": "TypeNominal",
@@ -2819,8 +2835,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration11mobileToken8personId11environmentAC0A3SDK0A16SDKConfigurationC_S2SAH0A11EnvironmentOtcfc",
-            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV19cafSdkConfiguration11mobileToken8personId11environmentAC0A3SDK0A16SDKConfigurationC_S2SAH0A11EnvironmentOtcfc",
+            "usr": "s:19CafSDKCommonsBridge0abC8InstanceC19cafSdkConfiguration11mobileToken8personId11environmentAC0A3SDK0A16SDKConfigurationC_S2SAH0A11EnvironmentOtcfc",
+            "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC19cafSdkConfiguration11mobileToken8personId11environmentAC0A3SDK0A16SDKConfigurationC_S2SAH0A11EnvironmentOtcfc",
             "moduleName": "CafSDKCommonsBridge",
             "declAttributes": [
               "AccessControl"
@@ -2828,11 +2844,12 @@
             "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:19CafSDKCommonsBridge0abC8InstanceV",
-        "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceV",
+        "declKind": "Class",
+        "usr": "s:19CafSDKCommonsBridge0abC8InstanceC",
+        "mangledName": "$s19CafSDKCommonsBridge0abC8InstanceC",
         "moduleName": "CafSDKCommonsBridge",
         "declAttributes": [
+          "Final",
           "AccessControl"
         ],
         "conformances": [
@@ -2877,7 +2894,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(configuration:)",
+            "printedName": "initialize(configuration:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2889,17 +2906,110 @@
                 "name": "CafSDKBridgeConfiguration",
                 "printedName": "CafSDKCommonsBridge.CafSDKBridgeConfiguration",
                 "usr": "s:19CafSDKCommonsBridge0A22SDKBridgeConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDK.CafUnifiedEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafUnifiedEvent",
+                    "printedName": "CafSDK.CafUnifiedEvent",
+                    "usr": "s:6CafSDK0A12UnifiedEventO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0abC4MainC10initialize13configurationyAA0A22SDKBridgeConfigurationV_tFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC10initialize13configurationyAA0A22SDKBridgeConfigurationV_tFZ",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC10initialize13configuration8callbackyAA0A22SDKBridgeConfigurationV_y0A3SDK0A12UnifiedEventOctFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC10initialize13configuration8callbackyAA0A22SDKBridgeConfigurationV_y0A3SDK0A12UnifiedEventOctFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC5build14viewControllerySo06UIViewG0C_tKFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC5build14viewControllerySo06UIViewG0C_tKFZ",
+            "moduleName": "CafSDKCommonsBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadSession",
+            "printedName": "loadSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC11loadSessionyyKFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC11loadSessionyyKFZ",
+            "moduleName": "CafSDKCommonsBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSDK",
+            "printedName": "startSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC8startSDKyyKFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC8startSDKyyKFZ",
+            "moduleName": "CafSDKCommonsBridge",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2911,12 +3021,12 @@
                 "kind": "TypeNominal",
                 "name": "CafSDKCommonsBridgeInstance",
                 "printedName": "CafSDKCommonsBridge.CafSDKCommonsBridgeInstance",
-                "usr": "s:19CafSDKCommonsBridge0abC8InstanceV"
+                "usr": "s:19CafSDKCommonsBridge0abC8InstanceC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19CafSDKCommonsBridge0abC4MainC11getInstanceAA0abcF0VyKFZ",
-            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC11getInstanceAA0abcF0VyKFZ",
+            "usr": "s:19CafSDKCommonsBridge0abC4MainC11getInstanceAA0abcF0CyKFZ",
+            "mangledName": "$s19CafSDKCommonsBridge0abC4MainC11getInstanceAA0abcF0CyKFZ",
             "moduleName": "CafSDKCommonsBridge",
             "static": true,
             "declAttributes": [
