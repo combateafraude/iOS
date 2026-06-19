@@ -10,8 +10,39 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct CafFaceLivenessUIBridgeConfiguration {
+  public let loading: Swift.Bool?
+  public let certificates: [Swift.String]?
+  public let livenessBaseUrl: Swift.String?
+  public let authBaseUrl: Swift.String?
+  public let maxRetryAttempts: Swift.Int?
+  public let executeFaceAuth: Swift.Bool?
+  public let payFaceDebugMode: Swift.Bool?
+  public let debugModeEnabled: Swift.Bool?
+  public let screenCaptureEnabled: Swift.Bool?
+  public let instructionScreen: CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration?
+}
+public enum CafFaceLivenessUIBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
+  #endif
+  public typealias Configuration = CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration
+}
+extension CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
 public class CafFaceLivenessUIBridgeMain {
-  public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSdkBridgePlatform, bridgeConfiguration: [Swift.String : Swift.String])
-  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, jsonString: Swift.String)
+  public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform, bridgeConfiguration: [Swift.String : Swift.String])
+  public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, configuration: CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration)
   @objc deinit
+}
+public struct CafFaceLivenessUIInstructionScreenConfiguration {
+  public let image: Swift.String?
+  public let title: Swift.String?
+  public let description: Swift.String?
+  public let steps: [Swift.String]?
+  public let buttonText: Swift.String?
 }
