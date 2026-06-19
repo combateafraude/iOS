@@ -148,20 +148,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "CafSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "CafSDK",
         "declAttributes": [
           "RawDocComment"
@@ -176,13 +162,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafSDK"
       },
       {
         "kind": "Import",
@@ -47408,251 +47387,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 103,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 8,
-      "value": "\"Basic \""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 183,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 231,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 275,
-      "length": 8,
-      "value": "\"userId\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 307,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 343,
-      "length": 12,
-      "value": "\"properties\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 387,
-      "length": 10,
-      "value": "\"clientId\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 424,
-      "length": 10,
-      "value": "\"personId\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 461,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 499,
-      "length": 11,
-      "value": "\"sessionId\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 538,
-      "length": 11,
-      "value": "\"timestamp\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 581,
-      "length": 15,
-      "value": "\"requestParams\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 626,
-      "length": 13,
-      "value": "\"requestBody\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 671,
-      "length": 15,
-      "value": "\"configuration\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 713,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 752,
-      "length": 12,
-      "value": "\"deviceData\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 790,
-      "length": 9,
-      "value": "\"appName\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 828,
-      "length": 12,
-      "value": "\"appVersion\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 868,
-      "length": 11,
-      "value": "\"requestId\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 907,
-      "length": 11,
-      "value": "\"visitorId\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 942,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 979,
-      "length": 13,
-      "value": "\"apiEndpoint\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1023,
-      "length": 14,
-      "value": "\"responseCode\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1068,
-      "length": 14,
-      "value": "\"responseTime\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1113,
-      "length": 14,
-      "value": "\"responseData\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1155,
-      "length": 11,
-      "value": "\"errorCode\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1197,
-      "length": 14,
-      "value": "\"errorMessage\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1236,
-      "length": 8,
-      "value": "\"result\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1273,
-      "length": 12,
-      "value": "\"stackTrace\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1315,
-      "length": 13,
-      "value": "\"mobileToken\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1357,
-      "length": 12,
-      "value": "\"entrypoint\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1405,
-      "length": 19,
-      "value": "\"entrypointVersion\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1457,
-      "length": 16,
-      "value": "\"signedResponse\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1502,
-      "length": 13,
-      "value": "\"result_info\""
-    },
-    {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
       "offset": 164,
@@ -48330,41 +48064,6 @@
       "offset": 4771,
       "length": 18,
       "value": "\"security_enabled\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsServer.swift",
-      "kind": "StringLiteral",
-      "offset": 76,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsServer.swift",
-      "kind": "StringLiteral",
-      "offset": 126,
-      "length": 51,
-      "value": "\"https:\/\/cafdev.dataplane.rudderstack.com\/v1\/track\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsServer.swift",
-      "kind": "StringLiteral",
-      "offset": 222,
-      "length": 48,
-      "value": "\"https:\/\/caf.dataplane.rudderstack.com\/v1\/track\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsServer.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 48,
-      "value": "\"Basic MnREWW0wWmZYQ25yeU1rVnZFR3BRYm5yUkdJOg==\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics\/CafAnalyticsServer.swift",
-      "kind": "StringLiteral",
-      "offset": 407,
-      "length": 48,
-      "value": "\"Basic MnREWXgxbnV0a3ZlclJzNnQ3bW5BVjQybmNyOg==\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
@@ -52296,21 +51995,21 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 189,
+      "offset": 190,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 253,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 319,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },

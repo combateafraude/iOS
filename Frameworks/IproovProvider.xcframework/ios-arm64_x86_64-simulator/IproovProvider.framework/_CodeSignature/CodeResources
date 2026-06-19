@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		52x5+ZrCOkiGWNzTLdTBkbDpcTM=
+		M6d97mH41EhOnlI/w33CaBO049Q=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sFg+85zX7YALxcwWylW00dHd8iQ=
+		zi4Pr4fxy+6ZE/BeKo51+S9wYrM=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gsN/fkSL0jd7T3/sSLRB1prikH8=
+		z0fzoC9mQmBBH4zWixB3SF4hQfI=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gsN/fkSL0jd7T3/sSLRB1prikH8=
+		z0fzoC9mQmBBH4zWixB3SF4hQfI=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V2pVkugdQecr8nvQkhcgAqVWm/0=
+		Eam1luWWeGqAQJUsfs95Qn0+rKY=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+bzF+7+jpWZ+yVqG5MLQ0sE49hY=
+		jidgBMj7sj9qK/ps7OAsXrsHGA0=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OkWXv+iFjMp9RqP7guUQd8bAMS0=
+		m5LyFNAgcLauqOtOdyVNDeRL02s=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OkWXv+iFjMp9RqP7guUQd8bAMS0=
+		m5LyFNAgcLauqOtOdyVNDeRL02s=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i2R+sTRH8A9okUW0Yc/jevZi92k=
+		l8rfHEPODoNhWEgZ1uU1oI9LZ7o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0EYUEBannuwTgVm7uy12NuU1Ve7WGI6/4/hFeELHFjk=
+			nx8noqlXR2NuueZFw0/jM7kMb4G87PzzJUaT/30DdZE=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zr0fVL+25y1IiOQeIk60+8MAzAPEDiK7oqrnrfICdpQ=
+			ch3PLMLmORmyXrYlVkq7L5nS3fnQewIlqDUt0fjhFbM=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -142,28 +142,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zr0fVL+25y1IiOQeIk60+8MAzAPEDiK7oqrnrfICdpQ=
+			ch3PLMLmORmyXrYlVkq7L5nS3fnQewIlqDUt0fjhFbM=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfeaRNERPkCJBhv4hEuwy0ZSzzVKy5z6o2KB6/qKpv8=
+			X+8LhM3SIqQWymgqLJn5XkJAKYGqnHeaU/piUHPvxMI=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3D3hmvlS/oy2LVw+1QK1oA0uRYSDqmGXnk/eK51Um2w=
+			6alMOiPukkZdRvrGIZHj70FFB9Ef+KLbAvvIiHisQVs=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9bvuGR6Tjf0QxTxUEaCFMTuKBz9EeIRGF2XYqajds+Y=
+			ePwLnTPfzq2P+zjPl0GelvyJa3pM0CJhtxVW/dLghOc=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -177,14 +177,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9bvuGR6Tjf0QxTxUEaCFMTuKBz9EeIRGF2XYqajds+Y=
+			ePwLnTPfzq2P+zjPl0GelvyJa3pM0CJhtxVW/dLghOc=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VuLJX19IeGCZe0JPpMfX1lgBTV0mTA3OZipWSpjRl2c=
+			z/xWI0tMSsb5bKRx0viSxqJS7/uBjO0cr1NHE+UmMm4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

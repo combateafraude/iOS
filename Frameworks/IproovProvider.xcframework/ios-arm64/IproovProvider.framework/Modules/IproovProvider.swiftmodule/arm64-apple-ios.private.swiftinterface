@@ -20,7 +20,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import iProov
 import ObjectiveC.runtime
 extension UIKit.UIColor {
   convenience public init(byHex: Swift.String)

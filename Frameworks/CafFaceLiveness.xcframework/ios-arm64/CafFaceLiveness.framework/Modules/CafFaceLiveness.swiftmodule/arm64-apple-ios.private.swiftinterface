@@ -9,7 +9,6 @@ import CerttaBase
 import CommonCrypto
 import Darwin
 import DeveloperToolsSupport
-import FingerprintPro
 import Foundation
 import ImageIO
 import MachO

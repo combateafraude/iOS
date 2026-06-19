@@ -9,16 +9,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "DocumentDetector"
       },
       {
@@ -593,54 +583,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
       },
       {
         "kind": "Import",
@@ -18632,23 +18574,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -21184,40 +21109,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "CafLogLevel",
         "printedName": "CafLogLevel",
@@ -22325,76 +22216,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -37899,205 +37720,12 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "TensorFlowLiteC",
         "printedName": "TensorFlowLiteC",
         "declKind": "Import",
         "moduleName": "DocumentDetector",
         "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Delegate",
-        "printedName": "Delegate",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "cDelegate",
-            "printedName": "cDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UnsafeMutablePointer",
-                "printedName": "Swift.UnsafeMutablePointer<TensorFlowLiteC.TfLiteDelegate>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TfLiteDelegate",
-                    "printedName": "TensorFlowLiteC.TfLiteDelegate",
-                    "usr": "c:@S@TfLiteDelegate"
-                  }
-                ],
-                "usr": "s:Sp"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector8DelegateP01cC0SpySo06TfLiteC0VGvp",
-            "mangledName": "$s16DocumentDetector8DelegateP01cC0SpySo06TfLiteC0VGvp",
-            "moduleName": "DocumentDetector",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<TensorFlowLiteC.TfLiteDelegate>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TfLiteDelegate",
-                        "printedName": "TensorFlowLiteC.TfLiteDelegate",
-                        "usr": "c:@S@TfLiteDelegate"
-                      }
-                    ],
-                    "usr": "s:Sp"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector8DelegateP01cC0SpySo06TfLiteC0VGvg",
-                "mangledName": "$s16DocumentDetector8DelegateP01cC0SpySo06TfLiteC0VGvg",
-                "moduleName": "DocumentDetector",
-                "genericSig": "<τ_0_0 where τ_0_0 : DocumentDetector.Delegate>",
-                "sugared_genericSig": "<Self where Self : DocumentDetector.Delegate>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:16DocumentDetector8DelegateP",
-        "mangledName": "$s16DocumentDetector8DelegateP",
-        "moduleName": "DocumentDetector",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -38881,16 +38509,6 @@
             "usr": "s:16DocumentDetector32CafInstructionsAnalyticsDelegateP",
             "mangledName": "$s16DocumentDetector32CafInstructionsAnalyticsDelegateP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -48203,26 +47821,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "DocumentDetector"
       },
       {
@@ -48258,53 +47856,6 @@
         "printedName": "MachO",
         "declKind": "Import",
         "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -48634,7 +48185,10 @@
         "name": "TensorFlowLiteC",
         "printedName": "TensorFlowLiteC",
         "declKind": "Import",
-        "moduleName": "DocumentDetector"
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -48642,1042 +48196,6 @@
         "printedName": "Darwin",
         "declKind": "Import",
         "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Interpreter",
-        "printedName": "Interpreter",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "options",
-            "printedName": "options",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DocumentDetector.Interpreter.Options?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Options",
-                    "printedName": "DocumentDetector.Interpreter.Options",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector11InterpreterC7optionsAC7OptionsVSgvp",
-            "mangledName": "$s16DocumentDetector11InterpreterC7optionsAC7OptionsVSgvp",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DocumentDetector.Interpreter.Options?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Options",
-                        "printedName": "DocumentDetector.Interpreter.Options",
-                        "usr": "s:16DocumentDetector11InterpreterC7OptionsV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector11InterpreterC7optionsAC7OptionsVSgvg",
-                "mangledName": "$s16DocumentDetector11InterpreterC7optionsAC7OptionsVSgvg",
-                "moduleName": "DocumentDetector",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "delegates",
-            "printedName": "delegates",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[any DocumentDetector.Delegate]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any DocumentDetector.Delegate]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Delegate",
-                        "printedName": "any DocumentDetector.Delegate",
-                        "usr": "s:16DocumentDetector8DelegateP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector11InterpreterC9delegatesSayAA8Delegate_pGSgvp",
-            "mangledName": "$s16DocumentDetector11InterpreterC9delegatesSayAA8Delegate_pGSgvp",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[any DocumentDetector.Delegate]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[any DocumentDetector.Delegate]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Delegate",
-                            "printedName": "any DocumentDetector.Delegate",
-                            "usr": "s:16DocumentDetector8DelegateP"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector11InterpreterC9delegatesSayAA8Delegate_pGSgvg",
-                "mangledName": "$s16DocumentDetector11InterpreterC9delegatesSayAA8Delegate_pGSgvg",
-                "moduleName": "DocumentDetector",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "inputTensorCount",
-            "printedName": "inputTensorCount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector11InterpreterC16inputTensorCountSivp",
-            "mangledName": "$s16DocumentDetector11InterpreterC16inputTensorCountSivp",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector11InterpreterC16inputTensorCountSivg",
-                "mangledName": "$s16DocumentDetector11InterpreterC16inputTensorCountSivg",
-                "moduleName": "DocumentDetector",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "outputTensorCount",
-            "printedName": "outputTensorCount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector11InterpreterC17outputTensorCountSivp",
-            "mangledName": "$s16DocumentDetector11InterpreterC17outputTensorCountSivp",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector11InterpreterC17outputTensorCountSivg",
-                "mangledName": "$s16DocumentDetector11InterpreterC17outputTensorCountSivg",
-                "moduleName": "DocumentDetector",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "signatureKeys",
-            "printedName": "signatureKeys",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16DocumentDetector11InterpreterC13signatureKeysSaySSGvp",
-            "mangledName": "$s16DocumentDetector11InterpreterC13signatureKeysSaySSGvp",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16DocumentDetector11InterpreterC13signatureKeysSaySSGvg",
-                "mangledName": "$s16DocumentDetector11InterpreterC13signatureKeysSaySSGvg",
-                "moduleName": "DocumentDetector",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(modelPath:options:delegates:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Interpreter",
-                "printedName": "DocumentDetector.Interpreter",
-                "usr": "s:16DocumentDetector11InterpreterC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DocumentDetector.Interpreter.Options?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Options",
-                    "printedName": "DocumentDetector.Interpreter.Options",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[any DocumentDetector.Delegate]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any DocumentDetector.Delegate]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Delegate",
-                        "printedName": "any DocumentDetector.Delegate",
-                        "usr": "s:16DocumentDetector8DelegateP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16DocumentDetector11InterpreterC9modelPath7options9delegatesACSS_AC7OptionsVSgSayAA8Delegate_pGSgtKcfc",
-            "mangledName": "$s16DocumentDetector11InterpreterC9modelPath7options9delegatesACSS_AC7OptionsVSgSayAA8Delegate_pGSgtKcfc",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Convenience",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(modelData:options:delegates:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Interpreter",
-                "printedName": "DocumentDetector.Interpreter",
-                "usr": "s:16DocumentDetector11InterpreterC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DocumentDetector.Interpreter.Options?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Options",
-                    "printedName": "DocumentDetector.Interpreter.Options",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[any DocumentDetector.Delegate]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any DocumentDetector.Delegate]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Delegate",
-                        "printedName": "any DocumentDetector.Delegate",
-                        "usr": "s:16DocumentDetector8DelegateP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16DocumentDetector11InterpreterC9modelData7options9delegatesAC10Foundation0E0V_AC7OptionsVSgSayAA8Delegate_pGSgtKcfc",
-            "mangledName": "$s16DocumentDetector11InterpreterC9modelData7options9delegatesAC10Foundation0E0V_AC7OptionsVSgSayAA8Delegate_pGSgtKcfc",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Convenience",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Function",
-            "name": "invoke",
-            "printedName": "invoke()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector11InterpreterC6invokeyyKF",
-            "mangledName": "$s16DocumentDetector11InterpreterC6invokeyyKF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "input",
-            "printedName": "input(at:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Tensor",
-                "printedName": "DocumentDetector.Tensor",
-                "usr": "s:16DocumentDetector6TensorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector11InterpreterC5input2atAA6TensorVSi_tKF",
-            "mangledName": "$s16DocumentDetector11InterpreterC5input2atAA6TensorVSi_tKF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "output",
-            "printedName": "output(at:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Tensor",
-                "printedName": "DocumentDetector.Tensor",
-                "usr": "s:16DocumentDetector6TensorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector11InterpreterC6output2atAA6TensorVSi_tKF",
-            "mangledName": "$s16DocumentDetector11InterpreterC6output2atAA6TensorVSi_tKF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "resizeInput",
-            "printedName": "resizeInput(at:to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Shape",
-                "printedName": "DocumentDetector.Tensor.Shape",
-                "usr": "s:16DocumentDetector6TensorV5ShapeV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector11InterpreterC11resizeInput2at2toySi_AA6TensorV5ShapeVtKF",
-            "mangledName": "$s16DocumentDetector11InterpreterC11resizeInput2at2toySi_AA6TensorV5ShapeVtKF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "copy",
-            "printedName": "copy(_:toInputAt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Tensor",
-                "printedName": "DocumentDetector.Tensor",
-                "usr": "s:16DocumentDetector6TensorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector11InterpreterC4copy_9toInputAtAA6TensorV10Foundation4DataV_SitKF",
-            "mangledName": "$s16DocumentDetector11InterpreterC4copy_9toInputAtAA6TensorV10Foundation4DataV_SitKF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "DiscardableResult",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "allocateTensors",
-            "printedName": "allocateTensors()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector11InterpreterC15allocateTensorsyyKF",
-            "mangledName": "$s16DocumentDetector11InterpreterC15allocateTensorsyyKF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "signatureRunner",
-            "printedName": "signatureRunner(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SignatureRunner",
-                "printedName": "DocumentDetector.SignatureRunner",
-                "usr": "s:16DocumentDetector15SignatureRunnerC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16DocumentDetector11InterpreterC15signatureRunner4withAA09SignatureE0CSS_tKF",
-            "mangledName": "$s16DocumentDetector11InterpreterC15signatureRunner4withAA09SignatureE0CSS_tKF",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Options",
-            "printedName": "Options",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "threadCount",
-                "printedName": "threadCount",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvp",
-                "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvp",
-                "moduleName": "DocumentDetector",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Int?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvg",
-                    "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvg",
-                    "moduleName": "DocumentDetector",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Int?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvs",
-                    "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvs",
-                    "moduleName": "DocumentDetector",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvM",
-                    "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV11threadCountSiSgvM",
-                    "moduleName": "DocumentDetector",
-                    "implicit": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "isXNNPackEnabled",
-                "printedName": "isXNNPackEnabled",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvp",
-                "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvp",
-                "moduleName": "DocumentDetector",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvg",
-                    "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvg",
-                    "moduleName": "DocumentDetector",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvs",
-                    "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvs",
-                    "moduleName": "DocumentDetector",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvM",
-                    "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV16isXNNPackEnabledSbvM",
-                    "moduleName": "DocumentDetector",
-                    "implicit": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Options",
-                    "printedName": "DocumentDetector.Interpreter.Options",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:16DocumentDetector11InterpreterC7OptionsVAEycfc",
-                "mangledName": "$s16DocumentDetector11InterpreterC7OptionsVAEycfc",
-                "moduleName": "DocumentDetector",
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Options",
-                    "printedName": "DocumentDetector.Interpreter.Options",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Options",
-                    "printedName": "DocumentDetector.Interpreter.Options",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:16DocumentDetector11InterpreterC7OptionsV2eeoiySbAE_AEtFZ",
-                "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV2eeoiySbAE_AEtFZ",
-                "moduleName": "DocumentDetector",
-                "static": true,
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Var",
-                "name": "hashValue",
-                "printedName": "hashValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:16DocumentDetector11InterpreterC7OptionsV9hashValueSivp",
-                "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV9hashValueSivp",
-                "moduleName": "DocumentDetector",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16DocumentDetector11InterpreterC7OptionsV9hashValueSivg",
-                    "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV9hashValueSivg",
-                    "moduleName": "DocumentDetector",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "hash",
-                "printedName": "hash(into:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hasher",
-                    "printedName": "Swift.Hasher",
-                    "paramValueOwnership": "InOut",
-                    "usr": "s:s6HasherV"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:16DocumentDetector11InterpreterC7OptionsV4hash4intoys6HasherVz_tF",
-                "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV4hash4intoys6HasherVz_tF",
-                "moduleName": "DocumentDetector",
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:16DocumentDetector11InterpreterC7OptionsV",
-            "mangledName": "$s16DocumentDetector11InterpreterC7OptionsV",
-            "moduleName": "DocumentDetector",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16DocumentDetector11InterpreterC",
-        "mangledName": "$s16DocumentDetector11InterpreterC",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -50666,7 +49184,10 @@
         "name": "TensorFlowLiteC",
         "printedName": "TensorFlowLiteC",
         "declKind": "Import",
-        "moduleName": "DocumentDetector"
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -50690,7 +49211,10 @@
         "name": "TensorFlowLiteC",
         "printedName": "TensorFlowLiteC",
         "declKind": "Import",
-        "moduleName": "DocumentDetector"
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -50767,16 +49291,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DocumentDetector",
         "declAttributes": [
@@ -51111,7 +49625,10 @@
         "name": "TensorFlowLiteC",
         "printedName": "TensorFlowLiteC",
         "declKind": "Import",
-        "moduleName": "DocumentDetector"
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -52299,7 +50816,10 @@
         "name": "TensorFlowLiteC",
         "printedName": "TensorFlowLiteC",
         "declKind": "Import",
-        "moduleName": "DocumentDetector"
+        "moduleName": "DocumentDetector",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -53531,6 +52051,7 @@
         "declKind": "Import",
         "moduleName": "DocumentDetector",
         "declAttributes": [
+          "ImplementationOnly",
           "RawDocComment"
         ]
       },
@@ -53671,16 +52192,6 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
         "moduleName": "DocumentDetector"
       },
       {
@@ -53706,26 +52217,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DocumentDetector"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DocumentDetector",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -56318,104 +54809,6 @@
       "value": "\"camera_permission_button\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 880,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 940,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1021,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1121,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1204,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1292,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1351,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1435,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1489,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1546,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1724,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1782,
-      "length": 13,
-      "value": "\"camera_icon\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2056,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Camera\/CafCameraViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2114,
-      "length": 8,
-      "value": "\"x_icon\""
-    },
-    {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Output\/CafCapture.swift",
       "kind": "IntegerLiteral",
       "offset": 367,
@@ -58000,21 +56393,21 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 189,
+      "offset": 190,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 253,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 319,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
@@ -58726,20 +57119,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/CafInternationalDocumentFlowCoordinator.swift",
-      "kind": "Array",
-      "offset": 363,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/CafInternationalDocumentFlowCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 401,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafJWTDecoder.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
@@ -59235,223 +57614,6 @@
       "offset": 5796,
       "length": 17,
       "value": "\"upload_subtitle\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 795,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 848,
-      "length": 4,
-      "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 898,
-      "length": 4,
-      "value": "24.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 951,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1007,
-      "length": 3,
-      "value": "8.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1060,
-      "length": 5,
-      "value": "100.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1121,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1181,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1238,
-      "length": 4,
-      "value": "40.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1286,
-      "length": 4,
-      "value": "50.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1343,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1403,
-      "length": 5,
-      "value": "-24.0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1895,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2031,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2221,
-      "length": 15,
-      "value": "\"preview_title\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2449,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2500,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2615,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2813,
-      "length": 21,
-      "value": "\"preview_description\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3047,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3098,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3188,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3248,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3457,
-      "length": 22,
-      "value": "\"approve_button_title\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3701,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3780,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4119,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4327,
-      "length": 21,
-      "value": "\"retake_button_title\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4570,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4649,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/International\/Scenes\/Preview\/CafPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4873,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-utils\/CafSDKTimer.swift",
@@ -60399,69 +58561,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 323,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 385,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 541,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 656,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 831,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 906,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 973,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1163,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/CapturePreview\/Views\/CapturePreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1350,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
       "kind": "StringLiteral",
       "offset": 381,
@@ -61374,35 +59473,35 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1212,
+      "offset": 1142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "FloatLiteral",
-      "offset": 1364,
+      "offset": 1294,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "FloatLiteral",
-      "offset": 1376,
+      "offset": 1306,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1405,
+      "offset": 1335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/DocumentDetectorController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1467,
+      "offset": 1397,
       "length": 5,
       "value": "false"
     },
@@ -61708,13 +59807,6 @@
       "value": "\"https:\/\/api.public.caf.io\/v1\/sdks\/\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/InternationalFlow\/Modules\/DocumentCapture\/ViewControllers\/GenericPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 490,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/TensorFlowLite\/Interpreter.swift",
       "kind": "BooleanLiteral",
       "offset": 16007,
@@ -61752,49 +59844,49 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/ModelDataHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 792,
+      "offset": 813,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/ModelDataHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 821,
+      "offset": 842,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/ModelDataHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 878,
+      "offset": 899,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/ModelDataHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 904,
+      "offset": 925,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/ModelDataHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 927,
+      "offset": 948,
       "length": 3,
       "value": "384"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/ModelDataHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 960,
+      "offset": 981,
       "length": 3,
       "value": "384"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/ModelDataHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1551,
+      "offset": 1572,
       "length": 1,
       "value": "1"
     },
@@ -62151,7 +60243,7 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-document-detector\/DocumentDetector\/Controller\/Predictor\/DataHandler\/TensorFlowLite\/SignatureRunner.swift",
       "kind": "BooleanLiteral",
-      "offset": 3210,
+      "offset": 3231,
       "length": 4,
       "value": "true"
     },
@@ -62389,301 +60481,252 @@
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1311,
-      "length": 12,
-      "value": "\"check_grey\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1454,
-      "length": 13,
-      "value": "\"check_white\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1319,
       "length": 16,
       "value": "\"checkmark_icon\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1740,
+      "offset": 1455,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1878,
+      "offset": 1593,
       "length": 13,
       "value": "\"close_white\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2016,
+      "offset": 1731,
       "length": 10,
       "value": "\"cnh_back\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2155,
+      "offset": 1870,
       "length": 12,
       "value": "\"cnh_frente\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2294,
+      "offset": 2009,
       "length": 11,
       "value": "\"cnh_front\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2430,
+      "offset": 2145,
       "length": 10,
       "value": "\"cnh_full\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2567,
+      "offset": 2282,
       "length": 11,
       "value": "\"cnh_verso\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2718,
+      "offset": 2433,
       "length": 20,
       "value": "\"confirmation_image\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2856,
+      "offset": 2571,
       "length": 6,
       "value": "\"crlv\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2996,
+      "offset": 2711,
       "length": 15,
       "value": "\"ctps_back_caf\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3147,
+      "offset": 2862,
       "length": 16,
       "value": "\"ctps_front_caf\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3285,
+      "offset": 3000,
       "length": 11,
       "value": "\"doc_image\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3442,
-      "length": 21,
-      "value": "\"document_mask_green\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3605,
-      "length": 19,
-      "value": "\"document_mask_red\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3770,
-      "length": 21,
-      "value": "\"document_mask_white\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3915,
+      "offset": 3135,
       "length": 12,
       "value": "\"face_image\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4060,
+      "offset": 3280,
       "length": 14,
       "value": "\"failure_icon\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4207,
-      "length": 14,
-      "value": "\"generic_back\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4356,
+      "offset": 3429,
       "length": 15,
       "value": "\"generic_front\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4498,
+      "offset": 3571,
       "length": 11,
       "value": "\"ic_camera\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4630,
+      "offset": 3703,
       "length": 8,
       "value": "\"ic_car\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4761,
+      "offset": 3834,
       "length": 9,
       "value": "\"ic_crlv\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
+      "offset": 3966,
       "length": 9,
       "value": "\"ic_ctps\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5023,
+      "offset": 4096,
       "length": 8,
       "value": "\"ic_doc\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5158,
+      "offset": 4231,
       "length": 11,
       "value": "\"ic_others\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5300,
+      "offset": 4373,
       "length": 13,
       "value": "\"ic_passport\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5434,
+      "offset": 4507,
       "length": 8,
       "value": "\"ic_rne\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5569,
+      "offset": 4642,
       "length": 11,
       "value": "\"ic_upload\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5713,
+      "offset": 4786,
       "length": 14,
       "value": "\"invalid_icon\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5851,
+      "offset": 4924,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5986,
+      "offset": 5059,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6119,
+      "offset": 5192,
       "length": 9,
       "value": "\"rg_back\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6253,
+      "offset": 5326,
       "length": 10,
       "value": "\"rg_front\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6386,
+      "offset": 5459,
       "length": 9,
       "value": "\"rg_full\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6520,
+      "offset": 5593,
       "length": 10,
       "value": "\"rne_back\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6657,
+      "offset": 5730,
       "length": 11,
       "value": "\"rne_front\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6801,
+      "offset": 5874,
       "length": 14,
       "value": "\"success_icon\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6941,
-      "length": 10,
-      "value": "\"triangle\""
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 7079,
+      "offset": 6016,
       "length": 14,
       "value": "\"upload_image\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Library\/Developer\/Xcode\/DerivedData\/CafSDK-dfyoxjtuygtkksfaoqsqiilurasj\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DocumentDetector\/IntermediateBuildFilesPath\/CafSDK.build\/Release-iphonesimulator\/DocumentDetector.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7214,
+      "offset": 6151,
       "length": 8,
       "value": "\"x_icon\""
     }
