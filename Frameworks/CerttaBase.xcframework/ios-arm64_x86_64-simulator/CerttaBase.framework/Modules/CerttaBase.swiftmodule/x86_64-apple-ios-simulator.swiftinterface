@@ -13,3 +13,18 @@ public protocol CafFaceLivenessProvidersProtocol {
 public protocol SmartCaptureProvidersProtocol {
   func startSmartCapture(parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]) -> Swift.Void)
 }
+public struct CafFingerprintModel : Swift.Codable {
+  public let visitorId: Swift.String?
+  public let requestId: Swift.String?
+  public let error: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(visitorId: Swift.String? = nil, requestId: Swift.String? = nil, error: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol CafFingerprintProviderProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func fetch(fingerprintPublicKey: Swift.String) async -> CerttaBase.CafFingerprintModel?
+  #endif
+}
