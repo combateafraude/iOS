@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '6.3.3-rc.19'
+  s.version          = '6.4.0-rc.1'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -47,7 +47,6 @@ Pod::Spec.new do |s|
   s.subspec 'CafFaceLivenessCore' do |flc|
     flc.vendored_frameworks = 'Frameworks/CafFaceLiveness.xcframework'
     flc.dependency 'CafSDKiOS/CafCore'
-    flc.dependency 'FingerprintPro', '2.7.0'
     flc.dependency 'CafSDKiOS/CerttaBase'
   end
 
@@ -115,4 +114,14 @@ Pod::Spec.new do |s|
     flui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
     flui.dependency 'CafSolutions', caf_solutions_version
   end
+
+    # Fingerprint (módulo OPCIONAL).
+  # Só é baixado por quem declarar 'CafSDKiOS/CafFingerprintProvider'.
+  # É aqui — e SÓ aqui — que o FingerprintPro entra.
+  s.subspec 'CafFingerprintProvider' do |fp|
+    fp.vendored_frameworks = 'Frameworks/CafFingerprintProvider.xcframework'
+    fp.dependency 'CafSDKiOS/CerttaBase'
+    fp.dependency 'FingerprintPro', '2.16.0'
+  end
+  
 end

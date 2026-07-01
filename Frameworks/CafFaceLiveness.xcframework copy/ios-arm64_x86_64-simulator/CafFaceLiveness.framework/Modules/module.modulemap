@@ -1,0 +1,11 @@
+framework module CafFaceLiveness {
+  umbrella header "CafFaceLiveness.h"
+  export *
+
+  module * { export * }
+}
+
+module CafFaceLiveness.Swift {
+  header "CafFaceLiveness-Swift.h"
+  requires objc
+}

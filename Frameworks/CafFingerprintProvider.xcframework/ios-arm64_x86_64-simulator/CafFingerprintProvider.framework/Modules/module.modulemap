@@ -1,0 +1,4 @@
+framework module CafFingerprintProvider {
+  header "CafFingerprintProvider-Swift.h"
+  requires objc
+}

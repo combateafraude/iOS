@@ -1,0 +1,4 @@
+framework module FaceTec2DProvider {
+  header "FaceTec2DProvider-Swift.h"
+  requires objc
+}

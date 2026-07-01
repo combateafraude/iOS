@@ -15,108 +15,20 @@ import _SwiftConcurrencyShims
   #endif
   @objc deinit
 }
-public enum CafJsonParser {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func decode<T>(_ type: T.Type, from jsonString: Swift.String) -> Swift.Result<T, CafSDKCommonsBridge.CafSDKBridgeException> where T : Swift.Decodable
-  #endif
-  public static func validateAllowedKeys(in decoder: any Swift.Decoder, allowed: Swift.Set<Swift.String>) throws
-}
-public struct CafSDKBridgeBuilderConfiguration {
-  public let presentationOrder: [Swift.Int]
-  public let colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration?
-  public let nextStepContentConfiguration: CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration?
-  public let waitForAllServices: Swift.Bool?
-  public let enableTransitionScreens: Swift.Bool?
-  public let enableSecurityModule: Swift.Bool?
-}
-public struct CafSDKBridgeColorConfiguration {
-  public let primaryColor: Swift.String?
-  public let secondaryColor: Swift.String?
-  public let backgroundColor: Swift.String?
-  public let contentColor: Swift.String?
-  public let mediumColor: Swift.String?
-  public let dialogBackgroundColor: Swift.String?
-  public let dialogBorderColor: Swift.String?
-}
-public struct CafSDKBridgeConfiguration {
+public struct CafSDKCommonsBridgeInstance {
+  public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
   public let mobileToken: Swift.String
   public let personId: Swift.String
-  public let environment: Swift.Int
-  public let configuration: CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration
-}
-public enum CafSDKBridgeErrorType {
-  case bridgeException
-  public static func == (a: CafSDKCommonsBridge.CafSDKBridgeErrorType, b: CafSDKCommonsBridge.CafSDKBridgeErrorType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public enum CafSDKBridgeException : Swift.Error, Swift.Equatable {
-  case invalidJson
-  case missingRequiredKey(key: Swift.String)
-  case unexpectedKey(key: Swift.String)
-  case invalidEnvironment(received: Swift.Int)
-  case invalidPresentationOrder(received: Swift.Int)
-  case invalidInstance
-  public var errorType: CafSDKCommonsBridge.CafSDKBridgeErrorType {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var errorMessage: Swift.String? {
-    get
-  }
-  #endif
-  public static func == (a: CafSDKCommonsBridge.CafSDKBridgeException, b: CafSDKCommonsBridge.CafSDKBridgeException) -> Swift.Bool
-}
-public protocol CafSDKBridgeMapper {
-  associatedtype Configuration
-  #if compiler(>=5.3) && $NonescapableTypes
-  static func map(from jsonString: Swift.String) -> Swift.Result<Self.Configuration, CafSDKCommonsBridge.CafSDKBridgeException>
-  #endif
-}
-public struct CafSDKBridgeNextStepContentConfiguration {
-  public let title: Swift.String?
-  public let description: Swift.String?
-  public let buttonText: Swift.String?
-  public let image: Swift.String?
-}
-public enum CafSDKCommonsBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func map(from jsonString: Swift.String) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
-  #endif
-  public typealias Configuration = CafSDKCommonsBridge.CafSDKBridgeConfiguration
-}
-extension CafSDKCommonsBridge.CafSDKBridgeConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension CafSDKCommonsBridge.CafSDKBridgeColorConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension CafSDKCommonsBridge.CafSDKBridgeNextStepContentConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-final public class CafSDKCommonsBridgeInstance {
-  final public let cafSdkConfiguration: CafSDK.CafSDKConfiguration
-  final public let mobileToken: Swift.String
-  final public let personId: Swift.String
-  final public let environment: CafSDK.CafEnvironment
+  public let environment: CafSDK.CafEnvironment
   public init(cafSdkConfiguration: CafSDK.CafSDKConfiguration, mobileToken: Swift.String, personId: Swift.String, environment: CafSDK.CafEnvironment)
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CafSDKCommonsBridgeMain {
-  public static func initialize(configuration: CafSDKCommonsBridge.CafSDKBridgeConfiguration, callback: @escaping (CafSDK.CafUnifiedEvent) -> Swift.Void)
-  public static func build(viewController: UIKit.UIViewController) throws
-  public static func loadSession() throws
-  public static func startSDK() throws
-  public static func getInstance() throws -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func initialize(jsonString: Swift.String) -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
+  public static func getInstance() -> CafSDKCommonsBridge.CafSDKCommonsBridgeInstance
   public static func release()
   @objc deinit
 }
-public enum CafSDKBridgePlatform : Swift.String {
+public enum CafSdkBridgePlatform : Swift.String {
   case reactNativeIos
   case flutterIos
   #if compiler(>=5.3) && $NonescapableTypes
@@ -127,8 +39,6 @@ public enum CafSDKBridgePlatform : Swift.String {
     get
   }
 }
-extension CafSDKCommonsBridge.CafSDKBridgeErrorType : Swift.Equatable {}
-extension CafSDKCommonsBridge.CafSDKBridgeErrorType : Swift.Hashable {}
-extension CafSDKCommonsBridge.CafSDKBridgePlatform : Swift.Equatable {}
-extension CafSDKCommonsBridge.CafSDKBridgePlatform : Swift.Hashable {}
-extension CafSDKCommonsBridge.CafSDKBridgePlatform : Swift.RawRepresentable {}
+extension CafSDKCommonsBridge.CafSdkBridgePlatform : Swift.Equatable {}
+extension CafSDKCommonsBridge.CafSdkBridgePlatform : Swift.Hashable {}
+extension CafSDKCommonsBridge.CafSdkBridgePlatform : Swift.RawRepresentable {}

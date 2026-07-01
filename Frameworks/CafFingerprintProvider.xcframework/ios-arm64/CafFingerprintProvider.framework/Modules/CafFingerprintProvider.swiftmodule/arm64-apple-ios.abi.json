@@ -1,0 +1,194 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CafFingerprintProvider",
+    "printedName": "CafFingerprintProvider",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFingerprintProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FingerprintPro",
+        "printedName": "FingerprintPro",
+        "declKind": "Import",
+        "moduleName": "CafFingerprintProvider",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CerttaBase",
+        "printedName": "CerttaBase",
+        "declKind": "Import",
+        "moduleName": "CafFingerprintProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFingerprintProvider",
+        "printedName": "CafFingerprintProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFingerprintProvider",
+                "printedName": "CafFingerprintProvider.CafFingerprintProvider",
+                "usr": "c:@M@CafFingerprintProvider@objc(cs)CafFingerprintProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CafFingerprintProvider@objc(cs)CafFingerprintProvider(im)init",
+            "mangledName": "$s22CafFingerprintProviderAACABycfc",
+            "moduleName": "CafFingerprintProvider",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetch",
+            "printedName": "fetch(fingerprintPublicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CerttaBase.CafFingerprintModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFingerprintModel",
+                    "printedName": "CerttaBase.CafFingerprintModel",
+                    "usr": "s:10CerttaBase19CafFingerprintModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22CafFingerprintProviderAAC5fetch20fingerprintPublicKey10CerttaBase0aB5ModelVSgSS_tYaF",
+            "mangledName": "$s22CafFingerprintProviderAAC5fetch20fingerprintPublicKey10CerttaBase0aB5ModelVSgSS_tYaF",
+            "moduleName": "CafFingerprintProvider",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CafFingerprintProvider@objc(cs)CafFingerprintProvider",
+        "mangledName": "$s22CafFingerprintProviderAAC",
+        "moduleName": "CafFingerprintProvider",
+        "objc_name": "CafFingerprintProvider",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CafFingerprintProviderProtocol",
+            "printedName": "CafFingerprintProviderProtocol",
+            "usr": "s:10CerttaBase30CafFingerprintProviderProtocolP",
+            "mangledName": "$s10CerttaBase30CafFingerprintProviderProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

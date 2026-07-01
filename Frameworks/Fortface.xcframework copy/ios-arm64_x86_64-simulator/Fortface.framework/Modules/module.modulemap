@@ -1,0 +1,11 @@
+framework module Fortface {
+  umbrella header "Fortface.h"
+  export *
+
+  module * { export * }
+}
+
+module Fortface.Swift {
+  header "Fortface-Swift.h"
+  requires objc
+}
