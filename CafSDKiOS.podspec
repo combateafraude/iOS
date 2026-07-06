@@ -116,8 +116,7 @@ Pod::Spec.new do |s|
   end
 
     # Fingerprint (módulo OPCIONAL).
-  # Só é baixado por quem declarar 'CafSDKiOS/CafFingerprintProvider'.
-  # É aqui — e SÓ aqui — que o FingerprintPro entra.
+  
   s.subspec 'CafFingerprintProvider' do |fp|
     fp.vendored_frameworks = 'Frameworks/CafFingerprintProvider.xcframework'
     fp.dependency 'CafSDKiOS/CerttaBase'
