@@ -1228,6 +1228,27 @@
         "printedName": "CerttaFaceLivenessBridgeMain",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaFaceLivenessBridgeMain",
+                "printedName": "CafFaceLivenessBridge.CerttaFaceLivenessBridgeMain",
+                "usr": "s:21CafFaceLivenessBridge06CerttabcD4MainC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD4MainCACycfc",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD4MainCACycfc",
+            "moduleName": "CafFaceLivenessBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "open",
             "printedName": "open(viewController:livenessConfiguration:)",
@@ -1267,7 +1288,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",

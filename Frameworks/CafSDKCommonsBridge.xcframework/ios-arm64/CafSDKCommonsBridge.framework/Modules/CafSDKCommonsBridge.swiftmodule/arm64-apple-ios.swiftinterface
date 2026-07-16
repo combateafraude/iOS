@@ -9,7 +9,8 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class CerttaSDKCommonsBridgeMain {
+public class CerttaSDKCommonsBridgeMain {
+  public init()
   public func configureSDK(configuration: CafSDKCommonsBridge.CerttaSDKBridgeConfiguration)
   public func isInitialized() -> Swift.Bool
   public func updateMobileToken(mobileToken: Swift.String)

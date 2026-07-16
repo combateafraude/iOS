@@ -45,7 +45,8 @@ extension CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration : Swift.Decod
 extension CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class CerttaFaceLivenessBridgeMain {
+public class CerttaFaceLivenessBridgeMain {
+  public init()
   public func open(viewController: UIKit.UIViewController, livenessConfiguration: CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration)
   @objc deinit
 }
