@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafDocumentDetectorUIBridge
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CafSDK
 import CafSDKCommonsBridge
 import DocumentDetector
@@ -83,6 +83,9 @@ extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel :
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentGroupLabels : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CafDocumentDetectorUIBridgeDocumentGroupLabels {
@@ -195,4 +198,30 @@ public struct CafDocumentDetectorUIBridgeUploadSettings {
   public let compress: Swift.Bool?
   public let fileFormats: [Swift.Int]?
   public let maxFileSize: Swift.Int?
+}
+public struct CerttaDocumentDetectorUIBridgeConfiguration {
+  public let flow: [CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeFlow]
+  public let uploadSettings: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadSettings?
+  public let requestTimeout: Swift.Double?
+  public let showPopup: Swift.Bool?
+  public let showPreview: Swift.Bool?
+  public let previewCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgePreviewCustomization?
+  public let messageCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeMessageCustomization?
+  public let uploadCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadCustomization?
+  public let uploadMessagesCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeUploadMessagesCustomization?
+  public let retryCustomization: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeRetryCustomization?
+  public let maxRetryAttempts: Swift.Int?
+  public let instructionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration?
+  public let documentSelectionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration?
+}
+public enum CerttaDocumentDetectorUIBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
+  #endif
+  public typealias Configuration = CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration
+}
+public class CerttaDocumentDetectorUIBridgeMain {
+  public init()
+  public func open(viewController: UIKit.UIViewController, documentDetectorUiConfiguration: CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration)
+  @objc deinit
 }

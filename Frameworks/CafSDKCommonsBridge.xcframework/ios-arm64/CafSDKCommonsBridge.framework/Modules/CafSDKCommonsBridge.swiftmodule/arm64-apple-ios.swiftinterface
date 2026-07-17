@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDKCommonsBridge
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CafSDK
 import Foundation
 import Swift
@@ -9,21 +9,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class CerttaSDKCommonsBridgeMain {
-  public init()
-  public func configureSDK(configuration: CafSDKCommonsBridge.CerttaSDKBridgeConfiguration)
-  public func isInitialized() -> Swift.Bool
-  public func updateMobileToken(mobileToken: Swift.String)
-  public func updateUserId(userId: Swift.String)
-  @objc deinit
-}
-public struct CerttaSDKBridgeConfiguration {
-  public let mobileToken: Swift.String
-  public let userId: Swift.String
-  public let environment: Swift.Int
-  public let securityEnabled: Swift.Bool
-  public let colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration?
-}
 @_hasMissingDesignatedInitializers public class CafImageParser {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func loadImage(from urlString: Swift.String?) -> UIKit.UIImage?
@@ -145,11 +130,29 @@ public enum CafSDKBridgePlatform : Swift.String {
     get
   }
 }
+public typealias CerttaLogCallback = (_ level: Swift.String, _ message: Swift.String) -> Swift.Void
+public struct CerttaSDKBridgeConfiguration {
+  public let mobileToken: Swift.String
+  public let userId: Swift.String
+  public let environment: Swift.Int
+  public let securityEnabled: Swift.Bool
+  public let colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration?
+}
 public enum CerttaSDKCommonsBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func map(from jsonString: Swift.String) -> Swift.Result<CafSDKCommonsBridge.CerttaSDKBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
   #endif
   public typealias Configuration = CafSDKCommonsBridge.CerttaSDKBridgeConfiguration
+}
+public class CerttaSDKCommonsBridgeMain {
+  public init()
+  public func configureSDK(configuration: CafSDKCommonsBridge.CerttaSDKBridgeConfiguration)
+  public func registerLogListener(_ callback: @escaping CafSDKCommonsBridge.CerttaLogCallback)
+  public func clearLogListener()
+  public func isInitialized() -> Swift.Bool
+  public func updateMobileToken(mobileToken: Swift.String)
+  public func updateUserId(userId: Swift.String)
+  @objc deinit
 }
 extension CafSDKCommonsBridge.CafSDKBridgeErrorType : Swift.Equatable {}
 extension CafSDKCommonsBridge.CafSDKBridgeErrorType : Swift.Hashable {}

@@ -25,118 +25,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "CafSDKCommonsBridge",
-        "printedName": "CafSDKCommonsBridge",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CerttaFaceLivenessBridgeConfigurationMapper",
-        "printedName": "CerttaFaceLivenessBridgeConfigurationMapper",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "map",
-            "printedName": "map(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Result",
-                "printedName": "Swift.Result<CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CerttaFaceLivenessBridgeConfiguration",
-                    "printedName": "CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration",
-                    "usr": "s:21CafFaceLivenessBridge06CerttabcD13ConfigurationV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CafSDKBridgeException",
-                    "printedName": "CafSDKCommonsBridge.CafSDKBridgeException",
-                    "usr": "s:19CafSDKCommonsBridge0A18SDKBridgeExceptionO"
-                  }
-                ],
-                "usr": "s:s6ResultO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO3map4froms6ResultOyAA0ebcdF0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
-            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO3map4froms6ResultOyAA0ebcdF0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
-            "moduleName": "CafFaceLivenessBridge",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO",
-        "mangledName": "$s21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO",
-        "moduleName": "CafFaceLivenessBridge",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CafSDKBridgeMapper",
-            "printedName": "CafSDKBridgeMapper",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Configuration",
-                "printedName": "Configuration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CerttaFaceLivenessBridgeConfiguration",
-                    "printedName": "CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration",
-                    "usr": "s:21CafFaceLivenessBridge06CerttabcD13ConfigurationV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:19CafSDKCommonsBridge0A15SDKBridgeMapperP",
-            "mangledName": "$s19CafSDKCommonsBridge0A15SDKBridgeMapperP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "CafFaceLivenessBridgeConfiguration",
         "printedName": "CafFaceLivenessBridgeConfiguration",
@@ -760,6 +648,271 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFaceLivenessBridgeConfigurationMapper",
+        "printedName": "CafFaceLivenessBridgeConfigurationMapper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "map",
+            "printedName": "map(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFaceLivenessBridgeConfiguration",
+                    "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
+                    "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKBridgeException",
+                    "printedName": "CafSDKCommonsBridge.CafSDKBridgeException",
+                    "usr": "s:19CafSDKCommonsBridge0A18SDKBridgeExceptionO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21CafFaceLivenessBridge0abcD19ConfigurationMapperO",
+        "mangledName": "$s21CafFaceLivenessBridge0abcD19ConfigurationMapperO",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CafSDKBridgeMapper",
+            "printedName": "CafSDKBridgeMapper",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Configuration",
+                "printedName": "Configuration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafFaceLivenessBridgeConfiguration",
+                    "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
+                    "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:19CafSDKCommonsBridge0A15SDKBridgeMapperP",
+            "mangledName": "$s19CafSDKCommonsBridge0A15SDKBridgeMapperP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CafFaceLivenessBridgeMain",
+        "printedName": "CafFaceLivenessBridgeMain",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkBridgePlatform:bridgeConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessBridgeMain",
+                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeMain",
+                "usr": "s:21CafFaceLivenessBridge0abcD4MainC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSDKBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0A17SDKBridgePlatformO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21CafFaceLivenessBridge0abcD4MainC03sdkD8Platform19bridgeConfigurationAC0a10SDKCommonsD00a9SDKBridgeG0O_SDyS2SGtcfc",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC03sdkD8Platform19bridgeConfigurationAC0a10SDKCommonsD00a9SDKBridgeG0O_SDyS2SGtcfc",
+            "moduleName": "CafFaceLivenessBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "applySettings",
+            "printedName": "applySettings(cafSdkConfigurationInstance:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSDKConfiguration",
+                "printedName": "CafSDK.CafSDKConfiguration",
+                "usr": "s:6CafSDK0A16SDKConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessBridgeConfiguration",
+                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
+                "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance13configurationy0A3SDK0A16SDKConfigurationC_AA0abcdJ0VtF",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance13configurationy0A3SDK0A16SDKConfigurationC_AA0abcdJ0VtF",
+            "moduleName": "CafFaceLivenessBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21CafFaceLivenessBridge0abcD4MainC",
+        "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "CerttaFaceLivenessBridgeConfiguration",
         "printedName": "CerttaFaceLivenessBridgeConfiguration",
@@ -1068,16 +1221,6 @@
       },
       {
         "kind": "Import",
-        "name": "CafSDK",
-        "printedName": "CafSDK",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1095,8 +1238,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "CafFaceLivenessBridgeConfigurationMapper",
-        "printedName": "CafFaceLivenessBridgeConfigurationMapper",
+        "name": "CerttaFaceLivenessBridgeConfigurationMapper",
+        "printedName": "CerttaFaceLivenessBridgeConfigurationMapper",
         "children": [
           {
             "kind": "Function",
@@ -1106,13 +1249,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Result",
-                "printedName": "Swift.Result<CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>",
+                "printedName": "Swift.Result<CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CafFaceLivenessBridgeConfiguration",
-                    "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
-                    "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
+                    "name": "CerttaFaceLivenessBridgeConfiguration",
+                    "printedName": "CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration",
+                    "usr": "s:21CafFaceLivenessBridge06CerttabcD13ConfigurationV"
                   },
                   {
                     "kind": "TypeNominal",
@@ -1131,8 +1274,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD19ConfigurationMapperO3map4froms6ResultOyAA0abcdE0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO3map4froms6ResultOyAA0ebcdF0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO3map4froms6ResultOyAA0ebcdF0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
             "moduleName": "CafFaceLivenessBridge",
             "static": true,
             "declAttributes": [
@@ -1143,8 +1286,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:21CafFaceLivenessBridge0abcD19ConfigurationMapperO",
-        "mangledName": "$s21CafFaceLivenessBridge0abcD19ConfigurationMapperO",
+        "usr": "s:21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO",
+        "mangledName": "$s21CafFaceLivenessBridge06CerttabcD19ConfigurationMapperO",
         "moduleName": "CafFaceLivenessBridge",
         "declAttributes": [
           "AccessControl"
@@ -1176,9 +1319,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CafFaceLivenessBridgeConfiguration",
-                    "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
-                    "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
+                    "name": "CerttaFaceLivenessBridgeConfiguration",
+                    "printedName": "CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration",
+                    "usr": "s:21CafFaceLivenessBridge06CerttabcD13ConfigurationV"
                   }
                 ]
               }
@@ -1187,23 +1330,6 @@
             "mangledName": "$s19CafSDKCommonsBridge0A15SDKBridgeMapperP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CafSDKCommonsBridge",
-        "printedName": "CafSDKCommonsBridge",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge"
       },
       {
         "kind": "Import",
@@ -1284,132 +1410,6 @@
         "declKind": "Class",
         "usr": "s:21CafFaceLivenessBridge06CerttabcD4MainC",
         "mangledName": "$s21CafFaceLivenessBridge06CerttabcD4MainC",
-        "moduleName": "CafFaceLivenessBridge",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CafSDK",
-        "printedName": "CafSDK",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CafSDKCommonsBridge",
-        "printedName": "CafSDKCommonsBridge",
-        "declKind": "Import",
-        "moduleName": "CafFaceLivenessBridge"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CafFaceLivenessBridgeMain",
-        "printedName": "CafFaceLivenessBridgeMain",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(sdkBridgePlatform:bridgeConfiguration:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CafFaceLivenessBridgeMain",
-                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeMain",
-                "usr": "s:21CafFaceLivenessBridge0abcD4MainC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CafSDKBridgePlatform",
-                "printedName": "CafSDKCommonsBridge.CafSDKBridgePlatform",
-                "usr": "s:19CafSDKCommonsBridge0A17SDKBridgePlatformO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:21CafFaceLivenessBridge0abcD4MainC03sdkD8Platform19bridgeConfigurationAC0a10SDKCommonsD00a9SDKBridgeG0O_SDyS2SGtcfc",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC03sdkD8Platform19bridgeConfigurationAC0a10SDKCommonsD00a9SDKBridgeG0O_SDyS2SGtcfc",
-            "moduleName": "CafFaceLivenessBridge",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "applySettings",
-            "printedName": "applySettings(cafSdkConfigurationInstance:configuration:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CafSDKConfiguration",
-                "printedName": "CafSDK.CafSDKConfiguration",
-                "usr": "s:6CafSDK0A16SDKConfigurationC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CafFaceLivenessBridgeConfiguration",
-                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration",
-                "usr": "s:21CafFaceLivenessBridge0abcD13ConfigurationV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance13configurationy0A3SDK0A16SDKConfigurationC_AA0abcdJ0VtF",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance13configurationy0A3SDK0A16SDKConfigurationC_AA0abcdJ0VtF",
-            "moduleName": "CafFaceLivenessBridge",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:21CafFaceLivenessBridge0abcD4MainC",
-        "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC",
         "moduleName": "CafFaceLivenessBridge",
         "declAttributes": [
           "AccessControl"

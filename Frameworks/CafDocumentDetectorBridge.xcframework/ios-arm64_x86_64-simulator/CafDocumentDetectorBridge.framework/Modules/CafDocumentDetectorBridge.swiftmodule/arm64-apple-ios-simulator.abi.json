@@ -5545,6 +5545,954 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CerttaDocumentDetectorBridgeConfiguration",
+        "printedName": "CerttaDocumentDetectorBridgeConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "flow",
+            "printedName": "flow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CafDocumentDetectorBridge.CafDocumentDetectorBridgeFlow]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentDetectorBridgeFlow",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeFlow",
+                    "usr": "s:25CafDocumentDetectorBridge0abcD4FlowV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV4flowSayAA0abcD4FlowVGvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV4flowSayAA0abcD4FlowVGvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CafDocumentDetectorBridge.CafDocumentDetectorBridgeFlow]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentDetectorBridgeFlow",
+                        "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeFlow",
+                        "usr": "s:25CafDocumentDetectorBridge0abcD4FlowV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV4flowSayAA0abcD4FlowVGvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV4flowSayAA0abcD4FlowVGvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadSettings",
+            "printedName": "uploadSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadSettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentDetectorBridgeUploadSettings",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadSettings",
+                    "usr": "s:25CafDocumentDetectorBridge0abcD14UploadSettingsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadSettings?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentDetectorBridgeUploadSettings",
+                        "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadSettings",
+                        "usr": "s:25CafDocumentDetectorBridge0abcD14UploadSettingsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14uploadSettingsAA0abcd6UploadH0VSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestTimeout",
+            "printedName": "requestTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14requestTimeoutSdSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14requestTimeoutSdSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14requestTimeoutSdSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV14requestTimeoutSdSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showPopup",
+            "printedName": "showPopup",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV9showPopupSbSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV9showPopupSbSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV9showPopupSbSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV9showPopupSbSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showPreview",
+            "printedName": "showPreview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11showPreviewSbSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11showPreviewSbSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11showPreviewSbSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11showPreviewSbSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewCustomization",
+            "printedName": "previewCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgePreviewCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentDetectorBridgePreviewCustomization",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgePreviewCustomization",
+                    "usr": "s:25CafDocumentDetectorBridge0abcD20PreviewCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgePreviewCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentDetectorBridgePreviewCustomization",
+                        "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgePreviewCustomization",
+                        "usr": "s:25CafDocumentDetectorBridge0abcD20PreviewCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20previewCustomizationAA0abcd7PreviewH0VSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "messageCustomization",
+            "printedName": "messageCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeMessageCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentDetectorBridgeMessageCustomization",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeMessageCustomization",
+                    "usr": "s:25CafDocumentDetectorBridge0abcD20MessageCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeMessageCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentDetectorBridgeMessageCustomization",
+                        "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeMessageCustomization",
+                        "usr": "s:25CafDocumentDetectorBridge0abcD20MessageCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV20messageCustomizationAA0abcd7MessageH0VSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadCustomization",
+            "printedName": "uploadCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentDetectorBridgeUploadCustomization",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadCustomization",
+                    "usr": "s:25CafDocumentDetectorBridge0abcD19UploadCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentDetectorBridgeUploadCustomization",
+                        "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadCustomization",
+                        "usr": "s:25CafDocumentDetectorBridge0abcD19UploadCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV19uploadCustomizationAA0abcd6UploadH0VSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uploadMessagesCustomization",
+            "printedName": "uploadMessagesCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadMessagesCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentDetectorBridgeUploadMessagesCustomization",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadMessagesCustomization",
+                    "usr": "s:25CafDocumentDetectorBridge0abcD27UploadMessagesCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadMessagesCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentDetectorBridgeUploadMessagesCustomization",
+                        "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadMessagesCustomization",
+                        "usr": "s:25CafDocumentDetectorBridge0abcD27UploadMessagesCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV27uploadMessagesCustomizationAA0abcd6UploadhI0VSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "retryCustomization",
+            "printedName": "retryCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeRetryCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafDocumentDetectorBridgeRetryCustomization",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeRetryCustomization",
+                    "usr": "s:25CafDocumentDetectorBridge0abcD18RetryCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeRetryCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafDocumentDetectorBridgeRetryCustomization",
+                        "printedName": "CafDocumentDetectorBridge.CafDocumentDetectorBridgeRetryCustomization",
+                        "usr": "s:25CafDocumentDetectorBridge0abcD18RetryCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV18retryCustomizationAA0abcd5RetryH0VSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxRetryAttempts",
+            "printedName": "maxRetryAttempts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV16maxRetryAttemptsSiSgvp",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV16maxRetryAttemptsSiSgvp",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV16maxRetryAttemptsSiSgvg",
+                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV16maxRetryAttemptsSiSgvg",
+                "moduleName": "CafDocumentDetectorBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaDocumentDetectorBridgeConfiguration",
+                "printedName": "CafDocumentDetectorBridge.CerttaDocumentDetectorBridgeConfiguration",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV",
+        "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV",
+        "moduleName": "CafDocumentDetectorBridge",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CerttaDocumentDetectorBridgeConfigurationMapper",
+        "printedName": "CerttaDocumentDetectorBridgeConfigurationMapper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "map",
+            "printedName": "map(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<CafDocumentDetectorBridge.CerttaDocumentDetectorBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CerttaDocumentDetectorBridgeConfiguration",
+                    "printedName": "CafDocumentDetectorBridge.CerttaDocumentDetectorBridgeConfiguration",
+                    "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafSDKBridgeException",
+                    "printedName": "CafSDKCommonsBridge.CafSDKBridgeException",
+                    "usr": "s:19CafSDKCommonsBridge0A18SDKBridgeExceptionO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD19ConfigurationMapperO3map4froms6ResultOyAA0ebcdF0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD19ConfigurationMapperO3map4froms6ResultOyAA0ebcdF0V0a10SDKCommonsD00A18SDKBridgeExceptionOGSS_tFZ",
+            "moduleName": "CafDocumentDetectorBridge",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:25CafDocumentDetectorBridge06CerttabcD19ConfigurationMapperO",
+        "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD19ConfigurationMapperO",
+        "moduleName": "CafDocumentDetectorBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CafSDKBridgeMapper",
+            "printedName": "CafSDKBridgeMapper",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Configuration",
+                "printedName": "Configuration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CerttaDocumentDetectorBridgeConfiguration",
+                    "printedName": "CafDocumentDetectorBridge.CerttaDocumentDetectorBridgeConfiguration",
+                    "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:19CafSDKCommonsBridge0A15SDKBridgeMapperP",
+            "mangledName": "$s19CafSDKCommonsBridge0A15SDKBridgeMapperP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CerttaDocumentDetectorBridgeMain",
+        "printedName": "CerttaDocumentDetectorBridgeMain",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaDocumentDetectorBridgeMain",
+                "printedName": "CafDocumentDetectorBridge.CerttaDocumentDetectorBridgeMain",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD4MainC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD4MainCACycfc",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD4MainCACycfc",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(viewController:documentDetectorConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaDocumentDetectorBridgeConfiguration",
+                "printedName": "CafDocumentDetectorBridge.CerttaDocumentDetectorBridgeConfiguration",
+                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25CafDocumentDetectorBridge06CerttabcD4MainC4open14viewController08documentC13ConfigurationySo06UIViewI0C_AA0ebcdK0VtF",
+            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD4MainC4open14viewController08documentC13ConfigurationySo06UIViewI0C_AA0ebcdK0VtF",
+            "moduleName": "CafDocumentDetectorBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25CafDocumentDetectorBridge06CerttabcD4MainC",
+        "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD4MainC",
+        "moduleName": "CafDocumentDetectorBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafDocumentDetectorBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "CafSDK",
         "printedName": "CafSDK",
@@ -5569,7 +6517,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 45,

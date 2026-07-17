@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafFaceLivenessUIBridge
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CafSDK
 import CafSDKCommonsBridge
 import Foundation
@@ -31,6 +31,9 @@ public enum CafFaceLivenessUIBridgeConfigurationMapper : CafSDKCommonsBridge.Caf
 extension CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
+extension CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
 extension CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -45,4 +48,22 @@ public struct CafFaceLivenessUIInstructionScreenConfiguration {
   public let description: Swift.String?
   public let steps: [Swift.String]?
   public let buttonText: Swift.String?
+}
+public struct CerttaFaceLivenessUIBridgeConfiguration {
+  public let maxRetryAttempts: Swift.Int?
+  public let faceAuthEnabled: Swift.Bool?
+  public let showLoading: Swift.Bool?
+  public let useFaceLivenessUi: Swift.Bool?
+  public let payFaceDebugMode: Swift.Bool?
+}
+public enum CerttaFaceLivenessUIBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func map(from jsonString: Swift.String) -> Swift.Result<CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
+  #endif
+  public typealias Configuration = CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration
+}
+public class CerttaFaceLivenessUIBridgeMain {
+  public init()
+  public func open(viewController: UIKit.UIViewController, livenessUiConfiguration: CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration)
+  @objc deinit
 }
