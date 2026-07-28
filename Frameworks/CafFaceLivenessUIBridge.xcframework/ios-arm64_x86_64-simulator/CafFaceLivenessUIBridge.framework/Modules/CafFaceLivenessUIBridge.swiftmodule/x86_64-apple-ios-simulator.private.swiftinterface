@@ -31,9 +31,6 @@ public enum CafFaceLivenessUIBridgeConfigurationMapper : CafSDKCommonsBridge.Caf
 extension CafFaceLivenessUIBridge.CafFaceLivenessUIBridgeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-extension CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
 extension CafFaceLivenessUIBridge.CafFaceLivenessUIInstructionScreenConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -62,8 +59,26 @@ public enum CerttaFaceLivenessUIBridgeConfigurationMapper : CafSDKCommonsBridge.
   #endif
   public typealias Configuration = CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration
 }
+public enum CerttaFaceLivenessUIBridgeConstants {
+  public static let eventSuccess: Swift.String
+  public static let eventFailed: Swift.String
+  public static let eventError: Swift.String
+}
+extension CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeEventMapper {
+  public static func map(event: CafSDK.LivenessEvent) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
+public enum CerttaFaceLivenessUIBridgeEventMapper {
+  public static func mapSuccess(response: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func mapFailed(type: Swift.String, response: Swift.String?, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+  #endif
+  public static func mapError(type: Swift.String, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
 public class CerttaFaceLivenessUIBridgeMain {
   public init()
-  public func open(viewController: UIKit.UIViewController, livenessUiConfiguration: CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration)
+  public func open(viewController: UIKit.UIViewController, livenessUiConfiguration: CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   @objc deinit
 }

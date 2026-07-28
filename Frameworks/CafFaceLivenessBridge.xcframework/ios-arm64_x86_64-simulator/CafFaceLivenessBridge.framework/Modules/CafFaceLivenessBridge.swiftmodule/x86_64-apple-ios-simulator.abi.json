@@ -1333,6 +1333,455 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CerttaFaceLivenessBridgeConstants",
+        "printedName": "CerttaFaceLivenessBridgeConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventSuccess",
+            "printedName": "eventSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD9ConstantsO12eventSuccessSSvpZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD9ConstantsO12eventSuccessSSvpZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21CafFaceLivenessBridge06CerttabcD9ConstantsO12eventSuccessSSvgZ",
+                "mangledName": "$s21CafFaceLivenessBridge06CerttabcD9ConstantsO12eventSuccessSSvgZ",
+                "moduleName": "CafFaceLivenessBridge",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventFailed",
+            "printedName": "eventFailed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD9ConstantsO11eventFailedSSvpZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD9ConstantsO11eventFailedSSvpZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21CafFaceLivenessBridge06CerttabcD9ConstantsO11eventFailedSSvgZ",
+                "mangledName": "$s21CafFaceLivenessBridge06CerttabcD9ConstantsO11eventFailedSSvgZ",
+                "moduleName": "CafFaceLivenessBridge",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventError",
+            "printedName": "eventError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD9ConstantsO10eventErrorSSvpZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD9ConstantsO10eventErrorSSvpZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21CafFaceLivenessBridge06CerttabcD9ConstantsO10eventErrorSSvgZ",
+                "mangledName": "$s21CafFaceLivenessBridge06CerttabcD9ConstantsO10eventErrorSSvgZ",
+                "moduleName": "CafFaceLivenessBridge",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21CafFaceLivenessBridge06CerttabcD9ConstantsO",
+        "mangledName": "$s21CafFaceLivenessBridge06CerttabcD9ConstantsO",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDK",
+        "printedName": "CafSDK",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CerttaFaceLivenessBridgeEventMapper",
+        "printedName": "CerttaFaceLivenessBridgeEventMapper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mapSuccess",
+            "printedName": "mapSuccess(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaCommonsBridgeEvent",
+                "printedName": "CafSDKCommonsBridge.CerttaCommonsBridgeEvent",
+                "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC5EventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD11EventMapperO10mapSuccess8response0a10SDKCommonsD00e7CommonsdF0VSS_tFZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD11EventMapperO10mapSuccess8response0a10SDKCommonsD00e7CommonsdF0VSS_tFZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mapFailed",
+            "printedName": "mapFailed(type:response:cause:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaCommonsBridgeEvent",
+                "printedName": "CafSDKCommonsBridge.CerttaCommonsBridgeEvent",
+                "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC5EventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause0a10SDKCommonsD00e7CommonsdF0VSS_SSSgSStFZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause0a10SDKCommonsD00e7CommonsdF0VSS_SSSgSStFZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mapError",
+            "printedName": "mapError(type:cause:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaCommonsBridgeEvent",
+                "printedName": "CafSDKCommonsBridge.CerttaCommonsBridgeEvent",
+                "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC5EventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD11EventMapperO8mapError4type5cause0a10SDKCommonsD00e7CommonsdF0VSS_SStFZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD11EventMapperO8mapError4type5cause0a10SDKCommonsD00e7CommonsdF0VSS_SStFZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "map",
+            "printedName": "map(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaCommonsBridgeEvent",
+                "printedName": "CafSDKCommonsBridge.CerttaCommonsBridgeEvent",
+                "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC5EventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessEvent",
+                "printedName": "CafSDK.LivenessEvent",
+                "usr": "s:6CafSDK13LivenessEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD11EventMapperO3map5event0a10SDKCommonsD00e7CommonsdF0V0A3SDK0cF0O_tFZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD11EventMapperO3map5event0a10SDKCommonsD00e7CommonsdF0V0A3SDK0cF0O_tFZ",
+            "moduleName": "CafFaceLivenessBridge",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21CafFaceLivenessBridge06CerttabcD11EventMapperO",
+        "mangledName": "$s21CafFaceLivenessBridge06CerttabcD11EventMapperO",
+        "moduleName": "CafFaceLivenessBridge",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CafSDK",
         "printedName": "CafSDK",
         "declKind": "Import",
@@ -1345,6 +1794,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
         "declKind": "Import",
         "moduleName": "CafFaceLivenessBridge"
       },
@@ -1377,7 +1833,7 @@
           {
             "kind": "Function",
             "name": "open",
-            "printedName": "open(viewController:livenessConfiguration:)",
+            "printedName": "open(viewController:livenessConfiguration:onEvent:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1395,11 +1851,29 @@
                 "name": "CerttaFaceLivenessBridgeConfiguration",
                 "printedName": "CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration",
                 "usr": "s:21CafFaceLivenessBridge06CerttabcD13ConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CerttaCommonsBridgeEvent",
+                    "printedName": "CafSDKCommonsBridge.CerttaCommonsBridgeEvent",
+                    "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC5EventV"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge06CerttabcD4MainC4open14viewController21livenessConfigurationySo06UIViewI0C_AA0ebcdK0VtF",
-            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD4MainC4open14viewController21livenessConfigurationySo06UIViewI0C_AA0ebcdK0VtF",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD4MainC4open14viewController21livenessConfiguration7onEventySo06UIViewI0C_AA0ebcdK0Vy0a10SDKCommonsD00e7CommonsdM0VctF",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD4MainC4open14viewController21livenessConfiguration7onEventySo06UIViewI0C_AA0ebcdK0Vy0a10SDKCommonsD00e7CommonsdM0VctF",
             "moduleName": "CafFaceLivenessBridge",
             "declAttributes": [
               "AccessControl"
@@ -1434,5 +1908,27 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 29,
+      "value": "\"CerttaLivenessEvent.Success\""
+    },
+    {
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 28,
+      "value": "\"CerttaLivenessEvent.Failed\""
+    },
+    {
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 27,
+      "value": "\"CerttaLivenessEvent.Error\""
+    }
+  ]
 }

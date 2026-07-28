@@ -85,9 +85,6 @@ extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel :
 extension CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentGroupLabels : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-extension CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct CafDocumentDetectorUIBridgeDocumentGroupLabels {
   public let rg: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
   public let rgDigital: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentLabel?
@@ -220,8 +217,22 @@ public enum CerttaDocumentDetectorUIBridgeConfigurationMapper : CafSDKCommonsBri
   #endif
   public typealias Configuration = CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration
 }
+public enum CerttaDocumentDetectorUIBridgeConstants {
+  public static let eventSuccess: Swift.String
+  public static let eventError: Swift.String
+}
+extension CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeEventMapper {
+  public static func map(error: CafSDK.CerttaError) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
+public enum CerttaDocumentDetectorUIBridgeEventMapper {
+  public static func mapSuccess(response: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+  public static func mapError(type: Swift.String, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
 public class CerttaDocumentDetectorUIBridgeMain {
   public init()
-  public func open(viewController: UIKit.UIViewController, documentDetectorUiConfiguration: CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration)
+  public func open(viewController: UIKit.UIViewController, documentDetectorUiConfiguration: CafDocumentDetectorUIBridge.CerttaDocumentDetectorUIBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   @objc deinit
 }

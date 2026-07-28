@@ -30,9 +30,6 @@ public enum CafFaceLivenessBridgeConfigurationMapper : CafSDKCommonsBridge.CafSD
 extension CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-extension CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
 public class CafFaceLivenessBridgeMain {
   public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform, bridgeConfiguration: [Swift.String : Swift.String])
   public func applySettings(cafSdkConfigurationInstance: CafSDK.CafSDKConfiguration, configuration: CafFaceLivenessBridge.CafFaceLivenessBridgeConfiguration)
@@ -50,8 +47,26 @@ public enum CerttaFaceLivenessBridgeConfigurationMapper : CafSDKCommonsBridge.Ca
   #endif
   public typealias Configuration = CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration
 }
+public enum CerttaFaceLivenessBridgeConstants {
+  public static let eventSuccess: Swift.String
+  public static let eventFailed: Swift.String
+  public static let eventError: Swift.String
+}
+extension CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CafFaceLivenessBridge.CerttaFaceLivenessBridgeEventMapper {
+  public static func map(event: CafSDK.LivenessEvent) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
+public enum CerttaFaceLivenessBridgeEventMapper {
+  public static func mapSuccess(response: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func mapFailed(type: Swift.String, response: Swift.String?, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+  #endif
+  public static func mapError(type: Swift.String, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
 public class CerttaFaceLivenessBridgeMain {
   public init()
-  public func open(viewController: UIKit.UIViewController, livenessConfiguration: CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration)
+  public func open(viewController: UIKit.UIViewController, livenessConfiguration: CafFaceLivenessBridge.CerttaFaceLivenessBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   @objc deinit
 }

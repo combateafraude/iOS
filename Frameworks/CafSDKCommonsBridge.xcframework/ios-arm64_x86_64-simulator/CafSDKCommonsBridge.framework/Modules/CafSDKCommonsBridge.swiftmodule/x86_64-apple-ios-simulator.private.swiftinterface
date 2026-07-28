@@ -90,9 +90,6 @@ public enum CafSDKCommonsBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKB
 extension CafSDKCommonsBridge.CafSDKBridgeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-extension CafSDKCommonsBridge.CerttaSDKBridgeConfiguration : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
 extension CafSDKCommonsBridge.CafSDKBridgeBuilderConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -130,7 +127,23 @@ public enum CafSDKBridgePlatform : Swift.String {
     get
   }
 }
-public typealias CerttaLogCallback = (_ level: Swift.String, _ message: Swift.String) -> Swift.Void
+public enum CerttaBridgeSynchronization {
+  public static func withLock<R>(_ body: () throws -> R) rethrows -> R
+}
+public enum CerttaCommonsBridgeConstants {
+  public static let keyResponse: Swift.String
+  public static let keyType: Swift.String
+  public static let keyCause: Swift.String
+  public static let keyLevel: Swift.String
+  public static let keyMessage: Swift.String
+  public static let eventLog: Swift.String
+}
+public struct CerttaCommonsBridgeEvent : Swift.Equatable, Swift.Sendable {
+  public let name: Swift.String
+  public let payload: [Swift.String : Swift.String]
+  public init(name: Swift.String, payload: [Swift.String : Swift.String])
+  public static func == (a: CafSDKCommonsBridge.CerttaCommonsBridgeEvent, b: CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Bool
+}
 public struct CerttaSDKBridgeConfiguration {
   public let mobileToken: Swift.String
   public let userId: Swift.String
@@ -144,11 +157,15 @@ public enum CerttaSDKCommonsBridgeConfigurationMapper : CafSDKCommonsBridge.CafS
   #endif
   public typealias Configuration = CafSDKCommonsBridge.CerttaSDKBridgeConfiguration
 }
+extension CafSDKCommonsBridge.CerttaSDKBridgeConfiguration : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum CerttaSDKCommonsBridgeEventMapper {
+  public static func map(level: Swift.String, message: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+}
 public class CerttaSDKCommonsBridgeMain {
   public init()
-  public func configureSDK(configuration: CafSDKCommonsBridge.CerttaSDKBridgeConfiguration)
-  public func registerLogListener(_ callback: @escaping CafSDKCommonsBridge.CerttaLogCallback)
-  public func clearLogListener()
+  public func configureSDK(configuration: CafSDKCommonsBridge.CerttaSDKBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   public func isInitialized() -> Swift.Bool
   public func updateMobileToken(mobileToken: Swift.String)
   public func updateUserId(userId: Swift.String)
