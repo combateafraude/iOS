@@ -40,6 +40,7 @@ public struct CerttaFaceLivenessBridgeConfiguration {
   public let faceAuthEnabled: Swift.Bool?
   public let showLoading: Swift.Bool?
   public let useFaceLivenessUi: Swift.Bool?
+  public let payFaceDebugMode: Swift.Bool?
 }
 public enum CerttaFaceLivenessBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes

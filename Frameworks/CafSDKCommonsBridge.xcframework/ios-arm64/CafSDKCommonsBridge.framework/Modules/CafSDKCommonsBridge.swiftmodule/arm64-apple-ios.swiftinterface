@@ -127,6 +127,11 @@ public enum CafSDKBridgePlatform : Swift.String {
     get
   }
 }
+public enum CerttaBridgeEventForwarding {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func forward(_ bridgeEvent: CafSDKCommonsBridge.CerttaCommonsBridgeEvent, eventHandler: () -> ((CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)?)
+  #endif
+}
 public enum CerttaBridgeSynchronization {
   public static func withLock<R>(_ body: () throws -> R) rethrows -> R
 }
@@ -143,6 +148,9 @@ public struct CerttaCommonsBridgeEvent : Swift.Equatable, Swift.Sendable {
   public let payload: [Swift.String : Swift.String]
   public init(name: Swift.String, payload: [Swift.String : Swift.String])
   public static func == (a: CafSDKCommonsBridge.CerttaCommonsBridgeEvent, b: CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Bool
+}
+public enum CerttaErrorBridgePayloadMapper {
+  public static func map(_ error: CafSDK.CerttaError) -> [Swift.String : Swift.String]
 }
 public struct CerttaSDKBridgeConfiguration {
   public let mobileToken: Swift.String
