@@ -1183,8 +1183,7 @@
             "moduleName": "CafFaceLivenessBridge",
             "declAttributes": [
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
