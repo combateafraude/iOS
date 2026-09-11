@@ -73,7 +73,7 @@ extension CafFaceLivenessUIBridge.CerttaFaceLivenessUIBridgeEventMapper {
 public enum CerttaFaceLivenessUIBridgeEventMapper {
   public static func mapSuccess(response: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func mapFailed(type: Swift.String, response: Swift.String?, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
+  public static func mapFailed(type: Swift.String, response: Swift.String?, cause: Swift.String, failureType: Swift.String? = nil) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
   #endif
   public static func mapError(type: Swift.String, cause: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
 }

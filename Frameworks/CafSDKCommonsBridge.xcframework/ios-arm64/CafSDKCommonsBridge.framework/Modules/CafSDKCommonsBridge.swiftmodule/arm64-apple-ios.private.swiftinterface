@@ -138,6 +138,7 @@ public enum CerttaBridgeSynchronization {
 public enum CerttaCommonsBridgeConstants {
   public static let keyResponse: Swift.String
   public static let keyType: Swift.String
+  public static let keyFailureType: Swift.String
   public static let keyCause: Swift.String
   public static let keyLevel: Swift.String
   public static let keyMessage: Swift.String

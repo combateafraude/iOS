@@ -1690,7 +1690,7 @@
           {
             "kind": "Function",
             "name": "mapFailed",
-            "printedName": "mapFailed(type:response:cause:)",
+            "printedName": "mapFailed(type:response:cause:failureType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1723,11 +1723,26 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause0a10SDKCommonsD00e7CommonsdF0VSS_SSSgSStFZ",
-            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause0a10SDKCommonsD00e7CommonsdF0VSS_SSSgSStFZ",
+            "usr": "s:21CafFaceLivenessBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause11failureType0a10SDKCommonsD00e7CommonsdF0VSS_SSSgSSALtFZ",
+            "mangledName": "$s21CafFaceLivenessBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause11failureType0a10SDKCommonsD00e7CommonsdF0VSS_SSSgSSALtFZ",
             "moduleName": "CafFaceLivenessBridge",
             "static": true,
             "declAttributes": [
