@@ -3622,53 +3622,6 @@
           },
           {
             "kind": "Var",
-            "name": "keyFailureType",
-            "printedName": "keyFailureType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyFailureTypeSSvpZ",
-            "mangledName": "$s19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyFailureTypeSSvpZ",
-            "moduleName": "CafSDKCommonsBridge",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyFailureTypeSSvgZ",
-                "mangledName": "$s19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyFailureTypeSSvgZ",
-                "moduleName": "CafSDKCommonsBridge",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "keyCause",
             "printedName": "keyCause",
             "children": [
@@ -3707,6 +3660,53 @@
                 "declKind": "Accessor",
                 "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO8keyCauseSSvgZ",
                 "mangledName": "$s19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO8keyCauseSSvgZ",
+                "moduleName": "CafSDKCommonsBridge",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keyDescription",
+            "printedName": "keyDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyDescriptionSSvpZ",
+            "mangledName": "$s19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyDescriptionSSvpZ",
+            "moduleName": "CafSDKCommonsBridge",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyDescriptionSSvgZ",
+                "mangledName": "$s19CafSDKCommonsBridge013CerttaCommonsC9ConstantsO14keyDescriptionSSvgZ",
                 "moduleName": "CafSDKCommonsBridge",
                 "static": true,
                 "implicit": true,
@@ -4974,16 +4974,16 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
-      "offset": 312,
-      "length": 13,
-      "value": "\"failureType\""
+      "offset": 306,
+      "length": 7,
+      "value": "\"cause\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
-      "offset": 359,
-      "length": 7,
-      "value": "\"cause\""
+      "offset": 353,
+      "length": 13,
+      "value": "\"description\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",

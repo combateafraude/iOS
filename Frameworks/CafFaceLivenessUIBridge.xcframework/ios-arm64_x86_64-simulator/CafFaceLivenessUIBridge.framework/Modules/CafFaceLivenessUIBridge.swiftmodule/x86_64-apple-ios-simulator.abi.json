@@ -2147,7 +2147,7 @@
           {
             "kind": "Function",
             "name": "mapFailed",
-            "printedName": "mapFailed(type:response:cause:failureType:)",
+            "printedName": "mapFailed(type:response:cause:description:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2198,8 +2198,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:23CafFaceLivenessUIBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause11failureType0A16SDKCommonsBridge0e7CommonspF0VSS_SSSgSSALtFZ",
-            "mangledName": "$s23CafFaceLivenessUIBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause11failureType0A16SDKCommonsBridge0e7CommonspF0VSS_SSSgSSALtFZ",
+            "usr": "s:23CafFaceLivenessUIBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause11description0A16SDKCommonsBridge0e7CommonsoF0VSS_SSSgSSALtFZ",
+            "mangledName": "$s23CafFaceLivenessUIBridge06CerttabcD11EventMapperO9mapFailed4type8response5cause11description0A16SDKCommonsBridge0e7CommonsoF0VSS_SSSgSSALtFZ",
             "moduleName": "CafFaceLivenessUIBridge",
             "static": true,
             "declAttributes": [
