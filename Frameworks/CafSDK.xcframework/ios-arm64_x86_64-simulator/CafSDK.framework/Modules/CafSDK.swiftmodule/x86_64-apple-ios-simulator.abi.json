@@ -36050,8 +36050,8 @@
           },
           {
             "kind": "Var",
-            "name": "sdkPlatform",
-            "printedName": "sdkPlatform",
+            "name": "sdkType",
+            "printedName": "sdkType",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -36061,8 +36061,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6CafSDK19CerttaConfigurationV11sdkPlatformAA0c3SdkF0Ovp",
-            "mangledName": "$s6CafSDK19CerttaConfigurationV11sdkPlatformAA0c3SdkF0Ovp",
+            "usr": "s:6CafSDK19CerttaConfigurationV7sdkTypeAA0C11SdkPlatformOvp",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV7sdkTypeAA0C11SdkPlatformOvp",
             "moduleName": "CafSDK",
             "declAttributes": [
               "HasStorage",
@@ -36084,8 +36084,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6CafSDK19CerttaConfigurationV11sdkPlatformAA0c3SdkF0Ovg",
-                "mangledName": "$s6CafSDK19CerttaConfigurationV11sdkPlatformAA0c3SdkF0Ovg",
+                "usr": "s:6CafSDK19CerttaConfigurationV7sdkTypeAA0C11SdkPlatformOvg",
+                "mangledName": "$s6CafSDK19CerttaConfigurationV7sdkTypeAA0C11SdkPlatformOvg",
                 "moduleName": "CafSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -36095,7 +36095,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(mobileToken:userID:environment:securityEnabled:sdkPlatform:)",
+            "printedName": "init(mobileToken:userID:environment:securityEnabled:sdkType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -36139,8 +36139,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabled11sdkPlatformACSS_SSAA0A11EnvironmentOSbAA0c3SdkM0Otcfc",
-            "mangledName": "$s6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabled11sdkPlatformACSS_SSAA0A11EnvironmentOSbAA0c3SdkM0Otcfc",
+            "usr": "s:6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabled7sdkTypeACSS_SSAA0A11EnvironmentOSbAA0C11SdkPlatformOtcfc",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabled7sdkTypeACSS_SSAA0A11EnvironmentOSbAA0C11SdkPlatformOtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl",
@@ -54640,21 +54640,21 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "StringLiteral",
-      "offset": 2174,
+      "offset": 2166,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "StringLiteral",
-      "offset": 2203,
+      "offset": 2195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "BooleanLiteral",
-      "offset": 2276,
+      "offset": 2268,
       "length": 4,
       "value": "true"
     },

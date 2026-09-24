@@ -844,8 +844,8 @@ public struct CerttaConfiguration {
   public let userID: Swift.String?
   public let environment: CafSDK.CafEnvironment
   public let securityEnabled: Swift.Bool?
-  public let sdkPlatform: CafSDK.CerttaSdkPlatform
-  public init(mobileToken: Swift.String = "", userID: Swift.String = "", environment: CafSDK.CafEnvironment, securityEnabled: Swift.Bool = true, sdkPlatform: CafSDK.CerttaSdkPlatform = .nativeIos)
+  public let sdkType: CafSDK.CerttaSdkPlatform
+  public init(mobileToken: Swift.String = "", userID: Swift.String = "", environment: CafSDK.CafEnvironment, securityEnabled: Swift.Bool = true, sdkType: CafSDK.CerttaSdkPlatform = .nativeIos)
 }
 @_hasMissingDesignatedInitializers final public class Certta {
   public static let shared: CafSDK.Certta
