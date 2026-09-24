@@ -36095,7 +36095,56 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(mobileToken:userID:environment:securityEnabled:sdkType:)",
+            "printedName": "init(mobileToken:userID:environment:securityEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CerttaConfiguration",
+                "printedName": "CafSDK.CerttaConfiguration",
+                "usr": "s:6CafSDK19CerttaConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafEnvironment",
+                "printedName": "CafSDK.CafEnvironment",
+                "usr": "s:6CafSDK0A11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabledACSS_SSAA0A11EnvironmentOSbtcfc",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabledACSS_SSAA0A11EnvironmentOSbtcfc",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "forHybridBridge",
+            "printedName": "forHybridBridge(mobileToken:userID:environment:securityEnabled:sdkType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -36134,19 +36183,19 @@
                 "kind": "TypeNominal",
                 "name": "CerttaSdkPlatform",
                 "printedName": "CafSDK.CerttaSdkPlatform",
-                "hasDefaultArg": true,
                 "usr": "s:6CafSDK17CerttaSdkPlatformO"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabled7sdkTypeACSS_SSAA0A11EnvironmentOSbAA0C11SdkPlatformOtcfc",
-            "mangledName": "$s6CafSDK19CerttaConfigurationV11mobileToken6userID11environment15securityEnabled7sdkTypeACSS_SSAA0A11EnvironmentOSbAA0C11SdkPlatformOtcfc",
+            "declKind": "Func",
+            "usr": "s:6CafSDK19CerttaConfigurationV15forHybridBridge11mobileToken6userID11environment15securityEnabled7sdkTypeACSS_SSAA0A11EnvironmentOSbAA0C11SdkPlatformOtFZ",
+            "mangledName": "$s6CafSDK19CerttaConfigurationV15forHybridBridge11mobileToken6userID11environment15securityEnabled7sdkTypeACSS_SSAA0A11EnvironmentOSbAA0C11SdkPlatformOtFZ",
             "moduleName": "CafSDK",
+            "static": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -55002,21 +55051,42 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "StringLiteral",
-      "offset": 2166,
+      "offset": 2083,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "StringLiteral",
-      "offset": 2195,
+      "offset": 2112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
       "kind": "BooleanLiteral",
-      "offset": 2268,
+      "offset": 2185,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
+      "kind": "StringLiteral",
+      "offset": 2644,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
+      "kind": "StringLiteral",
+      "offset": 2673,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/Certta.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2746,
       "length": 4,
       "value": "true"
     },
