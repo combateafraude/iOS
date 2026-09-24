@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Fortface
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Fortface
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AVFoundation
 import Accelerate
 import CommonCrypto
@@ -10,6 +10,7 @@ import CoreImage
 import CoreLocation
 import CoreMedia
 import CoreMotion
+import CoreVideo
 import CryptoKit
 import DeveloperToolsSupport
 @_exported import Fortface
@@ -18,6 +19,7 @@ import MobileCoreServices
 import Network
 import NetworkExtension
 import PDFKit
+import Photos
 import Security
 import Swift
 import SwiftUI
@@ -38,12 +40,17 @@ public struct FortfaceStartException : Swift.Error {
   public let message: Swift.String
 }
 @_hasMissingDesignatedInitializers open class FortfaceSDK {
+  public static var customizer: Fortface.FortfaceCustomizer
   public static func start(isDebugMode: Swift.Bool) throws -> Swift.String
   public static func getDebugMode() -> Swift.Bool
   public static func getVersion() -> Swift.String
   public static func getIADVersion() -> Swift.String
+  @available(*, deprecated, message: "O uso da função 'setCustomizer' não surtirá efeito na aplicação e será removida no futuro.")
   public static func setCustomizer(_ customizer: Fortface.FortfaceCustomizer)
+  public static func setCustomization(_ customization: Swift.String)
   public static func isStart() -> Swift.Bool
+  public static func initializeFortface(isDebugMode: Swift.Bool) throws
+  @inline(never) public static func integrityCheckpoint()
   @objc deinit
 }
 public enum ScreenOrientationEnum {
@@ -74,12 +81,14 @@ public struct InstructionsButton {
   public var radius: CoreFoundation.CGFloat
   public var textLabel: Swift.String
   public var familyFont: Swift.String
+  public var gradientStyle: Fortface.GradientButtonStyle
 }
 public struct InstructionMessageColor {
   public var headerTextColorResource: UIKit.UIColor
   public var messageTextColorResource: UIKit.UIColor
 }
 public struct InstructionsMessages {
+  public var titleFontFamily: Swift.String
   public var familyFont: Swift.String
   public var title: Swift.String
   public var noItems: Swift.String
@@ -111,6 +120,7 @@ public struct CancelButton {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class InstructionsViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public init(isScreenAbove7Inches: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @objc deinit
 }
 public struct CameraParametersInfo : Swift.Codable {
@@ -123,9 +133,7 @@ public enum Action : Swift.String {
   case timeout
   case deniedCamera
   case error
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -138,9 +146,7 @@ public enum ActionError : Swift.String, Swift.Decodable {
   case fileCorrupted
   case documentNotAccepted
   case invalidSessionKey
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -150,10 +156,7 @@ public enum ActionError : Swift.String, Swift.Decodable {
   public var data: Foundation.Data?
   public var action: Fortface.Action?
   public var sessionDetails: Foundation.Data?
-  public var hasNextStep: Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public func finishFortfaceSDK(result: Foundation.Data?, action: Fortface.Action?)
-  #endif
   @objc deinit
 }
 extension Fortface.DocCameraViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
@@ -230,10 +233,14 @@ public struct BritnessIcons {
   public var lowBrightness: UIKit.UIImage?
   public var highBrightness: UIKit.UIImage?
 }
+public struct GradientButtonStyle {
+  public var gradientStart: UIKit.UIColor
+  public var gradientEnd: UIKit.UIColor
+  public var usesGradient: Swift.Bool
+  public init()
+}
 @_hasMissingDesignatedInitializers public class ImageProvider {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func image(named: Swift.String) -> UIKit.UIImage?
-  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MetricInfo {
@@ -255,9 +262,15 @@ open class FortfaceCustomizer {
   public var instructionsMessages: Fortface.InstructionsMessages
   public var instructionsBackground: Fortface.InstructionsBackground
   public var instructionMessageColor: Fortface.InstructionMessageColor
-  public var cameraTimeout: Swift.Int
-  public var cameraMinStabilizationTime: Swift.Double
-  public var cameraMaxStabilizationTime: Swift.Double
+  public var cameraTimeout: Swift.Double
+  public var cameraMaxStabilizationTime: Swift.Double {
+    get
+    set
+  }
+  public var cameraMinStabilizationTime: Swift.Double {
+    get
+    set
+  }
   public var brightnessMessageTimeout: Swift.Double
   public var cameraBackground: Fortface.CameraBackground
   public var cameraColor: Fortface.CameraColor
@@ -281,15 +294,56 @@ public struct RSAKey {
 }
 public struct AESKey {
   public init(aesIv: Foundation.Data, aes256Key: Foundation.Data)
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func generateAESKey(publicKey: Swift.String) -> Fortface.AESKey?
-  #endif
   public func getFullAesKey() -> Foundation.Data
+}
+public enum FlatOrientation {
+  case notFlat
+  case portraitFlat
+  case landscapeLeftFlat
+  case landscapeRightFlat
+  case landscapeLeft
+  case landscapeRight
+  public var isLandscapeFlat: Swift.Bool {
+    get
+  }
+  public var isLandscape: Swift.Bool {
+    get
+  }
+  public var isFlat: Swift.Bool {
+    get
+  }
+  public var isLeftLandscape: Swift.Bool {
+    get
+  }
+  public static func == (a: Fortface.FlatOrientation, b: Fortface.FlatOrientation) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+final public class FlatOrientationMonitor {
+  final public var baseValueZ: Swift.Double
+  final public var onOrientationUpdate: ((Fortface.FlatOrientation, Swift.Double, Swift.Double) -> Swift.Void)?
+  final public var debugLogsEnabled: Swift.Bool
+  public init(baseValueZ: Swift.Double = 0.85)
+  final public func start()
+  final public func stop()
+  final public func refreshCurrentOrientation()
+  @objc deinit
 }
 public class DocumentTypeFactory {
   public init()
   public func create(doc: Fortface.DocumentTypeEnum) -> Fortface.DocumentType
   @objc deinit
+}
+public enum qrcodePosition : Swift.String {
+  case left, right, center, middle, top, bottom
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public enum DocEvaluation {
   case positioned, misaligned, docFar, docNear, autoCapture, isManualMode, noDoc, noRef, capturing, wrongDocFace
@@ -300,37 +354,35 @@ public enum DocEvaluation {
   }
 }
 public protocol IFortfaceInteraction : AnyObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   func finishFortfaceSDK(result: Foundation.Data?, action: Fortface.Action?)
-  #endif
 }
 @_hasMissingDesignatedInitializers open class FortfaceManagerSession {
   public static func start(engine: any Fortface.IFortfaceEngine, sessionId: Swift.String, sessionKey: Swift.String, orientationManager: any Fortface.IFortfaceOrientationManager, getGeolocation: Swift.Bool = false)
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "em futuras releases, previousDocType e documentTypes serão descontinuados")
   public static func startDocSessionEngine(engine: any Fortface.IFortfaceEngine, sessionId: Swift.String, sessionKey: Swift.String, documentTypes: [Fortface.DocumentTypeEnum], instructionsTime: Swift.Int? = nil, previousDocType: Fortface.DocumentTypeEnum? = nil, orientationManager: any Fortface.IFortfaceOrientationManager, getGeolocation: Swift.Bool = false)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "em futuras releases, previousDocType e documentTypes serão descontinuados")
   public static func startUploadDocSessionEngine(engine: any Fortface.IFortfaceEngine, sessionId: Swift.String, sessionKey: Swift.String, documentTypes: [Fortface.DocumentTypeEnum], openPhotoGalery: Swift.Bool, instructionsTime: Swift.Int? = nil, previousDocType: Fortface.DocumentTypeEnum? = nil, getGeolocation: Swift.Bool = false)
-  #endif
   @objc deinit
 }
+extension Foundation.NSNotification.Name {
+  public static let fortfaceDocLandscapeFlatOverlayStateDidChange: Foundation.Notification.Name
+}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DocCameraViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public static let flatOverlayStateUserInfoKey: Swift.String
+  @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor @preconcurrency public func setupCaptureLoad(backgroundColor: UIKit.UIColor, strokeColor: UIKit.UIColor, strokeWidth: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor @preconcurrency public func setupCaptureLoad(strokeColor: UIKit.UIColor, strokeWidth: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor @preconcurrency public func resetCaptureLoad()
   @_Concurrency.MainActor @preconcurrency public func hideLoad(isHidden: Swift.Bool)
-  @objc deinit
 }
 public enum DocumentTypeEnum : Swift.String {
-  case RG_FRONT, CNH_FRONT, RG_BACK, CNH_BACK, PASSAPORT, UNDEFINED, DIGITAL_CNH, DOC_NOT_FOUND, DOCUMENT
-  #if compiler(>=5.3) && $NonescapableTypes
+  case RG_FRONT, CNH_FRONT, RG_BACK, CNH_BACK, PASSAPORT, UNDEFINED, DIGITAL_CNH, DOC_NOT_FOUND, DOCUMENT, CHN_OPEN_BACK, CHN_OPEN
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -387,6 +439,8 @@ public struct DocumentCameraButton {
   public var textColorResource: UIKit.UIColor
   public var familyFont: Swift.String
   public var colorResource: UIKit.UIColor
+  public var dimmedColorResource: UIKit.UIColor
+  public var gradientStyle: Fortface.GradientButtonStyle
 }
 public struct DocumentPreviewButtons {
   public var familyFont: Swift.String
@@ -394,6 +448,7 @@ public struct DocumentPreviewButtons {
   public var acceptTextColorResource: UIKit.UIColor
   public var cancelColorResource: UIKit.UIColor
   public var cancelTextColorResource: UIKit.UIColor
+  public var acceptGradientStyle: Fortface.GradientButtonStyle
 }
 public struct UploadDocMessages {
   public var familyFontTitle: Swift.String
@@ -406,16 +461,25 @@ public struct UploadDocMessages {
   public var setUploadDocPreviewRetry: Swift.String
   public var setUploadDocTitleTextColor: UIKit.UIColor
   public var setUploadDocSubtitleTextColor: UIKit.UIColor
-  public var setUploadDocPreviewRetryTextColor: UIKit.UIColor?
+  public var setUploadDocPreviewRetryTextColor: UIKit.UIColor
   public var setUploadDocPreviewContinueButtonTextColor: UIKit.UIColor
+  public var continueGradientStyle: Fortface.GradientButtonStyle
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DocConfirmViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var capturedImage: UIKit.UIImage?
+  @_Concurrency.MainActor @preconcurrency public var rawCapturedImage: UIKit.UIImage?
+  @_Concurrency.MainActor @preconcurrency public var forceLandscapeFlat: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var forcedFlatOrientation: Fortface.FlatOrientation?
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency public func setupLoadTryAgain(backgroundColor: UIKit.UIColor, strokeColor: UIKit.UIColor, strokeWidth: CoreFoundation.CGFloat)
-  @_Concurrency.MainActor @preconcurrency public func setupLoad(backgroundColor: UIKit.UIColor, strokeColor: UIKit.UIColor, strokeWidth: CoreFoundation.CGFloat)
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency public func setupLoadTryAgain(strokeColor: UIKit.UIColor, strokeWidth: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor @preconcurrency public func setupLoad(strokeColor: UIKit.UIColor, strokeWidth: CoreFoundation.CGFloat)
 }
 extension Fortface.ScreenOrientationEnum : Swift.Equatable {}
 extension Fortface.ScreenOrientationEnum : Swift.Hashable {}
@@ -429,6 +493,11 @@ extension Fortface.ActionError : Swift.Hashable {}
 extension Fortface.ActionError : Swift.RawRepresentable {}
 extension Fortface.ScreenModeEnum : Swift.Equatable {}
 extension Fortface.ScreenModeEnum : Swift.Hashable {}
+extension Fortface.FlatOrientation : Swift.Equatable {}
+extension Fortface.FlatOrientation : Swift.Hashable {}
+extension Fortface.qrcodePosition : Swift.Equatable {}
+extension Fortface.qrcodePosition : Swift.Hashable {}
+extension Fortface.qrcodePosition : Swift.RawRepresentable {}
 extension Fortface.DocEvaluation : Swift.Equatable {}
 extension Fortface.DocEvaluation : Swift.Hashable {}
 extension Fortface.DocumentTypeEnum : Swift.Equatable {}

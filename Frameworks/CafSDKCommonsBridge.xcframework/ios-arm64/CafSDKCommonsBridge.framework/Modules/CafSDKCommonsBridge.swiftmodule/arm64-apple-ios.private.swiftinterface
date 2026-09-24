@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDKCommonsBridge
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CafSDKCommonsBridge
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
 import CafSDK
 import Foundation
 import Swift
@@ -10,15 +10,11 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class CafImageParser {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func loadImage(from urlString: Swift.String?) -> UIKit.UIImage?
-  #endif
   @objc deinit
 }
 public enum CafJsonParser {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func decode<T>(_ type: T.Type, from jsonString: Swift.String) -> Swift.Result<T, CafSDKCommonsBridge.CafSDKBridgeException> where T : Swift.Decodable
-  #endif
   public static func validateAllowedKeys(in decoder: any Swift.Decoder, allowed: Swift.Set<Swift.String>) throws
 }
 public struct CafSDKBridgeBuilderConfiguration {
@@ -62,18 +58,14 @@ public enum CafSDKBridgeException : Swift.Error, Swift.Equatable {
   public var errorType: CafSDKCommonsBridge.CafSDKBridgeErrorType {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorMessage: Swift.String? {
     get
   }
-  #endif
   public static func == (a: CafSDKCommonsBridge.CafSDKBridgeException, b: CafSDKCommonsBridge.CafSDKBridgeException) -> Swift.Bool
 }
 public protocol CafSDKBridgeMapper {
   associatedtype Configuration
-  #if compiler(>=5.3) && $NonescapableTypes
   static func map(from jsonString: Swift.String) -> Swift.Result<Self.Configuration, CafSDKCommonsBridge.CafSDKBridgeException>
-  #endif
 }
 public struct CafSDKBridgeNextStepContentConfiguration {
   public let title: Swift.String?
@@ -82,9 +74,7 @@ public struct CafSDKBridgeNextStepContentConfiguration {
   public let image: Swift.String?
 }
 public enum CafSDKCommonsBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func map(from jsonString: Swift.String) -> Swift.Result<CafSDKCommonsBridge.CafSDKBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
-  #endif
   public typealias Configuration = CafSDKCommonsBridge.CafSDKBridgeConfiguration
 }
 extension CafSDKCommonsBridge.CafSDKBridgeConfiguration : Swift.Decodable {
@@ -119,18 +109,14 @@ final public class CafSDKCommonsBridgeInstance {
 public enum CafSDKBridgePlatform : Swift.String {
   case reactNativeIos
   case flutterIos
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public enum CerttaBridgeEventForwarding {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func forward(_ bridgeEvent: CafSDKCommonsBridge.CerttaCommonsBridgeEvent, eventHandler: () -> ((CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)?)
-  #endif
 }
 public enum CerttaBridgeSynchronization {
   public static func withLock<R>(_ body: () throws -> R) rethrows -> R
@@ -161,9 +147,7 @@ public struct CerttaSDKBridgeConfiguration {
   public let colorConfiguration: CafSDKCommonsBridge.CafSDKBridgeColorConfiguration?
 }
 public enum CerttaSDKCommonsBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func map(from jsonString: Swift.String) -> Swift.Result<CafSDKCommonsBridge.CerttaSDKBridgeConfiguration, CafSDKCommonsBridge.CafSDKBridgeException>
-  #endif
   public typealias Configuration = CafSDKCommonsBridge.CerttaSDKBridgeConfiguration
 }
 extension CafSDKCommonsBridge.CerttaSDKBridgeConfiguration : Swift.Decodable {
@@ -173,7 +157,8 @@ public enum CerttaSDKCommonsBridgeEventMapper {
   public static func map(level: Swift.String, message: Swift.String) -> CafSDKCommonsBridge.CerttaCommonsBridgeEvent
 }
 public class CerttaSDKCommonsBridgeMain {
-  public init()
+  final public let sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform?
+  public init(sdkBridgePlatform: CafSDKCommonsBridge.CafSDKBridgePlatform? = nil)
   public func configureSDK(configuration: CafSDKCommonsBridge.CerttaSDKBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   public func isInitialized() -> Swift.Bool
   public func updateMobileToken(mobileToken: Swift.String)

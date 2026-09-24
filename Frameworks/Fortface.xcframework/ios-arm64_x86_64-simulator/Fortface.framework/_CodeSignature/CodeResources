@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GaZvxJ/HkQMTP0CC0A0+LwzF6fY=
+		mPaAhO5f4IrFEtevPyCOmnuNK28=
 		</data>
 		<key>CameraView.nib</key>
 		<data>
-		ce8Ro/unK3PuvTyfwttC1H568wE=
+		pmcCrV3Dlt4eX/i1vgCyBmMfMPc=
 		</data>
 		<key>DocCameraView.nib</key>
 		<data>
-		veuKN7PPiS3XwD0Ma0nU6qP3rYY=
+		V5yy5Cm7MtRsQ0m8gXo7awWbpDQ=
 		</data>
 		<key>DocConfirmView.nib</key>
 		<data>
-		hEWSqoHvISoJXkYVuDQKuHKxl4Y=
+		sJGCfZ0Z7kaJz/8jwN9akczoyK0=
 		</data>
 		<key>Headers/Fortface-Swift.h</key>
 		<data>
-		0RVQuJ9mAEWnuWZfl8IReuvR3ow=
+		JdsLyz0vFvNVAEu269Yd1NX7FV4=
 		</data>
 		<key>Headers/Fortface.h</key>
 		<data>
@@ -30,63 +30,75 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u6H8hVvkC/zncUcyjfrNeGx0w9c=
+		1vlw91Imj4/1QhpS0zOd5buCGy8=
 		</data>
 		<key>InstructionsView.nib</key>
 		<data>
-		PI+OT9HHIQh9dcR1UPpxrK69a/M=
+		xGIqDLwtdily5b0PvNpY8yedIqA=
+		</data>
+		<key>Inter-Bold.ttf</key>
+		<data>
+		lGHnwIMTfCq+bRmPeE+w00GlJ6E=
+		</data>
+		<key>Inter-Regular.ttf</key>
+		<data>
+		bjQw+QaktCtLY/2PM+SYpD2fjYQ=
+		</data>
+		<key>Inter-SemiBold.ttf</key>
+		<data>
+		tL2va91qR5tGxFKnu64T9csgeb8=
 		</data>
 		<key>LoadButtonView.nib</key>
 		<data>
-		woARQt2zSSFPGe4Cnqman8D1uxk=
+		T4q7+HxCfzLwVXuGhePPs82UAPs=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
-		jFntbHNdgRxRb+/lN4GUVb74Qq8=
+		BJk8EqfuCYi7Ta4fyoRgFo3N7HM=
 		</data>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		etSyqqK8DC8K+rU1rBhFDPplsNQ=
+		hVI3uyh/Eg6HzaR6nsgWMDzQpfQ=
 		</data>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		skc0kS5GNMeQWoEfQfkEVHGtEiI=
+		K46t6ItzHebdaijjle7WiUXk/wg=
 		</data>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		u2sZY53Xh1i2UkyyZ8RJrobZX34=
+		C6qLPNJgIcMGa+htDvNuG9RkVG4=
 		</data>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		skc0kS5GNMeQWoEfQfkEVHGtEiI=
+		K46t6ItzHebdaijjle7WiUXk/wg=
 		</data>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9lQNygCqWXn+qNYSQwl/utdzY9o=
+		v0YVGwkyPii87CmlsHaYgGmmnDc=
 		</data>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		etSyqqK8DC8K+rU1rBhFDPplsNQ=
+		hVI3uyh/Eg6HzaR6nsgWMDzQpfQ=
 		</data>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oOYxMOLnt+SaZbxbmXwQqLQ2Fko=
+		4de1b+l2iLnccmQe0l64MaKtmBk=
 		</data>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		y4a+cOdHJZGYFjubraLaehQsGkw=
+		dUpuW1Lac6Y077z8cYOQlCNRROI=
 		</data>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oOYxMOLnt+SaZbxbmXwQqLQ2Fko=
+		4de1b+l2iLnccmQe0l64MaKtmBk=
 		</data>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8/qT/S78f75fsbRlpxMS47J7T98=
+		Ueif9zq6UtzmK5fBjfvjzfNPKdw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		6bF83kiYjjdOUG7GiV70RYV8mA0=
+		0U3MdOW745u9G1MoEac6IRALs+s=
 		</data>
 		<key>Poppins-Regular.ttf</key>
 		<data>
@@ -98,7 +110,7 @@
 		</data>
 		<key>UploadConfirmView.nib</key>
 		<data>
-		jN/h+s4nQRhHOp5YDVXZTCteod8=
+		T1v1+f/0tfZsq+1G8y0KGImOQys=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -107,35 +119,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TArSfVpqw1aGdsrqJ//SzqCefoB1kkIv/yqrWqAVBZ8=
+			1eMtwfnTVAsYgLnZqMCPy/m2/b+fcqPBshfSf8WuEgo=
 			</data>
 		</dict>
 		<key>CameraView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2arCOoLqBP2fOmnCzGWwFrbyKvTpLJb0ZnSdx3R/dsw=
+			Zxi8NN+k4W4fKavAKyGJlEZc7pGnP7WpNQ0cUYhJ5yQ=
 			</data>
 		</dict>
 		<key>DocCameraView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IBQy5pHz1MnDMS70AeUOSPu1KIHyUkcZxaqFLUhbFQ4=
+			gAZAf+8e0uh2dCzkH2Ya9ZhMBL0t9OczgdiXOoPiy+U=
 			</data>
 		</dict>
 		<key>DocConfirmView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3+C/wdVAPJl1bUKZSYcTAKdl7zFYP38VF7eUPvQT6jo=
+			EdY0QH8qsJ5NiHYD0GtljfAhlhC3mPKqDDSMvkIhajA=
 			</data>
 		</dict>
 		<key>Headers/Fortface-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTJeVSbPhOsDoSuMk+SGnRHIlzVrP5x5ZMVuoHbwx5k=
+			votq1bWeBwGLlM37PN3j+Umx6RV3M3Vv6q5Q/Nsv/Ns=
 			</data>
 		</dict>
 		<key>Headers/Fortface.h</key>
@@ -149,98 +161,119 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UoV9Dw3luA174W6jA6zow9YcFuYB9cT5/lXIScE3rhw=
+			iIrTVrP7+m7SCaozg6E6tChNBCfLtsxba2MIasTZCto=
+			</data>
+		</dict>
+		<key>Inter-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KIMWCZseCkekcW0VkJgAXu98AGaSHzTjIAOT29sBlH8=
+			</data>
+		</dict>
+		<key>Inter-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QNaS/OGI5EceKzy6k3vpZ4ePYxrT67vc1YdofH6+DII=
+			</data>
+		</dict>
+		<key>Inter-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eKhD+t6dRhKlVnMC+1lbVpdutfzr9P6lpZEtY4uvzeM=
 			</data>
 		</dict>
 		<key>LoadButtonView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			70ScflVdr7RbvZAq5kuLSGD6RYsWwwWvn9tCQ2/WHrU=
+			AmnooySBWxgKxG7qzt3RiO4tgtoDpstyUfIHswiiW0s=
 			</data>
 		</dict>
 		<key>Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z3bBpJiV4NQ8q4aKWKDYQAb4zX+/nNLKxAIJiC1+qMY=
+			PTczuJR6meSIhkMTd75X7md1KcCbsnbwze8g6eTMzLM=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZnmnzFq+xyYEamjG4bplJuWh99vYTaNOxVu4E4KReIE=
+			EpDDjb65GDuuSr/vCTh2nFY4nsO2VYLJFac+iuLswYg=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Owh76heimadM/QoyW1yNtMiTkRi82xHtX/gMAz348V8=
+			iYz52R44BoSzXrTkR+JHT2mc3JlkDlF2zI/MxguuA/M=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YaIhuh/lZ/DWbDo1lSBHVyVkKIrE19uAAiUT4GKkbTE=
+			Px0H0QGOujTIIJrifV3WNY2gYoMGJpVGCMD5l/z/hS0=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Owh76heimadM/QoyW1yNtMiTkRi82xHtX/gMAz348V8=
+			iYz52R44BoSzXrTkR+JHT2mc3JlkDlF2zI/MxguuA/M=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+9IYu1YyWybE1GKAZHIVUz90VEnT0Cemp/o/lmuG4WU=
+			3u7Ah5mnJYmgZL1tdw0TvSQlUM+vHvoeUKbgvdUztB4=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZnmnzFq+xyYEamjG4bplJuWh99vYTaNOxVu4E4KReIE=
+			EpDDjb65GDuuSr/vCTh2nFY4nsO2VYLJFac+iuLswYg=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			68R+yTOM4j6z+YmPyBuPuL5fMHB7+qjVX2vhvcOp5gE=
+			8XUnOhrTvexWWBuH90Pxb+XUvDBZ3IjQ2vbVN25k3tA=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dTAELVhKtejJeGeelb1BLu8acmIgEVqNKLFBNlb8ATo=
+			KtfiHveTZQO2WHYnd70BPT3x3I+jCSIOfBAmWHrj03c=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			68R+yTOM4j6z+YmPyBuPuL5fMHB7+qjVX2vhvcOp5gE=
+			8XUnOhrTvexWWBuH90Pxb+XUvDBZ3IjQ2vbVN25k3tA=
 			</data>
 		</dict>
 		<key>Modules/Fortface.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			818ASQRad5QjGeQR1kw+m8deSPkNCLXeynRpLP2Uc2M=
+			CMpr6r3cYE2uuI0on57qtB53Ln8drh+aadwoPd6Q+BI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6b+9BaQ3oUR8P7fFskca8Shd6VY2LCNl/eIstE8Eo6w=
+			H+cbflMgdyB23u+YZAli36snpLFkBuz7Ti8UBiiUPmU=
 			</data>
 		</dict>
 		<key>Poppins-Regular.ttf</key>
@@ -261,7 +294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Fefr0AamwSePFMOME/ogyVUIc+iDfODNMZOA+DyW8o=
+			QOmKyRgyruoSZzyx/Bpw5xr2pMVQaQM1PEFkCyyXx+s=
 			</data>
 		</dict>
 	</dict>

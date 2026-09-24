@@ -7,5 +7,4 @@ framework module CafFaceLiveness {
 
 module CafFaceLiveness.Swift {
   header "CafFaceLiveness-Swift.h"
-  requires objc
 }

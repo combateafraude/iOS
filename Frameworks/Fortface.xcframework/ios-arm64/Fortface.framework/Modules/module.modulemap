@@ -7,5 +7,4 @@ framework module Fortface {
 
 module Fortface.Swift {
   header "Fortface-Swift.h"
-  requires objc
 }

@@ -1,4 +1,3 @@
 framework module CafSDKCommonsBridge {
   header "CafSDKCommonsBridge-Swift.h"
-  requires objc
 }
