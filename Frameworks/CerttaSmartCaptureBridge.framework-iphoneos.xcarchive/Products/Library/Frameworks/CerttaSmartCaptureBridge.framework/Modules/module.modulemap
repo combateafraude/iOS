@@ -1,4 +1,0 @@
-framework module CerttaSmartCaptureBridge {
-  header "CerttaSmartCaptureBridge-Swift.h"
-  requires objc
-}

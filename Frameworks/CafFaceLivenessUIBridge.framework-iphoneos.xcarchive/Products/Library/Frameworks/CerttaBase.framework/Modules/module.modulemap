@@ -1,4 +1,0 @@
-framework module CerttaBase {
-  header "CerttaBase-Swift.h"
-  requires objc
-}

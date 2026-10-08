@@ -1,17 +1,15 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '7.0.0-rc.2'
+  s.version          = '7.9.0-rc.1'
   s.summary          = 'Caf iOS SDK'
-  s.homepage         = 'https://github.com/combateafraude/iOS'
+  s.homepage         = 'https://github.com/combateafraude/caf-ios-sdk'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Caf' => 'service@caf.io' }
-  s.source           = { :git => 'https://github.com/combateafraude/iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/combateafraude/caf-ios-sdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
   s.default_subspec = 'CafSDK'
-
-  caf_solutions_version = '2.0.5'
   
   # Main SDK framework
   s.subspec 'CafCore' do |core|
@@ -53,7 +51,7 @@ Pod::Spec.new do |s|
   # Iproov integration
   s.subspec 'IproovProvider' do |ip|
     ip.vendored_frameworks = 'Frameworks/IproovProvider.xcframework'
-    ip.dependency 'iProov', '13.1.0'
+    ip.dependency 'iProov', '13.2.0'
     ip.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
@@ -75,17 +73,27 @@ Pod::Spec.new do |s|
     ff.dependency 'CafSDKiOS/CafFaceLivenessCore'
   end
 
-  s.subspec 'SmartCapture' do |sm|
-    sm.vendored_frameworks = 'Frameworks/SmartCapture.xcframework'
-    sm.dependency 'CafSDKiOS/CerttaBase'
+  # SmartCapture (opt-in; not part of the default 'CafSDK' subspec)
+  s.subspec 'SmartCapture' do |sc|
+    sc.vendored_frameworks = [
+      'Frameworks/SmartCapture.xcframework',
+      'Frameworks/CerttaSmartCaptureProvider.xcframework'
+    ]
+    sc.dependency 'CafSDKiOS/CafCore'
+    sc.dependency 'CafSDKiOS/CerttaBase'
   end
+
+  s.subspec 'CafFaceLivenessLite' do |cfl|
+    cfl.vendored_frameworks = 'CafFacelivenessLite/CafFaceLivenessLite.xcframework'
+    cfl.dependency 'iProov', '13.2.0'
+  end
+  
 
   # --- Bridges --- #
 
   s.subspec 'CafSDKCommonsBridgeiOS' do |cb|
     cb.vendored_frameworks = 'Frameworks/CafSDKCommonsBridge.xcframework'
     cb.dependency 'CafSDKiOS/CafCore'
-    cb.dependency 'CafSolutions', caf_solutions_version
   end
 
   # --- Document Detector
@@ -94,14 +102,12 @@ Pod::Spec.new do |s|
     dd.vendored_frameworks = 'Frameworks/CafDocumentDetectorBridge.xcframework'
     dd.dependency 'CafSDKiOS/DocumentDetector'
     dd.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    dd.dependency 'CafSolutions', caf_solutions_version
   end
 
   s.subspec 'CafDocumentDetectorUIBridgeiOS' do |ddui|
     ddui.vendored_frameworks = 'Frameworks/CafDocumentDetectorUIBridge.xcframework'
     ddui.dependency 'CafSDKiOS/DocumentDetector'
     ddui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    ddui.dependency 'CafSolutions', caf_solutions_version
   end
 
   # --- Face Liveness
@@ -110,33 +116,25 @@ Pod::Spec.new do |s|
     fl.vendored_frameworks = 'Frameworks/CafFaceLivenessBridge.xcframework'
     fl.dependency 'CafSDKiOS/CafFaceLivenessCore'
     fl.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    fl.dependency 'CafSolutions', caf_solutions_version
   end
 
   s.subspec 'CafFaceLivenessUIBridgeiOS' do |flui|
     flui.vendored_frameworks = 'Frameworks/CafFaceLivenessUIBridge.xcframework'
     flui.dependency 'CafSDKiOS/CafFaceLivenessCore'
     flui.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    flui.dependency 'CafSolutions', caf_solutions_version
   end
 
-
-  # --- Smart Capture
-
-  s.subspec 'CerttaSmartCaptureBridgeiOS' do |sc|
-    sc.vendored_frameworks = 'Frameworks/CerttaSmartCaptureBridge.xcframework'
-    sc.dependency 'CafSDKiOS/CerttaBase'
-    sc.dependency 'CafSDKiOS/SmartCapture'
-    sc.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
-    sc.dependency 'CafSolutions', caf_solutions_version
+  s.subspec 'CerttaSmartCaptureBridgeiOS' do |cscb|
+    cscb.vendored_frameworks = 'Frameworks/CerttaSmartCaptureBridge.xcframework'
+    cscb.dependency 'CafSDKiOS/CafSDKCommonsBridgeiOS'
+    cscb.dependency 'CafSDKiOS/CerttaBase'
+    cscb.dependency 'CafSDKiOS/SmartCapture'
   end
 
-  # --- Fingerprint (módulo OPCIONAL).
-  
   s.subspec 'CafFingerprintProvider' do |fp|
     fp.vendored_frameworks = 'Frameworks/CafFingerprintProvider.xcframework'
     fp.dependency 'CafSDKiOS/CerttaBase'
     fp.dependency 'FingerprintPro', '2.16.0'
   end
-  
+
 end
