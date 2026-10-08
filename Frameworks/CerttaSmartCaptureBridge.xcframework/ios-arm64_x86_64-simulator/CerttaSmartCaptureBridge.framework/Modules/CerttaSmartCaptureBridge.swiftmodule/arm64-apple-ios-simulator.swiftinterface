@@ -30,6 +30,7 @@ public struct CerttaSmartCaptureBridgeConfiguration {
   public let showInstructions: Swift.Bool?
   public let enablePreview: Swift.Bool?
   public let enableAutoCapture: Swift.Bool?
+  public let skipSuccessScreen: Swift.Bool?
   public let validationType: Swift.Int?
   public let allowedUploadTypes: [Swift.Int]?
   public let colorCustomization: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeColorCustomization?
