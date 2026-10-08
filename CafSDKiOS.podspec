@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '7.0.0-rc.1'
+  s.version          = '7.0.0-rc.2'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -73,6 +73,11 @@ Pod::Spec.new do |s|
       'Frameworks/IDLiveFaceIAD.xcframework'
     ]
     ff.dependency 'CafSDKiOS/CafFaceLivenessCore'
+  end
+
+  s.subspec 'SmartCapture' do |sm|
+    sm.vendored_frameworks = 'Frameworks/SmartCapture.xcframework'
+    sm.dependency 'CafSDKiOS/CerttaBase'
   end
 
   # --- Bridges --- #
