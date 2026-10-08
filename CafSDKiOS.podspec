@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOS'
-  s.version          = '7.9.0-rc.2'
+  s.version          = '7.9.0-rc.3'
   s.summary          = 'Caf iOS SDK'
   s.homepage         = 'https://github.com/combateafraude/iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -83,10 +83,10 @@ Pod::Spec.new do |s|
     sc.dependency 'CafSDKiOS/CerttaBase'
   end
 
-  s.subspec 'CafFaceLivenessLite' do |cfl|
-    cfl.vendored_frameworks = 'CafFacelivenessLite/CafFaceLivenessLite.xcframework'
-    cfl.dependency 'iProov', '13.2.0'
-  end
+  # s.subspec 'CafFaceLivenessLite' do |cfl|
+  #   cfl.vendored_frameworks = 'CafFacelivenessLite/CafFaceLivenessLite.xcframework'
+  #   cfl.dependency 'iProov', '13.2.0'
+  # end
   
 
   # --- Bridges --- #
