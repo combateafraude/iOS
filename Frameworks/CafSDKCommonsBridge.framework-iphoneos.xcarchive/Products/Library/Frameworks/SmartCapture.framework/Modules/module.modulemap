@@ -1,0 +1,4 @@
+framework module SmartCapture {
+  header "SmartCapture-Swift.h"
+  requires objc
+}

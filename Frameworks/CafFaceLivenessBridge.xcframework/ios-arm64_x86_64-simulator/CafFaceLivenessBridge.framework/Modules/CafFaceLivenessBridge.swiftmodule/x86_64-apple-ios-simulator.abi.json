@@ -633,17 +633,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           }
         ]
       },
@@ -723,6 +723,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CafSDKBridgeMapper",
             "printedName": "CafSDKBridgeMapper",
             "children": [
@@ -742,20 +756,6 @@
             ],
             "usr": "s:19CafSDKCommonsBridge0A15SDKBridgeMapperP",
             "mangledName": "$s19CafSDKCommonsBridge0A15SDKBridgeMapperP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1265,17 +1265,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           }
         ]
       },
@@ -1355,6 +1355,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CafSDKBridgeMapper",
             "printedName": "CafSDKBridgeMapper",
             "children": [
@@ -1374,20 +1388,6 @@
             ],
             "usr": "s:19CafSDKCommonsBridge0A15SDKBridgeMapperP",
             "mangledName": "$s19CafSDKCommonsBridge0A15SDKBridgeMapperP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1968,21 +1968,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 29,
       "value": "\"CerttaLivenessEvent.Success\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 28,
       "value": "\"CerttaLivenessEvent.Failed\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-face-liveness-bridge\/Sources\/Utils\/CerttaFaceLivenessBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 366,
       "length": 27,

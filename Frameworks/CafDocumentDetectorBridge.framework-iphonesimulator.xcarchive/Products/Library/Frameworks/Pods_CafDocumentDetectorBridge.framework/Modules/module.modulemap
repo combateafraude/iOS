@@ -1,0 +1,6 @@
+framework module Pods_CafDocumentDetectorBridge {
+  umbrella header "Pods-CafDocumentDetectorBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,54 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/henrique.marques/Library/Developer/Xcode/DerivedData/CafSDK-azehghpllkupnwbtrgnfluyvnpon/Build/Intermediates.noindex/ArchiveIntermediates/FortfaceProvider/InstallationBuildProductsLocation/Library/Frameworks/CerttaBase.framework/CerttaBase'
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _CerttaBaseVersionString, symObjAddr: 0x0, symBinAddr: 0x2830, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _CerttaBaseVersionNumber, symObjAddr: 0x30, symBinAddr: 0x2860, symSize: 0x0 }
+  - { offset: 0xA7, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV9visitorIdSSSgvg', symObjAddr: 0x0, symBinAddr: 0xC40, symSize: 0x30 }
+  - { offset: 0x2DB, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0x390, symBinAddr: 0xFD0, symSize: 0x40 }
+  - { offset: 0x2EE, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x3D0, symBinAddr: 0x1010, symSize: 0x30 }
+  - { offset: 0x301, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOAFs0F3KeyAAWl', symObjAddr: 0x400, symBinAddr: 0x1040, symSize: 0x30 }
+  - { offset: 0x314, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x630, symBinAddr: 0x1270, symSize: 0x30 }
+  - { offset: 0x327, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVwCP', symObjAddr: 0x680, symBinAddr: 0x12C0, symSize: 0x30 }
+  - { offset: 0x33A, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVwxx', symObjAddr: 0x6B0, symBinAddr: 0x12F0, symSize: 0x30 }
+  - { offset: 0x34D, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVwcp', symObjAddr: 0x6E0, symBinAddr: 0x1320, symSize: 0x60 }
+  - { offset: 0x360, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVwca', symObjAddr: 0x740, symBinAddr: 0x1380, symSize: 0x80 }
+  - { offset: 0x373, size: 0x8, addend: 0x0, symName: ___swift_memcpy48_8, symObjAddr: 0x7C0, symBinAddr: 0x1400, symSize: 0x20 }
+  - { offset: 0x386, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVwta', symObjAddr: 0x7E0, symBinAddr: 0x1420, symSize: 0x60 }
+  - { offset: 0x399, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVwet', symObjAddr: 0x840, symBinAddr: 0x1480, symSize: 0x50 }
+  - { offset: 0x3AC, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVwst', symObjAddr: 0x890, symBinAddr: 0x14D0, symSize: 0x50 }
+  - { offset: 0x3BF, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVMa', symObjAddr: 0x8E0, symBinAddr: 0x1520, symSize: 0x10 }
+  - { offset: 0x3D2, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x8F0, symBinAddr: 0x1530, symSize: 0x10 }
+  - { offset: 0x3E5, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x900, symBinAddr: 0x1540, symSize: 0x10 }
+  - { offset: 0x3F8, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOwet', symObjAddr: 0x910, symBinAddr: 0x1550, symSize: 0x80 }
+  - { offset: 0x40B, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOwst', symObjAddr: 0x990, symBinAddr: 0x15D0, symSize: 0xD0 }
+  - { offset: 0x41E, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOwug', symObjAddr: 0xA60, symBinAddr: 0x16A0, symSize: 0x10 }
+  - { offset: 0x431, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOwup', symObjAddr: 0xA70, symBinAddr: 0x16B0, symSize: 0x10 }
+  - { offset: 0x444, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOwui', symObjAddr: 0xA80, symBinAddr: 0x16C0, symSize: 0x10 }
+  - { offset: 0x457, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOMa', symObjAddr: 0xA90, symBinAddr: 0x16D0, symSize: 0x10 }
+  - { offset: 0x46A, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOSHAASQWb', symObjAddr: 0xAA0, symBinAddr: 0x16E0, symSize: 0x10 }
+  - { offset: 0x47D, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOAFSQAAWl', symObjAddr: 0xAB0, symBinAddr: 0x16F0, symSize: 0x30 }
+  - { offset: 0x490, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs0F3KeyAAs28CustomDebugStringConvertiblePWb', symObjAddr: 0xAE0, symBinAddr: 0x1720, symSize: 0x10 }
+  - { offset: 0x4A3, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOAFs28CustomDebugStringConvertibleAAWl', symObjAddr: 0xAF0, symBinAddr: 0x1730, symSize: 0x30 }
+  - { offset: 0x4B6, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs0F3KeyAAs23CustomStringConvertiblePWb', symObjAddr: 0xB20, symBinAddr: 0x1760, symSize: 0x10 }
+  - { offset: 0x4C9, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOAFs23CustomStringConvertibleAAWl', symObjAddr: 0xB30, symBinAddr: 0x1770, symSize: 0x30 }
+  - { offset: 0x55F, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x120, symBinAddr: 0xD60, symSize: 0x40 }
+  - { offset: 0x5F7, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW', symObjAddr: 0x1F0, symBinAddr: 0xE30, symSize: 0x20 }
+  - { offset: 0x612, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW', symObjAddr: 0x210, symBinAddr: 0xE50, symSize: 0x20 }
+  - { offset: 0x665, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV9visitorIdSSSgvg', symObjAddr: 0x0, symBinAddr: 0xC40, symSize: 0x30 }
+  - { offset: 0x678, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV9requestIdSSSgvg', symObjAddr: 0x30, symBinAddr: 0xC70, symSize: 0x30 }
+  - { offset: 0x68B, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV5errorSSSgvg', symObjAddr: 0x60, symBinAddr: 0xCA0, symSize: 0x30 }
+  - { offset: 0x6A4, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV9visitorId07requestG05errorACSSSg_A2GtcfC', symObjAddr: 0x90, symBinAddr: 0xCD0, symSize: 0x20 }
+  - { offset: 0x70F, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xB0, symBinAddr: 0xCF0, symSize: 0x10 }
+  - { offset: 0x779, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOSHAASH9hashValueSivgTW', symObjAddr: 0xC0, symBinAddr: 0xD00, symSize: 0x40 }
+  - { offset: 0x836, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x100, symBinAddr: 0xD40, symSize: 0x20 }
+  - { offset: 0x89E, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs0F3KeyAAsAGP11stringValueSSvgTW', symObjAddr: 0x160, symBinAddr: 0xDA0, symSize: 0x50 }
+  - { offset: 0x8CB, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs0F3KeyAAsAGP11stringValuexSgSS_tcfCTW', symObjAddr: 0x1B0, symBinAddr: 0xDF0, symSize: 0x20 }
+  - { offset: 0x8F2, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs0F3KeyAAsAGP8intValueSiSgvgTW', symObjAddr: 0x1D0, symBinAddr: 0xE10, symSize: 0x10 }
+  - { offset: 0x905, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLOs0F3KeyAAsAGP8intValuexSgSi_tcfCTW', symObjAddr: 0x1E0, symBinAddr: 0xE20, symSize: 0x10 }
+  - { offset: 0x918, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV6encode2toys7Encoder_p_tKF', symObjAddr: 0x230, symBinAddr: 0xE70, symSize: 0x160 }
+  - { offset: 0x939, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV4fromACs7Decoder_p_tKcfC', symObjAddr: 0x430, symBinAddr: 0x1070, symSize: 0x200 }
+  - { offset: 0x960, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVSeAASe4fromxs7Decoder_p_tKcfCTW', symObjAddr: 0x660, symBinAddr: 0x12A0, symSize: 0x10 }
+  - { offset: 0x973, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelVSEAASE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x670, symBinAddr: 0x12B0, symSize: 0x10 }
+  - { offset: 0x986, size: 0x8, addend: 0x0, symName: '_$s10CerttaBase19CafFingerprintModelV10CodingKeys33_0B710974EF9C423A21B925C277EBC4F1LLO11stringValueAFSgSS_tcfCTf4nd_n', symObjAddr: 0xB60, symBinAddr: 0x17A0, symSize: 0xF1 }
+...

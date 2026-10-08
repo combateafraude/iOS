@@ -1,4 +1,0 @@
-framework module IDLiveFaceDetection {
-    umbrella header "idlf_detection.h"
-    export *
-}

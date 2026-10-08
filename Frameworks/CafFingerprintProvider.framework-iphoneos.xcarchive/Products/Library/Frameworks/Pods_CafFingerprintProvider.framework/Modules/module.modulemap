@@ -1,0 +1,6 @@
+framework module Pods_CafFingerprintProvider {
+  umbrella header "Pods-CafFingerprintProvider-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_IproovProvider {
+  umbrella header "Pods-IproovProvider-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_CafSDK {
+  umbrella header "Pods-CafSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,3 +1,4 @@
 framework module CafFaceLivenessUIBridge {
   header "CafFaceLivenessUIBridge-Swift.h"
+  requires objc
 }

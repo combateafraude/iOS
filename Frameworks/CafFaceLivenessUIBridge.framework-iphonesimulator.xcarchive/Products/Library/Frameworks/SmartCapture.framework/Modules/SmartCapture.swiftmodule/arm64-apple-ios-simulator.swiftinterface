@@ -1,0 +1,450 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SmartCapture
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import AVFoundation
+import AdSupport
+import CerttaBase
+import CommonCrypto
+import Darwin
+import DeveloperToolsSupport
+import Foundation
+import ImageIO
+import MachO
+import Network
+import ObjectiveC
+import Security
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import ObjectiveC.runtime
+extension UIKit.UIColor {
+  convenience public init(byHex: Swift.String)
+}
+public struct ColorConfiguration {
+  public let primaryColor: Swift.String?
+  public let secondaryColor: Swift.String?
+  public let contentColor: Swift.String?
+  public let backgroundColor: Swift.String?
+  public let mediumColor: Swift.String?
+  public let dialogBackgroundColor: Swift.String?
+  public let dialogBorderColor: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(primaryColor: Swift.String? = nil, secondaryColor: Swift.String? = nil, contentColor: Swift.String? = nil, backgroundColor: Swift.String? = nil, mediumColor: Swift.String? = nil, dialogBackgroundColor: Swift.String? = nil, dialogBorderColor: Swift.String? = nil)
+  #endif
+}
+public enum CafEnvironment : Swift.Int {
+  case dev
+  case beta
+  case prod
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension SmartCapture.CafEnvironment {
+  public func toString() -> Swift.String
+}
+public enum CafSdkPlatform : Swift.String {
+  case nativeIos
+  case reactNativeIos
+  case flutterIos
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CafSDKError : Swift.Encodable, Swift.Error {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(errorType: SmartCapture.CafErrorType, description: Swift.String?)
+  #endif
+  public let errorType: SmartCapture.CafErrorType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct CafSDKFailure : Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(signedResponse: Swift.String?, failureReason: SmartCapture.CafFailureType, description: Swift.String?)
+  #endif
+  public let signedResponse: Swift.String?
+  public let failureReason: SmartCapture.CafFailureType
+  public let description: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unsupportedDevice
+  case cameraPermission
+  case networkException
+  case serverException
+  case tokenException
+  case captureAlreadyActiveException
+  case unexpectedErrorException
+  case userTimeoutException
+  case imageNotFoundException
+  case tooManyRequestsException
+  case unknownException
+  case libraryException
+  case permissionException
+  case invalidResponseException
+  case cameraException
+  case certificateException
+  case invalidOptionsException
+  case securityException
+  case faceAuthentication
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [SmartCapture.CafErrorType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartCapture.CafErrorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CafFailureType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+  case unknown
+  case tooMuchMovement
+  case tooBright
+  case tooDark
+  case misalignedFace
+  case eyesClosed
+  case faceTooFar
+  case faceTooClose
+  case sunglasses
+  case eyewear
+  case obscuredFace
+  case multipleFaces
+  case faceNotFound
+  case framesBlurry
+  case lightingIssues
+  case motionIssue
+  case backgroundIssue
+  case deviceIssue
+  case deviceRestart
+  case systemError
+  case rejected
+  case timeout
+  case userNotFound
+  case processingFault
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [SmartCapture.CafFailureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartCapture.CafFailureType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+final public class CafConfirmationNextStepContent {
+  final public var title: Swift.String?
+  final public var description: Swift.String?
+  final public var buttonTitle: Swift.String?
+  final public var image: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String? = nil, description: Swift.String? = nil, buttonTitle: Swift.String? = nil, image: UIKit.UIImage? = nil)
+  #endif
+  @objc deinit
+}
+public protocol CafInstructionsAnalyticsDelegate : AnyObject {
+  func cameraPermissionRequested()
+  func cameraPermissionGranted()
+  func cameraPermissionDenied()
+}
+public struct CafInstructionsConfiguration {
+  public var enabled: Swift.Bool
+  public var captureTitle: Swift.String?
+  public var captureDescriptionText: Swift.String?
+  public var captureSteps: [Swift.String]?
+  public var captureButtonTitle: Swift.String?
+  public var captureHeaderImage: UIKit.UIImage?
+  public var uploadTitle: Swift.String?
+  public var uploadDescriptionText: Swift.String?
+  public var uploadSteps: [Swift.String]?
+  public var uploadButtonTitle: Swift.String?
+  public var uploadHeaderImage: UIKit.UIImage?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(enabled: Swift.Bool = true, captureTitle: Swift.String? = nil, captureDescriptionText: Swift.String? = nil, captureSteps: [Swift.String]? = nil, captureButtonTitle: Swift.String? = nil, captureHeaderImage: UIKit.UIImage? = nil, uploadTitle: Swift.String? = nil, uploadDescriptionText: Swift.String? = nil, uploadSteps: [Swift.String]? = nil, uploadButtonTitle: Swift.String? = nil, uploadHeaderImage: UIKit.UIImage? = nil)
+  #endif
+}
+public enum CafLogLevel : Swift.String {
+  case debug
+  case usage
+  case info
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CerttaSmartCaptureColorCustomization {
+  public var primaryButtonText: UIKit.UIColor?
+  public var accent: UIKit.UIColor?
+  public var textPrimary: UIKit.UIColor?
+  public var textSecondary: UIKit.UIColor?
+  public var error: UIKit.UIColor?
+  public var warningBackground: UIKit.UIColor?
+  public var warningBorder: UIKit.UIColor?
+  public var warningIcon: UIKit.UIColor?
+  public var warningForeground: UIKit.UIColor?
+  public var success: UIKit.UIColor?
+  public var cameraOverlay: UIKit.UIColor?
+  public var cameraChromeBackground: UIKit.UIColor?
+  public var cameraChromeForeground: UIKit.UIColor?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(primaryButtonText: UIKit.UIColor? = nil, accent: UIKit.UIColor? = nil, textPrimary: UIKit.UIColor? = nil, textSecondary: UIKit.UIColor? = nil, error: UIKit.UIColor? = nil, warningBackground: UIKit.UIColor? = nil, warningBorder: UIKit.UIColor? = nil, warningIcon: UIKit.UIColor? = nil, warningForeground: UIKit.UIColor? = nil, success: UIKit.UIColor? = nil, cameraOverlay: UIKit.UIColor? = nil, cameraChromeBackground: UIKit.UIColor? = nil, cameraChromeForeground: UIKit.UIColor? = nil)
+  #endif
+}
+public enum CerttaSmartCaptureColorKey {
+  public static let primaryButtonText: Swift.String
+  public static let accent: Swift.String
+  public static let textPrimary: Swift.String
+  public static let textSecondary: Swift.String
+  public static let error: Swift.String
+  public static let warningBackground: Swift.String
+  public static let warningBorder: Swift.String
+  public static let warningIcon: Swift.String
+  public static let warningForeground: Swift.String
+  public static let success: Swift.String
+  public static let cameraOverlay: Swift.String
+  public static let cameraChromeBackground: Swift.String
+  public static let cameraChromeForeground: Swift.String
+}
+extension SmartCapture.CerttaSmartCaptureColorCustomization {
+  public var colorsByKey: [Swift.String : UIKit.UIColor] {
+    get
+  }
+  public init(colorsByKey: [Swift.String : UIKit.UIColor])
+}
+public enum CerttaSmartCaptureColorConfigKey {
+  public static let primaryColor: Swift.String
+  public static let secondaryColor: Swift.String
+  public static let contentColor: Swift.String
+  public static let backgroundColor: Swift.String
+  public static let mediumColor: Swift.String
+  public static let dialogBackgroundColor: Swift.String
+  public static let dialogBorderColor: Swift.String
+}
+public struct CerttaSmartCaptureImageCustomization {
+  public var cameraButtonEnabled: UIKit.UIImage?
+  public var cameraButtonDisabled: UIKit.UIImage?
+  public var cameraButtonPressed: UIKit.UIImage?
+  public var closeButtonEnabled: UIKit.UIImage?
+  public var closeButtonDisabled: UIKit.UIImage?
+  public var closeIcon: UIKit.UIImage?
+  public var helpIcon: UIKit.UIImage?
+  public var backArrow: UIKit.UIImage?
+  public var eyeIcon: UIKit.UIImage?
+  public var trashIcon: UIKit.UIImage?
+  public var successIcon: UIKit.UIImage?
+  public var alertIcon: UIKit.UIImage?
+  public var failureIcon: UIKit.UIImage?
+  public var validationTypeCamera: UIKit.UIImage?
+  public var validationTypeUpload: UIKit.UIImage?
+  public var cameraHelpHint1: UIKit.UIImage?
+  public var cameraHelpHint2: UIKit.UIImage?
+  public var cameraHelpHint3: UIKit.UIImage?
+  public var captureInstructions1: [UIKit.UIImage]?
+  public var captureInstructions2: [UIKit.UIImage]?
+  public var captureInstructions3: [UIKit.UIImage]?
+  public var uploadInstructions1: [UIKit.UIImage]?
+  public var uploadInstructions2: [UIKit.UIImage]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(cameraButtonEnabled: UIKit.UIImage? = nil, cameraButtonDisabled: UIKit.UIImage? = nil, cameraButtonPressed: UIKit.UIImage? = nil, closeButtonEnabled: UIKit.UIImage? = nil, closeButtonDisabled: UIKit.UIImage? = nil, closeIcon: UIKit.UIImage? = nil, helpIcon: UIKit.UIImage? = nil, backArrow: UIKit.UIImage? = nil, eyeIcon: UIKit.UIImage? = nil, trashIcon: UIKit.UIImage? = nil, successIcon: UIKit.UIImage? = nil, alertIcon: UIKit.UIImage? = nil, failureIcon: UIKit.UIImage? = nil, validationTypeCamera: UIKit.UIImage? = nil, validationTypeUpload: UIKit.UIImage? = nil, cameraHelpHint1: UIKit.UIImage? = nil, cameraHelpHint2: UIKit.UIImage? = nil, cameraHelpHint3: UIKit.UIImage? = nil, captureInstructions1: [UIKit.UIImage]? = nil, captureInstructions2: [UIKit.UIImage]? = nil, captureInstructions3: [UIKit.UIImage]? = nil, uploadInstructions1: [UIKit.UIImage]? = nil, uploadInstructions2: [UIKit.UIImage]? = nil)
+  #endif
+}
+public enum CerttaSmartCaptureImageKey {
+  public static let cameraButtonEnabled: Swift.String
+  public static let cameraButtonDisabled: Swift.String
+  public static let cameraButtonPressed: Swift.String
+  public static let closeButtonEnabled: Swift.String
+  public static let closeButtonDisabled: Swift.String
+  public static let closeIcon: Swift.String
+  public static let helpIcon: Swift.String
+  public static let backArrow: Swift.String
+  public static let eyeIcon: Swift.String
+  public static let trashIcon: Swift.String
+  public static let successIcon: Swift.String
+  public static let alertIcon: Swift.String
+  public static let failureIcon: Swift.String
+  public static let validationTypeCamera: Swift.String
+  public static let validationTypeUpload: Swift.String
+  public static let cameraHelpHint1: Swift.String
+  public static let cameraHelpHint2: Swift.String
+  public static let cameraHelpHint3: Swift.String
+  public static let captureInstructions1: Swift.String
+  public static let captureInstructions2: Swift.String
+  public static let captureInstructions3: Swift.String
+  public static let uploadInstructions1: Swift.String
+  public static let uploadInstructions2: Swift.String
+}
+extension SmartCapture.CerttaSmartCaptureImageCustomization {
+  public var imagesByKey: [Swift.String : UIKit.UIImage] {
+    get
+  }
+  public var imageSequencesByKey: [Swift.String : [UIKit.UIImage]] {
+    get
+  }
+  public init(imagesByKey: [Swift.String : UIKit.UIImage], imageSequencesByKey: [Swift.String : [UIKit.UIImage]])
+}
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension SmartCapture.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [SmartCapture.FileIntegrityCheck])
+public enum IntegrityCheckerImageTarget {
+  case `default`
+  case custom(Swift.String)
+}
+public enum CerttaSmartCaptureValidationType : Swift.String {
+  case capture
+  case upload
+  case captureAndUpload
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CerttaSmartCaptureAcceptedDocument : Swift.String, Swift.CaseIterable {
+  case any
+  case driverLicense
+  case identityCard
+  case residenceIdentityCard
+  case employmentCard
+  case vehicleLicense
+  case passport
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [SmartCapture.CerttaSmartCaptureAcceptedDocument]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartCapture.CerttaSmartCaptureAcceptedDocument] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CerttaSmartCaptureUploadType : Swift.String, Swift.CaseIterable {
+  case png
+  case jpeg
+  case pdf
+  case heif
+  case heic
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [SmartCapture.CerttaSmartCaptureUploadType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartCapture.CerttaSmartCaptureUploadType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct SmartCaptureConfiguration {
+  public let mobileToken: Swift.String
+  public let personId: Swift.String
+  public let sessionId: Swift.String?
+  public let entrypoint: Swift.String?
+  public let cafSdkVersion: Swift.String?
+  public let environment: SmartCapture.CafEnvironment
+  public let previewEnabled: Swift.Bool
+  public let autoCapture: Swift.Bool
+  public let showInstructions: Swift.Bool
+  public let validationType: SmartCapture.CerttaSmartCaptureValidationType
+  public let enableSecurity: Swift.Bool
+  public let acceptedDocuments: [SmartCapture.CerttaSmartCaptureAcceptedDocument]
+  public let allowedUploadTypes: [SmartCapture.CerttaSmartCaptureUploadType]?
+  public let customLocalization: Swift.String?
+  public let customLocalizationBundle: Foundation.Bundle?
+  public let colorConfigHex: [Swift.String : Swift.String]?
+  public let colorCustomization: SmartCapture.CerttaSmartCaptureColorCustomization?
+  public let imageCustomization: SmartCapture.CerttaSmartCaptureImageCustomization?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(mobileToken: Swift.String, personId: Swift.String, sessionId: Swift.String? = nil, entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String? = nil, environment: SmartCapture.CafEnvironment = .prod, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: SmartCapture.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [SmartCapture.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [SmartCapture.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorConfigHex: [Swift.String : Swift.String]? = nil, colorCustomization: SmartCapture.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: SmartCapture.CerttaSmartCaptureImageCustomization? = nil)
+  #endif
+}
+public protocol SmartCaptureDelegate : AnyObject {
+  func smartCaptureDidFinish(result: SmartCapture.SmartCaptureResult)
+  func smartCaptureDidFail(error: SmartCapture.CafSDKError)
+  func smartCaptureDidCancel()
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class SmartCaptureController : UIKit.UINavigationController {
+  @_Concurrency.MainActor @preconcurrency convenience public init(config: SmartCapture.SmartCaptureConfiguration, delegate: any SmartCapture.SmartCaptureDelegate)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+public struct SmartCaptureDocument {
+  public let type: Swift.String
+  public init(type: Swift.String)
+}
+public struct SmartCaptureResult {
+  public let signedResponse: Swift.String?
+  public let captures: [SmartCapture.SmartCaptureDocument]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(signedResponse: Swift.String?, captures: [SmartCapture.SmartCaptureDocument])
+  #endif
+}
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(from data: Foundation.Data) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func gifImage(named name: Swift.String, in bundle: Foundation.Bundle) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func framedImageSequence(folder: Swift.String, frameCount: Swift.Int, reversed: Swift.Bool = false, fileExtension: Swift.String = "png", in bundle: Foundation.Bundle) -> [UIKit.UIImage]?
+  #endif
+}
+extension SmartCapture.CafEnvironment : Swift.Equatable {}
+extension SmartCapture.CafEnvironment : Swift.Hashable {}
+extension SmartCapture.CafEnvironment : Swift.RawRepresentable {}
+extension SmartCapture.CafSdkPlatform : Swift.Equatable {}
+extension SmartCapture.CafSdkPlatform : Swift.Hashable {}
+extension SmartCapture.CafSdkPlatform : Swift.RawRepresentable {}
+extension SmartCapture.CafErrorType : Swift.Equatable {}
+extension SmartCapture.CafErrorType : Swift.Hashable {}
+extension SmartCapture.CafErrorType : Swift.RawRepresentable {}
+extension SmartCapture.CafFailureType : Swift.Equatable {}
+extension SmartCapture.CafFailureType : Swift.Hashable {}
+extension SmartCapture.CafFailureType : Swift.RawRepresentable {}
+extension SmartCapture.CafLogLevel : Swift.Equatable {}
+extension SmartCapture.CafLogLevel : Swift.Hashable {}
+extension SmartCapture.CafLogLevel : Swift.RawRepresentable {}
+extension SmartCapture.CerttaSmartCaptureValidationType : Swift.Equatable {}
+extension SmartCapture.CerttaSmartCaptureValidationType : Swift.Hashable {}
+extension SmartCapture.CerttaSmartCaptureValidationType : Swift.RawRepresentable {}
+extension SmartCapture.CerttaSmartCaptureAcceptedDocument : Swift.Equatable {}
+extension SmartCapture.CerttaSmartCaptureAcceptedDocument : Swift.Hashable {}
+extension SmartCapture.CerttaSmartCaptureAcceptedDocument : Swift.RawRepresentable {}
+extension SmartCapture.CerttaSmartCaptureUploadType : Swift.Equatable {}
+extension SmartCapture.CerttaSmartCaptureUploadType : Swift.Hashable {}
+extension SmartCapture.CerttaSmartCaptureUploadType : Swift.RawRepresentable {}

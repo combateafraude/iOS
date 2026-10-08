@@ -1,0 +1,6 @@
+framework module Pods_CafSDKCommonsBridge {
+  umbrella header "Pods-CafSDKCommonsBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

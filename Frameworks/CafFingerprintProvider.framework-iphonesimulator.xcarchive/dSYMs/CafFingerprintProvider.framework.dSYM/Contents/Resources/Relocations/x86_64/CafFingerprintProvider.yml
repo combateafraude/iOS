@@ -1,0 +1,20 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/henrique.marques/Library/Developer/Xcode/DerivedData/CafSDK-azehghpllkupnwbtrgnfluyvnpon/Build/Intermediates.noindex/ArchiveIntermediates/CafFingerprintProvider/InstallationBuildProductsLocation/Library/Frameworks/CafFingerprintProvider.framework/CafFingerprintProvider'
+relocations:
+  - { offset: 0x2AB5D, size: 0x8, addend: 0x0, symName: _CafFingerprintProviderVersionString, symObjAddr: 0x0, symBinAddr: 0x2A70, symSize: 0x0 }
+  - { offset: 0x2AB94, size: 0x8, addend: 0x0, symName: _CafFingerprintProviderVersionNumber, symObjAddr: 0x38, symBinAddr: 0x2AA8, symSize: 0x0 }
+  - { offset: 0x2AD06, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0x6E0, symBinAddr: 0x19F0, symSize: 0x40 }
+  - { offset: 0x2AD1A, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAACMa', symObjAddr: 0x830, symBinAddr: 0x1B40, symSize: 0x14 }
+  - { offset: 0x2AD36, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAACABycfC', symObjAddr: 0x0, symBinAddr: 0x1310, symSize: 0x20 }
+  - { offset: 0x2AD4A, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAACABycfc', symObjAddr: 0x20, symBinAddr: 0x1330, symSize: 0x30 }
+  - { offset: 0x2AD82, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAACABycfcTo', symObjAddr: 0x50, symBinAddr: 0x1360, symSize: 0x30 }
+  - { offset: 0x2ADE5, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAAC5fetch20fingerprintPublicKey10CerttaBase0aB5ModelVSgSS_tYaF', symObjAddr: 0x80, symBinAddr: 0x1390, symSize: 0x120 }
+  - { offset: 0x2AE6B, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAAC5fetch20fingerprintPublicKey10CerttaBase0aB5ModelVSgSS_tYaFTY0_', symObjAddr: 0x1A0, symBinAddr: 0x14B0, symSize: 0xC0 }
+  - { offset: 0x2AEC6, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAAC5fetch20fingerprintPublicKey10CerttaBase0aB5ModelVSgSS_tYaFTQ1_', symObjAddr: 0x260, symBinAddr: 0x1570, symSize: 0x90 }
+  - { offset: 0x2AF1F, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAAC5fetch20fingerprintPublicKey10CerttaBase0aB5ModelVSgSS_tYaFTY2_', symObjAddr: 0x2F0, symBinAddr: 0x1600, symSize: 0x110 }
+  - { offset: 0x2AF9C, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAAC5fetch20fingerprintPublicKey10CerttaBase0aB5ModelVSgSS_tYaFTY3_', symObjAddr: 0x400, symBinAddr: 0x1710, symSize: 0x2E0 }
+  - { offset: 0x2B023, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAACfD', symObjAddr: 0x750, symBinAddr: 0x1A60, symSize: 0x30 }
+  - { offset: 0x2B046, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAAC10CerttaBase0abC8ProtocolAacDP5fetch20fingerprintPublicKeyAC0aB5ModelVSgSS_tYaFTW', symObjAddr: 0x780, symBinAddr: 0x1A90, symSize: 0x60 }
+  - { offset: 0x2B05A, size: 0x8, addend: 0x0, symName: '_$s22CafFingerprintProviderAAC10CerttaBase0abC8ProtocolAacDP5fetch20fingerprintPublicKeyAC0aB5ModelVSgSS_tYaFTWTQ0_', symObjAddr: 0x7E0, symBinAddr: 0x1AF0, symSize: 0x50 }
+...
