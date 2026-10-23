@@ -101,6 +101,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case invalidOptionsException
   case securityException
   case faceAuthentication
+  case livenessException
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif

@@ -8071,6 +8071,66 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "captureType",
+            "printedName": "captureType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27CafDocumentDetectorUIBridge06CerttabcD13ConfigurationV11captureTypeSiSgvp",
+            "mangledName": "$s27CafDocumentDetectorUIBridge06CerttabcD13ConfigurationV11captureTypeSiSgvp",
+            "moduleName": "CafDocumentDetectorUIBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27CafDocumentDetectorUIBridge06CerttabcD13ConfigurationV11captureTypeSiSgvg",
+                "mangledName": "$s27CafDocumentDetectorUIBridge06CerttabcD13ConfigurationV11captureTypeSiSgvg",
+                "moduleName": "CafDocumentDetectorUIBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",

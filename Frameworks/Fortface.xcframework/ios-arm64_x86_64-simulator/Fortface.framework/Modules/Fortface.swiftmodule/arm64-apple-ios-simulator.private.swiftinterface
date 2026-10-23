@@ -45,7 +45,7 @@ public struct FortfaceStartException : Swift.Error {
   public static func getDebugMode() -> Swift.Bool
   public static func getVersion() -> Swift.String
   public static func getIADVersion() -> Swift.String
-  @available(*, deprecated, message: "O uso da função 'setCustomizer' não surtirá efeito na aplicação e será removida no futuro.")
+  @available(*, deprecated, message: "Use 'setCustomization' com JSON. 'setCustomizer' será removida em uma versão futura.")
   public static func setCustomizer(_ customizer: Fortface.FortfaceCustomizer)
   public static func setCustomization(_ customization: Swift.String)
   public static func isStart() -> Swift.Bool
@@ -76,7 +76,10 @@ public struct InstructionsBackground {
   public var color: UIKit.UIColor
 }
 public struct InstructionsButton {
-  public var color: UIKit.UIColor
+  public var color: UIKit.UIColor {
+    get
+    set
+  }
   public var textColor: UIKit.UIColor
   public var radius: CoreFoundation.CGFloat
   public var textLabel: Swift.String
@@ -88,8 +91,14 @@ public struct InstructionMessageColor {
   public var messageTextColorResource: UIKit.UIColor
 }
 public struct InstructionsMessages {
-  public var titleFontFamily: Swift.String
-  public var familyFont: Swift.String
+  public var titleFontFamily: Swift.String {
+    get
+    set
+  }
+  public var familyFont: Swift.String {
+    get
+    set
+  }
   public var title: Swift.String
   public var noItems: Swift.String
   public var place: Swift.String
@@ -146,6 +155,7 @@ public enum ActionError : Swift.String, Swift.Decodable {
   case fileCorrupted
   case documentNotAccepted
   case invalidSessionKey
+  case captureError
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -279,7 +289,10 @@ open class FortfaceCustomizer {
   public var cameraLogo: Fortface.CameraLogo
   public var brightnessIcons: Fortface.BritnessIcons
   public var documentAutomaticCaptureTimeout: Swift.Float
-  public var docColor: Fortface.DocColor
+  public var docColor: Fortface.DocColor {
+    get
+    set
+  }
   public var docCapture: Fortface.DocCapture
   public var docMessages: Fortface.DocMessages
   public var docPreviewButtons: Fortface.DocumentPreviewButtons
@@ -326,6 +339,9 @@ final public class FlatOrientationMonitor {
   final public var baseValueZ: Swift.Double
   final public var onOrientationUpdate: ((Fortface.FlatOrientation, Swift.Double, Swift.Double) -> Swift.Void)?
   final public var debugLogsEnabled: Swift.Bool
+  final public var isReceivingContinuousUpdates: Swift.Bool {
+    get
+  }
   public init(baseValueZ: Swift.Double = 0.85)
   final public func start()
   final public func stop()
@@ -409,7 +425,10 @@ public struct DocColor {
   public var loadingBackground: UIKit.UIColor
   public var loadingStroke: UIKit.UIColor
   public var setBackgroundColor: UIKit.UIColor
-  public var setUploadDocPreviewContinueButtonColor: UIKit.UIColor?
+  public var setUploadDocPreviewContinueButtonColor: UIKit.UIColor? {
+    get
+    set
+  }
 }
 public struct DocCapture {
   public var timeout: Foundation.TimeInterval
@@ -438,13 +457,19 @@ public struct DocMessages {
 public struct DocumentCameraButton {
   public var textColorResource: UIKit.UIColor
   public var familyFont: Swift.String
-  public var colorResource: UIKit.UIColor
+  public var colorResource: UIKit.UIColor {
+    get
+    set
+  }
   public var dimmedColorResource: UIKit.UIColor
   public var gradientStyle: Fortface.GradientButtonStyle
 }
 public struct DocumentPreviewButtons {
   public var familyFont: Swift.String
-  public var acceptColorResource: UIKit.UIColor
+  public var acceptColorResource: UIKit.UIColor {
+    get
+    set
+  }
   public var acceptTextColorResource: UIKit.UIColor
   public var cancelColorResource: UIKit.UIColor
   public var cancelTextColorResource: UIKit.UIColor

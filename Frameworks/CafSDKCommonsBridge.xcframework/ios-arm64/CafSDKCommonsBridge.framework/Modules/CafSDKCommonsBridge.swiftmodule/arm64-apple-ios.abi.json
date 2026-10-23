@@ -3583,13 +3583,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CafSDKCommonsBridge"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CerttaColorParser",
         "printedName": "CerttaColorParser",

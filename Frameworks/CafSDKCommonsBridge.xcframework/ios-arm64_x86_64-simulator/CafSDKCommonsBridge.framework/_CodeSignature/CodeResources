@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ixs1jifIDtz2kwOQAevLctPaLG8=
+		RwuKcmCEjQI+52LloCBQI1Fq1hs=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zQigmOdEyAb1DLuN3kqBii3Nqgs=
+		cD82vtHsGb76lqTmgwulv7h+Gmw=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ixs1jifIDtz2kwOQAevLctPaLG8=
+		RwuKcmCEjQI+52LloCBQI1Fq1hs=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qLhmvW1H1+Y6AMFoLBYxoc3C13U=
+		Hbj6EWtAcdCNu6Osu8dgRX+sODI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RWBc/MiJY1ZsDWrh4fusb926NJxb+FNreHIcKmpCp/Q=
+			0uGy7Jc+t86maEmv/sWtpdR8UYPmphE53vRzAwi1O1o=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gmgggl4R2I3ALuRDh3PpI+o8ByQusLJ5UOP2t8vRDSk=
+			d9mGe15yq8i5VsDcKOIPMkuEfBHa2MjaAwjmwLnSRs0=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RWBc/MiJY1ZsDWrh4fusb926NJxb+FNreHIcKmpCp/Q=
+			0uGy7Jc+t86maEmv/sWtpdR8UYPmphE53vRzAwi1O1o=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQ3K2SixhM9SM0EcSYTnS6SmnVIi8TcmqN/RyYNyRi8=
+			clF7tYM0Yohd5Hto9ZHmbUQPlYJasuh08lTmtvUKFSE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

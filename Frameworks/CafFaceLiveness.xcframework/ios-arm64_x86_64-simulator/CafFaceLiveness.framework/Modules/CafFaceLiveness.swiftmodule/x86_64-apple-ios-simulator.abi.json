@@ -2663,6 +2663,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "livenessException",
+            "printedName": "livenessException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CafFaceLiveness.CafErrorType.Type) -> CafFaceLiveness.CafErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CafErrorType",
+                    "printedName": "CafFaceLiveness.CafErrorType",
+                    "usr": "s:15CafFaceLiveness0A9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CafFaceLiveness.CafErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CafErrorType",
+                        "printedName": "CafFaceLiveness.CafErrorType",
+                        "usr": "s:15CafFaceLiveness0A9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15CafFaceLiveness0A9ErrorTypeO17livenessExceptionyA2CmF",
+            "mangledName": "$s15CafFaceLiveness0A9ErrorTypeO17livenessExceptionyA2CmF",
+            "moduleName": "CafFaceLiveness",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -12378,427 +12418,434 @@
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2162,
+      "offset": 2164,
+      "length": 19,
+      "value": "\"livenessException\""
+    },
+    {
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+      "kind": "StringLiteral",
+      "offset": 2221,
       "length": 17,
       "value": "\"cameraException\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2277,
       "length": 18,
       "value": "\"cameraPermission\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2338,
       "length": 22,
       "value": "\"certificateException\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 2407,
       "length": 29,
       "value": "\"too_many_requests_exception\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2422,
+      "offset": 2481,
       "length": 24,
       "value": "\"imageNotFoundException\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2551,
       "length": 25,
       "value": "\"invalidOptionsException\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2571,
+      "offset": 2630,
       "length": 33,
       "value": "\"multiWindowUnsupportedException\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2651,
+      "offset": 2710,
       "length": 26,
       "value": "\"unexpectedErrorException\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2707,
+      "offset": 2766,
       "length": 9,
       "value": "\"aborted\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2758,
+      "offset": 2817,
       "length": 21,
       "value": "\"orphanedTransaction\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2848,
+      "offset": 2907,
       "length": 12,
       "value": "\"automatica\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2889,
+      "offset": 2948,
       "length": 8,
       "value": "\"manual\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2926,
+      "offset": 2985,
       "length": 8,
       "value": "\"Upload\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 2972,
+      "offset": 3031,
       "length": 10,
       "value": "\"provider\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3012,
+      "offset": 3071,
       "length": 13,
       "value": "\"environment\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3121,
       "length": 20,
       "value": "\"sdkInfoEnvironment\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3114,
+      "offset": 3173,
       "length": 19,
       "value": "\"entrypointVersion\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3171,
+      "offset": 3230,
       "length": 17,
       "value": "\"preview_enabled\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3221,
+      "offset": 3280,
       "length": 17,
       "value": "\"request_timeout\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3268,
+      "offset": 3327,
       "length": 14,
       "value": "\"mobile_token\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
+      "offset": 3373,
       "length": 16,
       "value": "\"extra_settings\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3374,
+      "offset": 3433,
       "length": 15,
       "value": "\"supplier_name\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3436,
+      "offset": 3495,
       "length": 18,
       "value": "\"supplier_product\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3503,
+      "offset": 3562,
       "length": 20,
       "value": "\"accepted_documents\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3545,
+      "offset": 3604,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3575,
+      "offset": 3634,
       "length": 8,
       "value": "\"bucket\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3610,
+      "offset": 3669,
       "length": 11,
       "value": "\"people_id\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3650,
+      "offset": 3709,
       "length": 13,
       "value": "\"tracking_id\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3757,
       "length": 19,
       "value": "\"expected_document\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3757,
+      "offset": 3816,
       "length": 25,
       "value": "\"expected_document_types\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3822,
+      "offset": 3881,
       "length": 25,
       "value": "\"expected_document_sides\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3874,
+      "offset": 3933,
       "length": 11,
       "value": "\"file_name\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 3978,
       "length": 19,
       "value": "\"file_length_bytes\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 3968,
+      "offset": 4027,
       "length": 13,
       "value": "\"contentType\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4022,
+      "offset": 4081,
       "length": 26,
       "value": "\"previous_signed_response\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4078,
+      "offset": 4137,
       "length": 15,
       "value": "\"is_quality_ok\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4123,
+      "offset": 4182,
       "length": 16,
       "value": "\"is_doc_type_ok\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4169,
+      "offset": 4228,
       "length": 16,
       "value": "\"is_doc_side_ok\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4216,
+      "offset": 4275,
       "length": 15,
       "value": "\"document_type\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4262,
+      "offset": 4321,
       "length": 15,
       "value": "\"document_side\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4304,
+      "offset": 4363,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4357,
+      "offset": 4416,
       "length": 17,
       "value": "\"signed_response\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4408,
+      "offset": 4467,
       "length": 13,
       "value": "\"device_name\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4451,
+      "offset": 4510,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4494,
+      "offset": 4553,
       "length": 13,
       "value": "\"system_name\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4539,
+      "offset": 4598,
       "length": 16,
       "value": "\"system_version\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4590,
+      "offset": 4649,
       "length": 19,
       "value": "\"device_identifier\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4644,
+      "offset": 4703,
       "length": 19,
       "value": "\"screen_resolution\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4693,
+      "offset": 4752,
       "length": 14,
       "value": "\"screen_scale\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4743,
+      "offset": 4802,
       "length": 20,
       "value": "\"preferred_language\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4788,
+      "offset": 4847,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4833,
+      "offset": 4892,
       "length": 21,
       "value": "\"device_manufacturer\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4887,
+      "offset": 4946,
       "length": 11,
       "value": "\"sdk_level\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4930,
+      "offset": 4989,
       "length": 16,
       "value": "\"screen_density\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 5033,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 5017,
+      "offset": 5076,
       "length": 15,
       "value": "\"is_jailbroken\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 5056,
+      "offset": 5115,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 5098,
+      "offset": 5157,
       "length": 18,
       "value": "\"security_enabled\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 5144,
+      "offset": 5203,
       "length": 11,
       "value": "\"requestId\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 5183,
+      "offset": 5242,
       "length": 11,
       "value": "\"visitorId\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
       "kind": "StringLiteral",
-      "offset": 5275,
+      "offset": 5334,
       "length": 77,
       "value": "\"Fingerprint_is_enabled_but_implementation_CafFingerprintProvider_is_missing\""
     },
@@ -13708,168 +13755,168 @@
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7020,
+      "offset": 7239,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7115,
+      "offset": 7334,
       "length": 19,
       "value": "\"too_much_movement\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7230,
+      "offset": 7449,
       "length": 12,
       "value": "\"too_bright\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7330,
+      "offset": 7549,
       "length": 10,
       "value": "\"too_dark\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7430,
+      "offset": 7649,
       "length": 17,
       "value": "\"misaligned_face\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7528,
+      "offset": 7747,
       "length": 13,
       "value": "\"eyes_closed\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7626,
+      "offset": 7845,
       "length": 14,
       "value": "\"face_too_far\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7735,
+      "offset": 7954,
       "length": 16,
       "value": "\"face_too_close\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7846,
+      "offset": 8065,
       "length": 12,
       "value": "\"sunglasses\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 7932,
+      "offset": 8151,
       "length": 9,
       "value": "\"eyewear\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8028,
+      "offset": 8247,
       "length": 15,
       "value": "\"obscured_face\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8120,
+      "offset": 8339,
       "length": 16,
       "value": "\"multiple_faces\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8210,
+      "offset": 8429,
       "length": 16,
       "value": "\"face_not_found\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8302,
+      "offset": 8521,
       "length": 15,
       "value": "\"frames_blurry\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8435,
+      "offset": 8654,
       "length": 17,
       "value": "\"lighting_issues\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8516,
+      "offset": 8735,
       "length": 14,
       "value": "\"motion_issue\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8619,
+      "offset": 8838,
       "length": 18,
       "value": "\"background_issue\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8706,
+      "offset": 8925,
       "length": 14,
       "value": "\"device_issue\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8790,
+      "offset": 9009,
       "length": 16,
       "value": "\"device_restart\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8906,
+      "offset": 9125,
       "length": 14,
       "value": "\"system_error\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 8988,
+      "offset": 9207,
       "length": 10,
       "value": "\"rejected\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9050,
+      "offset": 9269,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9146,
+      "offset": 9365,
       "length": 16,
       "value": "\"user_not_found\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-models\/CafCommonModels.swift",
       "kind": "StringLiteral",
-      "offset": 9238,
+      "offset": 9457,
       "length": 18,
       "value": "\"processing_fault\""
     },
@@ -15288,6 +15335,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/ViewModel\/CafFaceLivenessViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43467,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
       "offset": 179,
@@ -15305,685 +15359,692 @@
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
       "offset": 376,
-      "length": 7,
-      "value": "\"5.7.0\""
+      "length": 8,
+      "value": "\"7.10.0\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 412,
       "length": 29,
       "value": "\"com.caf.sdk.CafFaceLiveness\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 499,
+      "offset": 500,
       "length": 20,
       "value": "\"caf.io.caf.service\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 557,
       "length": 15,
       "value": "\"flmobileToken\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 605,
+      "offset": 606,
       "length": 12,
       "value": "\"flpersonId\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 713,
       "length": 19,
       "value": "\"productionKeyText\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 778,
       "length": 21,
       "value": "\"deviceKeyIdentifier\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 846,
+      "offset": 847,
       "length": 23,
       "value": "\"faceScanEncryptionKey\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 905,
       "length": 10,
       "value": "\"faceScan\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 957,
       "length": 17,
       "value": "\"auditTrailImage\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1025,
+      "offset": 1026,
       "length": 27,
       "value": "\"lowQualityAuditTrailImage\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1127,
+      "offset": 1128,
       "length": 15,
       "value": "\"noFaceMessage\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
+      "offset": 1187,
       "length": 19,
       "value": "\"cameraMessageFont\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1252,
+      "offset": 1253,
       "length": 16,
       "value": "\"viewController\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1302,
+      "offset": 1303,
       "length": 16,
       "value": "\"cafIproovToken\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1352,
       "length": 15,
       "value": "\"cafIproovType\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1408,
       "length": 23,
       "value": "\"cafIproovLocalization\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1459,
+      "offset": 1460,
       "length": 11,
       "value": "\"cafStatus\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1499,
+      "offset": 1500,
       "length": 11,
       "value": "\"cafReason\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1545,
       "length": 16,
       "value": "\"cafDescription\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1589,
       "length": 10,
       "value": "\"cafError\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1628,
       "length": 8,
       "value": "\"params\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1666,
       "length": 9,
       "value": "\"handler\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1703,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1743,
+      "offset": 1744,
       "length": 13,
       "value": "\"isDebugMode\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
+      "offset": 1797,
       "length": 19,
       "value": "\"getDeviceInfoOnly\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1855,
+      "offset": 1856,
       "length": 19,
       "value": "\"deviceRequestInfo\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1906,
+      "offset": 1907,
       "length": 11,
       "value": "\"sessionId\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1950,
+      "offset": 1951,
       "length": 12,
       "value": "\"sessionKey\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1992,
+      "offset": 1993,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2040,
       "length": 17,
       "value": "\"orientationMode\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2089,
+      "offset": 2090,
       "length": 12,
       "value": "\"screenMode\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2128,
+      "offset": 2129,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2160,
+      "offset": 2161,
       "length": 5,
       "value": "\"key\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2195,
+      "offset": 2196,
       "length": 9,
       "value": "\"imgData\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2240,
+      "offset": 2241,
       "length": 15,
       "value": "\"failureReason\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2323,
+      "offset": 2324,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 2364,
       "length": 7,
       "value": "\"modal\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2442,
+      "offset": 2443,
       "length": 11,
       "value": "\"automatic\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2484,
+      "offset": 2485,
       "length": 10,
       "value": "\"portrait\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2526,
+      "offset": 2527,
       "length": 11,
       "value": "\"landscape\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "FloatLiteral",
-      "offset": 2607,
+      "offset": 2608,
       "length": 5,
       "value": "120.0"
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 2643,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2681,
+      "offset": 2682,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2721,
+      "offset": 2722,
       "length": 10,
       "value": "\"Canceled\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 2760,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 2797,
       "length": 9,
       "value": "\"Timeout\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2845,
+      "offset": 2846,
       "length": 24,
       "value": "\"cameraPermissionDenied\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2909,
+      "offset": 2910,
       "length": 26,
       "value": "\"Camera permission denied\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2976,
+      "offset": 2977,
       "length": 14,
       "value": "\"networkError\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3035,
+      "offset": 3036,
       "length": 14,
       "value": "\"notSupported\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3107,
+      "offset": 3108,
       "length": 22,
       "value": "\"captureAlreadyActive\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3182,
+      "offset": 3183,
       "length": 17,
       "value": "\"unexpectedError\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3248,
+      "offset": 3249,
       "length": 13,
       "value": "\"userTimeout\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3312,
+      "offset": 3313,
       "length": 15,
       "value": "\"imageNotFound\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3380,
+      "offset": 3381,
       "length": 17,
       "value": "\"tooManyRequests\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3425,
+      "offset": 3426,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3494,
+      "offset": 3495,
       "length": 17,
       "value": "\"metrics_trigger\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3544,
+      "offset": 3545,
       "length": 21,
       "value": "\"metrics_http_status\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3592,
+      "offset": 3593,
       "length": 14,
       "value": "\"metrics_note\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3645,
+      "offset": 3646,
       "length": 24,
       "value": "\"payface_metrics_report\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3704,
+      "offset": 3705,
       "length": 5,
       "value": "\"n\/a\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 3742,
       "length": 6,
       "value": "\"sent\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3783,
+      "offset": 3784,
       "length": 12,
       "value": "\"no_payload\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3831,
+      "offset": 3832,
       "length": 12,
       "value": "\"no_session\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3879,
+      "offset": 3880,
       "length": 13,
       "value": "\"no_base_url\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 3929,
       "length": 12,
       "value": "\"http_error\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3974,
+      "offset": 3975,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4026,
+      "offset": 4027,
       "length": 19,
       "value": "\"unknown_transport\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4097,
+      "offset": 4098,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4140,
+      "offset": 4141,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4204,
+      "offset": 4205,
       "length": 40,
       "value": "\"No provider retrieved from the backend\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4289,
+      "offset": 4290,
       "length": 29,
       "value": "\" - Provider not implemented\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4359,
+      "offset": 4360,
       "length": 56,
       "value": "\"Session was loaded but is no longer available in cache\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4456,
+      "offset": 4457,
       "length": 52,
       "value": "\"Supplier product is not supported by this provider\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4545,
+      "offset": 4546,
       "length": 35,
       "value": "\"Session finished without a result\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4622,
+      "offset": 4623,
       "length": 54,
       "value": "\"Transaction completed after the session was released\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4719,
+      "offset": 4720,
       "length": 92,
       "value": "\"Face Liveness is already running. Finish or cancel the current flow before starting again.\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4858,
+      "offset": 4859,
       "length": 80,
       "value": "\"The instructions flow could not be presented from the provided view controller\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4980,
+      "offset": 4981,
       "length": 65,
       "value": "\"A session request is already in flight for a different identity\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5084,
+      "offset": 5085,
       "length": 55,
       "value": "\"The session request was cancelled before it completed\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5187,
+      "offset": 5188,
       "length": 46,
       "value": "\"The provider returned no recognizable status\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5291,
+      "offset": 5275,
+      "length": 58,
+      "value": "\"We couldn't complete the verification. Please try again.\""
+    },
+    {
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 5391,
       "length": 8,
       "value": "\"iproov\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5329,
+      "offset": 5429,
       "length": 9,
       "value": "\"facetec\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5368,
+      "offset": 5468,
       "length": 9,
       "value": "\"payface\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5403,
+      "offset": 5503,
       "length": 5,
       "value": "\"caf\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5448,
+      "offset": 5548,
       "length": 19,
       "value": "\"CafIproovProvider\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5510,
+      "offset": 5610,
       "length": 22,
       "value": "\"CafFaceTec2DProvider\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5573,
+      "offset": 5673,
       "length": 20,
       "value": "\"CafFaceTecProvider\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5635,
+      "offset": 5735,
       "length": 21,
       "value": "\"CafFortfaceProvider\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5717,
+      "offset": 5817,
       "length": 12,
       "value": "\"liveness2d\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5845,
+      "offset": 5945,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5889,
+      "offset": 5989,
       "length": 9,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5935,
+      "offset": 6035,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5987,
+      "offset": 6087,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6036,
+      "offset": 6136,
       "length": 14,
       "value": "\"bff\/sessions\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6089,
+      "offset": 6189,
       "length": 18,
       "value": "\"bff\/transactions\""
     },
     {
       "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-face-liveness\/CafFaceLiveness\/Sources\/Models\/CafFacesConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6141,
+      "offset": 6241,
       "length": 13,
       "value": "\"bff\/metrics\""
     },

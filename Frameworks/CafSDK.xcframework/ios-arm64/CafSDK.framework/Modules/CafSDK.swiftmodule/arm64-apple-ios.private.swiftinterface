@@ -99,6 +99,7 @@ public enum CafErrorType : Swift.String, Swift.Encodable, Swift.CaseIterable {
   case invalidOptionsException
   case securityException
   case faceAuthentication
+  case livenessException
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -968,12 +969,18 @@ extension CafSDK.CerttaError : Foundation.LocalizedError {
   }
   #endif
 }
-public enum DocumentDetectorCaptureType {
+public enum DocumentDetectorCaptureType : Swift.String, Swift.CaseIterable {
   case manual
   case automatic
-  public static func == (a: CafSDK.DocumentDetectorCaptureType, b: CafSDK.DocumentDetectorCaptureType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [CafSDK.DocumentDetectorCaptureType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CafSDK.DocumentDetectorCaptureType] {
+    get
+  }
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -1399,6 +1406,7 @@ extension CafSDK.CerttaSdkPlatform : Swift.Hashable {}
 extension CafSDK.CerttaSdkPlatform : Swift.RawRepresentable {}
 extension CafSDK.DocumentDetectorCaptureType : Swift.Equatable {}
 extension CafSDK.DocumentDetectorCaptureType : Swift.Hashable {}
+extension CafSDK.DocumentDetectorCaptureType : Swift.RawRepresentable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Equatable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Hashable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.RawRepresentable {}
