@@ -6217,66 +6217,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "captureType",
-            "printedName": "captureType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11captureTypeSiSgvp",
-            "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11captureTypeSiSgvp",
-            "moduleName": "CafDocumentDetectorBridge",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11captureTypeSiSgvg",
-                "mangledName": "$s25CafDocumentDetectorBridge06CerttabcD13ConfigurationV11captureTypeSiSgvg",
-                "moduleName": "CafDocumentDetectorBridge",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -6946,21 +6886,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 45,
       "value": "\"^(\\d{1,2}d)?\\s?(\\d{1,2}h)?\\s?(\\d{1,2}m)?$\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 37,
       "value": "\"CerttaDocumentDetectorEvent.Success\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 35,

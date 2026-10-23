@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RwuKcmCEjQI+52LloCBQI1Fq1hs=
+		+pbOlpdSva8LCnTdrSobQdu5Kw0=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cD82vtHsGb76lqTmgwulv7h+Gmw=
+		JITAiZlVRS8laRXnUoUgVly/WHA=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RwuKcmCEjQI+52LloCBQI1Fq1hs=
+		+pbOlpdSva8LCnTdrSobQdu5Kw0=
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Hbj6EWtAcdCNu6Osu8dgRX+sODI=
+		OGhnmFcqWD+P5K6JDHAPg5dXIcw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0uGy7Jc+t86maEmv/sWtpdR8UYPmphE53vRzAwi1O1o=
+			4df/lkvYrqBrSLVw9aiKhIjTXvbNTjkZbsBL5FJfpZI=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d9mGe15yq8i5VsDcKOIPMkuEfBHa2MjaAwjmwLnSRs0=
+			pzNahsH+vY3tJc6qniCX+BmWn9VauoiSOKIxJbwxi40=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0uGy7Jc+t86maEmv/sWtpdR8UYPmphE53vRzAwi1O1o=
+			4df/lkvYrqBrSLVw9aiKhIjTXvbNTjkZbsBL5FJfpZI=
 			</data>
 		</dict>
 		<key>Modules/CafSDKCommonsBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			clF7tYM0Yohd5Hto9ZHmbUQPlYJasuh08lTmtvUKFSE=
+			MjvQUSdrl92cXc19lKm3kiuy6k1BPEwXXyYhQSGmMxQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

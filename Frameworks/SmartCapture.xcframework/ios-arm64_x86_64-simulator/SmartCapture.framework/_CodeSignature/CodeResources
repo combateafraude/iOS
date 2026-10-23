@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		yAhVSLuwtsmb2BU8yeV/1Qt0rN0=
+		43z2V12+Y8lWx9tVvulDxmumMdo=
 		</data>
 		<key>Headers/SmartCapture-Swift.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FsT6T7sEdo4zVgw0w4EI85p+WUk=
+		PX2sPTYX4DOjvMvAytPdDRno7Jo=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ni5CKWIdhDj43TxIn1ux+IddKQQ=
+		3LVQsLt+T+v+dU3WU3XpwJOM6Ms=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ni5CKWIdhDj43TxIn1ux+IddKQQ=
+		3LVQsLt+T+v+dU3WU3XpwJOM6Ms=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dufzaB5UeaxoSMPqLumm6cC8hfM=
+		OzHQxi6oqI7lp+zmyGjgYxjPa14=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uX97MRPDsFbCdR5Ybl89WW1mC8c=
+		N92NcMbTVPXZV4z1xxdArs+OXa8=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/OSDPD/8DSIPdpnb6nbH0Fqo5OM=
+		R+9GlJJqmIhs/Di7M0aGZpA5oPU=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/OSDPD/8DSIPdpnb6nbH0Fqo5OM=
+		R+9GlJJqmIhs/Di7M0aGZpA5oPU=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FX4gt9xOjANzFKDopqbPJCgXX1M=
+		4ALnZBjBOWXGuM8oervQ7QVKrDk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WxWxwG5GQHvnf8qYIA007FvU8S8OlOtLkklY4VRMBtw=
+			2AyQMxKtAY0F97oumPaptXgmzx8zcKf+/m0M49vUbKg=
 			</data>
 		</dict>
 		<key>Headers/SmartCapture-Swift.h</key>
@@ -125,14 +125,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nyrxYMtaz+/TNxuV64Zx7dnCb7IBdcxEWjtwCZElH3M=
+			8r6XM1exFXzDb8USUqLG0SOqc+Xh5So9w0V91VEXl1Y=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w+ZTaWdDkhGrvGvbg9K6GtaXj9juNhmx8ck+s9bbnOE=
+			7CqIn/eEkshALVdTVZt6vuLTkSvxQ5gYhqyzek9nNN8=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -146,28 +146,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w+ZTaWdDkhGrvGvbg9K6GtaXj9juNhmx8ck+s9bbnOE=
+			7CqIn/eEkshALVdTVZt6vuLTkSvxQ5gYhqyzek9nNN8=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1hnrUQocUkcVwj4huOGctOXw/qlZ95nCdegCt8LDjJA=
+			wHHIrJXZUamWyiXUX4iulfLS6Yl7WgOHJVcdn9ux+nQ=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ApKo5SWKR7smI7j/oxeuSYy6iWLjJFWwPmYYg2Y4O7c=
+			5A8c5eF1To5TBYFoibbvXu4tZ4ARhfBmtZMXWKJ9j8o=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6kVRJzbCYttjlz6DPUmbMQou6SwYZLDPAo6JNDDLkNU=
+			RV2vwekPS6tQsN2a1AcwdSwEsbK/5Wu26lEp1iGE5tI=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -181,14 +181,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6kVRJzbCYttjlz6DPUmbMQou6SwYZLDPAo6JNDDLkNU=
+			RV2vwekPS6tQsN2a1AcwdSwEsbK/5Wu26lEp1iGE5tI=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f8+32uDZNKv8LbHD+uPKkt+ADYBQM7Co//hR3A9fEi8=
+			LhYMgAXM5oAZ2IKrvPshcg7HNe6lIbLijEhOdcF1HZI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

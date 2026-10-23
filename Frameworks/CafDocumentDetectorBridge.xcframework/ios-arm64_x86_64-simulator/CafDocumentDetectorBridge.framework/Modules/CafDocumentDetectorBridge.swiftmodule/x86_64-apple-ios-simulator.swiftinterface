@@ -164,7 +164,6 @@ public struct CerttaDocumentDetectorBridgeConfiguration {
   public let uploadMessagesCustomization: CafDocumentDetectorBridge.CafDocumentDetectorBridgeUploadMessagesCustomization?
   public let retryCustomization: CafDocumentDetectorBridge.CafDocumentDetectorBridgeRetryCustomization?
   public let maxRetryAttempts: Swift.Int?
-  public let captureType: Swift.Int?
 }
 public enum CerttaDocumentDetectorBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes

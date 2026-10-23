@@ -5154,105 +5154,105 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 261,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CafSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 318,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 10,
       "value": "\"response\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 7,
       "value": "\"cause\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 353,
       "length": 13,
       "value": "\"description\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 7,
       "value": "\"level\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 443,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Utils\/CerttaCommonsBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 17,
       "value": "\"CerttaEvent.Log\""
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 257,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 261,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 310,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-sdk-commons-bridge\/Sources\/Mappers\/CerttaSDKCommonsBridgeConfigurationMapper.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,

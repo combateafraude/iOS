@@ -933,6 +933,7 @@ public struct CerttaConfiguration {
 }
 @_hasMissingDesignatedInitializers final public class Certta {
   public static let shared: CafSDK.Certta
+  public static let version: Swift.String
   weak final public var delegate: (any CafSDK.CerttaDelegate)?
   final public func configure(configuration: CafSDK.CerttaConfiguration)
   final public func updateMobileToken(_ mobileToken: Swift.String)
@@ -969,18 +970,12 @@ extension CafSDK.CerttaError : Foundation.LocalizedError {
   }
   #endif
 }
-public enum DocumentDetectorCaptureType : Swift.String, Swift.CaseIterable {
+public enum DocumentDetectorCaptureType {
   case manual
   case automatic
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias AllCases = [CafSDK.DocumentDetectorCaptureType]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [CafSDK.DocumentDetectorCaptureType] {
-    get
-  }
-  public var rawValue: Swift.String {
+  public static func == (a: CafSDK.DocumentDetectorCaptureType, b: CafSDK.DocumentDetectorCaptureType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -1241,6 +1236,7 @@ public struct CerttaSmartCaptureConfig {
   public var customLocalizationBundle: Foundation.Bundle?
   public var colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization?
   public var imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization?
+  public var sdkType: CafSDK.CafSdkPlatform
   #if compiler(>=5.3) && $NonescapableTypes
   public init(previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil)
   #endif
@@ -1402,7 +1398,6 @@ extension CafSDK.CerttaSdkPlatform : Swift.Hashable {}
 extension CafSDK.CerttaSdkPlatform : Swift.RawRepresentable {}
 extension CafSDK.DocumentDetectorCaptureType : Swift.Equatable {}
 extension CafSDK.DocumentDetectorCaptureType : Swift.Hashable {}
-extension CafSDK.DocumentDetectorCaptureType : Swift.RawRepresentable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Equatable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.Hashable {}
 extension CafSDK.CerttaSmartCaptureValidationType : Swift.RawRepresentable {}

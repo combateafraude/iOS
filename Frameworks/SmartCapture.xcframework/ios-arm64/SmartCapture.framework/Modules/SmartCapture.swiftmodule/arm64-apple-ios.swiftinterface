@@ -375,6 +375,7 @@ public struct SmartCaptureConfiguration {
   public let entrypoint: Swift.String?
   public let cafSdkVersion: Swift.String?
   public let environment: SmartCapture.CafEnvironment
+  public let sdkType: SmartCapture.CafSdkPlatform
   public let previewEnabled: Swift.Bool
   public let autoCapture: Swift.Bool
   public let showInstructions: Swift.Bool
@@ -384,11 +385,12 @@ public struct SmartCaptureConfiguration {
   public let allowedUploadTypes: [SmartCapture.CerttaSmartCaptureUploadType]?
   public let customLocalization: Swift.String?
   public let customLocalizationBundle: Foundation.Bundle?
+  public let customTexts: [Swift.String : Swift.String]?
   public let colorConfigHex: [Swift.String : Swift.String]?
   public let colorCustomization: SmartCapture.CerttaSmartCaptureColorCustomization?
   public let imageCustomization: SmartCapture.CerttaSmartCaptureImageCustomization?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(mobileToken: Swift.String, personId: Swift.String, sessionId: Swift.String? = nil, entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String? = nil, environment: SmartCapture.CafEnvironment = .prod, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: SmartCapture.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [SmartCapture.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [SmartCapture.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorConfigHex: [Swift.String : Swift.String]? = nil, colorCustomization: SmartCapture.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: SmartCapture.CerttaSmartCaptureImageCustomization? = nil)
+  public init(mobileToken: Swift.String, personId: Swift.String, sessionId: Swift.String? = nil, entrypoint: Swift.String? = nil, cafSdkVersion: Swift.String? = nil, environment: SmartCapture.CafEnvironment = .prod, sdkType: SmartCapture.CafSdkPlatform = .nativeIos, previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: SmartCapture.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [SmartCapture.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [SmartCapture.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, customTexts: [Swift.String : Swift.String]? = nil, colorConfigHex: [Swift.String : Swift.String]? = nil, colorCustomization: SmartCapture.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: SmartCapture.CerttaSmartCaptureImageCustomization? = nil)
   #endif
 }
 public protocol SmartCaptureDelegate : AnyObject {

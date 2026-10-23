@@ -210,7 +210,6 @@ public struct CerttaDocumentDetectorUIBridgeConfiguration {
   public let maxRetryAttempts: Swift.Int?
   public let instructionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeInstructionScreenConfiguration?
   public let documentSelectionScreen: CafDocumentDetectorUIBridge.CafDocumentDetectorUIBridgeDocumentSelectionScreenConfiguration?
-  public let captureType: Swift.Int?
 }
 public enum CerttaDocumentDetectorUIBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
   #if compiler(>=5.3) && $NonescapableTypes
