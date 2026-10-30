@@ -44082,9 +44082,53 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "skipSuccessScreen",
+            "printedName": "skipSuccessScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK31CerttaSmartCaptureConfigurationV17skipSuccessScreenSbvp",
+            "mangledName": "$s6CafSDK31CerttaSmartCaptureConfigurationV17skipSuccessScreenSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK31CerttaSmartCaptureConfigurationV17skipSuccessScreenSbvg",
+                "mangledName": "$s6CafSDK31CerttaSmartCaptureConfigurationV17skipSuccessScreenSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(previewEnabled:autoCapture:showInstructions:validationType:acceptedDocuments:allowedUploadTypes:customLocalization:customLocalizationBundle:colorCustomization:imageCustomization:)",
+            "printedName": "init(previewEnabled:autoCapture:showInstructions:validationType:acceptedDocuments:allowedUploadTypes:customLocalization:customLocalizationBundle:colorCustomization:imageCustomization:skipSuccessScreen:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -44232,11 +44276,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK31CerttaSmartCaptureConfigurationV14previewEnabled04autoE016showInstructions14validationType17acceptedDocuments18allowedUploadTypes18customLocalization0sT6Bundle18colorCustomization05imageW0ACSbSg_ANSbAA0cde10ValidationM0OSayAA0cdE16AcceptedDocumentOGSayAA0cdeqM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorW0VSgAA0cde5ImageW0VSgtcfc",
-            "mangledName": "$s6CafSDK31CerttaSmartCaptureConfigurationV14previewEnabled04autoE016showInstructions14validationType17acceptedDocuments18allowedUploadTypes18customLocalization0sT6Bundle18colorCustomization05imageW0ACSbSg_ANSbAA0cde10ValidationM0OSayAA0cdE16AcceptedDocumentOGSayAA0cdeqM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorW0VSgAA0cde5ImageW0VSgtcfc",
+            "usr": "s:6CafSDK31CerttaSmartCaptureConfigurationV14previewEnabled04autoE016showInstructions14validationType17acceptedDocuments18allowedUploadTypes18customLocalization0sT6Bundle18colorCustomization05imageW017skipSuccessScreenACSbSg_AOSbAA0cde10ValidationM0OSayAA0cdE16AcceptedDocumentOGSayAA0cdeqM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorW0VSgAA0cde5ImageW0VSgSbtcfc",
+            "mangledName": "$s6CafSDK31CerttaSmartCaptureConfigurationV14previewEnabled04autoE016showInstructions14validationType17acceptedDocuments18allowedUploadTypes18customLocalization0sT6Bundle18colorCustomization05imageW017skipSuccessScreenACSbSg_AOSbAA0cde10ValidationM0OSayAA0cdE16AcceptedDocumentOGSayAA0cdeqM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorW0VSgAA0cde5ImageW0VSgSbtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -49722,6 +49773,94 @@
           },
           {
             "kind": "Var",
+<<<<<<< Updated upstream
+=======
+            "name": "skipSuccessScreen",
+            "printedName": "skipSuccessScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvp",
+            "mangledName": "$s6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvp",
+            "moduleName": "CafSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvg",
+                "mangledName": "$s6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvg",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvs",
+                "mangledName": "$s6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvs",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvM",
+                "mangledName": "$s6CafSDK24CerttaSmartCaptureConfigV17skipSuccessScreenSbvM",
+                "moduleName": "CafSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+>>>>>>> Stashed changes
             "name": "sdkType",
             "printedName": "sdkType",
             "children": [
@@ -49809,7 +49948,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(previewEnabled:autoCapture:showInstructions:validationType:enableSecurity:acceptedDocuments:allowedUploadTypes:customLocalization:customLocalizationBundle:colorCustomization:imageCustomization:)",
+            "printedName": "init(previewEnabled:autoCapture:showInstructions:validationType:enableSecurity:acceptedDocuments:allowedUploadTypes:customLocalization:customLocalizationBundle:colorCustomization:imageCustomization:skipSuccessScreen:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -49948,11 +50087,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6CafSDK24CerttaSmartCaptureConfigV14previewEnabled04autoE016showInstructions14validationType14enableSecurity17acceptedDocuments18allowedUploadTypes18customLocalization0uV6Bundle18colorCustomization05imageY0ACSb_S2bAA0cde10ValidationM0OSbSayAA0cdE16AcceptedDocumentOGSayAA0cdesM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorY0VSgAA0cde5ImageY0VSgtcfc",
-            "mangledName": "$s6CafSDK24CerttaSmartCaptureConfigV14previewEnabled04autoE016showInstructions14validationType14enableSecurity17acceptedDocuments18allowedUploadTypes18customLocalization0uV6Bundle18colorCustomization05imageY0ACSb_S2bAA0cde10ValidationM0OSbSayAA0cdE16AcceptedDocumentOGSayAA0cdesM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorY0VSgAA0cde5ImageY0VSgtcfc",
+            "usr": "s:6CafSDK24CerttaSmartCaptureConfigV14previewEnabled04autoE016showInstructions14validationType14enableSecurity17acceptedDocuments18allowedUploadTypes18customLocalization0uV6Bundle18colorCustomization05imageY017skipSuccessScreenACSb_S2bAA0cde10ValidationM0OSbSayAA0cdE16AcceptedDocumentOGSayAA0cdesM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorY0VSgAA0cde5ImageY0VSgSbtcfc",
+            "mangledName": "$s6CafSDK24CerttaSmartCaptureConfigV14previewEnabled04autoE016showInstructions14validationType14enableSecurity17acceptedDocuments18allowedUploadTypes18customLocalization0uV6Bundle18colorCustomization05imageY017skipSuccessScreenACSb_S2bAA0cde10ValidationM0OSbSayAA0cdE16AcceptedDocumentOGSayAA0cdesM0OGSgSSSgSo8NSBundleCSgAA0cde5ColorY0VSgAA0cde5ImageY0VSgSbtcfc",
             "moduleName": "CafSDK",
             "declAttributes": [
               "AccessControl"
@@ -57828,77 +57974,121 @@
       "value": "\"\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1031,
       "length": 28,
       "value": "\"io.caf.sdk.analytics.event\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 16,
       "value": "\"io.caf.AppDemo\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 8,
       "value": "\"status\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1198,
       "length": 6,
       "value": "\"path\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 8,
       "value": "\"method\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 6,
       "value": "\"body\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1303,
       "length": 8,
       "value": "\"resent\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "Array",
       "offset": 1362,
       "length": 31,
       "value": "[\"mobileToken\", \"mobile_token\"]"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 12,
       "value": "\"<redacted>\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "BooleanLiteral",
       "offset": 2061,
       "length": 5,
       "value": "false"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 164,
       "length": 9,
@@ -58689,35 +58879,55 @@
       "value": "\"SUCCESS\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 453,
       "length": 10,
       "value": "\"ENQUEUED\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 568,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 629,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 27,
       "value": "\"CafAnalyticsEventObserver\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 6,
@@ -59207,14 +59417,22 @@
       "value": "\"Authorization\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "BooleanLiteral",
       "offset": 21395,
       "length": 5,
       "value": "false"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalyticsConstants.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalyticsConstants.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 82,
       "length": 14,
@@ -63584,28 +63802,28 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafSDKProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 888,
+      "offset": 1082,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafSDKProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 934,
+      "offset": 1128,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafSDKProvider.swift",
       "kind": "Array",
-      "offset": 1061,
+      "offset": 1255,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/CafSDKProvider.swift",
       "kind": "Array",
-      "offset": 1342,
+      "offset": 1536,
       "length": 2,
       "value": "[]"
     },
@@ -64639,14 +64857,22 @@
       "value": "\"Authorization\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "BooleanLiteral",
       "offset": 21286,
       "length": 5,
       "value": "false"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 85,
       "length": 14,
@@ -65019,12 +65245,23 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/SmartCapture\/CerttaSmartCapture.swift",
       "kind": "BooleanLiteral",
-      "offset": 1203,
+      "offset": 1242,
       "length": 4,
       "value": "true"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureColorCustomization.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/v2\/EntryPoint\/SmartCapture\/CerttaSmartCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1730,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureColorCustomization.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 2603,
       "length": 19,
@@ -65215,33 +65452,60 @@
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureConfig.swift",
       "kind": "BooleanLiteral",
+<<<<<<< Updated upstream
       "offset": 1550,
+=======
+      "offset": 1589,
+>>>>>>> Stashed changes
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureConfig.swift",
       "kind": "BooleanLiteral",
+<<<<<<< Updated upstream
       "offset": 1584,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureConfig.swift",
-      "kind": "BooleanLiteral",
+=======
       "offset": 1623,
+>>>>>>> Stashed changes
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1738,
+<<<<<<< Updated upstream
+      "offset": 1623,
+=======
+      "offset": 1662,
+>>>>>>> Stashed changes
       "length": 4,
       "value": "true"
     },
     {
+      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureConfig.swift",
+      "kind": "BooleanLiteral",
+<<<<<<< Updated upstream
+      "offset": 1738,
+=======
+      "offset": 1777,
+>>>>>>> Stashed changes
+      "length": 4,
+      "value": "true"
+    },
+    {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureImageCustomization.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-sdks\/caf-sdk\/Sources\/Core\/SmartCapture\/CerttaSmartCaptureImageCustomization.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 4073,
       "length": 21,

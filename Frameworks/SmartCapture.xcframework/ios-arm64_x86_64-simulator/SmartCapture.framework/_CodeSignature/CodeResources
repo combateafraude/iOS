@@ -18,11 +18,19 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
+<<<<<<< Updated upstream
 		PX2sPTYX4DOjvMvAytPdDRno7Jo=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		3LVQsLt+T+v+dU3WU3XpwJOM6Ms=
+=======
+		bbKMRPUeK23wSp2SfMMgVxdT91E=
+		</data>
+		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		eUG4LVKIAQzKQNFxg4AAArvJMXI=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,6 +38,7 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
+<<<<<<< Updated upstream
 		3LVQsLt+T+v+dU3WU3XpwJOM6Ms=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
@@ -43,6 +52,21 @@
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		R+9GlJJqmIhs/Di7M0aGZpA5oPU=
+=======
+		eUG4LVKIAQzKQNFxg4AAArvJMXI=
+		</data>
+		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		AviC3iY4EIVtbRY5vL3sAareAGQ=
+		</data>
+		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		srjVUj7qcj+7q71QBEG9ON8eKHU=
+		</data>
+		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		1jeuJsEvUYRXUfrgSrTdoh9fX20=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +74,19 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
+<<<<<<< Updated upstream
 		R+9GlJJqmIhs/Di7M0aGZpA5oPU=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
 		4ALnZBjBOWXGuM8oervQ7QVKrDk=
+=======
+		1jeuJsEvUYRXUfrgSrTdoh9fX20=
+		</data>
+		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		OuzB4oVmXvzFoFdbPJQzV8CiWuA=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,14 +157,22 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			8r6XM1exFXzDb8USUqLG0SOqc+Xh5So9w0V91VEXl1Y=
+=======
+			mKDuBGZizXQ+odpnfCBr76FhB1ZFmWBAAkPWzEXUm/M=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			7CqIn/eEkshALVdTVZt6vuLTkSvxQ5gYhqyzek9nNN8=
+=======
+			SbnXwvpKcwsJZ5AgHNkPSTTXrK66OP5O7NczkKGh4Ok=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -146,28 +186,44 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			7CqIn/eEkshALVdTVZt6vuLTkSvxQ5gYhqyzek9nNN8=
+=======
+			SbnXwvpKcwsJZ5AgHNkPSTTXrK66OP5O7NczkKGh4Ok=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			wHHIrJXZUamWyiXUX4iulfLS6Yl7WgOHJVcdn9ux+nQ=
+=======
+			vPnjnMnsXpFD/dhVpxIJwVpEicekFYdS6HKeoJ+h3X0=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			5A8c5eF1To5TBYFoibbvXu4tZ4ARhfBmtZMXWKJ9j8o=
+=======
+			lqQtrE31cd9LufDyD1e0Ua6zUvTJviuR2yvwbGAeB/s=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			RV2vwekPS6tQsN2a1AcwdSwEsbK/5Wu26lEp1iGE5tI=
+=======
+			/CE8TQvZ87btsS3X9G6Ulidz7BVveyTrKEryGHRM5bw=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -181,14 +237,22 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			RV2vwekPS6tQsN2a1AcwdSwEsbK/5Wu26lEp1iGE5tI=
+=======
+			/CE8TQvZ87btsS3X9G6Ulidz7BVveyTrKEryGHRM5bw=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			LhYMgAXM5oAZ2IKrvPshcg7HNe6lIbLijEhOdcF1HZI=
+=======
+			7f49rtFMN90XLpQTc77enRKz6Sx5dopgQLFf8rcJVpM=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

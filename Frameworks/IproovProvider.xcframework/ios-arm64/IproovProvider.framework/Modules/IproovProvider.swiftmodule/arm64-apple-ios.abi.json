@@ -8663,77 +8663,121 @@
       "value": "\"result_info\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1031,
       "length": 28,
       "value": "\"io.caf.sdk.analytics.event\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 16,
       "value": "\"io.caf.AppDemo\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1163,
       "length": 8,
       "value": "\"status\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1198,
       "length": 6,
       "value": "\"path\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 8,
       "value": "\"method\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 6,
       "value": "\"body\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1303,
       "length": 8,
       "value": "\"resent\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "Array",
       "offset": 1362,
       "length": 31,
       "value": "[\"mobileToken\", \"mobile_token\"]"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 12,
       "value": "\"<redacted>\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsEventPublisher.swift",
+>>>>>>> Stashed changes
       "kind": "BooleanLiteral",
       "offset": 2061,
       "length": 5,
       "value": "false"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafAnalyticsParams.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 164,
       "length": 9,
@@ -9559,35 +9603,55 @@
       "value": "\"SUCCESS\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 453,
       "length": 10,
       "value": "\"ENQUEUED\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 568,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 629,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 27,
       "value": "\"CafAnalyticsEventObserver\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 6,
@@ -10077,14 +10141,22 @@
       "value": "\"Authorization\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "BooleanLiteral",
       "offset": 21395,
       "length": 5,
       "value": "false"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalyticsConstants.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/caf-analytics-lite\/CafBFFAnalyticsConstants.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 82,
       "length": 14,
@@ -13423,14 +13495,22 @@
       "value": "\"Authorization\""
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalytics.swift",
+>>>>>>> Stashed changes
       "kind": "BooleanLiteral",
       "offset": 21286,
       "length": 5,
       "value": "false"
     },
     {
+<<<<<<< Updated upstream
       "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+=======
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-modules\/caf-commons\/certta-analytics\/CerttaBFFAnalyticsConstants.swift",
+>>>>>>> Stashed changes
       "kind": "StringLiteral",
       "offset": 85,
       "length": 14,

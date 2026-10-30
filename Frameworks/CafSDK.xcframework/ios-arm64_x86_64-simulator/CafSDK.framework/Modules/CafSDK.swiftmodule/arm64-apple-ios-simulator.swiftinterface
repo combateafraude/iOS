@@ -1110,8 +1110,9 @@ public struct CerttaSmartCaptureConfiguration {
   public let customLocalizationBundle: Foundation.Bundle?
   public let colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization?
   public let imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization?
+  public let skipSuccessScreen: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(previewEnabled: Swift.Bool? = nil, autoCapture: Swift.Bool? = nil, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil)
+  public init(previewEnabled: Swift.Bool? = nil, autoCapture: Swift.Bool? = nil, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil, skipSuccessScreen: Swift.Bool = false)
   #endif
   public init(from sdkConfig: CafSDK.CerttaSmartCaptureConfig)
 }
@@ -1236,9 +1237,13 @@ public struct CerttaSmartCaptureConfig {
   public var customLocalizationBundle: Foundation.Bundle?
   public var colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization?
   public var imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization?
+<<<<<<< Updated upstream
+=======
+  public var skipSuccessScreen: Swift.Bool
+>>>>>>> Stashed changes
   public var sdkType: CafSDK.CafSdkPlatform
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil)
+  public init(previewEnabled: Swift.Bool = true, autoCapture: Swift.Bool = true, showInstructions: Swift.Bool = true, validationType: CafSDK.CerttaSmartCaptureValidationType = .captureAndUpload, enableSecurity: Swift.Bool = true, acceptedDocuments: [CafSDK.CerttaSmartCaptureAcceptedDocument], allowedUploadTypes: [CafSDK.CerttaSmartCaptureUploadType]? = nil, customLocalization: Swift.String? = nil, customLocalizationBundle: Foundation.Bundle? = nil, colorCustomization: CafSDK.CerttaSmartCaptureColorCustomization? = nil, imageCustomization: CafSDK.CerttaSmartCaptureImageCustomization? = nil, skipSuccessScreen: Swift.Bool = false)
   #endif
 }
 public protocol CerttaSmartCaptureDelegate : AnyObject {

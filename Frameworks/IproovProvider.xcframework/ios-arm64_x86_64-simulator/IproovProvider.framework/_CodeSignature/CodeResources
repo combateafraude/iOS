@@ -18,7 +18,11 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
+<<<<<<< Updated upstream
 		04jYbUSb4LLwYWXxzDFTniLjU0E=
+=======
+		YH2aAHvWHBzs68f31mkq3LuktZ8=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +38,19 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
+<<<<<<< Updated upstream
 		REMTKJqKfqIJ6U5PkIfCpB5a5uM=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		NxeMEOAWzCRRWOX2f3SmxhG0sYA=
+=======
+		sG9OAe1SjToY5Q8ebulrzHCyhcE=
+		</data>
+		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		7agQYkuAxglONT1kR2SiV9FW0j0=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +66,11 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
+<<<<<<< Updated upstream
 		MH4m83iHPXc4ELMSGHKfBHhdYTg=
+=======
+		s+vK0y3XJ0Kw2uhSrw0bGk7q/PM=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,7 +137,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			B2i7M6L+QdG+/JpPAny2u1QF5FzguSAqwe4rLNKN/g4=
+=======
+			h7eQ5bgC+RGGUG2V9pCv2ufVtYkmFgMCo+b8z0e9lAY=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,14 +169,22 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			1gfTkYWqa3/7pqeMsW4plAOrbXufLVfb+JkiA4ajMt0=
+=======
+			d4tmj5vfcRSevTj+pHQdFBX2CMFIz1PCSH8U/O77/pM=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			8COqOmJiciakDQSFhpRrOPw0UVF6IK/2fDyqApHeu2E=
+=======
+			wboYrcN9QPw/OzSiLuBqJCVyY5+CfWNZ8ocFnadZNfk=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -184,7 +212,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			Dov2tZrhXaR6zDfhLAL8pHgOchJoYRnBSCZhtClde1M=
+=======
+			r+J1WvuoeynVE1kmagk9waFRP5UVUcA88ZH3r2BFEGc=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
