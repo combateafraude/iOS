@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		QqOAVM8cO2ve0J9PN00kSYZSGxs=
+		gg9Cd5KBaNTZ7ZxoHNReTc61Z9A=
 		</data>
 		<key>EnvVar.plist</key>
 		<data>
@@ -42,11 +42,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-<<<<<<< Updated upstream
-		cvJqjlItDTqyHer3dABK9lBM98k=
-=======
 		geVpNFj/jwsNpq2HCEyQhThKs38=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,19 +58,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< Updated upstream
-		sJt+ck6Gz+yNjNbBRff/lMPhx/4=
-		</data>
-		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		cX4uZfdhgmHWnFPw9qHmR9C6MU4=
-=======
 		P7shZieLWJ9JtNpklLIwfuRmxug=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		azJ4dfrlWXwv5J+upf6+NTVW0aQ=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,11 +78,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< Updated upstream
-		ylN3Sz/ZvXs4mKuPw1ulXE0uhCw=
-=======
 		TjjgrPQx+A5EhUZrxc0ImSOTZiI=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -251,7 +235,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xWFnKYeL6oam6vwh6+uoqqq4dXclDA0SqX+DsG7qG/o=
+			ioLDUufvEI7WI04X55p7NUFQi0c0NbqMTN5hQE03EAI=
 			</data>
 		</dict>
 		<key>EnvVar.plist</key>
@@ -307,11 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			GD9diOyya8w71XXSeTMcTzwsCn9tvGuzSqJ7DMeJtQc=
-=======
 			xYyegyD53JSYDGpASkAz7QDG0XPrJYGmzdcNKhcslzI=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -339,22 +319,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			5ab2e2kdjDncfVkPGh40mHfZBJCAkjxoXjPLUaOgjDc=
-=======
 			FGmU0HFoc53DgaFcU7i0rv8yTVIWiKwhyVhb4nLv7rM=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			U2FmVxKcwJEpCpV054vziJimoOVi8Ksvb5e9LdvHmmE=
-=======
 			0kdDrUXN3nebu6A3KEwvLfnzJuI21ctchsEw2sS1CHg=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -382,11 +354,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			tiIjmX8/H37w3LQlMeqqBk1fJZAjpCGqHMvml02hmHY=
-=======
 			d6clmCFs3We6/R6BX3vNcGiEhm6aP18YXv5IrUNkaLo=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

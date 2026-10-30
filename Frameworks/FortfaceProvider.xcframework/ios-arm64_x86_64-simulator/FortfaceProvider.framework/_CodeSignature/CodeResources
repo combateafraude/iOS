@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		43z2V12+Y8lWx9tVvulDxmumMdo=
+		yAhVSLuwtsmb2BU8yeV/1Qt0rN0=
 		</data>
 		<key>Headers/FortfaceProvider-Swift.h</key>
 		<data>
@@ -18,11 +18,7 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-<<<<<<< Updated upstream
-		8cTbU+/F6rCVrMSAJIfdLP+pXhc=
-=======
 		0ZtElbo31q1K2x5hGlf0Wys0S/c=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,19 +34,11 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< Updated upstream
-		l0LcyYRaWkEnUhdnvHvwyv723SA=
-		</data>
-		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		vqnj0r7kttjgVs/7C3PfCgej3RY=
-=======
 		JInxRv1SvZBhhPjebitU40eu9Uk=
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		P8fB0qohtzITyjga9bo8tH08L68=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,11 +54,7 @@
 		</data>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< Updated upstream
-		EHZc3Ombm/OxJDE12YkrvSUJWws=
-=======
 		oFQv0EEjqlF22jfy2rUWgWbtmhY=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -123,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2AyQMxKtAY0F97oumPaptXgmzx8zcKf+/m0M49vUbKg=
+			WxWxwG5GQHvnf8qYIA007FvU8S8OlOtLkklY4VRMBtw=
 			</data>
 		</dict>
 		<key>Headers/FortfaceProvider-Swift.h</key>
@@ -137,11 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			EMYf0XVncHMRib8XaW/MKAe5EfCibGMdF3P2Cn2Ma1Q=
-=======
 			EpDVX63Q6Vtri1DERsCKpj8wnwVMTuY9oMGbstMOUfA=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -169,22 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			rOcP/cQzXYwgCHyo/CheBarRtY499WDzuHH2Ro1nXxI=
-=======
 			mTp0he56xi/oOWQpDpyhfcnl+hSRQbo9INhjglkrTuU=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			FFDmMdigrgfy9/Oo5OpQPkyd0LvzFOJiuahE8tdJWS0=
-=======
 			jutpw9Dg2UcMk+q45P+dWt0yRVUTzOXZv6ZI0pFIrhw=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/FortfaceProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -212,11 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			K7udJ35elHxIiQhQ3j0gUg8lwmj4krQnhaNP+dHJWyg=
-=======
 			4WIV338WE7YLLSnDHTO9IYhbDrb8p+zn40Y7YF0IXI0=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

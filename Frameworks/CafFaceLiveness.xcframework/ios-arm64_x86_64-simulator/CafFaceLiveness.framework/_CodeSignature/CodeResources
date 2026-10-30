@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		43z2V12+Y8lWx9tVvulDxmumMdo=
+		yAhVSLuwtsmb2BU8yeV/1Qt0rN0=
 		</data>
 		<key>Headers/CafFaceLiveness-Swift.h</key>
 		<data>
@@ -22,11 +22,7 @@
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-<<<<<<< Updated upstream
-		+nTXI/9hA7a/V0Lqs1oWfBDpZhM=
-=======
 		nWgNJoWEUFsF7dYuz0CSygiOFMY=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,19 +38,11 @@
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< Updated upstream
-		YQi8kyOcDlNWR8Bdz/Xpm981mz4=
-		</data>
-		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		w+UOfjlmCorgNwSDvH3FvqQzfow=
-=======
 		6cGqcXIr7i1knXPVczug5DX06ug=
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		yAyoe2v23p8FcwOaOM27o7O2Af0=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,11 +58,7 @@
 		</data>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-<<<<<<< Updated upstream
-		+jlM0GPBxeCDC/Kfxu0lEcxEjTA=
-=======
 		fwy6oiANuKOa6FR8cYAcq9NBjzY=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -127,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2AyQMxKtAY0F97oumPaptXgmzx8zcKf+/m0M49vUbKg=
+			WxWxwG5GQHvnf8qYIA007FvU8S8OlOtLkklY4VRMBtw=
 			</data>
 		</dict>
 		<key>Headers/CafFaceLiveness-Swift.h</key>
@@ -148,11 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			telcJWbyNg1TP88qsv2MturT6CHmpFw5CUbdKchpYXE=
-=======
 			kHkpUllo1KeOQP2PDXzl6s3kafb9lmICB+LG2ffcqXA=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -180,22 +160,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			BKP2GLmL2egN2RX6JS8NyUYMsOi5nWD3covvR8VJa9Q=
-=======
 			MAV6QyG1OAIedq5W7z4hdWRZJPrdd9YqYjIe1fGvaM4=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			XhC5KK03B5OaGE5UDynGQVFKMrbnWYeCCxWVedIc/wY=
-=======
 			u09NdeXvvKrAh7rf3dWquxAtuktvfJaOAEPzkY4U0eY=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CafFaceLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -223,11 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< Updated upstream
-			4SFJYbtLISdYQBDSp9cly+bXrp+/L20SElxpBDctdpw=
-=======
 			QUVu4B7GT6DGuHRUPWJA5keUdvHgcl1GkstgMQhu0m8=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

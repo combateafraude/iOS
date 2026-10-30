@@ -35,6 +35,7 @@ public struct CerttaSmartCaptureBridgeConfiguration {
   public let allowedUploadTypes: [Swift.Int]?
   public let colorCustomization: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeColorCustomization?
   public let imageCustomization: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeImageCustomization?
+  public let textCustomization: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization?
   public let customLocalization: Swift.String?
 }
 public enum CerttaSmartCaptureBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
@@ -54,6 +55,9 @@ extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeColorCustomization : 
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeImageCustomization : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeEventMapper {
@@ -92,4 +96,104 @@ public class CerttaSmartCaptureBridgeMain {
   public init()
   public func open(viewController: UIKit.UIViewController, smartCaptureConfiguration: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   @objc deinit
+}
+public struct CerttaSmartCaptureBridgeTextCustomization {
+  public let cameraPhotoContentDescription: Swift.String?
+  public let cameraUploadingDocument: Swift.String?
+  public let cameraOrLastParam: Swift.String?
+  public let cameraIntroHint: Swift.String?
+  public let cameraManualCaptureAnnouncement: Swift.String?
+  public let cameraComeCloserHint: Swift.String?
+  public let cameraCenterDocumentHint: Swift.String?
+  public let cameraStepBackHint: Swift.String?
+  public let cameraDocNotAcceptedAlertError: Swift.String?
+  public let cameraTurnDocumentHint: Swift.String?
+  public let cameraGenericErrorMessage: Swift.String?
+  public let cameraWrongDocumentBackExpectedHint: Swift.String?
+  public let cameraWrongDocumentFrontExpectedHint: Swift.String?
+  public let cameraCapturedWithSuccess: Swift.String?
+  public let cameraAskToFrozenHint: Swift.String?
+  public let closeButton: Swift.String?
+  public let successTitle: Swift.String?
+  public let successDescription: Swift.String?
+  public let permissionDeniedTitle: Swift.String?
+  public let permissionDeniedDescription: Swift.String?
+  public let permissionDeniedInstructions: Swift.String?
+  public let permissionDeniedInstructionsTitle: Swift.String?
+  public let permissionDeniedOpenSettings: Swift.String?
+  public let previewTitle: Swift.String?
+  public let previewHint: Swift.String?
+  public let previewTakePictureAgain: Swift.String?
+  public let previewSendPicture: Swift.String?
+  public let continueText: Swift.String?
+  public let documentCnh: Swift.String?
+  public let documentRg: Swift.String?
+  public let documentCin: Swift.String?
+  public let documentRnm: Swift.String?
+  public let documentRne: Swift.String?
+  public let documentCtps: Swift.String?
+  public let documentCrlv: Swift.String?
+  public let documentPassport: Swift.String?
+  public let documentAny: Swift.String?
+  public let documentCnhContentDescription: Swift.String?
+  public let documentCinContentDescription: Swift.String?
+  public let documentRgContentDescription: Swift.String?
+  public let documentRnmContentDescription: Swift.String?
+  public let documentCtpsContentDescription: Swift.String?
+  public let documentCrlvContentDescription: Swift.String?
+  public let documentRneContentDescription: Swift.String?
+  public let cameraErrorPrefix: Swift.String?
+  public let cameraHelpTitle: Swift.String?
+  public let cameraHelpInstructionTitle1: Swift.String?
+  public let cameraHelpInstructionDescription1: Swift.String?
+  public let cameraHelpInstructionTitle2: Swift.String?
+  public let cameraHelpInstructionDescription2: Swift.String?
+  public let cameraHelpInstructionTitle3: Swift.String?
+  public let cameraHelpInstructionDescription3: Swift.String?
+  public let cameraHelpInstructionHint: Swift.String?
+  public let cameraHelpConfirmButton: Swift.String?
+  public let validationTypeTitle: Swift.String?
+  public let validationTypeNavigateUp: Swift.String?
+  public let validationTypeUploadTitle: Swift.String?
+  public let validationTypeUploadDescription: Swift.String?
+  public let validationTypeCaptureTitle: Swift.String?
+  public let validationTypeCaptureDescription: Swift.String?
+  public let instructionsTitle: Swift.String?
+  public let instructionsDescription: Swift.String?
+  public let instructionsSkipTips: Swift.String?
+  public let instructionsNextTip: Swift.String?
+  public let captureInstructions1Title: Swift.String?
+  public let captureInstructions1Description: Swift.String?
+  public let captureInstructions2Title: Swift.String?
+  public let captureInstructions2Description: Swift.String?
+  public let captureInstructions3Title: Swift.String?
+  public let captureInstructions3Description: Swift.String?
+  public let uploadInstructions1Title: Swift.String?
+  public let uploadInstructions1Description: Swift.String?
+  public let uploadInstructions2Title: Swift.String?
+  public let uploadInstructions2Description: Swift.String?
+  public let instructionsTabContentDescription: Swift.String?
+  public let uploadTitle: Swift.String?
+  public let uploadFirstFileTitle: Swift.String?
+  public let uploadSecondFileTitle: Swift.String?
+  public let uploadEyeContentDescription: Swift.String?
+  public let uploadRemoveContentDescription: Swift.String?
+  public let uploadRemoveConfirmationTitle: Swift.String?
+  public let uploadRemoveConfirmationMessage: Swift.String?
+  public let uploadRemoveConfirmationDelete: Swift.String?
+  public let uploadRemoveConfirmationKeep: Swift.String?
+  public let uploadAttach: Swift.String?
+  public let uploadNoneDocumentAttached: Swift.String?
+  public let uploadDocumentHint: Swift.String?
+  public let uploadDocumentSendDoc: Swift.String?
+  public let uploadFilesLimitErrorMessage: Swift.String?
+  public let uploadFilesLimitErrorTitle: Swift.String?
+  public let uploadFilesLimitErrorConfirmButton: Swift.String?
+  public let uploadAddBackToComplete: Swift.String?
+  public let uploadAddFrontToComplete: Swift.String?
+  public let uploadFileSizeError: Swift.String?
+  public let uploadPreviewError: Swift.String?
+  public let uploadGenericError: Swift.String?
+  public let uploadFirstFileFormatError: Swift.String?
+  public let uploadSecondFileFormatError: Swift.String?
 }
