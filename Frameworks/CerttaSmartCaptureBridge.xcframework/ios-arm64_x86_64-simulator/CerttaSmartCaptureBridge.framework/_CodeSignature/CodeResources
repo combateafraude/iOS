@@ -14,11 +14,19 @@
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
+<<<<<<< Updated upstream
 		SaXLs0fDYiy7kp2/iIEqItbmBxI=
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		lWp9CutZdZC0GdfXRP7FRqux40U=
+=======
+		COuUjXzYFjN0AemwyiyJ7ATtx3s=
+		</data>
+		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		qgok9oagAAcPuSroHZcryuTnDI8=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,6 +34,7 @@
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
+<<<<<<< Updated upstream
 		lWp9CutZdZC0GdfXRP7FRqux40U=
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
@@ -39,6 +48,21 @@
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
 		7IvZ+EgP73Cwxcpx8WUnKwJKq/8=
+=======
+		qgok9oagAAcPuSroHZcryuTnDI8=
+		</data>
+		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		Z1CiTAa14XxCjYIeK3QYkuqwWvY=
+		</data>
+		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		COuUjXzYFjN0AemwyiyJ7ATtx3s=
+		</data>
+		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		pN1Gbcee+DKmNBCAiMe7JutpR7Y=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +70,19 @@
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
+<<<<<<< Updated upstream
 		7IvZ+EgP73Cwxcpx8WUnKwJKq/8=
 		</data>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
 		NU2OxEDOhp4QRzc66jYqMyZGJMA=
+=======
+		pN1Gbcee+DKmNBCAiMe7JutpR7Y=
+		</data>
+		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		aQCr+TUunxQa2iGArx/U2+dICro=
+>>>>>>> Stashed changes
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +102,22 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			zLIn3b+BWpywSxBWaZZBz90EIHOl13aLtMwzmiTkLI8=
+=======
+			Sx5+UGyDhgnfIIRlJiLEp7/utpdFBJ/COvb7/xJLDqY=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			FG5A8PlrvPBjnhHNA+Euzxu7iBXM0L3ceks7PJTCNKU=
+=======
+			6zb0XH9TRlA78FP2ZVtqPPXcEtuTKRkFCgOAPz9+aho=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +131,44 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			FG5A8PlrvPBjnhHNA+Euzxu7iBXM0L3ceks7PJTCNKU=
+=======
+			6zb0XH9TRlA78FP2ZVtqPPXcEtuTKRkFCgOAPz9+aho=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			mv+lVkeWVEIlK+e+3eZpgTzqFFfBdfRCaSGXYMIcHuk=
+=======
+			8mMGIKG7WpWHQCziHULnm3YJZqhBWo3/If/TAyyD6Kk=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			zLIn3b+BWpywSxBWaZZBz90EIHOl13aLtMwzmiTkLI8=
+=======
+			Sx5+UGyDhgnfIIRlJiLEp7/utpdFBJ/COvb7/xJLDqY=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			Pg5yK6mHVYUazXV+GKJ1qqucI4gp4n+E5kx/lU/+yVs=
+=======
+			35w274Lyq1TWqq7xx3o26IB30fFwG2Pnf1gKNaATbPI=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +182,22 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			Pg5yK6mHVYUazXV+GKJ1qqucI4gp4n+E5kx/lU/+yVs=
+=======
+			35w274Lyq1TWqq7xx3o26IB30fFwG2Pnf1gKNaATbPI=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/CerttaSmartCaptureBridge.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< Updated upstream
 			FPl2BfMS9H6m9lQQWQZdXzWisiQwyA/IDJSn/zCQgNs=
+=======
+			7AoOwd5Nyz4zI4JI/BAul65BFPU57/BTRPpQjFKzYY8=
+>>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
