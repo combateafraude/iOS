@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		QqOAVM8cO2ve0J9PN00kSYZSGxs=
+		gg9Cd5KBaNTZ7ZxoHNReTc61Z9A=
 		</data>
 		<key>EnvVar.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cvJqjlItDTqyHer3dABK9lBM98k=
+		Fc8L0hhRVPH7jnO+WeCTEvPUVV0=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sJt+ck6Gz+yNjNbBRff/lMPhx/4=
+		ML+2xsRsXwalUZXJl0m0nwV41oI=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cX4uZfdhgmHWnFPw9qHmR9C6MU4=
+		GhlfMrYt2BNiAPxQtFKLV3w0yEA=
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ylN3Sz/ZvXs4mKuPw1ulXE0uhCw=
+		ivXTT+Iootrk4dbfXc6oUG6zw7c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -235,7 +235,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xWFnKYeL6oam6vwh6+uoqqq4dXclDA0SqX+DsG7qG/o=
+			ioLDUufvEI7WI04X55p7NUFQi0c0NbqMTN5hQE03EAI=
 			</data>
 		</dict>
 		<key>EnvVar.plist</key>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GD9diOyya8w71XXSeTMcTzwsCn9tvGuzSqJ7DMeJtQc=
+			6KlcLKhcAXLITtqvXiF1x2rtaeYr2N5ubrk1lETHCn0=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -319,14 +319,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ab2e2kdjDncfVkPGh40mHfZBJCAkjxoXjPLUaOgjDc=
+			JHCeILqIzgHQ/reHmwu6JPjSB25WI4N+YTaQZvCVaNI=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U2FmVxKcwJEpCpV054vziJimoOVi8Ksvb5e9LdvHmmE=
+			g7i3sz2WP7CAwV0kFnFYLzLr/2yTvDpBqFLYenoaDwA=
 			</data>
 		</dict>
 		<key>Modules/DocumentDetector.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -354,7 +354,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tiIjmX8/H37w3LQlMeqqBk1fJZAjpCGqHMvml02hmHY=
+			VsqxWV9+T/tb0LzPd1DYMKtAyutS1WufybEUCidK6tc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

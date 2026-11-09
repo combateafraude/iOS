@@ -35,6 +35,7 @@ public struct CerttaSmartCaptureBridgeConfiguration {
   public let allowedUploadTypes: [Swift.Int]?
   public let colorCustomization: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeColorCustomization?
   public let imageCustomization: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeImageCustomization?
+  public let textCustomization: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization?
   public let customLocalization: Swift.String?
 }
 public enum CerttaSmartCaptureBridgeConfigurationMapper : CafSDKCommonsBridge.CafSDKBridgeMapper {
@@ -54,6 +55,9 @@ extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeColorCustomization : 
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeImageCustomization : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeEventMapper {
@@ -93,8 +97,6 @@ public class CerttaSmartCaptureBridgeMain {
   public func open(viewController: UIKit.UIViewController, smartCaptureConfiguration: CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeConfiguration, onEvent: @escaping (CafSDKCommonsBridge.CerttaCommonsBridgeEvent) -> Swift.Void)
   @objc deinit
 }
-<<<<<<< Updated upstream
-=======
 public struct CerttaSmartCaptureBridgeTextCustomization {
   public let cameraPhotoContentDescription: Swift.String?
   public let cameraUploadingDocument: Swift.String?
@@ -197,4 +199,3 @@ public struct CerttaSmartCaptureBridgeTextCustomization {
   public let acceptedDocumentsSingle: Swift.String?
   public let acceptedDocumentsMultiple: Swift.String?
 }
->>>>>>> Stashed changes

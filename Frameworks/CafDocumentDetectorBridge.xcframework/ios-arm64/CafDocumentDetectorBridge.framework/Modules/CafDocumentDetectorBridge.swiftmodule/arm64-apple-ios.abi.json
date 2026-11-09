@@ -6886,21 +6886,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Builder\/Adapter\/CafGetUrlExpireTimeBridgeAdapter.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 45,
       "value": "\"^(\\d{1,2}d)?\\s?(\\d{1,2}h)?\\s?(\\d{1,2}m)?$\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 37,
       "value": "\"CerttaDocumentDetectorEvent.Success\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/caf-document-detector-bridge\/Sources\/Utils\/CerttaDocumentDetectorBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 321,
       "length": 35,

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		43z2V12+Y8lWx9tVvulDxmumMdo=
+		yAhVSLuwtsmb2BU8yeV/1Qt0rN0=
 		</data>
 		<key>Headers/SmartCapture-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		t2Uq2sJu868OdMTHL1dbZInQUAI=
+		bZNtxfTvd0+tH64eBSZ5XS9jldc=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ij0r0qTTsX6a+FBI2RhNNGmX7fg=
+		nROk32pvJ1UVKnWLsR+7YMkUGtc=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		t5BQCenAbsNy2vCa18ayLffj8/k=
+		2X9t31H9vGEYg0mXVQrtk0jltFk=
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qurhp3LFB09wVsE9LftapZOe0Gw=
+		HvNpIxxmlK2gn7uiWiUWUGlzuMc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2AyQMxKtAY0F97oumPaptXgmzx8zcKf+/m0M49vUbKg=
+			WxWxwG5GQHvnf8qYIA007FvU8S8OlOtLkklY4VRMBtw=
 			</data>
 		</dict>
 		<key>Headers/SmartCapture-Swift.h</key>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l/0M6ukfMbpuNmFjktMv5vtO8VfwhfgKS+hJgl/7zig=
+			rYntEiokCOY2soXawepprGRXIKxaGoKupEDTczoqT34=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -153,14 +153,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnqV7TvywjrsCxFyNQNlF3w7IBm4cTUFF1zkHL2yoHQ=
+			qsNZZtvZwrNYyZ59Q9zQBSkrrYEDVLLbqjevvIRxjjA=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D7ZZlqkJ2lZt5Kv+RJ4fX2VYm+oOwPhBYE1+BgBpbbM=
+			4tJVkGpP9CqLyt3sqS1NHWqR5QcOA5+siynKe6Ng+7E=
 			</data>
 		</dict>
 		<key>Modules/SmartCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sa/8sE4eguhf0IgkJMSPJ6oabv7sTR6b4Uaynh8hL+Q=
+			jzHOmfUXcBcBTa6DfvPENLtxUjh7GcgCoWiRHVA3pmM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

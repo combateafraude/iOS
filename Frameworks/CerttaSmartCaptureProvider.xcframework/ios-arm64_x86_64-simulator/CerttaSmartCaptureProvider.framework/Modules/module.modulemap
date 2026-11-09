@@ -1,0 +1,4 @@
+framework module CerttaSmartCaptureProvider {
+  header "CerttaSmartCaptureProvider-Swift.h"
+  requires objc
+}

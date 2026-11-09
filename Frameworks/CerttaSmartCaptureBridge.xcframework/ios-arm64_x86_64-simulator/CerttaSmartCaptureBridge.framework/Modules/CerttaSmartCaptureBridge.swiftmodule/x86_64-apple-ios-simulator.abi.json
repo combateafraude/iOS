@@ -1441,6 +1441,66 @@
           },
           {
             "kind": "Var",
+            "name": "textCustomization",
+            "printedName": "textCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CerttaSmartCaptureBridgeTextCustomization",
+                    "printedName": "CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization",
+                    "usr": "s:24CerttaSmartCaptureBridge0abcD17TextCustomizationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24CerttaSmartCaptureBridge0abcD13ConfigurationV17textCustomizationAA0abcd4TextG0VSgvp",
+            "mangledName": "$s24CerttaSmartCaptureBridge0abcD13ConfigurationV17textCustomizationAA0abcd4TextG0VSgvp",
+            "moduleName": "CerttaSmartCaptureBridge",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CerttaSmartCaptureBridgeTextCustomization",
+                        "printedName": "CerttaSmartCaptureBridge.CerttaSmartCaptureBridgeTextCustomization",
+                        "usr": "s:24CerttaSmartCaptureBridge0abcD17TextCustomizationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24CerttaSmartCaptureBridge0abcD13ConfigurationV17textCustomizationAA0abcd4TextG0VSgvg",
+                "mangledName": "$s24CerttaSmartCaptureBridge0abcD13ConfigurationV17textCustomizationAA0abcd4TextG0VSgvg",
+                "moduleName": "CerttaSmartCaptureBridge",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "customLocalization",
             "printedName": "customLocalization",
             "children": [
@@ -3652,8 +3712,6 @@
         ]
       },
       {
-<<<<<<< Updated upstream
-=======
         "kind": "TypeDecl",
         "name": "CerttaSmartCaptureBridgeTextCustomization",
         "printedName": "CerttaSmartCaptureBridgeTextCustomization",
@@ -9731,7 +9789,6 @@
         ]
       },
       {
->>>>>>> Stashed changes
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -9746,14 +9803,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/certta-smart-capture-bridge\/Sources\/Utils\/CerttaSmartCaptureBridgeConstants.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/certta-smart-capture-bridge\/Sources\/Utils\/CerttaSmartCaptureBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 27,
       "value": "\"SmartCaptureEvent.Success\""
     },
     {
-      "filePath": "\/Users\/michel.galdino\/Documents\/Projetos\/caf-ios\/caf-bridges\/certta-smart-capture-bridge\/Sources\/Utils\/CerttaSmartCaptureBridgeConstants.swift",
+      "filePath": "\/Users\/henrique.marques\/Documents\/Development\/caf-ios\/caf-bridges\/certta-smart-capture-bridge\/Sources\/Utils\/CerttaSmartCaptureBridgeConstants.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 25,

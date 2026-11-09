@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		43z2V12+Y8lWx9tVvulDxmumMdo=
+		yAhVSLuwtsmb2BU8yeV/1Qt0rN0=
 		</data>
 		<key>Headers/IproovProvider-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		04jYbUSb4LLwYWXxzDFTniLjU0E=
+		t1Li9ZPA84Y22cHUdQF5JSBa0XI=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		REMTKJqKfqIJ6U5PkIfCpB5a5uM=
+		atyC1054O/d1YIDr5sBE60dFMjk=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NxeMEOAWzCRRWOX2f3SmxhG0sYA=
+		oIAaqGYI79ZewDqI9FZMR7Lzsns=
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MH4m83iHPXc4ELMSGHKfBHhdYTg=
+		pJxh6B5zmd9uqteEHG082zFpF2M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2AyQMxKtAY0F97oumPaptXgmzx8zcKf+/m0M49vUbKg=
+			WxWxwG5GQHvnf8qYIA007FvU8S8OlOtLkklY4VRMBtw=
 			</data>
 		</dict>
 		<key>Headers/IproovProvider-Swift.h</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2i7M6L+QdG+/JpPAny2u1QF5FzguSAqwe4rLNKN/g4=
+			JsFDxzAa+GL/OfHRyqAJQBblXNj5fyoeIwLIvLj3Obo=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1gfTkYWqa3/7pqeMsW4plAOrbXufLVfb+JkiA4ajMt0=
+			Cvvf4dA4LTc+Q/E05UNRnDBe3l6ea1I2TEgbgCiKFH8=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8COqOmJiciakDQSFhpRrOPw0UVF6IK/2fDyqApHeu2E=
+			sIf54C/ZWTH94JDpkSTb7bOhLjrM4e1vBdZqKLx2hKQ=
 			</data>
 		</dict>
 		<key>Modules/IproovProvider.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dov2tZrhXaR6zDfhLAL8pHgOchJoYRnBSCZhtClde1M=
+			z8rQx9eoHePCfGjBKO+uQoiiQQkwxVzWlZqX9kKu8wk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
